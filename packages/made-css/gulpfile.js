@@ -11,7 +11,7 @@ gulp.task("css", async function () {
     .src("src/styles.css")
     .pipe(postcss([cssImport, cssvariables, autoprefixer]))
     .pipe(rename("made.css"))
-    .pipe(gulp.dest("1.2.1/"));
+    .pipe(gulp.dest("dist/1.2.1/"));
 });
 
 gulp.task("css-vars", async function () {
@@ -19,7 +19,7 @@ gulp.task("css-vars", async function () {
     .src("src/styles.css")
     .pipe(postcss([cssImport, autoprefixer]))
     .pipe(rename("made-css-variables.css"))
-    .pipe(gulp.dest("1.2.1/"));
+    .pipe(gulp.dest("dist/1.2.1/"));
 });
 
 
@@ -29,7 +29,7 @@ gulp.task("css-min", async function () {
     .pipe(postcss([cssImport, cssvariables, autoprefixer]))
     .pipe(cleanCSS({ compatibility: "ie11" }))
     .pipe(rename("made.min.css"))
-    .pipe(gulp.dest("1.2.1/"));
+    .pipe(gulp.dest("dist/1.2.1/"));
 });
 
 gulp.task("css-vars-min", async function () {
@@ -38,13 +38,13 @@ gulp.task("css-vars-min", async function () {
     .pipe(postcss([cssImport, autoprefixer]))
     .pipe(cleanCSS({ compatibility: "ie11" }))
     .pipe(rename("made-css-variables.min.css"))
-    .pipe(gulp.dest("1.2.1/"));
+    .pipe(gulp.dest("dist/1.2.1/"));
 });
 
 gulp.task("copy-src", function () {
   return gulp
     .src(["src/**"], { base: "./" })
-    .pipe(gulp.dest("./1.2.1/"));
+    .pipe(gulp.dest("./dist/1.2.1/"));
 });
 
 gulp.task("default", gulp.parallel("css", "css-min", "css-vars", "css-vars-min", "copy-src"));

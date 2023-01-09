@@ -5,7 +5,7 @@
   "owner": "Made",
   "main": "index.js",
   "files": [
-    "1.2.1"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -19,9 +19,9 @@
     "stylelint:test": "stylelint src/*.css",
     "stylelint:fix": "stylelint src/*.css --fix",
     "build": "gulp",
-    "pack": "npm run postbuild && npm pack ./1.2.1/",
+    "pack": "npm run postbuild && npm pack ./dist/",
     "release": "standard-version",
-    "publish-web": "npm run build && npm run postbuild && npm publish ./1.2.1/"
+    "publish-web": "npm run build && npm run postbuild && npm publish ./dist"
   },
   "author": "",
   "license": "ISC",
