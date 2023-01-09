@@ -4,6 +4,8 @@ Made for Developers is an open-source UI developer platform that provides produc
 responsive (mobile-first), cross-browser compatible, and accessible UI components with Made Design Tokens at
 its core.
 
+If you're just getting started, check out [mastercard.github.io/made](https://mastercard.github.io/made)
+
 ## Benefits
 
 **Scalability**  
