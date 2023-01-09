@@ -1,0 +1,72 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+import { Tour } from "./Tour";
+
+<Meta
+  title="Popover/Tour"
+  component={Tour}
+  parameters={{ badges: [BADGE.OBSOLETE] }}
+/>
+
+export const Template = (args) => <Tour {...args} />;
+
+# Tour
+
+The Tour component enables you to easily manage user onboarding and hightlight new features.
+
+Toggle the classes `made-c-modal--visible made-c-tour--visible` to show and hide the Tour component.
+
+Position the Tour beside an element using the classes `made-c-tour--top`, `made-c-tour--bottom`, `made-c-tour--right` and `made-c-tour--left`.
+
+<Canvas>
+  <Story
+    name="Tour"
+    parameters={{
+      docs: {
+        source: {
+          code: `
+      <div class="made-c-modal">
+        <div
+          class="made-c-tour made-c-tooltip made-c-tooltip--bottom made-u-width-50--md made-u-width-25--lg"
+        >
+          <div class="made-c-tour__header">
+            <a href="" class="made-c-tour__link">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>close</title>
+                <path
+                  d="M22.938 0L24 1.062 13.061 12 24 22.938 22.938 24 12 13.061 1.062 24 0 22.938 10.938 12 0 1.062 1.062 0 12 10.938 22.938 0z"
+                  fill="--made-color-gray-07"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="made-c-tour__content">
+            <p class="made-u-eyebrow--02 made-u-margin-bottom-4-x">Eyebrow</p>
+            <h4 class="made-u-margin-bottom-6-x">h4 title</h4>
+            <p class="made-c-tour__body made-u-margin-bottom-8-x">
+              Multi-line text goes here. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Duis ornare volutpat elit eget congue. Nulla ac erat
+              quis dui gravida consequat sed blandit erat.
+            </p>
+            <button type="button" class="made-c-button made-c-button--primary">
+              Primary
+            </button>
+          </div>
+          <div class="made-c-tour__footer">#/#</div>
+        </div>
+      </div>
+      `,
+        },
+      },
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>

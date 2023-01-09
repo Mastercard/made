@@ -1,0 +1,921 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { Select } from "./Select.js";
+import { Filter } from "./Filter.js";
+
+<Meta
+	title="Forms/Select"
+	parameters={{ badges: [BADGE.OBSOLETE]}}
+/>
+
+export const select = (args) => <Select {...args} />;
+export const selectFilter = (args) => <Filter {...args} />;
+
+# Select
+
+The select component must have visible labels that are associated with the input.
+The recommended method for most circumstances is to use the label element and an explicit association using the for and id attributes.
+
+Use hint text for help that’s relevant to the majority of users, like how their information will be used, or where to find it.
+
+## Default
+
+<Canvas>
+	<Story
+		name="Default"
+		argTypes={{
+			label: {
+				name: "Label",
+			},
+			options: {
+				name: "Options",
+				control: {
+					type: "array",
+				},
+			},
+			helperText: {
+				name: "Helper Text",
+			},
+			validationText: {
+				name: "Validation Text",
+			},
+			state: {
+				name: "State",
+				control: {
+					type: "radio",
+					options: ["default", "disabled", "error", "success"],
+				},
+			},
+		}}
+		args={{
+			name: "default",
+			label: "Form label",
+			options: ["Choose an option", "Option 1", "Option 2", "Option 3"],
+			helperText: "Helper Text",
+			validationText: "Validation Text",
+			state: "default",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["name"],
+			},
+			docs: {
+				source: {
+					code: `
+<div class="made-c-form__element">
+	<label for="default" class="made-c-form__label">
+		Form label
+	</label>
+	<div class="made-c-select__wrapper">
+		<select id="default" class="made-c-select">
+			<option value="placeholder-item" disabled="" hidden="" selected="">
+				Choose an option
+			</option>
+			<option class="" value="option-1">
+				Option 1
+			</option>
+			<option class="" value="option-2">
+				Option 2
+			</option>
+			<option class="" value="option-3">
+				Option 3
+			</option>
+		</select>
+		<svg width="12" class="made-c-select__arrow" height="6" viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg">
+			<title>arrow</title>
+			<path d="M6 6L0 0h12z" fill="currentColor" fill-rule="evenodd" />
+		</svg>
+	</div>
+	<div class="made-c-form__hint">Helper text</div>
+</div>`,
+				},
+			},
+		}}
+	>
+		{select.bind({})}
+	</Story>
+</Canvas>
+
+## Disabled State
+
+Add the disabled boolean attribute on an input to give it a grayed out appearance and remove pointer events.
+
+<Canvas>
+	<Story
+		name="Disabled State"
+		argTypes={{
+			label: {
+				name: "Label",
+			},
+			options: {
+				name: "Options",
+				control: {
+					type: "array",
+				},
+			},
+			helperText: {
+				name: "Helper Text",
+			},
+			validationText: {
+				name: "Validation Text",
+			},
+			state: {
+				name: "State",
+				control: {
+					type: "radio",
+					options: ["default", "disabled", "error", "success"],
+				},
+			},
+		}}
+		args={{
+			name: "disabled-state",
+			label: "Form label",
+			options: ["Choose an option", "Option 1", "Option 2", "Option 3"],
+			helperText: "Helper Text",
+			validationText: "Validation Text",
+			state: "disabled",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["name"],
+			},
+			docs: {
+				source: {
+					code: `
+<div class="made-c-form__element">
+	<label for="disabled-state" class="made-c-form__label">
+		Form label
+	</label>
+	<div class="made-c-select__wrapper">
+		<select id="disabled-state" class="made-c-select" disabled>
+			<option
+				class=""
+				value="placeholder-item"
+				disabled=""
+				hidden=""
+				selected=""
+			>
+				Choose an option
+			</option>
+			<option class="" value="option-1">
+				Option 1
+			</option>
+			<option class="" value="option-2">
+				Option 2
+			</option>
+			<option class="" value="option-3">
+				Option 3
+			</option>
+		</select>
+		<svg
+			width="12"
+			class="made-c-select__arrow"
+			height="6"
+			viewBox="0 0 12 6"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<title>arrow</title>
+			<path
+				d="M6 6L0 0h12z"
+				fill="var(--made-color-action-text-disabled)"
+				fill-rule="evenodd"
+			/>
+		</svg>
+	</div>
+	<div class="made-c-form__hint">Helper text</div>
+</div>`,
+				},
+			},
+		}}
+	>
+		{select.bind({})}
+	</Story>
+</Canvas>
+
+## Validation - Error Messages
+
+Add the `made-c-form__label--error` class to the label and `made-c-text-input--error` to the input for error validation styles.
+Add an error message using the `made-c-form__validation--error` class.
+
+<Canvas>
+	<Story
+		name="Error State"
+		argTypes={{
+			label: {
+				name: "Label",
+			},
+			options: {
+				name: "Options",
+				control: {
+					type: "array",
+				},
+			},
+			helperText: {
+				name: "Helper Text",
+			},
+			validationText: {
+				name: "Validation Text",
+			},
+			state: {
+				name: "State",
+				control: {
+					type: "radio",
+					options: ["default", "disabled", "error", "success"],
+				},
+			},
+		}}
+		args={{
+			name: "error-state",
+			label: "Form label",
+			options: ["Choose an option", "Option 1", "Option 2", "Option 3"],
+			helperText: "Helper Text",
+			validationText: "Validation",
+			state: "error",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["name", "isDisabled"],
+			},
+			docs: {
+				source: {
+					code: `
+<div class="made-c-form__element">
+	<label for="error-state" class="made-c-form__label made-c-form__label--error">
+		Form label
+	</label>
+	<div class="made-c-select__wrapper">
+		<select id="error-state" class="made-c-select made-c-select--error">
+			<option value="placeholder-item" disabled="" hidden="" selected="">
+				Choose an option
+			</option>
+			<option class="" value="option-1">
+				Option 1
+			</option>
+			<option class="" value="option-2">
+				Option 2
+			</option>
+			<option class="" value="option-3">
+				Option 3
+			</option>
+		</select>
+		<svg width="12" class="made-c-select__arrow" height="6" viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg">
+			<title>arrow</title>
+			<path d="M6 6L0 0h12z" fill="currentColor" fill-rule="evenodd" />
+		</svg>
+		<svg class="made-c-select__icon" width="16" height="16" viewBox="0 0 16 16" class="made-c-select__icon">
+			<title>information icon</title>
+			<g fill="currentColor" fill-rule="evenodd">
+				<circle fill="var(--made-color-feedback-background-error)" cx="8" cy="8" r="8" />
+				<path d="M8.497 13H7.388V6.182h1.109V13zM7.942 3c.109 0 .211.02.307.058a.72.72 0 01.248.162.82.82 0 01.166.244.723.723 0 01.063.3c0 .11-.021.21-.063.302a.748.748 0 01-.414.396.818.818 0 01-.307.057.762.762 0 01-.554-.216.723.723 0 01-.221-.54A.756.756 0 017.943 3z" fill="var(--made-color-feedback-text-on-error)" />
+			</g>
+		</svg>
+	</div>
+	<div class="made-c-form__validation--error">Validation</div>
+</div>`,
+				},
+			},
+		}}
+	>
+		{select.bind({})}
+	</Story>
+</Canvas>
+
+## Validation - Success Messages
+
+Add the `made-c-form__label--success` class to the label and `made-c-text-input--success` to the input for error validation styles.
+Add an error message using the `made-c-form__validation--success` class.
+
+<Canvas>
+	<Story
+		name="Success State"
+		argTypes={{
+			label: {
+				name: "Label",
+			},
+			options: {
+				name: "Options",
+				control: {
+					type: "array",
+				},
+			},
+			helperText: {
+				name: "Helper Text",
+			},
+			validationText: {
+				name: "Validation Text",
+			},
+			state: {
+				name: "State",
+				control: {
+					type: "radio",
+					options: ["default", "disabled", "error", "success"],
+				},
+			},
+		}}
+		args={{
+			name: "success-state",
+			label: "Form label",
+			options: ["Choose an option", "Option 1", "Option 2", "Option 3"],
+			helperText: "Helper Text",
+			validationText: "Validation",
+			state: "success",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["name", "isDisabled"],
+			},
+			docs: {
+				source: {
+					code: `
+<div class="made-c-form__element">
+	<label for="success-state" class="made-c-form__label">
+		Form label
+	</label>
+	<div class="made-c-select__wrapper">
+		<select id="success-state" class="made-c-select made-c-select--success">
+			<option value="placeholder-item" disabled="" hidden="" selected="">
+				Choose an option
+			</option>
+			<option class="" value="option-1">
+				Option 1
+			</option>
+			<option class="" value="option-2">
+				Option 2
+			</option>
+			<option class="" value="option-3">
+				Option 3
+			</option>
+		</select>
+		<svg width="12" class="made-c-select__arrow" height="6" viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg">
+			<title>arrow</title>
+			<path d="M6 6L0 0h12z" fill="currentColor" fill-rule="evenodd" />
+		</svg>
+		<svg width="16" height="16" viewBox="0 0 16 16" class="made-c-select__icon">
+			<title>Success</title>
+			<g fill="none" fill-rule="evenodd">
+				<path d="M8 0a8 8 0 00-8 8 8 8 0 008 8 8 8 0 008-8 8 8 0 00-8-8z" fill="var(--made-color-feedback-background-success)" />
+				<path d="M6.178 10.265l-2.37-2.37-.808.8 3.178 3.179L13 5.052l-.802-.802z" fill="var(--made-color-feedback-text-on-success)" />
+			</g>
+		</svg>
+	</div>
+	<div class="made-c-form__validation--success">Validation</div>
+</div>`,
+				},
+			},
+		}}
+	>
+		{select.bind({})}
+	</Story>
+</Canvas>
+
+## Filter
+
+Filter select allows a user to make a selection from a list of options and is typically used when there are a large amount of options to choose from. Use the text input to type and narrow down the list of options. The close (x) icon should appear after typing text in the field and this is used to clear any text entered in the field.
+
+export const filterDescriptions =
+	"Description text of this option - single-line";
+
+<Canvas>
+	<Story
+		name="Filter"
+		argTypes={{
+			label: {
+				name: "Label",
+			},
+			placeholder: {
+				name: "Placeholder",
+			},
+			options: {
+				name: "Options:",
+				control: {
+					type: "array",
+				},
+			},
+			hasCTA: {
+				name: "Call to Action",
+			},
+			ctaPosition: {
+				name: "Call to Action Position",
+				control: {
+					type: "radio",
+					options: ["Top", "Bottom"],
+				},
+			},
+			ctaText: {
+				name: "Call to Action Text",
+			},
+		}}
+		args={{
+			name: "filter",
+			label: "Form label",
+			placeholder: "Placeholder text",
+			options: {
+				"Option 1": filterDescriptions,
+				"Option 2": filterDescriptions,
+				"Option 3": filterDescriptions,
+				"Option 4": filterDescriptions,
+				"Option 5": filterDescriptions,
+				"Option 6": filterDescriptions,
+			},
+			hasCTA: true,
+			ctaPosition: "Bottom",
+			ctaText: "CTA Link",
+			state: "filter",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["name", "state"],
+			},
+			docs: {
+				source: {
+					code: `
+		<div class="made-c-form__element">
+			<label for="default" class="made-c-form__label">
+				Form label
+			</label>
+			<div class="made-c-text-input__wrapper">
+				<input
+					type="text"
+					id="default"
+					name="default"
+					class="made-c-text-input made-c-text-input--select-filter made-u-margin-bottom-0-x"
+					placeholder="Placeholder text"
+				/>
+				<button class="made-c-select__button">
+					<svg
+						width="26"
+						height="25"
+						viewBox="0 0 26 25"
+						xmlns="http://www.w3.org/2000/svg"
+						class="made-c-select__icon-clear"
+					>
+						<title>close</title>
+						<path
+							d="m23.585.146 1.768 1.768-10.586 10.585 10.586 10.585-1.768 1.768L13 14.266 2.415 24.852.647 23.084 11.233 12.5.647 1.914 2.415.146 13 10.732 23.585.146Z"
+							fill="currentColor"
+							fill-rule="evenodd"
+						/>
+					</svg>
+				</button>
+				<svg
+					width="12"
+					class="made-c-select__arrow"
+					height="6"
+					viewBox="0 0 12 6"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<title>arrow</title>
+					<path
+						d="M6 6L0 0h12z"
+						fill="currentColor"
+						fill-rule="evenodd"
+					/>
+				</svg>
+			</div>
+			<div class="made-c-overflow-menu made-c-overflow-menu--form">
+				<ul class="made-c-overflow-menu__list made-c-scrollbar">
+					<li class="made-c-overflow-menu__item">
+						<a
+							class="made-c-overflow-menu__link made-c-overflow-menu__link--form"
+							href=""
+						>
+							<div class="made-u-margin-bottom-2-x">
+								<strong>Option 1</strong>
+							</div>
+							<div>
+								Description text of this option - single-line
+							</div>
+						</a>
+					</li>
+					<li class="made-c-overflow-menu__item">
+						<a
+							class="made-c-overflow-menu__link made-c-overflow-menu__link--form"
+							href=""
+						>
+							<div class="made-u-margin-bottom-2-x">
+								<strong>Option 2</strong>
+							</div>
+							<div>
+								Description text of this option - single-line
+							</div>
+						</a>
+					</li>
+					<li class="made-c-overflow-menu__item">
+						<a
+							class="made-c-overflow-menu__link made-c-overflow-menu__link--form"
+							href=""
+						>
+							<div class="made-u-margin-bottom-2-x">
+								<strong>Option 3</strong>
+							</div>
+							<div>
+								Description text of this option - single-line
+							</div>
+						</a>
+					</li>
+					<li class="made-c-overflow-menu__item">
+						<a
+							class="made-c-overflow-menu__link made-c-overflow-menu__link--form"
+							href=""
+						>
+							<div class="made-u-margin-bottom-2-x">
+								<strong>Option 4</strong>
+							</div>
+							<div>
+								Description text of this option - single-line
+							</div>
+						</a>
+					</li>
+					<li class="made-c-overflow-menu__item">
+						<a
+							class="made-c-overflow-menu__link made-c-overflow-menu__link--form"
+							href=""
+						>
+							<div class="made-u-margin-bottom-2-x">
+								<strong>Option 5</strong>
+							</div>
+							<div>
+								Description text of this option - single-line
+							</div>
+						</a>
+					</li>
+					<li class="made-c-overflow-menu__item">
+						<a
+							class="made-c-overflow-menu__link made-c-overflow-menu__link--form"
+							href=""
+						>
+							<div class="made-u-margin-bottom-2-x">
+								<strong>Option 6</strong>
+							</div>
+							<div>
+								Description text of this option - single-line
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div class="made-c-overflow-menu__cta made-c-overflow-menu__cta--bottom">
+					<a href="">CTA Link</a>
+				</div>
+			</div>
+		</div>`,
+				},
+			},
+		}}
+	>
+		{selectFilter.bind({})}
+	</Story>
+</Canvas>
+
+## Multi Select
+
+Use the multi select when you need a user to be able to select multiple options from a list. Each option contains a checkbox input to the left of the option text. The menu should stay open while options are being selected and close by clicking on the field or outside of the dropdown.
+
+<Canvas>
+	<Story
+		name="Multi Select"
+		argTypes={{
+			label: {
+				name: "Label",
+			},
+			placeholder: {
+				name: "Default",
+			},
+			options: {
+				name: "Options:",
+				control: {
+					type: "array",
+				},
+			},
+		}}
+		args={{
+			name: "multi-select",
+			label: "Form label",
+			placeholder: "Default option",
+			options: [
+				"Unselected Option",
+				"Unselected Option",
+				"Unselected Option",
+				"Unselected Option",
+				"Unselected Option",
+				"Unselected Option",
+			],
+			hasCTA: false,
+			ctaText: "",
+			state: "multi-select",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["name", "hasCTA", "ctaText", "state"],
+			},
+			docs: {
+				source: {
+					code: `
+<div class="made-c-form__element">
+	<label for="default" class="made-c-form__label">
+		Form label
+	</label>
+	<div class="made-c-select__wrapper">
+		<button class="made-c-select made-u-text-left made-u-margin-bottom-0-x">
+			Default option
+		</button>
+		<svg
+			width="12"
+			class="made-c-select__arrow"
+			height="6"
+			viewBox="0 0 12 6"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<title>arrow</title>
+			<path
+				d="M6 6L0 0h12z"
+				fill="currentColor"
+				fill-rule="evenodd"
+			/>
+		</svg>
+	</div>
+	<div class="made-c-overflow-menu made-c-overflow-menu--form">
+		<ul class="made-c-overflow-menu__list made-c-overflow-menu__list--select made-c-scrollbar">
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-01"
+						type="checkbox"
+						id="checkbox-group-1-1"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-1-1"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-01"
+						type="checkbox"
+						id="checkbox-group-1-2"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-1-2"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-01"
+						type="checkbox"
+						id="checkbox-group-1-3"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-1-3"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-01"
+						type="checkbox"
+						id="checkbox-group-1-4"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-1-4"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-01"
+						type="checkbox"
+						id="checkbox-group-1-5"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-1-5"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-01"
+						type="checkbox"
+						id="checkbox-group-1-6"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-1-6"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>`,
+				},
+			},
+		}}
+	>
+		{selectFilter.bind({})}
+	</Story>
+</Canvas>
+
+## Inline Multi Select
+
+The inline multi select can be used with or without an input field. Multiple checkboxes can be selected or unselected depending on your requirements using the buttons at the top and bottom. The "Select all" link in this component is an action and not a navigation link and so it has the attribute `role="button"`.
+
+<Canvas>
+	<Story
+		name="Inline Multi Select"
+		argTypes={{
+			label: {
+				name: "Call to Action Text",
+			},
+			options: {
+				name: "Options:",
+				control: {
+					type: "array",
+				},
+			},
+			ctaText: {
+				name: "Button Text",
+			},
+		}}
+		args={{
+			name: "inline-multi-select",
+			label: "Select all",
+			options: [
+				"Unselected Option",
+				"Unselected Option",
+				"Unselected Option",
+				"Unselected Option",
+				"Unselected Option",
+				"Unselected Option",
+			],
+			hasCTA: true,
+			ctaText: "Add",
+			state: "inline-multi-select",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["name", "hasCTA", "ctaText", "state"],
+			},
+			docs: {
+				source: {
+					code: `
+<div class="made-c-form__element">
+	<div class="made-c-overflow-menu made-c-overflow-menu--form">
+		<div class="made-c-overflow-menu__cta made-c-overflow-menu__cta--top">
+			<a href="" role="button">
+				Select all
+			</a>
+		</div>
+		<ul class="made-c-overflow-menu__list made-c-overflow-menu__list--select made-c-scrollbar">
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-02"
+						type="checkbox"
+						id="checkbox-group-2-1"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-2-1"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-02"
+						type="checkbox"
+						id="checkbox-group-2-2"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-2-2"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-02"
+						type="checkbox"
+						id="checkbox-group-2-3"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-2-3"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-02"
+						type="checkbox"
+						id="checkbox-group-2-4"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-2-4"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-02"
+						type="checkbox"
+						id="checkbox-group-2-5"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-2-5"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+			<li class="made-c-overflow-menu__item">
+				<div class="made-c-form__element made-u-width-100">
+					<input
+						class="made-c-checkbox"
+						name="checkbox-02"
+						type="checkbox"
+						id="checkbox-group-2-6"
+						value="1"
+					/>
+					<label
+						class="made-c-checkbox__label made-c-overflow-menu__link made-c-overflow-menu__link--left-align"
+						for="checkbox-group-2-6"
+					>
+						Unselected Option
+					</label>
+				</div>
+			</li>
+		</ul>
+		<div class="made-c-overflow-menu__cta made-c-overflow-menu__cta--bottom">
+			<button
+				type="button"
+				class="made-c-button made-c-button--primary"
+			>
+				Add
+			</button>
+		</div>
+	</div>
+</div>`,
+				},
+			},
+		}}
+	>
+		{selectFilter.bind({})}
+	</Story>
+</Canvas>

@@ -1,0 +1,114 @@
+.made-c-overflow-menu {
+  background: var(--made-color-background-default);
+  border-radius: var(--made-border-radius-default);
+  box-shadow: var(--made-shadow-default);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 11.25rem;
+  padding: var(--made-space-2-x) 0;
+  z-index: var(--made-z-index-dropdown);
+}
+
+.made-c-overflow-menu__item {
+	display: flex;
+	list-style: none;
+}
+
+.made-c-overflow-menu__link {
+  align-items: center;
+  color: var(--made-color-text-default-on-light);
+  display: flex;
+  font-family: var(--made-font-body-family-default);
+  justify-content: space-between;
+  padding: var(--made-space-2-x) var(--made-space-4-x);
+  width: 100%;
+  min-height: var(--made-size-8-x);
+}
+
+.made-c-overflow-menu__link--right-align {
+  justify-content: flex-end;
+}
+
+.made-c-overflow-menu__link--left-align {
+  justify-content: flex-start;
+}
+
+.made-c-overflow-menu__icon {
+	flex-shrink: 0;
+}
+
+.made-c-overflow-menu__link:hover {
+  background-color: var(--made-color-action-background-hover);
+  color: var(--made-color-action-text-on-hover);
+  text-decoration: none;
+}
+
+.made-c-overflow-menu__link:focus {
+	outline: 2px solid var(--made-color-action-border-focus);
+	outline-offset: 2px;
+}
+
+.made-c-overflow-menu__list {
+	max-height: 18.125rem;
+	margin: 0;
+	padding: var(--made-space-2-x) 0 0 0;
+}
+
+.made-c-overflow-menu__list .made-c-overflow-menu__item:last-child {
+	margin-bottom: var(--made-space-2-x);
+}
+
+.made-c-overflow-menu__list--select {
+	max-height: 10rem;
+}
+
+.made-c-overflow-menu--form {
+  margin-top: 1px;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.made-c-overflow-menu__link--form {
+	align-items: flex-start;
+	flex-direction: column;
+	position: relative;
+}
+
+.made-c-overflow-menu__link--form:focus {
+	outline-offset: -2px;
+}
+
+.made-c-overflow-menu__cta {
+  padding: var(--made-space-4-x) var(--made-space-4-x) var(--made-space-4-x)
+    var(--made-space-4-x);
+}
+
+.made-c-overflow-menu__cta--top {
+  border-bottom: 1px solid var(--made-color-border-default-on-light);
+}
+
+.made-c-overflow-menu__cta--bottom {
+  border-top: 1px solid var(--made-color-border-default-on-light);
+}
+
+.made-c-overflow-menu--action-bar {
+	position: absolute;
+	left: var(--made-space-4-x);
+	top: 100%;
+}
+
+.made-c-overflow-menu__link.made-c-checkbox__label:after {
+  left: 1.35rem;
+}
+
+.made-c-overflow-menu__link--selected {
+	background-color: var(--made-color-action-background-selected);
+	color: var(--made-color-action-text-on-selected);
+}
+
+.made-c-overflow-menu__link--selected:hover {
+  background-color: var(--made-color-action-background-selected-hover);
+  color: var(--made-color-action-text-on-selected-hover);
+}

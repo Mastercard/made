@@ -1,0 +1,46 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta
+	title="Feedback/Loading Indicator"
+	parameters={{ }}
+/>
+
+# Loading Indicator
+
+The loading indicator should be used when progress is not detectable and there is an uncertain amount of wait time. Actions that take between 2-10 seconds are when this indicator is best used.
+
+## Small
+
+Add the class `made-c-loading--small` alongside the class `made-c-loading` to display a small loading indicator.
+
+<Canvas>
+	<Story name="Small">
+		<div class="made-c-loading made-c-loading--small" role="status"></div>
+		<span class="made-u-a11y-hidden">Loading...</span>
+	</Story>
+</Canvas>
+
+## Large
+
+Add the class `made-c-loading--large` alongside the class `made-c-loading` to display a large loading indicator.
+
+<Canvas>
+	<Story name="Large">
+		<div class="made-c-loading made-c-loading--large" role="status"></div>
+		<span class="made-u-a11y-hidden">Loading...</span>
+	</Story>
+</Canvas>
+
+## Large &amp; Text
+
+To display loading text under the loading indicator add a paragraph tag below it containing the class `made-c-loading__message`. For example:
+
+`<p class="made-c-loading__message">Loading...</p>`
+
+<Canvas>
+	<Story name="Large with Label">
+		<div class="made-c-loading made-c-loading--large" role="status"></div>
+		<p class="made-c-loading__message">Loading...</p>
+	</Story>
+</Canvas>

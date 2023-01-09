@@ -1,0 +1,79 @@
+.made-c-carousel {
+	display: flex;
+	border-radius: var(--made-border-radius-default);
+	background-color: var(--made-color-background-default);
+	box-shadow: var(--made-shadow-default);
+	flex-direction: column;
+}
+
+.made-c-carousel__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: var(--made-space-8-x) var(--made-space-6-x);
+	position: relative;
+}
+
+.made-c-carousel__actions {
+	display: flex;
+	justify-content: space-between;
+	margin-top: var(--made-space-16-x);
+}
+
+.made-c-carousel__step {
+	font-size: var(--made-font-body-size-large);
+
+}
+
+.made-c-carousel__close {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: var(--made-space-4-x);
+	top: var(--made-space-4-x);
+}
+
+.made-c-carousel__close:hover {
+	opacity: var(--made-opacity-75);
+}
+
+.made-c-carousel__buttons {
+	display: flex;
+	align-items: center;
+}
+
+.made-c-carousel__button {
+	color: var(--made-color-text-default-on-light);
+}
+
+.made-c-carousel__button:first-of-type {
+	margin-right: var(--made-space-4-x);
+}
+
+.made-c-carousel__nav-icon {
+	display: block;
+}
+
+@media only screen and (min-width: 600px) {
+	.made-c-carousel {
+		flex-direction: row;
+	}
+
+	.made-c-carousel__img {
+		object-fit: cover;
+	}
+
+	.made-c-carousel__content {
+		padding: var(--made-space-10-x);
+	}
+
+	.made-c-carousel__close {
+		right: var(--made-space-5-x);
+		top: var(--made-space-5-x);
+	}
+
+	.made-c-carousel__actions {
+		margin-top: 0;
+	}
+}

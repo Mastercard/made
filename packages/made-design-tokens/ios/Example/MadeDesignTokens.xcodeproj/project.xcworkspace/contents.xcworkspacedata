@@ -1,0 +1,7 @@
+
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:ios.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,70 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Hello/Naming Conventions/Design Tokens" />
+
+# Design Tokens
+
+Made Design Tokens follow best practice as outlined by Nathan Curtis in [Naming Tokens in Design Systems](https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676)
+
+> _Effective token names improve and sustain a team’s shared understanding of visual style through design, code, and other interdisciplinary handoffs. Terms matter. As we make things, we must be able to browse and search tools to quickly recognize and recall the purposeful decisions we’ve made._
+>
+> <cite>Nathan Curtis, Naming Tokens in Design Systems</cite>
+
+
+-----
+
+## Basics
+
+![Design Token Example](https://miro.medium.com/max/2000/1*Z6BGvwr4YcxGw91wZFWQNw.png "Design Token Example")
+<small><em>Nathan Curtis, Naming Tokens in Design Systems</em></small>
+
+Thes tokens `made-color-accent-02` token combines four levels — namespace (made), category(color), variant(accent), and scale(02) to map to #F37338.
+Similarly, `made-space-1-x` orders namespace(made), category(space), and scale(01) levels to represent 4px as another generic value.
+
+-----
+
+## Taxonomy
+
+![Design Token Example](https://miro.medium.com/max/2000/1*QW0vwniEYOyv1dRzGdhfSQ.png "Design Token Example")
+<small><em>Nathan Curtis, Naming Tokens in Design Systems</em></small>
+
+To be sufficiently descriptive, a tokenized language that incorporates both taxonomy and typology needs many levels. Enough levels, as it turns out, to organize them into groups:
+
+### Namespace
+
+Levels combining any (or all, in extreme cases!) of system (made), theme (b2b), or domain (connect).
+
+**Example**
+
+ - `made-connect-color-border-product`
+
+### Object
+
+Levels to refer to a component (button), element within a component (left-icon), or component group (forms).
+
+**Examples**
+
+- `made-forms-color-border-default`
+- `made-button-color-text-primary-on-light`
+- `made-font-heading-size-level-01`
+
+### Base
+
+Levels as a token’s backbone that combine category (for example, color, font, space), concept (action, feedback, visualisation) and property (size, text, background, border).
+
+**Examples**
+
+ - `made-color-visualization-01`
+ - `made-color-feedback-text-error`
+
+A success color may only be intended for text or background but not both. Even more, an object reflecting success may require distinct colors for text versus background versus border. In this case, including a property level in a token results in a more specific yet less flexibly applied $color-background-success or $color-text-success.
+
+### Modifier
+
+Levels to refer to one or more of variant (primary, secondary, success, error), state (default, hover, disabled), scale (01, small), and mode (on-dark).
+
+**Examples**
+
+- `made-color-text-default-on-light` `made-color-text-default-on-dark`
+- `made-color-action-background-selected`
+- `made-color-background-primary`

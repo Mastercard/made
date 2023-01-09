@@ -1,0 +1,23 @@
+.made-c-branding {
+    display: flex;
+    align-items: center;
+    color: var(--made-color-text-default-on-light);
+    font-family: var(--made-font-family-heading);
+    font-size: var(--made-font-size-08);
+    padding: var(--made-space-3-x) var(--made-space-2-x);
+    text-decoration: none;
+  }
+  
+  .made-c-branding:hover {
+    text-decoration: none;
+  }
+  
+  .made-c-branding__link {
+    margin-left: var(--made-space-2-x);
+  }
+
+  .made-c-branding--dark {
+    background-color: var(--made-header-color-background);
+    color: var(--made-color-text-default-on-dark);
+  }
+  

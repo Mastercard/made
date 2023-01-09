@@ -1,0 +1,124 @@
+{
+  "space": {
+    "1-x": {
+      "comment": "Space: 4px",
+      "value": "4px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "2-x": {
+      "comment": "Space: 8px",
+      "value": "8px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "3-x": {
+      "comment": "Space: 12px",
+      "value": "12px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "4-x": {
+      "comment": "Space: 16px",
+      "value": "16px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "5-x": {
+      "comment": "Space: 20px",
+      "value": "20px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "6-x": {
+      "comment": "Space: 24px",
+      "value": "24px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "7-x": {
+      "comment": "Space: 28px",
+      "value": "28px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "8-x": {
+      "comment": "Space: 32px",
+      "value": "32px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "9-x": {
+      "comment": "Space: 36px",
+      "value": "36px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "10-x": {
+      "comment": "Space: 40px",
+      "value": "40px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "11-x": {
+      "comment": "Space: 44px",
+      "value": "44px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "12-x": {
+      "comment": "Space: 48px",
+      "value": "48px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "13-x": {
+      "comment": "Space: 52px",
+      "value": "52px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "14-x": {
+      "comment": "Space: 56px",
+      "value": "56px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "15-x": {
+      "comment": "Space: 60px",
+      "value": "60px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "16-x": {
+      "comment": "Space: 64px",
+      "value": "64px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "17-x": {
+      "comment": "Space: 68px",
+      "value": "68px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "18-x": {
+      "comment": "Space: 72px",
+      "value": "72px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "19-x": {
+      "comment": "Space: 76px",
+      "value": "76px",
+      "themeable": "No",
+      "type": "spacing"
+    },
+    "20-x": {
+      "comment": "Space: 80px",
+      "value": "80px",
+      "themeable": "No",
+      "type": "spacing"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "font": {
+    "size": {
+      "01": {
+        "comment": "Font size: 9px",
+        "value": "9px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "02": {
+        "comment": "Font size: 12px",
+        "value": "12px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "03": {
+        "comment": "Font size: 13px",
+        "value": "13px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "04": {
+        "comment": "Font size: 14px",
+        "value": "14px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "05": {
+        "comment": "Font size: 15px",
+        "value": "15px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "06": {
+        "comment": "Font size: 16px",
+        "value": "16px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "07": {
+        "comment": "Font size: 18px",
+        "value": "18px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "08": {
+        "comment": "Font size: 20px",
+        "value": "20px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "09": {
+        "comment": "Font size: 24px",
+        "value": "24px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "10": {
+        "comment": "Font size: 28px",
+        "value": "28px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "11": {
+        "comment": "Font size: 32px",
+        "value": "32px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "12": {
+        "comment": "Font size: 36px",
+        "value": "36px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "13": {
+        "comment": "Font size: 48px",
+        "value": "48px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "14": {
+        "comment": "Font size: 60px",
+        "value": "60px",
+        "themeable": "No",
+        "type": "fontSizes"
+      },
+      "15": {
+        "comment": "Font size: 80px",
+        "value": "80px",
+        "themeable": "No",
+        "type": "fontSizes"
+      }
+    }
+  }
+}

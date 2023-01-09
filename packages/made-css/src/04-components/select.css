@@ -1,0 +1,85 @@
+.made-c-select__wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.made-c-select {
+  appearance: none;
+  background-color: var(--made-forms-color-background-default);
+  border: 1px solid var(--made-forms-color-border-default);
+  border-radius: var(--made-border-radius-default);
+  color: var(--made-color-text-default-on-light);
+  cursor: pointer;
+  font-family: var(--made-font-body-family-default);
+  font-size: var(--made-font-size-04);
+  height: var(--made-size-10-x);
+  margin-bottom: var(--made-space-2-x);
+  padding: 0 var(--made-space-3-x);
+  width: 100%;
+}
+
+.made-c-select__arrow {
+  height: var(--made-size-10-x);
+  pointer-events: none;
+  position: absolute;
+  right: var(--made-space-3-x);
+  top: 0;
+}
+
+.made-c-select__icon {
+  height: var(--made-size-10-x);
+  position: absolute;
+  right: var(--made-space-8-x);
+}
+
+.made-c-select:focus {
+  border: 1px solid var(--made-color-action-border-focus);
+  box-shadow: 0 0 0 1px var(--made-color-action-border-focus);
+  outline: none;
+}
+
+.made-c-select:disabled,
+.made-c-select[aria-disabled="true"] {
+  background-color: var(--made-color-action-background-disabled);
+  border: 1px solid var(--made-color-action-border-disabled);
+  color: var(--made-color-action-text-disabled);
+  cursor: not-allowed;
+  opacity: var(--made-opacity-15);
+}
+
+.made-c-select--error {
+  border: 1px solid var(--made-color-feedback-border-error);
+  padding-right: var(--made-space-10-x);
+}
+
+.made-c-select--success {
+  border: 1px solid var(--made-color-feedback-border-success);
+  padding-right: var(--made-space-10-x);
+}
+
+.made-c-select__button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  color: var(--made-color-text-default-on-light);
+  cursor: pointer;
+  position: absolute;
+  right: var(--made-space-8-x);
+  top: 36%;
+}
+
+.made-c-select__button:focus {
+  outline: 2px solid var(--made-color-action-border-focus);
+  outline-offset: 2px;
+}
+
+.made-c-select__button:hover {
+  opacity: var(--made-opacity-75);
+}
+
+.made-c-select__icon-clear {
+	height: var(--made-space-3-x);
+	width: var(--made-space-3-x);
+	display: block;
+}

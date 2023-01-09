@@ -1,0 +1,132 @@
+{
+  "color": {
+    "feedback": {
+      "error": {
+        "comment": "Color for error state",
+        "value": "#EE0000",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "success": {
+        "comment": "Color for success or positive state",
+        "value": "#038A00",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "information": {
+        "comment": "Color for neutral or optional state",
+        "value": "{color.yellow.04.value}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "warning": {
+        "comment": "Color for warning state",
+        "value": "{color.gold.04.value}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "background": {
+        "error": {
+          "comment": "Background color for error state",
+          "value": "{color.feedback.error.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "success": {
+          "comment": "Background color for success or positive state",
+          "value": "{color.feedback.success.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "information": {
+          "comment": "Background color for neutral or optional state",
+          "value": "{color.feedback.information.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "warning": {
+          "comment": "Background color for warning state",
+          "value": "{color.feedback.warning.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      },
+      "border": {
+        "error": {
+          "comment": "Border color for error state",
+          "value": "{color.feedback.error.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "success": {
+          "comment": "Border color  for success or positive state",
+          "value": "{color.feedback.success.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "information": {
+          "comment": "Border color  for neutral or optional state",
+          "value": "{color.feedback.information.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "warning": {
+          "comment": "Border color or for warning state",
+          "value": "{color.feedback.warning.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      },
+      "text": {
+        "error": {
+          "comment": "Text color for error state",
+          "value": "{color.feedback.error.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "success": {
+          "comment": "Text color for success or positive state",
+          "value": "{color.feedback.success.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "information": {
+          "comment": "Text color for neutral or optional state",
+          "value": "{color.feedback.information.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "warning": {
+          "comment": "Text color for warning state",
+          "value": "{color.feedback.warning.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-error": {
+          "comment": "Text color displayed on top of the error color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-success": {
+          "comment": "Text color displayed on top of the error color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-information": {
+          "comment": "Text color displayed on top of the error color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-warning": {
+          "comment": "Text color displayed on top of the warning color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.made-c-table {
+	border-collapse: separate;
+	border-spacing: 0;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.made-c-table th {
+	padding: var(--made-space-2-x) var(--made-space-4-x) var(--made-space-2-x)
+		var(--made-space-4-x);
+	vertical-align: middle;
+}
+
+.made-c-table th::before {
+	content: "";
+	background-image: url("data:image/svg+xml,%3Csvg width='3' height='22' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3E1FE39056-042E-415E-80A2-393C2BD8B01F%3C/title%3E%3Cpath d='M1.083 20a1 1 0 1 1 0 2 1 1 0 0 1 0-2Zm0-10a1 1 0 1 1 0 2 1 1 0 0 1 0-2Zm0-10a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z' fill='%23B1ADA6' fill-rule='evenodd'/%3E%3C/svg%3E");
+	width: var(--made-space-4-x);
+	display: inline-block;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-position: 0 50%;
+}
+
+.made-c-table th:first-child::before {
+	content: "";
+	background-image: none;
+}
+
+.made-c-table td {
+	padding: var(--made-space-2-x) var(--made-space-4-x) var(--made-space-2-x)
+		var(--made-space-4-x);
+	vertical-align: middle;
+	border-bottom: 1px solid var(--made-color-border-default-on-light);
+}
+
+.made-c-table thead th {
+	border: none;
+	border-bottom: 3px solid var(--made-color-border-default-on-light);
+	font-family: var(--made-font-body-family-bold);
+	position: relative;
+	text-align: left;
+	line-height: var(--made-line-height-single);
+}
+
+.made-c-table__sort-link {
+	display: flex;
+	align-items: center;
+}
+
+.made-c-table__sort-icon {
+	margin-left: var(--made-space-2-x);
+	margin-right: var(--made-space-2-x);
+}
+
+.made-c-table thead th.made-c-table__header--sortable {
+	border-bottom: 3px solid var(--made-color-action-border-primary-default);
+}
+
+.made-c-table--responsive {
+	display: block;
+	overflow-x: auto;
+	width: 100%;
+}
+
+.made-c-table--responsive .made-c-table {
+	table-layout: auto;
+}
+
+.made-c-table--selected-row {
+	background-color: var(--made-color-action-background-selected);
+	color: var(--made-color-action-text-on-selected);
+}
+
+.made-c-table--selected-row:hover {
+	background-color: var(--made-color-action-background-selected-hover);
+	color: var(--made-color-action-text-on-selected-hover);
+}

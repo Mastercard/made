@@ -1,0 +1,43 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+import dedent from 'ts-dedent';
+
+<Meta title="Utility Classes/Width" />
+
+# Width
+
+It's easy to make an element as wide as needed using our width classes. These classes use our size tokens and are based on multiples of 4px.
+
+The classes are named using the format {namespace}-{prefix}-{property}-{scale} e.g. `made-u-width-1-x`
+
+- Where namespace is `made`.
+- Where prefix is `u` for utility (see naming conventions).
+- Where property is `width`
+- Where scale is defined as design tokens `1` to `20`.
+
+There are also classes provided which allow percentage widths to be used. 25%, 50%, 75%, 100% and auto are supported. These classes are named using the format {namespace}-{prefix}-{property}-{percent} e.g. `made-u-width-25`, `made-u-width-50`, `made-u-width-auto`
+
+<Canvas>
+  <Story name="Default">
+      <div class="made-s-spacing">
+        <div class="made-s-width-block made-u-width-20-x"></div>
+      </div>
+  </Story>
+</Canvas>
+
+## Responsive Breakpoints
+
+Width classes can be made responsive by appending the breakpoint to the class. Two breakpoints are provided: `md` and `lg`. Customise your widths on small, medium and large devices.
+
+- Device width is less than 600px wide no breakpoint needs to be appended to the class.
+- Device width is 600px wide or more the `md` breakpoint can be appended to the class in order to use a different width at or above 600px.
+- Device width is 960px wide or more the `lg` breakpoint can be appended to the class in order to use a different width at or above 960px.
+
+Example below shows how these responsive classes can be used to apply a different width to an element at three different device widths.
+
+<Canvas>
+  <Story name="Responsive Breakpoints">
+    <div class="made-s-spacing">
+      <div class="made-s-width-block made-u-width-5-x made-u-width--md-10-x made-u-width--lg-15-x"></div>
+    </div>
+  </Story>
+</Canvas>

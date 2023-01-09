@@ -1,0 +1,100 @@
+.made-c-notification {
+  border-radius: var(--made-border-radius-default);
+  display: flex;
+  padding-right: var(--made-space-13-x);
+  position: relative;
+  width: 100%;
+}
+
+.made-c-notification__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--made-space-5-x) 0;
+}
+
+.made-c-notification__message {
+  margin: 0 var(--made-space-2-x) 0 0;
+  font-family: var(--made-font-body-family-narrow);
+}
+
+.made-c-notification__link {
+  font-size: var(--made-font-size-05);
+  font-family: var(--made-font-family-narrow-medium);
+}
+
+.made-c-notification__icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: var(--made-space-4-x);
+  min-width: 3.5rem;
+  padding: var(--made-space-3-x);
+}
+
+.made-c-notification__svg {
+  color: var(--made-color-feedback-text-on-success);
+  height: var(--made-size-8-x);
+  width: var(--made-size-8-x);
+}
+
+/* to be depreacted */
+
+.made-c-notification__close {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: var(--made-space-3-x);
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.made-c-notification__icon--close {
+  height: var(--made-size-4-x);
+  width: var(--made-size-4-x);
+}
+
+.made-c-notification__close:focus {
+  outline: 2px solid var(--made-color-action-border-focus);
+  outline-offset: 2px;
+}
+
+/* to be depreacted */
+
+.made-c-notification--success {
+  border: 1px solid var(--made-color-feedback-border-success);
+}
+
+.made-c-notification__icon--success {
+  background: var(--made-color-feedback-background-success);
+}
+
+.made-c-notification--error {
+  border: 1px solid var(--made-color-feedback-border-error);
+}
+
+.made-c-notification__icon--error {
+  background: var(--made-color-feedback-background-error);
+}
+
+.made-c-notification__icon--error .made-c-notification__svg {
+  color: var(--made-color-feedback-text-on-error);
+  height: var(--made-size-8-x);
+  width: var(--made-size-8-x);
+}
+
+.made-c-notification--information {
+  border: 1px solid var(--made-color-feedback-border-information);
+}
+
+.made-c-notification__icon--information {
+  background: var(--made-color-feedback-background-information);
+}
+
+.made-c-notification__icon--information .made-c-notification__svg {
+  color: var(--made-color-feedback-text-on-information);
+  height: var(--made-size-8-x);
+  width: var(--made-size-8-x);
+}

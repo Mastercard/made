@@ -1,0 +1,277 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { TextArea } from "./TextArea.js";
+
+<Meta
+  title="Forms/Text Area"
+  parameters={{ badges: [BADGE.OBSOLETE]}}
+/>
+
+export const textArea = (args) => <TextArea {...args} />;
+
+# Text Area
+
+Text area must have visible labels that are associated with the input.
+The recommended method for most circumstances is to use the label element and an explicit association using the for and id attributes.
+
+Use hint text for help that’s relevant to the majority of users, like how their information will be used, or where to find it.
+
+## Default
+
+<Canvas>
+  <Story
+    name="Default"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      placeholder: {
+        name: "Placeholder",
+      },
+      helperText: {
+        name: "Helper Text",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error", "success"],
+        },
+      },
+    }}
+    args={{
+      name: "default",
+      label: "Form label",
+      placeholder: "Placeholder text",
+      helperText: "Helper text",
+      validationText: "Validation",
+      state: "default",
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+	<label for="default" class="made-c-form__label">
+		Form label
+	</label>
+	<div class="made-c-text-area__wrapper">
+		<textarea
+			cols="50"
+			rows="4"
+			id="default"
+			placeholder="Placeholder text."
+			class="made-c-text-area"
+		></textarea>
+	</div>
+	<div class="made-c-form__hint">Helper text</div>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{textArea.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled State
+
+Add the disabled boolean attribute on an input to give it a grayed out appearance and remove pointer events.
+
+<Canvas>
+  <Story
+    name="Disabled State"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      placeholder: {
+        name: "Placeholder",
+      },
+      helperText: {
+        name: "Helper Text",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error", "success"],
+        },
+      },
+    }}
+    args={{
+      name: "default",
+      label: "Form label",
+      placeholder: "Placeholder text",
+      helperText: "Helper text",
+      validationText: "Validation",
+      state: "disabled",
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+	<label for="disabled-state" class="made-c-form__label made-c-form__label--disabled">
+		Form label
+	</label>
+	<div class="made-c-text-area__wrapper">
+		<textarea cols="50" rows="4" id="disabled-state" placeholder="Placeholder text." class="made-c-text-area" aria-disabled="true" disabled></textarea>
+	</div>
+	<div class="made-c-form__hint made-c-form__label--disabled">Helper text</div>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{textArea.bind({})}
+  </Story>
+</Canvas>
+
+## Validation - Error Messages
+
+Add the `made-c-form__label--error` class to the label and `made-c-text-input--error` to the input for error validation styles.
+Add an error message using the `made-c-form__validation--error` class.
+
+<Canvas>
+  <Story
+    name="Error State"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      placeholder: {
+        name: "Placeholder",
+      },
+      helperText: {
+        name: "Helper Text",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error", "success"],
+        },
+      },
+    }}
+    args={{
+      name: "default",
+      label: "Form label",
+      placeholder: "Placeholder text",
+      helperText: "Helper text",
+      validationText: "Validation",
+      state: "error",
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+	<label for="error-state" class="made-c-form__label made-c-form__label--error">
+		Form label
+	</label>
+	<div class="made-c-text-area__wrapper">
+		<svg class="made-c-text-area__icon" width="16" height="16" viewBox="0 0 16 16">
+			<title>information icon</title>
+			<g fill="currentColor" fill-rule="evenodd">
+				<circle fill="var(--made-color-feedback-background-error)" cx="8" cy="8" r="8" />
+				<path d="M8.497 13H7.388V6.182h1.109V13zM7.942 3c.109 0 .211.02.307.058a.72.72 0 01.248.162.82.82 0 01.166.244.723.723 0 01.063.3c0 .11-.021.21-.063.302a.748.748 0 01-.414.396.818.818 0 01-.307.057.762.762 0 01-.554-.216.723.723 0 01-.221-.54A.756.756 0 017.943 3z" fill="var(--made-color-feedback-text-on-error)" />
+			</g>
+		</svg>
+		<textarea cols="50" rows="4" id="error-state" placeholder="Placeholder text." class="made-c-text-area made-c-text-area--error"></textarea>
+	</div>
+	<div class="made-c-form__validation--error">Validation</div>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{textArea.bind({})}
+  </Story>
+</Canvas>
+
+## Validation - Success Messages
+
+Add the `made-c-form__label--success` class to the label and `made-c-text-input--success` to the input for error validation styles.
+Add an error message using the `made-c-form__validation--success` class.
+
+<Canvas>
+  <Story
+    name="Success State"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      placeholder: {
+        name: "Placeholder",
+      },
+      helperText: {
+        name: "Helper Text",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error", "success"],
+        },
+      },
+    }}
+    args={{
+      name: "default",
+      label: "Form label",
+      placeholder: "Placeholder text",
+      helperText: "Helper text",
+      validationText: "Validation",
+      state: "success",
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+	<label for="success-state" class="made-c-form__label">
+		Form label
+	</label>
+	<div class="made-c-text-area__wrapper">
+		<svg width="16" height="16" viewBox="0 0 16 16" class="made-c-text-area__icon">
+			<title>Success</title>
+			<g fill="none" fill-rule="evenodd">
+				<path d="M8 0a8 8 0 00-8 8 8 8 0 008 8 8 8 0 008-8 8 8 0 00-8-8z" fill="var(--made-color-feedback-background-success)" />
+				<path d="M6.178 10.265l-2.37-2.37-.808.8 3.178 3.179L13 5.052l-.802-.802z" fill="var(--made-color-feedback-text-on-success)" />
+			</g>
+		</svg>
+		<textarea cols="50" rows="4" id="success-state" placeholder="Placeholder text." class="made-c-text-area made-c-text-area--success"></textarea>
+	</div>
+	<div class="made-c-form__validation--success">Validation</div>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{textArea.bind({})}
+  </Story>
+</Canvas>

@@ -1,0 +1,72 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+import { Modal } from "./Modal";
+
+<Meta
+  title="Popover/Modal"
+  component={Modal}
+  parameters={{ badges: [BADGE.OBSOLETE] }}
+/>
+
+export const Template = (args) => <Modal {...args} />;
+
+# Modal
+
+A modal disables page content and focuses the user’s attention on a single task or message.
+
+Toggle the `made-c-modal--visible` class to show and hide the Modal component.
+
+<Canvas>
+  <Story
+    name="Default"
+    parameters={{
+      docs: {
+        source: {
+          code: `
+      <div role="dialog" id="dialog1" aria-modal="true" aria-labelledby="dialog1_label" class="made-c-modal made-c-modal--visible">
+        <div class="made-c-modal__container">
+          <div class="made-c-modal__header">
+            <button type="button" class="made-c-modal__close">
+             <svg class="made-c-modal__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title>
+                close 
+              </title>
+              <path d="M22.938 0L24 1.062 13.061 12 24 22.938 22.938 24 12 13.061 1.062 24 0 22.938 10.938 12 0 1.062 1.062 0 12 10.938 22.938 0z" fill="currentColor" fill-rule="evenodd"/>
+            </svg>
+            </button>
+            <p id="dialog1_label" class="made-u-h3 made-u-margin-top-6-x">Title</p>
+          </div>
+          <div class="made-c-modal__content">
+            <p>
+              Are you sure you want to confirm this action permanently? If not,
+              cancel it now.
+            </p>
+          </div>
+          <div class="made-c-modal__footer">
+            <button
+              type="button"
+              class="made-c-button made-c-button--primary made-u-margin-top-4-x made-u-margin-right-4-x made-u-margin-top-0-x--md"
+            >
+              Primary
+            </button>
+            <button
+              type="button"
+              class="made-c-button made-c-button--secondary made-u-margin-top-4-x made-u-margin-top-0-x--md"
+            >
+              Secondary
+            </button>
+          </div>
+        </div>
+      </div>`,
+        },
+      },
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+## Accessibility
+
+For more information view the [W3C Modal documentation.](https://www.w3.org/TR/wai-aria-practices-1.1/#dialog_modal)

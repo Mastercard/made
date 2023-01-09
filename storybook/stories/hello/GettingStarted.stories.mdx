@@ -1,0 +1,115 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+
+<Meta title="Hello/Getting Started" />
+
+# Getting Started
+
+## Install
+
+Made for Developers packages can be downloaded via the Mastercard GitHub.
+
+Before moving further, please make sure you have Node.js installed on your machine.
+
+If you're planning on using Made packages in a project that doesn't yet use Node Package Manager, you'll have to first create a package.json file. You can read more on how to do this in the npm documentation.
+
+To install, run the following command(s) in your terminal in your project root directory (where package.json lives). This will install all of the packages into the node_modules/@made-mc/ directory.
+
+```
+npm install @mc-made/design-tokens@latest
+npm install @mc-made/css@latest
+```
+
+### Usage
+
+Once you’ve downloaded or installed the NPM package, you can copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS:
+
+```
+<link rel="stylesheet" href="[path-to-directory]/tokens.css" />
+<link rel="stylesheet" href="[path-to-directory]/made.min.css" />
+<link rel="stylesheet" href="[path-to-directory]/mark-for-mc.css" />
+```
+
+To import in SCSS, include this at the beginning of your main SCSS partial:
+
+```
+"[path-to-directory]/node_modules/@mc-made/design-tokens/web/theme/[theme-name]/tokens";
+"[path-to-directory]/node_modules/@mc-made/css/made.min.css";
+```
+
+You can also import the stylesheets with [CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). 
+<small><a href="https://caniuse.com/?search=custom%20properties" target="_blank"> ⚠️ Note: IE11 does not support CSS variables</a></small>
+
+`[path-to-directory]/node_modules/@mc-made/css/src/styles.css",`
+`[path-to-directory]/node_modules/@mc-made/css/src/made-css-variables.css",`
+`[path-to-directory]/node_modules/@mc-made/css/src/made-css-variables.min.css",`
+
+---
+
+## Link to Assets
+
+The following packages are available for usage via the Made domain name.
+
+```
+https://made.mastercard.com/icons/1.0.0/custom/application.svg
+https://made.mastercard.com/css/1.2.1/made.min.css
+https://made.mastercard.com/design-tokens/2.1.1/web/themes/b2b/tokens.css
+https://made.mastercard.com/fonts/1.0.0/mark-for-mc.css
+```
+
+There are also have CSS available for [CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+
+```
+https://made.mastercard.com/css/1.2.1/made-css-variables.css
+https://made.mastercard.com/css/1.2.1/made-css-variables.min.css
+```
+
+** URL structure **  
+Made uses the following URL structure for the host assets:
+
+`https://made.mastercard.com/<package>/<version>/<file-path>`
+
+### Usage
+
+To fetch e.g. a Design Tokens file using the above format, you would write it like:
+
+
+`<link rel="stylesheet" href="https://made.mastercard.com/design-tokens/2.1.1/web/themes/b2b/tokens.css" />`
+
+
+---
+
+## Migrating to Made.?
+
+Ready to  migrate your current code base to include Made. assets? Each project is different so email <a href="mailto:made@mastercard.com">made@mastercard.com</a> to get in touch with the Made. team and we can support the migration process and provide solutions on what adoption method suits your projects needs. 
+
+---
+
+
+## Testing
+
+### Supported browsers
+
+Made components are supported in the following browsers. <a href="https://github.com/Mastercard/made/issues" target="_blank">Get in touch here</a> to report any issues.
+
+| Browser        | Version |
+| -------------- | ------- |
+| Chrome         | Latest    |
+| Safari         | Latest    |
+| Firefox        | Latest    |
+| Microsoft Edge | Latest    |
+
+
+---
+
+
+### Accessibility
+
+Made components are accessibility tested with:
+
+- [storybook-addon-a11y](https://storybook.js.org/addons/@storybook/addon-a11y)
+- [axe DevTools](https://www.deque.com/axe/devtools/)
+- [Wave](https://wave.webaim.org/extension/)
+
+## Fonts
+
+Mastercard fonts are proprietary and licensed exclusively to Mastercard. Approved vendors and those who are working on behalf of Mastercard are covered under the license and have received permission from Mastercard for its use. Internal teams can access fonts through our internal network and external teams can request access to Mastercard fonts through the <a href="https://designcenter.mastercard.com/" target="_blank">Design Centre</a>.

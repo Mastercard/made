@@ -1,0 +1,23 @@
+.made-u-opacity-0 {
+  opacity: 0;
+}
+
+.made-u-opacity-15 {
+  opacity: var(--made-opacity-15);
+}
+
+.made-u-opacity-25 {
+  opacity: var(--made-opacity-25);
+}
+
+.made-u-opacity-50 {
+  opacity: var(--made-opacity-50);
+}
+
+.made-u-opacity-75 {
+  opacity: var(--made-opacity-75);
+}
+
+.made-u-opacity-100 {
+  opacity: var(--made-opacity-100);
+}

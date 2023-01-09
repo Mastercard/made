@@ -1,0 +1,82 @@
+.made-c-text-input__wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.made-c-text-input {
+  background-color: var(--made-forms-color-background-default);
+  border: 1px solid var(--made-forms-color-border-default);
+  border-radius: var(--made-border-radius-default);
+  color: var(--made-color-text-default-on-light);
+  font-family: var(--made-font-body-family-default);
+  height: var(--made-size-10-x);
+  margin-bottom: var(--made-space-2-x);
+  padding: 0 var(--made-space-3-x);
+  width: 100%;
+}
+
+.made-c-text-input--small {
+  margin: 0 0 0 var(--made-space-4-x);
+  text-align: center;
+  width: var(--made-size-14-x);
+}
+
+.made-c-text-input:focus {
+  border: 1px solid var(--made-color-action-border-focus);
+  box-shadow: 0 0 0 1px var(--made-color-action-border-focus);
+  outline: none;
+}
+
+.made-c-text-input:disabled,
+.made-c-text-input[aria-disabled="true"] {
+  background-color: var(--made-color-action-background-disabled);
+  border: 1px solid var(--made-color-action-border-disabled);
+  opacity: var(--made-opacity-15);
+}
+
+.made-c-text-input--error {
+  border: 1px solid var(--made-color-feedback-border-error);
+  padding-right: var(--made-space-10-x);
+}
+
+.made-c-text-input--success {
+  border: 1px solid var(--made-color-feedback-border-success);
+  padding-right: var(--made-space-10-x);
+}
+
+.made-c-text-input__icon {
+  position: absolute;
+  right: var(--made-space-3-x);
+  top: 42%;
+  transform: translateY(-50%);
+}
+
+.made-c-text-input--select-filter {
+  padding-left: var(--made-space-4-x);
+}
+
+.made-c-meter {
+  background-color: var(--made-color-border-default-on-light);
+  border-radius: var(--made-border-radius-01);
+}
+
+.made-c-meter__level {
+  min-height: var(--made-size-1-x);
+  border-radius: var(--made-border-radius-01);
+}
+
+.made-c-meter__level--weak {
+  width: 25%;
+  background-color: var(--made-color-feedback-background-error);
+}
+
+.made-c-meter__level--average {
+  width: 50%;
+  background-color: var(--made-color-feedback-background-warning);
+}
+
+.made-c-meter__level--strong {
+  width: 100%;
+  background-color: var(--made-color-feedback-background-success);
+}

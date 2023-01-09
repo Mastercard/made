@@ -1,0 +1,29 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+
+<Meta title="Utility Classes/Opacity" />
+
+# Opacity
+
+Utilities for controlling the opacity of an element.
+
+The opacity property sets the opacity level for an element. The opacity level describes the transparency level, where 1 is not transparent at all, .5 is 50% visible, and 0 is completely transparent.
+
+Set the opacity of an element using `.made-u-opacity-{value}` utilities.
+
+-   `.made-u-opacity-0`
+-   `.made-u-opacity-15`
+-   `.made-u-opacity-25`
+-   `.made-u-opacity-50`
+-   `.made-u-opacity-75`
+-   `.made-u-opacity-100`
+
+<Canvas>
+	<Story name="Opacity">
+		<div class="made-s-code-block made-u-opacity-15"></div>
+		<div class="made-s-code-block made-u-opacity-25"></div>
+		<div class="made-s-code-block made-u-opacity-50"></div>
+		<div class="made-s-code-block made-u-opacity-75"></div>
+		<div class="made-s-code-block made-u-opacity-100"></div>
+	</Story>
+</Canvas>

@@ -1,0 +1,641 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { Button } from "./Button";
+
+<Meta
+  title="Actions/Button"
+  parameters={{ badges: [BADGE.OBSOLETE] }}
+/>
+
+export const button = (args) => <Button {...args} />;
+
+# Button
+
+Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.
+
+The `made-c-button` class has default styling for all buttons.
+
+Note: When using a `<button>` element, always specify a type.
+
+## Primary Button
+
+The `made-c-button--primary` class adds primary button styles.
+
+<Canvas>
+  <Story
+    name="Primary Button"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      style: {
+        name: "Style",
+        control: {
+          type: "radio",
+          options: ["primary", "secondary", "ghost"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      showIcon: {
+        name: "Show Icon",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+      isResponsive: {
+        name: "Responsive",
+      },
+      background: {
+        name: "Background",
+        control: {
+          type: "radio",
+          options: ["default", "dark"],
+        },
+      },
+    }}
+    args={{
+      text: "Primary",
+      style: "primary",
+      isDisabled: false,
+      showIcon: false,
+      size: "default",
+      isResponsive: false,
+      background: "default",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `  
+<button type="button" class="made-c-button made-c-button--primary">
+  Primary
+</button>
+`,
+        },
+      },
+    }}
+  >
+    >{button.bind({})}
+  </Story>
+</Canvas>
+
+The `made-c-button--primary-on-dark` class adds primary button on dark background styles.
+
+<Canvas>
+  <Story
+    name="Primary Button on dark background"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      style: {
+        name: "Style",
+        control: {
+          type: "radio",
+          options: ["primary", "secondary", "ghost"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      showIcon: {
+        name: "Show Icon",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+      isResponsive: {
+        name: "Responsive",
+      },
+      background: {
+        name: "Background",
+        control: {
+          type: "radio",
+          options: ["default", "dark"],
+        },
+      },
+    }}
+    args={{
+      text: "Primary",
+      style: "primary",
+      isDisabled: false,
+      showIcon: false,
+      size: "default",
+      isResponsive: false,
+      background: "dark",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `  
+<button type="button" class="made-c-button made-c-button--primary-on-dark">
+  Primary
+</button>`,
+        },
+      },
+    }}
+  >
+    >{button.bind({})}
+  </Story>
+</Canvas>
+
+## Secondary Button
+
+The `made-c-button--secondary` class adds primary button styles.
+
+<Canvas>
+  <Story
+    name="Secondary Button"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      style: {
+        name: "Style",
+        control: {
+          type: "radio",
+          options: ["primary", "secondary", "ghost"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      showIcon: {
+        name: "Show Icon",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+      isResponsive: {
+        name: "Responsive",
+      },
+      background: {
+        name: "Background",
+        control: {
+          type: "radio",
+          options: ["default", "dark"],
+        },
+      },
+    }}
+    args={{
+      text: "Secondary",
+      style: "secondary",
+      isDisabled: false,
+      showIcon: false,
+      size: "default",
+      isResponsive: false,
+      background: "default",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<button type="button" class="made-c-button made-c-button--secondary">
+  Secondary
+</button>
+`,
+        },
+      },
+    }}
+  >
+    >{button.bind({})}
+  </Story>
+</Canvas>
+
+The `made-c-button--secondary-on-dark` class adds primary button on dark background styles.
+
+<Canvas>
+  <Story
+    name="Secondary Button on dark background"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      style: {
+        name: "Style",
+        control: {
+          type: "radio",
+          options: ["primary", "secondary", "ghost"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      showIcon: {
+        name: "Show Icon",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+      isResponsive: {
+        name: "Responsive",
+      },
+      background: {
+        name: "Background",
+        control: {
+          type: "radio",
+          options: ["default", "dark"],
+        },
+      },
+    }}
+    args={{
+      text: "Secondary",
+      style: "secondary",
+      isDisabled: false,
+      showIcon: false,
+      size: "default",
+      isResponsive: false,
+      background: "dark",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<button type="button" class="made-c-button made-c-button--secondary-on-dark">
+  Secondary
+</button>
+`,
+        },
+      },
+    }}
+  >
+    >{button.bind({})}
+  </Story>
+</Canvas>
+
+## Ghost Button
+
+The `made-c-button--ghost` class adds primary button styles.
+
+<Canvas>
+  <Story
+    name="Ghost Button"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      style: {
+        name: "Style",
+        control: {
+          type: "radio",
+          options: ["primary", "secondary", "ghost"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      showIcon: {
+        name: "Show Icon",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+      isResponsive: {
+        name: "Responsive",
+      },
+      background: {
+        name: "Background",
+        control: {
+          type: "radio",
+          options: ["default", "dark"],
+        },
+      },
+    }}
+    args={{
+      text: "Ghost Button",
+      style: "ghost",
+      isDisabled: false,
+      showIcon: true,
+      size: "default",
+      isResponsive: false,
+      background: "default",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<button type="button" class="made-c-button made-c-button--ghost">
+  Ghost Button
+  <svg class="made-c-button__icon--ghost" width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+    <title>arrow-forward</title>
+    <path d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z" fill="currentColor" fill-rule="evenodd" />
+  </svg>
+</button>
+`,
+        },
+      },
+    }}
+  >
+    >{button.bind({})}
+  </Story>
+</Canvas>
+
+The `made-c-button--secondary-on-dark` class adds primary button on dark background styles.
+
+<Canvas>
+  <Story
+    name="Ghost Button on dark background"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      style: {
+        name: "Style",
+        control: {
+          type: "radio",
+          options: ["primary", "secondary", "ghost"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      showIcon: {
+        name: "Show Icon",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+      isResponsive: {
+        name: "Responsive",
+      },
+      background: {
+        name: "Background",
+        control: {
+          type: "radio",
+          options: ["default", "dark"],
+        },
+      },
+    }}
+    args={{
+      text: "Ghost Button",
+      style: "ghost",
+      isDisabled: false,
+      showIcon: true,
+      size: "default",
+      isResponsive: false,
+      background: "dark",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<button type="button" class="made-c-button made-c-button--ghost-on-dark">
+  Ghost Button
+  <svg
+    class="made-c-button__icon--ghost"
+    width="24"
+    height="16"
+    viewBox="0 0 24 16"
+    xmlns="http://www.w3.org/2000/svg">
+    <title>arrow-forward</title>
+    <path
+      d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
+      fill="currentColor"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>          
+`,
+        },
+      },
+    }}
+  >
+    >{button.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled States
+
+Styling for disabled state buttons is added when `disabled` attribute is added.
+
+<Canvas>
+  <Story name="Disabled States">
+    <button
+      type="button"
+      class="made-c-button made-c-button--primary made-u-margin-right-6-x"
+      aria-disabled="true"
+      disabled
+    >
+      Primary
+    </button>
+    <button
+      type="button"
+      class="made-c-button made-c-button--secondary made-u-margin-right-6-x"
+      aria-disabled="true"
+      disabled
+    >
+      Secondary
+    </button>
+    <button
+      type="button"
+      class="made-c-button made-c-button--ghost"
+      aria-disabled="true"
+      disabled
+    >
+      Ghost Button
+      <svg
+        class="made-c-button__icon--ghost"
+        width="24"
+        height="16"
+        viewBox="0 0 24 16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>arrow-forward</title>
+        <path
+          d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </Story>
+</Canvas>
+
+Can also be applied to disabled buttons on a dark background.
+
+<Canvas>
+  <Story
+    name="Disabled States on dark background"
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<button type="button" class="made-c-button made-c-button--primary-on-dark made-u-margin-right-6-x" aria-disabled="true" disabled>Primary</button>
+<button type="button" class="made-c-button made-c-button--secondary-on-dark made-u-margin-right-6-x" aria-disabled="true" disabled>Secondary</button>
+<button type="button" class="made-c-button made-c-button--ghost-on-dark" aria-disabled="true" disabled>
+  Ghost Button
+  <svg
+    class="made-c-button__icon--ghost"
+    width="24"
+    height="16"
+    viewBox="0 0 24 16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  <title>arrow-forward</title>
+  <path
+    d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
+    fill="currentColor"
+    fill-rule="evenodd"
+  />
+  </svg>
+</button>
+      `,
+        },
+      },
+    }}
+    decorators={[
+      (Story) => (
+        <div class="made-s-background-dark">
+          <button
+            type="button"
+            class="made-c-button made-c-button--primary made-u-margin-right-6-x"
+            aria-disabled="true"
+            disabled
+          >
+            Primary
+          </button>
+          <button
+            type="button"
+            class="made-c-button made-c-button--secondary made-u-margin-right-6-x"
+            aria-disabled="true"
+            disabled
+          >
+            Secondary
+          </button>
+          <button
+            type="button"
+            class="made-c-button made-c-button--ghost"
+            aria-disabled="true"
+            disabled
+          >
+            Ghost Button
+            <svg
+              class="made-c-button__icon--ghost"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>arrow-forward</title>
+              <path
+                d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      ),
+    ]}
+  ></Story>
+</Canvas>
+
+## Button With Icons
+
+Add an SVG to the button adding the `made-c-button__icon` class to add spacing.
+
+<Canvas>
+  <Story name="Button with Icons">
+    <button
+      type="button"
+      class="made-c-button made-c-button--primary made-c-button--icon made-u-margin-right-6-x"
+    >
+      Primary
+      <svg
+        class="made-c-button__icon"
+        width="24"
+        height="16"
+        viewBox="0 0 24 16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>arrow-forward</title>
+        <path
+          d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <button
+      type="button"
+      class="made-c-button made-c-button--secondary made-c-button--icon made-u-margin-right-6-x"
+    >
+      Secondary
+      <svg
+        class="made-c-button__icon"
+        width="24"
+        height="16"
+        viewBox="0 0 24 16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>arrow-forward</title>
+        <path
+          d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </Story>
+</Canvas>
+
+## Small Button
+
+Use the `made-c-button--small` class for a small button.
+
+<Canvas>
+  <Story name="Small Button">
+    <button
+      type="button"
+      class="made-c-button made-c-button--primary made-c-button--small made-u-margin-right-6-x"
+    >
+      Primary
+    </button>
+    <button
+      type="button"
+      class="made-c-button made-c-button--secondary made-c-button--small"
+    >
+      Secondary
+    </button>
+  </Story>
+</Canvas>
+
+## Responsive Button
+
+Add the Made width utility classes to adjust the width of the button e.g. `made-u-width--100` will change the button to 100% of the parent container.
+
+<Canvas>
+  <Story name="Responsive Button">
+    <button
+      type="button"
+      class="made-c-button made-c-button--primary made-u-width-100"
+    >
+      Primary
+    </button>
+  </Story>
+</Canvas>

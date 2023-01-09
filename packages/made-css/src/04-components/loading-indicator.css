@@ -1,0 +1,27 @@
+.made-c-loading {
+  animation: loading 0.75s linear infinite;
+  border: 1px solid var(--made-color-action-border-primary-default);
+  border-radius: 50%;
+  border-right-color: transparent;
+  vertical-align: text-bottom;
+}
+
+.made-c-loading--small {
+  height: var(--made-size-8-x);
+  width: var(--made-size-8-x);
+}
+
+.made-c-loading--large {
+  height: var(--made-size-16-x);
+  width: var(--made-size-16-x);
+}
+
+.made-c-loading__message {
+  margin-top: var(--made-space-5-x);
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}

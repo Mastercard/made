@@ -1,0 +1,705 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Utility Classes/Flex" />
+
+# Flex
+
+## Display Flex
+
+Apply flex utility classes to create a flexbox container and transform direct children elements into flex items. Flex containers and items are able to be modified further with additional flex properties.
+
+The classes are named using the format:
+
+-   `made-u-display-flex`
+-   `made-u-display-inline-flex`
+
+Responsive variations also exist for `d-flex` and `d-inline-flex`.
+
+-   `made-u-display-flex`
+-   `made-u-display-inline-flex`
+-   `made-u-display-flex--md`
+-   `made-u-display-inline-flex--md`
+-   `made-u-display-flex--lg`
+-   `made-u-display-inline-flex--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+## Flex Direction
+
+Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
+
+Use `made-u-flex-row` to set a horizontal direction (the browser default), or `made-u-flex-row-reverse` to start the horizontal direction from the opposite side.
+
+<Canvas>
+	<Story name="Flex Direction Row">
+		<div class="made-u-display-flex made-u-flex-row made-s-outline">
+			<div class="made-s-code-block">Flex item 1</div>
+			<div class="made-s-code-block">Flex item 2</div>
+			<div class="made-s-code-block">Flex item 3</div>
+		</div>
+		<div class="made-u-display-flex made-u-flex-row-reverse made-s-outline">
+			<div class="made-s-code-block">Flex item 1</div>
+			<div class="made-s-code-block">Flex item 2</div>
+			<div class="made-s-code-block">Flex item 3</div>
+		</div>
+	</Story>
+</Canvas>
+
+Use `made-u-flex-column` to set a vertical direction, or `made-u-flex-column-reverse` to start the vertical direction from the opposite side.
+
+<Canvas>
+	<Story name="Flex Direction Column">
+		<div class="made-u-display-flex made-u-flex-column made-u-margin-bottom-10-x">
+			<div class="made-s-code-block made-u-width-100">
+				Flex item 1
+			</div>
+			<div class="made-s-code-block made-u-width-100">
+				Flex item 2
+			</div>
+			<div class="made-s-code-block made-u-width-100">
+				Flex item 3
+			</div>
+		</div>
+		<div class="made-u-display-flex made-u-flex-column-reverse">
+			<div class="made-s-code-block made-u-width-100">
+				Flex item 1
+			</div>
+			<div class="made-s-code-block made-u-width-100">
+				Flex item 2
+			</div>
+			<div class="made-s-code-block made-u-width-100">
+				Flex item 3
+			</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for flex-direction.
+
+-   `made-u-flex-row`
+-   `made-u-flex-column`
+-   `made-u-flex-row-reverse`
+-   `made-u-flex-column-reverse`
+-   `made-u-flex-row--md`
+-   `made-u-flex-column--md`
+-   `made-u-flex-row-reverse--md`
+-   `made-u-flex-column-reverse--md`
+-   `made-u-flex-row--lg`
+-   `made-u-flex-column--lg`
+-   `made-u-flex-row-reverse--lg`
+-   `made-u-flex-column-reverse--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+## Justify Content
+
+Utilities for controlling how flex and grid items are positioned along a container's main axis.
+
+Use `made-u-justify-content` utility class on flexbox containers to change the alignment of flex items on the main axis (the x-axis to start, y-axis if flex-direction: column). Choose from `start` (browser default), `end`, `center`, `between`, `around`, or `evenly`.
+
+<Canvas>
+	<Story name="Justify Content">
+		<div class="made-u-display-flex made-u-justify-content-start made-s-outline made-u-margin-bottom-10-x">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-justify-content-end made-s-outline made-u-margin-bottom-10-x">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-justify-content-center made-s-outline made-u-margin-bottom-10-x">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-justify-content-between made-s-outline made-u-margin-bottom-10-x">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-justify-content-around made-s-outline made-u-margin-bottom-10-x">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-justify-content-evenly made-s-outline made-u-margin-bottom-10-x">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-justify-content`.
+
+-   `made-u-justify-content-start`
+-   `made-u-justify-content-end`
+-   `made-u-justify-content-center`
+-   `made-u-justify-content-between`
+-   `made-u-justify-content-around`
+-   `made-u-justify-content-evenly`
+-   `made-u-justify-content-start--md`
+-   `made-u-justify-content-end--md`
+-   `made-u-justify-content-center--md`
+-   `made-u-justify-content-between--md`
+-   `made-u-justify-content-around--md`
+-   `made-u-justify-content-evenly--md`
+-   `made-u-justify-content-start--lg`
+-   `made-u-justify-content-end--lg`
+-   `made-u-justify-content-center--lg`
+-   `made-u-justify-content-between--lg`
+-   `made-u-justify-content-around--lg`
+-   `made-u-justify-content-evenly--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+## Align Content
+
+Use `made-u-align-content` utility classes on flexbox containers to align flex items together on the cross axis. Choose from start (browser default), `end`, `center`, `between`, `around`, or `stretch`. To demonstrate these utilities, the examples below use the class `made-u-flex-wrap` and increased the number of flex items. __This property has no effect on single rows of flex items.__
+
+### Align Content Start
+
+Align content to the start of the cross axis.
+
+<Canvas>
+	<Story name="Align Content Start">
+		<div class="made-u-display-flex made-u-align-content-start made-u-flex-wrap made-s-outline made-s-outline--height-3">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+### Align Content End
+
+Align content to the end of the cross axis.
+
+<Canvas>
+	<Story name="Align Content End">
+		<div class="made-u-display-flex made-u-align-content-end made-u-flex-wrap made-s-outline made-s-outline--height-3">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+### Align Content Centre
+
+Align content to the center of the cross axis.
+
+<Canvas>
+	<Story name="Align Content Centre">
+		<div class="made-u-display-flex made-u-align-content-center made-u-flex-wrap made-s-outline made-s-outline--height-3">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+### Align Content Between
+
+Distribute content evenly. First line is on the start of the cross axis, last line is on the end of the cross axis.
+
+<Canvas>
+	<Story name="Align Content Between">
+		<div class="made-u-display-flex made-u-align-content-between made-u-flex-wrap made-s-outline made-s-outline--height-3">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+### Align Content Around
+
+Stretch items from the start of the cross axis to the end of the cross axis.
+
+<Canvas>
+	<Story name="Align Content Around">
+		<div class="made-u-display-flex made-u-align-content-around made-u-flex-wrap made-s-outline made-s-outline--height-3">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+### Align Content Stretch
+
+Items stretch to occupy available space.
+
+<Canvas>
+	<Story name="Align Content Stretch">
+		<div class="made-u-display-flex made-u-align-content-stretch made-u-flex-wrap made-s-outline made-s-outline--height-3">
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-align-content`.
+
+- `made-u-align-content-start`
+- `made-u-align-content-end`
+- `made-u-align-content-center`
+- `made-u-align-content-between`
+- `made-u-align-content-around`
+- `made-u-align-content-stretch`
+- `made-u-align-content-start--md`
+- `made-u-align-content-end--md`
+- `made-u-align-content-center--md`
+- `made-u-align-content-between--md`
+- `made-u-align-content-around--md`
+- `made-u-align-content-stretch--md`
+- `made-u-align-content-start--lg`
+- `made-u-align-content-end--lg`
+- `made-u-align-content-center--lg`
+- `made-u-align-content-between--lg`
+- `made-u-align-content-around--lg`
+- `made-u-align-content-stretch--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+## Align Items
+
+Use `made-u-align-items` utilities on flexbox containers to change the alignment of flex items on the cross axis (the y-axis to start, x-axis if flex-direction: column). Choose from `start`, `end`, `center`, `baseline`, or `stretch` (browser default).
+
+<Canvas>
+	<Story name="Align Items">
+		<div class="made-u-display-flex made-u-align-items-start made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-align-items-end made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-align-items-center made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-align-items-baseline made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+		<div class="made-u-display-flex made-u-align-items-stretch made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex Item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex Item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex Item
+			</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for align-items.
+
+-   `made-u-align-items-start`
+-   `made-u-align-items-end`
+-   `made-u-align-items-center`
+-   `made-u-align-items-baseline`
+-   `made-u-align-items-stretch`
+-   `made-u-align-items-start--md`
+-   `made-u-align-items-end--md`
+-   `made-u-align-items-center--md`
+-   `made-u-align-items-baseline--md`
+-   `made-u-align-items-stretch--md`
+-   `made-u-align-items-start--lg`
+-   `made-u-align-items-end--lg`
+-   `made-u-align-items-center--lg`
+-   `made-u-align-items-baseline--lg`
+-   `made-u-align-items-stretch--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+## Align Self
+
+Use `made-u-align-self` utilities on flexbox items to individually change their alignment on the cross axis (the y-axis to start, x-axis if flex-direction: column). Choose from the same options as `align-items`: `start`, `end`, `center`, `baseline`, or `stretch` (browser default).
+
+<Canvas>
+	<Story name="Align Self">
+		<div class="made-u-display-flex made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height made-u-align-self-start">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+		</div>
+		<div class="made-u-display-flex made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height made-u-align-self-end">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+		</div>
+		<div class="made-u-display-flex made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height made-u-align-self-center">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+		</div>
+		<div class="made-u-display-flex made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height made-u-align-self-baseline">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+		</div>
+		<div class="made-u-display-flex made-s-outline made-s-outline--height-2">
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height made-u-align-self-stretch">
+				Flex item
+			</div>
+			<div class="made-s-code-block made-s-code-block--auto-height">
+				Flex item
+			</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-align-self`.
+
+-   `made-u-align-self-auto`
+-   `made-u-align-self-start`
+-   `made-u-align-self-end`
+-   `made-u-align-self-center`
+-   `made-u-align-self-baseline`
+-   `made-u-align-self-stretch`
+-   `made-u-align-self-auto--md`
+-   `made-u-align-self-start--md`
+-   `made-u-align-self-end--md`
+-   `made-u-align-self-center--md`
+-   `made-u-align-self-baseline--md`
+-   `made-u-align-self-stretch--md`
+-   `made-u-align-self-auto--lg`
+-   `made-u-align-self-start--lg`
+-   `made-u-align-self-end--lg`
+-   `made-u-align-self-center--lg`
+-   `made-u-align-self-baseline--lg`
+-   `made-u-align-self-stretch--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+## Flex
+
+Use this class to specify the ability of a flex item to alter its dimensions to fill available space.
+
+### Flex 1
+
+Adding `made-u-flex-1` makes the item grow in size to take up all the space that is available. Adding `made-u-flex-1` to all flex items results in each item having the same size.
+
+<Canvas>
+	<Story name="Flex 1">
+		<div class="made-u-display-flex">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block made-u-flex-1">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-1`.
+
+- `made-u-flex-1`
+- `made-u-flex-1--md`
+- `made-u-flex-1--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+### Flex Auto
+
+Use `made-u-flex-auto` fills the available space but also takes the size of the content into account.
+
+<Canvas>
+	<Story name="Flex Auto">
+		<div class="made-u-display-flex">
+			<div class="made-s-code-block made-u-flex-1">Flex Item</div>
+			<div class="made-s-code-block made-u-flex-auto">Flex Item With More Text Than Other Flex Items</div>
+			<div class="made-s-code-block made-u-flex-1">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-auto`.
+
+- `made-u-flex-auto`
+- `made-u-flex-auto--md`
+- `made-u-flex-auto--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+## Grow & Shrink
+
+Use the `made-u-flex-grow` and `made-u-flex-shrink` utility classes to specify the ability of a flex item to grow or shrink.
+
+### Flex Grow
+
+Use `made-u-flex-grow-1` utility classes to toggle a flex item’s ability to grow to fill available space.
+
+<Canvas>
+	<Story name="Flex Grow">
+		<div class="made-u-display-flex">
+			<div class="made-s-code-block made-u-flex-grow-1">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-grow`.
+
+- `made-u-flex-grow-1`
+- `made-u-flex-grow-1--md`
+- `made-u-flex-grow-1--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+### Flex No Grow
+
+Use the `made-u-flex-grow-0` utility class to prevent a flex item from growing.
+
+<Canvas>
+	<Story name="Flex No Grow">
+		<div class="made-u-display-flex">
+			<div class="made-s-code-block made-u-flex-grow-1">Flex Item</div>
+			<div class="made-s-code-block made-u-flex-grow-0">Flex Item</div>
+			<div class="made-s-code-block made-u-flex-grow-1">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-grow-0`.
+
+- `made-u-flex-grow-0`
+- `made-u-flex-grow-0--md`
+- `made-u-flex-grow-0--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+### Flex Shrink
+
+Use `made-u-flex-shrink-1` utility classes to toggle a flex item’s ability to shrink if necessary. In the example below, the second flex item with `made-u-flex-shrink-1` is forced to wrap its contents to a new line, “shrinking” to allow more space for the previous flex item with `made-u-width-100`.
+
+<Canvas>
+	<Story name="Flex Shrink">
+		<div class="made-u-display-flex">
+			<div class="made-s-code-block made-u-width-100">Flex Item</div>
+			<div class="made-s-code-block made-u-flex-shrink-1">Flex Item Shrink</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-shrink-1`.
+
+- `made-u-flex-shrink-1`
+- `made-u-flex-shrink-1--md`
+- `made-u-flex-shrink-1--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+### Flex No Shrink
+
+Use the `made-u-flex-shrink-0` utility class to prevent a flex item from shrinking.
+
+<Canvas>
+	<Story name="Flex No Shrink">
+		<div class="made-u-display-flex">
+			<div class="made-s-code-block made-u-flex-1">Flex Item</div>
+			<div class="made-s-code-block made-u-flex-shrink-0 made-u-width-50">Flex Item</div>
+			<div class="made-s-code-block made-u-flex-1">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-shrink-0`.
+
+- `made-u-flex-shrink-0`
+- `made-u-flex-shrink-0--md`
+- `made-u-flex-shrink-0--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+
+## Flex Wrap & No Wrap
+
+Choose how flex items wrap in a flex container. Choose from no wrapping at all (the browser default) with `made-u-flex-nowrap`, wrapping with `made-u-flex-wrap`, or reverse wrapping with `made-u-flex-wrap-reverse`.
+
+### Flex Wrap
+
+<Canvas>
+	<Story name="Flex Wrap">
+		<div class="made-u-display-flex made-u-flex-wrap">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-wrap`.
+
+- `made-u-flex-wrap`
+- `made-u-flex-wrap--md`
+- `made-u-flex-wrap--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+### Flex No Wrap
+
+Use `made-u-flex-nowrap` to prevent flex items from wrapping, causing inflexible items to overflow the container if necessary.
+
+<Canvas>
+	<Story name="Flex No Wrap">
+		<div class="made-u-display-flex made-u-flex-nowrap">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-nowrap`.
+
+- `made-u-flex-nowrap`
+- `made-u-flex-nowrap--md`
+- `made-u-flex-nowrap--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.
+
+### Flex Wrap Reverse
+
+Use `made-u-flex-wrap-reverse` to wrap flex items in the reverse direction.
+
+<Canvas>
+	<Story name="Flex Wrap Reverse">
+		<div class="made-u-display-flex made-u-flex-wrap-reverse">
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+			<div class="made-s-code-block">Flex Item</div>
+		</div>
+	</Story>
+</Canvas>
+
+Responsive variations also exist for `made-u-flex-wrap-reverse`.
+
+- `made-u-flex-wrap-reverse`
+- `made-u-flex-wrap-reverse--md`
+- `made-u-flex-wrap-reverse--lg`
+
+Responsive classes align with the medium and large breakpoints as outlined on the <a onClick={linkTo("foundations-grid--overview")}>Grid</a> page.

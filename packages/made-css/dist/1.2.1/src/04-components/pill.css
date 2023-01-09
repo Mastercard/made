@@ -1,0 +1,33 @@
+.made-c-pill {
+  background-color: var(--made-color-background-gray-lightest);
+  font-size: var(--made-font-body-size-small);
+  line-height: var(--made-line-height-single);
+  display: inline-flex;
+  align-items: center;
+  padding: var(--made-space-2-x) var(--made-space-2-x) var(--made-space-2-x)
+    var(--made-space-2-x);
+  border-radius: var(--made-pill-border-radius);
+}
+
+.made-c-pill__button {
+  display: inline-flex;
+  padding: 0;
+  margin-left: var(--made-space-2-x);
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.made-c-pill__button:focus {
+  outline: 2px solid var(--made-color-action-border-focus);
+  outline-offset: 2px;
+}
+
+.made-c-pill__button:hover {
+  opacity: var(--made-opacity-75);
+}
+
+.made-c-pill__icon {
+  height: var(--made-size-3-x);
+  width: var(--made-size-3-x);
+}

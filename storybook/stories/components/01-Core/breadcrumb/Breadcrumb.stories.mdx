@@ -1,0 +1,208 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { Breadcrumb } from "./Breadcrumb";
+
+<Meta
+  title="Navigation/Breadcrumb"
+  parameters={{
+    badges: [BADGE.OBSOLETE],
+  }}
+/>
+
+export const breadcrumb = (args) => <Breadcrumb {...args} />;
+
+# Breadcrumb
+
+## Default
+
+<Canvas>
+  <Story
+    name="Default"
+    argTypes={{
+      isHomeIcon: {
+        name: "Show Home Icon",
+      },
+      links: {
+        name: "Links",
+        control: {
+          type: "array",
+        },
+      },
+      isBackground: {
+        name: "Background",
+      },
+      currentPage: {
+        name: "Current Page",
+      },
+    }}
+    args={{
+      isHomeIcon: true,
+      links: ["Page level 1", "Page level 2"],
+      isBackground: false,
+      currentPage: "Current page",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+          <nav class="made-c-breadcrumb">
+      <ol class="made-c-breadcrumb__list">
+        <li class="made-c-breadcrumb__item">
+          <a href="" class="made-c-breadcrumb__link--home">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="made-c-breadcrumb__icon">
+              <title>home</title>
+              <path d="M3 11v11h6v-8h6v8h6V11h1v12h-8v-8h-4v8H2V11h1zm9-9.784l7 5.086V3h1v4.028l3.25 2.362-.587.808L12 2.452 1.337 10.198.75 9.39 12 1.216z" fill="currentColor" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item">
+          <a href="#" class="made-c-breadcrumb__link">
+            Page level 1
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item">
+          <a href="#" class="made-c-breadcrumb__link">
+            Page level 2
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item made-c-breadcrumb__item--active">
+          Current page
+        </li>
+      </ol>
+    </nav>`,
+        },
+      },
+    }}
+  >
+    >{breadcrumb.bind({})}
+  </Story>
+</Canvas>
+
+## Home Text Link
+
+The breadcrumb can also be displayed without the Home icon at the start of the breadcrumb and text used instead.
+
+<Canvas>
+  <Story
+    name="Home Text Link"
+    argTypes={{
+      isHomeIcon: {
+        name: "Show Home Icon",
+      },
+      links: {
+        name: "Links",
+        control: {
+          type: "array",
+        },
+      },
+      isBackground: {
+        name: "Background",
+      },
+      currentPage: {
+        name: "Current Page",
+      },
+    }}
+    args={{
+      isHomeIcon: false,
+      links: ["Page level 1", "Page level 2"],
+      isBackground: false,
+      currentPage: "Current page",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+  <nav class="made-c-breadcrumb">
+      <ol class="made-c-breadcrumb__list">
+        <li class="made-c-breadcrumb__item">
+          <a href="" class="made-c-breadcrumb__link">
+            Home
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item">
+          <a href="#" class="made-c-breadcrumb__link">
+            Page level 1
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item">
+          <a href="#" class="made-c-breadcrumb__link">
+            Page level 2
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item made-c-breadcrumb__item--active">
+          Current page
+        </li>
+      </ol>
+    </nav>`,
+        },
+      },
+    }}
+  >
+    >{breadcrumb.bind({})}
+  </Story>
+</Canvas>
+
+## Background
+
+<Canvas>
+  <Story
+    name="Background"
+    argTypes={{
+      isHomeIcon: {
+        name: "Show Home Icon",
+      },
+      links: {
+        name: "Links",
+        control: {
+          type: "array",
+        },
+      },
+      isBackground: {
+        name: "Background",
+      },
+      currentPage: {
+        name: "Current Page",
+      },
+    }}
+    args={{
+      isHomeIcon: true,
+      links: ["Page level 1", "Page level 2"],
+      isBackground: true,
+      currentPage: "Current page",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+  <nav class="made-c-breadcrumb made-c-breadcrumb--background">
+      <ol class="made-c-breadcrumb__list">
+        <li class="made-c-breadcrumb__item made-c-breadcrumb__icon--home">
+          <a href="" class="made-c-breadcrumb__link--home">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="made-c-breadcrumb__icon">
+              <title>people &amp; places / home</title>
+              <path d="M3 11v11h6v-8h6v8h6V11h1v12h-8v-8h-4v8H2V11h1zm9-9.784l7 5.086V3h1v4.028l3.25 2.362-.587.808L12 2.452 1.337 10.198.75 9.39 12 1.216z" fill="currentColor" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item">
+          <a href="#" class="made-c-breadcrumb__link">
+            Page level 1
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item">
+          <a href="#" class="made-c-breadcrumb__link">
+            Page level 2
+          </a>
+        </li>
+        <li class="made-c-breadcrumb__item made-c-breadcrumb__item--active">
+          Current page
+        </li>
+      </ol>
+    </nav>`,
+        },
+      },
+    }}
+  >
+    >{breadcrumb.bind({})}
+  </Story>
+</Canvas>

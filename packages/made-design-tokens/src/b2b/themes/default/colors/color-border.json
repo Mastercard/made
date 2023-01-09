@@ -1,0 +1,20 @@
+{
+  "color": {
+    "border": {
+      "default": {
+        "on-light": {
+          "comment": "Default Border color used for layout elements e.g. accordion, table.",
+          "value": "{color.gray.02.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-dark": {
+          "comment": "Default Border color used for layout elements on a dark background.",
+          "value": "{color.gray.05.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

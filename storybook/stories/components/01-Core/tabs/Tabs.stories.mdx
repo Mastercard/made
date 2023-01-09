@@ -1,0 +1,80 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { Tabs } from "./Tabs";
+
+<Meta
+  title="Navigation/Tabs"
+  parameters={{
+    badges: [BADGE.OBSOLETE],
+  }}
+/>
+
+export const tabs = (args) => <Tabs {...args} />;
+
+# Tabs
+
+Add the `made-c-tabs__link--active` to a link for selected link styling. Use the `made-c-tabs__content--active` to show content panels.
+
+<Canvas>
+  <Story
+    name="Default"
+    argTypes={{
+      tabs: {
+        name: "Tabs",
+        control: {
+          type: "array",
+        },
+      },
+      content: {
+        name: "Content",
+      },
+    }}
+    args={{
+      tabs: ["Tab 1", "Tab 2", "Tab 3"],
+      content: "Tab Content 1",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+  <div>
+      <ul class="made-c-tabs__list">
+        <li class="made-c-tabs__item">
+          <a href="" class="made-c-tabs__link made-c-tabs__link--active">
+            Tab 1
+          </a>
+        </li>
+        <li class="made-c-tabs__item">
+          <a href="" class="made-c-tabs__link">
+            Tab 2
+          </a>
+        </li>
+        <li class="made-c-tabs__item">
+          <a href="" class="made-c-tabs__link">
+            Tab 3
+          </a>
+        </li>
+      </ul>
+      <div>
+        <div
+          class="made-c-tabs__content made-c-tabs__content--active"
+          role="tabpanel"
+          id="tab-1"
+        >
+          Tab Content 1
+        </div>
+        <div class="made-c-tabs__content" role="tabpanel" id="tab-2">
+          Tab Content 2
+        </div>
+        <div class="made-c-tabs__content" role="tabpanel" id="tab-3">
+          Tab Content 3
+        </div>
+      </div>
+    </div>`,
+        },
+      },
+    }}
+  >
+    >{tabs.bind({})}
+  </Story>
+</Canvas>

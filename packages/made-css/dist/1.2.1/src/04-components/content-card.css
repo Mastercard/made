@@ -1,0 +1,15 @@
+.made-c-card {
+  padding: var(--made-space-6-x) var(--made-space-4-x);
+  border-radius: var(--made-border-radius-large);
+  border: 1px solid var(--made-color-border-default-on-light);
+}
+
+.made-c-card--shadow {
+  box-shadow: var(--made-shadow-default);
+}
+
+.made-c-card__cta {
+  margin-top: var(--made-space-4-x);
+  display: flex;
+  justify-content: flex-end;
+}

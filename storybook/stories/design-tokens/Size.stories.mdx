@@ -1,0 +1,44 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import data from "../assets/data/tokens.json";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta title="Design Tokens/Size" parameters={{  }} />
+
+# Size
+
+Use sizing tokens to set elements to our sizing scale. Size tokens can be used for the width and height properties.
+
+<Story name="Size">
+  <table className="made-c-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.size.size).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  width: `${[token.value]}`,
+                  height: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.value}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>

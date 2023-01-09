@@ -1,0 +1,80 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+
+<Meta title="Utility Classes/Space" />
+
+# Space
+
+Our pre-defined spacing system makes it easier for designers and developers to maintain consistency across all applications.
+When applied consistently, spacing creates a visual balance that’s easier for users to scan and engage with content.
+
+## The Spacing System
+
+We use a 4px spacing scale for components, typography and layout to give a predictable rhythm.
+
+## Spacing Helper Classes
+
+Made. provide developers with helper classes to give the flexibility to add required margins to Made. components.
+
+The classes are named using the format {namespace}-{prefix}-{property}-{side}-{scale} e.g. `made-u-margin-top-1-x`
+
+- Where namespace is `made`.
+- Where prefix is `u` for utility (see naming conventions).
+- Where property is `margin`
+- Where side is one of `top`, `left`, `bottom`, `right`,
+- Where scale is defined as design tokens `1` to `20`.
+
+### Margin
+
+Margin helper classes are used in the examples below to add spacing between elements.
+
+(Classes beginning with `made-s` are styled for demo purposes only and can be replaced with project code.)
+
+<Canvas>
+  <Story name="Margin Top">
+    <div class="made-s-spacing">
+      <div class="made-u-margin-top-1-x made-s-code-block"></div>
+    </div>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Margin Right">
+    <div class="made-s-spacing">
+      <div class="made-u-margin-right-5-x made-s-code-block"></div>
+    </div>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Margin Bottom">
+    <div class="made-s-spacing">
+      <div class="made-u-margin-bottom-10-x made-s-code-block"></div>
+    </div>
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Margin Left">
+    <div class="made-s-spacing">
+      <div class="made-u-margin-left-15-x made-s-code-block"></div>
+    </div>
+  </Story>
+</Canvas>
+
+### Responsive Breakpoints
+
+Spacing classes can be made responsive by appending the breakpoint to the class. Two breakpoints are provided: `md` and `lg`. Customise your margins on small, medium and large devices.
+
+- Device width is less than 600px wide no breakpoint needs to be appended to the class.
+- Device width is 600px wide or more the `md` breakpoint can be appended to the class in order to use a different margin at or above 600px.
+- Device width is 960px wide or more the `lg` breakpoint can be appended to the class in order to use a different margin at or above 960px.
+
+Example below shows how these responsive classes can be used to apply different margin-top to an element at three different device widths.
+
+<Canvas>
+  <Story name="Responsive Breakpoints">
+    <div class="made-s-spacing">
+      <div class="made-u-margin-top-1-x made-u-margin-top--md-2-x made-u-margin-top--lg-3-x made-s-code-block"></div>
+    </div>
+  </Story>
+</Canvas>

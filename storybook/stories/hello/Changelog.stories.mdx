@@ -1,0 +1,187 @@
+
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+
+<Meta title="Hello/Changelog" />
+
+# Changelog
+
+## CSS
+
+### v1.2.1
+
+#### Fixes  🐛
+
+ - Set aria-disabled to true 
+ - Add styles for tour to override tooltip styles
+
+### v1.2.0
+
+#### Features 🚀
+
+- Grid Offfset: Move columns to the right along the grid using offset column classes
+- Aria Disabled: Aria disabled attribute now styled the same as the disabled attribute
+- Accessibility Utility Classes to hide an element visually without hiding it from screen readers
+- Display Utility Classes to control the display box type of an element ranging from block, flex, table, inline etc.
+- Flex Classes to apply responsive flex utility classes to create various flex styles for controlling layout of elements
+- Opacity utilities for controlling the opacity of an element ranging from 0, 15, 25, 50, 75, 100
+- Text Styling Utility Classes for common text styling to control styles, alignment, whitespace and wrapping
+- Vertical Align utilities to control the vertical alignment of an inline or table-cell box
+- Tooltip: A new trigger element has been added to the tooltip component to enable the tooltip to be made visible or hidden on interaction
+- Selected State: New selected state design tokens have been added and are used for the selected state colour in the data table and multi select components
+
+#### Fixes  🐛
+
+- Progress Stepper: Current step now themeable
+- File Upload: Text no longer overflows on small screen and spacing increased between file name and link
+- Text Input: Form label on success state now uses success colour instead of default colour
+- Text Input: Line-height removed from validation label on error state
+- Typography: Margin-bottom of paragraph changed from 20px to 16px
+- Action Bar: Padding-left removed from first item
+- Checkbox: Replaced check mark SVG icons with CSS now used to create them and enable theming
+- Breadcrumb: Replaced arrow SVG icons with CSS now used to create them and enable theming
+- Date Picker: Replaced arrow SVG icons with CSS now used to create them and enable theming
+- Branding: Dark background class added
+
+### v1.1.0
+
+#### Features 🚀
+
+- Action bar
+- Branding
+- Date Picker
+- General Close Button
+- Overflow Menu (Multi-line with Icons)
+- Password Strength Indicator
+- Select (Multiple Select)
+
+
+#### Fixes  🎨🐛
+
+- Checkbox: removed margin-bottom from checkbox
+- Pagination: focus state on buttons reduced
+
+### v1.0.0
+
+#### Features 🚀
+
+- Footer
+- Carousel
+- Scrollbar
+- Breadcrumb
+- Pagination
+- Tour 
+- Progress Indicator (Steps Horizontal)
+- Card (Generic)
+- Pill
+- Overflow Menu (Multi-line)
+- Select (Searchable)
+- Compiled CSS including CSS custom properties (made-css-variables.css/made-css-variables.min.css/)
+- New `made-u-body--small` class and `made-u-helper-text` for styling body text
+
+#### Fixes  🎨🐛
+
+- Tooltip: Removed line-height from tooltip to support multiple lines and Max-width added.
+- Spacing:  All responsive classes (md, lg) renamed to e.g. `made-u-margin-top--md-13-x` to add consistency across library. `.made-u-margin-top-9-x--md` naming convention deprecated.
+- Width:  All responsive classes (md, lg) renamed to e.g. `made-u-width--md-13-x` to add consistency across library. `.made-u-width-9-x--md` naming convention deprecated.
+- File Upload: Finder is now opened on click of the entire drop zone
+- Ghost Button: removed padding left and right from ghost button
+
+### v1.0.1-beta
+
+#### Fixes 🐛
+
+* fix: Add fallback font for custom fonts
+
+### v1.0.0-beta  🚀
+
+* feat: Add core components
+
+----
+
+## Design Tokens
+
+### 2.1.1 
+
+#### Features 🚀
+
+* New Tokens for global disabled colours
+* New Tokens for interactive states hover and selected
+* New Tokens for action colours
+* New Tokens for brand secondary colours
+* New Tokens for global colours
+* New Tokens for Opacity 15 and 25 values
+* New tokens - font family heading and eyebrow
+* New tokens - font weight
+* New token for made-letter-spacing-eyebrow
+* New tokens for Line height single, default, heading
+* New border radius tokens 
+* Token values are not cascaded in json format.
+* Deprecated tokens are flagged and are now in dedicated depreacted file. If you need to continue using these tokens you will need to import seperately. 
+* Themeable tokens are flagged and are now in dedicated tokens file.
+
+#### Fixes 🐛
+
+* Global feedback colour changed name from color-brand- to color-feedback-
+* Form token made-forms-color-border-default value change from gray 03.5 to gray 05
+* Fallback fonts added to Font family token values
+* made-color-feedback-error value changed to #EE0000
+* made-color-feedback-success value changed to #038A00
+
+
+#### Tokens to be deprecated ⚠️
+
+ * Review Storybook documentation under Colors -> Deprecated tokens. 
+ Contact Made. Team is using any of these tokens and we can review timelines for removing deprecated tokens.
+
+
+### v1.2.2-beta
+
+#### Features 🚀
+
+- New Tokens for opacity
+- New token for made-color-background-gray-lightest. Used on Breadcrumb and Pill components.
+- New token for made-color-text-helper. 
+- Deprecating: made-forms-color-text-placeholder: replace with the made-color-text-default-on-light token
+- Deprecating: made-forms-color-text-hint: replace with the made-color-text-helper token
+
+### v1.2.1-beta
+
+#### Features 🚀
+
+* New Tokens for time
+* New tokens-variables.css file with css variables that inherit global tokens
+* New token for Primary Text Color
+* New token for Narrow Body Font
+* New tokens values for made-font-size-07 and above, new tokens added for 18px and 32px. 
+
+#### Fixes 🐛
+
+* Display 02 is now using Mark Font Light value
+* H5 and H6 is now using Mark Font Medium value
+* Size tokens now use rems
+* Form placeholder color is now gray 4
+
+### v1.1.1-beta
+
+#### Features 🚀
+
+* Support for B2B Theme Web Design Tokens (NPM Module in Artifactory in CSS, CSS preprocessor and JSON formats).
+
+### v1.0.1
+
+#### Features 🚀
+
+* Examples Project for iOS and Android.
+
+
+### v1.0.0
+
+#### Features 🚀
+
+* Support for Android Color, Typography and Spacing Design Tokens (AAR file in Artifactory that you can use as a dependency for an Android app module).
+
+* Support for iOS Color, Typography and Spacing Design Tokens (available in an asset catalog as a colorset and Swift Formats).
+
+
+
+

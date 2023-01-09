@@ -1,0 +1,86 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 08 Jan 2023 17:40:51 GMT
+ */
+
+:root {
+  --made-line-height-heading: 1.25; /* Headings line-height */
+  --made-line-height-default: 1.5; /* Default line height. */
+  --made-line-height-single: 1; /* Line height for single line text elements displayed in components */
+  --made-letter-spacing-eyebrow: 1.8px; /* Default letter spacing for all text. */
+  --made-letter-spacing-default: normal; /* Default letter spacing for all text. */
+  --made-font-family-eyebrow: MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif; /* Font family for headings (H1,H2 and display text) */
+  --made-font-family-heading: MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif; /* Font family for headings (H1,H2 and display text) */
+  --made-shadow-default: 0 2px 10px 0 rgba(20,20,19,0.20); /* Shadow for all content cards, dropdowns, dialogs, datepicker etc. */
+  --made-backdrop-color-background: rgba(20,20,19,0.7); /* Background on overlay used with modals */
+  --made-color-text-default-on-dark: #ffffff; /* Color of body text on dark background. */
+  --made-color-feedback-success: #038a00; /* Color for success or positive state */
+  --made-color-feedback-error: #ee0000; /* Color for error state */
+  --made-color-brand-on-secondary: #ffffff; /* The text color on your secondary brand color */
+  --made-color-brand-on-primary: #ffffff; /* The text color on your primary brand color */
+  --made-color-action-on-dark-default: #ffffff; /* Color of interactive color on dark background e.g. buttons */
+  --made-font-body-family-bold: var(--made-font-family-medium); /* Font family for bold body text. */
+  --made-font-body-family-default: var(--made-font-family-regular); /* Default font family for body text. */
+  --made-font-body-family-narrow: var(--made-font-family-narrow); /* Default font family for narrow/small text. Used on tooltip and notification */
+  --made-font-body-weight-bold: var(--made-font-weight-bold); /* Bold font weight for body text. */
+  --made-font-body-weight-default: var(--made-font-weight-default); /* Default font weight for body text. */
+  --made-font-body-size-small: var(--made-font-size-02); /* Small font size for body text. */
+  --made-font-body-size-default: var(--made-font-size-04); /* Default font size for body text. */
+  --made-font-body-size-large: var(--made-font-size-06); /* Large font size for body text. */
+  --made-font-heading-size-display-03: var(--made-font-size-11); /* Font Size for Display 03. */
+  --made-font-heading-size-display-02: var(--made-font-size-13); /* Font Size for Display 02. */
+  --made-font-heading-size-display-01: var(--made-font-size-15); /* Font Size for Display 01. */
+  --made-font-heading-size-level-06: var(--made-font-size-06); /* Font Size for Heading 6 (H6) */
+  --made-font-heading-size-level-05: var(--made-font-size-07); /* Font Size for Heading 5 (H5) */
+  --made-font-heading-size-level-04: var(--made-font-size-08); /* Font Size for Heading 4 (H4) */
+  --made-font-heading-size-level-03: var(--made-font-size-09); /* Font Size for Heading 3 (H3) */
+  --made-font-heading-size-level-02: var(--made-font-size-10); /* Font Size for Heading 2 (H2) */
+  --made-font-heading-size-level-01: var(--made-font-size-11); /* Font Size for Heading 1 (H1) */
+  --made-grid-margin-lg: var(--made-space-4-x); /* Margin size on large breakpoint. */
+  --made-grid-margin-md: var(--made-space-4-x); /* Margin size on medium breakpoint. */
+  --made-grid-margin-sm: var(--made-space-2-x); /* Margin size on small breakpoint. */
+  --made-grid-gutters-lg: var(--made-space-4-x); /* Gutter size on large breakpoint. */
+  --made-grid-gutters-md: var(--made-space-4-x); /* Gutter size on medium breakpoint. */
+  --made-grid-gutters-sm: var(--made-space-2-x); /* Grid gutter size on small breakpoint. */
+  --made-forms-color-border-default: var(--made-color-gray-05); /* Default border color for forms. */
+  --made-scrollbar-color-background: var(--made-color-gray-03); /* Background color for scrollbar component */
+  --made-header-color-background: var(--made-color-gray-07); /* Background color for header component */
+  --made-footer-color-background: var(--made-color-gray-07); /* Background color for footer component */
+  --made-color-text-helper: var(--made-color-gray-05); /* Text color of helper text on forms, cards etc. */
+  --made-color-text-default-on-light: var(--made-color-gray-07); /* Color of body text on light background. */
+  --made-color-feedback-warning: var(--made-color-gold-04); /* Color for warning state */
+  --made-color-feedback-information: var(--made-color-yellow-04); /* Color for neutral or optional state */
+  --made-color-brand-secondary: var(--made-color-orange-04); /* The secondary color of your brand */
+  --made-color-brand-primary: var(--made-color-orange-04); /* The primary color of your brand */
+  --made-color-border-default-on-dark: var(--made-color-gray-05); /* Default Border color used for layout elements on a dark background. */
+  --made-color-border-default-on-light: var(--made-color-gray-02); /* Default Border color used for layout elements e.g. accordion, table. */
+  --made-color-background-gray-lightest: var(--made-color-gray-01-5); /* Used on background of breadcrumb and pill components. */
+  --made-color-background-default: var(--made-color-white); /* Main background color of the application. */
+  --made-color-action-text-on-disabled: var(--made-color-text-default-on-dark); /* Text color on top of disabled state color */
+  --made-color-action-text-on-dark: var(--made-color-gray-07); /* Text color on top of interactive color on a dark background */
+  --made-color-action-background-hover: var(--made-color-gray-01-25); /* Background color for hover state of UI Elements such as tables, dropdowns... */
+  --made-color-action-background-selected-hover: var(--made-color-gray-02); /* Background color for hover state of on selected UI Elements */
+  --made-color-action-background-selected: var(--made-color-gray-01-5); /* Background color for selected state of UI Elements such as tables, dropdowns... */
+  --made-color-action-disabled: var(--made-color-gray-03); /* Global color for disabled state. */
+  --made-color-action-on-dark-active: var(--made-color-gray-03); /* Text color of secondary interactive color on dark background e.g. buttons. */
+  --made-color-action-on-dark-hover: var(--made-color-gray-02); /* Text color of secondary interactive color on dark background e.g. buttons. */
+  --made-color-action-primary-active: var(--made-color-orange-07); /* Color of primary interactive color on active  e.g. buttons */
+  --made-color-action-primary-hover: var(--made-color-orange-05); /* Color of primary interactive color on hover  e.g. buttons */
+  --made-pill-border-radius: var(--made-border-radius-05); /* Pill Border Radius */
+  --made-button-border-radius: var(--made-border-radius-07); /* Button Border Radius */
+  --made-border-radius-large: var(--made-border-radius-04); /* Large border radius for UI components */
+  --made-border-radius-default: var(--made-border-radius-02); /* Default border radius for UI components */
+  --made-border-radius-small: var(--made-border-radius-01); /* Small border radius for UI components */
+  --made-font-heading-size-eyebrow-02: var(--made-font-body-size-large); /* Font size for default eyebrow text */
+  --made-font-heading-size-eyebrow-01: var(--made-font-body-size-small); /* Font size for small eyebrow text */
+  --made-forms-color-background-default: var(--made-color-background-default); /* Default background color for forms. */
+  --made-color-action-text-on-hover: var(--made-color-text-default-on-light); /* Text color on top of hover state of UI Elements */
+  --made-color-action-secondary-active: var(--made-color-action-primary-active); /* Color of secondary interactive color  e.g. secondary button */
+  --made-color-action-secondary-hover: var(--made-color-action-primary-hover); /* Color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-secondary-default: var(--made-color-brand-secondary); /* Color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-primary-default: var(--made-color-brand-primary); /* Color of primary interactive color e.g. buttons */
+  --made-link-color-default: var(--made-color-action-primary-default); /* Text color for link */
+  --made-color-action-text-on-selected-hover: var(--made-color-action-primary-default); /* Text color on top of hover and selected state of UI Elements */
+  --made-color-action-text-on-selected: var(--made-color-action-primary-default); /* Text color on top of selected state of UI Elements */
+  --made-color-action-border-focus: var(--made-color-action-primary-default); /* Outline color for focus state. */
+}

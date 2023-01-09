@@ -1,0 +1,123 @@
+.made-c-range-slider--disabled {
+  opacity: var(--made-opacity-50);
+}
+
+.made-c-range-slider__label {
+  font-size: var(--made-font-body-size-small);
+  font-weight: var(--made-font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--made-font-heading-letter-spacing-eyebrow-01);
+}
+
+.made-c-range-slider__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.made-c-range-slider__min-value {
+  font-size: var(--made-font-body-size-large);
+  margin-right: var(--made-space-4-x);
+}
+
+.made-c-range-slider__max-value {
+  font-size: var(--made-font-body-size-large);
+  margin-left: var(--made-space-4-x);
+}
+
+.made-c-text-input--range-slider::-webkit-outer-spin-button, .made-c-text-input--range-slider::-webkit-inner-spin-button {
+  /* Chrome, Safari, Edge, Opera */
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.made-c-text-input--range-slider[type=number] {
+  /* Firefox */
+  -moz-appearance: textfield;
+}
+
+.made-c-range-slider__range {
+  background-color: transparent;
+  appearance: none;
+  background: var(--made-color-border-default-on-light);
+  border-radius: var(--made-border-radius-small);
+  height: var(--made-space-1-x);
+  width: 100%;
+}
+
+.made-c-range-slider__range:focus {
+  outline: 2px solid var(--made-color-action-border-focus);
+  outline-offset: 12px;
+  outline: none;
+}
+
+.made-c-range-slider--disabled .made-c-range-slider__range:focus {
+  outline: none;
+}
+
+.made-c-range-slider__range::-webkit-slider-thumb {
+  width: var(--made-space-6-x);
+  height: var(--made-space-6-x);
+  border: 2px solid var(--made-color-border-default-on-light);
+  border-radius: var(--made-border-radius-circle);
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--made-color-background-default);
+  box-shadow: var(--made-shadow-default);
+  cursor: pointer;
+}
+
+.made-c-range-slider__range::-moz-range-thumb {
+  width: var(--made-space-6-x);
+  height: var(--made-space-6-x);
+  background: var(--made-color-background-default);
+  border: 2px solid var(--made-color-border-default-on-light);
+  border-radius: var(--made-border-radius-circle);
+  cursor: pointer;
+}
+
+.made-c-range-slider__range:focus::-webkit-slider-thumb {
+  outline: 2px solid var(--made-color-action-border-focus);
+  outline-offset: 2px;
+}
+
+.made-c-range-slider__range:focus::-moz-range-thumb {
+  outline: 2px solid var(--made-color-action-border-focus);
+  outline-offset: 2px;
+}
+
+.made-c-range-slider--disabled .made-c-range-slider__range::-webkit-slider-thumb {
+  cursor: not-allowed;
+}
+
+.made-c-range-slider--disabled .made-c-range-slider__range::-moz-range-thumb {
+  cursor: pointer;
+}
+
+/* Styles for adding color to the lower end of range slider */
+/* Firefox */
+.made-c-range-slider__range::-moz-range-progress {
+  background-color: var(--made-color-action-background-primary-default);
+}
+.made-c-range-slider__range::-moz-range-track {
+  background-color: var(--made-color-border-default-on-light);
+}
+/* IE */
+.made-c-range-slider__range::-ms-fill-lower {
+  background-color: var(--made-color-action-background-primary-default);
+}
+.made-c-range-slider__range::-ms-fill-upper {
+  background-color: var(--made-color-border-default-on-light);
+}
+
+/* Chrome */
+.made-c-range-slider__range {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.5, var(--made-color-action-background-primary-default)),
+      color-stop(0.5, var(--made-color-border-default-on-light))
+  );
+}

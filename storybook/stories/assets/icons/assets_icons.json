@@ -1,0 +1,1410 @@
+{
+  "icon": {
+    "business": [
+      {
+        "name": "analytics",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/analytics.svg"
+      },
+      {
+        "name": "app-to-app",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/app-to-app.svg"
+      },
+      {
+        "name": "AR-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/AR-1.svg"
+      },
+      {
+        "name": "AR-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/AR-2.svg"
+      },
+      {
+        "name": "banner-ad",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/banner-ad.svg"
+      },
+      {
+        "name": "big-data",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/big-data.svg"
+      },
+      {
+        "name": "biometrics-face",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/biometrics-face.svg"
+      },
+      {
+        "name": "biometrics-fingerprint",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/biometrics-fingerprint.svg"
+      },
+      {
+        "name": "brainstorm",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/brainstorm.svg"
+      },
+      {
+        "name": "briefcase",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/briefcase.svg"
+      },
+      {
+        "name": "broker",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/broker.svg"
+      },
+      {
+        "name": "bundle",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/bundle.svg"
+      },
+      {
+        "name": "calendar",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/calendar.svg"
+      },
+      {
+        "name": "card-credit",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/card-credit.svg"
+      },
+      {
+        "name": "card-prepaid",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/card-prepaid.svg"
+      },
+      {
+        "name": "cardholder",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/cardholder.svg"
+      },
+      {
+        "name": "chip-emv",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/chip-emv.svg"
+      },
+      {
+        "name": "concept-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/concept-1.svg"
+      },
+      {
+        "name": "concept-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/concept-2.svg"
+      },
+      {
+        "name": "consumer-extranet",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/consumer-extranet.svg"
+      },
+      {
+        "name": "consumer-segment-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/consumer-segment-1.svg"
+      },
+      {
+        "name": "consumer-segment-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/consumer-segment-2.svg"
+      },
+      {
+        "name": "contactless-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/contactless-1.svg"
+      },
+      {
+        "name": "contactless-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/contactless-2.svg"
+      },
+      {
+        "name": "contract",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/contract.svg"
+      },
+      {
+        "name": "coupon",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/coupon.svg"
+      },
+      {
+        "name": "crm",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/crm.svg"
+      },
+      {
+        "name": "currency-calculator",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/currency-calculator.svg"
+      },
+      {
+        "name": "data",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/data.svg"
+      },
+      {
+        "name": "design-thinking-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/design-thinking-1.svg"
+      },
+      {
+        "name": "design-thinking-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/design-thinking-2.svg"
+      },
+      {
+        "name": "device-smartwatch",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/device-smartwatch.svg"
+      },
+      {
+        "name": "device-tablet",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/device-tablet.svg"
+      },
+      {
+        "name": "device-wearable",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/device-wearable.svg"
+      },
+      {
+        "name": "digital-cloud",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/digital-cloud.svg"
+      },
+      {
+        "name": "digital-currency",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/digital-currency.svg"
+      },
+      {
+        "name": "document",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/document.svg"
+      },
+      {
+        "name": "ecommerce",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/ecommerce.svg"
+      },
+      {
+        "name": "email-broadcast",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/email-broadcast.svg"
+      },
+      {
+        "name": "email-send",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/email-send.svg"
+      },
+      {
+        "name": "emergency-cash",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/emergency-cash.svg"
+      },
+      {
+        "name": "event-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/event-1.svg"
+      },
+      {
+        "name": "event-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/event-2.svg"
+      },
+      {
+        "name": "fraud",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/fraud.svg"
+      },
+      {
+        "name": "funnel",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/funnel.svg"
+      },
+      {
+        "name": "id-protection",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/id-protection.svg"
+      },
+      {
+        "name": "in-store-security",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/in-store-security.svg"
+      },
+      {
+        "name": "kiosk",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/kiosk.svg"
+      },
+      {
+        "name": "leaders",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/leaders.svg"
+      },
+      {
+        "name": "leadership",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/leadership.svg"
+      },
+      {
+        "name": "location-locator",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/location-locator.svg"
+      },
+      {
+        "name": "location-pin",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/location-pin.svg"
+      },
+      {
+        "name": "lock-locked",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/lock-locked.svg"
+      },
+      {
+        "name": "lock-unlocked",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/lock-unlocked.svg"
+      },
+      {
+        "name": "login-pattern",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/login-pattern.svg"
+      },
+      {
+        "name": "market-research",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/market-research.svg"
+      },
+      {
+        "name": "network",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/network.svg"
+      },
+      {
+        "name": "newsletter-paper",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/newsletter-paper.svg"
+      },
+      {
+        "name": "online-security",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/online-security.svg"
+      },
+      {
+        "name": "paper-check",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/paper-check.svg"
+      },
+      {
+        "name": "percentage-badge",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/percentage-badge.svg"
+      },
+      {
+        "name": "personal-shopping",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/personal-shopping.svg"
+      },
+      {
+        "name": "personalization-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/personalization-1.svg"
+      },
+      {
+        "name": "personalization-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/personalization-2.svg"
+      },
+      {
+        "name": "personalization-3",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/personalization-3.svg"
+      },
+      {
+        "name": "pin-change-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/pin-change-1.svg"
+      },
+      {
+        "name": "pin-change-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/pin-change-2.svg"
+      },
+      {
+        "name": "pos",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/pos.svg"
+      },
+      {
+        "name": "presentation",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/presentation.svg"
+      },
+      {
+        "name": "processing",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/processing.svg"
+      },
+      {
+        "name": "qr-scan",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/qr-scan.svg"
+      },
+      {
+        "name": "register",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/register.svg"
+      },
+      {
+        "name": "sales-conversion",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/sales-conversion.svg"
+      },
+      {
+        "name": "savings",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/savings.svg"
+      },
+      {
+        "name": "secure-network",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/secure-network.svg"
+      },
+      {
+        "name": "seminar",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/seminar.svg"
+      },
+      {
+        "name": "shield-safe",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/shield-safe.svg"
+      },
+      {
+        "name": "shield-unsafe",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/shield-unsafe.svg"
+      },
+      {
+        "name": "signing",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/signing.svg"
+      },
+      {
+        "name": "surcharge-fee-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/surcharge-fee-1.svg"
+      },
+      {
+        "name": "surcharge-fee-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/surcharge-fee-2.svg"
+      },
+      {
+        "name": "tag",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/tag.svg"
+      },
+      {
+        "name": "token",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/token.svg"
+      },
+      {
+        "name": "touchpoint",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/touchpoint.svg"
+      },
+      {
+        "name": "training",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/training.svg"
+      },
+      {
+        "name": "trust",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/trust.svg"
+      },
+      {
+        "name": "virtual-reality-VR",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/virtual-reality-VR.svg"
+      },
+      {
+        "name": "wallet-empty",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/wallet-empty.svg"
+      },
+      {
+        "name": "wallet-full",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/wallet-full.svg"
+      },
+      {
+        "name": "warehouse",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/warehouse.svg"
+      },
+      {
+        "name": "wifi-add",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/wifi-add.svg"
+      },
+      {
+        "name": "wifi",
+        "value": "https://made.mastercard.com/icons/1.0.0/business-tech-transactions/wifi.svg"
+      }
+    ],
+    "people": [
+      {
+        "name": "builder",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/builder.svg"
+      },
+      {
+        "name": "carpenter",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/carpenter.svg"
+      },
+      {
+        "name": "citizen",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/citizen.svg"
+      },
+      {
+        "name": "electrician",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/electrician.svg"
+      },
+      {
+        "name": "factory",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/factory.svg"
+      },
+      {
+        "name": "financial-institution-bank",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/financial-institution-bank.svg"
+      },
+      {
+        "name": "gas-station",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/gas-station.svg"
+      },
+      {
+        "name": "globe-africa",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/globe-africa.svg"
+      },
+      {
+        "name": "globe-asiapac",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/globe-asiapac.svg"
+      },
+      {
+        "name": "globe-australia",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/globe-australia.svg"
+      },
+      {
+        "name": "globe-europe",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/globe-europe.svg"
+      },
+      {
+        "name": "globe-latin-america",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/globe-latin-america.svg"
+      },
+      {
+        "name": "globe-north-america",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/globe-north-america.svg"
+      },
+      {
+        "name": "globe",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/globe.svg"
+      },
+      {
+        "name": "home",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/home.svg"
+      },
+      {
+        "name": "hotel",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/hotel.svg"
+      },
+      {
+        "name": "kid-friendly",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/kid-friendly.svg"
+      },
+      {
+        "name": "merchant",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/merchant.svg"
+      },
+      {
+        "name": "museum",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/museum.svg"
+      },
+      {
+        "name": "music-venue",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/music-venue.svg"
+      },
+      {
+        "name": "ngo-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/ngo-1.svg"
+      },
+      {
+        "name": "ngo-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/ngo-2.svg"
+      },
+      {
+        "name": "parking",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/parking.svg"
+      },
+      {
+        "name": "pilot",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/pilot.svg"
+      },
+      {
+        "name": "plumber",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/plumber.svg"
+      },
+      {
+        "name": "profile",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/profile.svg"
+      },
+      {
+        "name": "restaurant-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/restaurant-1.svg"
+      },
+      {
+        "name": "restaurant-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/restaurant-2.svg"
+      },
+      {
+        "name": "stadium",
+        "value": "https://made.mastercard.com/icons/1.0.0/people-places/stadium.svg"
+      }
+    ],
+    "things": [
+      {
+        "name": "agile",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/agile.svg"
+      },
+      {
+        "name": "airline",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/airline.svg"
+      },
+      {
+        "name": "airplane-landing",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/airplane-landing.svg"
+      },
+      {
+        "name": "airplane-takeoff",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/airplane-takeoff.svg"
+      },
+      {
+        "name": "baggage",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/baggage.svg"
+      },
+      {
+        "name": "basketball",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/basketball.svg"
+      },
+      {
+        "name": "benefit",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/benefit.svg"
+      },
+      {
+        "name": "bicycle",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/bicycle.svg"
+      },
+      {
+        "name": "camera",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/camera.svg"
+      },
+      {
+        "name": "car-rental",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/car-rental.svg"
+      },
+      {
+        "name": "car",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/car.svg"
+      },
+      {
+        "name": "competition-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/competition-1.svg"
+      },
+      {
+        "name": "competition-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/competition-2.svg"
+      },
+      {
+        "name": "components",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/components.svg"
+      },
+      {
+        "name": "concert",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/concert.svg"
+      },
+      {
+        "name": "concierge",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/concierge.svg"
+      },
+      {
+        "name": "convenience",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/convenience.svg"
+      },
+      {
+        "name": "culture",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/culture.svg"
+      },
+      {
+        "name": "device-tv",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/device-tv.svg"
+      },
+      {
+        "name": "donation",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/donation.svg"
+      },
+      {
+        "name": "e-sports",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/e-sports.svg"
+      },
+      {
+        "name": "emergency",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/emergency.svg"
+      },
+      {
+        "name": "exclusive-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/exclusive-1.svg"
+      },
+      {
+        "name": "exclusive-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/exclusive-2.svg"
+      },
+      {
+        "name": "film-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/film-1.svg"
+      },
+      {
+        "name": "film-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/film-2.svg"
+      },
+      {
+        "name": "gift",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/gift.svg"
+      },
+      {
+        "name": "global-er",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/global-er.svg"
+      },
+      {
+        "name": "hair-makeup",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/hair-makeup.svg"
+      },
+      {
+        "name": "headphones",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/headphones.svg"
+      },
+      {
+        "name": "health",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/health.svg"
+      },
+      {
+        "name": "help",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/help.svg"
+      },
+      {
+        "name": "idea",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/idea.svg"
+      },
+      {
+        "name": "innovation-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/innovation-1.svg"
+      },
+      {
+        "name": "innovation-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/innovation-2.svg"
+      },
+      {
+        "name": "insurance",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/insurance.svg"
+      },
+      {
+        "name": "key",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/key.svg"
+      },
+      {
+        "name": "leisure-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/leisure-1.svg"
+      },
+      {
+        "name": "leisure-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/leisure-2.svg"
+      },
+      {
+        "name": "leisure-3",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/leisure-3.svg"
+      },
+      {
+        "name": "lighting-bolt",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/lighting-bolt.svg"
+      },
+      {
+        "name": "limousine-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/limousine-1.svg"
+      },
+      {
+        "name": "limousine-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/limousine-2.svg"
+      },
+      {
+        "name": "loyalty",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/loyalty.svg"
+      },
+      {
+        "name": "parcel",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/parcel.svg"
+      },
+      {
+        "name": "photo",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/photo.svg"
+      },
+      {
+        "name": "prescription",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/prescription.svg"
+      },
+      {
+        "name": "proof-of-age",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/proof-of-age.svg"
+      },
+      {
+        "name": "puzzle",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/puzzle.svg"
+      },
+      {
+        "name": "racing-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/racing-1.svg"
+      },
+      {
+        "name": "racing-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/racing-2.svg"
+      },
+      {
+        "name": "racing-3",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/racing-3.svg"
+      },
+      {
+        "name": "speed",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/speed.svg"
+      },
+      {
+        "name": "sports-football",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/sports-football.svg"
+      },
+      {
+        "name": "sports-hokey",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/sports-hokey.svg"
+      },
+      {
+        "name": "sports-skiing",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/sports-skiing.svg"
+      },
+      {
+        "name": "sports-soccer",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/sports-soccer.svg"
+      },
+      {
+        "name": "sports-tennis",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/sports-tennis.svg"
+      },
+      {
+        "name": "sports",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/sports.svg"
+      },
+      {
+        "name": "target",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/target.svg"
+      },
+      {
+        "name": "ticket",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/ticket.svg"
+      },
+      {
+        "name": "trophy",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/trophy.svg"
+      },
+      {
+        "name": "truck",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/truck.svg"
+      },
+      {
+        "name": "voice-recording-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/voice-recording-1.svg"
+      },
+      {
+        "name": "voice-recording-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/voice-recording-2.svg"
+      },
+      {
+        "name": "wheelchair",
+        "value": "https://made.mastercard.com/icons/1.0.0/things/wheelchair.svg"
+      }
+    ],
+    "ui": [
+      {
+        "name": "account-activation",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/account-activation.svg"
+      },
+      {
+        "name": "activation",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/activation.svg"
+      },
+      {
+        "name": "attach",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/attach.svg"
+      },
+      {
+        "name": "bomb",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/bomb.svg"
+      },
+      {
+        "name": "call-active",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/call-active.svg"
+      },
+      {
+        "name": "call-incoming",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/call-incoming.svg"
+      },
+      {
+        "name": "call-outgoing",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/call-outgoing.svg"
+      },
+      {
+        "name": "cart-add",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/cart-add.svg"
+      },
+      {
+        "name": "cart-remove",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/cart-remove.svg"
+      },
+      {
+        "name": "cart",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/cart.svg"
+      },
+      {
+        "name": "collapse",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/collapse.svg"
+      },
+      {
+        "name": "contact-us",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/contact-us.svg"
+      },
+      {
+        "name": "edit",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/edit.svg"
+      },
+      {
+        "name": "expression-happy",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/expression-happy.svg"
+      },
+      {
+        "name": "expression-not-sure",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/expression-not-sure.svg"
+      },
+      {
+        "name": "expression-ok",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/expression-ok.svg"
+      },
+      {
+        "name": "expression-sad",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/expression-sad.svg"
+      },
+      {
+        "name": "faq",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/faq.svg"
+      },
+      {
+        "name": "favorite",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/favorite.svg"
+      },
+      {
+        "name": "feedback",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/feedback.svg"
+      },
+      {
+        "name": "file-add",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/file-add.svg"
+      },
+      {
+        "name": "file-delete",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/file-delete.svg"
+      },
+      {
+        "name": "file-remove",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/file-remove.svg"
+      },
+      {
+        "name": "file-success",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/file-success.svg"
+      },
+      {
+        "name": "file-transfer",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/file-transfer.svg"
+      },
+      {
+        "name": "grid-view",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/grid-view.svg"
+      },
+      {
+        "name": "hand-gesture-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-1.svg"
+      },
+      {
+        "name": "hand-gesture-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-2.svg"
+      },
+      {
+        "name": "hand-gesture-3",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-3.svg"
+      },
+      {
+        "name": "hand-gesture-4",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-4.svg"
+      },
+      {
+        "name": "hand-gesture-5",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-5.svg"
+      },
+      {
+        "name": "hand-gesture-6",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-6.svg"
+      },
+      {
+        "name": "hand-gesture-7",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-7.svg"
+      },
+      {
+        "name": "hand-gesture-8",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-8.svg"
+      },
+      {
+        "name": "hand-gesture-9",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-9.svg"
+      },
+      {
+        "name": "hand-gesture-10",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-10.svg"
+      },
+      {
+        "name": "hand-gesture-11",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-11.svg"
+      },
+      {
+        "name": "hand-gesture-12",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-12.svg"
+      },
+      {
+        "name": "hand-gesture-13",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-13.svg"
+      },
+      {
+        "name": "hand-gesture-14",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-14.svg"
+      },
+      {
+        "name": "hand-gesture-15",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-15.svg"
+      },
+      {
+        "name": "hand-gesture-16",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-16.svg"
+      },
+      {
+        "name": "hand-gesture-17",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-17.svg"
+      },
+      {
+        "name": "hand-gesture-18",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-18.svg"
+      },
+      {
+        "name": "hand-gesture-19",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-19.svg"
+      },
+      {
+        "name": "hand-gesture-20",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-20.svg"
+      },
+      {
+        "name": "hand-gesture-21",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-21.svg"
+      },
+      {
+        "name": "hand-gesture-22",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-22.svg"
+      },
+      {
+        "name": "hand-gesture-23",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-23.svg"
+      },
+      {
+        "name": "hand-gesture-24",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-24.svg"
+      },
+      {
+        "name": "hand-gesture-25",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-25.svg"
+      },
+      {
+        "name": "hand-gesture-26",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-26.svg"
+      },
+      {
+        "name": "hand-gesture-27",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-27.svg"
+      },
+      {
+        "name": "hand-gesture-28",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-28.svg"
+      },
+      {
+        "name": "hand-gesture-29",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-29.svg"
+      },
+      {
+        "name": "hand-gesture-30",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-30.svg"
+      },
+      {
+        "name": "hand-gesture-31",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-31.svg"
+      },
+      {
+        "name": "hand-gesture-32",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-32.svg"
+      },
+      {
+        "name": "hand-gesture-33",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-33.svg"
+      },
+      {
+        "name": "hand-gesture-34",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-34.svg"
+      },
+      {
+        "name": "hand-gesture-35",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-35.svg"
+      },
+      {
+        "name": "hand-gesture-36",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-36.svg"
+      },
+      {
+        "name": "hand-gesture-37",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-37.svg"
+      },
+      {
+        "name": "hand-gesture-38",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-38.svg"
+      },
+      {
+        "name": "hand-gesture-39",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-39.svg"
+      },
+      {
+        "name": "hand-gesture-40",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-40.svg"
+      },
+      {
+        "name": "hand-gesture-41",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-41.svg"
+      },
+      {
+        "name": "hand-gesture-42",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-42.svg"
+      },
+      {
+        "name": "hand-gesture-43",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-43.svg"
+      },
+      {
+        "name": "hand-gesture-44",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/hand-gesture-44.svg"
+      },
+      {
+        "name": "list-view",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/list-view.svg"
+      },
+      {
+        "name": "location-country-selector",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/location-country-selector.svg"
+      },
+      {
+        "name": "login",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/login.svg"
+      },
+      {
+        "name": "logout",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/logout.svg"
+      },
+      {
+        "name": "menu",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/menu.svg"
+      },
+      {
+        "name": "michelin-star-1",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/michelin-star-1.svg"
+      },
+      {
+        "name": "michelin-star-2",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/michelin-star-2.svg"
+      },
+      {
+        "name": "new-add-expand",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/new-add-expand.svg"
+      },
+      {
+        "name": "notification",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/notification.svg"
+      },
+      {
+        "name": "print",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/print.svg"
+      },
+      {
+        "name": "process-cancelled",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/process-cancelled.svg"
+      },
+      {
+        "name": "process-complete",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/process-complete.svg"
+      },
+      {
+        "name": "product-highlights",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/product-highlights.svg"
+      },
+      {
+        "name": "range",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/range.svg"
+      },
+      {
+        "name": "refresh",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/refresh.svg"
+      },
+      {
+        "name": "search",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/search.svg"
+      },
+      {
+        "name": "sent",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/sent.svg"
+      },
+      {
+        "name": "settings",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/settings.svg"
+      },
+      {
+        "name": "share",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/share.svg"
+      },
+      {
+        "name": "sound-down",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/sound-down.svg"
+      },
+      {
+        "name": "sound-mute",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/sound-mute.svg"
+      },
+      {
+        "name": "sound-on",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/sound-on.svg"
+      },
+      {
+        "name": "sound-up",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/sound-up.svg"
+      },
+      {
+        "name": "time-1-hour",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/time-1-hour.svg"
+      },
+      {
+        "name": "time-15-mins",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/time-15-mins.svg"
+      },
+      {
+        "name": "time-24-hours",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/time-24-hours.svg"
+      },
+      {
+        "name": "time-30-mins",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/time-30-mins.svg"
+      },
+      {
+        "name": "time-45mins",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/time-45mins.svg"
+      },
+      {
+        "name": "timer",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/timer.svg"
+      },
+      {
+        "name": "video-gallery",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/video-gallery.svg"
+      },
+      {
+        "name": "video",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/video.svg"
+      },
+      {
+        "name": "warning",
+        "value": "https://made.mastercard.com/icons/1.0.0/ui/warning.svg"
+      }
+    ],
+    "custom": [
+      {
+        "name": "API",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/API.svg"
+      },
+      {
+        "name": "application",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/application.svg"
+      },
+      {
+        "name": "arrow-backward",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrow-backward.svg"
+      },
+      {
+        "name": "arrow-forward",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrow-forward.svg"
+      },
+      {
+        "name": "arrowhead-backward-thick",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrowhead-backward-thick.svg"
+      },
+      {
+        "name": "arrowhead-backward",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrowhead-backward.svg"
+      },
+      {
+        "name": "arrowhead-downward-thick",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrowhead-downward-thick.svg"
+      },
+      {
+        "name": "arrowhead-downward",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrowhead-downward.svg"
+      },
+      {
+        "name": "arrowhead-forward-thick",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrowhead-forward-thick.svg"
+      },
+      {
+        "name": "arrowhead-forward",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrowhead-forward.svg"
+      },
+      {
+        "name": "arrowhead-upward-thick",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrowhead-upward-thick.svg"
+      },
+      {
+        "name": "arrowhead-upward",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/arrowhead-upward.svg"
+      },
+      {
+        "name": "badge",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/badge.svg"
+      },
+      {
+        "name": "calendar",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/calendar.svg"
+      },
+      {
+        "name": "caret-downward",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/caret-downward.svg"
+      },
+      {
+        "name": "caret-upward",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/caret-upward.svg"
+      },
+      {
+        "name": "chat-bubble",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/chat-bubble.svg"
+      },
+      {
+        "name": "checkmark",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/checkmark.svg"
+      },
+      {
+        "name": "circle-minus",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/circle-minus.svg"
+      },
+      {
+        "name": "circle-plus",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/circle-plus.svg"
+      },
+      {
+        "name": "clock-solid-fill",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/clock-solid-fill.svg"
+      },
+      {
+        "name": "close-1.5-thick",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/close-1.5-thick.svg"
+      },
+      {
+        "name": "close-2.5-thick",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/close-2.5-thick.svg"
+      },
+      {
+        "name": "collection",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/collection.svg"
+      },
+      {
+        "name": "copy-data",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/copy-data.svg"
+      },
+      {
+        "name": "document",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/document.svg"
+      },
+      {
+        "name": "dotted-divider",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/dotted-divider.svg"
+      },
+      {
+        "name": "download",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/download.svg"
+      },
+      {
+        "name": "ellipsis-horizontal",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/ellipsis-horizontal.svg"
+      },
+      {
+        "name": "ellipsis-vertical",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/ellipsis-vertical.svg"
+      },
+      {
+        "name": "exclamation-mark-outline",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/exclamation-mark-outline.svg"
+      },
+      {
+        "name": "exclamation-mark-solid-fill",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/exclamation-mark-solid-fill.svg"
+      },
+      {
+        "name": "exclamation-mark-in-a-triangle-solid-fill",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/exclamation-mark-in-a-triangle-solid-fill.svg"
+      },
+      {
+        "name": "hash",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/hash.svg"
+      },
+      {
+        "name": "info-letter-only",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/info-letter-only.svg"
+      },
+      {
+        "name": "info",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/info.svg"
+      },
+      {
+        "name": "menu-hamburger",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/menu-hamburger.svg"
+      },
+      {
+        "name": "minus",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/minus.svg"
+      },
+      {
+        "name": "padlock-locked",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/padlock-locked.svg"
+      },
+      {
+        "name": "pagination-first",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/pagination-first.svg"
+      },
+      {
+        "name": "pagination-last",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/pagination-last.svg"
+      },
+      {
+        "name": "pagination-next",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/pagination-next.svg"
+      },
+      {
+        "name": "pagination-previous",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/pagination-previous.svg"
+      },
+      {
+        "name": "pause",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/pause.svg"
+      },
+      {
+        "name": "play",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/play.svg"
+      },
+      {
+        "name": "plus",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/plus.svg"
+      },
+      {
+        "name": "product",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/product.svg"
+      },
+      {
+        "name": "question-mark",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/question-mark.svg"
+      },
+      {
+        "name": "question",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/question.svg"
+      },
+      {
+        "name": "reference",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/reference.svg"
+      },
+      {
+        "name": "report",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/report.svg"
+      },
+      {
+        "name": "search",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/search.svg"
+      },
+      {
+        "name": "share",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/share.svg"
+      },
+      {
+        "name": "sort",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/sort.svg"
+      },
+      {
+        "name": "star-outline",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/star-outline.svg"
+      },
+      {
+        "name": "star-solid-fill",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/star-solid-fill.svg"
+      },
+      {
+        "name": "textarea-resize",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/textarea-resize.svg"
+      },
+      {
+        "name": "upload",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/upload.svg"
+      },
+      {
+        "name": "user-invitation",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/user-invitation.svg"
+      },
+      {
+        "name": "user-profile",
+        "value": "https://made.mastercard.com/icons/1.0.0/custom/user-profile.svg"
+      }
+    ]
+  }
+}

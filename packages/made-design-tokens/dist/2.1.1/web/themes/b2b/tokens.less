@@ -1,0 +1,364 @@
+
+// Do not edit directly
+// Generated on Sun, 08 Jan 2023 17:40:51 GMT
+
+@made-z-index-dropdown: 30; // Used to set the z order layering of dropdown elements such as overflow menu, date picker...
+@made-z-index-backdrop: 40; // Used to set the z order layering of backdrop.
+@made-z-index-toast: 50; // Used to set the z order layering of toast.
+@made-z-index-modal: 50; // Used to set the z order layering of modal.
+@made-line-height-heading: 1.25; // Headings line-height
+@made-line-height-default: 1.5; // Default line height.
+@made-line-height-single: 1; // Line height for single line text elements displayed in components
+@made-line-height-1-5-x: 1.5; // To ensure readability, Body uses a 1.5× multiplier
+@made-line-height-1-25-x: 1.25; // Headings use a 1.25× multiplier
+@made-line-height-1-x: 1; // Line height for single line text elements displayed in components
+@made-letter-spacing-eyebrow: 1.8px; // Default letter spacing for all text.
+@made-letter-spacing-default: normal; // Default letter spacing for all text.
+@made-font-weight-bold: 700; // Use bold sparingly for subtitles, eyebrows, emphasis, and dates
+@made-font-weight-medium: 500; // Semi bold font weight is used for buttons.
+@made-font-weight-light: 100; // Light font weight is used for headings.
+@made-font-weight-default: 400; // Normal font weight is used for body text and form inputs.
+@made-font-size-09: 1.5rem; // Font size: 24px
+@made-font-size-08: 1.25rem; // Font size: 20px
+@made-font-size-07: 1.125rem; // Font size: 18px
+@made-font-size-06: 1rem; // Font size: 16px
+@made-font-size-05: 0.9375rem; // Font size: 15px
+@made-font-size-04: 0.875rem; // Font size: 14px
+@made-font-size-03: 0.8125rem; // Font size: 13px
+@made-font-size-02: 0.75rem; // Font size: 12px
+@made-font-size-01: 0.5625rem; // Font size: 9px
+@made-font-size-15: 5rem; // Font size: 80px
+@made-font-size-14: 3.75rem; // Font size: 60px
+@made-font-size-13: 3rem; // Font size: 48px
+@made-font-size-12: 2.25rem; // Font size: 36px
+@made-font-size-11: 2rem; // Font size: 32px
+@made-font-size-10: 1.75rem; // Font size: 28px
+@made-font-family-eyebrow: MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif; // Font family for headings (H1,H2 and display text)
+@made-font-family-heading: MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif; // Font family for headings (H1,H2 and display text)
+@made-font-family-bold: MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif; // Default bold weight font used across application
+@made-font-family-medium: MarkOffcForMC-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif; // Use Mark for MC for text slightly larger than 14-pixels in all digital applications.
+@made-font-family-light: MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif; // Use Mark for MC for text slightly larger than 14-pixels in all digital applications.
+@made-font-family-extra-light: MarkOffcForMC-ExtraLight, MarkOffcForMC, Arial, Helvetica, sans-serif; // Use Mark for MC for text slightly larger than 14-pixels in all digital applications.
+@made-font-family-regular: MarkOffcForMC, Arial, Helvetica, sans-serif; // Use Mark for MC for text slightly larger than 14-pixels in all digital applications.
+@made-font-family-narrow-bold: MarkForMCNrw-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif; // Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.
+@made-font-family-narrow-medium: MarkForMCNrw-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif; // Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.
+@made-font-family-narrow: MarkForMCNrw, MarkOffcForMC, Arial, Helvetica, sans-serif; // Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.
+@made-time-moderate-fast-02: 110ms; // Micro-interactions such as fade.
+@made-time-moderate-fast-01: 70ms; // Micro-interactions such as button and toggle.
+@made-time-moderate-02: 240ms; // Expansion, system communication, toast.
+@made-time-moderate-01: 150ms; // Micro-interactions, small expansion, short distance movements.
+@made-time-slow-02: 700ms; // Background dimming.
+@made-time-slow-01: 400ms; // Large expansion, important system notifications.
+@made-space-20-x: 5rem; // Space: 80px
+@made-space-19-x: 4.75rem; // Space: 76px
+@made-space-18-x: 4.5rem; // Space: 72px
+@made-space-17-x: 4.25rem; // Space: 68px
+@made-space-16-x: 4rem; // Space: 64px
+@made-space-15-x: 3.75rem; // Space: 60px
+@made-space-14-x: 3.5rem; // Space: 56px
+@made-space-13-x: 3.25rem; // Space: 52px
+@made-space-12-x: 3rem; // Space: 48px
+@made-space-11-x: 2.75rem; // Space: 44px
+@made-space-10-x: 2.5rem; // Space: 40px
+@made-space-9-x: 2.25rem; // Space: 36px
+@made-space-8-x: 2rem; // Space: 32px
+@made-space-7-x: 1.75rem; // Space: 28px
+@made-space-6-x: 1.5rem; // Space: 24px
+@made-space-5-x: 1.25rem; // Space: 20px
+@made-space-4-x: 1rem; // Space: 16px
+@made-space-3-x: 0.75rem; // Space: 12px
+@made-space-2-x: 0.5rem; // Space: 8px
+@made-space-1-x: 0.25rem; // Space: 4px
+@made-size-20-x: 5rem; // Size: 80px
+@made-size-19-x: 4.75rem; // Size: 76px
+@made-size-18-x: 4.5rem; // Size: 72px
+@made-size-17-x: 4.25rem; // Size: 68px
+@made-size-16-x: 4rem; // Size: 64px
+@made-size-15-x: 3.75rem; // Size: 60px
+@made-size-14-x: 3.5rem; // Size: 56px
+@made-size-13-x: 3.25rem; // Size: 52px
+@made-size-12-x: 3rem; // Size: 48px
+@made-size-11-x: 2.75rem; // Size: 44px
+@made-size-10-x: 2.5rem; // Size: 40px
+@made-size-9-x: 2.25rem; // Size: 36px
+@made-size-8-x: 2rem; // Size: 32px
+@made-size-7-x: 1.75rem; // Size: 28px
+@made-size-6-x: 1.5rem; // Size: 24px
+@made-size-5-x: 1.25rem; // Size: 20px
+@made-size-4-x: 1rem; // Size: 16px
+@made-size-3-x: 0.75rem; // Size: 12px
+@made-size-2-x: 0.5rem; // Size: 8px
+@made-size-1-x: 0.25rem; // Size: 4px
+@made-shadow-toggle: 0 5px 10px 0 rgba(20,20,19,0.15), 0 2px 2px 0 rgba(20,20,19,0.3);; // Shadow on slider on toggle component.
+@made-shadow-default: 0 2px 10px 0 rgba(20,20,19,0.20); // Shadow for all content cards, dropdowns, dialogs, datepicker etc.
+@made-opacity-100: 1; // Gives 100% opacity to an element.
+@made-opacity-75: 0.75; // Gives 75% opacity to an element.
+@made-opacity-50: 0.5; // Gives 50% opacity to an element.
+@made-opacity-25: 0.25; // Gives 25% opacity to an element.
+@made-opacity-15: 0.15; // Gives 15% opacity to an element.
+@made-opacity-0: 0; // Gives 0% opacity to an element (Hides an element).
+@made-connect-color-background-product: #A82226; // Background color for items in product category.
+@made-connect-color-border-product: #A82226; // Border color for items in product category.
+@made-backdrop-color-background: rgba(20,20,19,0.7); // Background on overlay used with modals
+@made-color-visualization-03: #cf008a; // Data Visualization Color
+@made-color-visualization-02: #ac00cf; // Data Visualization Color
+@made-color-visualization-01: #0023cf; // Data Visualization Color
+@made-color-text-default-on-dark: #ffffff; // Color of body text on dark background.
+@made-color-feedback-success: #038a00; // Color for success or positive state
+@made-color-feedback-error: #ee0000; // Color for error state
+@made-color-brand-on-secondary: #ffffff; // The text color on your secondary brand color
+@made-color-brand-on-primary: #ffffff; // The text color on your primary brand color
+@made-color-accent-07: #d7373c; // Accent color 7
+@made-color-accent-06: #25836d; // Accent color 6
+@made-color-accent-05: #628020; // Accent color 5
+@made-color-accent-04: #ffc61e; // Accent color 4
+@made-color-accent-03: #f38b00; // Accent color 3
+@made-color-accent-02: #f37338; // Accent color 2
+@made-color-accent-01-darker: #331505; // Accent color 1 - Darker
+@made-color-accent-01-dark: #852d01; // Accent color 1 - Dark
+@made-color-accent-01-light: #d0805b; // Accent color 1- Light
+@made-color-accent-01-default: #cf4500; // Accent color 1
+@made-color-teal-07: #1d2d27; // Teal color 7
+@made-color-teal-06: #23473d; // Teal color 6
+@made-color-teal-05: #266555; // Teal color 5
+@made-color-teal-04: #25836d; // Teal color 4
+@made-color-teal-03: #4bab94; // Teal color 3
+@made-color-teal-02: #88d3bf; // Teal color 2
+@made-color-teal-01: #dcf5ef; // Teal color 1
+@made-color-red-07: #541113; // Red color 7
+@made-color-red-06: #7e191c; // Red color 6
+@made-color-red-05: #a82226; // Red color 5
+@made-color-red-04: #d7373c; // Red color 4
+@made-color-red-03: #e66f65; // Red color 3
+@made-color-red-02: #f4a79f; // Red color 2
+@made-color-red-01: #f8ddde; // Red color 1
+@made-color-green-07: #1c2509; // Green color 7
+@made-color-green-06: #324113; // Green color 6
+@made-color-green-05: #496019; // Green color 5
+@made-color-green-04: #628020; // Green color 4
+@made-color-green-03: #87a740; // Green color 3
+@made-color-green-02: #b6cd7e; // Green color 2
+@made-color-green-01: #e8f1d5; // Green color 1
+@made-color-yellow-07: #332805; // Yellow color 7
+@made-color-yellow-06: #664f0c; // Yellow color 6
+@made-color-yellow-05: #b28c16; // Yellow color 5
+@made-color-yellow-04: #ffc61e; // Yellow color 4
+@made-color-yellow-03: #ffd863; // Yellow color 3
+@made-color-yellow-02: #ffe8a5; // Yellow color 2
+@made-color-yellow-01: #fff4d1; // Yellow color 1
+@made-color-gold-07: #301c00; // Gold color 7
+@made-color-gold-06: #583300; // Gold color 6
+@made-color-gold-05: #995600; // Gold color 5
+@made-color-gold-04: #f38b00; // Gold color 4
+@made-color-gold-03: #f7ad4c; // Gold color 3
+@made-color-gold-02: #f9d199; // Gold color 2
+@made-color-gold-01: #fce8cc; // Gold color 1
+@made-color-orange-07: #331505; // Orange color 7
+@made-color-orange-06: #662808; // Orange color 6
+@made-color-orange-05: #9a3a0a; // Orange color 5
+@made-color-orange-04: #cf4500; // Orange color 4
+@made-color-orange-03: #f37338; // Orange color 3
+@made-color-orange-02: #ffab82; // Orange color 2
+@made-color-orange-01: #ffe1d1; // Orange color 1
+@made-color-gray-07: #141413; // Canvas color - Gray 7
+@made-color-gray-06-5: #222221; // Gray tints and shades - Gray 6.5
+@made-color-gray-06: #323231; // Canvas color - Gray 6
+@made-color-gray-05-5: #444340; // Gray tints and shades - Gray 5.5
+@made-color-gray-05: #555250; // Canvas color - Gray 5
+@made-color-gray-04-5: #676561; // Gray tints and shades - Gray 4.5
+@made-color-gray-04: #777470; // Gray tints and shades - Gray 4
+@made-color-gray-03-5: #96918b; // Gray tints and shades - Gray 3.5
+@made-color-gray-03: #b1ada6; // Gray tints and shades - Gray 3
+@made-color-gray-02: #e8e5e1; // Canvas color - Gray 2
+@made-color-gray-01-5: #f3f0ee; // Canvas color - Gray 1.5
+@made-color-gray-01-25: #faf7f5; // Canvas color - Gray 1.25
+@made-color-gray-01: #fcfbfa; // Canvas color - Gray 1
+@made-color-white: #ffffff; // White
+@made-color-action-on-dark-default: #ffffff; // Color of interactive color on dark background e.g. buttons
+@made-border-radius-circle: 50%; // Border Radius: 50%
+@made-border-radius-09: 28px; // Border Radius: 28px
+@made-border-radius-08: 24px; // Border Radius: 24px
+@made-border-radius-07: 20px; // Border Radius: 20px
+@made-border-radius-06: 16px; // Border Radius: 16px
+@made-border-radius-05: 12px; // Border Radius: 12px
+@made-border-radius-04: 8px; // Border Radius: 8px
+@made-border-radius-03: 6px; // Border Radius: 6px
+@made-border-radius-02: 4px; // Border Radius: 4px
+@made-border-radius-01: 2px; // Border Radius: 2px
+@made-font-body-letter-spacing: @made-letter-spacing-default; // Default letter spacing for body text.
+@made-font-body-line-height: @made-line-height-default; // Default line height for body text.
+@made-font-body-family-bold: @made-font-family-medium; // Font family for bold body text.
+@made-font-body-family-default: @made-font-family-regular; // Default font family for body text.
+@made-font-body-family-narrow: @made-font-family-narrow; // Default font family for narrow/small text. Used on tooltip and notification
+@made-font-body-weight-bold: @made-font-weight-bold; // Bold font weight for body text.
+@made-font-body-weight-default: @made-font-weight-default; // Default font weight for body text.
+@made-font-body-size-small: @made-font-size-02; // Small font size for body text.
+@made-font-body-size-default: @made-font-size-04; // Default font size for body text.
+@made-font-body-size-large: @made-font-size-06; // Large font size for body text.
+@made-font-heading-letter-spacing-eyebrow-02: @made-letter-spacing-eyebrow; // Letter spacing for small eyebrow text.
+@made-font-heading-letter-spacing-eyebrow-01: @made-letter-spacing-eyebrow; // Letter spacing for small eyebrow text.
+@made-font-heading-letter-spacing-display-03: @made-letter-spacing-default; // Letter spacing of Display 03.
+@made-font-heading-letter-spacing-display-02: @made-letter-spacing-default; // Letter spacing of Display 02.
+@made-font-heading-letter-spacing-display-01: @made-letter-spacing-default; // Letter spacing of Display 02.
+@made-font-heading-letter-spacing-level-06: @made-letter-spacing-default; // Letter spacing of Heading 6 (H6).
+@made-font-heading-letter-spacing-level-05: @made-letter-spacing-default; // Letter spacing of Heading 5 (H5).
+@made-font-heading-letter-spacing-level-04: @made-letter-spacing-default; // Letter spacing of Heading 4 (H4).
+@made-font-heading-letter-spacing-level-03: @made-letter-spacing-default; // Letter spacing of Heading 3 (H3).
+@made-font-heading-letter-spacing-level-02: @made-letter-spacing-default; // Letter spacing of Heading 2 (H2).
+@made-font-heading-letter-spacing-level-01: @made-letter-spacing-default; // Letter spacing of Heading 1 (H1).
+@made-font-heading-line-height-eyebrow-02: @made-line-height-heading; // Line Height for large eyebrow text.
+@made-font-heading-line-height-eyebrow-01: @made-line-height-heading; // Line Height for small eyebrow text.
+@made-font-heading-line-height-display-03: @made-line-height-heading; // Line height of Display 03.
+@made-font-heading-line-height-display-02: @made-line-height-heading; // Line height of Display 02.
+@made-font-heading-line-height-display-01: @made-line-height-heading; // Line height of Display 01.
+@made-font-heading-line-height-level-06: @made-line-height-heading; // Line Height of Heading 6 (H6).
+@made-font-heading-line-height-level-05: @made-line-height-heading; // Line Height of Heading 5 (H5).
+@made-font-heading-line-height-level-04: @made-line-height-heading; // Line Height of Heading 4 (H4).
+@made-font-heading-line-height-level-03: @made-line-height-heading; // Line Height of Heading 3 (H3).
+@made-font-heading-line-height-level-02: @made-line-height-heading; // Line Height of Heading 2 (H2).
+@made-font-heading-line-height-level-01: @made-line-height-heading; // Line Height of Heading 1 (H1).
+@made-font-heading-weight-eyebrow-02: @made-font-weight-default; // Font family for large eyebrow text.
+@made-font-heading-weight-eyebrow-01: @made-font-weight-default; // Font family for small eyebrow text.
+@made-font-heading-weight-display-03: @made-font-weight-default; // Font family for Display 03.
+@made-font-heading-weight-display-02: @made-font-weight-default; // Font family for Display 02.
+@made-font-heading-weight-display-01: @made-font-weight-default; // Font family for Display 01.
+@made-font-heading-weight-level-06: @made-font-weight-default; // Font Family for Heading 6 (H6).
+@made-font-heading-weight-level-05: @made-font-weight-default; // Font Family for Heading 5 (H5).
+@made-font-heading-weight-level-04: @made-font-weight-default; // Font Family for Heading 4 (H4).
+@made-font-heading-weight-level-03: @made-font-weight-default; // Font Family for Heading 3 (H3).
+@made-font-heading-weight-level-02: @made-font-weight-default; // Font Family for Heading 2 (H2).
+@made-font-heading-weight-level-01: @made-font-weight-default; // Font Family for Heading 1 (H1).
+@made-font-heading-family-eyebrow-02: @made-font-family-eyebrow; // Font family for large eyebrow text.
+@made-font-heading-family-eyebrow-01: @made-font-family-eyebrow; // Font family for small eyebrow text.
+@made-font-heading-family-display-03: @made-font-family-heading; // Font family for Display 03.
+@made-font-heading-family-display-02: @made-font-family-heading; // Font family for Display 02.
+@made-font-heading-family-display-01: @made-font-family-heading; // Font family for Display 01.
+@made-font-heading-family-level-02: @made-font-family-heading; // Font Family for Heading 2 (H2).
+@made-font-heading-family-level-01: @made-font-family-heading; // Font Family for Heading 1 (H1).
+@made-font-heading-size-display-03: @made-font-size-11; // Font Size for Display 03.
+@made-font-heading-size-display-02: @made-font-size-13; // Font Size for Display 02.
+@made-font-heading-size-display-01: @made-font-size-15; // Font Size for Display 01.
+@made-font-heading-size-level-06: @made-font-size-06; // Font Size for Heading 6 (H6)
+@made-font-heading-size-level-05: @made-font-size-07; // Font Size for Heading 5 (H5)
+@made-font-heading-size-level-04: @made-font-size-08; // Font Size for Heading 4 (H4)
+@made-font-heading-size-level-03: @made-font-size-09; // Font Size for Heading 3 (H3)
+@made-font-heading-size-level-02: @made-font-size-10; // Font Size for Heading 2 (H2)
+@made-font-heading-size-level-01: @made-font-size-11; // Font Size for Heading 1 (H1)
+@made-grid-margin-lg: @made-space-4-x; // Margin size on large breakpoint.
+@made-grid-margin-md: @made-space-4-x; // Margin size on medium breakpoint.
+@made-grid-margin-sm: @made-space-2-x; // Margin size on small breakpoint.
+@made-grid-gutters-lg: @made-space-4-x; // Gutter size on large breakpoint.
+@made-grid-gutters-md: @made-space-4-x; // Gutter size on medium breakpoint.
+@made-grid-gutters-sm: @made-space-2-x; // Grid gutter size on small breakpoint.
+@made-connect-color-background-application: @made-color-teal-04; // Background color for items in application category.
+@made-connect-color-background-document: @made-color-gray-03; // Background color for items in document category.
+@made-connect-color-background-collection: @made-color-gray-07; // Background color for items in collection category.
+@made-connect-color-background-reference: @made-color-green-04; // Background color for items in reference category.
+@made-connect-color-background-api: @made-color-yellow-04; // Background color for items in API category.
+@made-connect-color-background-report: @made-color-gold-04; // Border color for items in report category.
+@made-connect-color-border-application: @made-color-teal-04; // Border color for items in application category.
+@made-connect-color-border-document: @made-color-gray-03; // Border color for items in document category.
+@made-connect-color-border-collection: @made-color-gray-07; // Border color for items in collection category.
+@made-connect-color-border-reference: @made-color-green-04; // Border color for items in reference category.
+@made-connect-color-border-api: @made-color-yellow-04; // Border color for items in API category.
+@made-connect-color-border-report: @made-color-orange-05; // Border color for items in report category.
+@made-forms-color-border-default: @made-color-gray-05; // Default border color for forms.
+@made-scrollbar-color-background: @made-color-gray-03; // Background color for scrollbar component
+@made-header-color-background: @made-color-gray-07; // Background color for header component
+@made-footer-color-background: @made-color-gray-07; // Background color for footer component
+@made-color-text-helper: @made-color-gray-05; // Text color of helper text on forms, cards etc.
+@made-color-text-default-on-light: @made-color-gray-07; // Color of body text on light background.
+@made-color-feedback-text-on-warning: @made-color-text-default-on-dark; // Text color displayed on top of the warning color
+@made-color-feedback-text-on-information: @made-color-text-default-on-dark; // Text color displayed on top of the error color
+@made-color-feedback-text-on-success: @made-color-text-default-on-dark; // Text color displayed on top of the error color
+@made-color-feedback-text-on-error: @made-color-text-default-on-dark; // Text color displayed on top of the error color
+@made-color-feedback-text-success: @made-color-feedback-success; // Text color for success or positive state
+@made-color-feedback-text-error: @made-color-feedback-error; // Text color for error state
+@made-color-feedback-border-success: @made-color-feedback-success; // Border color  for success or positive state
+@made-color-feedback-border-error: @made-color-feedback-error; // Border color for error state
+@made-color-feedback-background-success: @made-color-feedback-success; // Background color for success or positive state
+@made-color-feedback-background-error: @made-color-feedback-error; // Background color for error state
+@made-color-feedback-warning: @made-color-gold-04; // Color for warning state
+@made-color-feedback-information: @made-color-yellow-04; // Color for neutral or optional state
+@made-color-brand-secondary: @made-color-orange-04; // The secondary color of your brand
+@made-color-brand-primary: @made-color-orange-04; // The primary color of your brand
+@made-color-border-default-on-dark: @made-color-gray-05; // Default Border color used for layout elements on a dark background.
+@made-color-border-default-on-light: @made-color-gray-02; // Default Border color used for layout elements e.g. accordion, table.
+@made-color-background-gray-lightest: @made-color-gray-01-5; // Used on background of breadcrumb and pill components.
+@made-color-background-default: @made-color-white; // Main background color of the application.
+@made-color-action-text-on-disabled: @made-color-text-default-on-dark; // Text color on top of disabled state color
+@made-color-action-text-on-dark: @made-color-gray-07; // Text color on top of interactive color on a dark background
+@made-color-action-text-on-secondary: @made-color-brand-on-secondary; // Text color on top of secondary interactive color
+@made-color-action-text-on-primary: @made-color-brand-on-primary; // Text color on top of primary interactive color
+@made-color-action-text-on-dark-default: @made-color-action-on-dark-default; // Text color of secondary interactive color e.g. secondary button on a dark background
+@made-color-action-border-selected-on-dark: @made-color-action-on-dark-default; // Border color for selected items on dark background.
+@made-color-action-border-on-dark-default: @made-color-action-on-dark-default; // Border color of secondary interactive color
+@made-color-action-background-highlight: @made-color-orange-01; // Background color of highlight interactive color. Used on date range in Calendar
+@made-color-action-background-on: @made-color-feedback-success; // Background color for on state of UI Elements such as toggle
+@made-color-action-background-hover: @made-color-gray-01-25; // Background color for hover state of UI Elements such as tables, dropdowns...
+@made-color-action-background-selected-hover: @made-color-gray-02; // Background color for hover state of on selected UI Elements
+@made-color-action-background-selected: @made-color-gray-01-5; // Background color for selected state of UI Elements such as tables, dropdowns...
+@made-color-action-background-on-dark-default: @made-color-action-on-dark-default; // Background color of secondary interactive color
+@made-color-action-disabled: @made-color-gray-03; // Global color for disabled state.
+@made-color-action-on-dark-active: @made-color-gray-03; // Text color of secondary interactive color on dark background e.g. buttons.
+@made-color-action-on-dark-hover: @made-color-gray-02; // Text color of secondary interactive color on dark background e.g. buttons.
+@made-color-action-primary-active: @made-color-orange-07; // Color of primary interactive color on active  e.g. buttons
+@made-color-action-primary-hover: @made-color-orange-05; // Color of primary interactive color on hover  e.g. buttons
+@made-pill-border-radius: @made-border-radius-05; // Pill Border Radius
+@made-button-border-radius: @made-border-radius-07; // Button Border Radius
+@made-border-radius-large: @made-border-radius-04; // Large border radius for UI components
+@made-border-radius-default: @made-border-radius-02; // Default border radius for UI components
+@made-border-radius-small: @made-border-radius-01; // Small border radius for UI components
+@made-font-heading-family-level-06: @made-font-body-family-bold; // Font Family for Heading 6 (H6).
+@made-font-heading-family-level-05: @made-font-body-family-default; // Font Family for Heading 5 (H5).
+@made-font-heading-family-level-04: @made-font-body-family-default; // Font Family for Heading 4 (H4).
+@made-font-heading-family-level-03: @made-font-body-family-default; // Font Family for Heading 3 (H3).
+@made-font-heading-size-eyebrow-02: @made-font-body-size-large; // Font size for default eyebrow text
+@made-font-heading-size-eyebrow-01: @made-font-body-size-small; // Font size for small eyebrow text
+@made-forms-color-background-default: @made-color-background-default; // Default background color for forms.
+@made-color-text-primary: @made-color-brand-primary; // Text color of primary brand color.
+@made-color-feedback-text-warning: @made-color-feedback-warning; // Text color for warning state
+@made-color-feedback-text-information: @made-color-feedback-information; // Text color for neutral or optional state
+@made-color-feedback-border-warning: @made-color-feedback-warning; // Border color or for warning state
+@made-color-feedback-border-information: @made-color-feedback-information; // Border color  for neutral or optional state
+@made-color-feedback-background-warning: @made-color-feedback-warning; // Background color for warning state
+@made-color-feedback-background-information: @made-color-feedback-information; // Background color for neutral or optional state
+@made-color-background-primary: @made-color-brand-primary; // Background of primary brand color.
+@made-color-action-text-on-hover: @made-color-text-default-on-light; // Text color on top of hover state of UI Elements
+@made-color-action-text-disabled: @made-color-action-disabled; // Text color for disabled state of UI Elements
+@made-color-action-text-on-dark-active: @made-color-action-on-dark-active; // Text color of secondary interactive color e.g. secondary button on a dark background
+@made-color-action-text-on-dark-hover: @made-color-action-on-dark-hover; // Text color of secondary interactive color e.g. secondary button on a dark background
+@made-color-action-text-primary-active: @made-color-action-primary-active; // Text color of primary color pressed interactive state   e.g. ghost button
+@made-color-action-text-primary-hover: @made-color-action-primary-hover; // Text color of primary color hover interactive state e.g. secondary buttons
+@made-color-action-border-disabled: @made-color-action-disabled; // Border color for disabled state of UI Elements such as tables, dropdowns...
+@made-color-action-border-on-dark-active: @made-color-action-on-dark-active; // Border color of secondary interactive color.
+@made-color-action-border-on-dark-hover: @made-color-action-on-dark-hover; // Border color of secondary interactive color.
+@made-color-action-border-primary-active: @made-color-action-primary-active; // Border color of primary interactive color e.g primary buttons.
+@made-color-action-border-primary-hover: @made-color-action-primary-hover; // Border color of primary interactive color e.g primary buttons.
+@made-color-action-background-off: @made-color-action-disabled; // Background color for off state of UI Elements such as toggle
+@made-color-action-background-disabled: @made-color-action-disabled; // Background color for disabled state of UI Elements such as tables, dropdowns...
+@made-color-action-background-on-dark-active: @made-color-action-on-dark-active; // Background color of secondary interactive color.
+@made-color-action-background-on-dark-hover: @made-color-action-on-dark-hover; // Background color of secondary interactive color.
+@made-color-action-background-secondary-active: @made-color-background-default; // Background color of secondary interactive color  e.g. secondary button
+@made-color-action-background-secondary-hover: @made-color-background-default; // Background color of secondary interactive color e.g. secondary buttons
+@made-color-action-background-secondary-default: @made-color-background-default; // Background color of secondary interactive color e.g. secondary buttons
+@made-color-action-background-primary-active: @made-color-action-primary-active; // Background color of primary interactive color e.g primary buttons.
+@made-color-action-background-primary-hover: @made-color-action-primary-hover; // Background color of primary interactive color e.g primary buttons.
+@made-color-action-secondary-active: @made-color-action-primary-active; // Color of secondary interactive color  e.g. secondary button
+@made-color-action-secondary-hover: @made-color-action-primary-hover; // Color of secondary interactive color e.g. secondary buttons
+@made-color-action-secondary-default: @made-color-brand-secondary; // Color of secondary interactive color e.g. secondary buttons
+@made-color-action-primary-default: @made-color-brand-primary; // Color of primary interactive color e.g. buttons
+@made-link-color-default: @made-color-action-primary-default; // Text color for link
+@made-color-action-text-on-selected-hover: @made-color-action-primary-default; // Text color on top of hover and selected state of UI Elements
+@made-color-action-text-on-selected: @made-color-action-primary-default; // Text color on top of selected state of UI Elements
+@made-color-action-text-secondary-active: @made-color-action-secondary-active; // Text color of secondary interactive color  e.g. secondary button
+@made-color-action-text-secondary-hover: @made-color-action-secondary-hover; // Text color of secondary interactive color e.g. secondary buttons
+@made-color-action-text-secondary-default: @made-color-action-secondary-default; // Text color of secondary interactive color e.g. secondary buttons
+@made-color-action-text-primary-default: @made-color-action-primary-default; // Text color of primary interactive color e.g. links
+@made-color-action-border-selected-on-light: @made-color-action-primary-default; // Border color for selected items.
+@made-color-action-border-focus: @made-color-action-primary-default; // Outline color for focus state.
+@made-color-action-border-secondary-active: @made-color-action-secondary-active; // Border color of secondary interactive color  e.g. secondary button
+@made-color-action-border-secondary-hover: @made-color-action-secondary-hover; // Border color of secondary interactive color e.g. secondary buttons
+@made-color-action-border-secondary-default: @made-color-action-secondary-default; // Border color of secondary interactive color e.g. secondary buttons
+@made-color-action-border-primary-default: @made-color-action-primary-default; // Border color of primary interactive color e.g primary buttons.
+@made-color-action-background-primary-default: @made-color-action-primary-default; // Background color of primary interactive color e.g primary buttons.

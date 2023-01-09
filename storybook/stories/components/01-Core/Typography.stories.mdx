@@ -1,0 +1,157 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+
+<Meta title="Foundations/Typography" />
+
+# Typography
+
+We have a set of type styles for headlines, eyebrow headlines and body copy to communicate visual hierarchy.
+
+## Usage
+
+See the Getting Started documentation to download or install the Mark for MC font. You can do a simple copy and paste, setup an automated task to move the files out of node_modules or do whatever is the best fit for your project.
+
+## Headings
+
+All HTML headings, `<h1>` through `<h6>`, are available.
+
+<Canvas>
+  <Story name="Headings">
+    <h1>Heading 01</h1>
+    <h2>Heading 02</h2>
+    <h3>Heading 03</h3>
+    <h4>Heading 04</h4>
+    <h5>Heading 05</h5>
+    <h6>Heading 06</h6>
+  </Story>
+</Canvas>
+
+`.made-u-h1` through `.made-u-h6` classes are also available, for when you want to match the font styling of a heading but cannot use the associated HTML element.
+
+<Canvas>
+  <Story name="Heading Classes">
+    <p class="made-u-h1">Heading 01</p>
+    <p class="made-u-h2">Heading 02</p>
+    <p class="made-u-h3">Heading 03</p>
+    <p class="made-u-h4">Heading 04</p>
+    <p class="made-u-h5">Heading 05</p>
+    <p class="made-u-h6">Heading 06</p>
+  </Story>
+</Canvas>
+
+Traditional headings are designed to work best in your page content. When you need a heading to stand out on a marketing-focused page, consider using a display heading — a larger, slightly more opinionated heading style.
+
+<Canvas>
+  <Story name="Display">
+    <p class="made-u-display--01">Display 01</p>
+    <p class="made-u-display--02">Display 02</p>
+    <p class="made-u-display--03">Display 03</p>
+  </Story>
+</Canvas>
+
+Eyebrow text is a descriptive keyword or phrase placed above the main headline and blurb. It appears in a smaller font and sums up the content in just a few words. When users scan the headline, they'll also scan the eyebrow.
+
+<Canvas>
+  <Story name="Eyebrow">
+    <p class="made-u-eyebrow--01">Eyebrow 01</p>
+    <p class="made-u-eyebrow--02">Eyebrow 02</p>
+  </Story>
+</Canvas>
+
+Body text has styling by default.
+
+For smaller body text add the `made-u-body--small` class.
+
+For larger body text add the `made-u-body--large` class.
+
+For helper text add the `made-u-helper-text` class.
+
+<Canvas>
+  <Story name="Body">
+    <p class="made-u-body--small">
+      Small Body Text: Sed molestie augue sit amet leo consequat posuere.
+      Vestibulum ante ipsum primis in. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Etiam at risus et justo dign.
+    </p>
+    <p>
+      Default Body Text: Sed molestie augue sit amet leo consequat posuere.
+      Vestibulum ante ipsum primis in. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.{" "}
+      <a href="#" class="made-u-text-decoration-underline">
+        Etiam at risus et justo
+      </a>{" "}
+      dign.
+    </p>
+    <p>
+      <strong>
+        Default Body Bold Text: Sed molestie augue sit amet leo consequat
+        posuere. Vestibulum ante ipsum primis in. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam at risus et justo dign.
+      </strong>
+    </p>
+    <p class="made-u-body--large">
+      Large Body Text: Sed molestie augue sit amet leo consequat posuere.
+      Vestibulum ante ipsum primis in. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Etiam at risus et justo dign.
+    </p>
+    <p class="made-u-body--large">
+      <strong>
+        Large Body Bold Text: Sed molestie augue sit amet leo consequat posuere.
+        Vestibulum ante ipsum primis in. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.{" "}
+        <a href="#" class="made-u-text-decoration-underline">
+          Etiam at risus et justo
+        </a>{" "}
+        dign.
+      </strong>
+    </p>
+    <p class="made-u-helper-text">Helper Text: Last saved: dd Month YYYY.</p>
+  </Story>
+</Canvas>
+
+All links can either have a Subtle or Underline style.
+Subtle should be used when the placement and context of the link is explicit enough that a visible underline isn’t necessary.
+Subtle links are less accessible, so don't use them for links that are critical to an experience.
+Subtle links are commonly used in website footers, where there are several lists of links that are shortcuts to other pages.
+
+| Variant   | Usage                                                                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Subtle    | These links are the default link variant. They are used on their own or directly following content and they do not use underlines. They can be paired with an icon. |
+| Underline | Underline links are used within a sentence or paragraph and are styled with an underline. They should NOT be paired with an icon.                                   |
+
+For larger link text add the `made-u-body--large` class.
+
+<Canvas>
+  <Story name="Links">
+    <p>
+      {" "}
+      <a href="#">Subtle Link text</a>
+    </p>
+    <p>
+      {" "}
+      Underline links are used within a sentence or paragraph and are styled with
+      an underline. <a href="#" class="made-u-text-decoration-underline">
+        Underline Link text
+      </a>
+    </p>
+    <p class="made-u-body--large">
+      <a href="#">Link text large</a>
+    </p>
+  </Story>
+</Canvas>
+
+Use the `made-u-text--on-dark` class to invert the text color on a dark background.
+
+<Canvas>
+  <Story name="On Dark">
+    <div class="made-s-background-dark">
+      <h2 class="made-u-text--on-dark">Heading 02</h2>
+      <p class="made-u-eyebrow--01 made-u-text--on-dark">Eyebrow 01</p>
+      <p class="made-u-text--on-dark">Default Body Text</p>
+      <p class="made-u-text--on-dark">
+        <a href="#" class="made-u-link--on-dark">
+          Link text
+        </a>
+      </p>
+    </div>
+  </Story>
+</Canvas>

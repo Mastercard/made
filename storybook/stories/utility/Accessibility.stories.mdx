@@ -1,0 +1,39 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+
+<Meta title="Utility Classes/Accessibility" />
+
+# Accessibility
+
+## Visibilty
+
+Utilities for controlling the visibilty of an element. Enables a screen reader to still be able to read text that is hidden.
+
+-   `.made-u-a11y-hidden`
+-   `.made-u-a11y-visible`
+
+Use responsive display classes for showing and hiding elements by screen size.
+
+The classes are named using the format:
+
+-   `.made-u-a11y-hidden--{breakpoint}` for md and lg
+-   `.made-u-a11y-visible--{breakpoint}` for md and lg
+
+<Canvas>
+	<Story name="Accessibility">
+		<p class="made-u-a11y-hidden">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+		<p class="made-u-a11y-visible">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+	</Story>
+</Canvas>

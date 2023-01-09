@@ -1,0 +1,164 @@
+import {
+  Meta,
+  Canvas,
+  Story,
+  Props,
+  Source,
+} from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { RangeSlider } from "./RangeSlider";
+import dedent from "ts-dedent";
+
+<Meta
+  title="Forms/Range Slider"
+  parameters={{ badges: [BADGE.OBSOLETE]}}
+/>
+
+export const rangeSlider = (args) => <RangeSlider {...args} />;
+
+# Range Slider
+
+Custom `<input type="range">` range. The track (the background) and thumb (the value) are both styled to appear the same across browsers.
+
+In order to fill the track from the left of the thumb with color to visually show progress cross browser, optional JavaScript is used. JavaScript is provided below which can be adapted to suit your framework of choice.
+
+## Default
+
+<Canvas>
+  <Story
+    name="Default"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      rangeValue: {
+        name: "Value",
+        control: {
+          type: "range",
+          min: 0,
+          max: 100,
+          step: 1,
+        },
+      },
+    }}
+    args={{
+      label: "Label",
+      isDisabled: false,
+      rangeValue: 50,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+	<div class="made-c-range-slider">
+		<label class="made-c-range-slider__label" for="range-slider">Label</label>
+		<div class="made-c-range-slider__wrapper">
+			<div class="made-c-range-slider__min-value">0</div>
+			<input class="made-c-range-slider__range" type="range" min="0" max="100" id="range-slider" name="range-slider" value={value} ref={rangeSlider} onChange={setValueByRangeSlider} />
+			<div class="made-c-range-slider__max-value">100</div>
+			<label for="range-slider-input">
+				<input class="made-c-text-input made-c-text-input--small made-c-text-input--range-slider" type="number" min="0" max="100" id="range-slider-input" name="range-slider-input" value={value} ref={input} onChange={setValueByInput} />
+			</label>
+		</div>
+	</div>
+</div>`,
+        },
+      },
+    }}
+  >
+    {rangeSlider.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled
+
+Use the `made-c-range-slider--disabled` class on the `made-c-range-slider` element and add the `disabled` boolean attribute on the range input and the number input to give it a grayed out appearance and remove pointer events.
+
+<Canvas>
+  <Story
+    name="Disabled"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+    }}
+    args={{
+      label: "Label",
+      isDisabled: true,
+      rangeValue: 50,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["rangeValue"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+    <div class="made-c-range-slider made-c-range-slider--disabled">
+        <label class="made-c-range-slider__label" for="range-slider-disabled">Label</label>
+        <div class="made-c-range-slider__wrapper">
+            <div class="made-c-range-slider__min-value">0</div>
+            <input class="made-c-range-slider__range" type="range" min="0" max="100" id="range-slider-disabled" name="range-slider" value="50" aria-disabled="true" disabled/>
+            <div class="made-c-range-slider__max-value">100</div>
+            <label for="range-slider-input-disabled">
+                <input class="made-c-text-input made-c-text-input--small" type="number" min="0" max="100" id="range-slider-input-disabled" name="range-slider-input" value="50" aria-disabled="true" disabled/>
+            </label>
+        </div>
+    </div>
+</div>`,
+        },
+      },
+    }}
+  >
+    {rangeSlider.bind({})}
+  </Story>
+</Canvas>
+
+### Optional JavaScript
+
+The fill color to the left of the thumb to visually show progress is currently not able to be implemented cross browser without the use of optional JavaScript. JavaScript is provided below which can be adapted to suit your framework of choice.
+
+Javascript below also includes the code necessary to update the input field to the right of the range slider when the range slider is changed and also to update the range slider when the input field is changed. This input field is optional and not required for the range slider to function.
+
+<Source
+  language="javascript"
+  code={dedent`
+            const rangeSlider = document.querySelector(".made-c-range__slider__form-range");
+            const inputValue = document.querySelector(".made-c-range-slider__input-value"); //remove this line if not using the input field
+            const rangeSliderBackgroundColor = "var(--made-color-gray-03)";
+            const rangeSliderProgressColor = "var(--made-color-background-primary)";
+            
+            function updateRangeSlider(input) {
+                let rangeValue = ((input.value - input.min) / (input.max - input.min)) * 100;
+                
+                rangeSlider.style.background = \`linear-gradient(to right, \${rangeSliderProgressColor} 0%, \${rangeSliderProgressColor} \${rangeValue}%, \${rangeSliderBackgroundColor} \${rangeValue}%, \${rangeSliderBackgroundColor}\`;
+            }
+            
+            rangeSlider.addEventListener(
+                "input",
+                function () {
+                    updateRangeSlider(rangeSlider);
+                    inputValue.value = this.value; //remove this line if not using the input field
+                },
+                false
+            );
+            
+            //remove this event listener if not using the input field
+            inputValue.addEventListener(
+                "input",
+                function () {
+                    updateRangeSlider(inputValue);
+                    rangeSlider.value = this.value;
+                },
+                false
+            );
+  `}
+/>

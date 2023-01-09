@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Sun, 08 Jan 2023 17:40:51 GMT
+-->
+<resources>
+  <color name="made_color_accent_01">#fffb853c</color>
+  <color name="made_color_accent_02">#ff79b252</color>
+  <color name="made_color_background">#fff8f8f8</color><!-- Background color of the app -->
+  <color name="made_color_decorative_01">#fff0f0f0</color><!-- Light variant elements  -->
+  <color name="made_color_decorative_02">#ffbcbcbc</color>
+  <color name="made_color_disabled">#ff686868</color><!-- Color for disabled state -->
+  <color name="made_color_error">#ffd7373c</color><!-- Color for error state -->
+  <color name="made_color_on_background">#ff282828</color><!-- Displayed on top of the background color -->
+  <color name="made_color_on_error">#ffffffff</color><!-- Displayed on top of the error color -->
+  <color name="made_color_on_primary">#ffffffff</color><!-- Displayed on top of the primary color -->
+  <color name="made_color_on_secondary">#ffffffff</color><!-- Displayed on top of the secondary color -->
+  <color name="made_color_on_surface">#ff282828</color><!-- Displayed on top of the surface color -->
+  <color name="made_color_primary_light">#a618a886</color><!-- Primary Color at 65% opacity.  Used on hover/pressed state of the button. -->
+  <color name="made_color_primary">#ff18a886</color><!-- The primary color of your brand -->
+  <color name="made_color_secondary">#ff2baab9</color><!-- The secondary color of your brand -->
+  <color name="made_color_secondary_light">#a62baab9</color><!-- Secondary Color at 65% opacity.  Used on hover/pressed state of the button. -->
+  <color name="made_color_shadow">#66000000</color><!-- Drop shadow color -->
+  <color name="made_color_surface">#ffffffff</color><!-- Background color of components such as cards, sheets, and menus. -->
+  
+</resources>
