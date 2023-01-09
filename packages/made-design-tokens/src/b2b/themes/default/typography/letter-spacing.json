@@ -1,0 +1,18 @@
+{
+  "letter": {
+    "spacing": {
+      "default": {
+        "comment": "Default letter spacing for all text.",
+        "value": "normal",
+        "themeable": "Yes",
+        "type": "letterSpacing"
+      },
+      "eyebrow": {
+        "comment": "Default letter spacing for all text.",
+        "value": "1.8px",
+        "themeable": "Yes",
+        "type": "letterSpacing"
+      }
+    }
+  }
+}

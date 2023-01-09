@@ -1,0 +1,46 @@
+{
+  "font": {
+    "family": {
+      "narrow": {
+        "comment": "Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
+        "value": "MarkForMCNrw, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "No"
+      },
+      "narrow-medium": {
+        "comment": "Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
+        "value": "MarkForMCNrw-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "No"
+      },
+      "narrow-bold": {
+        "comment": "Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
+        "value": "MarkForMCNrw-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "No"
+      },
+      "regular": {
+        "comment": "Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
+        "value": "MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "No"
+      },
+      "extra-light": {
+        "comment": "Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
+        "value": "MarkOffcForMC-ExtraLight, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "No"
+      },
+      "light": {
+        "comment": "Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
+        "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "No"
+      },
+      "medium": {
+        "comment": "Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
+        "value": "MarkOffcForMC-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "No"
+      },
+      "bold": {
+        "comment": "Default bold weight font used across application",
+        "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "No"
+      }
+    }
+  }
+}

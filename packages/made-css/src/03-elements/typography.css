@@ -1,0 +1,177 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--made-font-weight-default);
+  margin: 0;
+}
+
+h1,
+.made-u-h1 {
+  font-family: var(--made-font-heading-family-level-01);
+  font-size: var(--made-font-heading-size-level-01);
+  font-weight: var(--made-font-heading-weight-level-01);
+  line-height: var(--made-font-heading-line-height-level-01);
+  margin: 0;
+}
+
+h2,
+.made-u-h2 {
+  font-family: var(--made-font-heading-family-level-02);
+  font-size: var(--made-font-heading-size-level-02);
+  font-weight: var(--made-font-heading-weight-level-02);
+  line-height: var(--made-font-heading-line-height-level-02);
+  margin: 0;
+}
+
+h3,
+.made-u-h3 {
+  font-family: var(--made-font-heading-family-level-03);
+  font-size: var(--made-font-heading-size-level-03);
+  font-weight: var(--made-font-heading-weight-level-03);
+  line-height: var(--made-font-heading-line-height-level-03);
+  margin: 0;
+}
+
+h4,
+.made-u-h4 {
+  font-family: var(--made-font-heading-family-level-04);
+  font-size: var(--made-font-heading-size-level-04);
+  font-weight: var(--made-font-heading-weight-level-04);
+  line-height: var(--made-font-heading-line-height-level-04);
+  margin: 0;
+}
+
+h5,
+.made-u-h5 {
+  font-family: var(--made-font-heading-family-level-05);
+  font-size: var(--made-font-heading-size-level-05);
+  font-weight: var(--made-font-heading-weight-level-05);
+  line-height: var(--made-font-heading-line-height-level-05);
+  margin: 0;
+}
+
+h6,
+.made-u-h6 {
+  font-family: var(--made-font-heading-family-level-06);
+  font-size: var(--made-font-heading-size-level-06);
+  font-weight: var(--made-font-heading-weight-level-06);
+  line-height: var(--made-font-heading-line-height-level-06);
+  margin: 0;
+}
+
+p {
+  color: var(--made-color-text-default-on-light);
+  font-family: var(--made-font-body-family-default);
+  font-size: var(--made-font-body-size-default);
+  margin: 0 0 var(--made-space-4-x) 0;
+}
+
+strong {
+  font-family: var(--made-font-body-family-bold);
+  font-weight: var(--made-font-body-weight-bold);
+}
+
+a {
+  color: var(--made-link-color-default);
+  font-family: var(--made-font-body-family-bold);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid var(--made-color-action-border-focus);
+  outline-offset: 2px;
+}
+
+a:disabled,
+a.made-u-link--disabled,
+a[aria-disabled="true"] {
+  color: var(--made-color-action-text-disabled);
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.made-u-link--on-dark {
+  color: var(--made-color-text-default-on-dark);
+}
+
+.made-u-link--disabled {
+  color: var(--made-color-action-text-disabled);
+  text-decoration: none;
+  cursor: default;
+}
+
+.made-u-link--disabled:hover {
+  text-decoration: none;
+}
+
+.made-u-body--small {
+  font-size: var(--made-font-body-size-small);
+}
+
+.made-u-body--large {
+  font-size: var(--made-font-body-size-large);
+}
+
+.made-u-display--01 {
+  font-family: var(--made-font-heading-family-display-01);
+  font-size: var(--made-font-heading-size-display-01);
+  font-weight: var(--made-font-heading-weight-display-01);
+  line-height: var(--made-font-heading-line-height-display-01);
+  margin: 0;
+}
+
+.made-u-display--02 {
+  font-family: var(--made-font-heading-family-display-02);
+  font-size: var(--made-font-heading-size-display-02);
+  font-weight: var(--made-font-heading-weight-display-02);
+  line-height: var(--made-font-heading-line-height-display-02);
+  margin: 0;
+}
+
+.made-u-display--03 {
+  font-family: var(--made-font-heading-family-display-03);
+  font-size: var(--made-font-heading-size-display-03);
+  font-weight: var(--made-font-heading-weight-display-03);
+  line-height: var(--made-font-heading-line-height-display-03);
+  margin: 0;
+}
+
+.made-u-eyebrow--01 {
+  font-family: var(--made-font-heading-family-eyebrow-01);
+  font-size: var(--made-font-heading-size-eyebrow-01);
+  font-weight: var(--made-font-heading-weight-eyebrow-01);
+  letter-spacing: var(--made-font-heading-letter-spacing-eyebrow-01);
+  line-height: var(--made-font-heading-line-height-eyebrow-01);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.made-u-eyebrow--02 {
+  font-family: var(--made-font-heading-family-eyebrow-02);
+  font-size: var(--made-font-heading-size-eyebrow-02);
+  font-weight: var(--made-font-heading-weight-eyebrow-02);
+  letter-spacing: var(--made-font-heading-letter-spacing-eyebrow-02);
+  line-height: var(--made-font-heading-line-height-eyebrow-02);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.made-u-text--on-dark {
+  color: var(--made-color-text-default-on-dark);
+}
+
+.made-u-helper-text {
+  font-size: var(--made-font-body-size-small);
+  color: var(--made-color-text-helper);
+}
+
+.made-u-text-disabled {
+  color: var(--made-color-action-text-disabled);
+}

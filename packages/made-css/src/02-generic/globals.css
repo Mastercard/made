@@ -1,0 +1,18 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--made-color-background-default);
+  color: var(--made-color-text-default-on-light);
+  font-family: var(--made-font-body-family-default);
+  line-height: var(--made-font-body-line-height);
+  letter-spacing: var(--made-letter-spacing-default);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: var(--made-font-body-size-default);
+}

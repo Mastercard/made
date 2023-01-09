@@ -1,0 +1,73 @@
+{
+    "color": {
+      "accent-01": {
+        "value": "#FB853C"
+      },
+      "accent-02": {
+        "value": "#79B252"
+      },
+      "background": {
+        "comment": "Background color of the app",
+        "value": "#F8F8F8"
+      },
+      "decorative-01": {
+        "comment": "Light variant elements ",
+        "value": "#F0F0F0"
+      },
+      "decorative-02": {
+        "value": "#BCBCBC"
+      },
+      "disabled": {
+        "comment": "Color for disabled state",
+        "value": "#686868"
+      },
+      "error": {
+        "comment": "Color for error state",
+        "value": "#D7373C"
+      },
+      "on-background": {
+        "comment": "Displayed on top of the background color",
+        "value": "#282828"
+      },
+      "on-error": {
+        "comment": "Displayed on top of the error color",
+        "value": "#FFFFFF"
+      },
+      "on-primary": {
+        "comment": "Displayed on top of the primary color",
+        "value": "#FFFFFF"
+      },
+      "on-secondary": {
+        "comment": "Displayed on top of the secondary color",
+        "value": "#FFFFFF"
+      },
+      "on-surface": {
+        "comment": "Displayed on top of the surface color",
+        "value": "#282828"
+      },
+      "primary-light": {
+        "comment": "Primary Color at 65% opacity.  Used on hover/pressed state of the button.",
+        "value": "rgba(24, 168, 134, 0.65)"
+      },
+      "primary" : {
+        "comment": "The primary color of your brand",
+        "value": "#18A886"
+      },
+      "secondary" : {
+        "comment": "The secondary color of your brand",
+        "value": "#2BAAB9"
+      },
+      "secondary-light": {
+        "comment": "Secondary Color at 65% opacity.  Used on hover/pressed state of the button.",
+        "value": "rgba(43, 170, 185, 0.65)"
+      },
+      "shadow": {
+        "comment": "Drop shadow color",
+        "value": "rgba(0,0,0,0.4)"
+      },
+      "surface": {
+        "comment": "Background color of components such as cards, sheets, and menus.",
+        "value": "#FFFFFF"
+      }
+    }
+  }

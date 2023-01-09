@@ -1,0 +1,574 @@
+{
+  "tokens": {
+    "color": [
+      {
+        "name": "made-color-action-primary-default",
+        "value": "#cf4500",
+        "comment": "Color of primary interactive color e.g. buttons",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-brand-primary"
+      },
+      {
+        "name": "made-color-action-primary-hover",
+        "value": "#9a3a0a",
+        "comment": "Color of primary interactive color on hover  e.g. buttons",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-orange-05"
+      },
+      {
+        "name": "made-color-action-primary-active",
+        "value": "#331505",
+        "comment": "Color of primary interactive color on active  e.g. buttons",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-orange-07"
+      },
+      {
+        "name": "made-color-action-secondary-default",
+        "value": "#cf4500",
+        "comment": "Color of secondary interactive color e.g. secondary buttons",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-brand-secondary"
+      },
+      {
+        "name": "made-color-action-secondary-hover",
+        "value": "#9a3a0a",
+        "comment": "Color of secondary interactive color e.g. secondary buttons",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-action-primary-hover"
+      },
+      {
+        "name": "made-color-action-secondary-active",
+        "value": "#331505",
+        "comment": "Color of secondary interactive color  e.g. secondary button",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-action-primary-active"
+      },
+      {
+        "name": "made-color-action-on-dark-default",
+        "value": "#ffffff",
+        "comment": "Color of interactive color on dark background e.g. buttons",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "#FFFFFF"
+      },
+      {
+        "name": "made-color-action-on-dark-hover",
+        "value": "#e8e5e1",
+        "comment": "Text color of secondary interactive color on dark background e.g. buttons.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-02"
+      },
+      {
+        "name": "made-color-action-on-dark-active",
+        "value": "#b1ada6",
+        "comment": "Text color of secondary interactive color on dark background e.g. buttons.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-03"
+      },
+      {
+        "name": "made-color-action-disabled",
+        "value": "#b1ada6",
+        "comment": "Global color for disabled state.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-03"
+      },
+      {
+        "name": "made-color-action-background-selected",
+        "value": "#f3f0ee",
+        "comment": "Background color for selected state of UI Elements such as tables, dropdowns...",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-01-5"
+      },
+      {
+        "name": "made-color-action-background-selected-hover",
+        "value": "#e8e5e1",
+        "comment": "Background color for hover state of on selected UI Elements",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-02"
+      },
+      {
+        "name": "made-color-action-background-hover",
+        "value": "#faf7f5",
+        "comment": "Background color for hover state of UI Elements such as tables, dropdowns...",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-01-25"
+      },
+      {
+        "name": "made-color-action-border-focus",
+        "value": "#cf4500",
+        "comment": "Outline color for focus state.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-action-primary-default"
+      },
+      {
+        "name": "made-color-action-text-on-dark",
+        "value": "#141413",
+        "comment": "Text color on top of interactive color on a dark background",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-07"
+      },
+      {
+        "name": "made-color-action-text-on-disabled",
+        "value": "#ffffff",
+        "comment": "Text color on top of disabled state color",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-text-default-on-dark"
+      },
+      {
+        "name": "made-color-action-text-on-hover",
+        "value": "#141413",
+        "comment": "Text color on top of hover state of UI Elements",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-text-default-on-light"
+      },
+      {
+        "name": "made-color-action-text-on-selected",
+        "value": "#cf4500",
+        "comment": "Text color on top of selected state of UI Elements",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-action-primary-default"
+      },
+      {
+        "name": "made-color-action-text-on-selected-hover",
+        "value": "#cf4500",
+        "comment": "Text color on top of hover and selected state of UI Elements",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-action-primary-default"
+      },
+      {
+        "name": "made-color-background-default",
+        "value": "#ffffff",
+        "comment": "Main background color of the application.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-white"
+      },
+      {
+        "name": "made-color-background-gray-lightest",
+        "value": "#f3f0ee",
+        "comment": "Used on background of breadcrumb and pill components.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-01-5"
+      },
+      {
+        "name": "made-color-border-default-on-light",
+        "value": "#e8e5e1",
+        "comment": "Default Border color used for layout elements e.g. accordion, table.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-02"
+      },
+      {
+        "name": "made-color-border-default-on-dark",
+        "value": "#555250",
+        "comment": "Default Border color used for layout elements on a dark background.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-05"
+      },
+      {
+        "name": "made-color-brand-primary",
+        "value": "#cf4500",
+        "comment": "The primary color of your brand",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-orange-04"
+      },
+      {
+        "name": "made-color-brand-secondary",
+        "value": "#cf4500",
+        "comment": "The secondary color of your brand",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-orange-04"
+      },
+      {
+        "name": "made-color-brand-on-primary",
+        "value": "#ffffff",
+        "comment": "The text color on your primary brand color",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "#FFFFFF"
+      },
+      {
+        "name": "made-color-brand-on-secondary",
+        "value": "#ffffff",
+        "comment": "The text color on your secondary brand color",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "#FFFFFF"
+      },
+      {
+        "name": "made-color-feedback-error",
+        "value": "#ee0000",
+        "comment": "Color for error state",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "#EE0000"
+      },
+      {
+        "name": "made-color-feedback-success",
+        "value": "#038a00",
+        "comment": "Color for success or positive state",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "#038A00"
+      },
+      {
+        "name": "made-color-feedback-information",
+        "value": "#ffc61e",
+        "comment": "Color for neutral or optional state",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-yellow-04"
+      },
+      {
+        "name": "made-color-feedback-warning",
+        "value": "#f38b00",
+        "comment": "Color for warning state",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gold-04"
+      },
+      {
+        "name": "made-color-text-default-on-light",
+        "value": "#141413",
+        "comment": "Color of body text on light background.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-07"
+      },
+      {
+        "name": "made-color-text-default-on-dark",
+        "value": "#ffffff",
+        "comment": "Color of body text on dark background.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "#FFFFFF"
+      },
+      {
+        "name": "made-color-text-helper",
+        "value": "#555250",
+        "comment": "Text color of helper text on forms, cards etc.",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-05"
+      },
+      {
+        "name": "made-footer-color-background",
+        "value": "#141413",
+        "comment": "Background color for footer component",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-07"
+      },
+      {
+        "name": "made-header-color-background",
+        "value": "#141413",
+        "comment": "Background color for header component",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-07"
+      },
+      {
+        "name": "made-scrollbar-color-background",
+        "value": "#b1ada6",
+        "comment": "Background color for scrollbar component",
+        "themeable": "Yes",
+        "type": "color",
+        "original": "color-gray-03"
+      }
+    ],
+    "typography": [
+      {
+        "name": "made-font-family-heading",
+        "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "comment": "Font family for headings (H1,H2 and display text)",
+        "themeable": "Yes",
+        "type": "fontFamilies",
+        "original": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif"
+      },
+      {
+        "name": "made-font-family-eyebrow",
+        "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "comment": "Font family for headings (H1,H2 and display text)",
+        "themeable": "Yes",
+        "type": "fontFamilies",
+        "original": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif"
+      },
+      {
+        "name": "made-font-heading-size-level-01",
+        "value": "32px",
+        "comment": "Font Size for Heading 1 (H1)",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-11"
+      },
+      {
+        "name": "made-font-heading-size-level-02",
+        "value": "28px",
+        "comment": "Font Size for Heading 2 (H2)",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-10"
+      },
+      {
+        "name": "made-font-heading-size-level-03",
+        "value": "24px",
+        "comment": "Font Size for Heading 3 (H3)",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-09"
+      },
+      {
+        "name": "made-font-heading-size-level-04",
+        "value": "20px",
+        "comment": "Font Size for Heading 4 (H4)",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-08"
+      },
+      {
+        "name": "made-font-heading-size-level-05",
+        "value": "18px",
+        "comment": "Font Size for Heading 5 (H5)",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-07"
+      },
+      {
+        "name": "made-font-heading-size-level-06",
+        "value": "16px",
+        "comment": "Font Size for Heading 6 (H6)",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-06"
+      },
+      {
+        "name": "made-font-heading-size-display-01",
+        "value": "80px",
+        "comment": "Font Size for Display 01.",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-15"
+      },
+      {
+        "name": "made-font-heading-size-display-02",
+        "value": "48px",
+        "comment": "Font Size for Display 02.",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-13"
+      },
+      {
+        "name": "made-font-heading-size-display-03",
+        "value": "32px",
+        "comment": "Font Size for Display 03.",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-size-11"
+      },
+      {
+        "name": "made-font-heading-size-eyebrow-01",
+        "value": "12px",
+        "comment": "Font size for small eyebrow text",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-body-size-small"
+      },
+      {
+        "name": "made-font-heading-size-eyebrow-02",
+        "value": "16px",
+        "comment": "Font size for default eyebrow text",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-body-size-large"
+      },
+      {
+        "name": "made-font-body-size-large",
+        "value": "16px",
+        "comment": "Large font size for body text.",
+        "themeable": "Yes",
+        "type": "fontFamilies",
+        "original": "font-size-06"
+      },
+      {
+        "name": "made-font-body-size-default",
+        "value": "14px",
+        "comment": "Default font size for body text.",
+        "themeable": "Yes",
+        "type": "fontFamilies",
+        "original": "font-size-04"
+      },
+      {
+        "name": "made-font-body-size-small",
+        "value": "12px",
+        "comment": "Small font size for body text.",
+        "themeable": "Yes",
+        "type": "fontFamilies",
+        "original": "font-size-02"
+      },
+      {
+        "name": "made-font-body-weight-default",
+        "value": "400",
+        "comment": "Default font weight for body text.",
+        "themeable": "Yes",
+        "type": "fontWeight",
+        "original": "font-weight-default"
+      },
+      {
+        "name": "made-font-body-weight-bold",
+        "value": "700",
+        "comment": "Bold font weight for body text.",
+        "themeable": "Yes",
+        "type": "fontWeight",
+        "original": "font-weight-bold"
+      },
+      {
+        "name": "made-font-body-family-narrow",
+        "value": "MarkForMCNrw, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "comment": "Default font family for narrow/small text. Used on tooltip and notification",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-family-narrow"
+      },
+      {
+        "name": "made-font-body-family-default",
+        "value": "MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "comment": "Default font family for body text.",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-family-regular"
+      },
+      {
+        "name": "made-font-body-family-bold",
+        "value": "MarkOffcForMC-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "comment": "Font family for bold body text.",
+        "themeable": "Yes",
+        "type": "fontSizes",
+        "original": "font-family-medium"
+      }
+    ],
+    "space": [
+      {
+        "name": "made-grid-gutters-sm",
+        "value": "8px",
+        "comment": "Grid gutter size on small breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "original": "space-2-x"
+      },
+      {
+        "name": "made-grid-gutters-md",
+        "value": "16px",
+        "comment": "Gutter size on medium breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "original": "space-4-x"
+      },
+      {
+        "name": "made-grid-gutters-lg",
+        "value": "16px",
+        "comment": "Gutter size on large breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "original": "space-4-x"
+      },
+      {
+        "name": "made-grid-margin-sm",
+        "value": "8px",
+        "comment": "Margin size on small breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "original": "space-2-x"
+      },
+      {
+        "name": "made-grid-margin-md",
+        "value": "16px",
+        "comment": "Margin size on medium breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "original": "space-4-x"
+      },
+      {
+        "name": "made-grid-margin-lg",
+        "value": "16px",
+        "comment": "Margin size on large breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "original": "space-4-x"
+      }
+    ],
+    "borderRadius": [
+      {
+        "name": "made-border-radius-small",
+        "value": "2px",
+        "comment": "Small border radius for UI components",
+        "themeable": "Yes",
+        "type": "borderRadius",
+        "original": "border-radius-01"
+      },
+      {
+        "name": "made-border-radius-default",
+        "value": "4px",
+        "comment": "Default border radius for UI components",
+        "themeable": "Yes",
+        "type": "borderRadius",
+        "original": "border-radius-02"
+      },
+      {
+        "name": "made-border-radius-large",
+        "value": "8px",
+        "comment": "Large border radius for UI components",
+        "themeable": "Yes",
+        "type": "borderRadius",
+        "original": "border-radius-04"
+      },
+      {
+        "name": "made-button-border-radius",
+        "value": "20px",
+        "comment": "Button Border Radius",
+        "themeable": "Yes",
+        "type": "borderRadius",
+        "original": "border-radius-07"
+      },
+      {
+        "name": "made-pill-border-radius",
+        "value": "12px",
+        "comment": "Pill Border Radius",
+        "themeable": "Yes",
+        "type": "borderRadius",
+        "original": "border-radius-05"
+      }
+    ],
+    "shadow": [
+      {
+        "name": "made-shadow-default",
+        "value": "0 2px 10px 0 rgba(20,20,19,0.20)",
+        "comment": "Shadow for all content cards, dropdowns, dialogs, datepicker etc.",
+        "themeable": "Yes",
+        "type": "boxShadow",
+        "original": "0 2px 10px 0 rgba(20,20,19,0-20)"
+      }
+    ]
+  }
+}

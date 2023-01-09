@@ -1,0 +1,37 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Hello/Naming Conventions/CSS" />
+
+# CSS
+
+In order to keep our codebase flat, with low specificity, and keep us from fighting specificity wars that start with frustration and end with !important, we’ve chosen to use very specific naming techniques. Though we base our naming on the BEM method, we have a few additions of our own outlined below.
+
+BEM is a well-known method of naming components — block, element, modifier. For more information see [BEM documentation](https://en.bem.info/methodology/).
+
+## Benefits 
+**Modularity**  
+Block styles are never dependent on other elements on a page, so you will never experience problems from cascading.  You also get the ability to transfer blocks from your finished projects to new ones.
+
+**Reusability**  
+Composing independent blocks in different ways, and reusing them intelligently, reduces the amount of CSS code that you will have to maintain.  With a set of style guidelines in place, you can build a library of blocks, making your CSS super effective.
+
+**Structure**  
+BEM methodology gives your CSS code a solid structure that remains simple and easy to understand.
+
+## How Made adds to BEM
+
+**Global Namespace**
+
+All classes associated with the design system are prefixed with a global namespace '.made'.
+Our design system may be integrated with other technologies,
+so it makes sense to create an identifier for system-specific code to avoid conflicts.
+
+**Class Prefix**
+
+In addition to a global namespace, we added prefixes to each class to make it more apparent what job that class is doing.
+
+- c- for UI components, such as .made-c-button or .made-c-modal
+- l- for layout-related styles, such as .made-l-grid\_\_item
+- u- for utilities, such as .made-u-margin-top-2-x
+
+We found them to be extremely helpful for clarifying the role of each class and made it easy to decipher an application’s codebase at a glance. This kind of clarity is especially helpful for the design system users to be able to easily make heads or tails of things.

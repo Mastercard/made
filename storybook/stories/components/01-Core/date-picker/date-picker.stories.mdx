@@ -1,0 +1,137 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { DateInline, DatePicker, DateRange } from "./DatePicker";
+
+<Meta
+	title="Forms/Date Picker"
+	parameters={{
+		badges: [ BADGE.OBSOLETE]
+	}}
+	decorators={[
+		(Story) => (
+			<div style={{ height: "31rem" }}>
+				<Story />
+			</div>
+		),
+	]}
+/>
+
+export const dateInline = (args) => <DateInline {...args} />;
+export const datePicker = (args) => <DatePicker {...args} />;
+export const dateRanges = (args) => <DateRange {...args} />;
+
+# Date Picker
+
+The date picker utilises the React Datepicker component [React Datepicker](https://reactdatepicker.com) for demonstrating how to style a date picker but any plugin can be used for your project. This is simply a demo of how to style and use tokens. In this example we applied custom CSS styles to the classes provided by React Datepicker.
+
+As the date picker is using a third party component there are currently some minor accessibility issues beyond our control which you can view in the Canvas tab above and then selecting the Accessibility tab below the component demo.
+
+## Inline
+
+<Canvas>
+	<Story
+		name="Inline"
+		argTypes={{
+			showHint: {
+				name: "Show Hint",
+			},
+			hint: {
+				name: "Hint",
+			},
+		}}
+		args={{
+			showHint: true,
+			hint: "Hint message - single or multi-line.",
+		}}
+		parameters={{
+			docs: {
+				source: {
+					code: `<ReactDatePicker selected={startDate} onChange={(date) => setStartDate(date)}  dateFormat="dd MM yyyy" showMonthDropdown showYearDropdown dropdownMode="scroll" inline children={<Hint />} />`,
+				},
+			},
+		}}
+	>
+		{dateInline.bind({})}
+	</Story>
+</Canvas>
+
+## Date Select
+
+<Canvas>
+	<Story
+		name="Date Select"
+		argTypes={{
+			dateFormat: {
+				name: "Date Format",
+				control: {
+					type: "radio",
+					options: ["dd mm yyyy", "mm dd yyyy"],
+				},
+			},
+			showHint: {
+				name: "Show Hint",
+			},
+		}}
+		args={{
+			label: "Date label",
+			dateFormat: "dd mm yyyy",
+			showHint: true,
+			hint: "Hint message - single or multi-line.",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["label", "hint"],
+			},
+			docs: {
+				source: {
+					code: `<ReactDatePicker selected={startDate} onChange={(date) => setStartDate(date)} dateFormat="dd MM yyyy" customInput={<Input />} showMonthDropdown showYearDropdown dropdownMode="scroll" placeholderText="DD MMM YYYY" children={<Hint />} startOpen />`,
+				},
+			},
+		}}
+	>
+		{datePicker.bind({})}
+	</Story>
+</Canvas>
+
+## Date Range
+
+<Canvas>
+	<Story
+		name="Date Range"
+		argTypes={{
+			dateFormat: {
+				name: "Date Format",
+				control: {
+					type: "radio",
+					options: ["dd mm yyyy", "mm dd yyyy"],
+				},
+			},
+			showHintDateFrom: {
+				name: "Show Hint on Date From",
+			},
+			showHintDateTo: {
+				name: "Show Hint on Date To",
+			},
+		}}
+		args={{
+			label: "Date label",
+			dateFormat: "dd mm yyyy",
+			showHintDateFrom: true,
+			showHintDateTo: true,
+			hint: "Hint message - single or multi-line.",
+		}}
+		parameters={{
+			controls: {
+				exclude: ["label", "hint"],
+			},
+			docs: {
+				source: {
+					code: `<ReactDatePicker selected={startDate} onChange={(date) => setStartDate(date)} dateFormat="dd MM yyyy" customInput={<Input />} showMonthDropdown showYearDropdown dropdownMode="scroll" selectsStart startDate={startDate} endDate={endDate} placeholderText="DD MMM YYYY" yearItemNumber={5} startOpen children={<Hint />} />
+<ReactDatePicker selected={endDate} onChange={(date) => setEndDate(date)} dateFormat="dd MM yyyy" customInput={<Input />} showMonthDropdown showYearDropdown dropdownMode="scroll" selectsEnd startDate={startDate} endDate={endDate} minDate={startDate} placeholderText="DD MMM YYYY" children={<Hint />} popperPlacement='bottom-end' />`,
+				},
+			},
+		}}
+	>
+		{dateRanges.bind({})}
+	</Story>
+</Canvas>

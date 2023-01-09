@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Madxpandroiddesigntokens" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/made_color_primary</item>
+        <item name="colorOnPrimary">@color/made_color_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/made_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/made_color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/made_color_on_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

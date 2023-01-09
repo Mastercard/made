@@ -1,0 +1,507 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { Checkbox } from "./Checkbox";
+import { CheckboxGroup } from "./CheckboxGroup";
+
+<Meta
+  title="Forms/Checkbox"
+  parameters={{
+    badges: [BADGE.OBSOLETE],
+  }}
+/>
+
+export const checkbox = (args) => <Checkbox {...args} />;
+export const checkboxGroup = (args) => <CheckboxGroup {...args} />;
+
+# Checkbox
+
+All checkboxes must have visible labels that are associated with checkbox input.
+The recommended method for most circumstances is to use the label element and an explicit association using the for and id attributes.
+
+<Canvas>
+  <Story
+    name="Default"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["unchecked", "checked", "indeterminate"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isValid: {
+        name: "Valid",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+    }}
+    args={{
+      label: "Option 1",
+      state: "unchecked",
+      isDisabled: false,
+      isValid: true,
+      validationText: "Validation",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <input class="made-c-checkbox" name="checkbox-01" type="checkbox" id="checkbox-group-1-1" value="1" />
+  <label class="made-c-checkbox__label" for="checkbox-group-1-1">
+    Option 1
+  </label>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{checkbox.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled State
+
+Add the disabled boolean attribute on an input to give it a grayed out appearance and remove pointer events.
+
+<Canvas>
+  <Story
+    name="Disabled"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["unchecked", "checked", "indeterminate"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+    }}
+    args={{
+      label: "Option 1",
+      state: "unchecked",
+      isDisabled: true,
+      isValid: true,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["isValid"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <input class="made-c-checkbox" name="checkbox-02" type="checkbox" id="checkbox-group-2-1" value="1" aria-disabled="true" disabled checked />
+  <label class="made-c-checkbox__label" for="checkbox-group-2-1">
+    Option 1
+  </label>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{checkbox.bind({})}
+  </Story>
+</Canvas>
+
+## Validation - Error Messages
+
+Add the `made-c-checkbox__label--error` class to the label for error validation styles.
+Add an error message using the `made-c-form__validation--error` class.
+
+<Canvas>
+  <Story
+    name="Error State"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["unchecked", "checked", "indeterminate"],
+        },
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+    }}
+    args={{
+      label: "Option 1",
+      state: "unchecked",
+      isDisabled: false,
+      validationText: "Validation",
+    }}
+    parameters={{
+      controls: {
+        exclude: ["state", "isDisabled"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <input class="made-c-checkbox" name="checkbox-03" type="checkbox" id="checkbox-group-3-1" value="1"/>
+  <label class="made-c-checkbox__label made-c-checkbox__label--error made-u-margin-bottom-3-x" for="checkbox-group-3-1">
+    Option 1
+  </label>
+  <div class="made-c-form__validation--error">Validation</div>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{checkbox.bind({})}
+  </Story>
+</Canvas>
+
+## Indeterminate State
+
+Add the `made-c-checkbox--indeterminate` on an input to give an indeterminate State.
+
+<Canvas>
+  <Story
+    name="Indeterminate"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["unchecked", "checked", "indeterminate"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isValid: {
+        name: "Valid",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+    }}
+    args={{
+      label: "Option 1",
+      state: "indeterminate",
+      isDisabled: false,
+      isValid: true,
+      validationText: "Validation",
+    }}
+    parameters={{
+      controls: {
+        exclude: ["state"],
+      },
+      docs: {
+        source: {
+          code: `
+<fieldset class="made-c-form__fieldset">
+  <legend for="default" class="made-c-form__label">
+    Checkbox button heading
+  </legend>
+  <ul class="made-c-checkbox-group">
+    <li class="made-u-margin-right-3-x">
+      <input
+        class="made-c-checkbox made-c-checkbox--indeterminate"
+        name="checkbox-08"
+        type="checkbox"
+        id="checkbox-group-8-2"
+        value="2"
+      />
+      <label
+        class="made-c-checkbox__label made-u-margin-bottom-3-x"
+        for="checkbox-group-8-2"
+      >
+        Option 2
+      </label>
+    </li>
+  </ul>
+</fieldset>`,
+        },
+      },
+    }}
+  >
+    {checkbox.bind({})}
+  </Story>
+</Canvas>
+
+## Checkbox Group - Vertical
+
+The checkbox group is aligned vertically by default.
+
+<Canvas>
+  <Story
+    name="Group"
+    argTypes={{
+      heading: {
+        name: "Heading",
+      },
+      options: {
+        name: "Options",
+        control: {
+          type: "array",
+        },
+      },
+      isVertical: {
+        name: "Vertical",
+      },
+      isValid: {
+        name: "Valid",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+    }}
+    args={{
+      heading: "Checkbox button heading",
+      options: ["Option 1", "Option 2", "Option 3"],
+      isVertical: true,
+      isValid: true,
+      validationText: "Validation",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<fieldset class="made-c-form__fieldset">
+  <legend for="default" class="made-c-form__label" id="id-group-label">
+    Checkbox button heading
+  </legend>
+  <div role="group" aria-labelledby="id-group-label">
+    <ul class="made-c-checkbox-group">
+      <li class="made-u-margin-right-3-x">
+        <input
+          class="made-c-checkbox"
+          name="checkbox-04"
+          type="checkbox"
+          id="checkbox-group-4-1"
+          value="1"
+        />
+        <label
+          class="made-c-checkbox__label made-u-margin-bottom-3-x"
+          for="checkbox-group-4-1"
+        >
+          Option 1
+        </label>
+      </li>
+      <li class="made-u-margin-right-3-x">
+        <input
+          class="made-c-checkbox"
+          name="checkbox-04"
+          type="checkbox"
+          id="checkbox-group-4-2"
+          value="2"
+        />
+        <label
+          class="made-c-checkbox__label made-u-margin-bottom-3-x"
+          for="checkbox-group-4-2"
+        >
+          Option 2
+        </label>
+      </li>
+      <li class="made-u-margin-right-3-x">
+        <input
+          class="made-c-checkbox"
+          name="checkbox-04"
+          type="checkbox"
+          id="checkbox-group-4-3"
+          value="3"
+        />
+        <label
+          class="made-c-checkbox__label made-u-margin-bottom-3-x"
+          for="checkbox-group-4-3"
+        >
+          Option 3
+        </label>
+      </li>
+    </ul>
+  </div>
+</fieldset>`,
+        },
+      },
+    }}
+  >
+    >{checkboxGroup.bind({})}
+  </Story>
+</Canvas>
+
+## Checkbox Group - Horizontal
+
+Add the `made-c-checkbox-group--horizontal` class to align a checkbox group horizontally.
+
+<Canvas>
+  <Story
+    name="Group Horizontal"
+    argTypes={{
+      heading: {
+        name: "Heading",
+      },
+      options: {
+        name: "Options",
+        control: {
+          type: "array",
+        },
+      },
+      isVertical: {
+        name: "Vertical",
+      },
+      isValid: {
+        name: "Valid",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+    }}
+    args={{
+      heading: "Checkbox button heading",
+      options: ["Option 1", "Option 2", "Option 3"],
+      isVertical: false,
+      isValid: true,
+      validationText: "Validation",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<fieldset class="made-c-form__fieldset">
+  <legend for="default" class="made-c-form__label" id="id-group-label-2">
+    Checkbox button heading
+  </legend>
+  <div role="group" aria-labelledby="id-group-label-2">
+    <ul class="made-c-checkbox-group made-c-checkbox-group--horizontal">
+      <li class="made-u-margin-right-6-x">
+        <input
+          class="made-c-checkbox"
+          name="checkbox-06"
+          type="checkbox"
+          id="checkbox-group-6-1"
+          value="1"
+        />
+        <label class="made-c-checkbox__label" for="checkbox-group-6-1">
+          Option 1
+        </label>
+      </li>
+      <li class="made-u-margin-right-6-x">
+        <input
+          class="made-c-checkbox"
+          name="checkbox-06"
+          type="checkbox"
+          id="checkbox-group-6-2"
+          value="2"
+        />
+        <label class="made-c-checkbox__label" for="checkbox-group-6-2">
+          Option 2
+        </label>
+      </li>
+      <li class="made-u-margin-right-6-x">
+        <input
+          class="made-c-checkbox"
+          name="checkbox-06"
+          type="checkbox"
+          id="checkbox-group-6-3"
+          value="3"
+        />
+        <label class="made-c-checkbox__label" for="checkbox-group-6-3">
+          Option 3
+        </label>
+      </li>
+    </ul>
+  </div>
+</fieldset>`,
+        },
+      },
+    }}
+  >
+    >{checkboxGroup.bind({})}
+  </Story>
+</Canvas>
+
+## Checkbox Group - Error Messages
+
+Add the `made-c-checkbox-group--error` class to the checkbox group to display error validation.
+
+<Canvas>
+  <Story
+    name="Group Error"
+    argTypes={{
+      heading: {
+        name: "Heading",
+      },
+      options: {
+        name: "Options",
+        control: {
+          type: "array",
+        },
+      },
+      isVertical: {
+        name: "Vertical",
+      },
+      isValid: {
+        name: "Valid",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+    }}
+    args={{
+      heading: "Checkbox button heading",
+      options: ["Option 1", "Option 2", "Option 3"],
+      isVertical: true,
+      isValid: false,
+      validationText: "Validation",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<fieldset class="made-c-form__fieldset">
+	<legend for="default" class="made-c-form__label" id="id-group-label-3">
+		Checkbox button heading
+	</legend>
+	<div role="group" aria-labelledby="id-group-label-3">
+		<ul class="made-c-checkbox-group--error made-c-checkbox-group">
+			<li class="made-u-margin-right-3-x">
+				<input class="made-c-checkbox" name="checkbox-05" type="checkbox" id="checkbox-group-5-1" value="1" />
+				<label class="made-c-checkbox__label made-u-margin-bottom-3-x" for="checkbox-group-5-1">
+					Option 1
+				</label>
+			</li>
+			<li class="made-u-margin-right-3-x">
+				<input class="made-c-checkbox" name="checkbox-05" type="checkbox" id="checkbox-group-5-2" value="2" />
+				<label class="made-c-checkbox__label made-u-margin-bottom-3-x" for="checkbox-group-5-2">
+					Option 2
+				</label>
+			</li>
+			<li class="made-u-margin-right-3-x">
+				<input class="made-c-checkbox" name="checkbox-05" type="checkbox" id="checkbox-group-5-3" value="3" />
+				<label class="made-c-checkbox__label made-u-margin-bottom-3-x" for="checkbox-group-5-3">
+					Option 3
+				</label>
+			</li>
+		</ul>
+	</div>
+	<div class="made-c-form__validation--error made-u-margin-top-2-x">
+		Validation
+	</div>
+</fieldset>`,
+        },
+      },
+    }}
+  >
+    >{checkboxGroup.bind({})}
+  </Story>
+</Canvas>

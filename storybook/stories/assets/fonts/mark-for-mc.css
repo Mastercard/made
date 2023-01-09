@@ -1,0 +1,65 @@
+/* Mark For MC */
+
+@font-face {
+  font-family: MarkForMCNrw;
+  src: url("MarkForMCNarrowW00-Regular.woff") format("woff");
+  src: url("MarkForMCNarrowW00-Regular.woff2") format("woff2");
+  src: url("MarkForMCNarrowW00-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MarkForMCNrw-Medium;
+  src: url("MarkForMCNarrowW00-Medium.woff") format("woff");
+  src: url("MarkForMCNarrowW00-Medium.woff2") format("woff2");
+  src: url("MarkForMCNarrowW00-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MarkForMCNrw-Bold;
+  src: url("MarkForMCNarrowW00-Bold.woff") format("woff");
+  src: url("MarkForMCNarrowW00-Bold.woff2") format("woff2");
+  src: url("MarkForMCNarrowW00-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MarkOffcForMC;
+  src: url("MarkWebW01Regular.woff") format("woff");
+  src: url("MarkWebW01Regular.woff2") format("woff2");
+  src: url("MarkWebW01Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MarkOffcForMC-ExtraLight;
+  src: url("MarkWebPro-ExtraLightW01Rg.woff") format("woff");
+  src: url("MarkWebPro-ExtraLightW01Rg.woff2") format("woff2");
+  src: url("MarkWebPro-ExtraLightW01Rg.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MarkOffcForMC-Light;
+  src: url("MarkWebPro-LightW01Regular.woff") format("woff");
+  src: url("MarkWebPro-LightW01Regular.woff2") format("woff2");
+  src: url("MarkWebPro-LightW01Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MarkOffcForMC-Medium;
+  src: url("MarkWebPro-MediumW01Regular.woff") format("woff");
+  src: url("MarkWebPro-MediumW01Regular.woff2") format("woff2");
+  src: url("MarkWebPro-MediumW01Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MarkOffcForMC-Bold;
+  src: url("MarkWebPro-BoldW01Regular.woff") format("woff");
+  src: url("MarkWebPro-BoldW01Regular.woff2") format("woff2");
+  src: url("MarkWebPro-BoldW01Regular.ttf") format("truetype");
+  font-display: swap;
+}

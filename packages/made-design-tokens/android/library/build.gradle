@@ -1,0 +1,44 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'mastercard-sonar'
+}
+apply from: "$rootDir/scripts/maven-publish.gradle"
+android {
+
+    defaultConfig {
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions  'token'
+    productFlavors{
+        partnerbank{
+            dimension 'token'
+        }
+    }
+
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin"
+
+    implementation "androidx.core:core-ktx:$versions.core_ktx"
+
+    implementation "androidx.constraintlayout:constraintlayout:$versions.constraint_layout"
+
+    api "com.google.android.material:material:$versions.material"
+
+
+    testImplementation "junit:junit:$versions.junit"
+    androidTestImplementation "androidx.test.ext:junit:$versions.ext_junit"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espresso"
+}

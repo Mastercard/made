@@ -1,0 +1,46 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import data from "../assets/data/tokens.json";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta title="Design Tokens/Shadow" parameters={{  }} />
+
+# Shadow
+
+Use shadow tokens to set a box shadow.
+
+<Story name="Shadow">
+  <table className="made-c-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.size.shadow).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  boxShadow: `${[token.value]}`,
+                  background: "white",
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.value}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>

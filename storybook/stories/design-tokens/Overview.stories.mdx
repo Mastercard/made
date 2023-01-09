@@ -1,0 +1,222 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Design Tokens/Overview" parameters={{}} />
+
+# Design Tokens
+
+## What are design tokens?
+
+<img
+  src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/design-token-cascade.png"
+  width="300"
+  class="made-u-right"
+  alt="design tokens naming"
+/>
+
+<blockquote>
+  Design tokens are <mark>named entities</mark> for visual atoms of a design
+  system e.g. color, type, spacing, that are stored in a{" "}
+  <mark>tech agnostic</mark> format as a <mark>single source of truth</mark> to
+  scale across any platform, devices, tech stack.
+</blockquote>
+
+**Named entities**  
+Design tokens are named-entities for values that are needed to maintain a design system such as spacing, color, typography, border-radius, etc.
+They’re used in place of hard-coded values in order to ensure flexibility and unity across all product experiences.
+
+By bringing semantic meaning with role-based tokens, designers and developers don't have to second-guess what color to apply for a background for example. They don't have to choose between `gray.01` or `white`. Instead, they'd apply a design decision with an example name of `made-color-background-default`.
+
+**Tech Agnostic**  
+Design tokens are stored in a platform agnostic format like JSON and a design token translation tool like Style Dictionary is used to transform design tokens to scale across multiple platforms and languages like CSS or JSON for web, XML for Android, Swift for iOS. This means we can ensure brand consistency throughout any targeted platform.
+
+**Single Source of Truth**  
+Design Tokens are stored in a single source of truth such as Artifactory, so when we make an update
+to our design tokens, this update will filter down to products change through their build process automatically.
+This streamlines the redesign process and gets our design changes to products in a matter of minutes!
+Design tokens come pre-baked into the Made. CSS component source code.
+They cover the various options of platform scales, color themes, component states, and more.
+With tokens, the code only needs to be changed in one place to see the effect system-wide.
+
+---
+
+## Benefits of Design Tokens
+
+**Designing at scale**  
+With your design decisions extracted from a specific code base into a tech agnostic format single source of truth, scaling becomes easier.
+
+**Consistent & Maintainable**  
+When everyone’s working from a single source of truth, we can collaborate and share knowledge in a quicker, simpler way.
+With role-based design tokens in place, designers and developers we can apply consistent design decisions across products.
+Everything is maintainable, easy to update and is future proof. If we ever decide to do a refreshed design later or create a new theme,
+since the token system is in place we just change the values in the token values.
+
+**Saving time and resources**  
+We have streamlined the redesign process, when we update or add a new token this filter downs to product teams automatically through their build process.​
+Products teams get design updates without having to make any code changes.
+Designers have ownership of managing and maintaining the values in our design system and are no longer dependant on the developer to implement changes, reducing the feedback loop and getting our products to market faster.​
+
+**Collaboration**  
+Designers and developers now have a shared language.
+Designers reference the design tokens in the design and developers can reference design tokens in their code.
+Developers no longer have to reference hard coded values, improving documentation and the design handover process.
+
+**Tech Agnostic**  
+We store design tokens in a platform agnostic format and can transform our design tokens to scale across multiple platforms and languages like CSS or JSON for web, XML for Android, Swift for iOS. This means we can ensure brand consistency throughout any targeted platform.
+
+**Powerful theming**  
+Since everything is dynamic, using our new design tokens system, teams can theme their application in a matter of minutes. No more slow, manual updates.
+See Theming documentation for more information.
+
+---
+
+## Design Token Types
+
+**Global Tokens**  
+Global tokens are used for brand colours and scales such as spacing, sizing, fonts sizes and border radii. Global Tokens are used to provide consistency across components. Global tokens are inherited by all other token types.
+Use global tokens sparingly, only use global tokens when there are no role based for your use case. e.g. `made-font-size-10` as global tokens are not themeable.
+
+**Role Based Tokens**  
+By bringing semantic meaning to tokens, developers don't have to second-guess what tokens to apply e.g. we don't have to choose between `gray.01` or `white`, instead, we apply a design decision with a name of `made-color-background-default`.
+By using this approach, changing from light to dark mode is only a matter of switching the values this color has, instead of overriding the existing CSS.
+
+**Component Specific**  
+Component-specific tokens are associated with a component. They often inherit from other tokens, but are named in a way that is specific to a component e.g. `made-footer-color-background`. We try to limit the amount of component-specific tokens we have as they should only be used for that component and adds to the tokens that teams may need to theme.
+
+---
+
+## Anatomy of a Design Token
+
+Made. Token names follow a naming convention that communicates when and where this token is supposed to be used without having to look at its underlying value/hex code.
+
+<img
+  src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/design-token-naming-example.png"
+  width="290"
+  height="114"
+  alt="design tokens naming"
+/>
+
+The token above may seem complex, but it gives meaning to the token, without having to look at the underlying documentation or value. We can tell it is a <mark>color</mark> token, to be used for the <mark>background</mark> of a <mark>disabled</mark> state e.g. button.
+
+<img
+  src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/desing-token-naming-example-2.png"
+  width="264"
+  height="114"
+  alt="design tokens naming"
+/>
+
+The token above is <mark>color</mark> token used to convey <mark>feedback</mark> text on an <mark>error state</mark>. It also communicates that there might be different variants e.g. success.
+
+---
+
+## How do I use tokens?
+
+All design decisions can be abstracted into tokens and design tokens come pre-baked into the Made. CSS component source code.
+For example, in the Made. button component we have tokens for color, border-radius, size, spacing, font size, font families and line-height.
+
+<img
+  src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/hero-design-tokens%402x.png"
+  width="700"
+  alt=""
+/>
+
+All design tokens used in the Made. component library are found in design tokens npm package. See <a onClick={linkTo("hello-getting-started--page")}>Getting Started</a> for more information.
+
+For example, here are some of the design tokens for the button component.
+
+```css
+/* Key: value in design tokens file */
+--made-color-action-background-primary-default: #cf4500;
+--made-color-action-border-primary-default: #cf4500;
+--made-color-action-text-on-primary: #ffffff;
+--made-button-border-radius: 20px;
+--made-space-8-x: 32px;
+```
+
+- The token name defines the usage or how to apply the value to a specific context, such as `--made-button-border-radius`
+- The token stores visual design attributes e.g. #cf4500
+- The token replaces hard-coded values in styles file.
+
+```css
+.made-c-button--primary {
+  background-color: var(--made-color-action-background-primary-default);
+  border-color: var(--made-color-action-border-primary-default);
+  border-radius: var(--made-button-border-radius);
+  color: var(--made-color-action-text-on-primary);
+  padding: 0 var(--made-space-8-x);
+}
+```
+
+If you need to extend a component for example create a delete button you can extend the existing code in a matter of minutes using design tokens.
+
+```css
+.made-c-button--delete {
+  background-color: var(--made-color-feedback-background-error);
+  border-color: var(--made-color-feedback-border-error);
+  border-radius: var(--made-button-border-radius);
+  color: var(--made-color-feedback-text-on-error);
+  padding: 0 var(--made-space-8-x);
+}
+```
+
+Everything is maintainable, easy to update and is future proof. If we ever decide to do a refreshed design later or create a new theme, since the token system is in place we just change the values in the in the token values.
+
+If a project requires you to use a different tech stack from the above, no problem!
+We store design tokens in a platform agnostic format(JSON) and use an open source design token generator [Style Dictionary](https://amzn.github.io/style-dictionary/#/)
+to transform our design tokens to scale across multiple platforms and languages like CSS or JSON for web, XML for Android, Swift for iOS.  
+This means we can ensure brand consistency throughout any targeted platform.
+
+Currently, Made. provides design tokens in the formats below for Web. Tokens can be imported and referenced as shown below:
+
+**CSS (kebab-case)**
+
+```
+//import tokens
+<link rel="stylesheet" href="[path-to-directory]/tokens.css" />
+
+//reference tokens in your styles
+background-color: var(--made-color-brand-primary);
+```
+
+**SASS (kebab-case)**
+
+```
+//import tokens
+@import '[path-to-directory]/tokens.scss';
+
+//reference tokens in your styles
+background-color: $made-color-brand-primary;
+```
+
+**LESS (kebab-case)**
+
+```
+//import tokens
+@import '[path-to-directory]/tokens.less';
+
+//reference tokens in your styles
+background-color: @made-color-brand-primary;
+```
+
+**JSON (PascalCase)**
+
+```
+//import tokens
+import { DesignTokens } from "[path-to-directory]/tokens.json";
+
+//reference tokens in your styles
+backgroundColor: MadeColorBrandPrimary;
+```
+
+### Need another format?
+
+If the format you need is not listed above, email <a href="mailto:made@mastercard.com">made@mastercard.com</a> and we can review
+your project requirements. Documentation for supported [file formats](https://amzn.github.io/style-dictionary/#/formats?id=pre-defined-formats)
+and [naming conventions, color and sizing formats](https://amzn.github.io/style-dictionary/#/transforms) can be found in Style Dictionary documentation.
+
+### References
+
+- [Adobe Spectrum](https://spectrum.adobe.com/page/design-tokens/)
+- [Design tokens cheatsheet](https://uxdesign.cc/design-tokens-cheatsheet-927fc1404099)
+- [Awesome Design Tokens](https://github.com/sturobson/Awesome-Design-Tokens/blob/master/README.md)

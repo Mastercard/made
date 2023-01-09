@@ -1,0 +1,30 @@
+{
+  "font": {
+    "weight": {
+      "default": {
+        "comment": "Normal font weight is used for body text and form inputs.",
+        "value": "400",
+        "themeable": "No",
+        "type": "fontWeights"
+      },
+      "light": {
+        "comment": "Light font weight is used for headings.",
+        "value": "100",
+        "themeable": "No",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "comment": "Semi bold font weight is used for buttons.",
+        "value": "500",
+        "themeable": "No",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "comment": "Use bold sparingly for subtitles, eyebrows, emphasis, and dates",
+        "value": "700",
+        "themeable": "No",
+        "type": "fontWeights"
+      }
+    }
+  }
+}

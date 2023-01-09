@@ -1,0 +1,18 @@
+{
+  "font": {
+    "family": {
+      "heading": {
+        "comment": "Font family for headings (H1,H2 and display text)",
+        "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "Yes",
+        "type": "fontFamilies"
+      },
+      "eyebrow": {
+        "comment": "Font family for headings (H1,H2 and display text)",
+        "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "themeable": "Yes",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

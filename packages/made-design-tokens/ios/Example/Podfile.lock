@@ -1,0 +1,16 @@
+PODS:
+  - MadeDesignTokens (1.0.1)
+
+DEPENDENCIES:
+  - MadeDesignTokens (from `../../`)
+
+EXTERNAL SOURCES:
+  MadeDesignTokens:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  MadeDesignTokens: 5cd67096874bf28aa4f00edc85bf7733eb0ee19a
+
+PODFILE CHECKSUM: ec2d629d695ebb502882afee637497c5c9e3e4c1
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,508 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import data from "../assets/data/tokens.json";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta title="Design Tokens/Color" parameters={{  }} />
+
+# Color
+
+## Token Legend
+
+<img
+  src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/token-legend.png"
+  width="800"
+  alt=""
+/>
+
+<table className="made-c-table made-s-table">
+  <tbody>
+    <tr>
+      <th>1. Token Name</th>
+      <td>
+        A label assigned to a design decision. This is what is referenced in
+        code.
+      </td>
+    </tr>
+    <tr>
+      <th>2. Role</th>
+      <td>Description of each token for their intended usage.</td>
+    </tr>
+    <tr>
+      <th>3. Value Example</th>
+      <td>Visual Example of Design Token.</td>
+    </tr>
+    <tr>
+      <th>4. Token Value</th>
+      <td>
+        A context-specific value assigned to a design token name. This can be
+        hard coded or reference another token.
+      </td>
+    </tr>
+    <tr>
+      <th>5. Themeable</th>
+      <td>
+        Themeable tokens marked with Yes are tokens recommended to theme.
+        Generally, these tokens will be referenced by other tokens.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Global Colors
+
+Generic Global colors to use within a Mastercard application.
+
+These tokens are inherited by all other token types e.g. `made-color-orange-04` is the value of the `made-color-brand-primary` tokens.
+
+They can be directly used if there are no role based token to meet your requirements,
+but use sparingly as these will tokens are not themeable e.g.
+`made-color-orange-04` should always be orange, use `made-color-brand-primary` or the token that best describes your use case.
+
+<Story name="Global">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.global).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+## Role-based tokens
+
+By bringing semantic meaning to tokens with roles, developers don't have to second-guess what color to apply for a background. They don't have to choose between gray.01 or white. Instead, they'd apply a design decision with an example name of made-color-background-default. 
+By using this approach, changing from light to dark mode is only a matter of switching the values this color has, instead of overriding the existing CSS.
+
+### Brand
+
+Design tokens for the colors of the brand. 
+
+Brand color design tokens are inherited by role-based and component-specific tokens below.
+
+Please refer to the description and original value of each token for their intended usage.
+
+<Story name="Brand">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.brand).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Text Colors
+
+Use these tokens for text colors only. Do not use these for border colors or background colors.
+
+<Story name="Text">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.text).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Border Colors
+
+Use these tokens for border colors only. Do not use these for background colors or text colors.
+
+<Story name="Border">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.border).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Background Colors
+
+Use these tokens for background colors only. Do not use these for border colors or text colors.
+
+<Story name="Background">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.background).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Action Colors
+
+Use action tokens for calls-to-action (links, buttons, …) and interactive and behavioural states (disabled, selected, hover) in items such as tabs, date pickers and toggle components.
+
+
+<Story name="Action">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.action).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Feedback Colors
+
+Design Tokens for feedback messages with variants like success, warning, information and error.
+
+Use the correct design token to match each property e.g. `made-color-feedback-background-error` for background property and `made-color-feedback-text-error` for text property.
+
+<Story name="Feedback">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.feedback).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Form Colors
+
+Design tokens specific to form elements.
+
+<Story name="Forms">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.form).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Data Visualization Colors
+
+Design tokens for data visualizations colors.
+
+<Story name="Data Visualization">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.visualization).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.value}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Connect Colors
+
+Domain specific design tokens used on MC Connect.
+
+<Story name="Connect">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.connect).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+## ⚠️ Deprecated Tokens
+
+In order to improve consistency across the library and reduce the number of tokens required to create a new theme we are deprecating the tokens below.
+
+Please replace deprecated tokens with the new tokens below.
+
+If you need to continue using these tokens, you can import a deprecated file in the format that you need e.g.
+
+```
+<link rel="stylesheet" href="[path-to-directory]/deprecated.css" />
+```
+
+<Story name="Deprecated Tokens">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th width="60">Old Token</th>
+        <th width="40">New Token</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.size.deprecated).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <div
+                className="made-s-deprecated-block"
+                style={{
+                  background: `${[token.oldValue]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.old}</code>
+            </td>
+            <td>
+              <div
+                className="made-s-deprecated-block"
+                style={{
+                  background: `${[token.newValue]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.new}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>

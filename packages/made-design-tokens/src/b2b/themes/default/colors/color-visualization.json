@@ -1,0 +1,24 @@
+{
+  "color": {
+    "visualization": {
+      "01": {
+        "comment": "Data Visualization Color",
+        "value": "#0023CF",
+        "themeable": "No",
+        "type": "color"
+      },
+      "02": {
+        "comment": "Data Visualization Color",
+        "value": "#AC00CF",
+        "themeable": "No",
+        "type": "color"
+      },
+      "03": {
+        "comment": "Data Visualization Color",
+        "value": "#CF008A",
+        "themeable": "No",
+        "type": "color"
+      }
+    }
+  }
+}

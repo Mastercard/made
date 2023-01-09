@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+
+    defaultConfig {
+        applicationId "com.mastercard.dxp.design.tokens"
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions 'token'
+    productFlavors{
+        partnerbank{
+            dimension 'token'
+        }
+    }
+}
+
+dependencies {
+
+    // implementation "com.mastercard.made.design_tokens:partnerbank:0.0.1-SNAPSHOT"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin"
+    implementation "androidx.core:core-ktx:$versions.core_ktx"
+    implementation "androidx.appcompat:appcompat:$versions.appcompat"
+
+    implementation "androidx.constraintlayout:constraintlayout:$versions.constraint_layout"
+    implementation project(path: ':library')
+    testImplementation "junit:junit:$versions.junit"
+    androidTestImplementation "androidx.test.ext:junit:$versions.ext_junit"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espresso"
+}

@@ -1,0 +1,132 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { Toggle } from "./Toggle";
+
+<Meta
+  title="Forms/Toggle"
+  parameters={{ badges: [BADGE.OBSOLETE]}}
+  argTypes={{
+    isChecked: {
+      name: "Checked",
+    },
+    label: {
+      name: "Label",
+    },
+    isDisabled: {
+      name: "Disabled",
+    },
+  }}
+/>
+
+export const toggle = (args) => <Toggle {...args} />;
+
+# Toggle
+
+The toggle can be used when you need to switch a single item on or off.
+
+<Canvas>
+  <Story
+    name="Default"
+    args={{
+      name: "default",
+      isChecked: false,
+      label: "Label",
+      isDisabled: false,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <span class="made-c-form__label" id="default">
+    Label
+  </span>
+  <label class="made-c-toggle">
+    <input type="checkbox" class="made-c-toggle__input" aria-labelledby="default" />
+    <span class="made-c-toggle__slider"></span>
+  </label>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{toggle.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled - Off State
+
+Add the disabled boolean attribute on an input to give it a grayed out appearance and remove pointer events.
+
+<Canvas>
+  <Story
+    name="Disabled - Off"
+    args={{
+      name: "disabled-off",
+      isChecked: false,
+      label: "Label",
+      isDisabled: true,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <span class="made-c-form__label" id="disabled-off">
+    Label
+  </span>
+  <label class="made-c-toggle">
+    <input type="checkbox" class="made-c-toggle__input" aria-labelledby="disabled-off" aria-disabled="true" disabled/>
+    <span class="made-c-toggle__slider"></span>
+  </label>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{toggle.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled - On State
+
+The disabled boolean attribute on an input that has an on state will give it a lighter appearance and remove pointer events.
+
+<Canvas>
+  <Story
+    name="Disabled - On"
+    args={{
+      name: "disabled-on",
+      isChecked: true,
+      label: "Label",
+      isDisabled: true,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <span class="made-c-form__label" id="disabled-on">
+    Label
+  </span>
+  <label class="made-c-toggle">
+    <input type="checkbox" class="made-c-toggle__input" aria-labelledby="disabled-on" aria-disabled="true" disabled checked />
+    <span class="made-c-toggle__slider"></span>
+  </label>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{toggle.bind({})}
+  </Story>
+</Canvas>

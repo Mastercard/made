@@ -1,0 +1,38 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+
+<Meta title="Utility Classes/Vertical Align" />
+
+# Vertical Align
+
+Utilities for controlling the vertical alignment of an inline or table-cell box.
+
+-   `.made-u-align-baseline`
+-   `.made-u-align-top`
+-   `.made-u-align-middle`
+-   `.made-u-align-bottom`
+-   `.made-u-align-text-bottom`
+-   `.made-u-align-text-top`
+
+<Canvas>
+	<Story name="Vertical Align">
+		<div class="made-s-width-block made-u-display-inline made-u-margin-right-2-x made-u-align-baseline">
+			baseline
+		</div>
+		<div class="made-s-width-block made-u-display-inline made-u-margin-right-2-x made-u-align-top">
+			top
+		</div>
+		<div class="made-s-width-block made-u-display-inline made-u-margin-right-2-x made-u-align-middle">
+			middle
+		</div>
+		<div class="made-s-width-block made-u-display-inline made-u-margin-right-2-x made-u-align-bottom">
+			bottom
+		</div>
+		<div class="made-s-width-block made-u-display-inline made-u-margin-right-2-x made-u-align-text-top">
+			text-top
+		</div>
+		<div class="made-s-width-block made-u-display-inline made-u-align-text-bottom">
+			text-bottom
+		</div>
+	</Story>
+</Canvas>

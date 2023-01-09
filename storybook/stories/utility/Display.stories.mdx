@@ -1,0 +1,32 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+
+<Meta title="Utility Classes/Display" />
+
+# Display
+
+Utilities for controlling the display of an element. Quickly and responsively toggle the display value of elements with display utility classes.
+
+The classes are named using the format:
+
+-   `.made-u-display-{value}` for small device sizes
+-   `.made-u-display-{value}--{breakpoint}` for md and lg
+
+Where _value_ is one of:
+
+-   none
+-   inline
+-   inline-block
+-   block
+-   grid
+-   table
+-   table-cell
+-   table-row
+-   flex
+-   inline-flex
+
+Use responsive display classes for showing and hiding elements by screen size.
+
+To hide elements simply use the `.made-u-display-none` class or one of the `.made-u-display-none--{md,lg}` classes for any responsive screen variation.
+
+To show an element only on certain screen sizes you can combine display classes with other display classes, for example `.made-u-display-none .made-u-display-block--md` will hide the element for all screen sizes except on medium and up.

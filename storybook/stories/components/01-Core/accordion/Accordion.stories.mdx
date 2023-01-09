@@ -1,0 +1,140 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta
+	title="Content &amp; Data Display/Accordion"
+	parameters={{ badges: [ BADGE.OBSOLETE ] }}/>
+
+# Accordion
+
+The accordion component is a list of header buttons that hide or reveal additional content when selected.
+
+Toggle the active state classes on the title `made-c-accordion__header--active` and content `made-c-accordion__content--active` when accordion items are collapsed and expanded.
+
+<Canvas>
+	<Story name="Accordion">
+		<ul class="made-c-accordion" id="AccordionGroup">
+			<li class="made-c-accordion__item">
+				<button
+					aria-expanded="true"
+					class="made-c-accordion__header made-c-accordion__header--active"
+					type="button"
+					aria-controls="sect1"
+					id="accordion1id"
+				>
+					Title
+					<svg
+						class="made-c-accordion__icon"
+						width="24"
+						height="11"
+						viewBox="0 0 24 11"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<title>Expanded</title>
+						<path
+							d="M12 10.425l-12-9L1.069 0 12 8.198 22.931 0 24 1.425z"
+							fill="currentColor"
+							fill-rule="evenodd"
+						/>
+					</svg>
+				</button>
+				<div
+					class="made-c-accordion__content made-c-accordion__content--active"
+					id="sect1"
+					role="region"
+					aria-labelledby="accordion1id"
+				>
+					Go to the Forgot Password/PIN option on the Sign In page,
+					enter your user ID and answer your security questions. A
+					temporary password will be emailed to you if you are a
+					password user. If you are a PIN user, select a new PIN when
+					prompted. Forgot Password/PIN.
+				</div>
+			</li>
+			<li class="made-c-accordion__item">
+				<button
+					aria-expanded="false"
+					class="made-c-accordion__header"
+					type="button"
+					aria-controls="sect2"
+					id="accordion2id"
+				>
+					Title
+					<svg
+						class="made-c-accordion__icon"
+						width="24"
+						height="11"
+						viewBox="0 0 24 11"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<title>Collapsed</title>
+						<path
+							d="M12 10.425l-12-9L1.069 0 12 8.198 22.931 0 24 1.425z"
+							fill="currentColor"
+							fill-rule="evenodd"
+						/>
+					</svg>
+				</button>
+				<div
+					class="made-c-accordion__content"
+					id="sect2"
+					role="region"
+					aria-labelledby="accordion2id"
+				>
+					Go to the Forgot Password/PIN option on the Sign In page,
+					enter your user ID and answer your security questions. A
+					temporary password will be emailed to you if you are a
+					password user. If you are a PIN user, select a new PIN when
+					prompted. Forgot Password/PIN.
+				</div>
+			</li>
+			<li class="made-c-accordion__item">
+				<button
+					aria-expanded="false"
+					class="made-c-accordion__header"
+					type="button"
+					aria-controls="sect3"
+					id="accordion3id"
+				>
+					Title
+					<svg
+						class="made-c-accordion__icon"
+						width="24"
+						height="11"
+						viewBox="0 0 24 11"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<title>Collapsed</title>
+						<path
+							d="M12 10.425l-12-9L1.069 0 12 8.198 22.931 0 24 1.425z"
+							fill="currentColor"
+							fill-rule="evenodd"
+						/>
+					</svg>
+				</button>
+				<div
+					class="made-c-accordion__content"
+					id="sect3"
+					role="region"
+					aria-labelledby="accordion3id"
+				>
+					Go to the Forgot Password/PIN option on the Sign In page,
+					enter your user ID and answer your security questions. A
+					temporary password will be emailed to you if you are a
+					password user. If you are a PIN user, select a new PIN when
+					prompted. Forgot Password/PIN.
+				</div>
+			</li>
+		</ul>
+	</Story>
+</Canvas>
+
+## Accessibility
+
+If the accordion panel associated with an accordion header is visible, the header button element has aria-expanded set to true. If the panel is not visible, aria-expanded is set to false.
+
+The accordion header button element has aria-controls set to the ID of the element containing the accordion panel content.
+
+Optionally, each element that serves as a container for panel content has role region and aria-labelledby with a value that refers to the button that controls display of the panel.
+
+For more information view the [W3C Accordion documentation.](https://www.w3.org/TR/wai-aria-practices-1.1/#accordion)

@@ -1,0 +1,420 @@
+{
+  "color": {
+    "action": {
+      "primary": {
+        "default": {
+          "comment": "Color of primary interactive color e.g. buttons",
+          "value": "{color.brand.primary.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "hover": {
+          "comment": "Color of primary interactive color on hover  e.g. buttons",
+          "value": "{color.orange.05.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "active": {
+          "comment": "Color of primary interactive color on active  e.g. buttons",
+          "value": "{color.orange.07.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "default": {
+          "comment": "Color of secondary interactive color e.g. secondary buttons",
+          "value": "{color.brand.secondary.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "hover": {
+          "comment": "Color of secondary interactive color e.g. secondary buttons",
+          "value": "{color.action.primary.hover.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "active": {
+          "comment": "Color of secondary interactive color  e.g. secondary button",
+          "value": "{color.action.primary.active.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "on-dark": {
+        "default": {
+          "comment": "Color of interactive color on dark background e.g. buttons",
+          "value": "#FFFFFF",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "hover": {
+          "comment": "Text color of secondary interactive color on dark background e.g. buttons.",
+          "value": "{color.gray.02.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "active": {
+          "comment": "Text color of secondary interactive color on dark background e.g. buttons.",
+          "value": "{color.gray.03.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "comment": "Global color for disabled state.",
+        "value": "{color.gray.03.value}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "background": {
+        "primary": {
+          "default": {
+            "comment": "Background color of primary interactive color e.g primary buttons.",
+            "value": "{color.action.primary.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "hover": {
+            "comment": "Background color of primary interactive color e.g primary buttons.",
+            "value": "{color.action.primary.hover.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "active": {
+            "comment": "Background color of primary interactive color e.g primary buttons.",
+            "value": "{color.action.primary.active.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "default": {
+            "comment": "Background color of secondary interactive color e.g. secondary buttons",
+            "value": "{color.background.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "hover": {
+            "comment": "Background color of secondary interactive color e.g. secondary buttons",
+            "value": "{color.background.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "active": {
+            "comment": "Background color of secondary interactive color  e.g. secondary button",
+            "value": "{color.background.default.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "on-dark": {
+          "default": {
+            "comment": "Background color of secondary interactive color",
+            "value": "{color.action.on-dark.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "hover": {
+            "comment": "Background color of secondary interactive color.",
+            "value": "{color.action.on-dark.hover.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "active": {
+            "comment": "Background color of secondary interactive color.",
+            "value": "{color.action.on-dark.active.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "comment": "Background color for disabled state of UI Elements such as tables, dropdowns...",
+          "value": "{color.action.disabled.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "selected": {
+          "comment": "Background color for selected state of UI Elements such as tables, dropdowns...",
+          "value": "{color.gray.01-5.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "selected-hover": {
+          "comment": "Background color for hover state of on selected UI Elements",
+          "value": "{color.gray.02.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "selected-light": {
+          "comment": "Light background color for selected actions.",
+          "value": "{color.accent.01.light.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-selected",
+          "themeable": "No",
+          "type": "color"
+        },
+        "hover": {
+          "comment": "Background color for hover state of UI Elements such as tables, dropdowns...",
+          "value": "{color.gray.01-25.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "hover-light": {
+          "comment": "Background color for hover state of UI Elements such as tables, dropdowns...",
+          "value": "{color.gray.01-5.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-hover",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on": {
+          "comment": "Background color for on state of UI Elements such as toggle",
+          "value": "{color.feedback.success.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "off": {
+          "comment": "Background color for off state of UI Elements such as toggle",
+          "value": "{color.action.disabled.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-default": {
+          "comment": "Background color for on state of UI Elements such as toggle",
+          "value": "{color.brand.success.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-on",
+          "themeable": "No",
+          "type": "color"
+        },
+        "off-default": {
+          "comment": "Background color for off state of UI Elements such as toggle",
+          "value": "{color.gray.03-5.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-off",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-disabled": {
+          "comment": "Background color for on state of UI Elements such as toggle",
+          "value": "#D1DABE",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-disabled",
+          "themeable": "No",
+          "type": "color"
+        },
+        "off-disabled": {
+          "comment": "Background color for off state of UI Elements such as toggle",
+          "value": "{color.gray.02.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-disabled",
+          "themeable": "No",
+          "type": "color"
+        },
+        "highlight": {
+          "comment": "Background color of highlight interactive color. Used on date range in Calendar",
+          "value": "{color.orange.01.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      },
+      "border": {
+        "primary": {
+          "default": {
+            "comment": "Border color of primary interactive color e.g primary buttons.",
+            "value": "{color.action.primary.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "hover": {
+            "comment": "Border color of primary interactive color e.g primary buttons.",
+            "value": "{color.action.primary.hover.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "active": {
+            "comment": "Border color of primary interactive color e.g primary buttons.",
+            "value": "{color.action.primary.active.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "default": {
+            "comment": "Border color of secondary interactive color e.g. secondary buttons",
+            "value": "{color.action.secondary.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "hover": {
+            "comment": "Border color of secondary interactive color e.g. secondary buttons",
+            "value": "{color.action.secondary.hover.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "active": {
+            "comment": "Border color of secondary interactive color  e.g. secondary button",
+            "value": "{color.action.secondary.active.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "on-dark": {
+          "default": {
+            "comment": "Border color of secondary interactive color",
+            "value": "{color.action.on-dark.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "hover": {
+            "comment": "Border color of secondary interactive color.",
+            "value": "{color.action.on-dark.hover.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "active": {
+            "comment": "Border color of secondary interactive color.",
+            "value": "{color.action.on-dark.active.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "comment": "Border color for disabled state of UI Elements such as tables, dropdowns...",
+          "value": "{color.action.disabled.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "focus": {
+          "comment": "Outline color for focus state.",
+          "value": "{color.action.primary.default.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "selected": {
+          "on-light": {
+            "comment": "Border color for selected items.",
+            "value": "{color.action.primary.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "on-dark": {
+            "comment": "Border color for selected items on dark background.",
+            "value": "{color.action.on-dark.default.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "default": {
+            "comment": "Text color of primary interactive color e.g. links",
+            "value": "{color.action.primary.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "hover": {
+            "comment": "Text color of primary color hover interactive state e.g. secondary buttons",
+            "value": "{color.action.primary.hover.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "active": {
+            "comment": "Text color of primary color pressed interactive state   e.g. ghost button",
+            "value": "{color.action.primary.active.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "default": {
+            "comment": "Text color of secondary interactive color e.g. secondary buttons",
+            "value": "{color.action.secondary.default.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "hover": {
+            "comment": "Text color of secondary interactive color e.g. secondary buttons",
+            "value": "{color.action.secondary.hover.value}",
+            "themeable": "No",
+            "type": "color"
+          },
+          "active": {
+            "comment": "Text color of secondary interactive color  e.g. secondary button",
+            "value": "{color.action.secondary.active.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "on-dark-default": {
+          "comment": "Text color of secondary interactive color e.g. secondary button on a dark background",
+          "value": "{color.action.on-dark.default.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-dark-hover": {
+          "comment": "Text color of secondary interactive color e.g. secondary button on a dark background",
+          "value": "{color.action.on-dark.hover.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-dark-active": {
+          "comment": "Text color of secondary interactive color e.g. secondary button on a dark background",
+          "value": "{color.action.on-dark.active.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "disabled": {
+          "comment": "Text color for disabled state of UI Elements",
+          "value": "{color.action.disabled.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-primary": {
+          "comment": "Text color on top of primary interactive color",
+          "value": "{color.brand.on-primary.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-secondary": {
+          "comment": "Text color on top of secondary interactive color",
+          "value": "{color.brand.on-secondary.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-dark": {
+          "comment": "Text color on top of interactive color on a dark background",
+          "value": "{color.gray.07.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-disabled": {
+          "comment": "Text color on top of disabled state color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-hover": {
+          "comment": "Text color on top of hover state of UI Elements",
+          "value": "{color.text.default.on-light.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-selected": {
+          "comment": "Text color on top of selected state of UI Elements",
+          "value": "{color.action.primary.default.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-selected-hover": {
+          "comment": "Text color on top of hover and selected state of UI Elements",
+          "value": "{color.action.primary.default.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

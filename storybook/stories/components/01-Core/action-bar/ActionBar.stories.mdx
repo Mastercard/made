@@ -1,0 +1,273 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { ActionBar } from "./ActionBar";
+import { ActionBarOverflow } from "./ActionBarOverflow";
+
+<Meta
+  title="Actions/Action Bar"
+  parameters={{
+    badges: [BADGE.OBSOLETE],
+  }}
+/>
+
+export const actionBar = (args) => <ActionBar {...args} />;
+export const actionBarOverflow = (args) => <ActionBarOverflow {...args} />;
+
+# Action Bar
+
+The action bar is used to group together buttons with similar actions. It can contain one or more items and also has the option of adding overflow menus to create dropdown menus for individual actions. The links in the action bar all have the ARIA attribute `role="button"`.
+This is because links are usually used for navigation but in this instance they are being used for actions that affect the front-end.
+
+## Default
+
+<Canvas>
+  <Story
+    name="Default"
+    argTypes={{
+      items: {
+        name: "Items",
+        control: {
+          type: "array",
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+    }}
+    args={{
+      items: ["Item", "Item", "Item"],
+      isDisabled: false,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+    <ul class="made-c-action-bar">
+      <li class="made-c-action-bar__item">
+        <a href="" role="button">
+          Item
+        </a>
+      </li>
+      <li class="made-c-action-bar__item">
+        <a href="" role="button">
+          Item
+        </a>
+      </li>
+      <li class="made-c-action-bar__item">
+        <a href="" role="button">
+          Item
+        </a>
+      </li>
+    </ul>`,
+        },
+      },
+    }}
+  >
+    >{actionBar.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled
+
+Styling for disabled state buttons is added when `disabled` attribute is added.
+
+<Canvas>
+  <Story
+    name="Disabled"
+    argTypes={{
+      items: {
+        name: "Items",
+        control: {
+          type: "array",
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+    }}
+    args={{
+      items: ["Item", "Item", "Item"],
+      isDisabled: true,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `      
+    <ul class="made-c-action-bar">
+      <li class="made-c-action-bar__item">
+        <a href="" role="button" class="made-u-link--disabled">
+          Item
+        </a>
+      </li>
+      <li class="made-c-action-bar__item">
+        <a href="" role="button" class="made-u-link--disabled">
+          Item
+        </a>
+      </li>
+      <li class="made-c-action-bar__item">
+        <a href="" role="button" class="made-u-link--disabled">
+          Item
+        </a>
+      </li>
+    </ul>`,
+        },
+      },
+    }}
+  >
+    >{actionBar.bind({})}
+  </Story>
+</Canvas>
+
+## With Overflow Menu
+
+Should an action require further options to be displayed an overflow menu can be added.
+
+<Canvas>
+  <Story
+    name="With Overflow Menu"
+    decorators={[
+      (Story) => (
+        <div style={{ height: "13rem" }}>
+          <Story />
+        </div>
+      ),
+    ]}
+    argTypes={{
+      show: {
+        name: "Show Dropdown",
+        control: {
+          type: "radio",
+          options: ["Dropdown 1", "Dropdown 2", "Dropdown 3"],
+        },
+      },
+      dropdown1: {
+        name: "Dropdown 1",
+        control: {
+          type: "array",
+        },
+        table: {
+          category: "Dropdown 1",
+        },
+      },
+      dropdown2: {
+        name: "Dropdown 2",
+        control: {
+          type: "array",
+        },
+        table: {
+          category: "Dropdown 2",
+        },
+      },
+      dropdown3: {
+        name: "Dropdown 3",
+        control: {
+          type: "array",
+        },
+        table: {
+          category: "Dropdown 3",
+        },
+      },
+    }}
+    args={{
+      show: "Dropdown 3",
+      dropdown1: ["Item1", "Item2", "Item3"],
+      dropdown2: ["Item1", "Item2", "Item3"],
+      dropdown3: ["Item1", "Item2", "Item3"],
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<ul class="made-c-action-bar">
+      <li class="made-c-action-bar__item">
+        <a href="" role="button">
+          Dropdown 1
+          <svg
+            width="8"
+            height="4"
+            viewBox="0 0 24 11"
+            xmlns="http://www.w3.org/2000/svg"
+            class="made-c-action-bar__icon made-u-margin-left-2-x"
+          >
+            <title>arrowhead-downward</title>
+            <path
+              d="M12 10.425l-12-9L1.069 0 12 8.198 22.931 0 24 1.425z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </li>
+      <li class="made-c-action-bar__item">
+        <a href="" role="button">
+          Dropdown 2
+          <svg
+            width="8"
+            height="4"
+            viewBox="0 0 24 11"
+            xmlns="http://www.w3.org/2000/svg"
+            class="made-c-action-bar__icon made-u-margin-left-2-x"
+          >
+            <title>arrowhead-downward</title>
+            <path
+              d="M12 10.425l-12-9L1.069 0 12 8.198 22.931 0 24 1.425z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </li>
+      <li class="made-c-action-bar__item">
+        <a href="" role="button">
+          Dropdown 3
+          <svg
+            width="8"
+            height="4"
+            viewBox="0 0 24 11"
+            xmlns="http://www.w3.org/2000/svg"
+            class="made-c-action-bar__icon made-u-margin-left-2-x"
+          >
+            <title>arrowhead-upward</title>
+            <path
+              d="M12 0L0 9l1.069 1.425L12 2.226l10.931 8.199L24 9z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+        <ul class="made-c-overflow-menu made-c-overflow-menu--action-bar made-u-margin-top-1-x">
+          <li class="made-c-overflow-menu__item">
+            <a class="made-c-overflow-menu__link" href="">
+              Option 1
+            </a>
+          </li>
+          <li class="made-c-overflow-menu__item">
+            <a class="made-c-overflow-menu__link" href="">
+              Option 2
+            </a>
+          </li>
+          <li class="made-c-overflow-menu__item">
+            <a class="made-c-overflow-menu__link" href="">
+              Option 3
+            </a>
+          </li>
+          <li class="made-c-overflow-menu__item">
+            <a class="made-c-overflow-menu__link" href="">
+              Option 4
+            </a>
+          </li>
+          <li class="made-c-overflow-menu__item">
+            <a class="made-c-overflow-menu__link" href="">
+              Option 5
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>`,
+        },
+      },
+    }}
+  >
+    >{actionBarOverflow.bind({})}
+  </Story>
+</Canvas>

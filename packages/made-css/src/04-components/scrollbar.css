@@ -1,0 +1,36 @@
+.made-c-scrollbar {
+	overflow-y: auto;
+}
+
+.made-c-scrollbar:focus {
+	outline: 2px solid var(--made-color-action-border-focus);
+	outline-offset: 2px;
+}
+
+.made-c-scrollbar--horizontal {
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.made-c-scrollbar::-webkit-scrollbar {
+	width: var(--made-size-4-x);
+}
+
+.made-c-scrollbar--horizontal::-webkit-scrollbar {
+	height: var(--made-size-4-x);
+}
+
+.made-c-scrollbar::-webkit-scrollbar-thumb {
+	background-color: var(--made-scrollbar-color-background);
+	border-radius: var(--made-border-radius-06);
+	border: var(--made-size-1-x) solid transparent;
+	background-clip: content-box;
+}
+
+.made-c-scrollbar::-webkit-scrollbar-track {
+	border-left: 1px solid var(--made-color-border-default-on-light);
+}
+
+.made-c-scrollbar--horizontal::-webkit-scrollbar-track {
+	border-top: 1px solid var(--made-color-border-default-on-light);
+}

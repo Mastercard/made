@@ -1,0 +1,41 @@
+/*
+ * color_palette.gradle
+ *
+ * Created by Mastercard on 8/9/20 1:35 PM
+ * Copyright (c) 2020 Mastercard. All rights reserved
+ */
+
+
+task generateColorPaletteTable(){
+    ConfigurableFileTree tree = fileTree(dir: 'src/main/java/com/mastercard/dxp/uicomponent/color', includes: ['res/values/**.xml'])
+    tree.each { File file ->
+        inputs.file file
+
+        def componentName = file.path.split('/')
+        def destinationDir = new File("./", "docs/themes/partnerbank")
+        def fileName = componentName[16].split('\\.')[0]
+        outputs.dir destinationDir
+
+        doLast {
+            destinationDir.mkdirs()
+            def response = new XmlParser().parse(file)
+            def destFile = new File(destinationDir, "${fileName}.md")
+            if (destFile.exists()) {
+                destFile.delete()
+                destFile.createNewFile()
+            }
+            destFile.append("|  Color  |  Name  |")
+            destFile.append("\n|---------|--------|")
+            response.color.eachWithIndex { color, index ->
+                def colorName = color.@name
+                if(color.text().startsWith("#")) {
+                    def colorHex = color.text().replaceAll("#", "")
+
+                    def thumbTextColor = colorHex == "FFFFFF" ? "141413" : "FFFFFF"
+                    def thumb = "![$colorHex](https://via.placeholder.com/40x40/$colorHex/$thumbTextColor?text=$colorHex)"
+                    destFile.append("\n|$thumb|$colorName")
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+  "font": {
+    "body": {
+      "size": {
+        "comment": "",
+        "value": "14px"
+      }
+    },
+    "button": {
+      "size": {
+        "comment": "",
+        "value": "16px"
+      }
+    },
+    "callout": {
+      "size": {
+        "comment": "",
+        "value": "14px"
+      }
+    },
+    "caption-medium": {
+      "size": {
+        "comment": "",
+        "value": "12px"
+      }
+    },
+    "caption-default": {
+      "size": {
+        "comment": "",
+        "value": "12px"
+      }
+    },
+    "caption-small": {
+      "size": {
+        "comment": "",
+        "value": "11px"
+      }
+    },
+    "headline": {
+      "size": {
+        "comment": "",
+        "value": "40px"
+      }
+    },
+    "small": {
+      "size": {
+        "comment": "",
+        "value": "8px"
+      }
+    },
+    "title-1": {
+      "size": {
+        "comment": "",
+        "value": "28px"
+      }
+    },
+    "title-2": {
+      "size": {
+        "comment": "",
+        "value": "24px"
+      }
+    },
+    "title-3": {
+      "size": {
+        "comment": "",
+        "value": "20px"
+      }
+    },
+    "title-4": {
+      "size": {
+        "comment": "",
+        "value": "16px"
+      }
+    },
+    "title-5": {
+      "size": {
+        "comment": "",
+        "value": "13px"
+      }
+    },
+    "title-large": {
+      "size": {
+        "comment": "",
+        "value": "32px"
+      }
+    }
+  }
+}

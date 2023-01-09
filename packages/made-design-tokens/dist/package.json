@@ -1,0 +1,36 @@
+{
+  "name": "@mastercard/made-design-tokens",
+  "version": "2.1.1",
+  "description": "Design tokens by Made Framework",
+  "owner": "Made",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastercard/made.git"
+  },
+  "publishConfig": {
+    "@mastercard:registry": "https://npm.pkg.github.com/mastercard"
+  },
+  "scripts": {
+    "reinstall": "rimraf node_modules && npm cache clean && npm install",
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "postbuild": "cp package.json dist && cp README.md dist",
+    "pack": "npm pack",
+    "changelog": "standard-version",
+    "publish-web": "npm run build && npm publish dist"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "fs-extra": "^9.1.0",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.11",
+    "standard-version": "^9.5.0",
+    "style-dictionary": "^3.0.0-rc.8",
+    "tinycolor2": "^1.4.2"
+  }
+}

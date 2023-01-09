@@ -1,0 +1,40 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Hello/Introduction" />
+
+import imageLogo from "../assets/images/Made_CSS_logo.svg"
+
+export const logo = {
+  src: imageLogo
+}
+
+<style>{`
+.sbdocs-content {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.sbdocs-wrapper {
+  justify-content: flex-start;
+  padding: 0 !important;
+} 
+
+h1 {
+  color: white!important;
+  font-family: var(--made-font-heading-family-01) !important;
+  font-size: var(--made-font-heading-size-01) !important;
+}
+
+h1 svg {
+  margin-right: var(--made-space-2-x);
+}
+
+
+`}</style>
+
+<div className="made-s-home">
+  <h1>
+    <img src={logo.src} alt="made." />
+  </h1>
+  <p className="made-s-intro">v1.2.1</p>
+</div>

@@ -1,0 +1,54 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta
+  title="Content &amp; Data Display/Content Card"
+  parameters={{ badges: [BADGE.OBSOLETE] }}
+/>
+
+# Content Card
+
+Content card components are used to apply a container around a related group of information. Use the class `made-c-card` to create a content card.
+
+The optional footer of the content card can contain one or more call to actions.
+
+## Default
+
+<Canvas>
+  <Story name="Default">
+    <div class="made-c-card">
+      <p class="made-u-eyebrow--02 made-u-margin-bottom-2-x">Category</p>
+      <p class="made-u-h4 made-u-margin-bottom-1-x">
+        Card Title – Multi-line Text is Supported...
+      </p>
+      <p class="made-u-body--small made-u-margin-bottom-1-x">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
+        tempor in…
+      </p>
+      <div class="made-u-helper-text ">Last saved: dd Month YYYY</div>
+      <div class="made-c-card__cta">
+        <a href="">CTA</a>
+      </div>
+    </div>
+  </Story>
+</Canvas>
+
+## With Shadow
+
+Content cards can also appear with a shadow. To apply this style use the class `made-c-card--shadow` alongside the class `made-c-card`.
+
+<Canvas>
+  <Story name="With Shadow">
+    <div class="made-c-card made-c-card--shadow">
+      <p class="made-u-eyebrow--02 made-u-margin-bottom-2-x">Category</p>
+      <p class="made-u-h4 made-u-margin-bottom-1-x">
+        Card Title – Multi-line Text is Supported...
+      </p>
+      <p class="made-u-body--small made-u-margin-bottom-1-x">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
+        tempor in…
+      </p>
+      <span class="made-u-helper-text ">Last saved: dd Month YYYY</span>
+    </div>
+  </Story>
+</Canvas>

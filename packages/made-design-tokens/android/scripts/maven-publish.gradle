@@ -1,0 +1,42 @@
+apply plugin: 'maven-publish'
+apply from: "$rootDir/scripts/versions.gradle"
+
+task androidSourcesJar(type: Jar) {
+    archiveClassifier.set('sources')
+    from android.sourceSets.main.java.srcDirs
+}
+
+afterEvaluate {
+    android.libraryVariants.each { variant ->
+        if (variant.buildType.name == "release") {
+            def name = "$variant.flavorName" + "Release"
+            publishing {
+                publications {
+                    "$name"(MavenPublication) {
+                        from components."$name"
+                        artifact androidSourcesJar
+                        groupId = "com.mastercard.made.design_tokens"
+                        artifactId = "$variant.flavorName"
+                        /*TODO:- version name should be released dynamically*/
+                        version = "$versionNumber"
+                    }
+                }
+
+                repositories {
+                    maven {
+                        def releaseUrl = "https://artifacts.mastercard.int/artifactory/releases"
+                        def snapshotUrl = "https://artifacts.mastercard.int/artifactory/snapshots"
+                        def version = "$versionNumber"
+                        url = version.contains("SNAPSHOT") ? snapshotUrl : releaseUrl
+
+
+                        credentials {
+                            username = System.getProperty("username")
+                            password = System.getProperty("password")
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

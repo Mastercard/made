@@ -1,0 +1,37 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import data from "../assets/data/tokens.json";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta title="Design Tokens/Z-Index" parameters={{  }} />
+
+# Z-Index
+
+Use z-index tokens to set the z order layering of elements.
+
+<Story name="Zindex">
+  <table className="made-c-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.size.zindex).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <code>{token.value}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>

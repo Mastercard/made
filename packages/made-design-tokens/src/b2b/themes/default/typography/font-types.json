@@ -1,0 +1,444 @@
+{
+  "font": {
+    "heading": {
+      "size": {
+        "level": {
+          "01": {
+            "comment": "Font Size for Heading 1 (H1)",
+            "value": "{font.size.11.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          },
+          "02": {
+            "comment": "Font Size for Heading 2 (H2)",
+            "value": "{font.size.10.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          },
+          "03": {
+            "comment": "Font Size for Heading 3 (H3)",
+            "value": "{font.size.09.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          },
+          "04": {
+            "comment": "Font Size for Heading 4 (H4)",
+            "value": "{font.size.08.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          },
+          "05": {
+            "comment": "Font Size for Heading 5 (H5)",
+            "value": "{font.size.07.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          },
+          "06": {
+            "comment": "Font Size for Heading 6 (H6)",
+            "value": "{font.size.06.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          }
+        },
+        "display": {
+          "01": {
+            "comment": "Font Size for Display 01.",
+            "value": "{font.size.15.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          },
+          "02": {
+            "comment": "Font Size for Display 02.",
+            "value": "{font.size.13.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          },
+          "03": {
+            "comment": "Font Size for Display 03.",
+            "value": "{font.size.11.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "comment": "Font size for small eyebrow text",
+            "value": "{font.body.size.small.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          },
+          "02": {
+            "comment": "Font size for default eyebrow text",
+            "value": "{font.body.size.large.value}",
+            "themeable": "Yes",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "family": {
+        "level": {
+          "01": {
+            "comment": "Font Family for Heading 1 (H1).",
+            "value": "{font.family.heading.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "02": {
+            "comment": "Font Family for Heading 2 (H2).",
+            "value": "{font.family.heading.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "03": {
+            "comment": "Font Family for Heading 3 (H3).",
+            "value": "{font.body.family.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "04": {
+            "comment": "Font Family for Heading 4 (H4).",
+            "value": "{font.body.family.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "05": {
+            "comment": "Font Family for Heading 5 (H5).",
+            "value": "{font.body.family.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "06": {
+            "comment": "Font Family for Heading 6 (H6).",
+            "value": "{font.body.family.bold.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          }
+        },
+        "display": {
+          "01": {
+            "comment": "Font family for Display 01.",
+            "value": "{font.family.heading.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "02": {
+            "comment": "Font family for Display 02.",
+            "value": "{font.family.heading.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "03": {
+            "comment": "Font family for Display 03.",
+            "value": "{font.family.heading.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "comment": "Font family for small eyebrow text.",
+            "value": "{font.family.eyebrow.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "02": {
+            "comment": "Font family for large eyebrow text.",
+            "value": "{font.family.eyebrow.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          }
+        }
+      },
+      "weight": {
+        "level": {
+          "01": {
+            "comment": "Font Family for Heading 1 (H1).",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "02": {
+            "comment": "Font Family for Heading 2 (H2).",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "03": {
+            "comment": "Font Family for Heading 3 (H3).",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "04": {
+            "comment": "Font Family for Heading 4 (H4).",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "05": {
+            "comment": "Font Family for Heading 5 (H5).",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "06": {
+            "comment": "Font Family for Heading 6 (H6).",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          }
+        },
+        "display": {
+          "01": {
+            "comment": "Font family for Display 01.",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "02": {
+            "comment": "Font family for Display 02.",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "03": {
+            "comment": "Font family for Display 03.",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "comment": "Font family for small eyebrow text.",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          },
+          "02": {
+            "comment": "Font family for large eyebrow text.",
+            "value": "{font.weight.default.value}",
+            "themeable": "No",
+            "type": "fontFamilies"
+          }
+        }
+      },
+      "line-height": {
+        "level": {
+          "01": {
+            "comment": "Line Height of Heading 1 (H1).",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          },
+          "02": {
+            "comment": "Line Height of Heading 2 (H2).",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          },
+          "03": {
+            "comment": "Line Height of Heading 3 (H3).",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          },
+          "04": {
+            "comment": "Line Height of Heading 4 (H4).",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          },
+          "05": {
+            "comment": "Line Height of Heading 5 (H5).",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          },
+          "06": {
+            "comment": "Line Height of Heading 6 (H6).",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          }
+        },
+        "display": {
+          "01": {
+            "comment": "Line height of Display 01.",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          },
+          "02": {
+            "comment": "Line height of Display 02.",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          },
+          "03": {
+            "comment": "Line height of Display 03.",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "comment": "Line Height for small eyebrow text.",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          },
+          "02": {
+            "comment": "Line Height for large eyebrow text.",
+            "value": "{line.height.heading.value}",
+            "themeable": "No",
+            "type": "lineHeights"
+          }
+        }
+      },
+      "letter.spacing": {
+        "level": {
+          "01": {
+            "comment": "Letter spacing of Heading 1 (H1).",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          },
+          "02": {
+            "comment": "Letter spacing of Heading 2 (H2).",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          },
+          "03": {
+            "comment": "Letter spacing of Heading 3 (H3).",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          },
+          "04": {
+            "comment": "Letter spacing of Heading 4 (H4).",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          },
+          "05": {
+            "comment": "Letter spacing of Heading 5 (H5).",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          },
+          "06": {
+            "comment": "Letter spacing of Heading 6 (H6).",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          }
+        },
+        "display": {
+          "01": {
+            "comment": "Letter spacing of Display 02.",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          },
+          "02": {
+            "comment": "Letter spacing of Display 02.",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          },
+          "03": {
+            "comment": "Letter spacing of Display 03.",
+            "value": "{letter.spacing.default.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "comment": "Letter spacing for small eyebrow text.",
+            "value": "{letter.spacing.eyebrow.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          },
+          "02": {
+            "comment": "Letter spacing for small eyebrow text.",
+            "value": "{letter.spacing.eyebrow.value}",
+            "themeable": "No",
+            "type": "letterSpacing"
+          }
+        }
+      }
+    },
+    "body": {
+      "size": {
+        "large": {
+          "comment": "Large font size for body text.",
+          "value": "{font.size.06.value}",
+          "themeable": "Yes",
+          "type": "fontFamilies"
+        },
+        "default": {
+          "comment": "Default font size for body text.",
+          "value": "{font.size.04.value}",
+          "themeable": "Yes",
+          "type": "fontFamilies"
+        },
+        "small": {
+          "comment": "Small font size for body text.",
+          "value": "{font.size.02.value}",
+          "themeable": "Yes",
+          "type": "fontFamilies"
+        }
+      },
+      "weight": {
+        "default": {
+          "comment": "Default font weight for body text.",
+          "value": "{font.weight.default.value}",
+          "themeable": "Yes",
+          "type": "fontWeight"
+        },
+        "bold": {
+          "comment": "Bold font weight for body text.",
+          "value": "{font.weight.bold.value}",
+          "themeable": "Yes",
+          "type": "fontWeight"
+        }
+      },
+      "family": {
+        "narrow": {
+          "comment": "Default font family for narrow/small text. Used on tooltip and notification",
+          "value": "{font.family.narrow.value}",
+          "themeable": "Yes",
+          "type": "fontSizes"
+        },
+        "default": {
+          "comment": "Default font family for body text.",
+          "value": "{font.family.regular.value}",
+          "themeable": "Yes",
+          "type": "fontSizes"
+        },
+        "bold": {
+          "comment": "Font family for bold body text.",
+          "value": "{font.family.medium.value}",
+          "themeable": "Yes",
+          "type": "fontSizes"
+        }
+      },
+      "line-height": {
+        "comment": "Default line height for body text.",
+        "value": "{line.height.default.value}",
+        "themeable": "No",
+        "type": "lineHeights"
+      },
+      "letter.spacing": {
+        "comment": "Default letter spacing for body text.",
+        "value": "{letter.spacing.default.value}",
+        "themeable": "No",
+        "type": "letterSpacing"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.made-c-form__element {
+  display: flex;
+  flex-direction: column;
+}
+
+.made-c-form__label {
+  font-size: var(--made-font-body-size-small);
+  margin-bottom: var(--made-space-2-x);
+  line-height: var(--made-line-height-single);
+}
+
+.made-c-form__fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.made-c-form__legend {
+  font-family: var(--made-font-heading-family-eyebrow-02), Arial, Helvetica,
+    sans-serif;
+  font-size: var(--made-font-heading-size-eyebrow-02);
+  letter-spacing: var(--made-font-heading-letter-spacing-eyebrow-02);
+  line-height: var(--made-font-heading-line-height-eyebrow-02);
+  margin: 0 0 var(--made-space-3-x) 0;
+  text-transform: uppercase;
+}
+
+.made-c-form__label--error {
+  color: var(--made-color-feedback-text-error);
+}
+
+.made-c-form__validation--error {
+  color: var(--made-color-feedback-text-error);
+  font-size: var(--made-font-body-size-small);
+}
+
+.made-c-form__label--success {
+  color: var(--made-color-feedback-text-success);
+}
+
+.made-c-form__validation--success {
+  color: var(--made-color-feedback-text-success);
+  font-size: var(--made-font-body-size-small);
+}
+
+.made-c-form__hint {
+  color: var(--made-color-text-helper);
+  font-size: var(--made-font-body-size-small);
+}

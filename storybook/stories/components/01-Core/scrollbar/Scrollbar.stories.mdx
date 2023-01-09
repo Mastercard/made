@@ -1,0 +1,117 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { Scrollbar } from "./Scrollbar";
+
+<Meta title="Actions/Scrollbar" parameters={{ badges: [BADGE.OBSOLETE] }} />
+
+export const scrollbar = (args) => <Scrollbar {...args} />;
+
+# Scrollbar
+
+Use the scrollable class when you need to provide scrolling within a section of a page.
+
+For example, when the content within an element exceeds either the width or height of the element, applying `made-c-scrollbar` provides a vertical scrollbar, while `made-c-scrollbar--horizontal` adds a horizontal scrollbar.
+
+`made-s-scrollbar` class is added for demo purposes.
+
+⚠️ The `made-c-scrollbar` classes style the scrollbar using `made-c-scrollbar::-webkit-scrollbar` and `made-c-scrollbar::-webkit-scrollbar-thumb` which is not supported by the latest version of Firefox. The style will default to the OS scrollbar.
+
+## Vertical
+
+The `made-c-scrollbar` class adds vertical scrolling.
+
+<Canvas>
+  <Story
+    name="Vertical"
+    argTypes={{
+      heading: {
+        name: "Heading",
+      },
+      content: {
+        name: "Content",
+      },
+      direction: {
+        name: "Direction",
+        control: {
+          type: "radio",
+          options: ["vertical", "horizontal"],
+        },
+      },
+    }}
+    args={{
+      heading: "Say hello to Made",
+      content:
+        "The Mastercard Adaptive Design Ecosystem, affectionately known as Made, is a family of web and mobile design systems. Inside our framework, you'll find a collection of UI components, design patterns, and guidelines. We help product teams maintain design standards, increase productivity, and bring products to market faster.",
+      direction: "vertical",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<div class="made-c-scrollbar made-s-scrollbar" tabindex="0">
+      <h2 class="made-u-margin-bottom-6-x">Say hello to Made</h2>
+      <p>
+        The Mastercard Adaptive Design Ecosystem, affectionately known as Made,
+        is a family of web and mobile design systems. Inside our framework,
+        you’ll find a collection of UI components, design patterns, and
+        guidelines. We help product teams maintain design standards, increase
+        productivity, and bring products to market faster.
+      </p>
+    </div>`,
+        },
+      },
+    }}
+  >
+    >{scrollbar.bind({})}
+  </Story>
+</Canvas>
+
+## Horizontal
+
+The `made-c-scrollbar--horizontal` class added alongside the `made-c-scrollbar` class adds horizontal scrolling.
+
+<Canvas>
+  <Story
+    name="Horizontal"
+    argTypes={{
+      heading: {
+        name: "Heading",
+      },
+      content: {
+        name: "Content",
+      },
+      direction: {
+        name: "Direction",
+        control: {
+          type: "radio",
+          options: ["vertical", "horizontal"],
+        },
+      },
+    }}
+    args={{
+      heading: "Say hello to Made",
+      content:
+        "The Mastercard Adaptive Design Ecosystem, affectionately known as Made, is a family of web and mobile design systems. Inside our framework, you'll find a collection of UI components, design patterns, and guidelines. We help product teams maintain design standards, increase productivity, and bring products to market faster.",
+      direction: "horizontal",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<div class="made-c-scrollbar made-s-scrollbar made-c-scrollbar--horizontal" tabindex="0">
+      <h2 class="made-u-margin-bottom-6-x">Say hello to Made</h2>
+      <p>
+        The Mastercard Adaptive Design Ecosystem, affectionately known as Made,
+        is a family of web and mobile design systems. Inside our framework,
+        you’ll find a collection of UI components, design patterns, and
+        guidelines. We help product teams maintain design standards, increase
+        productivity, and bring products to market faster.
+      </p>
+    </div>`,
+        },
+      },
+    }}
+  >
+    >{scrollbar.bind({})}
+  </Story>
+</Canvas>

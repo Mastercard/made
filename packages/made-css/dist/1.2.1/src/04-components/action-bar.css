@@ -1,0 +1,26 @@
+.made-c-action-bar {
+	display: flex;
+	list-style: none;
+    padding: 0;
+    margin: 0;
+	flex-wrap: wrap;
+}
+
+.made-c-action-bar__item {
+	position: relative;
+	border-right: 1px solid var(--made-color-border-default-on-light);
+	padding: 0 var(--made-space-4-x) 0 var(--made-space-4-x);
+	margin-bottom: var(--made-space-1-x);
+}
+
+.made-c-action-bar__item:first-child {
+	padding-left: 0;
+}
+
+.made-c-action-bar__item:last-child {
+	border: 0;
+}
+
+.made-c-action-bar__icon {
+	vertical-align: middle;
+}

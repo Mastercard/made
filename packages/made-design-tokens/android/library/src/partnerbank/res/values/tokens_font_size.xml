@@ -1,0 +1,30 @@
+
+    <resources>  
+        <dimen name="made_font_body_size">14sp</dimen>
+  
+        <dimen name="made_font_button_size">16sp</dimen>
+  
+        <dimen name="made_font_callout_size">14sp</dimen>
+  
+        <dimen name="made_font_caption_medium_size">12sp</dimen>
+  
+        <dimen name="made_font_caption_default_size">12sp</dimen>
+  
+        <dimen name="made_font_caption_small_size">11sp</dimen>
+  
+        <dimen name="made_font_headline_size">40sp</dimen>
+  
+        <dimen name="made_font_small_size">8sp</dimen>
+  
+        <dimen name="made_font_title_1_size">28sp</dimen>
+  
+        <dimen name="made_font_title_2_size">24sp</dimen>
+  
+        <dimen name="made_font_title_3_size">20sp</dimen>
+  
+        <dimen name="made_font_title_4_size">16sp</dimen>
+  
+        <dimen name="made_font_title_5_size">13sp</dimen>
+  
+        <dimen name="made_font_title_large_size">32sp</dimen>
+    </resources>

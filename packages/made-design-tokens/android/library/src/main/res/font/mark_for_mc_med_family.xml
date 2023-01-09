@@ -1,0 +1,14 @@
+
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:font="@font/mark_for_mc_med"
+        app:fontStyle="normal"
+        app:fontWeight="400"
+
+        android:font="@font/mark_for_mc_med"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        />
+
+</font-family>

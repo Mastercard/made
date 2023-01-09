@@ -1,0 +1,64 @@
+{
+  "color": {
+    "background": {
+      "default": {
+        "comment": "Main background color of the application.",
+        "value": "{color.white.value}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "primary": {
+        "comment": "Background of primary brand color.",
+        "value": "{color.brand.primary.value}",
+        "themeable": "No",
+        "type": "color"
+      },
+      "gray-lightest": {
+        "comment": "Used on background of breadcrumb and pill components.",
+        "value": "{color.gray.01-5.value}",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  },
+  "backdrop": {
+    "color": {
+      "background": {
+        "comment": "Background on overlay used with modals",
+        "value": "rgba(20,20,19,0.7)",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  },
+  "footer": {
+    "color": {
+      "background": {
+        "comment": "Background color for footer component",
+        "value": "{color.gray.07.value}",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  },
+  "header": {
+    "color": {
+      "background": {
+        "comment": "Background color for header component",
+        "value": "{color.gray.07.value}",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  },
+  "scrollbar": {
+    "color": {
+      "background": {
+        "comment": "Background color for scrollbar component",
+        "value": "{color.gray.03.value}",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  }
+}

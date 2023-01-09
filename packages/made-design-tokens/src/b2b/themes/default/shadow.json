@@ -1,0 +1,16 @@
+{
+  "shadow": {
+    "default": {
+      "comment": "Shadow for all content cards, dropdowns, dialogs, datepicker etc.",
+      "value": "0 2px 10px 0 rgba(20,20,19,0.20)",
+      "themeable": "Yes",
+      "type": "boxShadow"
+    },
+    "toggle": {
+      "comment": "Shadow on slider on toggle component.",
+      "value": "0 5px 10px 0 rgba(20,20,19,0.15), 0 2px 2px 0 rgba(20,20,19,0.3);",
+      "themeable": "No",
+      "type": "boxShadow"
+    }
+  }
+}

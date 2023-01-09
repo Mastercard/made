@@ -1,0 +1,253 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+
+<Meta title="Foundations/Grid" />
+
+# Grid
+
+The Made. Grid is mobile-first Flexbox grid that allows developers to build a variety of layouts.
+
+## Overview
+
+Every layout starts with the `.made-l-grid` class. By default the grid width is 100% of its container, with a max-width of 1400px;
+
+The grid is made up of a combination of rows and columns. Add a row by using the  `.made-l-grid__row` class and add columns by using the `.made-l-grid__item` class within the row.
+
+You can have multiple rows in a grid, and multiple columns components in a row. Each row will contain all the column classes provided to it, as long as they don't span more columns than the total number of columns in the grid.
+
+<Canvas>
+  <Story name="Overview">
+    <div class="made-l-grid">
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">1/12</div>
+        </div>
+      </div>
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">6/12</div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block">6/12</div>
+        </div>
+      </div>
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item made-l-grid__item--md-4">
+          <div class="made-s-grid-block">4/12</div>
+        </div>
+        <div class="made-l-grid__item made-l-grid__item--md-4">
+          <div class="made-s-grid-block">4/12</div>
+        </div>
+        <div class="made-l-grid__item made-l-grid__item--md-4">
+          <div class="made-s-grid-block">4/12</div>
+        </div>
+      </div>
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item made-l-grid__item--md-3">
+          <div class="made-s-grid-block">3/12</div>
+        </div>
+        <div class="made-l-grid__item made-l-grid__item--md-3">
+          <div class="made-s-grid-block">3/12</div>
+        </div>
+        <div class="made-l-grid__item made-l-grid__item--md-3">
+          <div class="made-s-grid-block">3/12</div>
+        </div>
+        <div class="made-l-grid__item made-l-grid__item--md-3">
+          <div class="made-s-grid-block">3/12</div>
+        </div>
+      </div>
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item made-l-grid__item--md-8">
+          <div class="made-s-grid-block">8/12</div>
+        </div>
+        <div class="made-l-grid__item made-l-grid__item--md-4">
+          <div class="made-s-grid-block">4/12</div>
+        </div>
+      </div>
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item made-l-grid__item--md-7">
+          <div class="made-s-grid-block">7/12</div>
+        </div>
+        <div class="made-l-grid__item made-l-grid__item--md-5">
+          <div class="made-s-grid-block">5/12</div>
+        </div>
+      </div>
+    </div>
+  </Story>
+</Canvas>
+
+## Grid Options
+
+While Made uses rems for defining most sizes, pxs are used for grid breakpoints and container widths.
+This is because the viewport width is in pixels and does not change with the font size.
+
+The table below shows how the grid works across multiple breakpoints.
+
+|                     | Small (<600px)                      | Medium (≥600px)                      | Large (≥960px)                      |
+| ------------------- | ----------------------------------- | ------------------------------------ | ------------------------------------ |
+| Max container width | auto                                | auto                                 | 1400px                               |
+| Class prefix        | `.made-l-grid__item`                | `.made-l-grid__item--md-*`           | `.made-l-grid__item--lg-*`           |
+| Gutter width        | 16px (8px on each side of a column) | 24px (12px on each side of a column) | 24px (12px on each side of a column) |
+
+## Auto Columns
+
+You may want your content to span a specific proportion of the grid without having to calculate it across every breakpoint.
+A common use-case for this is if you have a row of four cards and want each to span 25% width each.
+
+Auto columns is enabled when you use the `.made-l-grid__item` class, and it will automatically set each column to a percentage of the total available width.
+
+For example, if you have one element with a `.made-l-grid__item` class  it would span 100%, two elements would span 50% each,
+four elements components would span 25% each, and so on.
+
+<Canvas>
+  <Story name="Auto Columns">
+    <div class="made-l-grid">
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block"></div>
+        </div>
+      </div>
+    </div>
+  </Story>
+</Canvas>
+
+## Responsive Classes
+
+All grid classes are 100% width of their container by default at the small breakpoint.
+You can have equal width columns or you can customize the size of your columns on medium and large breakpoints.
+
+To specify how many columns to span, you can use `made-l-grid__item--md-*` and  `.made-l-grid__item--lg-*` classes.
+In the example below, the `made-l-grid__item--lg-6` class will span 6 columns on a large breakpoint, while `made-l-grid__item--md-4` will span 4 columns on a medium breakpoint.
+All classes default to 100% on a small breakpoint.
+
+the number 4 to specify that each Column component should span 4 columns at that breakpoint.
+
+<Canvas>
+  <Story name="Breakpoints">
+    <div class="made-l-grid">
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item made-l-grid__item--md-4 made-l-grid__item--lg-6">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item made-l-grid__item--md-4 made-l-grid__item--lg-6">
+          <div class="made-s-grid-block"></div>
+        </div>
+      </div>
+    </div>
+  </Story>
+</Canvas>
+
+## No Gutters
+
+Add the `made-l-grid__row--no-gutters` to remove gutters from the row.
+
+<Canvas>
+  <Story name="No Gutters">
+    <div class="made-l-grid">
+      <div class="made-l-grid__row made-l-grid__row--no-gutters">
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item">
+          <div class="made-s-grid-block"></div>
+        </div>
+      </div>
+    </div>
+  </Story>
+</Canvas>
+
+## Offsetting Columns
+
+Move columns to the right using `.made-l-grid__item--offset-*` classes. These classes increase the left margin of a column by \* columns. For example, `.made-l-grid__item--md-offset-4` moves `.made-l-grid__item--md-4` over four columns.
+
+<Canvas>
+  <Story name="Offsetting Columns">
+    <div class="made-l-grid">
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item--md-4">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item--md-4 made-l-grid__item--md-offset-4">
+          <div class="made-s-grid-block"></div>
+        </div>
+      </div>
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item--md-3 made-l-grid__item--md-offset-3">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item--md-3 made-l-grid__item--md-offset-3">
+          <div class="made-s-grid-block"></div>
+        </div>
+      </div>
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item--md-6 made-l-grid__item--md-offset-3">
+          <div class="made-s-grid-block"></div>
+        </div>
+      </div>
+    </div>
+  </Story>
+</Canvas>
+
+In addition to column clearing at responsive breakpoints, you may need to reset offsets. The example below will have offset columns on a medium width screen but on large screen the offset columns will be removed and take up the full width of the grid as both columns are 6 columns wides on a large screen.
+
+<Canvas>
+  <Story name="Reset Offset Columns">
+    <div class="made-l-grid">
+      <div class="made-l-grid__row">
+        <div class="made-l-grid__item--md-5 made-l-grid__item--lg-6">
+          <div class="made-s-grid-block"></div>
+        </div>
+        <div class="made-l-grid__item--md-5 made-l-grid__item--md-offset-2 made-l-grid__item--lg-6 made-l-grid__item--lg-offset-0">
+          <div class="made-s-grid-block"></div>
+        </div>
+      </div>
+    </div>
+  </Story>
+</Canvas>

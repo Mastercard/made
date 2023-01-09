@@ -1,0 +1,110 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta
+  title="Content &amp; Data Display/Carousel"
+  parameters={{ badges: [BADGE.OBSOLETE] }}
+/>
+
+# Carousel
+
+The carousel component allows multiple panels of content to occupy the same space.
+
+The arrows on the bottom right can be used to navigate between the panels. The numbers on the bottom left tell a user how many panels there are and which one is currently active.
+
+## Default
+
+<Canvas>
+  <Story name="Default">
+    <div class="made-c-carousel made-u-width-100">
+      <img
+        src="https://via.placeholder.com/664x416png"
+        class="made-c-carousel__img made-u-width-50--md"
+        alt="placeholder"
+      />
+      <div class="made-c-carousel__content made-u-width-50--md">
+        <button type="button" class="made-c-button--close">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            className="made-c-modal__icon"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>close</title>
+            <path
+              d="M22.938 0L24 1.062 13.061 12 24 22.938 22.938 24 12 13.061 1.062 24 0 22.938 10.938 12 0 1.062 1.062 0 12 10.938 22.938 0z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div class="made-c-carousel__text">
+          <p class="made-u-eyebrow--01 made-u-margin-bottom-6-x">
+            Eyebrow - 35 characters max
+          </p>
+          <p class="made-u-h1 made-u-margin-bottom-3-x">h1 - Spotlight title</p>
+          <p class="made-u-body--large">
+            Multi-line text goes here. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Ut ex diam, iaculis vitae sem eget, lacinia
+            condimentum neque. Sed ultrices mi eget hendrerit tempor.
+          </p>
+          <button type="button" class="made-c-button made-c-button--ghost">
+            Ghost Button
+            <svg
+              class="made-c-button__icon--ghost"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>arrow-forward</title>
+              <path
+                d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
+                fill="var(--made-color-text-primary)"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="made-c-carousel__actions made-u-margin-top-8-x--md">
+          <div class="made-c-carousel__step">1 / 3</div>
+          <div class="made-c-carousel__buttons">
+            <a href="#" class="made-c-carousel__button">
+              <svg
+                width="24"
+                height="16"
+                viewBox="0 0 24 16"
+                xmlns="http://www.w3.org/2000/svg"
+                class="made-c-carousel__nav-icon"
+              >
+                <title>arrow-backward</title>
+                <path
+                  d="M4.976.42L0 7.999l4.976 7.579.708-.891L1.69 8.6H24v-1.09L1.613 7.51l4.071-6.199L4.976.42z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <a href="#" class="made-c-carousel__button">
+              <svg
+                width="24"
+                height="16"
+                viewBox="0 0 24 16"
+                xmlns="http://www.w3.org/2000/svg"
+                class="made-c-carousel__nav-icon"
+              >
+                <title>arrow-forward</title>
+                <path
+                  d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Story>
+</Canvas>

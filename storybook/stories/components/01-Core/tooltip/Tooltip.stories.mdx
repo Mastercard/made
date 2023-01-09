@@ -1,0 +1,165 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta
+	title="Popover/Tooltip"
+	decorators={[
+		(Story) => (
+			<div
+				style={{
+					height: "5em",
+					padding: "1rem",
+					minHeight: "10rem",
+					display: "flex",
+					alignItems: "center",
+					justifyContent: "center",
+				}}
+			>
+				<Story />
+			</div>
+		),
+	]}
+	parameters={{}}
+/>
+
+# Tooltip
+
+A tooltip is a small piece of contextual information about an element on the screen, which is displayed when a user hovers or focuses on the element it is describing.
+
+## Top
+
+Position a tooltip over a trigger use the class `made-c-tooltip--top`.
+
+<Canvas>
+	<Story name="Top">
+		<div class="made-c-tooltip-wrapper">
+			<svg
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<title>question</title>
+				<path
+					d="M12 0c6.627 0 12 5.373 12 12-.008 6.624-5.376 11.992-12 12-6.627 0-12-5.373-12-12S5.373 0 12 0zm0 1.108C5.984 1.108 1.108 5.984 1.108 12c0 6.016 4.876 10.892 10.892 10.892 6.016 0 10.892-4.876 10.892-10.892C22.886 5.987 18.012 1.114 12 1.108zm-.24 15.384a.7.7 0 110 1.4.7.7 0 010-1.4zm.227-10.376a3.531 3.531 0 01.301 7.01v1.966c0 .276-.2.504-.464.547l-.09.007a.554.554 0 01-.554-.554V12.53a.468.468 0 01.377-.46l.092-.009a2.48 2.48 0 002.503-2.257 2.423 2.423 0 00-4.8-.609.548.548 0 01-.455.437l-.086.006a.555.555 0 01-.547-.653 3.531 3.531 0 013.723-2.869z"
+					fill="currentColor"
+					fill-rule="evenodd"
+				/>
+			</svg>
+			<div class="made-c-tooltip made-c-tooltip--top">
+				<div class="made-c-tooltip__label">Tooltip text</div>
+			</div>
+		</div>
+	</Story>
+</Canvas>
+
+## Bottom
+
+Position a tooltip under a trigger use the class `made-c-tooltip--bottom`.
+
+<Canvas>
+	<Story name="Bottom">
+		<div class="made-c-tooltip-wrapper">
+			<svg
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<title>question</title>
+				<path
+					d="M12 0c6.627 0 12 5.373 12 12-.008 6.624-5.376 11.992-12 12-6.627 0-12-5.373-12-12S5.373 0 12 0zm0 1.108C5.984 1.108 1.108 5.984 1.108 12c0 6.016 4.876 10.892 10.892 10.892 6.016 0 10.892-4.876 10.892-10.892C22.886 5.987 18.012 1.114 12 1.108zm-.24 15.384a.7.7 0 110 1.4.7.7 0 010-1.4zm.227-10.376a3.531 3.531 0 01.301 7.01v1.966c0 .276-.2.504-.464.547l-.09.007a.554.554 0 01-.554-.554V12.53a.468.468 0 01.377-.46l.092-.009a2.48 2.48 0 002.503-2.257 2.423 2.423 0 00-4.8-.609.548.548 0 01-.455.437l-.086.006a.555.555 0 01-.547-.653 3.531 3.531 0 013.723-2.869z"
+					fill="currentColor"
+					fill-rule="evenodd"
+				/>
+			</svg>
+			<div class="made-c-tooltip made-c-tooltip--bottom">
+				<div class="made-c-tooltip__label">Tooltip text</div>
+			</div>
+		</div>
+	</Story>
+</Canvas>
+
+## Left
+
+Position a tooltip to the left of a trigger use the class `made-c-tooltip--left`.
+
+<Canvas>
+	<Story name="Left">
+		<div class="made-c-tooltip-wrapper">
+			<svg
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<title>question</title>
+				<path
+					d="M12 0c6.627 0 12 5.373 12 12-.008 6.624-5.376 11.992-12 12-6.627 0-12-5.373-12-12S5.373 0 12 0zm0 1.108C5.984 1.108 1.108 5.984 1.108 12c0 6.016 4.876 10.892 10.892 10.892 6.016 0 10.892-4.876 10.892-10.892C22.886 5.987 18.012 1.114 12 1.108zm-.24 15.384a.7.7 0 110 1.4.7.7 0 010-1.4zm.227-10.376a3.531 3.531 0 01.301 7.01v1.966c0 .276-.2.504-.464.547l-.09.007a.554.554 0 01-.554-.554V12.53a.468.468 0 01.377-.46l.092-.009a2.48 2.48 0 002.503-2.257 2.423 2.423 0 00-4.8-.609.548.548 0 01-.455.437l-.086.006a.555.555 0 01-.547-.653 3.531 3.531 0 013.723-2.869z"
+					fill="currentColor"
+					fill-rule="evenodd"
+				/>
+			</svg>
+			<div class="made-c-tooltip made-c-tooltip--left">
+				<div class="made-c-tooltip__label">Tooltip text</div>
+			</div>
+		</div>
+	</Story>
+</Canvas>
+
+## Right
+
+Position a tooltip to the right of a trigger use the class `made-c-tooltip--right`.
+
+<Canvas>
+	<Story name="Right">
+		<div class="made-c-tooltip-wrapper">
+			<svg
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<title>question</title>
+				<path
+					d="M12 0c6.627 0 12 5.373 12 12-.008 6.624-5.376 11.992-12 12-6.627 0-12-5.373-12-12S5.373 0 12 0zm0 1.108C5.984 1.108 1.108 5.984 1.108 12c0 6.016 4.876 10.892 10.892 10.892 6.016 0 10.892-4.876 10.892-10.892C22.886 5.987 18.012 1.114 12 1.108zm-.24 15.384a.7.7 0 110 1.4.7.7 0 010-1.4zm.227-10.376a3.531 3.531 0 01.301 7.01v1.966c0 .276-.2.504-.464.547l-.09.007a.554.554 0 01-.554-.554V12.53a.468.468 0 01.377-.46l.092-.009a2.48 2.48 0 002.503-2.257 2.423 2.423 0 00-4.8-.609.548.548 0 01-.455.437l-.086.006a.555.555 0 01-.547-.653 3.531 3.531 0 013.723-2.869z"
+					fill="currentColor"
+					fill-rule="evenodd"
+				/>
+			</svg>
+			<div class="made-c-tooltip made-c-tooltip--right">
+				<div class="made-c-tooltip__label">Tooltip text</div>
+			</div>
+		</div>
+	</Story>
+</Canvas>
+
+## Title & Text
+
+Add a title to a tooltip using the class `made-c-tooltip__label--has-title` and add a new element `made-c-tooltip__label-title`.
+
+<Canvas>
+	<Story name="Title and Text">
+		<div class="made-c-tooltip-wrapper">
+			<svg
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<title>question</title>
+				<path
+					d="M12 0c6.627 0 12 5.373 12 12-.008 6.624-5.376 11.992-12 12-6.627 0-12-5.373-12-12S5.373 0 12 0zm0 1.108C5.984 1.108 1.108 5.984 1.108 12c0 6.016 4.876 10.892 10.892 10.892 6.016 0 10.892-4.876 10.892-10.892C22.886 5.987 18.012 1.114 12 1.108zm-.24 15.384a.7.7 0 110 1.4.7.7 0 010-1.4zm.227-10.376a3.531 3.531 0 01.301 7.01v1.966c0 .276-.2.504-.464.547l-.09.007a.554.554 0 01-.554-.554V12.53a.468.468 0 01.377-.46l.092-.009a2.48 2.48 0 002.503-2.257 2.423 2.423 0 00-4.8-.609.548.548 0 01-.455.437l-.086.006a.555.555 0 01-.547-.653 3.531 3.531 0 013.723-2.869z"
+					fill="currentColor"
+					fill-rule="evenodd"
+				/>
+			</svg>
+			<div class="made-c-tooltip made-c-tooltip--top">
+				<div class="made-c-tooltip__label made-c-tooltip__label--has-title">
+					<div class="made-c-tooltip__label-title">Title</div>
+					Tooltip text
+				</div>
+			</div>
+		</div>
+	</Story>
+</Canvas>

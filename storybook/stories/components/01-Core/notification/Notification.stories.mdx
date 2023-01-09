@@ -1,0 +1,177 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+
+<Meta
+  title="Feedback/Notification"
+  parameters={{ badges: [BADGE.OBSOLETE] }}
+/>
+
+# Notifications
+
+Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+
+Alerts are available for any length of text, as well as an optional close button.
+
+# Success
+
+Add the `made-c-notification--success` and `made-c-notification__icon--success` classes for a successful notification.
+
+<Canvas>
+  <Story name="Success">
+    <div class="made-c-notification made-c-notification--success" role="alert">
+      <div class="made-c-notification__icon made-c-notification__icon--success">
+        <svg
+          class="made-c-notification__svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>ui / process complete</title>
+          <path
+            d="M12.5 2C18.29 2 23 6.71 23 12.5S18.29 23 12.5 23 2 18.29 2 12.5 6.71 2 12.5 2zm0 1C7.262 3 3 7.262 3 12.5S7.262 22 12.5 22s9.5-4.262 9.5-9.5S17.738 3 12.5 3zm6.146 5.646l.708.708L11 17.707l-5.354-5.353.708-.708L11 16.293l7.646-7.647z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <div class="made-c-notification__content">
+        <p class="made-c-notification__message">
+          A simple success notification
+        </p>
+        <a href="#" class="made-c-notification__link">
+          CTA Link
+        </a>
+      </div>
+      <button
+        type="button"
+        class="made-c-button--close made-c-notification__close"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          className="made-c-button__icon--close"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>close</title>
+          <path
+            d="M22.938 0L24 1.062 13.061 12 24 22.938 22.938 24 12 13.061 1.062 24 0 22.938 10.938 12 0 1.062 1.062 0 12 10.938 22.938 0z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </Story>
+</Canvas>
+
+# Error
+
+Add the `made-c-notification--error` and `made-c-notification__icon--error` classes for a error styling on notification.
+
+<Canvas>
+  <Story name="Error">
+    <div class="made-c-notification made-c-notification--error" role="alert">
+      <div class="made-c-notification__icon made-c-notification__icon--error">
+        <svg
+          class="made-c-notification__svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>ui / warning</title>
+          <path
+            d="M12.5 1L23 23H2L12.5 1zm0 2.322L3.585 22h17.83L12.5 3.322zM13 18v2h-1v-2h1zm0-11v9h-1V7h1z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <div class="made-c-notification__content">
+        <p class="made-c-notification__message">
+          Sorry, we couldn't complete the requested action. We’re fixing it as
+          we speak, please check back soon.
+        </p>
+        <a href="#" class="made-c-notification__link">
+          CTA Link
+        </a>
+      </div>
+      <button
+        type="button"
+        class="made-c-button--close made-c-notification__close"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          className="made-c-button__icon--close"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>close</title>
+          <path
+            d="M22.938 0L24 1.062 13.061 12 24 22.938 22.938 24 12 13.061 1.062 24 0 22.938 10.938 12 0 1.062 1.062 0 12 10.938 22.938 0z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </Story>
+</Canvas>
+
+# Informational
+
+Add the `made-c-notification--information` and `made-c-notification__icon--information` classes for a informational styling on notification.
+
+<Canvas>
+  <Story name="Informational">
+    <div
+      class="made-c-notification made-c-notification--information"
+      role="alert"
+    >
+      <div class="made-c-notification__icon made-c-notification__icon--information">
+        <svg class="made-c-notification__svg" width="8px" height="32px" viewBox="0 0 8 32" version="1.1">
+          <title>Exclamation mark</title>
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(-318.000000, -536.000000)" fill="currentColor">
+              <g transform="translate(294.000000, 523.000000)">
+                <g transform="translate(12.000000, 12.000000)">
+                  <path d="M18.6666667,19.24 L12.5066667,19.24 L12.5066667,1.33333333 L18.6666667,1.33333333 L18.6666667,19.24 Z M13.8,17.9066667 L17.3333333,17.9066667 L17.3333333,2.66666667 L13.7733333,2.66666667 L13.8,17.9066667 Z M15.72,30.6666667 C13.6655007,30.6666667 12,29.0011659 12,26.9466667 C12,24.8921674 13.6655007,23.2266667 15.72,23.2266667 C17.7744993,23.2266667 19.44,24.8921674 19.44,26.9466667 C19.4326863,28.9981289 17.7714622,30.659353 15.72,30.6666667 Z M15.72,24.4933333 C14.3650614,24.4933333 13.2666667,25.5917281 13.2666667,26.9466667 C13.2666667,28.3016053 14.3650614,29.4 15.72,29.4 C17.0749386,29.4 18.1733333,28.3016053 18.1733333,26.9466667 C18.1733333,25.5917281 17.0749386,24.4933333 15.72,24.4933333 Z"></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="made-c-notification__content">
+        <p class="made-c-notification__message">
+          A simple information/neutral notification!
+        </p>
+        <a href="#" class="made-c-notification__link">
+          CTA Link
+        </a>
+      </div>
+      <button
+        type="button"
+        class="made-c-button--close made-c-notification__close"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          className="made-c-button__icon--close"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>close</title>
+          <path
+            d="M22.938 0L24 1.062 13.061 12 24 22.938 22.938 24 12 13.061 1.062 24 0 22.938 10.938 12 0 1.062 1.062 0 12 10.938 22.938 0z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </Story>
+</Canvas>

@@ -1,0 +1,249 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import data from "../assets/data/theme.json";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Design Tokens/Theming" parameters={{}} />
+
+# Theming
+
+<img src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/theming.gif" alt="theme your products with Made design tokens" width="80%" />
+
+Themes are used to modify existing components to fit a specific visual style or brand.  By bringing together semantic atoms of the design system with smart role-based tokens, as well as a small number of themeable tokens, changing from light to dark mode, or from one brand to another is now just a matter of switching token values.
+Using an existing theme as a basis, simply select your preferred themeable tokens and apply those design decisions to a new theme. With these smart aliases in place, your UI will instantly rebrand—no change of styles necessary.
+
+## What design tokens should we theme?
+
+We have created a set of recommended 'Themeable' tokens as shown below, these tokens cascade to other role based tokens.
+For example changing the value of `made-color-brand-primary` will also change the tokens that inherits this token e.g. `made-color-action-primary-default` and `made-link-color-default`.
+
+The default theme acts as a starting point; from there developers can define how their own components and styles deviate from the default. Altering one, some, or all of the default token values will result in a new theme.
+
+For example, we have changed the values of the tokens below to reflect a new primary brand color. You could also change `--made-button-border-radius` to `0` for square buttons or change the value of `--made-font-body-family-bold` to change the font family.
+
+<img
+  src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/hero-design-tokens-themed%402x.png"
+  width="800"
+  alt=""
+/>
+
+```
+/* Key: value in design tokens file */
+--made-color-action-background-primary-default: #0077B3;
+--made-color-action-border-primary-default: #0077B3;
+--made-color-action-text-on-primary: #FFFFFF;
+--made-button-border-radius : 16px;
+--made-space-8-x: 32px;
+
+/* Design token in stylesheet */
+.made-c-button--primary: {
+  background-color: var(--made-color-action-background-primary-default);
+  border-color: var(--made-color-action-border-primary-default);
+  border-radius: var(--made-button-border-radius);
+  color: var(--made-color-action-text-on-primary);
+  padding: 0 var(--made-space-8-x);
+}
+```
+
+If themes require more specific customization, other tokens values can be modified and this will override the value that it inherits e.g. `made-color-feedback-background-error` may use a lighter error color than the default theme.
+
+Other tokens and categories are global and component-specific variables. These control more general styling of components, such as global font sizes, spacing, layer usage or opacity.
+
+### Color
+
+<Story name="Color">
+  <table className=" made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th width="60">Token Name</th>
+        <th width="40">B2B Theme Token Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.tokens.color).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> {token.comment} </small>
+            </td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{ background: `${[token.value]}` }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Typography
+
+<Story name="Typography">
+  <table className=" made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th width="60">Token Name</th>
+        <th width="40">B2B Theme Token Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.tokens.typography).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> {token.comment} </small>
+            </td>
+            <td>
+              <p
+                style={{
+                  fontFamily: `${[token.value]}`,
+                  fontWeight: `${[token.value]}`,
+                  fontSize: `${[token.value]}`,
+                  wordBreak: "break-all",
+                }}
+              >
+                Aa
+              </p>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Border Radius
+
+<Story name="Border Radius">
+  <table className=" made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th width="60">Token Name</th>
+        <th width="40">B2B Theme Token Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.tokens.borderRadius).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> {token.comment} </small>
+            </td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{ borderRadius: `${[token.value]}` }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Spacing
+
+<Story name="Spacing">
+  <table className=" made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th width="60">Token Name</th>
+        <th width="40">B2B Theme Token Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.tokens.space).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> {token.comment} </small>
+            </td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  width: `${[token.value]}`,
+                  height: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Shadow
+
+<Story name="Shadow">
+  <table className=" made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th width="60">Token Name</th>
+        <th width="40">B2B Theme Token Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.tokens.shadow).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> {token.comment} </small>
+            </td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  boxShadow: `${[token.value]}`,
+                  background: "white",
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+## How do I create a new theme?
+
+The default theme acts as a starting point; from there developers can define how their own components and styles deviate from the default.
+
+**Step 1**  
+
+`npm install @mc-made/design-tokens@latest`
+
+See the <a onClick={linkTo("hello-getting-started--page")}>Getting Started</a> Guide for more details on how to install design tokens.
+
+
+**Step 2**  
+
+Once the default theme is installed, copy the theme file found in the design tokens package into your application's stylesheet (for CSS and CSS preprocessors). 
+
+```
+<link rel="stylesheet" href="[path-to-directory]/tokens.css" />
+<link rel="stylesheet" href="[path-to-directory]/theme.css" />
+```
+
+** Step 3** 
+
+Modify the values of the tokens in the themes file to rebrand your application.
+This will override the values of the default theme.

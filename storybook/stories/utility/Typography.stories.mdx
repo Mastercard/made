@@ -1,0 +1,193 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+
+<Meta title="Utility Classes/Typography" />
+
+# Typography
+
+## Font Weight
+
+Utilities for controlling the font weight of an element. Quickly change the font weight of text with these utility classes.
+
+-   `made-u-text-weight-bold`
+-   `made-u-text-weight-medium`
+-   `made-u-text-weight-light`
+-   `made-u-text-weight-default`
+
+## Font Style
+
+Utilities for controlling the style of text. Quickly change the font style of text with these utility classes.
+
+-   `made-u-text-style-italic`
+-   `made-u-text-stye-normal`
+
+<Canvas>
+	<Story name="Font Style">
+		<p class="made-u-text-style-italic">Font Style Italic</p>
+		<p class="made-u-text-stye-normal">Font Style Normal</p>
+	</Story>
+</Canvas>
+
+## Text Align
+
+Utilities for controlling the alignment of text. Easily realign text with text alignment classes.
+
+-   `made-u-text-left`
+-   `made-u-text-center`
+-   `made-u-text-right`
+-   `made-u-text-justify`
+
+<Canvas>
+	<Story name="Text Align">
+		<p class="made-u-text-left">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+		<p class="made-u-text-center">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+		<p class="made-u-text-right">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+		<p class="made-u-text-justify">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+	</Story>
+</Canvas>
+
+## Text Decoration
+
+Utilities for controlling the decoration of text.
+
+-   `made-u-text-decoration-none`
+-   `made-u-text-decoration-underline`
+-   `made-u-text-decoration-line-through`
+
+<Canvas>
+	<Story name="Text Decoration">
+		<p class="made-u-text-decoration-none">Text Decoration None</p>
+		<p class="made-u-text-decoration-underline">
+			Text Decoration Underline
+		</p>
+		<p class="made-u-text-decoration-line-through">
+			Text Decoration Line Through
+		</p>
+	</Story>
+</Canvas>
+
+## Text Transform
+
+Utilities for controlling the transformation of text.
+
+-   `made-u-text-lowercase`
+-   `made-u-text-uppercase`
+-   `made-u-text-capitalize`
+
+<Canvas>
+	<Story name="Text Transform">
+		<p class="made-u-text-lowercase">TEXT TRANSFORM LOWERCASE</p>
+		<p class="made-u-text-uppercase">text transform uppercase</p>
+		<p class="made-u-text-capitalize">text transform capitalize</p>
+	</Story>
+</Canvas>
+
+## Text Truncate
+
+Utilities for controlling text overflow in an element.
+
+-   `made-u-text-truncate`
+
+<Canvas>
+	<Story name="Text Truncate">
+		<p class="made-u-text-truncate">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+	</Story>
+</Canvas>
+
+## Whitespace
+
+Utilities for controlling an element's white-space property.
+
+-   `made-u-text-wrap`
+-   `made-u-text-nowrap`
+
+<Canvas>
+	<Story name="Whitespace">
+		<p class="made-u-text-wrap">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+		<p class="made-u-text-nowrap">
+			Our global network enables advances in the payments ecosystem by
+			leveraging technologies to create stronger bonds and bring more
+			people into a digital economy. At Mastercard, we are focused on
+			building simple, safe and smart solutions that instill trust in
+			every interaction.
+		</p>
+	</Story>
+</Canvas>
+
+## Word Break
+
+Utilities for controlling word breaks in an element. Prevent long strings of text from breaking your components’ layout by using `.made-u-text-break` to set word-wrap: break-word and word-break: break-word.
+
+Example below shows how a long word will behave with the class applied and then without.
+
+-   `made-u-text-break`
+
+<Canvas>
+	<Story
+		name="Word Break"
+		decorators={[
+			(Story) => (
+				<div style={{ width: "4rem", border: "1px solid" }}>
+					<Story />
+				</div>
+			),
+		]}
+	>
+		<p class="made-u-text-break">LongWordExample</p>
+		<p>LongWordExample</p>
+	</Story>
+</Canvas>
+
+## List Reset
+
+The `made-u-list--reset` class when applied to the `ul` and `ol` elements will remove the default styles applied to lists.
+
+`list-style` will be set to none and `margin-left` and `padding` will both be set to `0`.
+
+<Canvas>
+	<Story name="List">
+		<ul class="made-u-list--reset">
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+		</ul>
+	</Story>
+</Canvas>

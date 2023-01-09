@@ -1,0 +1,11 @@
+use_frameworks!
+platform :ios, '11.0'
+
+target 'MadeDesignTokens_Example' do
+  pod 'MadeDesignTokens', :path => '../../'
+
+  target 'MadeDesignTokens_Tests' do
+    inherit! :search_paths
+    
+  end
+end

@@ -1,0 +1,34 @@
+<script type="text/javascript">
+let pageURL = window.location.href;
+  var di = {
+    pageName: "MasterCard | Made CSS",
+    siteName: "MasterCard | Made",
+    siteType: "corporate:regional",
+    pageURL: `${pageURL}`,
+    contentType: "Storybook",
+    region: "Global",
+    country: "Global",
+    language: "en",
+    pageType: "B2C",
+  };
+</script>
+
+<script src="https://assets.adobedtm.com/acdc00762da2/c654cf07e29f/launch-
+c85b57558ed2-development.min.js"></script>
+
+<script type="text/javascript">
+  function whenAvailable(name, callback) {
+    var interval = 10; //ms
+    window.setTimeout(function () {
+      if (window[name]) {
+        callback(window[name]);
+      } else {
+        window.setTimeout(arguments.callee, interval);
+      }
+    }, interval);
+  }
+
+  whenAvailable("_satellite", function (t) {
+    _satellite.pageBottom();
+  });
+</script>

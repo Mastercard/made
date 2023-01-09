@@ -1,0 +1,82 @@
+.made-u-text-left {
+	text-align: left;
+}
+
+.made-u-text-right {
+	text-align: right;
+}
+
+.made-u-text-center {
+    text-align: center;
+}
+
+.made-u-text-justify {
+    text-align: justify;
+}
+
+.made-u-text-lowercase {
+  text-transform: lowercase;
+}
+
+.made-u-text-uppercase {
+  text-transform: uppercase;
+}
+
+.made-u-text-capitalize {
+  text-transform: capitalize;
+}
+
+.made-u-text-decoration-none {
+  text-decoration: none;
+}
+
+.made-u-text-decoration-underline {
+  text-decoration: underline;
+}
+
+.made-u-text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.made-u-text-wrap {
+  white-space: normal;
+}
+
+.made-u-text-nowrap {
+  white-space: nowrap;
+}
+
+.made-u-text-break {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.made-u-text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.made-u-text-weight-bold {
+  font-weight: var(--made-font-weight-bold);
+}
+
+.made-u-text-weight-medium {
+  font-weight: var(--made-font-weight-medium);
+}
+
+.made-u-text-weight-light {
+  font-weight: var(--made-font-weight-light);
+}
+
+.made-u-text-weight-default {
+  font-weight: var(--made-font-weight-default);
+}
+
+.made-u-text-style-italic {
+  font-style: italic;
+}
+
+.made-u-text-stye-normal {
+  font-style: normal;
+}

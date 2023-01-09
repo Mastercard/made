@@ -1,0 +1,58 @@
+import { Meta, Story, Canvas, Source } from "@storybook/addon-docs";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Utility Classes/Overview" />
+
+# Overview
+
+
+## Utility Classes 
+
+Quickly build, extend and modify layouts and existing Made. components using new utility classes.
+
+- You can quickly build custom design with no need to modify the existing CSS.
+- Reuse classes over an over, adding consistency to your application.
+- Utility classes are self-descriptive, single-purpose classes that developers can easily scan and visualize the intention of that class.
+
+
+### Putting into Practice
+
+In the example below the Branding component has been extended to add a button. By using layout and spacing utility classes we can modify the
+component to create a custom design. 
+
+<Canvas>
+  <Story name="Utility Classes">
+    <div class="made-c-branding made-c-branding--dark made-u-justify-content-between">
+      <div class="made-u-display-flex made-u-align-content-center">
+        <img
+          src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/logo-small.svg"
+          alt="Mastercard logo"
+          width="52"
+          height="32"
+        />
+        <span class="made-c-branding__link made-u-text--on-dark">product</span>
+      </div>
+      <div>
+        <button
+          type="button"
+          class="made-c-button made-c-button--secondary-on-dark made-c-button--icon made-u-margin-right-2-x"
+        >
+          My Account
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            class="made-u-margin-left-2-x"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.61 9.497a.743.743 0 01.844-.33.742.742 0 01.546.722V23h7.261c.315.381.682.715 1.087 1H7V10.776l-5.168 8.459-.854-.521zM19.5 15c2.481 0 4.5 2.019 4.5 4.5S21.981 24 19.5 24a4.505 4.505 0 01-4.5-4.5c0-2.481 2.019-4.5 4.5-4.5zm0 1c-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5 3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5zm1.881 1.896l.707.708-3.104 3.103-2.072-2.072.707-.707 1.365 1.365 2.397-2.397zm-4.835-8.729a.743.743 0 01.844.329l2.779 4.549A5.473 5.473 0 0019.5 14c-.174 0-.345.01-.514.026L17 10.776v3.831a5.5 5.5 0 00-1 .654V9.889c0-.34.219-.63.546-.722zM12 0c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 1c-1.654 0-3 1.346-3 3s1.346 3 3 3 3-1.346 3-3-1.346-3-3-3z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </Story>
+</Canvas>
