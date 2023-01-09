@@ -1,6 +1,6 @@
 # QA Review Checklist
 
-* Browsers &amp; Device Compatibility: Review [Supported Browsers](https://made.mastercard.com/storybook-css/?path=/docs/hello-getting-started--page#supported-browser) and check component works as expected on each browser and device.
+* Browsers &amp; Device Compatibility: Review [Supported Browsers](https://mastercard.github.io/made/?path=/docs/hello-getting-started--page) and check component works as expected on each browser and device.
 * Responsiveness: Does it incorporate responsive display patterns and behaviors as needed? Use the Storybook add-on to check components at different screen sizes.
 * Accessibility:Test with axeDev Tools, Wave plugin, or Storybook Accessibility tabs in the Canvas tab. Is page/feature accessible by keyboard? Can you tab on links/input fields? Is there a visible focus?
 * Functionality - are items on acceptance criteria are met
