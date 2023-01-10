@@ -12,11 +12,25 @@ Before moving further, please make sure you have Node.js installed on your machi
 
 If you're planning on using Made packages in a project that doesn't yet use Node Package Manager, you'll have to first create a package.json file. You can read more on how to do this in the npm documentation.
 
-To install, run the following command(s) in your terminal in your project root directory (where package.json lives). This will install all of the packages into the node_modules/@made-mc/ directory.
+As Made. for Developers packages are hosted on the GitHub Packages you will need to to set your registry to point to the GitHub Packages repository.
+
+To configure your project to use the GitHub Packages Registry run this the command line:
 
 ```
-npm install @mc-made/design-tokens@latest
-npm install @mc-made/css@latest
+npm config set registry https://npm.pkg.github.com
+```
+
+This can be changed back to use the NPM Registry by running the command:
+
+```
+npm config set registry https://registry.npmjs.org
+```
+
+To install, run the following command(s) in your terminal in your project root directory (where package.json lives). This will install all of the packages into the node_modules/@mastercard/ directory.
+
+```
+npm install @mastercard/made-design-tokens@latest
+npm install @mastercard/made-css@latest
 ```
 
 ### Usage
@@ -26,55 +40,39 @@ Once you’ve downloaded or installed the NPM package, you can copy-paste the st
 ```
 <link rel="stylesheet" href="[path-to-directory]/tokens.css" />
 <link rel="stylesheet" href="[path-to-directory]/made.min.css" />
-<link rel="stylesheet" href="[path-to-directory]/mark-for-mc.css" />
 ```
 
 To import in SCSS, include this at the beginning of your main SCSS partial:
 
 ```
-"[path-to-directory]/node_modules/@mc-made/design-tokens/web/theme/[theme-name]/tokens";
-"[path-to-directory]/node_modules/@mc-made/css/made.min.css";
+"[path-to-directory]/node_modules/@mastercard/made-design-tokens/dist/2.1.1/web/themes/[theme-name]/tokens.css";
+"[path-to-directory]/node_modules/@mastercard/made-css/dist/1.2.1/made.min.css";
 ```
 
 You can also import the stylesheets with [CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). 
 <small><a href="https://caniuse.com/?search=custom%20properties" target="_blank"> ⚠️ Note: IE11 does not support CSS variables</a></small>
 
-`[path-to-directory]/node_modules/@mc-made/css/src/styles.css",`
-`[path-to-directory]/node_modules/@mc-made/css/src/made-css-variables.css",`
-`[path-to-directory]/node_modules/@mc-made/css/src/made-css-variables.min.css",`
+`[path-to-directory]/node_modules/@mastercard/made-css/dist/1.2.1/src/styles.css",`
+`[path-to-directory]/node_modules/@mastercard/made-css/dist/1.2.1/src/made-css-variables.css",`
+`[path-to-directory]/node_modules/@mastercard/made-css/dist/1.2.1/src/made-css-variables.min.css",`
 
 ---
 
 ## Link to Assets
 
-The following packages are available for usage via the Made domain name.
+The following packages are available for usage via the <a href="https://www.jsdelivr.com" target="_blank">jsDelivr</a> CDN.
 
 ```
-https://made.mastercard.com/icons/1.0.0/custom/application.svg
-https://made.mastercard.com/css/1.2.1/made.min.css
-https://made.mastercard.com/design-tokens/2.1.1/web/themes/b2b/tokens.css
-https://made.mastercard.com/fonts/1.0.0/mark-for-mc.css
+https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-css/dist/1.2.1/made.min.css
+https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-design-tokens/dist/2.1.1/web/themes/b2b/tokens.css
 ```
 
-There are also have CSS available for [CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+There is also CSS available for [CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
 ```
-https://made.mastercard.com/css/1.2.1/made-css-variables.css
-https://made.mastercard.com/css/1.2.1/made-css-variables.min.css
+https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-css/dist/1.2.1/made-css-variables.css
+https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-css/dist/1.2.1/made-css-variables.min.css
 ```
-
-** URL structure **  
-Made uses the following URL structure for the host assets:
-
-`https://made.mastercard.com/<package>/<version>/<file-path>`
-
-### Usage
-
-To fetch e.g. a Design Tokens file using the above format, you would write it like:
-
-
-`<link rel="stylesheet" href="https://made.mastercard.com/design-tokens/2.1.1/web/themes/b2b/tokens.css" />`
-
 
 ---
 
