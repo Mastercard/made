@@ -4,6 +4,20 @@ import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
 
 # Getting Started
 
+## Login
+
+In order to download the Made for Developers packages first you must create a Personal Access Token. Follow the steps provided here in the GitHub Documention on <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic" target="_blank">Creating a Personal Access Token</a>.
+
+When creating the Personal Access Token, under the 'Select scopes' section make sure to check the 'write:packages' checkbox before clicking the 'Generate Token' button. Then once the token is generated make sure to copy the Personal Access Token somewhere as you will need it to log in to GitHub using the command line.
+
+With your Personal Access Token now created open the command line window and navigate to the root directory of your project (where package.json lives). You will now need to authenticate by logging into NPM. Use the `npm login` command, replacing _USERNAME_ with your GitHub username, _TOKEN_ with your Personal Access Toke (paste in the token you generated earlier)n, and _PUBLIC-EMAIL-ADDRESS_ with your email address.
+
+```
+> Username: USERNAME
+> Password: TOKEN
+> Email: PUBLIC-EMAIL-ADDRESS
+```
+
 ## Install
 
 Made for Developers packages can be downloaded via the <a href="https://github.com/Mastercard/made" target="_blank">Mastercard GitHub </a>.
