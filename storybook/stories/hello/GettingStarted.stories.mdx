@@ -13,6 +13,10 @@ When creating the Personal Access Token, under the 'Select scopes' section make 
 With your Personal Access Token now created open the command line window and navigate to the root directory of your project (where package.json lives). You will now need to authenticate by logging into NPM. Use the `npm login` command, replacing _USERNAME_ with your GitHub username, _TOKEN_ with your Personal Access Toke (paste in the token you generated earlier)n, and _PUBLIC-EMAIL-ADDRESS_ with your email address.
 
 ```
+npm login
+```
+
+```
 > Username: USERNAME
 > Password: TOKEN
 > Email: PUBLIC-EMAIL-ADDRESS
@@ -20,7 +24,7 @@ With your Personal Access Token now created open the command line window and nav
 
 ## Install
 
-Made for Developers packages can be downloaded via the <a href="https://github.com/Mastercard/made" target="_blank">Mastercard GitHub </a>.
+Made for Developers packages can be downloaded via the <a href="https://github.com/Mastercard/made" target="_blank">Mastercard GitHub</a>.
 
 Before moving further, please make sure you have Node.js installed on your machine.
 
@@ -46,6 +50,10 @@ To install, run the following command(s) in your terminal in your project root d
 npm install @mastercard/made-design-tokens@latest
 npm install @mastercard/made-css@latest
 ```
+
+If you get an error when trying to install the packages due to being on a restricted network you may need to configure a proxy for NPM. For more information about this please see the article here: <a href="https://medium.com/@d_dhana/working-with-npm-behind-network-proxy-444ced82a3" target="_blank">Working with NPM Behind a Network Proxy</a>
+
+You can also download the assets in a zip or tarball file from the latest release on GitHub: <a href="https://github.com/Mastercard/made/releases" target="_blank">Made Releases</a>. The files are then found in _packages/made-css/dist_ and _packages/made-design-tokens/dist_.
 
 ### Usage
 
@@ -121,6 +129,8 @@ Made components are accessibility tested with:
 - [storybook-addon-a11y](https://storybook.js.org/addons/@storybook/addon-a11y)
 - [axe DevTools](https://www.deque.com/axe/devtools/)
 - [Wave](https://wave.webaim.org/extension/)
+
+---
 
 ## Fonts
 
