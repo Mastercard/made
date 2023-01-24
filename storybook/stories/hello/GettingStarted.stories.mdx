@@ -12,21 +12,22 @@ Before moving further, please make sure you have Node.js installed on your machi
 
 If you're planning on using Made packages in a project that doesn't yet use Node Package Manager, you'll have to first create a package.json file. You can read more on how to do this in the npm documentation.
 
-As Made. for Developers packages are hosted on <a href="https://github.com/features/packages" target="_blank">GitHub Packages</a> you will need to to set your registry to point to the GitHub Packages repository.
+In order to install the Made for Developers packages first you must create a Personal Access Token. Follow the steps provided here in the GitHub Documention on <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic" target="_blank">Creating a Personal Access Token</a>.
 
-To configure your project to use the GitHub Packages Registry run this in the command line:
+When creating the Personal Access Token, under the 'Select scopes' section make sure to check the 'write:packages' checkbox before clicking the 'Generate Token' button. Then once the token is generated make sure to copy the Personal Access Token somewhere as you will need it for the next steps.
+
+Next in order to install the packages you need to authenticate to GitHub Packages by creating a _.npmrc_ file, this file will also be used to set the package registry to point to the GitHub Packages registry.
+
+1. Create a file named _.npmrc_ in the root directory of your project (where package.json lives).
+2. Add the following to the .npmrc file, replacing _TOKEN_ with the Personal Acces Token created in the steps above:
 
 ```
-npm config set registry https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=TOKEN
+strict-ssl=false
+@mastercard:registry=https://npm.pkg.github.com
 ```
 
-This can be changed back to use the NPM Registry by running the command:
-
-```
-npm config set registry https://registry.npmjs.org
-```
-
-To install, run the following command(s) in your terminal in your project root directory (where package.json lives). This will install all of the packages into the node_modules/@mastercard/ directory.
+To install the packages, run the following command(s) in your terminal in your project root directory (where package.json lives). This will install all of the packages into the node_modules/@mastercard/ directory.
 
 ```
 npm install @mastercard/made-design-tokens@latest
