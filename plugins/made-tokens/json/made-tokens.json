@@ -1987,6 +1987,16 @@
           "themeable": "No",
           "type": "color",
           "value": "{color.brand.primary}"
+        },
+        "01": {
+          "value": "{color.gray.01-25}",
+          "type": "color",
+          "description": "Secondary background color of the application."
+        },
+        "02": {
+          "value": "{color.gray.02}",
+          "type": "color",
+          "description": "Tertiary background color of the application."
         }
       },
       "border": {
@@ -2185,6 +2195,11 @@
           "themeable": "No",
           "type": "color",
           "value": "{color.brand.primary}"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Inverse text/icon color"
         }
       },
       "visualization": {
@@ -2398,6 +2413,20 @@
         "themeable": "Yes",
         "type": "borderRadius",
         "value": "{border.radius.05}"
+      },
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.02}",
+            "type": "color",
+            "description": "Background color for pill component"
+          },
+          "hover": {
+            "value": "{color.gray.02}",
+            "type": "color",
+            "description": "Background color for pill components hover state for the close icon element."
+          }
+        }
       }
     },
     "scrollbar": {
@@ -3695,6 +3724,31 @@
         "type": "dimension",
         "description": "Figma-only design token.",
         "figmaOnly": true
+      }
+    },
+    "search": {
+      "color": {
+        "background": {
+          "value": "{color.background.01}",
+          "type": "color",
+          "description": "Background color for search input component"
+        }
+      },
+      "action": {
+        "color": {
+          "background": {
+            "default": {
+              "value": "{search.color.background}",
+              "type": "color",
+              "description": "Background color for action within the search component"
+            },
+            "hover": {
+              "value": "{color.gray.01-5}",
+              "type": "color",
+              "description": "Background color for the hover state of action within the search component"
+            }
+          }
+        }
       }
     }
   },
