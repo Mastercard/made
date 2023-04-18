@@ -2002,6 +2002,11 @@
           "value": "{color.gray.02}",
           "type": "color",
           "description": "Tertiary background color of the application."
+        },
+        "inverse": {
+          "value": "{color.gray.07}",
+          "type": "color",
+          "description": "High contrast backgrounds/elements"
         }
       },
       "border": {
@@ -2060,17 +2065,34 @@
             "type": "color",
             "value": "{color.feedback.information}"
           },
+          "information-light": {
+            "description": "Background color for neutral or optional state of Light variation of notifications and toasts",
+            "themeable": "No",
+            "type": "color",
+            "value": "{color.yellow.01}"
+          },
           "success": {
             "description": "Background color for success or positive state",
             "themeable": "No",
             "type": "color",
             "value": "{color.feedback.success}"
           },
+          "success-light": {
+            "description": "Background color for success or positive state for Light variation of notifications and toasts",
+            "themeable": "No",
+            "type": "color",
+            "value": "{color.green.success.01}"
+          },
           "warning": {
             "description": "Background color for warning state",
             "themeable": "No",
             "type": "color",
             "value": "{color.feedback.warning}"
+          },
+          "error-light": {
+            "value": "{color.red.error.01}",
+            "type": "color",
+            "description": "Background color for error state of Light variation of notifications and toasts"
           }
         },
         "border": {
@@ -2409,6 +2431,11 @@
           "themeable": "Yes",
           "type": "color",
           "value": "{color.action.primary.default}"
+        },
+        "on-dark": {
+          "value": "{color.action.on-dark.default}",
+          "type": "color",
+          "description": "Text color for links on dark backgrounds"
         }
       }
     },
