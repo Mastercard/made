@@ -251,6 +251,11 @@
           "themeable": "No",
           "type": "color",
           "value": "#141413"
+        },
+        "02-5": {
+          "value": "#D1CDC7",
+          "type": "color",
+          "description": "Canvas color - Gray 2.5"
         }
       },
       "green": {
@@ -2422,7 +2427,7 @@
             "description": "Background color for pill component"
           },
           "hover": {
-            "value": "{color.gray.02}",
+            "value": "{color.gray.02-5}",
             "type": "color",
             "description": "Background color for pill components hover state for the close icon element."
           }
