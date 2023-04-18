@@ -295,6 +295,43 @@
           "themeable": "No",
           "type": "color",
           "value": "#1C2509"
+        },
+        "success": {
+          "01": {
+            "value": "#DFF7DF",
+            "type": "color",
+            "description": "Success Green 1"
+          },
+          "02": {
+            "value": "#7CD87A",
+            "type": "color",
+            "description": "Success Green 2"
+          },
+          "03": {
+            "value": "#35B132",
+            "type": "color",
+            "description": "Success Green 3"
+          },
+          "04": {
+            "value": "#038A00",
+            "type": "color",
+            "description": "Success Green 4"
+          },
+          "05": {
+            "value": "#097007",
+            "type": "color",
+            "description": "Success Green 5"
+          },
+          "06": {
+            "value": "#0B560A",
+            "type": "color",
+            "description": "Success Green 6"
+          },
+          "07": {
+            "value": "#042604",
+            "type": "color",
+            "description": "Success Green 7"
+          }
         }
       },
       "orange": {
