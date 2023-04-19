@@ -198,6 +198,11 @@
           "type": "color",
           "value": "#E8E5E1"
         },
+        "02-5": {
+          "value": "#D1CDC7",
+          "type": "color",
+          "description": "Canvas color - Gray 2.5"
+        },
         "03": {
           "description": "Gray tints and shades - Gray 3",
           "themeable": "No",
@@ -251,11 +256,6 @@
           "themeable": "No",
           "type": "color",
           "value": "#141413"
-        },
-        "02-5": {
-          "value": "#D1CDC7",
-          "type": "color",
-          "description": "Canvas color - Gray 2.5"
         }
       },
       "green": {
@@ -300,43 +300,43 @@
           "themeable": "No",
           "type": "color",
           "value": "#1C2509"
+        }
+      },
+      "green-success": {
+        "01": {
+          "value": "#DFF7DF",
+          "type": "color",
+          "description": "Success Green 1"
         },
-        "success": {
-          "01": {
-            "value": "#DFF7DF",
-            "type": "color",
-            "description": "Success Green 1"
-          },
-          "02": {
-            "value": "#7CD87A",
-            "type": "color",
-            "description": "Success Green 2"
-          },
-          "03": {
-            "value": "#35B132",
-            "type": "color",
-            "description": "Success Green 3"
-          },
-          "04": {
-            "value": "#038A00",
-            "type": "color",
-            "description": "Success Green 4"
-          },
-          "05": {
-            "value": "#097007",
-            "type": "color",
-            "description": "Success Green 5"
-          },
-          "06": {
-            "value": "#0B560A",
-            "type": "color",
-            "description": "Success Green 6"
-          },
-          "07": {
-            "value": "#042604",
-            "type": "color",
-            "description": "Success Green 7"
-          }
+        "02": {
+          "value": "#7CD87A",
+          "type": "color",
+          "description": "Success Green 2"
+        },
+        "03": {
+          "value": "#35B132",
+          "type": "color",
+          "description": "Success Green 3"
+        },
+        "04": {
+          "value": "#038A00",
+          "type": "color",
+          "description": "Success Green 4"
+        },
+        "05": {
+          "value": "#097007",
+          "type": "color",
+          "description": "Success Green 5"
+        },
+        "06": {
+          "value": "#0B560A",
+          "type": "color",
+          "description": "Success Green 6"
+        },
+        "07": {
+          "value": "#042604",
+          "type": "color",
+          "description": "Success Green 7"
         }
       },
       "orange": {
@@ -425,43 +425,43 @@
           "themeable": "No",
           "type": "color",
           "value": "#541113"
+        }
+      },
+      "red-error": {
+        "01": {
+          "value": "#FADEDE",
+          "type": "color",
+          "description": "Error Red 1"
         },
-        "error": {
-          "01": {
-            "value": "#FADEDE",
-            "type": "color",
-            "description": "Error Red 1"
-          },
-          "02": {
-            "value": "#FF9898",
-            "type": "color",
-            "description": "Error Red 2"
-          },
-          "03": {
-            "value": "#FF5656",
-            "type": "color",
-            "description": "Error Red 3"
-          },
-          "04": {
-            "value": "#EE0000",
-            "type": "color",
-            "description": "Error Red 4"
-          },
-          "05": {
-            "value": "#B00606",
-            "type": "color",
-            "description": "Error Red 5"
-          },
-          "06": {
-            "value": "#710808",
-            "type": "color",
-            "description": "Error Red 6"
-          },
-          "07": {
-            "value": "#330505",
-            "type": "color",
-            "description": "Error Red 7"
-          }
+        "02": {
+          "value": "#FF9898",
+          "type": "color",
+          "description": "Error Red 2"
+        },
+        "03": {
+          "value": "#FF5656",
+          "type": "color",
+          "description": "Error Red 3"
+        },
+        "04": {
+          "value": "#EE0000",
+          "type": "color",
+          "description": "Error Red 4"
+        },
+        "05": {
+          "value": "#B00606",
+          "type": "color",
+          "description": "Error Red 5"
+        },
+        "06": {
+          "value": "#710808",
+          "type": "color",
+          "description": "Error Red 6"
+        },
+        "07": {
+          "value": "#330505",
+          "type": "color",
+          "description": "Error Red 7"
         }
       },
       "teal": {
@@ -1799,12 +1799,6 @@
             }
           }
         },
-        "disabled": {
-          "description": "Global color for disabled state.",
-          "themeable": "Yes",
-          "type": "color",
-          "value": "{color.gray.03}"
-        },
         "on-dark": {
           "active": {
             "description": "Text color of secondary interactive color on dark background e.g. buttons.",
@@ -1972,6 +1966,27 @@
               "value": "{color.action.secondary.hover}"
             }
           }
+        },
+        "disabled": {
+          "description": "Global color for disabled state.",
+          "themeable": "Yes",
+          "type": "color",
+          "value": "{color.gray.03}"
+        },
+        "disabled-button": {
+          "value": "rgba(177,173,166,0.5)",
+          "type": "color",
+          "description": "Disabled state for buttons. Opacity at 50%"
+        },
+        "disabled-toggle": {
+          "value": "rgba(177,173,166,0.25)",
+          "type": "color",
+          "description": "Disabled state for toggles. Opacity at 25%"
+        },
+        "disabled-text-input": {
+          "value": "rgba(177,173,166,0.1)",
+          "type": "color",
+          "description": "Disabled state for text inputs. Opacity at 10%"
         }
       },
       "background": {
@@ -2081,7 +2096,7 @@
             "description": "Background color for success or positive state for Light variation of notifications and toasts",
             "themeable": "No",
             "type": "color",
-            "value": "{color.green.success.01}"
+            "value": "{color.green-success.01}"
           },
           "warning": {
             "description": "Background color for warning state",
@@ -2090,7 +2105,7 @@
             "value": "{color.feedback.warning}"
           },
           "error-light": {
-            "value": "{color.red.error.01}",
+            "value": "{color.red-error.01}",
             "type": "color",
             "description": "Background color for error state of Light variation of notifications and toasts"
           }
@@ -2187,6 +2202,21 @@
             "themeable": "No",
             "type": "color",
             "value": "{color.feedback.warning}"
+          },
+          "on-error-light": {
+            "value": "{color.red-error.05}",
+            "type": "color",
+            "description": "Text color displayed on top of the error color of Light variation of notifications and toasts"
+          },
+          "on-success-light": {
+            "value": "{color.green-success.05}",
+            "type": "color",
+            "description": "Text color displayed on top of the success color of Light variation of notifications and toasts"
+          },
+          "on-information-light": {
+            "value": "{color.yellow.07}",
+            "type": "color",
+            "description": "Text color displayed on top of the information color of Light variation of notifications and toasts"
           }
         },
         "warning": {
@@ -2485,10 +2515,10 @@
           "value": {
             "color": "#14141333",
             "type": "dropShadow",
-            "x": 0,
-            "y": 5,
-            "blur": 10,
-            "spread": 0
+            "x": "0",
+            "y": "5",
+            "blur": "10",
+            "spread": "0"
           },
           "type": "boxShadow",
           "description": "Figma-only design token.",
@@ -2499,18 +2529,18 @@
             {
               "color": "#1414134d",
               "type": "dropShadow",
-              "x": 0,
-              "y": 2,
-              "blur": 2,
-              "spread": 0
+              "x": "0",
+              "y": "2",
+              "blur": "2",
+              "spread": "0"
             },
             {
               "color": "#14141326",
               "type": "dropShadow",
-              "x": 0,
-              "y": 5,
-              "blur": 10,
-              "spread": 0
+              "x": "0",
+              "y": "5",
+              "blur": "10",
+              "spread": "0"
             }
           ],
           "type": "boxShadow",
@@ -2522,10 +2552,10 @@
             "value": {
               "color": "#14141333",
               "type": "dropShadow",
-              "x": 0,
-              "y": 2,
-              "blur": 10,
-              "spread": 0
+              "x": "0",
+              "y": "2",
+              "blur": "10",
+              "spread": "0"
             },
             "type": "boxShadow",
             "description": "Figma-only design token.",
@@ -2536,10 +2566,10 @@
               "value": {
                 "color": "#14141333",
                 "type": "dropShadow",
-                "x": 0,
-                "y": 2,
-                "blur": 4,
-                "spread": 0
+                "x": "0",
+                "y": "2",
+                "blur": "4",
+                "spread": "0"
               },
               "type": "boxShadow",
               "description": "Figma-only design token.",
@@ -2549,10 +2579,10 @@
               "value": {
                 "color": "#14141333",
                 "type": "dropShadow",
-                "x": 0,
-                "y": 2,
-                "blur": 10,
-                "spread": 0
+                "x": "0",
+                "y": "2",
+                "blur": "10",
+                "spread": "0"
               },
               "type": "boxShadow",
               "description": "Figma-only design token.",
@@ -2568,10 +2598,10 @@
           "value": {
             "color": "#14141333",
             "type": "dropShadow",
-            "x": 0,
-            "y": 2,
-            "blur": 10,
-            "spread": 0
+            "x": "0",
+            "y": "2",
+            "blur": "10",
+            "spread": "0"
           },
           "type": "boxShadow",
           "description": "Figma-only design token.",
@@ -2582,18 +2612,18 @@
             {
               "color": "#1414134d",
               "type": "dropShadow",
-              "x": 0,
-              "y": 2,
-              "blur": 2,
-              "spread": 0
+              "x": "0",
+              "y": "2",
+              "blur": "2",
+              "spread": "0"
             },
             {
               "color": "#14141326",
               "type": "dropShadow",
-              "x": 0,
-              "y": 5,
-              "blur": 10,
-              "spread": 0
+              "x": "0",
+              "y": "5",
+              "blur": "10",
+              "spread": "0"
             }
           ],
           "type": "boxShadow",
