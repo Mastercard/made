@@ -1,5 +1,5 @@
 {
-  "global": {
+  "Global": {
     "border": {
       "radius": {
         "01": {
@@ -1564,7 +1564,7 @@
       }
     }
   },
-  "role": {
+  "Role": {
     "backdrop": {
       "color": {
         "background": {
@@ -3784,7 +3784,7 @@
       }
     }
   },
-  "component": {
+  "Component": {
     "shadow": {
       "toggle": {
         "description": "Shadow on slider on toggle component.",
@@ -3825,9 +3825,9 @@
       "id": "87a383495f673f95c647ff70d1883de5c1709ce7",
       "name": "Default",
       "selectedTokenSets": {
-        "global": "enabled",
-        "role": "enabled",
-        "component": "enabled"
+        "Global": "enabled",
+        "Role": "enabled",
+        "Component": "enabled"
       },
       "$figmaStyleReferences": {
         "color.action.background.disabled": "S:1f090064c6180016db7a3645f8d461b2a33adb16,",
@@ -3937,9 +3937,9 @@
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "global",
-      "role",
-      "component"
+      "Global",
+      "Role",
+      "Component"
     ]
   }
 }
