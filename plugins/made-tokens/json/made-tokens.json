@@ -1915,16 +1915,16 @@
             "value": "{color.brand.on-secondary}"
           },
           "on-selected": {
-            "description": "Text color on top of selected state of UI Elements",
             "themeable": "Yes",
             "type": "color",
-            "value": "{color.action.primary.default}"
+            "value": "{color.text.default.on-light}",
+            "description": "Text color on top of selected state of UI Elements"
           },
           "on-selected-hover": {
-            "description": "Text color on top of hover and selected state of UI Elements",
             "themeable": "Yes",
             "type": "color",
-            "value": "{color.action.primary.default}"
+            "value": "{color.text.default.on-light}",
+            "description": "Text color on top of hover and selected state of UI Elements"
           },
           "primary": {
             "active": {
@@ -2210,10 +2210,10 @@
             "value": "{color.text.default.on-dark}"
           },
           "on-information": {
-            "description": "Text color displayed on top of the error color",
             "themeable": "No",
             "type": "color",
-            "value": "{color.text.default.on-dark}"
+            "value": "{color.yellow.07}",
+            "description": "Text color displayed on top of the error color"
           },
           "on-success": {
             "description": "Text color displayed on top of the error color",
