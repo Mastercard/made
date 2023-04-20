@@ -2117,17 +2117,35 @@
             "type": "color",
             "value": "{color.feedback.error}"
           },
+          "error-light": {
+            "description": "Border color for error state of light variant",
+            "themeable": "No",
+            "type": "color",
+            "value": "{color.feedback.error-light}"
+          },
           "information": {
             "description": "Border color  for neutral or optional state",
             "themeable": "No",
             "type": "color",
             "value": "{color.feedback.information}"
           },
+          "information-light": {
+            "description": "Border color  for neutral or optional state of light variant",
+            "themeable": "No",
+            "type": "color",
+            "value": "{color.feedback.information-light}"
+          },
           "success": {
             "description": "Border color  for success or positive state",
             "themeable": "No",
             "type": "color",
             "value": "{color.feedback.success}"
+          },
+          "success-light": {
+            "description": "Border color  for success or positive state of light variant",
+            "themeable": "No",
+            "type": "color",
+            "value": "{color.feedback.success-light}"
           },
           "warning": {
             "description": "Border color or for warning state",
@@ -2137,10 +2155,16 @@
           }
         },
         "error": {
-          "description": "Color for error state",
           "themeable": "Yes",
           "type": "color",
-          "value": "#EE0000"
+          "value": "{color.red-error.04}",
+          "description": "Color for error state"
+        },
+        "error-light": {
+          "themeable": "Yes",
+          "type": "color",
+          "value": "{color.red-error.01}",
+          "description": "Color for light variant of error state"
         },
         "information": {
           "description": "Color for neutral or optional state",
@@ -2148,11 +2172,23 @@
           "type": "color",
           "value": "{color.yellow.04}"
         },
-        "success": {
-          "description": "Color for success or positive state",
+        "information-light": {
+          "description": "Color for light variant of neutral or optional state",
           "themeable": "Yes",
           "type": "color",
-          "value": "#038A00"
+          "value": "{color.yellow.01}"
+        },
+        "success": {
+          "themeable": "Yes",
+          "type": "color",
+          "value": "{color.green-success.04}",
+          "description": "Color for success or positive state"
+        },
+        "success-light": {
+          "themeable": "Yes",
+          "type": "color",
+          "value": "{color.green-success.01}",
+          "description": "Color for light variant of success or positive state"
         },
         "text": {
           "error": {
