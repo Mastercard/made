@@ -968,16 +968,16 @@
           "type": "other"
         },
         "eyebrow": {
-          "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)",
           "themeable": "Yes",
           "type": "fontFamilies",
-          "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif"
+          "value": "{font.family.bold}",
+          "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)"
         },
         "heading": {
-          "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)",
           "themeable": "Yes",
           "type": "fontFamilies",
-          "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif"
+          "value": "{font.family.light}",
+          "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)"
         },
         "light": {
           "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
@@ -1040,10 +1040,10 @@
           },
           "eyebrow": {
             "01": {
-              "description": "--StyleDictionary-- Font family for small eyebrow text.",
               "themeable": "No",
               "type": "fontFamilies",
-              "value": "{font.family.eyebrow}"
+              "value": "{font.family.eyebrow}",
+              "description": "--StyleDictionary-- Font family for small eyebrow text."
             },
             "02": {
               "description": "--StyleDictionary-- Font family for large eyebrow text.",
@@ -1336,16 +1336,16 @@
           },
           "eyebrow": {
             "01": {
-              "description": "--StyleDictionary-- Font family for small eyebrow text.",
               "themeable": "No",
               "type": "fontFamilies",
-              "value": "{font.weight.default}"
+              "value": "{font.weight.bold}",
+              "description": "--StyleDictionary-- Font family for small eyebrow text."
             },
             "02": {
-              "description": "--StyleDictionary-- Font family for large eyebrow text.",
               "themeable": "No",
               "type": "fontFamilies",
-              "value": "{font.weight.default}"
+              "value": "{font.weight.bold}",
+              "description": "--StyleDictionary-- Font family for large eyebrow text."
             }
           },
           "level": {
