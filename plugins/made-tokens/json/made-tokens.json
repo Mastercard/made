@@ -2559,10 +2559,10 @@
           "value": {
             "color": "#14141333",
             "type": "dropShadow",
-            "x": 0,
-            "y": 5,
-            "blur": 10,
-            "spread": 0
+            "x": "0",
+            "y": "5",
+            "blur": "10",
+            "spread": "0"
           },
           "type": "boxShadow",
           "description": "Figma-only design token.",
@@ -2573,18 +2573,18 @@
             {
               "color": "#1414134d",
               "type": "dropShadow",
-              "x": 0,
-              "y": 2,
-              "blur": 2,
-              "spread": 0
+              "x": "0",
+              "y": "2",
+              "blur": "2",
+              "spread": "0"
             },
             {
               "color": "#14141326",
               "type": "dropShadow",
-              "x": 0,
-              "y": 5,
-              "blur": 10,
-              "spread": 0
+              "x": "0",
+              "y": "5",
+              "blur": "10",
+              "spread": "0"
             }
           ],
           "type": "boxShadow",
@@ -2596,10 +2596,10 @@
             "value": {
               "color": "#14141333",
               "type": "dropShadow",
-              "x": 0,
-              "y": 2,
-              "blur": 10,
-              "spread": 0
+              "x": "0",
+              "y": "2",
+              "blur": "10",
+              "spread": "0"
             },
             "type": "boxShadow",
             "description": "Figma-only design token.",
@@ -2610,10 +2610,10 @@
               "value": {
                 "color": "#14141333",
                 "type": "dropShadow",
-                "x": 0,
-                "y": 2,
-                "blur": 4,
-                "spread": 0
+                "x": "0",
+                "y": "2",
+                "blur": "4",
+                "spread": "0"
               },
               "type": "boxShadow",
               "description": "Figma-only design token.",
@@ -2623,10 +2623,10 @@
               "value": {
                 "color": "#14141333",
                 "type": "dropShadow",
-                "x": 0,
-                "y": 2,
-                "blur": 10,
-                "spread": 0
+                "x": "0",
+                "y": "2",
+                "blur": "10",
+                "spread": "0"
               },
               "type": "boxShadow",
               "description": "Figma-only design token.",
@@ -2642,10 +2642,10 @@
           "value": {
             "color": "#14141333",
             "type": "dropShadow",
-            "x": 0,
-            "y": 2,
-            "blur": 10,
-            "spread": 0
+            "x": "0",
+            "y": "2",
+            "blur": "10",
+            "spread": "0"
           },
           "type": "boxShadow",
           "description": "Figma-only design token.",
@@ -2656,18 +2656,18 @@
             {
               "color": "#1414134d",
               "type": "dropShadow",
-              "x": 0,
-              "y": 2,
-              "blur": 2,
-              "spread": 0
+              "x": "0",
+              "y": "2",
+              "blur": "2",
+              "spread": "0"
             },
             {
               "color": "#14141326",
               "type": "dropShadow",
-              "x": 0,
-              "y": 5,
-              "blur": 10,
-              "spread": 0
+              "x": "0",
+              "y": "5",
+              "blur": "10",
+              "spread": "0"
             }
           ],
           "type": "boxShadow",
@@ -3866,6 +3866,47 @@
         "type": "other",
         "description": "Used to set the z order layering of toast.",
         "themeable": "No"
+      }
+    },
+    "search": {
+      "color": {
+        "background": {
+          "value": "{color.background.01}",
+          "type": "color",
+          "description": "Background color for search input component "
+        }
+      },
+      "action": {
+        "color": {
+          "background": {
+            "default": {
+              "value": "{search.color.background}",
+              "type": "color",
+              "description": "Background color for action within the search component"
+            },
+            "hover": {
+              "value": "{color.gray.01-5}",
+              "type": "color",
+              "description": "Background color for the hover state of action within the search component"
+            }
+          }
+        }
+      }
+    },
+    "pill": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.background.02}",
+            "type": "color",
+            "description": "Background color for pill component\t\""
+          },
+          "hover": {
+            "value": "{color.gray.02-5}",
+            "type": "color",
+            "description": "Background color for pill components hover state for the close icon element. "
+          }
+        }
       }
     }
   },
