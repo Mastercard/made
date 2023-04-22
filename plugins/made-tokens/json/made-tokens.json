@@ -2007,6 +2007,21 @@
           "type": "color",
           "description": "Background of primary brand color.",
           "themeable": "No"
+        },
+        "01": {
+          "value": "{color.gray.01-25}",
+          "type": "color",
+          "description": "Secondary background color of the application. "
+        },
+        "02": {
+          "value": "{color.gray.02}",
+          "type": "color",
+          "description": "\"Tertiary background color of the application.\t\""
+        },
+        "inverse": {
+          "value": "{color.gray.07}",
+          "type": "color",
+          "description": "High contrast backgrounds/elements"
         }
       },
       "border": {
@@ -2059,17 +2074,35 @@
             "description": "Background color for error state",
             "themeable": "No"
           },
+          "error-light": {
+            "value": "{color.feedback.error-light}",
+            "type": "color",
+            "themeable": "No",
+            "description": "Background color for error state of Light variation of notifications and toasts"
+          },
           "information": {
             "value": "{color.feedback.information}",
             "type": "color",
             "description": "Background color for neutral or optional state",
             "themeable": "No"
           },
+          "information-light": {
+            "value": "{color.feedback.information-light}",
+            "type": "color",
+            "themeable": "No",
+            "description": "Background color for neutral or optional state of Light variation of notifications and toasts"
+          },
           "success": {
             "value": "{color.feedback.success}",
             "type": "color",
             "description": "Background color for success or positive state",
             "themeable": "No"
+          },
+          "success-light": {
+            "value": "{color.feedback.success-light}",
+            "type": "color",
+            "themeable": "No",
+            "description": "Background color for success or positive state for Light variation of notifications and toasts"
           },
           "warning": {
             "value": "{color.feedback.warning}",
@@ -2085,16 +2118,34 @@
             "description": "Border color for error state",
             "themeable": "No"
           },
+          "error-light": {
+            "value": "{color.feedback.error-light}",
+            "type": "color",
+            "description": "Border color for error state of Light variation of notifications and toasts",
+            "themeable": "No"
+          },
           "information": {
             "value": "{color.feedback.information}",
             "type": "color",
             "description": "Border color  for neutral or optional state",
             "themeable": "No"
           },
+          "information-light": {
+            "value": "{color.feedback.information-light}",
+            "type": "color",
+            "description": "Border color for neutral or optional state of Light variation of notifications and toasts",
+            "themeable": "No"
+          },
           "success": {
             "value": "{color.feedback.success}",
             "type": "color",
             "description": "Border color  for success or positive state",
+            "themeable": "No"
+          },
+          "success-light": {
+            "value": "{color.feedback.success-light}",
+            "type": "color",
+            "description": "Border color for success or positive state for Light variation of notifications and toasts",
             "themeable": "No"
           },
           "warning": {
@@ -2110,16 +2161,40 @@
           "description": "Color for error state",
           "themeable": "Yes"
         },
+        "error-light": {
+          "value": "{color.red-error.01}",
+          "type": "color",
+          "description": "Color for light variant of error state",
+          "themeable": "Yes"
+        },
         "information": {
           "value": "{color.yellow.04}",
           "type": "color",
           "description": "Color for neutral or optional state",
           "themeable": "Yes"
         },
+        "information-light": {
+          "value": "{color.yellow.01}",
+          "type": "color",
+          "description": "Color for light variant of neutral or optional state",
+          "themeable": "Yes"
+        },
         "success": {
           "value": "#038A00",
           "type": "color",
           "description": "Color for success or positive state",
+          "themeable": "Yes"
+        },
+        "success-light": {
+          "value": "{color.green-success.01}",
+          "type": "color",
+          "description": "Color for light variant of success or positive state",
+          "themeable": "Yes"
+        },
+        "warning": {
+          "value": "{color.gold.04}",
+          "type": "color",
+          "description": "Color for warning state",
           "themeable": "Yes"
         },
         "text": {
@@ -2141,16 +2216,34 @@
             "description": "Text color displayed on top of the error color",
             "themeable": "No"
           },
+          "on-error-light": {
+            "value": "{color.red-error.05}",
+            "type": "color",
+            "description": "Text color displayed on top of the error color of Light variation of notifications and toasts",
+            "themeable": "No"
+          },
           "on-information": {
             "value": "{color.yellow.07}",
             "type": "color",
             "themeable": "No",
             "description": "Text color displayed on top of the error color"
           },
+          "on-information-light": {
+            "value": "{color.yellow.07}",
+            "type": "color",
+            "themeable": "No",
+            "description": "Text color displayed on top of the information color of Light variation of notifications and toasts"
+          },
           "on-success": {
             "value": "{color.text.default.on-dark}",
             "type": "color",
             "description": "Text color displayed on top of the error color",
+            "themeable": "No"
+          },
+          "on-success-light": {
+            "value": "{color.green-success.05}",
+            "type": "color",
+            "description": "Text color displayed on top of the success color of Light variation of notifications and toasts",
             "themeable": "No"
           },
           "on-warning": {
@@ -2171,12 +2264,6 @@
             "description": "Text color for warning state",
             "themeable": "No"
           }
-        },
-        "warning": {
-          "value": "{color.gold.04}",
-          "type": "color",
-          "description": "Color for warning state",
-          "themeable": "Yes"
         }
       },
       "text": {
@@ -2205,6 +2292,11 @@
           "type": "color",
           "description": "Text color of primary brand color.",
           "themeable": "No"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Inverse text/icon color"
         }
       },
       "visualization": {
@@ -2409,6 +2501,11 @@
           "type": "color",
           "description": "Text color for link",
           "themeable": "Yes"
+        },
+        "on-dark": {
+          "value": "{color.action.on-dark.default}",
+          "type": "color",
+          "description": "Text color for links on dark backgrounds"
         }
       }
     },
