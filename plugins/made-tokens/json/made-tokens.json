@@ -198,6 +198,12 @@
           "description": "Canvas color - Gray 2",
           "themeable": "No"
         },
+        "02-5": {
+          "value": "#D1CDC7",
+          "type": "color",
+          "description": "Canvas color - Gray 2.5",
+          "themeable": "No"
+        },
         "03": {
           "value": "#B1ADA6",
           "type": "color",
@@ -477,6 +483,94 @@
           "type": "color",
           "description": "Yellow color 7",
           "themeable": "No"
+        }
+      },
+      "green-success": {
+        "01": {
+          "value": "#DFF7DF",
+          "type": "color",
+          "themeable": "No",
+          "description": "Success Green 1"
+        },
+        "02": {
+          "value": "#7CD87A",
+          "type": "color",
+          "themeable": "No",
+          "description": "Success Green 2"
+        },
+        "03": {
+          "value": "#35B132",
+          "type": "color",
+          "themeable": "No",
+          "description": "Success Green 3"
+        },
+        "04": {
+          "value": "#038A00",
+          "type": "color",
+          "themeable": "No",
+          "description": "Success Green 4"
+        },
+        "05": {
+          "value": "#097007",
+          "type": "color",
+          "themeable": "No",
+          "description": "Success Green 5"
+        },
+        "06": {
+          "value": "#0B560A",
+          "type": "color",
+          "themeable": "No",
+          "description": "Success Green 6"
+        },
+        "07": {
+          "value": "#042604",
+          "type": "color",
+          "themeable": "No",
+          "description": "Success Green 7"
+        }
+      },
+      "red-error": {
+        "01": {
+          "value": "#FADEDE",
+          "type": "color",
+          "themeable": "No",
+          "description": "Error Red 1"
+        },
+        "02": {
+          "value": "#FF9898",
+          "type": "color",
+          "themeable": "No",
+          "description": "Red error 2"
+        },
+        "03": {
+          "value": "#FF5656",
+          "type": "color",
+          "themeable": "No",
+          "description": "Red error 3"
+        },
+        "04": {
+          "value": "#EE0000",
+          "type": "color",
+          "themeable": "No",
+          "description": "Red error 4"
+        },
+        "05": {
+          "value": "#B00606",
+          "type": "color",
+          "themeable": "No",
+          "description": "Red error 5"
+        },
+        "06": {
+          "value": "#710808",
+          "type": "color",
+          "themeable": "No",
+          "description": "Red error 6"
+        },
+        "07": {
+          "value": "#330505",
+          "type": "color",
+          "themeable": "No",
+          "description": "Red error 7"
         }
       }
     },
