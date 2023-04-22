@@ -1820,6 +1820,24 @@
           "description": "Global color for disabled state.",
           "themeable": "Yes"
         },
+        "disabled-button": {
+          "value": "rgba(177,173,166,0.5)",
+          "type": "color",
+          "description": "Disabled state for buttons. Opacity at 50%",
+          "themeable": "Yes"
+        },
+        "disabled-toggle": {
+          "value": "rgba(177,173,166,0.25)",
+          "type": "color",
+          "description": "Disabled state for toggles. Opacity at 25%",
+          "themeable": "Yes"
+        },
+        "disabled-text-input": {
+          "value": "rgba(177,173,166,0.1)",
+          "type": "color",
+          "description": "Disabled state for text inputs. Opacity at 10%",
+          "themeable": "Yes"
+        },
         "on-dark": {
           "active": {
             "value": "{color.gray.03}",
