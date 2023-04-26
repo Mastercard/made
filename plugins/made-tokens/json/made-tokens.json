@@ -1812,6 +1812,11 @@
               "description": "Border color for selected items.",
               "themeable": "No"
             }
+          },
+          "focus-on-dark": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "Outline color for focus state on dark backgrounds."
           }
         },
         "disabled": {
