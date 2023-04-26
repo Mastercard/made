@@ -2679,6 +2679,29 @@
           "description": "Figma-only design token.",
           "figmaOnly": true
         }
+      },
+      "focus-indicator": {
+        "value": [
+          {
+            "color": "#cf4500",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4"
+          },
+          {
+            "color": "#ffffff",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Figma-only box shadow for certain components that use box shadows in design to create the focus indicator. ",
+        "figmaOnly": true
       }
     },
     "fontFamilies": {
@@ -4143,7 +4166,17 @@
         "color.red-error.04": "S:17a95721e6c4d79707824f5f2ed88b5d8b00adcb,",
         "color.red-error.05": "S:af3c3d694c10223e9929036f5d68cb15729d3256,",
         "color.red-error.06": "S:05aba8d0e18b72040bca3f9310bc69ed8a0dff65,",
-        "color.red-error.07": "S:e79c0ffe415a785e6c25f4f7aaa9d863c4acd810,"
+        "color.red-error.07": "S:e79c0ffe415a785e6c25f4f7aaa9d863c4acd810,",
+        "shadow.toggle": "S:cd60ed8034eab1ef96a2c248adfe3901884cce24,",
+        "shadow.default": "S:876021dfb3d10595490cd13aac89a6b29e07fa7f,",
+        "b2b.elevation.range-slider - thumb": "S:c5c69081f01177af528dd0d1b8fce8c29e87a8c4,",
+        "b2b.elevation.toggle-switch - head": "S:ec085b7751c5714b1960ad70adbe44ae07a9904b,",
+        "b2b.elevation.content-card.default": "S:d0751e51391b7da7f6c4cbf3efb6d162b81c27e2,",
+        "b2b.elevation.content-card.my-items-card.default": "S:7ca6a4429d905cb066913a5be41ae86d07ddb5fd,",
+        "b2b.elevation.content-card.my-items-card.hover": "S:0993bd184abf616c42968798d1a01286649be79b,",
+        "figma-only.shadow.default": "S:dce34888a7852b851bc891b0bac862e923966d9a,",
+        "figma-only.shadow.toggle": "S:98a73e3b17221883a844b4ed2591349ffe2c077f,",
+        "figma-only.focus-indicator": "S:94b3aa042779d8cb5062234c116d0d0e636fa0e3,"
       }
     }
   ],
