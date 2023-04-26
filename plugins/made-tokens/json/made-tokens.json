@@ -2683,25 +2683,25 @@
       "focus-indicator": {
         "value": [
           {
-            "color": "#cf4500",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "4"
-          },
-          {
             "color": "#ffffff",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
             "blur": "0",
             "spread": "2"
+          },
+          {
+            "color": "#cf4500",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4"
           }
         ],
         "type": "boxShadow",
-        "description": "Figma-only box shadow for certain components that use box shadows in design to create the focus indicator. ",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only box shadow for certain components that use box shadows in design to create the focus indicator. "
       }
     },
     "fontFamilies": {
