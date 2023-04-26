@@ -983,16 +983,16 @@
           "themeable": "No"
         },
         "eyebrow": {
-          "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+          "value": "{font.family.bold}",
           "type": "fontFamilies",
-          "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)",
-          "themeable": "Yes"
+          "themeable": "Yes",
+          "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)"
         },
         "heading": {
-          "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
+          "value": "{font.family.light}",
           "type": "fontFamilies",
-          "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)",
-          "themeable": "Yes"
+          "themeable": "Yes",
+          "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)"
         },
         "light": {
           "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
