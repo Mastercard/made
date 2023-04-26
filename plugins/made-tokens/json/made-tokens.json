@@ -1351,16 +1351,16 @@
           },
           "eyebrow": {
             "01": {
-              "value": "{font.weight.default}",
+              "value": "{font.weight.bold}",
               "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font family for small eyebrow text.",
-              "themeable": "No"
+              "themeable": "No",
+              "description": "--StyleDictionary-- Font family for small eyebrow text."
             },
             "02": {
-              "value": "{font.weight.default}",
+              "value": "{font.weight.bold}",
               "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font family for large eyebrow text.",
-              "themeable": "No"
+              "themeable": "No",
+              "description": "--StyleDictionary-- Font family for large eyebrow text."
             }
           },
           "level": {
