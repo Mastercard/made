@@ -2039,7 +2039,7 @@
         "02": {
           "value": "{color.gray.02}",
           "type": "color",
-          "description": "\"Tertiary background color of the application.\t\""
+          "description": "Tertiary background color of the application."
         },
         "inverse": {
           "value": "{color.gray.07}",
@@ -3927,13 +3927,31 @@
           "default": {
             "value": "{color.background.02}",
             "type": "color",
-            "description": "Background color for pill component\t\""
+            "description": "Background color for pill component."
           },
           "hover": {
             "value": "{color.gray.02-5}",
             "type": "color",
             "description": "Background color for pill components hover state for the close icon element. "
           }
+        }
+      }
+    },
+    "footer": {
+      "color": {
+        "text": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Text color on footer component"
+        }
+      }
+    },
+    "header": {
+      "color": {
+        "text": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Text color on header component"
         }
       }
     }
