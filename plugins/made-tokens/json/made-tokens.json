@@ -2686,7 +2686,7 @@
       "focus-indicator": {
         "value": [
           {
-            "color": "#ffffff",
+            "color": "{color.background.default}",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
@@ -2694,7 +2694,7 @@
             "spread": "2"
           },
           {
-            "color": "#cf4500",
+            "color": "{color.brand.primary}",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
