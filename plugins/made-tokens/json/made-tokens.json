@@ -1816,7 +1816,8 @@
           "focus-on-dark": {
             "value": "{color.white}",
             "type": "color",
-            "description": "Outline color for focus state on dark backgrounds."
+            "description": "Outline color for focus state on dark backgrounds.",
+            "themeable": "Yes"
           }
         },
         "disabled": {
@@ -2044,7 +2045,8 @@
         "inverse": {
           "value": "{color.gray.07}",
           "type": "color",
-          "description": "High contrast backgrounds/elements"
+          "description": "High contrast backgrounds/elements",
+          "themeable": "Yes"
         }
       },
       "border": {
@@ -2319,7 +2321,8 @@
         "inverse": {
           "value": "{color.white}",
           "type": "color",
-          "description": "Inverse text/icon color"
+          "description": "Inverse text/icon color",
+          "themeable": "Yes"
         }
       },
       "visualization": {
