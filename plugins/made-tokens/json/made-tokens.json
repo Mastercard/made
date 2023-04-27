@@ -3904,7 +3904,8 @@
         "background": {
           "value": "{color.background.01}",
           "type": "color",
-          "description": "Background color for search input component "
+          "description": "Background color for search input component ",
+          "themeable": "Yes"
         }
       },
       "action": {
@@ -3913,12 +3914,14 @@
             "default": {
               "value": "{search.color.background}",
               "type": "color",
-              "description": "Background color for action within the search component"
+              "description": "Background color for action within the search component",
+              "themeable": "Yes"
             },
             "hover": {
               "value": "{color.gray.01-5}",
               "type": "color",
-              "description": "Background color for the hover state of action within the search component"
+              "description": "Background color for the hover state of action within the search component",
+              "themeable": "Yes"
             }
           }
         }
@@ -3930,7 +3933,8 @@
           "default": {
             "value": "{color.background.02}",
             "type": "color",
-            "description": "Background color for pill component."
+            "description": "Background color for pill component.",
+            "themeable": "Yes"
           },
           "hover": {
             "value": "{color.gray.02-5}",
