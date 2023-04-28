@@ -2035,14 +2035,12 @@
         "01": {
           "value": "{color.gray.01-25}",
           "type": "color",
-          "description": "Secondary background color of the application. ",
-          "themeable": "Yes"
+          "description": "Secondary background color of the application. "
         },
         "02": {
           "value": "{color.gray.02}",
           "type": "color",
-          "description": "Tertiary background color of the application.",
-          "themeable": "Yes"
+          "description": "Tertiary background color of the application."
         },
         "inverse": {
           "value": "{color.gray.07}",
@@ -2533,8 +2531,7 @@
         "on-dark": {
           "value": "{color.action.on-dark.default}",
           "type": "color",
-          "description": "Text color for links on dark backgrounds",
-          "themeable": "Yes"
+          "description": "Text color for links on dark backgrounds"
         }
       }
     },
@@ -3942,8 +3939,7 @@
           "hover": {
             "value": "{color.gray.02-5}",
             "type": "color",
-            "description": "Background color for pill components hover state for the close icon element. ",
-            "themeable": "Yes"
+            "description": "Background color for pill components hover state for the close icon element. "
           }
         }
       }
@@ -3953,8 +3949,7 @@
         "text": {
           "value": "{color.white}",
           "type": "color",
-          "description": "Text color on footer component",
-          "themeable": "Yes"
+          "description": "Text color on footer component"
         }
       }
     },
@@ -3963,8 +3958,7 @@
         "text": {
           "value": "{color.white}",
           "type": "color",
-          "description": "Text color on header component",
-          "themeable": "Yes"
+          "description": "Text color on header component"
         }
       }
     }
