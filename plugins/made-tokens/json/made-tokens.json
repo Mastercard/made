@@ -2035,12 +2035,14 @@
         "01": {
           "value": "{color.gray.01-25}",
           "type": "color",
-          "description": "Secondary background color of the application. "
+          "description": "Secondary background color of the application. ",
+          "themeable": "Yes"
         },
         "02": {
           "value": "{color.gray.02}",
           "type": "color",
-          "description": "Tertiary background color of the application."
+          "description": "Tertiary background color of the application.",
+          "themeable": "Yes"
         },
         "inverse": {
           "value": "{color.gray.07}",
@@ -2531,7 +2533,8 @@
         "on-dark": {
           "value": "{color.action.on-dark.default}",
           "type": "color",
-          "description": "Text color for links on dark backgrounds"
+          "description": "Text color for links on dark backgrounds",
+          "themeable": "Yes"
         }
       }
     },
