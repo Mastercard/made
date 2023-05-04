@@ -4252,7 +4252,10 @@
         "components.form field.label": "S:346768628df7de5139ab64825d79c4702bee44c0,",
         "components.form field.input": "S:761cc1e113b15ce801b0f56f201757fd2259269e,",
         "components.form field.search field.default": "S:c7f33fc6ee2b07814a1d4aded2b16403b4f88506,",
-        "components.logotype.product name": "S:429570e18618199917efaa3b03f7267382d1c481,"
+        "components.logotype.product name": "S:429570e18618199917efaa3b03f7267382d1c481,",
+        "link_.size - sm": "S:d163ad5e919d0521d072684ef3919fca3a0f5b0f,",
+        "link_.size - md": "S:8870c2d5dc69158b56e06ae7367efde69e153ac2,",
+        "link_.size - sm - :hover": "S:2eb6b20e96defca7b5b37445f7b93ef776cf99e7,"
       }
     }
   ],
