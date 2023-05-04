@@ -3942,7 +3942,8 @@
           "hover": {
             "value": "{color.gray.02-5}",
             "type": "color",
-            "description": "Background color for pill components hover state for the close icon element. "
+            "description": "Background color for pill components hover state for the close icon element. ",
+            "themeable": "Yes"
           }
         }
       }
@@ -3952,7 +3953,8 @@
         "text": {
           "value": "{color.white}",
           "type": "color",
-          "description": "Text color on footer component"
+          "description": "Text color on footer component",
+          "themeable": "Yes"
         }
       }
     },
@@ -3961,7 +3963,8 @@
         "text": {
           "value": "{color.white}",
           "type": "color",
-          "description": "Text color on header component"
+          "description": "Text color on header component",
+          "themeable": "Yes"
         }
       }
     }
