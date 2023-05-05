@@ -3062,7 +3062,7 @@
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
-          "lineHeight": "{lineHeights.0}",
+          "lineHeight": "{font.heading.line-height.level.01}",
           "fontSize": "{fontSize.10}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3071,14 +3071,14 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       },
       "h2": {
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
-          "lineHeight": "{lineHeights.1}",
+          "lineHeight": "{font.heading.line-height.level.02}",
           "fontSize": "{fontSize.9}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3087,14 +3087,14 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       },
       "h3": {
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
-          "lineHeight": "{lineHeights.2}",
+          "lineHeight": "{font.heading.line-height.level.03}",
           "fontSize": "{fontSize.8}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3103,14 +3103,14 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       },
       "h4": {
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
-          "lineHeight": "{lineHeights.3}",
+          "lineHeight": "{font.heading.line-height.level.04}",
           "fontSize": "{fontSize.7}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3119,14 +3119,14 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       },
       "h5": {
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
-          "lineHeight": "{lineHeights.4}",
+          "lineHeight": "{font.heading.line-height.level.05}",
           "fontSize": "{fontSize.6}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3135,14 +3135,14 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       },
       "h6": {
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
-          "lineHeight": "{lineHeights.5}",
+          "lineHeight": "{font.heading.line-height.level.06}",
           "fontSize": "{fontSize.5}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3151,15 +3151,15 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       },
       "display": {
         "h1": {
           "value": {
             "fontFamily": "{fontFamilies.mark-offc-for-mc}",
             "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
-            "lineHeight": "{lineHeights.6}",
+            "lineHeight": "{font.heading.line-height.display.01}",
             "fontSize": "{fontSize.13}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3168,14 +3168,14 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography",
-          "description": "Figma-only design token.",
-          "figmaOnly": true
+          "figmaOnly": true,
+          "description": "Figma-only design token."
         },
         "h2": {
           "value": {
             "fontFamily": "{fontFamilies.mark-offc-for-mc}",
             "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
-            "lineHeight": "{lineHeights.7}",
+            "lineHeight": "{font.heading.line-height.display.02}",
             "fontSize": "{fontSize.12}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3184,14 +3184,14 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography",
-          "description": "Figma-only design token.",
-          "figmaOnly": true
+          "figmaOnly": true,
+          "description": "Figma-only design token."
         },
         "h3": {
           "value": {
             "fontFamily": "{fontFamilies.mark-offc-for-mc}",
             "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
-            "lineHeight": "{lineHeights.8}",
+            "lineHeight": "{font.heading.line-height.display.03}",
             "fontSize": "{fontSize.11}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3200,8 +3200,8 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography",
-          "description": "Figma-only design token.",
-          "figmaOnly": true
+          "figmaOnly": true,
+          "description": "Figma-only design token."
         }
       }
     },
@@ -3210,7 +3210,7 @@
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-3}",
-          "lineHeight": "{lineHeights.9}",
+          "lineHeight": "{font.heading.line-height.eyebrow.01}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.1}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3225,7 +3225,7 @@
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-3}",
-          "lineHeight": "{lineHeights.10}",
+          "lineHeight": "{font.heading.line-height.eyebrow.02}",
           "fontSize": "{fontSize.5}",
           "letterSpacing": "{letterSpacing.1}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3234,8 +3234,8 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       }
     },
     "body": {
@@ -3244,7 +3244,7 @@
           "value": {
             "fontFamily": "{fontFamilies.mark-offc-for-mc}",
             "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
-            "lineHeight": "{lineHeights.11}",
+            "lineHeight": "{font.body.line-height}",
             "fontSize": "{fontSize.3}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.2}",
@@ -3253,14 +3253,14 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography",
-          "description": "Figma-only design token.",
-          "figmaOnly": true
+          "figmaOnly": true,
+          "description": "Figma-only design token."
         },
         "weight - medium": {
           "value": {
             "fontFamily": "{fontFamilies.mark-offc-for-mc}",
             "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
-            "lineHeight": "{lineHeights.11}",
+            "lineHeight": "{font.body.line-height}",
             "fontSize": "{fontSize.3}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.2}",
@@ -3269,8 +3269,8 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography",
-          "description": "Figma-only design token.",
-          "figmaOnly": true
+          "figmaOnly": true,
+          "description": "Figma-only design token."
         }
       },
       "size - lg": {
@@ -3278,7 +3278,7 @@
           "value": {
             "fontFamily": "{fontFamilies.mark-offc-for-mc}",
             "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
-            "lineHeight": "{lineHeights.10}",
+            "lineHeight": "{font.body.line-height}",
             "fontSize": "{fontSize.5}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.3}",
@@ -3287,14 +3287,14 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography",
-          "description": "Figma-only design token.",
-          "figmaOnly": true
+          "figmaOnly": true,
+          "description": "Figma-only design token."
         },
         "weight - medium": {
           "value": {
             "fontFamily": "{fontFamilies.mark-offc-for-mc}",
             "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
-            "lineHeight": "{lineHeights.10}",
+            "lineHeight": "{font.body.line-height}",
             "fontSize": "{fontSize.5}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.3}",
@@ -3303,8 +3303,8 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography",
-          "description": "Figma-only design token.",
-          "figmaOnly": true
+          "figmaOnly": true,
+          "description": "Figma-only design token."
         }
       }
     },
@@ -3313,7 +3313,7 @@
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
-          "lineHeight": "{lineHeights.11}",
+          "lineHeight": "{line.height.rem.04}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.1}",
@@ -3322,14 +3322,14 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       },
       "size - md": {
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
-          "lineHeight": "{lineHeights.10}",
+          "lineHeight": "{line.height.rem.04}",
           "fontSize": "{fontSize.5}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -3338,14 +3338,14 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       },
       "size - sm - :hover": {
         "value": {
           "fontFamily": "{fontFamilies.mark-offc-for-mc}",
           "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
-          "lineHeight": "{lineHeights.11}",
+          "lineHeight": "{line.height.rem.04}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.1}",
@@ -3354,8 +3354,24 @@
           "textDecoration": "{textDecoration.underline}"
         },
         "type": "typography",
-        "description": "Figma-only design token.",
-        "figmaOnly": true
+        "figmaOnly": true,
+        "description": "Figma-only design token."
+      },
+      "size - md - :hover": {
+        "value": {
+          "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+          "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+          "lineHeight": "{line.height.rem.05}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.1}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.underline}"
+        },
+        "type": "typography",
+        "figmaOnly": true,
+        "description": "Figma-only design token."
       }
     },
     "components": {
