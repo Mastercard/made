@@ -4318,7 +4318,8 @@
         "components.logotype.product name": "S:429570e18618199917efaa3b03f7267382d1c481,",
         "link_.size - sm": "S:d163ad5e919d0521d072684ef3919fca3a0f5b0f,",
         "link_.size - md": "S:8870c2d5dc69158b56e06ae7367efde69e153ac2,",
-        "link_.size - sm - :hover": "S:2eb6b20e96defca7b5b37445f7b93ef776cf99e7,"
+        "link_.size - sm - :hover": "S:2eb6b20e96defca7b5b37445f7b93ef776cf99e7,",
+        "link_.size - md - :hover": "S:101fbce963dc82c95f26c4d57cdecc34395fce8b,"
       }
     }
   ],
