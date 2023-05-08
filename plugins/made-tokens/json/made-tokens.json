@@ -3666,6 +3666,22 @@
             "type": "typography",
             "figmaOnly": true,
             "description": "Figma-only design token."
+          },
+          "multi-line": {
+            "value": {
+              "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+              "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
+              "lineHeight": "{line.height.rem.04}",
+              "fontSize": "{fontSize.3}",
+              "letterSpacing": "{letterSpacing.0}",
+              "paragraphSpacing": "{paragraphSpacing.0}",
+              "paragraphIndent": "{paragraphIndent.0}",
+              "textCase": "{textCase.none}",
+              "textDecoration": "{textDecoration.none}"
+            },
+            "type": "typography",
+            "figmaOnly": true,
+            "description": "Figma-only design token."
           }
         }
       },
