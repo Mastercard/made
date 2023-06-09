@@ -1861,10 +1861,10 @@
             }
           },
           "focus-on-dark": {
-            "value": "{color.white}",
+            "value": "{color.action.on-dark.default}",
             "type": "color",
-            "description": "Outline color for focus state on dark backgrounds.",
-            "themeable": "Yes"
+            "themeable": "Yes",
+            "description": "Outline color for focus state on dark backgrounds."
           }
         },
         "disabled": {
