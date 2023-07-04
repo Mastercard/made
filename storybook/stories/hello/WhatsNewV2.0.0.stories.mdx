@@ -1,0 +1,1097 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Hello/What's New/Made CSS 2.0.0" />
+
+# Made CSS 2.0.0 & Made Design Tokens 2.2.0
+
+Made. June release for Design Tokens and CSS includes:
+
+- New Toast component added to display short messages.
+- New Search Input component added with squared and rounded variations.
+- Notification component redesigned as well as new 'light variations' added.
+- Pill component redesigned and now includes a 'branded' version.
+- New responsive width utility classes added.
+- New colour tokens for Action, Background, Feedback, Global, Role, Pill and Search.
+
+#### Action Colours
+
+Three new additional tokens for the disabled state of components. One for the Button, Toggle, and Text Input components. These tokens are for use cases such as when a Text Input needs a pre-filled disabled state, and the user must still be able to read the text.
+
+We have also added a new focus colour token, `made-color-action-border-focus-on-dark`, to have accessible focus states for links and buttons for the new Notification and Toast components.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-border-focus-on-dark</code>
+        <small>Outline color for focus state on dark backgrounds</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFFFFF",
+          }}
+        ></div>
+        <code>COLOR ACTION ON-DARK DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-disabled-button</code>
+        <small>Disabled state for buttons. Opacity at 50%</small>
+      </td>
+      <td>
+         <div
+          className="made-s-color-block"
+          style={{
+            background: "rgba(177, 173, 166, 0.5)",
+            borderColor: "rgba(177, 173, 166, 0.5)",
+          }}
+        ></div>
+        <code>COLOR GRAY 03 (50%)</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-disabled-text-input</code>
+        <small>Disabled state for text inputs. Opacity at 10%</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "rgba(177, 173, 166, 0.1)",
+            borderColor: "rgba(177, 173, 166, 0.1)",
+          }}
+        ></div>
+        <code>COLOR GRAY 03 (10%)</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-disabled-toggle</code>
+        <small>Disabled state for toggles. Opacity at 25%</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "rgba(177, 173, 166, 0.25)",
+            borderColor: "rgba(177, 173, 166, 0.25)",
+          }}
+        ></div>
+        <code>COLOR GRAY 03 (25%)</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Background Colours
+
+New background tokens added to increase the theme-ability of our components.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-background-01</code>
+        <small>Secondary background color of the application.	</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FAF7F5",
+            borderColor: "#FAF7F5",
+          }}
+        ></div>
+        <code>COLOR GRAY 1.25</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-background-02</code>
+        <small>Tertiary background color of the application.</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#E8E5E1",
+            borderColor: "#E8E5E1",
+          }}
+        ></div>
+        <code>COLOR GRAY 2</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-background-inverse</code>
+        <small>High contrast backgrounds/elements</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#141413",
+            borderColor: "#141413",
+          }}
+        ></div>
+        <code>COLOR GRAY 07</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Feedback Colours
+
+We have added new 'light' versions of the Feedback Colours and used them in the <a onClick={linkTo("feedback-notification--success-light")}>Notification</a> and the <a onClick={linkTo("feedback-toast--success-light")}>Toast</a> components with 'light' variations.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-feedback-background-error-light</code>
+        <small>Background color for error state of Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FADEDE",
+            borderColor: "#FADEDE",
+          }}
+        ></div>
+        <code>COLOR FEEDBACK ERROR LIGHT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-background-information-light</code>
+        <small>Background color for neutral or optional state of Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFF4D1",
+            borderColor: "#FFF4D1",
+          }}
+        ></div>
+        <code>COLOR FEEDBACK INFORMATION LIGHT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-background-success-light</code>
+        <small>Background color for success or positive state for Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#DFF7DF",
+            borderColor: "#DFF7DF",
+          }}
+        ></div>
+        <code>COLOR FEEDBACK SUCCESS LIGHT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-border-error-light</code>
+        <small>Border color for error state of Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FADEDE",
+            borderColor: "#FADEDE",
+          }}
+        ></div>
+        <code>COLOR FEEDBACK ERROR LIGHT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-border-information-light</code>
+        <small>Border color for neutral or optional state of Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFF4D1",
+            borderColor: "#FFF4D1",
+          }}
+        ></div>
+        <code>COLOR FEEDBACK INFORMATION LIGHT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-border-success-light</code>
+        <small>Border color for success or positive state for Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#DFF7DF",
+            borderColor: "#DFF7DF",
+          }}
+        ></div>
+        <code>COLOR FEEDBACK SUCCESS LIGHT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-error-light</code>
+        <small>Color for light variant of error state</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#fadede",
+            borderColor: "#fadede",
+          }}
+        ></div>
+        <code>COLOR RED ERROR 01</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-information-light</code>
+        <small>Color for light variant of neutral or optional state</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#fff4d1",
+            borderColor: "#fff4d1",
+          }}
+        ></div>
+        <code>COLOR YELLOW 01</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-success-light</code>
+        <small>Color for light variant of success or positive state</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#DFF7DF",
+            borderColor: "#DFF7DF",
+          }}
+        ></div>
+        <code>COLOR GREEN SUCCESS 01</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-text-on-error-light</code>
+        <small>Text color displayed on top of the error color of Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#b00606",
+            borderColor: "#b00606",
+          }}
+        ></div>
+        <code>COLOR RED ERROR 05</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-text-on-information-light</code>
+        <small>Text color displayed on top of the information color of Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#332805",
+            borderColor: "#332805",
+          }}
+        ></div>
+        <code>COLOR YELLOW 07</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-text-on-success-light</code>
+        <small>Text color displayed on top of the success color of Light variation of notifications and toasts</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#097007",
+            borderColor: "#097007",
+          }}
+        ></div>
+        <code>COLOR GREEN SUCCESS 05</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Global Colours
+
+We have added in additional global colors to use within a Mastercard application.
+
+Our core/global color palette contains our primitive color values used as a foundation for our role based tokens e.g. feedback colors
+
+<a onClick={linkTo("design-tokens-color--global")}>
+  See Global colors Documentation for more information.
+</a>
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-gray-02-5</code>
+        <small>Canvas color - Gray 2.5</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#D1CDC7",
+            borderColor: "#D1CDC7",
+          }}
+        ></div>
+        <code>#D1CDC7</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-green-success-01</code>
+        <small>Success Green 1</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#DFF7DF",
+            borderColor: "#DFF7DF",
+          }}
+        ></div>
+        <code>#DFF7DF</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-green-success-02</code>
+        <small>Success Green 2</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#7CD87A",
+            borderColor: "#7CD87A",
+          }}
+        ></div>
+        <code>#7CD87A</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-green-success-03</code>
+        <small>Success Green 3</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#35B132",
+            borderColor: "#35B132",
+          }}
+        ></div>
+        <code></code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-green-success-04</code>
+        <small>Success Green 4</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#038A00",
+            borderColor: "#038A00",
+          }}
+        ></div>
+        <code>#038A00</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-green-success-05</code>
+        <small>Success Green 5</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#097007",
+            borderColor: "#097007",
+          }}
+        ></div>
+        <code></code>
+      </td>
+    </tr>
+        <tr>
+      <td>
+        <code>made-color-green-success-06</code>
+        <small>Success Green 6</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#0B560A",
+            borderColor: "#0B560A",
+          }}
+        ></div>
+        <code></code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-green-success-07</code>
+        <small>Success Green 7</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#042604",
+            borderColor: "#042604",
+          }}
+        ></div>
+        <code>#042604</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-red-error-01</code>
+        <small>Error Red 1</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FADEDE",
+            borderColor: "#FADEDE",
+          }}
+        ></div>
+        <code>#FADEDE</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-red-error-02</code>
+        <small>Error Red 2</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FF9898",
+            borderColor: "#FF9898",
+          }}
+        ></div>
+        <code>#FF9898</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-red-error-03</code>
+        <small>Error Red 3</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FF5656",
+            borderColor: "#FF5656",
+          }}
+        ></div>
+        <code></code>
+      </td>
+    </tr>
+        <tr>
+      <td>
+        <code>made-color-red-error-04</code>
+        <small>Error Red 4</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#EE0000",
+            borderColor: "#EE0000",
+          }}
+        ></div>
+        <code></code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-red-error-05</code>
+        <small>Error Red 5</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#B00606",
+            borderColor: "#B00606",
+          }}
+        ></div>
+        <code>#B00606</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-red-error-06</code>
+        <small>Error Red 6</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#710808",
+            borderColor: "#710808",
+          }}
+        ></div>
+        <code>#710808</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-red-error-07</code>
+        <small>Error Red 7</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#330505",
+            borderColor: "#330505",
+          }}
+        ></div>
+        <code>#330505</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Role Based Colours
+
+Role-based tokens are defined based on their function or role in the system, rather than their raw value. They act as an additional layer of abstraction to define how raw design tokens should be used in specific contexts.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-text-inverse</code>
+        <small>Inverse text/icon color</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFFFFF",
+          }}
+        ></div>
+        <code>COLOR WHITE</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-footer-color-text</code>
+        <small>Text color on footer component</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFFFFF",
+          }}
+        ></div>
+        <code>COLOR WHITE</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-header-color-text</code>
+        <small>Text color on header component</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFFFFF",
+          }}
+        ></div>
+        <code>COLOR WHITE</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-link-color-on-dark</code>
+        <small>Text color for links on dark backgrounds</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFFFFF",
+          }}
+        ></div>
+        <code>COLOR ACTION ON DARK DEFAULT</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Background Colors
+
+New background tokens added for the Pill and Search Input components.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-pill-color-background-default</code>
+        <small>Background color for pill component</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#E8E5E1",
+            borderColor: "#E8E5E1",
+          }}
+        ></div>
+        <code>COLOR BACKGROUND 02</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-pill-color-background-hover</code>
+        <small>Background color for pill components hover state	for the close icon element. </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#D1CDC7",
+            borderColor: "#D1CDC7",
+          }}
+        ></div>
+        <code>COLOR GRAY 02.5</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-search-action-color-background-default</code>
+        <small>Background color for action within the search component</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FAF7F5",
+            borderColor: "#FAF7F5",
+          }}
+        ></div>
+        <code>SEARCH COLOR BACKGROUND</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-search-action-color-background-hover</code>
+        <small>Background color for the hover state of action within the search component</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#F3F0EE",
+            borderColor: "#F3F0EE",
+          }}
+        ></div>
+        <code>COLOR GRAY 1.5</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-search-color-background</code>
+        <small>Background color for search input component</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FAF7F5",
+            borderColor: "#FAF7F5",
+          }}
+        ></div>
+        <code>COLOR BACKGROUND 01</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Action Colours Values
+
+We have updated the values for `made-color-action-text-on-selected-hover` and `made-color-action-primary-default`. This is to better meet the colour contrast ratio for WC3 requirements for when text is sitting on a selected background.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Token Name</th>
+      <th width="20">Old Token Value</th>
+      <th width="20">New Token Value</th>
+      <th>New Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-selected-hover</code>
+        <small>Text color on top of hover and selected state of UI Elements</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#CF4500",
+            borderColor: "#CF4500",
+          }}
+        ></div>
+        <code>made-color-action-primary-default</code>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#141413",
+            borderColor: "#141413",
+          }}
+        ></div>
+        <code>made-color-text-default-on-light</code>
+      </td>
+      <td>
+        <a onClick={linkTo("content-data-display-table--table")}>See Example</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-selected</code>
+        <small>Text color on top of selected state of UI Elements</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#CF4500",
+            borderColor: "#CF4500",
+          }}
+        ></div>
+        <code>made-color-action-primary-default</code>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#141413",
+            borderColor: "#141413",
+          }}
+        ></div>
+        <code>made-color-text-default-on-light</code>
+      </td>
+      <td>
+        <a onClick={linkTo("content-data-display-table--table")}>See Example</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Feedback Colours Values
+
+We have updated the value for `made-color-feedback-text-on-information`.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Token Name</th>
+      <th width="20">Old Token Value</th>
+      <th width="20">New Token Value</th>
+      <th>New Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-feedback-text-on-information</code>
+        <small>Text color displayed on top of the information color</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFFFFF",
+          }}
+        ></div>
+        <code>made-color-text-default-on-dark</code>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#332805",
+            borderColor: "#332805",
+          }}
+        ></div>
+        <code>made-color-yellow-07</code>
+      </td>
+      <td>
+        <a onClick={linkTo("feedback-notification--informational")}>See Example</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Font Family Values
+
+We have updated the values for `made-font-family-eyebrow` and `made-font-family-heading`. These font values are stored in tokens `made-font-family-bold` and `-made-font-family-light`.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Token Name</th>
+      <th width="20">Old Token Value</th>
+      <th width="20">New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-font-family-eyebrow</code>
+        <small>Font family for eyebrow text</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif</code>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-family-bold)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>made-font-family-bold</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-family-heading</code>
+        <small>Font family for headings (H1,H2 and display text)</small>
+      </td>
+      <td>
+         <p
+          style={{
+            fontFamily: "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif</code>
+      </td>
+      <td>
+         <p
+          style={{
+            fontFamily: "var(--made-font-family-light)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>-made-font-family-light</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Font Weight Values
+
+We have updated the values for `made-font-heading-weight-eyebrow-01` and `made-font-heading-weight-eyebrow-02` and replaced both with `made-font-weight-bold`.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Token Name</th>
+      <th width="20">Old Token Value</th>
+      <th width="20">New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-eyebrow-01</code>
+        <small>Font family for small eyebrow text</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-weight-default)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>made-font-weight-default</code>
+      </td>
+      <td>
+       <p
+          style={{
+            fontFamily: "var(--made-font-weight-bold)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>made-font-weight-bold</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-eyebrow-02</code>
+        <small>Font family for large eyebrow text</small>
+      </td>
+      <td>
+       <p
+          style={{
+            fontFamily: "var(--made-font-weight-default)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>made-font-weight-default</code>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-weight-bold)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>made-font-weight-bold</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Width Utility Classes 🧰
+
+New responsive percentage width classes added to help setting the percentage width of an element on various screen sizes.
+
+Examples would be `made-u-width-100`, `made-u-width--md-75`, `made-u-width--lg-50`.
+
+<a onClick={linkTo("utility-classes-width--responsive-breakpoints")}>
+  See the Width Responsive Breakpoints section to get started.
+</a>
+
+---
+
+## Feature Requests 🤝
+
+Made is always evolving – thanks to you.
+
+Every time you share bug fixes, components, or documentation with us, you’re helping us to understand your needs.​
+
+​To contribute, add feature request or offer feedback to Made. see our <a onClick={linkTo("hello-contribute--page")}>Contribution guidelines</a> - We would love to hear from you!​
+

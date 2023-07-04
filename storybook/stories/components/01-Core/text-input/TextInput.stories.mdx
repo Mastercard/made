@@ -2,10 +2,7 @@ import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
 import { BADGE } from "@geometricpanda/storybook-addon-badges";
 import { TextInput } from "./TextInput";
 
-<Meta
-  title="Forms/Text Input"
-  parameters={{ badges: [BADGE.OBSOLETE]}}
-/>
+<Meta title="Forms/Text Input" parameters={{ badges: [BADGE.OBSOLETE] }} />
 
 export const textInput = (args) => <TextInput {...args} />;
 
@@ -121,7 +118,7 @@ Add the disabled boolean attribute on an input to give it a grayed out appearanc
     Form label
   </label>
   <div class="made-c-text-input__wrapper">
-    <input type="text" id="exampleFormElementInput2" name="disabled-state" class="made-c-text-input" placeholder="Placeholder text" aria-disabled="true" disabled/>
+    <input type="text" id="exampleFormElementInput2" name="disabled-state" class="made-c-text-input" placeholder="Placeholder text" aria-disabled="true" disabled />
   </div>
   <div class="made-c-form__hint">Helper text</div>
 </div>`,
@@ -190,7 +187,7 @@ Add an error message using the `made-c-form__validation--error` class.
         <path d="M8.497 13H7.388V6.182h1.109V13zM7.942 3c.109 0 .211.02.307.058a.72.72 0 01.248.162.82.82 0 01.166.244.723.723 0 01.063.3c0 .11-.021.21-.063.302a.748.748 0 01-.414.396.818.818 0 01-.307.057.762.762 0 01-.554-.216.723.723 0 01-.221-.54A.756.756 0 017.943 3z" fill="var(--made-color-feedback-text-on-error)" />
       </g>
     </svg>
-    <input type="text" id="error-state" name="error" class="made-c-text-input made-c-text-input--error" placeholder="Placeholder text"/>
+    <input type="text" id="error-state" name="error" class="made-c-text-input made-c-text-input--error" placeholder="Placeholder text" />
   </div>
   <div class="made-c-form__validation--error">Validation</div>
 </div>`,
@@ -259,7 +256,7 @@ Add an error message using the `made-c-form__validation--success` class.
         <path d="M6.178 10.265l-2.37-2.37-.808.8 3.178 3.179L13 5.052l-.802-.802z" fill="var(--made-color-feedback-text-on-success)" />
       </g>
     </svg>
-    <input type="text" id="success-state" name="success" class="made-c-text-input made-c-text-input--success" placeholder="Placeholder text"/>
+    <input type="text" id="success-state" name="success" class="made-c-text-input made-c-text-input--success" placeholder="Placeholder text" />
   </div>
   <div class="made-c-form__validation--success">Validation</div>
 </div>`,

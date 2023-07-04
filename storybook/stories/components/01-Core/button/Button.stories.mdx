@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 <Meta
   title="Actions/Button"
-  parameters={{ badges: [BADGE.OBSOLETE] }}
+  parameters={{ badges: [BADGE.OBSOLETE]}}
 />
 
 export const button = (args) => <Button {...args} />;
@@ -513,7 +513,7 @@ Can also be applied to disabled buttons on a dark background.
         <div class="made-s-background-dark">
           <button
             type="button"
-            class="made-c-button made-c-button--primary made-u-margin-right-6-x"
+            class="made-c-button made-c-button--primary made-c-button--primary-on-dark made-u-margin-right-6-x"
             aria-disabled="true"
             disabled
           >
@@ -521,7 +521,7 @@ Can also be applied to disabled buttons on a dark background.
           </button>
           <button
             type="button"
-            class="made-c-button made-c-button--secondary made-u-margin-right-6-x"
+            class="made-c-button made-c-button--secondary made-c-button--secondary-on-dark made-u-margin-right-6-x"
             aria-disabled="true"
             disabled
           >
@@ -529,7 +529,7 @@ Can also be applied to disabled buttons on a dark background.
           </button>
           <button
             type="button"
-            class="made-c-button made-c-button--ghost"
+            class="made-c-button made-c-button--ghost made-c-button--secondary-on-dark"
             aria-disabled="true"
             disabled
           >

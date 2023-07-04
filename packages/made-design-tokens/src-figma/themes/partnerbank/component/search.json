@@ -1,0 +1,30 @@
+{
+  "search": {
+    "color": {
+      "background": {
+        "value": "{color.background.01}",
+        "type": "color",
+        "comment": "Background color for search input component ",
+        "themeable": "Yes"
+      }
+    },
+    "action": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{search.color.background}",
+            "type": "color",
+            "comment": "Background color for action within the search component",
+            "themeable": "Yes"
+          },
+          "hover": {
+            "value": "{color.gray.01-5}",
+            "type": "color",
+            "comment": "Background color for the hover state of action within the search component",
+            "themeable": "Yes"
+          }
+        }
+      }
+    }
+  }
+}

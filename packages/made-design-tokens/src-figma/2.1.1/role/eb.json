@@ -1,0 +1,35 @@
+{
+  "eb": {
+    "size - sm": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-3}",
+        "lineHeight": "{lineHeights.9}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.1}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.uppercase}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "figmaOnly": true
+    },
+    "size - lg": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-3}",
+        "lineHeight": "{lineHeights.10}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.1}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.uppercase}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

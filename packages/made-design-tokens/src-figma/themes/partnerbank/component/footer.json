@@ -1,0 +1,12 @@
+{
+  "footer": {
+    "color": {
+      "text": {
+        "value": "{color.white}",
+        "type": "color",
+        "comment": "Text color on footer component",
+        "themeable": "Yes"
+      }
+    }
+  }
+}

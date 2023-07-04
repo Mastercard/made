@@ -11,6 +11,7 @@ export const ActionBar = ({ items, isDisabled }) => {
                             <a
                                 href=""
                                 role="button"
+                                tabIndex="0"
                                 className={
                                     isDisabled == true
                                         ? "made-u-link--disabled"

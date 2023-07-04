@@ -1,0 +1,400 @@
+import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { SearchInput } from "./SearchInput";
+
+<Meta title="Forms/Search Input" parameters={{ badges: [BADGE.OBSOLETE] }} />
+
+export const searchInput = (args) => <SearchInput {...args} />;
+
+# Search Input
+
+Search offers users a way to explore a website or application using keywords. Search can be used as the primary means of discovering content or as a filter to aid the user in finding content.
+
+The Search Input is made up of the following:
+
+- Search Icon: Signifies a search field. The magnifying glass icon is a universal way to indicate search.
+- Placeholder text: Useful and short text hinting at what the user can search for. For example, “Search for networks or devices.”
+- Alert Icon (optional): Signifies that an error is present. 
+- Clear Button: Only appears when a text input has been given by the user. Clears the current text that is typed.
+- Helper Text (optional): The error message can be used to help the user fix their input quickly and should be specific to the detected error.
+- Text entry field: The place where a user enters their search query.
+
+To show/hide the Clear Button, the class `made-c-search-input__close-button-show` can be added or removed from the button.
+
+## Default
+
+<Canvas>
+  <Story
+    name="Default"
+    argTypes={{
+      placeholder: {
+        name: "Placeholder",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error"],
+        },
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      rounded : {
+        name: "Rounded Corners"
+      }
+    }}
+    args={{
+      name: "default",
+      value: "",
+      placeholder: "Type to search...",
+      state: "default",
+      validationText: "Validation",
+      rounded: false,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name", "value"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <div class="made-c-search-input__wrapper">
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      class="made-c-search-input__search-icon"
+    >
+      <title>search</title>
+      <path
+        d="M9.083 0a9.083 9.083 0 016.936 14.948L24 22.93 22.93 24l-7.982-7.981A9.083 9.083 0 119.083 0zm.093 1.412a7.765 7.765 0 100 15.53 7.765 7.765 0 000-15.53z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <input
+      type="text"
+      id="default"
+      name="default"
+      class="made-c-search-input made-u-margin-bottom-2-x"
+      placeholder="Placeholder text"
+    />
+    <button type="button" class="made-c-search-input__close-button">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="26"
+        height="25"
+        viewBox="0 0 26 25"
+        className="made-c-search-input__close-button-icon"
+      >
+        <title>close</title>
+        <path
+          d="M23.585.146l1.768 1.768-10.586 10.585 10.586 10.585-1.768 1.768L13 14.266 2.415 24.852.647 23.084 11.233 12.5.647 1.914 2.415.146 13 10.732 23.585.146z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{searchInput.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled
+
+Add the disabled boolean attribute on the input and the clear button to give it a grayed-out appearance and remove pointer events.
+
+<Canvas>
+  <Story
+    name="Disabled State"
+    argTypes={{
+      placeholder: {
+        name: "Placeholder",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error"],
+        },
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      rounded : {
+        name: "Rounded Corners"
+      }
+    }}
+    args={{
+      name: "disabled-state",
+      value: "",
+      placeholder: "Type to search...",
+      state: "disabled",
+      validationText: "Validation",
+      rounded: false,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name", "value"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <div class="made-c-search-input__wrapper">
+    <input
+      type="text"
+      id="default"
+      name="default"
+      class="made-c-search-input made-u-margin-bottom-2-x"
+      placeholder="Type to search..."
+      disabled
+    />
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      class="made-c-search-input__search-icon"
+    >
+      <title>search</title>
+      <path
+        d="M9.083 0a9.083 9.083 0 016.936 14.948L24 22.93 22.93 24l-7.982-7.981A9.083 9.083 0 119.083 0zm.093 1.412a7.765 7.765 0 100 15.53 7.765 7.765 0 000-15.53z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <button type="button" class="made-c-search-input__close-button" disabled>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="26"
+        height="25"
+        viewBox="0 0 26 25"
+        className="made-c-search-input__close-button-icon"
+      >
+        <title>close</title>
+        <path
+          d="M23.585.146l1.768 1.768-10.586 10.585 10.586 10.585-1.768 1.768L13 14.266 2.415 24.852.647 23.084 11.233 12.5.647 1.914 2.415.146 13 10.732 23.585.146z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{searchInput.bind({})}
+  </Story>
+</Canvas>
+
+## Error State
+
+The error message is used to help the user fix their input quickly and should be specific to the detected error.
+
+<Canvas>
+  <Story
+    name="Error State"
+    argTypes={{
+      placeholder: {
+        name: "Placeholder",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error"],
+        },
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      rounded : {
+        name: "Rounded Corners"
+      }
+    }}
+    args={{
+      name: "error-state",
+      value: "",
+      placeholder: "Type to search...",
+      state: "error",
+      validationText: "Validation",
+      rounded: false,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name", "value"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <div class="made-c-search-input__wrapper">
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      class="made-c-search-input__search-icon"
+    >
+      <title>search</title>
+      <path
+        d="M9.083 0a9.083 9.083 0 016.936 14.948L24 22.93 22.93 24l-7.982-7.981A9.083 9.083 0 119.083 0zm.093 1.412a7.765 7.765 0 100 15.53 7.765 7.765 0 000-15.53z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <input
+      type="text"
+      id="default"
+      name="default"
+      class="made-c-search-input made-u-margin-bottom-2-x made-c-search-input--error"
+      placeholder="Placeholder text"
+    />
+    <button type="button" class="made-c-search-input__close-button">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="26"
+        height="25"
+        viewBox="0 0 26 25"
+        className="made-c-search-input__close-button-icon"
+      >
+        <title>close</title>
+        <path
+          d="M23.585.146l1.768 1.768-10.586 10.585 10.586 10.585-1.768 1.768L13 14.266 2.415 24.852.647 23.084 11.233 12.5.647 1.914 2.415.146 13 10.732 23.585.146z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    class="made-c-form__validation--error made-c-form__validation--search-input"
+  >
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 24 23"
+      xmlns="http://www.w3.org/2000/svg"
+      class="made-u-margin-right-1-x"
+    >
+      <title>exclamation mark in a triangle - solid fill</title>
+      <path
+        d="M11.967 17.003c.617 0 1.012.465 1.012 1.109 0 .626-.395 1.11-1.012 1.11-.602 0-1.013-.484-1.013-1.11 0-.644.43-1.11 1.013-1.11zm.824-10.038l-.24 8.588h-1.167l-.241-8.588h1.648zM24 22.8H0L12 0l12 22.8z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      ></path>
+    </svg>
+    Validation
+  </div>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{searchInput.bind({})}
+  </Story>
+</Canvas>
+
+## Rounded
+
+Add the class `made-c-search-input--rounded` to the input element to make the input rounded.
+
+<Canvas>
+  <Story
+    name="Rounded"
+    argTypes={{
+      placeholder: {
+        name: "Placeholder",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error"],
+        },
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      rounded : {
+        name: "Rounded Corners"
+      }
+    }}
+    args={{
+      name: "rounded",
+      value: "",
+      placeholder: "Type to search...",
+      state: "default",
+      validationText: "Validation",
+      rounded: true,
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name", "value"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <div class="made-c-search-input__wrapper">
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      class="made-c-search-input__search-icon"
+    >
+      <title>search</title>
+      <path
+        d="M9.083 0a9.083 9.083 0 016.936 14.948L24 22.93 22.93 24l-7.982-7.981A9.083 9.083 0 119.083 0zm.093 1.412a7.765 7.765 0 100 15.53 7.765 7.765 0 000-15.53z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <input
+      type="text"
+      id="default"
+      name="default"
+      class="made-c-search-input made-c-search-input--rounded made-u-margin-bottom-2-x"
+      placeholder="Placeholder text"
+    />
+    <button type="button" class="made-c-search-input__close-button">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="26"
+        height="25"
+        viewBox="0 0 26 25"
+        className="made-c-search-input__close-button-icon"
+      >
+        <title>close</title>
+        <path
+          d="M23.585.146l1.768 1.768-10.586 10.585 10.586 10.585-1.768 1.768L13 14.266 2.415 24.852.647 23.084 11.233 12.5.647 1.914 2.415.146 13 10.732 23.585.146z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{searchInput.bind({})}
+  </Story>
+</Canvas>
