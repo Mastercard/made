@@ -1,45 +1,365 @@
 import { Meta, Canvas, Story } from "@storybook/addon-docs";
 import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { Pill } from "./Pill";
 
 <Meta
   title="Feedback/Pill"
   parameters={{ badges: [BADGE.OBSOLETE] }}
 />
 
+export const pill = (args) => <Pill {...args} />;
+
 # Pill
 
-Pill Components are labels which hold small amounts of information. They can also contain a button with an icon.
+Pill Components are labels which hold small amounts of information.
 
-## Default
+## Unbranded
 
 <Canvas>
-  <Story name="Default">
-    <span class="made-c-pill">Pill value</span>
+  <Story
+    name="Unbranded"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isDismissable: {
+        name: "Dismissable",
+      },
+      isBranded: {
+        name: "Branded",
+      },
+      isSquared: {
+        name: "Squared",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+    }}
+    args={{
+      text: "Pill label",
+      isDismissable: false,
+      size: "default",
+      isBranded: false,
+      isDisabled: false,
+      isSquared: false,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `  
+<div tabindex="0" class="made-c-pill">
+  <span class="made-c-pill__label">
+    Pill label
+  </span>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{pill.bind({})}
   </Story>
 </Canvas>
 
-## With Button Icon
+## Unbranded & Dismissable
+
+You can add a 'close' button for dismissing the Pill component. Add the class `made-c-pill--dismissable` alongside the class `made-c-pill` and add a button with a class `made-c-pill__button` that contains the 'close' icon SVG.
 
 <Canvas>
-  <Story name="With Button Icon">
-    <span class="made-c-pill">
-      Pill value
-      <button class="made-c-pill__button">
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          class="made-c-pill__icon"
-        >
-          <title>close</title>
-          <path
-            d="M22.938 0 24 1.062 13.061 12 24 22.938 22.938 24 12 13.061 1.062 24 0 22.938 10.938 12 0 1.062 1.062 0 12 10.938 22.938 0Z"
-            fill="var(--made-color-text-primary)"
-            fill-rule="evenodd"
-          />
-        </svg>
-      </button>
-    </span>
+  <Story
+    name="Unbranded & Dismissable"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isDismissable: {
+        name: "Dismissable",
+      },
+      isBranded: {
+        name: "Branded",
+      },
+      isSquared: {
+        name: "Squared",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+    }}
+    args={{
+      text: "Pill label",
+      isDismissable: true,
+      size: "default",
+      isBranded: false,
+      isDisabled: false,
+      isSquared: false,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `  
+<div tabindex="0" class="made-c-pill made-c-pill--dismissable">
+  <span class="made-c-pill__label">
+    Pill label
+  </span>
+  <button class="made-c-pill__button">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.46967 5.46967C5.76256 5.17678 6.23744 5.17678 6.53033 5.46967L12 10.9393L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L13.0607 12L18.5303 17.4697C18.8232 17.7626 18.8232 18.2374 18.5303 18.5303C18.2374 18.8232 17.7626 18.8232 17.4697 18.5303L12 13.0607L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L10.9393 12L5.46967 6.53033C5.17678 6.23744 5.17678 5.76256 5.46967 5.46967Z"></path>
+    </svg>
+  </button>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{pill.bind({})}
+  </Story>
+</Canvas>
+
+## Branded
+
+The Pill component can also be branded with a logo icon. Add the class `made-c-pill--branded` alongside the class `made-c-pill` and add a div with a class `made-c-pill__brand-icon`; this div contains the SVG icon.
+
+<Canvas>
+  <Story
+    name="Branded"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isDismissable: {
+        name: "Dismissable",
+      },
+      isBranded: {
+        name: "Branded",
+      },
+      isSquared: {
+        name: "Squared",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+    }}
+    args={{
+      text: "Pill label",
+      isDismissable: false,
+      size: "default",
+      isBranded: true,
+      isDisabled: false,
+      isSquared: false,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `  
+<div tabindex="0" class="made-c-pill made-c-pill--branded">
+  <span class="made-c-pill__label">
+    Pill label
+  </span>
+  <div class="made-c-pill__brand-icon">
+    <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0731 7.90576V8.32243H16.0376V8.00743L15.9832 8.27923H15.9464L15.8921 8.00802V8.32243H15.8564V7.90576H15.9069L15.9649 8.19226L16.0228 7.90576H16.0731ZM15.754 7.97658V8.32243H15.7189V7.97658H15.6543V7.90606H15.8186V7.97658H15.754Z" fill="#F89E1B"></path><path d="M5.91602 8.9579H10.3139V1.10449H5.91602V8.9579Z" fill="#F16522"></path><path d="M6.19947 5C6.19947 3.40497 6.94866 1.98451 8.11518 1.06901C7.26211 0.399475 6.18547 0 5.01552 0C2.2455 0 0 2.23856 0 5C0 7.76144 2.2455 10 5.01552 10C6.18547 10 7.26211 9.60052 8.11518 8.93099C6.94866 8.01549 6.19947 6.59503 6.19947 5Z" fill="#E52523"></path><path d="M16.2304 5C16.2304 7.76144 13.9849 10 11.2149 10C10.0448 10 8.96831 9.60052 8.11523 8.93099C9.28176 8.01549 10.0309 6.59503 10.0309 5C10.0309 3.40497 9.28176 1.98451 8.11523 1.06901C8.96831 0.399475 10.0448 0 11.2149 0C13.9849 0 16.2304 2.23856 16.2304 5Z" fill="#F89E1B"></path>
+    </svg>
+  </div>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{pill.bind({})}
+  </Story>
+</Canvas>
+
+## Disabled
+
+Add the class `made-c-pill--disabled` alongside the class `made-c-pill` to give a grayed-out appearance and remove pointer events.
+
+<Canvas>
+  <Story
+    name="Disabled"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isDismissable: {
+        name: "Dismissable",
+      },
+      isBranded: {
+        name: "Branded",
+      },
+      isSquared: {
+        name: "Squared",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+    }}
+    args={{
+      text: "Pill label",
+      isDismissable: false,
+      size: "default",
+      isBranded: false,
+      isDisabled: true,
+      isSquared: false,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `  
+<div tabindex="0" class="made-c-pill made-c-pill--disabled">
+  <span class="made-c-pill__label">
+    Pill label
+  </span>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{pill.bind({})}
+  </Story>
+</Canvas>
+
+
+## Squared
+
+Add the class `made-c-pill--squared` alongside the class `made-c-pill` to provide the Pill component with a squared appearance.
+
+<Canvas>
+  <Story
+    name="Squared"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isDismissable: {
+        name: "Dismissable",
+      },
+      isBranded: {
+        name: "Branded",
+      },
+      isSquared: {
+        name: "Squared",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+    }}
+    args={{
+      text: "Pill label",
+      isDismissable: false,
+      size: "default",
+      isBranded: false,
+      isDisabled: false,
+      isSquared: true,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `  
+<div tabindex="0" class="made-c-pill made-c-pill--squared">
+  <span class="made-c-pill__label">
+    Pill label
+  </span>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{pill.bind({})}
+  </Story>
+</Canvas>
+
+## Small
+
+Add the class `made-c-pill--sm` alongside the class `made-c-pill` to reduce the size of the pill.
+
+<Canvas>
+  <Story
+    name="Small"
+    argTypes={{
+      text: {
+        name: "Text",
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isDismissable: {
+        name: "Dismissable",
+      },
+      isBranded: {
+        name: "Branded",
+      },
+      isSquared: {
+        name: "Squared",
+      },
+      size: {
+        name: "Size",
+        control: {
+          type: "radio",
+          options: ["default", "small"],
+        },
+      },
+    }}
+    args={{
+      text: "Pill label",
+      isDismissable: false,
+      size: "small",
+      isBranded: false,
+      isDisabled: false,
+      isSquared: false,
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `  
+<div tabindex="0" class="made-c-pill made-c-pill--sm">
+  <span class="made-c-pill__label">
+    Pill label
+  </span>
+</div>
+`,
+        },
+      },
+    }}
+  >
+    >{pill.bind({})}
   </Story>
 </Canvas>

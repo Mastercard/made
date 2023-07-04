@@ -92,7 +92,7 @@ export const Pagination = ({
 					</svg>
 				</button>
 			</div>
-			<div class="made-c-pagination__count made-u-margin-left-2-x--md">
+			<div class="made-c-pagination__count made-u-margin-left--md-2-x">
 				{displayText}
 			</div>
 		</div>

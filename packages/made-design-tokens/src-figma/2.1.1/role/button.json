@@ -1,0 +1,10 @@
+{
+  "button": {
+    "border-radius": {
+      "comment": "Button Border Radius",
+      "themeable": "Yes",
+      "type": "borderRadius",
+      "value": "{border.radius.07.value}"
+    }
+  }
+}
