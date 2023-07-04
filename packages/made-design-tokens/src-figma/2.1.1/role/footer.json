@@ -1,0 +1,12 @@
+{
+  "footer": {
+    "color": {
+      "background": {
+        "comment": "Background color for footer component",
+        "themeable": "Yes",
+        "type": "color",
+        "value": "{color.gray.07.value}"
+      }
+    }
+  }
+}

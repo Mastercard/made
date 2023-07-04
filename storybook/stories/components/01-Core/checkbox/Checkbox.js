@@ -1,5 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { useRef } from "react";
+const { useState } = React;
 import { uniqueInteger } from "../../../assets/js/global";
 
 export const Checkbox = ({
@@ -9,6 +11,14 @@ export const Checkbox = ({
 	isValid,
 	validationText,
 }) => {
+	const btnRef = useRef();
+	const [checked, setChecked] = useState(false);
+	const toggleChecked = () => setChecked(value => !value);
+
+	const handleClick = () => {
+		btnRef.current.focus();
+	  };
+
 	let uniqueId = uniqueInteger(1000); //generate unique id between 0 and 1000
 	return (
 		<div className="made-c-form__element">
@@ -22,9 +32,11 @@ export const Checkbox = ({
 				type="checkbox"
 				id={`checkbox-group-${uniqueId}`}
 				value="1"
-				checked={state == "checked" ? "checked" : ""}
+				checked={checked}
+				onChange={toggleChecked}
+				onClick={handleClick}
 				disabled={isDisabled}
-				onClick={true}
+				ref={btnRef}
 			/>
 			<label
 				className={

@@ -74,6 +74,10 @@
   width: 100px;
 }
 
+.made-s-code-block--width-100 {
+  width: 100%;
+}
+
 .made-s-width-block {
   background-color: rgba(0, 150, 255, 0.1);
   border: 1px dashed #0096ff;
@@ -100,21 +104,22 @@
 }
 
 .made-s-home {
-  background: url('./assets/images/home.png') center
-    center / cover no-repeat fixed #282828;
+  background: url("./assets/images/home.png") center center /
+      cover no-repeat fixed #282828;
   height: 100vh;
   padding: 3rem;
 }
 
 .sbdocs-h1 {
-  font-family: var(--made-font-heading-family-01), Arial, Helvetica, sans-serif !important;
+  font-family: var(--made-font-heading-family-01), Arial, Helvetica,
+      sans-serif !important;
   font-size: var(--made-font-heading-size-level-01) !important;
 }
 
 .made-s-intro {
   color: white !important;
   font-family: var(--made-font-heading-family-level-01), Arial, Helvetica,
-    sans-serif !important;
+      sans-serif !important;
   font-size: var(--made-font-size-08) !important;
 }
 
@@ -196,11 +201,11 @@ hr {
 }
 
 .made-s-outline--height-2 {
-	height: 6.25rem;
+  height: 6.25rem;
 }
 
 .made-s-outline--height-3 {
-	height: 9.375rem;
+  height: 9.375rem;
 }
 
 .made-s-code-block--auto-height {
@@ -214,13 +219,9 @@ hr {
   text-decoration: underline !important;
 }
 
-.sbdocs-a:hover {
-  text-decoration: none !important;
-}
-
 h1 {
   font-family: var(--made-font-heading-family-level-01), Arial, Helvetica,
-    sans-serif !important;
+      sans-serif !important;
   font-size: var(--made-font-heading-size-level-01) !important;
   font-weight: normal !important;
 }
@@ -228,19 +229,19 @@ h1 {
 h2 {
   border-bottom: none !important;
   font-family: var(--made-font-heading-family-level-02), Arial, Helvetica,
-    sans-serif !important;
+      sans-serif !important;
   font-size: var(--made-font-heading-size-level-02) !important;
 }
 
 h3 {
   font-family: var(--made-font-heading-family-level-03), Arial, Helvetica,
-    sans-serif !important;
+      sans-serif !important;
   font-size: var(--made-font-heading-size-level-03) !important;
 }
 
 h4 {
   font-family: var(--made-font-heading-family-level-04), Arial, Helvetica,
-    sans-serif !important;
+      sans-serif !important;
   font-size: var(--made-font-heading-size-level-04) !important;
 }
 
@@ -284,7 +285,7 @@ h4 {
 
 .made-c-pill--planned {
   background-color: var(
-    --made-color-feedback-background-information
+      --made-color-feedback-background-information
   ) !important;
 }
 
@@ -292,9 +293,13 @@ h4 {
   background-color: var(--made-color-feedback-background-warning) !important;
 }
 
+.sb-vs-code-gif {
+  width: 50%;
+}
+
 @media (min-width: 960px) {
   .docs-img {
-    width: 75%;
+      width: 75%;
   }
 }
 
@@ -308,14 +313,4 @@ mark {
 
 blockquote {
   margin: var(--made-space-10-x) var(--made-space-4-x) !important;
-}
-
-.made-c-tour {
-  opacity: 1;
-  visibility: visible;
-  transform: none;
-  top: auto;
-  right: auto;
-  bottom: auto;
-  left: auto;
 }

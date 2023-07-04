@@ -1,0 +1,16 @@
+{
+  "fontFamilies": {
+    "mark-offc-for-mc": {
+      "value": "Mark Offc For MC",
+      "type": "fontFamilies",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "markformcnrw": {
+      "value": "MarkForMCNrw",
+      "type": "fontFamilies",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

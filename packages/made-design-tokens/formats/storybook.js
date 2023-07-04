@@ -1,3 +1,13 @@
+/* 
+
+This file is used to output JSON file for Storybook documentation.
+See https://amzn.github.io/style-dictionary/#/tokens?id=category-type-item 
+for more information on how to target a token.
+
+If you add a new token category add to the template below.
+
+*/
+
 module.exports = function (dictionary, options) {
   return (
     `{ "color" : {
@@ -14,7 +24,9 @@ module.exports = function (dictionary, options) {
           token.attributes.type === `teal` ||
           token.attributes.type === `gray` ||
           token.attributes.type === `white` ||
-          token.attributes.type === `black`
+          token.attributes.type === `black` ||
+          token.attributes.type === `green-success` ||
+          token.attributes.type === `red-error`
       )
       .map((token) => {
         const original = `${token.original.value
@@ -102,6 +114,10 @@ module.exports = function (dictionary, options) {
           (token.attributes.category === `footer` &&
             token.attributes.type === `color`) ||
           (token.attributes.category === `scrollbar` &&
+            token.attributes.type === `color`) ||
+          (token.attributes.category === `pill` &&
+            token.attributes.type === `color`) ||
+          (token.attributes.category === `search` &&
             token.attributes.type === `color`)
       )
       .map((token) => {

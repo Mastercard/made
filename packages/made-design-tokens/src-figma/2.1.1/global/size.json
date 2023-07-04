@@ -1,0 +1,124 @@
+{
+  "size": {
+    "1-x": {
+      "comment": "Size: 4px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "4px"
+    },
+    "2-x": {
+      "comment": "Size: 8px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "8px"
+    },
+    "3-x": {
+      "comment": "Size: 12px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "12px"
+    },
+    "4-x": {
+      "comment": "Size: 16px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "16px"
+    },
+    "5-x": {
+      "comment": "Size: 20px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "20px"
+    },
+    "6-x": {
+      "comment": "Size: 24px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "24px"
+    },
+    "7-x": {
+      "comment": "Size: 28px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "28px"
+    },
+    "8-x": {
+      "comment": "Size: 32px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "32px"
+    },
+    "9-x": {
+      "comment": "Size: 36px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "36px"
+    },
+    "10-x": {
+      "comment": "Size: 40px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "40px"
+    },
+    "11-x": {
+      "comment": "Size: 44px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "44px"
+    },
+    "12-x": {
+      "comment": "Size: 48px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "48px"
+    },
+    "13-x": {
+      "comment": "Size: 52px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "52px"
+    },
+    "14-x": {
+      "comment": "Size: 56px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "56px"
+    },
+    "15-x": {
+      "comment": "Size: 60px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "60px"
+    },
+    "16-x": {
+      "comment": "Size: 64px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "64px"
+    },
+    "17-x": {
+      "comment": "Size: 68px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "68px"
+    },
+    "18-x": {
+      "comment": "Size: 72px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "72px"
+    },
+    "19-x": {
+      "comment": "Size: 76px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "76px"
+    },
+    "20-x": {
+      "comment": "Size: 80px",
+      "themeable": "No",
+      "type": "sizing",
+      "value": "80px"
+    }
+  }
+}

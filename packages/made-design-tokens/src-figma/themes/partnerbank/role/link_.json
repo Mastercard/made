@@ -1,0 +1,68 @@
+{
+  "link_": {
+    "size - sm": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+        "lineHeight": "{line.height.rem.04}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.1}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "figmaOnly": true,
+      "comment": "Figma-only design token."
+    },
+    "size - md": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+        "lineHeight": "{line.height.rem.04}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "figmaOnly": true,
+      "comment": "Figma-only design token."
+    },
+    "size - sm - :hover": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+        "lineHeight": "{line.height.rem.04}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.1}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.underline}"
+      },
+      "type": "typography",
+      "figmaOnly": true,
+      "comment": "Figma-only design token."
+    },
+    "size - md - :hover": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+        "lineHeight": "{line.height.rem.05}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.1}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.underline}"
+      },
+      "type": "typography",
+      "figmaOnly": true,
+      "comment": "Figma-only design token."
+    }
+  }
+}

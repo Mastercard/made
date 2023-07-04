@@ -1,11 +1,26 @@
 import React, { useState } from "react";
+import { useRef } from "react";
 import PropTypes from "prop-types";
 
 export const Modal = () => {
   const [showModal, setShowModal] = useState(false);
+  
+  const itemEls = useRef(new Array())
 
-  let modalVisible = () => setShowModal(true);
-  let closeModal = () => setShowModal(false);
+  let modalVisible = () => 
+  { 
+    setShowModal(true);
+    itemEls.current[0].focus();
+  }
+
+  let closeModal = () => {
+    itemEls.current[3].focus();
+    setShowModal(false);
+  }
+
+  const handleClick = (index) => {
+	  itemEls.current[index.target.value].focus();
+	};
 
   return (
     <div>
@@ -13,6 +28,7 @@ export const Modal = () => {
         className="made-c-button made-c-button--primary"
         type="button"
         onClick={modalVisible}
+        ref={(element) => itemEls.current[0] = element}
       >
         Open Modal
       </button>
@@ -23,14 +39,15 @@ export const Modal = () => {
           <div class="made-c-modal__header">
             <button
               type="button"
-              class="made-c-button--close"
+              class="made-c-button-close"
               onClick={closeModal}
+              ref={(element) => itemEls.current[3] = element}
             >
               <svg
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                className="made-c-button__icon--close"
+                className="made-c-button-close__icon"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <title>close</title>
@@ -52,13 +69,19 @@ export const Modal = () => {
           <div class="made-c-modal__footer">
             <button
               type="button"
-              className="made-c-button made-c-button--primary made-u-margin-top-4-x made-u-margin-right-4-x made-u-margin-top-0-x--md"
+              className="made-c-button made-c-button--primary made-u-margin-top-4-x made-u-margin-right-4-x made-u-margin-top--md-0-x"
+              onClick={handleClick}
+              value="1"
+              ref={(element) => itemEls.current[1] = element}
             >
               Primary
             </button>
             <button
               type="button"
-              className="made-c-button made-c-button--secondary made-u-margin-top-4-x made-u-margin-top-0-x--md"
+              className="made-c-button made-c-button--secondary made-u-margin-top-4-x made-u-margin-top--md-0-x"
+              value="2"
+              onClick={handleClick}
+              ref={(element) => itemEls.current[2] = element}
             >
               Secondary
             </button>

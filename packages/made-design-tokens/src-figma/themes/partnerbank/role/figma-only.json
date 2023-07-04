@@ -1,0 +1,65 @@
+{
+  "figma-only": {
+    "shadow": {
+      "default": {
+        "value": {
+          "color": "#14141333",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "2",
+          "blur": "10",
+          "spread": "0"
+        },
+        "type": "boxShadow",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      },
+      "toggle": {
+        "value": [
+          {
+            "color": "#1414134d",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "2",
+            "spread": "0"
+          },
+          {
+            "color": "#14141326",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "5",
+            "blur": "10",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      }
+    },
+    "focus-indicator": {
+      "value": [
+        {
+          "color": "{color.background.default}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "2"
+        },
+        {
+          "color": "{color.brand.primary}",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4"
+        }
+      ],
+      "type": "boxShadow",
+      "figmaOnly": true,
+      "comment": "Figma-only box shadow for certain components that use box shadows in design to create the focus indicator. "
+    }
+  }
+}

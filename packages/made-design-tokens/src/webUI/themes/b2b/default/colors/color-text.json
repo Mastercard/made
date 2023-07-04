@@ -1,0 +1,58 @@
+{
+  "color": {
+    "text": {
+      "default": {
+        "on-light": {
+          "comment": "Color of body text on light background.",
+          "value": "{color.gray.07.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-dark": {
+          "comment": "Color of body text on dark background.",
+          "value": "#FFFFFF",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "comment": "Text color of primary brand color.",
+        "value": "{color.brand.primary.value}",
+        "themeable": "No",
+        "type": "color"
+      },
+      "helper": {
+        "comment": "Text color of helper text on forms, cards etc.",
+        "value": "{color.gray.05.value}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "inverse": {
+        "comment": "Inverse text/icon color",
+        "value": "{color.white.value}",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  },
+  "footer": {
+    "color": {
+      "text": {
+        "comment": "Text color on footer component",
+        "value": "{color.white.value}",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  },
+  "header": {
+    "color": {
+      "text": {
+        "comment": "Text color on header component",
+        "value": "{color.white.value}",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  }
+}

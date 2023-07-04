@@ -1,0 +1,10 @@
+{
+  "pill": {
+    "border-radius": {
+      "comment": "Pill Border Radius",
+      "themeable": "Yes",
+      "type": "borderRadius",
+      "value": "{border.radius.05.value}"
+    }
+  }
+}
