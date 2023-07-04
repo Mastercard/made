@@ -10,4 +10,7 @@ module.exports = {
     "@storybook/addon-toolbars",
     "@geometricpanda/storybook-addon-badges",
   ],
+  core: {
+    builder: 'webpack5',
+  },
 };
