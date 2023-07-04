@@ -1,0 +1,52 @@
+{
+  "link_": {
+    "size - sm": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+        "lineHeight": "{lineHeights.11}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.1}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "size - md": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+        "lineHeight": "{lineHeights.10}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "size - sm - :hover": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+        "lineHeight": "{lineHeights.11}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.1}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.underline}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

@@ -28,7 +28,7 @@ export const FileUpload = ({ fileName, fileSize, actionText, unit }) => {
 				</div>
 			</div>
 			<div class="made-c-file__action">
-				<a href="" class="">
+				<a href="">
 					{actionText}
 				</a>
 			</div>

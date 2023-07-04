@@ -567,12 +567,12 @@ Responsive classes align with the medium and large breakpoints as outlined on th
 
 ### Flex Shrink
 
-Use `made-u-flex-shrink-1` utility classes to toggle a flex item’s ability to shrink if necessary. In the example below, the second flex item with `made-u-flex-shrink-1` is forced to wrap its contents to a new line, “shrinking” to allow more space for the previous flex item with `made-u-width-100`.
+Use `made-u-flex-shrink-1` utility classes to toggle a flex item’s ability to shrink if necessary. In the example below, the second flex item with `made-u-flex-shrink-1` is forced to wrap its contents to a new line, “shrinking” to allow more space for the previous flex item that has a width of 100%.
 
 <Canvas>
 	<Story name="Flex Shrink">
 		<div class="made-u-display-flex">
-			<div class="made-s-code-block made-u-width-100">Flex Item</div>
+			<div class="made-s-code-block made-s-code-block--width-100">Flex Item</div>
 			<div class="made-s-code-block made-u-flex-shrink-1">Flex Item Shrink</div>
 		</div>
 	</Story>

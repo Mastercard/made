@@ -1,0 +1,47 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import vsCodeGif1 from "../assets/images/vscode-01.gif";
+import vsCodeGif2 from "../assets/images/vscode-02.gif";
+
+<Meta title="Tools/VS Code Extension" />
+
+# Made Design Tokens for VS Code
+
+We are excited to announce that we have now published our first VS Code extension: Made Tokens for VS Code to help you enhance your design token workflow.
+
+Effortlessly find the correct tokens and get autocomplete suggestions right inside your code editor.
+
+[Install via the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Mastercard.made-design-tokens-for-vscode)
+
+Here's what you can expect:
+ 
+- 🗄️ Automatic functionality: Our Design Token Autocomplete feature intuitively integrates with your CSS and Sass files, saving you valuable time and effort.
+- 🔍 Enhanced previews: Explore design token values right within the autocomplete description, giving you a glimpse of how they will impact your design.
+- 🎨 Color previews: Allowing you to make informed decisions when selecting the correct token or theming.
+- 🥇 Tailored completions: Benefit from relevant code completions that align with your current line of code, providing you with the most appropriate suggestions for a seamless coding experience.
+
+## Autocomplete Preview
+
+Utilise Autocomplete suggestions for Made design tokens.
+
+<img src={vsCodeGif1} alt="Autcomplete Preview" class="sb-vs-code-gif" />
+
+## Hover preview
+
+See the exact value of the Made Design Token’s CSS custom properties on hover.
+
+<img src={vsCodeGif2} alt="Hover Preview" class="sb-vs-code-gif" />
+
+## Switch between Made Tokens versions
+
+Useful when working on multiple projects and wish to quickly switch between different versions of our Made Tokens. Simply go to "Extensions > Made Design Tokens > Extension Settings" to swtich between versions.
+
+Supported Made Design Tokens versions: 2.1.1 and 2.2.0
+
+## How to use
+
+1. Install and enable the extension.
+2. Open a CSS or Sass file.
+3. Start typing the CSS property you want to set. (e.g. color:)
+4. Type the trigger character --.
+5. The autocomplete tokens suggestions associated with the typed CSS property will be shown.
+6. Select the token and it will be inserted along with the var() function.

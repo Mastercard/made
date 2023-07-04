@@ -1,7 +1,17 @@
 import React from "react";
+import { useRef } from "react";
+const { useState } = React;
 import PropTypes from "prop-types";
 
 export function Toggle({ name, isChecked, label, isDisabled }) {
+	const btnRef = useRef();
+	const [checked, setChecked] = useState(false);
+	const toggleChecked = () => setChecked(value => !value);
+
+	const handleClick = () => {
+		btnRef.current.focus();
+	  };
+
 	return (
 		<div className="made-c-form__element">
 			<span className="made-c-form__label" id={name}>
@@ -13,8 +23,10 @@ export function Toggle({ name, isChecked, label, isDisabled }) {
 					className="made-c-toggle__input"
 					aria-labelledby={name}
 					disabled={isDisabled}
-					checked={isChecked}
-					onClick={true}
+					onChange={toggleChecked}
+					checked={isChecked ? isChecked:checked}
+					onClick={handleClick}
+					ref={btnRef}
 				/>
 				<span className="made-c-toggle__slider"></span>
 			</label>

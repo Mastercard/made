@@ -1,0 +1,162 @@
+{
+  "color": {
+    "feedback": {
+      "background": {
+        "error": {
+          "comment": "Background color for error state",
+          "value": "{color.feedback.error.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "error-light": {
+          "comment": "Background color for error state of Light variation of notifications and toasts",
+          "value": "{color.feedback.error-light.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "success": {
+          "comment": "Background color for success or positive state",
+          "value": "{color.feedback.success.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "success-light": {
+          "comment": "Background color for success or positive state for Light variation of notifications and toasts",
+          "value": "{color.feedback.success-light.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "information": {
+          "comment": "Background color for neutral or optional state",
+          "value": "{color.feedback.information.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "information-light": {
+          "comment": "Background color for neutral or optional state of Light variation of notifications and toasts",
+          "value": "{color.feedback.information-light.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "warning": {
+          "comment": "Background color for warning state",
+          "value": "{color.feedback.warning.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      },
+      "border": {
+        "error": {
+          "comment": "Border color for error state",
+          "value": "{color.feedback.error.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "success": {
+          "comment": "Border color for success or positive state",
+          "value": "{color.feedback.success.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "information": {
+          "comment": "Border color for neutral or optional state",
+          "value": "{color.feedback.information.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "error-light": {
+          "comment": "Border color for error state of Light variation of notifications and toasts",
+          "value": "{color.feedback.error-light.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "success-light": {
+          "comment": "Border color for success or positive state for Light variation of notifications and toasts",
+          "value": "{color.feedback.success-light.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "information-light": {
+          "comment": "Border color for neutral or optional state of Light variation of notifications and toasts",
+          "value": "{color.feedback.information-light.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "warning": {
+          "comment": "Border color or for warning state",
+          "value": "{color.feedback.warning.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      },
+      "text": {
+        "error": {
+          "comment": "Text color for error state",
+          "value": "{color.feedback.error.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "success": {
+          "comment": "Text color for success or positive state",
+          "value": "{color.feedback.success.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "information": {
+          "comment": "Text color for neutral or optional state",
+          "value": "{color.feedback.information.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "warning": {
+          "comment": "Text color for warning state",
+          "value": "{color.feedback.warning.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-error": {
+          "comment": "Text color displayed on top of the error color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-success": {
+          "comment": "Text color displayed on top of the error color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-warning": {
+          "comment": "Text color displayed on top of the warning color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-error-light": {
+          "comment": "Text color displayed on top of the error color of Light variation of notifications and toasts",
+          "value": "{color.red-error.05}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-success-light": {
+          "comment": "Text color displayed on top of the success color of Light variation of notifications and toasts",
+          "value": "{color.green-success.05}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-information": {
+          "comment": "Text color displayed on top of the error color",
+          "value": "{color.yellow.07.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-information-light": {
+          "comment": "Text color displayed on top of the information color of Light variation of notifications and toasts",
+          "value": "{color.yellow.07.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

@@ -2,6 +2,69 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.2.0
+
+### Features 🚀
+
+#### New tokens added:
+
+* `made-color-action-border-focus-on-dark`
+* `made-color-action-disabled-button`
+* `made-color-action-disabled-text-input`
+* `made-color-action-disabled-toggle`
+* `made-color-background-01`
+* `made-color-background-02`
+* `made-color-background-inverse`
+* `made-color-feedback-background-error-light`
+* `made-color-feedback-background-information-light`
+* `made-color-feedback-background-success-light`
+* `made-color-feedback-border-error-light`
+* `made-color-feedback-border-information-light`
+* `made-color-feedback-border-success-light`
+* `made-color-feedback-error-light`
+* `made-color-feedback-information-light`
+* `made-color-feedback-success-light`
+* `made-color-feedback-text-on-error-light`
+* `made-color-feedback-text-on-information-light`
+* `made-color-feedback-text-on-success-light`
+* `made-color-gray-02-5`
+* `made-color-green-success-01`
+* `made-color-green-success-02`
+* `made-color-green-success-03`
+* `made-color-green-success-04`
+* `made-color-green-success-05`
+* `made-color-green-success-06`
+* `made-color-green-success-07`
+* `made-color-red-error-01`
+* `made-color-red-error-02`
+* `made-color-red-error-03`
+* `made-color-red-error-04`
+* `made-color-red-error-05`
+* `made-color-red-error-06`
+* `made-color-red-error-07`
+* `made-color-text-inverse`
+* `made-footer-color-text`
+* `made-header-color-text`
+* `made-link-color-on-dark`
+* `made-pill-color-background-default`
+* `made-pill-color-background-hover`
+* `made-search-action-color-background-default`
+* `made-search-action-color-background-hover`
+* `made-search-color-background`
+
+### Fixes 🐛
+
+#### Changed tokens values:
+
+* `made-color-action-text-on-selected-hover` value changed from `made-color-action-primary-default` to `made-color-text-default-on-light`
+* `made-color-action-text-on-selected` value changed from `made-color-action-primary-default` to `made-color-text-default-on-light`
+* `made-color-feedback-text-on-information` value changed from `made-color-text-default-on-dark` to `made-color-yellow-07`
+* `made-font-family-eyebrow` value changed from `MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif` to `made-font-family-bold`
+* `made-font-family-heading` value changed from `MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif` to `made-font-family-light`
+* `made-font-heading-weight-eyebrow-01` value changed from `made-font-weight-default` to `made-font-weight-bold`
+* `made-font-heading-weight-eyebrow-02` value changed from `made-font-weight-defaul`t to `made-font-weight-bold`
+
+
 ## 2.1.1 
 
 ### Features

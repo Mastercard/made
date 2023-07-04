@@ -1,0 +1,85 @@
+{
+  "b2b": {
+    "elevation": {
+      "range-slider - thumb": {
+        "value": {
+          "color": "#14141333",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0"
+        },
+        "type": "boxShadow",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      },
+      "toggle-switch - head": {
+        "value": [
+          {
+            "color": "#1414134d",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "2",
+            "spread": "0"
+          },
+          {
+            "color": "#14141326",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "5",
+            "blur": "10",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      },
+      "content-card": {
+        "default": {
+          "value": {
+            "color": "#14141333",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "10",
+            "spread": "0"
+          },
+          "type": "boxShadow",
+          "comment": "Figma-only design token.",
+          "figmaOnly": true
+        },
+        "my-items-card": {
+          "default": {
+            "value": {
+              "color": "#14141333",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "0"
+            },
+            "type": "boxShadow",
+            "comment": "Figma-only design token.",
+            "figmaOnly": true
+          },
+          "hover": {
+            "value": {
+              "color": "#14141333",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "2",
+              "blur": "10",
+              "spread": "0"
+            },
+            "type": "boxShadow",
+            "comment": "Figma-only design token.",
+            "figmaOnly": true
+          }
+        }
+      }
+    }
+  }
+}
