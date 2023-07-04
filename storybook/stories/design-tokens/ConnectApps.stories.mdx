@@ -1,0 +1,46 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Design Tokens/Connect Apps" parameters={{}} />
+
+# Connect Apps
+
+This section aims to provide a process that enables Connect App teams to quickly test and confirm that experiences are correctly integrated with design tokens. 
+ 
+## About the Made Testing Theme
+
+The testing theme is used to update the existing Mastercard branded token values with the testing token values provided. By swapping them out with the testing token values, Mastercard colors such as gray, black, and orange turn into shades of blue, and the Mastercard brand fonts turn into Arial. The shift in colors and styles allows developers to quickly pinpoint areas you might have missed when initially adding design tokens. Following the steps below, your team can quickly switch between the Mastercard branded and Made testing themes.  
+ 
+## Objective of Testing
+
+Once you have completed the integration of Made Design Tokens, you want to ensure that you have integrated tokens in all respective elements in the UI. Using this theme will allow testing coverage and ensure the proper tokens have been leveraged during integration.  
+
+## How to Test with Made Testing Theme
+
+1. Add your project's individual Made test theme token file (.css /.scss, .less, or .json). 
+2. Import that file, instead of the default Made Tokens, into your global styles, and any of the tokens you've implemented will pull values from that Test Theme. Below is an example of CSS being used: 
+
+```
+// @import "~@mc-made/design-tokens/web/themes/b2b/tokens.scss";
+// @import "~@mc-made/fonts/made-for-mc.css";
+// @import "~@mc-made/css/made.min.css";
+
+@import "./made-test-theme.css";
+```
+
+3. After importing the Made test theme, your application styles will look blue. Every element that does not have that blue theme means you've missed adding a design token. The benefit of using the Made test theme is that you can easily and quickly test that you've added design tokens to your application in the correct locations.
+
+## Applications Behind Connect
+
+As part of the Connect Scorecard, applications must integrate with design tokens. The testing process above should be used to provide proof of token integration by app teams. 
+
+Steps to provide proof of application token integration: 
+
+1. Perform the steps above across multiple pages to demonstrate token integration.  
+
+2. Capture screen shots of each page and leverage the template provided by the Connect team to provide before and after screenshots of your application with the theme applied 
+__Note: We require you to input before and after screenshots of 90% of your application (e.g., if you have 10 routes / pages in your application, then please provide at least 9 before and after screenshots).__
+
+3. Send completed template to Hannah Chansler with application name. Once document is reviewed, the scorecard will be updated with the correct score 
+

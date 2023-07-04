@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import PropTypes from "prop-types";
 
 export const Button = ({
@@ -10,6 +11,12 @@ export const Button = ({
   isResponsive,
   background,
 }) => {
+  const btnRef = useRef();
+
+  const handleClick = () => {
+    btnRef.current.focus();
+  };
+
   let styleClass = "";
   let withIconClass = "";
   let sizeSmallClass = "";
@@ -42,7 +49,6 @@ export const Button = ({
 
   if (isResponsive == true) {
     responsiveClass = "made-u-width-100";
-    showIcon = false;
   }
 
   if (background == "dark") {
@@ -54,6 +60,8 @@ export const Button = ({
       <button
         id={style}
         type="button"
+        ref={btnRef}
+        onClick={handleClick}
         className={
           showIcon == true
             ? `made-c-button made-c-button--${styleClass} made-c-button--icon ${sizeSmallClass} ${responsiveClass}`
