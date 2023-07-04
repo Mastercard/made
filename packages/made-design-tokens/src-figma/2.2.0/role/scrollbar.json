@@ -1,0 +1,12 @@
+{
+  "scrollbar": {
+    "color": {
+      "background": {
+        "value": "{color.gray.03.value}",
+        "type": "color",
+        "comment": "Background color for scrollbar component",
+        "themeable": "Yes"
+      }
+    }
+  }
+}

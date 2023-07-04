@@ -1,4 +1,6 @@
 import React from "react";
+import { useRef } from "react";
+const { useState } = React;
 import PropTypes from "prop-types";
 import { uniqueInteger } from "../../../assets/js/global";
 
@@ -9,6 +11,14 @@ export const RadioButton = ({
 	isValid,
 	validationText,
 }) => {
+	const btnRef = useRef();
+	const [checked, setChecked] = useState(false);
+	const toggleChecked = () => setChecked(value => !value);
+
+	const handleClick = () => {
+	  btnRef.current.focus();
+	};
+
 	let uniqueId = uniqueInteger(1000); //generate unique id between 0 and 1000
 	return (
 		<div className="made-c-form__element">
@@ -19,8 +29,10 @@ export const RadioButton = ({
 				id={`radio-group-${uniqueId}`}
 				value="1"
 				disabled={isDisabled}
-				checked={isChecked}
-				onClick={true}
+				checked={isChecked ? isChecked:checked}
+				onChange={toggleChecked}
+				onClick={handleClick}
+				ref={btnRef}
 			/>
 			<label
 				className={

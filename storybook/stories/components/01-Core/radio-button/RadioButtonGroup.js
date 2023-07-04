@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import PropTypes from "prop-types";
 import { uniqueInteger } from "../../../assets/js/global";
 
@@ -9,6 +10,12 @@ export const RadioButtonGroup = ({
     isValid,
     validationText,
 }) => {
+    const itemEls = useRef(new Array())
+
+	const handleClick = (index) => {
+        itemEls.current[index.target.value].focus();
+	};
+
     let groupId = uniqueInteger(1000); //generate unique id between 0 and 1000
     let radioButtonGroupClass = "made-c-radio-group";
     if (!isVertical) {
@@ -43,6 +50,8 @@ export const RadioButtonGroup = ({
                                     type="radio"
                                     id={`radio-group-${uniqueId}`}
                                     value={index}
+                                    onClick={handleClick}
+                                    ref={(element) => itemEls.current[index] = element}
                                 />
                                 <label
                                     className="made-c-radio__label"
