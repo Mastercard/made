@@ -9,8 +9,5 @@ module.exports = {
     "@storybook/addon-a11y",
     "@storybook/addon-toolbars",
     "@geometricpanda/storybook-addon-badges",
-  ],
-  core: {
-    builder: 'webpack5',
-  },
+  ]
 };
