@@ -4046,6 +4046,36 @@
           "themeable": "Yes"
         }
       }
+    },
+    "checkbox": {
+      "color": {
+        "background": {
+          "default": {
+            "selected": {
+              "value": "{color.action.background.primary.default}",
+              "type": "color"
+            }
+          },
+          "neutral": {
+            "selected": {
+              "value": "{color.gray.06}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "neutral": {
+            "value": "{color.gray.06}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{color.action.primary.default}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "$themes": [
