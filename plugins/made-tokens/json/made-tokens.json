@@ -4050,7 +4050,7 @@
     "checkbox": {
       "color": {
         "background": {
-          "default": {
+          "branded": {
             "selected": {
               "value": "{color.action.background.primary.default}",
               "type": "color"
@@ -4067,12 +4067,24 @@
       "icon": {
         "color": {
           "neutral": {
-            "value": "{color.gray.06}",
-            "type": "color"
+            "readonly": {
+              "value": "{color.gray.06}",
+              "type": "color"
+            },
+            "default": {
+              "value": "{color.text.inverse}",
+              "type": "color"
+            }
           },
-          "default": {
-            "value": "{color.action.primary.default}",
-            "type": "color"
+          "branded": {
+            "readonly": {
+              "value": "{color.action.primary.default}",
+              "type": "color"
+            },
+            "default": {
+              "value": "{color.action.text.on-primary}",
+              "type": "color"
+            }
           }
         }
       }
@@ -4368,11 +4380,11 @@
         "link_.size - md - :hover": "S:101fbce963dc82c95f26c4d57cdecc34395fce8b,",
         "footer.color.text": "S:1e2f8ef7451dbd663b7fd316ce65888d94f4976e,",
         "header.color.text": "S:d847f174960e8e49e3809df53128984f4fe2ff0c,",
-        "checkbox.color.background.default.selected": "S:62514f4ce74d426e8b77229a0df1458f39742729,",
         "checkbox.color.background.neutral.selected": "S:71a5b31d8555ad46eeef6bbc72fa8ada76a87da4,",
-        "checkbox.icon.color.neutral": "S:f5f7716dd1ea6be726ad53529e7cae73eca3487c,",
-        "checkbox.icon.color.default": "S:0746a41f2e08ff70fc548ff08c39b47d30a8eaf4,",
-        "color.action.border.focus-on-dark": "S:0768540ca42592783516bb891a1df97afeb1ecf2,"
+        "color.action.border.focus-on-dark": "S:0768540ca42592783516bb891a1df97afeb1ecf2,",
+        "checkbox.color.background.branded.selected": "S:62514f4ce74d426e8b77229a0df1458f39742729,",
+        "checkbox.icon.color.branded.readonly": "S:0746a41f2e08ff70fc548ff08c39b47d30a8eaf4,",
+        "checkbox.icon.color.neutral.readonly": "S:f5f7716dd1ea6be726ad53529e7cae73eca3487c,"
       }
     }
   ],
