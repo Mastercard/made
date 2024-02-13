@@ -4053,13 +4053,17 @@
           "branded": {
             "selected": {
               "value": "{color.action.background.primary.default}",
-              "type": "color"
+              "type": "color",
+              "description": "Background color for branded checkboxes in their selected states.",
+              "themeable": "No"
             }
           },
           "neutral": {
             "selected": {
               "value": "{color.gray.06}",
-              "type": "color"
+              "type": "color",
+               "description": "Background color for neutral checkboxes in their selected states.",
+              "themeable": "No"
             }
           }
         }
@@ -4069,21 +4073,29 @@
           "neutral": {
             "readonly": {
               "value": "{color.gray.06}",
-              "type": "color"
+              "type": "color",
+              "description": "Icon color for neutral, read-only checkboxes in their selected states.",
+              "themeable": "No"
             },
             "default": {
               "value": "{color.text.inverse}",
-              "type": "color"
+              "type": "color",
+              "description": "Icon color for neutral checkboxes in their selected states.",
+              "themeable": "No"
             }
           },
           "branded": {
             "readonly": {
               "value": "{color.action.primary.default}",
-              "type": "color"
+              "type": "color",
+               "description": "Icon color for branded, read-only checkboxes in their selected states.",
+              "themeable": "No"
             },
             "default": {
               "value": "{color.action.text.on-primary}",
-              "type": "color"
+              "type": "color",
+               "description": " Icon color for branded checkboxes in their selected states.",
+              "themeable": "No"
             }
           }
         }
