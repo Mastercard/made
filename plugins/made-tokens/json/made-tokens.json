@@ -2372,6 +2372,11 @@
           "type": "color",
           "description": "Inverse text/icon color",
           "themeable": "Yes"
+        },
+        "placeholder": {
+          "value": "{color.gray.04}",
+          "type": "color",
+          "description": "Text color for placeholder content"
         }
       },
       "visualization": {
@@ -4062,7 +4067,7 @@
             "selected": {
               "value": "{color.gray.06}",
               "type": "color",
-               "description": "Background color for neutral checkboxes in their selected states.",
+              "description": "Background color for neutral checkboxes in their selected states.",
               "themeable": "No"
             }
           }
@@ -4088,15 +4093,26 @@
             "readonly": {
               "value": "{color.action.primary.default}",
               "type": "color",
-               "description": "Icon color for branded, read-only checkboxes in their selected states.",
+              "description": "Icon color for branded, read-only checkboxes in their selected states.",
               "themeable": "No"
             },
             "default": {
               "value": "{color.action.text.on-primary}",
               "type": "color",
-               "description": " Icon color for branded checkboxes in their selected states.",
+              "description": " Icon color for branded checkboxes in their selected states.",
               "themeable": "No"
             }
+          }
+        }
+      }
+    },
+    "table": {
+      "color": {
+        "border": {
+          "resize": {
+            "value": "{color.gray.04}",
+            "type": "color",
+            "description": "Color for the resize element in Data Table columns"
           }
         }
       }
