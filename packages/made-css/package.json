@@ -1,11 +1,12 @@
 {
   "name": "@mastercard/made-css",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "CSS for Made Framework Core Components",
   "owner": "Made",
   "main": "index.js",
   "files": [
-    "*.*", "src/"
+    "*.*",
+    "src/"
   ],
   "repository": {
     "type": "git",
@@ -22,7 +23,7 @@
     "pack": "npm run postbuild && npm pack ./dist/",
     "release": "standard-version",
     "publish-web": "npm run build && npm run postbuild && npm publish ./dist",
-    "publish-github": "cp package.json dist/2.0.0 && cd dist/2.0.0 && npm publish"
+    "publish-github": "cp package.json dist/3.0.0 && cd dist/3.0.0 && npm publish"
   },
   "author": "",
   "license": "ISC",

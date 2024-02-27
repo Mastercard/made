@@ -7,7 +7,7 @@ const fs = require("fs-extra");
 /* paths in which design tokens are built to be packaged and used by consuming teams */
 const iosPath = `ios/MadeDesignTokens/`;
 const androidPath = `android/library/src/partnerbank/`;
-const webPath = `dist/2.2.0/web/themes`;
+const webPath = `dist/2.3.0/web/themes`;
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
@@ -29,6 +29,7 @@ const styleDictionary = StyleDictionary.extend({
     pxToSp: require("./transforms/pxToSp"),
     pxToRem: require("./transforms/pxToRem"),
     removePx: require("./transforms/removePx"),
+    percentageToLineHeight: require("./transforms/percentageToLineHeight"),
   },
   // custom formats included in build, formats define the output of a file (blueprint/template).
   format: {
@@ -202,11 +203,11 @@ styleDictionary
 /* Building B2B Default Theme: Each Theme should have this code block */
 styleDictionary
 .extend({
-  source: [`src-figma/2.2.0/**/*.json`],
+  source: [`src-figma/2.3.0/**/*.json`],
   platforms: {
     css: {
       buildPath: `${webPath}/b2b/`,
-      transforms: [`attribute/cti`, `colorWeb`, `name/cti/kebab`, `pxToRem`],
+      transforms: [`attribute/cti`, `colorWeb`, `name/cti/kebab`, `pxToRem`, `percentageToLineHeight`],
       prefix: "made",
       files: [
         {
@@ -245,7 +246,7 @@ styleDictionary
     },
     scss: {
       buildPath: `${webPath}/b2b/`,
-      transforms: [`attribute/cti`, `color/hex`, `name/cti/kebab`, `pxToRem`],
+      transforms: [`attribute/cti`, `color/hex`, `name/cti/kebab`, `pxToRem`, `percentageToLineHeight`],
       prefix: "made",
       files: [
         {
@@ -270,7 +271,7 @@ styleDictionary
     },
     less: {
       buildPath: `${webPath}/b2b/`,
-      transforms: [`attribute/cti`, `color/hex`, `name/cti/kebab`, `pxToRem`],
+      transforms: [`attribute/cti`, `color/hex`, `name/cti/kebab`, `pxToRem`, `percentageToLineHeight`],
       prefix: "made",
       files: [
         {
@@ -296,7 +297,7 @@ styleDictionary
     js: {
       /* this platform generates JSON files we use in Storybook to display token documentation */
       buildPath: `./storybook/`,
-      transforms: [`attribute/cti`, `color/hex`, `name/cti/kebab`, `pxToRem`],
+      transforms: [`attribute/cti`, `color/hex`, `name/cti/kebab`, `pxToRem`, `percentageToLineHeight`],
       prefix: "made",
       files: [
         {
@@ -309,7 +310,7 @@ styleDictionary
     for spacing, grid examples */
     theme: {
       buildPath: `./storybook/`,
-      transforms: [`attribute/cti`, `color/hex`, `name/cti/kebab`],
+      transforms: [`attribute/cti`, `color/hex`, `name/cti/kebab`, `percentageToLineHeight`],
       prefix: "made",
       files: [
         {
@@ -328,6 +329,7 @@ styleDictionary
         `color/hex`,
         `name/cti/pascal`,
         `pxToRem`,
+        `percentageToLineHeight`
       ],
       prefix: "made",
       files: [
