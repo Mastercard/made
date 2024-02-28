@@ -267,38 +267,6 @@
       "original": "color-text-default-on-light"
       }, 
      {
-      "name": "made-color-brand-on-primary",
-      "value": "#ffffff",
-      "comment": "The text color on your primary brand color",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "#FFFFFF"
-      }, 
-     {
-      "name": "made-color-brand-on-secondary",
-      "value": "#ffffff",
-      "comment": "The text color on your secondary brand color",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "#FFFFFF"
-      }, 
-     {
-      "name": "made-color-brand-primary",
-      "value": "#cf4500",
-      "comment": "The primary color of your brand",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-orange-04"
-      }, 
-     {
-      "name": "made-color-brand-secondary",
-      "value": "#cf4500",
-      "comment": "The secondary color of your brand",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-orange-04"
-      }, 
-     {
       "name": "made-color-background-default",
       "value": "#ffffff",
       "comment": "Main background color of the application.",
@@ -317,7 +285,7 @@
      {
       "name": "made-color-background-01",
       "value": "#faf7f5",
-      "comment": "Secondary background color of the application. ",
+      "comment": "Secondary background color of the application.",
       "themeable": "Yes",
       "type": "color",
       "original": "color-gray-01-25"
@@ -353,6 +321,38 @@
       "themeable": "Yes",
       "type": "color",
       "original": "color-gray-02"
+      }, 
+     {
+      "name": "made-color-brand-on-primary",
+      "value": "#ffffff",
+      "comment": "The text color on your primary brand color",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "#FFFFFF"
+      }, 
+     {
+      "name": "made-color-brand-on-secondary",
+      "value": "#ffffff",
+      "comment": "The text color on your secondary brand color",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "#FFFFFF"
+      }, 
+     {
+      "name": "made-color-brand-primary",
+      "value": "#cf4500",
+      "comment": "The primary color of your brand",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-orange-04"
+      }, 
+     {
+      "name": "made-color-brand-secondary",
+      "value": "#cf4500",
+      "comment": "The secondary color of your brand",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-orange-04"
       }, 
      {
       "name": "made-color-feedback-error",
@@ -441,6 +441,14 @@
       "themeable": "Yes",
       "type": "color",
       "original": "color-white"
+      }, 
+     {
+      "name": "made-color-text-placeholder",
+      "value": "#777470",
+      "comment": "Text color for placeholder content",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-gray-04"
       }, 
      {
       "name": "made-scrollbar-color-background",
@@ -681,14 +689,6 @@
       "original": "border-radius-05"
       }, 
      {
-      "name": "made-button-border-radius",
-      "value": "20px",
-      "comment": "Button Border Radius",
-      "themeable": "Yes",
-      "type": "borderRadius",
-      "original": "border-radius-07"
-      }, 
-     {
       "name": "made-border-radius-default",
       "value": "4px",
       "comment": "Default border radius for UI components",
@@ -711,6 +711,14 @@
       "themeable": "Yes",
       "type": "borderRadius",
       "original": "border-radius-01"
+      }, 
+     {
+      "name": "made-button-border-radius",
+      "value": "20px",
+      "comment": "Button Border Radius",
+      "themeable": "Yes",
+      "type": "borderRadius",
+      "original": "border-radius-07"
       }],
     "shadow" : [
  
@@ -725,20 +733,73 @@
     "forms" : [
  
      {
-      "name": "made-forms-color-border-default",
-      "value": "#555250",
-      "comment": "Default border color for forms.",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-gray-05"
-      }, 
-     {
       "name": "made-forms-color-background-default",
       "value": "#ffffff",
       "comment": "Default background color for forms.",
       "themeable": "Yes",
       "type": "color",
       "original": "color-background-default"
-      }]
+      }, 
+     {
+      "name": "made-forms-color-border-default",
+      "value": "#555250",
+      "comment": "Default border color for forms.",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-gray-05"
+      }],
+    "checkbox" : [
+ 
+         {
+            "name": "made-checkbox-color-background-branded-selected",
+            "value": "#cf4500",
+            "comment": "Background color for branded checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR ACTION BACKGROUND PRIMARY DEFAULT "
+          }, 
+         {
+            "name": "made-checkbox-color-background-neutral-selected",
+            "value": "#323231",
+            "comment": "Background color for neutral checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR GRAY 06 "
+          }, 
+         {
+            "name": "made-checkbox-icon-color-neutral-readonly",
+            "value": "#323231",
+            "comment": "Icon color for neutral, read-only checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR GRAY 06 "
+          }, 
+         {
+            "name": "made-checkbox-icon-color-neutral-default",
+            "value": "#ffffff",
+            "comment": "Icon color for neutral checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR TEXT INVERSE "
+          }, 
+         {
+            "name": "made-checkbox-icon-color-branded-readonly",
+            "value": "#cf4500",
+            "comment": "Icon color for branded, read-only checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR ACTION PRIMARY DEFAULT "
+          }, 
+         {
+            "name": "made-checkbox-icon-color-branded-default",
+            "value": "#ffffff",
+            "comment": " Icon color for branded checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR ACTION TEXT ON-PRIMARY "
+          }],
+    "table" : [
+ 
+         {
+            "name": "made-table-color-border-resize",
+            "value": "#777470",
+            "comment": "Color for the resize element in Data Table columns",
+                "themeable": "Yes",
+            "original": "COLOR GRAY 04 "
+          }],
     }
 }

@@ -1,0 +1,56 @@
+{
+  "checkbox": {
+    "color": {
+      "background": {
+        "branded": {
+          "selected": {
+            "value": "{color.action.background.primary.default.value}",
+            "type": "color",
+            "comment": "Background color for branded checkboxes in their selected states.",
+            "themeable": "No"
+          }
+        },
+        "neutral": {
+          "selected": {
+            "value": "{color.gray.06.value}",
+            "type": "color",
+            "comment": "Background color for neutral checkboxes in their selected states.",
+            "themeable": "No"
+          }
+        }
+      }
+    },
+    "icon": {
+      "color": {
+        "neutral": {
+          "readonly": {
+            "value": "{color.gray.06.value}",
+            "type": "color",
+            "comment": "Icon color for neutral, read-only checkboxes in their selected states.",
+            "themeable": "No"
+          },
+          "default": {
+            "value": "{color.text.inverse.value}",
+            "type": "color",
+            "comment": "Icon color for neutral checkboxes in their selected states.",
+            "themeable": "No"
+          }
+        },
+        "branded": {
+          "readonly": {
+            "value": "{color.action.primary.default.value}",
+            "type": "color",
+            "comment": "Icon color for branded, read-only checkboxes in their selected states.",
+            "themeable": "No"
+          },
+          "default": {
+            "value": "{color.action.text.on-primary.value}",
+            "type": "color",
+            "comment": " Icon color for branded checkboxes in their selected states.",
+            "themeable": "No"
+          }
+        }
+      }
+    }
+  }
+}

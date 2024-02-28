@@ -198,7 +198,59 @@ module.exports = function (dictionary, options) {
       }`;
       })
       .join(`,`) +
-    `]
+    `],
+    "checkbox" : [\n` +
+    dictionary.allProperties
+      .filter(
+        (token) =>
+          token.attributes.category === `checkbox` &&
+          token.deprecated !== true
+      )
+      .map((token) => {
+        const original = `${token.original.value
+          .replace(/\./g, " ")
+          .replace(/\{/g, "")
+          .replace(/\}/g, "")
+          .replace(/\-}/g, " ")
+          .replace(/value/g, "")
+          .toUpperCase()}`;
+        return ` 
+         {
+            "name": "${token.name}",
+            "value": "${token.value}",
+            "comment": "${token.comment}",
+                "themeable": "${token.themeable}",
+            "original": "${original}"
+          }`;
+      })
+      .join(`,`) +
+    `],
+    "table" : [\n` +
+    dictionary.allProperties
+      .filter(
+        (token) =>
+          token.attributes.category === `table` &&
+          token.deprecated !== true
+      )
+      .map((token) => {
+        const original = `${token.original.value
+          .replace(/\./g, " ")
+          .replace(/\{/g, "")
+          .replace(/\}/g, "")
+          .replace(/\-}/g, " ")
+          .replace(/value/g, "")
+          .toUpperCase()}`;
+        return ` 
+         {
+            "name": "${token.name}",
+            "value": "${token.value}",
+            "comment": "${token.comment}",
+                "themeable": "${token.themeable}",
+            "original": "${original}"
+          }`;
+      })
+      .join(`,`) +
+    `],
     }
 }`
   );
