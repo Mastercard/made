@@ -619,7 +619,7 @@
      {
         "name": "made-color-background-01",
         "value": "#faf7f5",
-        "comment": "Secondary background color of the application. ",
+        "comment": "Secondary background color of the application.",
                 "themeable": "Yes",
         "original": "COLOR GRAY 01-25 "
       }, 
@@ -1316,18 +1316,71 @@
       "form" : [
  
          {
-            "name": "made-forms-color-border-default",
-            "value": "#555250",
-            "comment": "Default border color for forms.",
-                "themeable": "Yes",
-            "original": "COLOR GRAY 05 "
-          }, 
-         {
             "name": "made-forms-color-background-default",
             "value": "#ffffff",
             "comment": "Default background color for forms.",
                 "themeable": "Yes",
             "original": "COLOR BACKGROUND DEFAULT "
+          }, 
+         {
+            "name": "made-forms-color-border-default",
+            "value": "#555250",
+            "comment": "Default border color for forms.",
+                "themeable": "Yes",
+            "original": "COLOR GRAY 05 "
+          }],
+    "checkbox" : [
+ 
+         {
+            "name": "made-checkbox-color-background-branded-selected",
+            "value": "#cf4500",
+            "comment": "Background color for branded checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR ACTION BACKGROUND PRIMARY DEFAULT "
+          }, 
+         {
+            "name": "made-checkbox-color-background-neutral-selected",
+            "value": "#323231",
+            "comment": "Background color for neutral checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR GRAY 06 "
+          }, 
+         {
+            "name": "made-checkbox-icon-color-neutral-readonly",
+            "value": "#323231",
+            "comment": "Icon color for neutral, read-only checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR GRAY 06 "
+          }, 
+         {
+            "name": "made-checkbox-icon-color-neutral-default",
+            "value": "#ffffff",
+            "comment": "Icon color for neutral checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR TEXT INVERSE "
+          }, 
+         {
+            "name": "made-checkbox-icon-color-branded-readonly",
+            "value": "#cf4500",
+            "comment": "Icon color for branded, read-only checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR ACTION PRIMARY DEFAULT "
+          }, 
+         {
+            "name": "made-checkbox-icon-color-branded-default",
+            "value": "#ffffff",
+            "comment": " Icon color for branded checkboxes in their selected states.",
+                "themeable": "No",
+            "original": "COLOR ACTION TEXT ON-PRIMARY "
+          }],
+    "table" : [
+ 
+         {
+            "name": "made-table-color-border-resize",
+            "value": "#777470",
+            "comment": "Color for the resize element in Data Table columns",
+                "themeable": "Yes",
+            "original": "COLOR GRAY 04 "
           }],
       "visualization" : [
  
@@ -1492,6 +1545,13 @@
             "comment": "Inverse text/icon color",
                 "themeable": "Yes",
             "original": "COLOR WHITE "
+          }, 
+         {
+            "name": "made-color-text-placeholder",
+            "value": "#777470",
+            "comment": "Text color for placeholder content",
+                "themeable": "Yes",
+            "original": "COLOR GRAY 04 "
           }]
   },
    "font" : {
@@ -2196,42 +2256,105 @@
             "value": "1.25",
             "comment": "Headings use a 1.25× multiplier",
                 "themeable": "No",
-            "original": "1 25"
+            "original": "125%"
           }, 
          {
             "name": "made-line-height-1-5-x",
             "value": "1.5",
             "comment": "To ensure readability, Body uses a 1.5× multiplier",
                 "themeable": "No",
-            "original": "1 5"
+            "original": "150%"
           }, 
          {
             "name": "made-line-height-1-x",
             "value": "1",
             "comment": "Line height for single line text elements displayed in components",
                 "themeable": "No",
-            "original": "1"
+            "original": "100%"
           }, 
          {
             "name": "made-line-height-default",
             "value": "1.5",
             "comment": "Default line height.",
                 "themeable": "Yes",
-            "original": "1 5"
+            "original": "150%"
           }, 
          {
             "name": "made-line-height-heading",
             "value": "1.25",
             "comment": "Headings line-height",
                 "themeable": "Yes",
-            "original": "1 25"
+            "original": "125%"
           }, 
          {
             "name": "made-line-height-single",
             "value": "1",
             "comment": "Line height for single line text elements displayed in components",
                 "themeable": "Yes",
-            "original": "1"
+            "original": "100%"
+          }, 
+         {
+            "name": "made-line-height-rem-01",
+            "value": "0.75rem",
+            "comment": "12px line height",
+                "themeable": "No",
+            "original": "0 75REM"
+          }, 
+         {
+            "name": "made-line-height-rem-02",
+            "value": "1rem",
+            "comment": "16px line height",
+                "themeable": "No",
+            "original": "1REM"
+          }, 
+         {
+            "name": "made-line-height-rem-03",
+            "value": "1.125rem",
+            "comment": "18px line height",
+                "themeable": "No",
+            "original": "1 125REM"
+          }, 
+         {
+            "name": "made-line-height-rem-04",
+            "value": "1.25rem",
+            "comment": "20px line height",
+                "themeable": "No",
+            "original": "1 25REM"
+          }, 
+         {
+            "name": "made-line-height-rem-05",
+            "value": "1.5rem",
+            "comment": "24px line height",
+                "themeable": "No",
+            "original": "1 5REM"
+          }, 
+         {
+            "name": "made-line-height-rem-06",
+            "value": "1.75rem",
+            "comment": "28px line height",
+                "themeable": "No",
+            "original": "1 75REM"
+          }, 
+         {
+            "name": "made-line-height-rem-07",
+            "value": "2rem",
+            "comment": "32px line height",
+                "themeable": "No",
+            "original": "2REM"
+          }, 
+         {
+            "name": "made-line-height-rem-08",
+            "value": "2.5rem",
+            "comment": "40px line height",
+                "themeable": "No",
+            "original": "2 5REM"
+          }, 
+         {
+            "name": "made-line-height-rem-09",
+            "value": "3rem",
+            "comment": "48px line height",
+                "themeable": "No",
+            "original": "3REM"
           }],
       "letterSpacing" : [
  
@@ -2679,13 +2802,6 @@
                 "original": "{border.radius.05.value}"
               }, 
               {
-                "name": "made-button-border-radius",
-                "value": "20px",
-                "comment": "Button Border Radius",
-                "themeable": "Yes",
-                "original": "{border.radius.07.value}"
-              }, 
-              {
                 "name": "made-border-radius-01",
                 "value": "2px",
                 "comment": "Border Radius: 2px",
@@ -2775,6 +2891,13 @@
                 "comment": "Small border radius for UI components",
                 "themeable": "Yes",
                 "original": "{border.radius.01.value}"
+              }, 
+              {
+                "name": "made-button-border-radius",
+                "value": "20px",
+                "comment": "Button Border Radius",
+                "themeable": "Yes",
+                "original": "{border.radius.07.value}"
               }],
     "time" : [
  
@@ -2821,385 +2944,7 @@
             "original": "700ms"
           }],
     "deprecated" : [
- 
-     {
-        "old": "made-color-action-background-selected-light",
-        "oldValue": "#d0805b",
-        "new": "made-color-action-background-selected",
-        "newValue": "var(--made-color-action-background-selected)"
-      }, 
-     {
-        "old": "made-color-action-background-hover-light",
-        "oldValue": "#f3f0ee",
-        "new": "made-color-action-background-hover",
-        "newValue": "var(--made-color-action-background-hover)"
-      }, 
-     {
-        "old": "made-color-action-background-on-default",
-        "oldValue": "#628020",
-        "new": "made-color-action-background-on",
-        "newValue": "var(--made-color-action-background-on)"
-      }, 
-     {
-        "old": "made-color-action-background-off-default",
-        "oldValue": "#96918b",
-        "new": "made-color-action-background-off",
-        "newValue": "var(--made-color-action-background-off)"
-      }, 
-     {
-        "old": "made-color-action-background-on-disabled",
-        "oldValue": "#d1dabe",
-        "new": "made-color-action-background-disabled",
-        "newValue": "var(--made-color-action-background-disabled)"
-      }, 
-     {
-        "old": "made-color-action-background-off-disabled",
-        "oldValue": "#e8e5e1",
-        "new": "made-color-action-background-disabled",
-        "newValue": "var(--made-color-action-background-disabled)"
-      }, 
-     {
-        "old": "made-color-brand-error",
-        "oldValue": "#d7373c",
-        "new": "made-color-feedback-error",
-        "newValue": "var(--made-color-feedback-error)"
-      }, 
-     {
-        "old": "made-color-brand-success",
-        "oldValue": "#628020",
-        "new": "made-color-feedback-success",
-        "newValue": "var(--made-color-feedback-success)"
-      }, 
-     {
-        "old": "made-color-brand-information",
-        "oldValue": "#ffc61e",
-        "new": "made-color-feedback-information",
-        "newValue": "var(--made-color-feedback-information)"
-      }, 
-     {
-        "old": "made-color-brand-warning",
-        "oldValue": "#f38b00",
-        "new": "made-color-feedback-warning",
-        "newValue": "var(--made-color-feedback-warning)"
-      }, 
-     {
-        "old": "made-link-color-disabled",
-        "oldValue": "rgba(207,69,0,0.50)",
-        "new": "made-color-action-text-disabled",
-        "newValue": "var(--made-color-action-text-disabled)"
-      }, 
-     {
-        "old": "made-button-color-text-primary-on-light",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-text-on-primary",
-        "newValue": "var(--made-color-action-text-on-primary)"
-      }, 
-     {
-        "old": "made-button-color-text-primary-on-dark",
-        "oldValue": "#141413",
-        "new": "made-color-action-text-on-dark",
-        "newValue": "var(--made-color-action-text-on-dark)"
-      }, 
-     {
-        "old": "made-button-color-text-secondary-default-on-light",
-        "oldValue": "#cf4500",
-        "new": "made-color-action-text-secondary-default",
-        "newValue": "var(--made-color-action-text-secondary-default)"
-      }, 
-     {
-        "old": "made-button-color-text-secondary-default-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-text-on-dark-default",
-        "newValue": "var(--made-color-action-text-on-dark-default)"
-      }, 
-     {
-        "old": "made-button-color-text-secondary-hover-on-light",
-        "oldValue": "#9a3a0a",
-        "new": "made-color-action-text-secondary-hover",
-        "newValue": "var(--made-color-action-text-secondary-hover)"
-      }, 
-     {
-        "old": "made-button-color-text-secondary-hover-on-dark",
-        "oldValue": "#e8e5e1",
-        "new": "made-color-action-text-on-dark-hover",
-        "newValue": "var(--made-color-action-text-on-dark-hover)"
-      }, 
-     {
-        "old": "made-button-color-text-secondary-active-on-light",
-        "oldValue": "#331505",
-        "new": "made-color-action-text-secondary-active",
-        "newValue": "var(--made-color-action-text-secondary-active)"
-      }, 
-     {
-        "old": "made-button-color-text-secondary-active-on-dark",
-        "oldValue": "#b1ada6",
-        "new": "made-color-action-text-on-dark-active",
-        "newValue": "var(--made-color-action-text-on-dark-active)"
-      }, 
-     {
-        "old": "made-button-color-text-secondary-disabled-on-light",
-        "oldValue": "#d0805b",
-        "new": "made-color-action-text-disabled",
-        "newValue": "var(--made-color-action-text-disabled)"
-      }, 
-     {
-        "old": "made-button-color-text-secondary-disabled-on-dark",
-        "oldValue": "#b1ada6",
-        "new": "made-color-action-text-disabled",
-        "newValue": "var(--made-color-action-text-disabled)"
-      }, 
-     {
-        "old": "made-button-color-text-ghost-default-on-light",
-        "oldValue": "#cf4500",
-        "new": "made-color-action-text-primary-default",
-        "newValue": "var(--made-color-action-text-primary-default)"
-      }, 
-     {
-        "old": "made-button-color-text-ghost-default-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-action-text-on-dark-default",
-        "newValue": "var(--made-action-text-on-dark-default)"
-      }, 
-     {
-        "old": "made-button-color-text-ghost-active-on-light",
-        "oldValue": "#331505",
-        "new": "made-color-action-text-primary-active",
-        "newValue": "var(--made-color-action-text-primary-active)"
-      }, 
-     {
-        "old": "made-button-color-text-ghost-active-on-dark",
-        "oldValue": "#b1ada6",
-        "new": "made-color-action-text-on-dark-active",
-        "newValue": "var(--made-color-action-text-on-dark-active)"
-      }, 
-     {
-        "old": "made-button-color-text-ghost-disabled-on-light",
-        "oldValue": "#777470",
-        "new": "made-color-action-text-disabled",
-        "newValue": "var(--made-color-action-text-disabled)"
-      }, 
-     {
-        "old": "made-button-color-text-ghost-disabled-on-dark",
-        "oldValue": "#777470",
-        "new": "made-color-action-text-disabled",
-        "newValue": "var(--made-color-action-text-disabled)"
-      }, 
-     {
-        "old": "made-button-color-border-primary-default-on-light",
-        "oldValue": "#cf4500",
-        "new": "made-color-action-border-primary-default",
-        "newValue": "var(--made-color-action-border-primary-default)"
-      }, 
-     {
-        "old": "made-button-color-border-primary-default-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-border-on-dark-default",
-        "newValue": "var(--made-color-action-border-on-dark-default)"
-      }, 
-     {
-        "old": "made-button-color-border-primary-hover-on-light",
-        "oldValue": "#9a3a0a",
-        "new": "made-color-action-border-primary-hover",
-        "newValue": "var(--made-color-action-border-primary-hover)"
-      }, 
-     {
-        "old": "made-button-color-border-primary-hover-on-dark",
-        "oldValue": "#e8e5e1",
-        "new": "made-color-action-border-on-dark-hover",
-        "newValue": "var(--made-color-action-border-on-dark-hover)"
-      }, 
-     {
-        "old": "made-button-color-border-primary-active-on-light",
-        "oldValue": "#331505",
-        "new": "made-color-action-border-primary-active",
-        "newValue": "var(--made-color-action-border-primary-active)"
-      }, 
-     {
-        "old": "made-button-color-border-primary-active-on-dark",
-        "oldValue": "#b1ada6",
-        "new": "made-color-action-border-on-dark-active",
-        "newValue": "var(--made-color-action-border-on-dark-active)"
-      }, 
-     {
-        "old": "made-button-color-border-primary-disabled-on-light",
-        "oldValue": "#d0805b",
-        "new": "made-color-action-border-disabled",
-        "newValue": "var(--made-color-action-border-disabled)"
-      }, 
-     {
-        "old": "made-button-color-border-primary-disabled-on-dark",
-        "oldValue": "#FFFFFF",
-        "new": "made-color-action-border-disabled",
-        "newValue": "var(--made-color-action-border-disabled)"
-      }, 
-     {
-        "old": "made-button-color-border-secondary-default-on-light",
-        "oldValue": "#cf4500",
-        "new": "made-color-action-border-secondary-default",
-        "newValue": "var(--made-color-action-border-secondary-default)"
-      }, 
-     {
-        "old": "made-button-color-border-secondary-default-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-border-on-dark-default",
-        "newValue": "var(--made-color-action-border-on-dark-default)"
-      }, 
-     {
-        "old": "made-button-color-border-secondary-hover-on-light",
-        "oldValue": "#9a3a0a",
-        "new": "made-color-action-border-secondary-hover",
-        "newValue": "var(--made-color-action-border-secondary-hover)"
-      }, 
-     {
-        "old": "made-button-color-border-secondary-hover-on-dark",
-        "oldValue": "#e8e5e1",
-        "new": "made-color-action-border-on-dark-hover",
-        "newValue": "var(--made-color-action-border-on-dark-hover)"
-      }, 
-     {
-        "old": "made-button-color-border-secondary-active-on-light",
-        "oldValue": "#331505",
-        "new": "made-color-action-border-secondary-active",
-        "newValue": "var(--made-color-action-border-secondary-active)"
-      }, 
-     {
-        "old": "made-button-color-border-secondary-active-on-dark",
-        "oldValue": "#b1ada6",
-        "new": "made-color-action-border-on-dark-active",
-        "newValue": "var(--made-color-action-border-on-dark-active)"
-      }, 
-     {
-        "old": "made-button-color-border-secondary-disabled-on-light",
-        "oldValue": "#d0805b",
-        "new": "made-color-action-border-disabled",
-        "newValue": "var(--made-color-action-border-disabled)"
-      }, 
-     {
-        "old": "made-button-color-border-secondary-disabled-on-dark",
-        "oldValue": "#b1ada6",
-        "new": "made-color-action-border-disabled",
-        "newValue": "var(--made-color-action-border-disabled)"
-      }, 
-     {
-        "old": "made-button-color-background-primary-default-on-light",
-        "oldValue": "#cf4500",
-        "new": "made-color-action-background-primary-default",
-        "newValue": "var(--made-color-action-background-primary-default)"
-      }, 
-     {
-        "old": "made-button-color-background-primary-default-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-background-on-dark-default",
-        "newValue": "var(--made-color-action-background-on-dark-default)"
-      }, 
-     {
-        "old": "made-button-color-background-primary-hover-on-light",
-        "oldValue": "#9a3a0a",
-        "new": "made-color-action-background-primary-hover",
-        "newValue": "var(--made-color-action-background-primary-hover)"
-      }, 
-     {
-        "old": "made-button-color-background-primary-hover-on-dark",
-        "oldValue": "#e8e5e1",
-        "new": "made-color-action-background-on-dark-hover",
-        "newValue": "var(--made-color-action-background-on-dark-hover)"
-      }, 
-     {
-        "old": "made-button-color-background-primary-active-on-light",
-        "oldValue": "#331505",
-        "new": "made-color-action-background-primary-hover",
-        "newValue": "var(--made-color-action-background-primary-hover)"
-      }, 
-     {
-        "old": "made-button-color-background-primary-active-on-dark",
-        "oldValue": "#b1ada6",
-        "new": "made-color-action-background-on-dark-active",
-        "newValue": "var(--made-color-action-background-on-dark-active)"
-      }, 
-     {
-        "old": "made-button-color-background-primary-disabled-on-light",
-        "oldValue": "#d0805b",
-        "new": "made-color-action-background-disabled",
-        "newValue": "var(--made-color-action-background-disabled)"
-      }, 
-     {
-        "old": "made-button-color-background-primary-disabled-on-dark",
-        "oldValue": "#FFFFFF",
-        "new": "made-color-action-background-disabled",
-        "newValue": "var(--made-color-action-background-disabled)"
-      }, 
-     {
-        "old": "made-button-color-background-secondary-default-on-light",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-background-secondary-default",
-        "newValue": "var(--made-color-action-background-secondary-default)"
-      }, 
-     {
-        "old": "made-button-color-background-secondary-default-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-background-secondary-default",
-        "newValue": "var(--made-color-action-background-secondary-default)"
-      }, 
-     {
-        "old": "made-button-color-background-secondary-hover-on-light",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-background-secondary-default",
-        "newValue": "var(--made-color-action-background-secondary-default)"
-      }, 
-     {
-        "old": "made-button-color-background-secondary-hover-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-background-secondary-default",
-        "newValue": "var(--made-color-action-background-secondary-default)"
-      }, 
-     {
-        "old": "made-button-color-background-secondary-active-on-light",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-background-secondary-default",
-        "newValue": "var(--made-color-action-background-secondary-default)"
-      }, 
-     {
-        "old": "made-button-color-background-secondary-active-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-color-action-background-secondary-default",
-        "newValue": "var(--made-color-action-background-secondary-default)"
-      }, 
-     {
-        "old": "made-button-color-background-ghost-default-on-light",
-        "oldValue": "#ffffff",
-        "new": "made-color-background-default",
-        "newValue": "var(--made-color-background-default)"
-      }, 
-     {
-        "old": "made-button-color-background-ghost-default-on-dark",
-        "oldValue": "#ffffff",
-        "new": "made-color-background-default",
-        "newValue": "var(--made-color-background-default)"
-      }, 
-     {
-        "old": "made-forms-color-text-placeholder",
-        "oldValue": "#777470",
-        "new": "made-color-text-default-on-light",
-        "newValue": "var(--made-color-text-default-on-light)"
-      }, 
-     {
-        "old": "made-forms-color-text-hint",
-        "oldValue": "#555250",
-        "new": "made-color-text-helper",
-        "newValue": "var(--made-color-text-helper)"
-      }, 
-     {
-        "old": "made-forms-color-border-disabled",
-        "oldValue": "#e8e5e1",
-        "new": "made-color-action-border-disabled",
-        "newValue": "var(--made-color-action-border-disabled)"
-      }, 
-     {
-        "old": "made-forms-color-background-disabled",
-        "oldValue": "#fcfbfa",
-        "new": "made-color-action-background-disabled",
-        "newValue": "var(--made-color-action-background-disabled)"
-      }],
+],
     "themeable" : [
  
      {
@@ -3289,6 +3034,38 @@
       "themeable": "Yes",
       "type": "boxShadow",
       "original": "0 2px 10px 0 rgba(20,20,19,0-20)"
+      }, 
+     {
+      "name": "made-table-color-border-resize",
+      "value": "#777470",
+      "comment": "Color for the resize element in Data Table columns",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-gray-04"
+      }, 
+     {
+      "name": "made-border-radius-default",
+      "value": "4px",
+      "comment": "Default border radius for UI components",
+      "themeable": "Yes",
+      "type": "borderRadius",
+      "original": "border-radius-02"
+      }, 
+     {
+      "name": "made-border-radius-large",
+      "value": "8px",
+      "comment": "Large border radius for UI components",
+      "themeable": "Yes",
+      "type": "borderRadius",
+      "original": "border-radius-04"
+      }, 
+     {
+      "name": "made-border-radius-small",
+      "value": "2px",
+      "comment": "Small border radius for UI components",
+      "themeable": "Yes",
+      "type": "borderRadius",
+      "original": "border-radius-01"
       }, 
      {
       "name": "made-color-action-background-hover",
@@ -3475,38 +3252,6 @@
       "original": "color-text-default-on-light"
       }, 
      {
-      "name": "made-color-brand-on-primary",
-      "value": "#ffffff",
-      "comment": "The text color on your primary brand color",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "#FFFFFF"
-      }, 
-     {
-      "name": "made-color-brand-on-secondary",
-      "value": "#ffffff",
-      "comment": "The text color on your secondary brand color",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "#FFFFFF"
-      }, 
-     {
-      "name": "made-color-brand-primary",
-      "value": "#cf4500",
-      "comment": "The primary color of your brand",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-orange-04"
-      }, 
-     {
-      "name": "made-color-brand-secondary",
-      "value": "#cf4500",
-      "comment": "The secondary color of your brand",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-orange-04"
-      }, 
-     {
       "name": "made-color-background-default",
       "value": "#ffffff",
       "comment": "Main background color of the application.",
@@ -3525,7 +3270,7 @@
      {
       "name": "made-color-background-01",
       "value": "#faf7f5",
-      "comment": "Secondary background color of the application. ",
+      "comment": "Secondary background color of the application.",
       "themeable": "Yes",
       "type": "color",
       "original": "color-gray-01-25"
@@ -3561,6 +3306,38 @@
       "themeable": "Yes",
       "type": "color",
       "original": "color-gray-02"
+      }, 
+     {
+      "name": "made-color-brand-on-primary",
+      "value": "#ffffff",
+      "comment": "The text color on your primary brand color",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "#FFFFFF"
+      }, 
+     {
+      "name": "made-color-brand-on-secondary",
+      "value": "#ffffff",
+      "comment": "The text color on your secondary brand color",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "#FFFFFF"
+      }, 
+     {
+      "name": "made-color-brand-primary",
+      "value": "#cf4500",
+      "comment": "The primary color of your brand",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-orange-04"
+      }, 
+     {
+      "name": "made-color-brand-secondary",
+      "value": "#cf4500",
+      "comment": "The secondary color of your brand",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-orange-04"
       }, 
      {
       "name": "made-color-feedback-error",
@@ -3651,68 +3428,12 @@
       "original": "color-white"
       }, 
      {
-      "name": "made-link-color-default",
-      "value": "#cf4500",
-      "comment": "Text color for link",
+      "name": "made-color-text-placeholder",
+      "value": "#777470",
+      "comment": "Text color for placeholder content",
       "themeable": "Yes",
       "type": "color",
-      "original": "color-action-primary-default"
-      }, 
-     {
-      "name": "made-link-color-on-dark",
-      "value": "#ffffff",
-      "comment": "Text color for links on dark backgrounds",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-action-on-dark-default"
-      }, 
-     {
-      "name": "made-button-border-radius",
-      "value": "20px",
-      "comment": "Button Border Radius",
-      "themeable": "Yes",
-      "type": "borderRadius",
-      "original": "border-radius-07"
-      }, 
-     {
-      "name": "made-forms-color-border-default",
-      "value": "#555250",
-      "comment": "Default border color for forms.",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-gray-05"
-      }, 
-     {
-      "name": "made-forms-color-background-default",
-      "value": "#ffffff",
-      "comment": "Default background color for forms.",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-background-default"
-      }, 
-     {
-      "name": "made-border-radius-default",
-      "value": "4px",
-      "comment": "Default border radius for UI components",
-      "themeable": "Yes",
-      "type": "borderRadius",
-      "original": "border-radius-02"
-      }, 
-     {
-      "name": "made-border-radius-large",
-      "value": "8px",
-      "comment": "Large border radius for UI components",
-      "themeable": "Yes",
-      "type": "borderRadius",
-      "original": "border-radius-04"
-      }, 
-     {
-      "name": "made-border-radius-small",
-      "value": "2px",
-      "comment": "Small border radius for UI components",
-      "themeable": "Yes",
-      "type": "borderRadius",
-      "original": "border-radius-01"
+      "original": "color-gray-04"
       }, 
      {
       "name": "made-font-body-family-bold",
@@ -3904,7 +3625,7 @@
       "comment": "Default line height.",
       "themeable": "Yes",
       "type": "lineHeights",
-      "original": "1-5"
+      "original": "150%"
       }, 
      {
       "name": "made-line-height-heading",
@@ -3912,7 +3633,7 @@
       "comment": "Headings line-height",
       "themeable": "Yes",
       "type": "lineHeights",
-      "original": "1-25"
+      "original": "125%"
       }, 
      {
       "name": "made-line-height-single",
@@ -3920,7 +3641,7 @@
       "comment": "Line height for single line text elements displayed in components",
       "themeable": "Yes",
       "type": "lineHeights",
-      "original": "1"
+      "original": "100%"
       }, 
      {
       "name": "made-backdrop-color-background",
@@ -3929,6 +3650,30 @@
       "themeable": "Yes",
       "type": "color",
       "original": "rgba(20,20,19,0-7)"
+      }, 
+     {
+      "name": "made-button-border-radius",
+      "value": "20px",
+      "comment": "Button Border Radius",
+      "themeable": "Yes",
+      "type": "borderRadius",
+      "original": "border-radius-07"
+      }, 
+     {
+      "name": "made-forms-color-background-default",
+      "value": "#ffffff",
+      "comment": "Default background color for forms.",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-background-default"
+      }, 
+     {
+      "name": "made-forms-color-border-default",
+      "value": "#555250",
+      "comment": "Default border color for forms.",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-gray-05"
       }, 
      {
       "name": "made-grid-gutters-lg",
@@ -3977,6 +3722,22 @@
       "themeable": "Yes",
       "type": "spacing",
       "original": "space-2-x"
+      }, 
+     {
+      "name": "made-link-color-default",
+      "value": "#cf4500",
+      "comment": "Text color for link",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-action-primary-default"
+      }, 
+     {
+      "name": "made-link-color-on-dark",
+      "value": "#ffffff",
+      "comment": "Text color for links on dark backgrounds",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-action-on-dark-default"
       }, 
      {
       "name": "made-scrollbar-color-background",

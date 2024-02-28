@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.3.0
+
+### Features 🚀
+
+#### New tokens added:
+
+* `--made-checkbox-color-background-branded-selected`
+* `--made-checkbox-color-background-neutral-selected`
+* `--made-checkbox-icon-color-neutral-readonly`
+* `--made-checkbox-icon-color-neutral-default`
+* `--made-checkbox-icon-color-branded-readonly`
+* `--made-checkbox-icon-color-branded-default` 
+* `--made-table-color-border-resize`
+* `--made-color-text-placeholder`
+
+
 ### 2.2.0
 
 ### Features 🚀
