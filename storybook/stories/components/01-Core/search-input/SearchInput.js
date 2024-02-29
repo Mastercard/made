@@ -60,19 +60,8 @@ export const SearchInput = ({
           placeholder={placeholder}
           disabled={isDisabled}
         />
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          class="made-c-search-input__search-icon"
-        >
-          <title>search</title>
-          <path
-            d="M9.083 0a9.083 9.083 0 016.936 14.948L24 22.93 22.93 24l-7.982-7.981A9.083 9.083 0 119.083 0zm.093 1.412a7.765 7.765 0 100 15.53 7.765 7.765 0 000-15.53z"
-            fill="currentColor"
-            fill-rule="evenodd"
-          />
+        <svg class="made-c-form__icon made-c-form__icon--left" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fillRule="evenodd" clipRule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" fill="currentColor" />
         </svg>
         <button
           type="button"
@@ -81,19 +70,8 @@ export const SearchInput = ({
           ref={btnRef}
           onClick={handleClick}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="25"
-            viewBox="0 0 26 25"
-            className="made-c-search-input__close-button-icon"
-          >
-            <title>close</title>
-            <path
-              d="M23.585.146l1.768 1.768-10.586 10.585 10.586 10.585-1.768 1.768L13 14.266 2.415 24.852.647 23.084 11.233 12.5.647 1.914 2.415.146 13 10.732 23.585.146z"
-              fill="currentColor"
-              fill-rule="evenodd"
-            />
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M4.55806 4.55806C4.80214 4.31398 5.19786 4.31398 5.44194 4.55806L10 9.11612L14.5581 4.55806C14.8021 4.31398 15.1979 4.31398 15.4419 4.55806C15.686 4.80214 15.686 5.19786 15.4419 5.44194L10.8839 10L15.4419 14.5581C15.686 14.8021 15.686 15.1979 15.4419 15.4419C15.1979 15.686 14.8021 15.686 14.5581 15.4419L10 10.8839L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L9.11612 10L4.55806 5.44194C4.31398 5.19786 4.31398 4.80214 4.55806 4.55806Z" fill="currentColor" />
           </svg>
         </button>
       </div>
@@ -101,19 +79,8 @@ export const SearchInput = ({
         <div
           className={`made-c-form__validation--${validationClass} made-c-form__validation--search-input`}
         >
-          <svg
-            width="12"
-            height="12"
-            viewBox="0 0 24 23"
-            xmlns="http://www.w3.org/2000/svg"
-            class="made-u-margin-right-1-x made-u-flex-shrink-0"
-          >
-            <title>exclamation mark in a triangle - solid fill</title>
-            <path
-              d="M11.967 17.003c.617 0 1.012.465 1.012 1.109 0 .626-.395 1.11-1.012 1.11-.602 0-1.013-.484-1.013-1.11 0-.644.43-1.11 1.013-1.11zm.824-10.038l-.24 8.588h-1.167l-.241-8.588h1.648zM24 22.8H0L12 0l12 22.8z"
-              fill="currentColor"
-              fill-rule="evenodd"
-            />
+          <svg class="made-u-margin-right-1-x made-u-flex-shrink-0" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M4.495 1.87c.669-1.16 2.341-1.16 3.01 0l4.26 7.383c.668 1.159-.168 2.606-1.505 2.606H1.74c-1.337 0-2.173-1.447-1.505-2.606l4.26-7.384zm2.13 3.04a.543.543 0 10-1.086 0v2.484a.543.543 0 101.087 0V4.91zm-.542 3.927c-.3 0-.544.244-.544.544v.005c0 .3.244.543.544.543h.004c.3 0 .543-.244.543-.543V9.38c0-.3-.243-.544-.543-.544h-.004z" fill="currentColor" />
           </svg>
           <span>{validationText}</span>
         </div>
