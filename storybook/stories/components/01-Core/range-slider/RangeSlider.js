@@ -52,7 +52,7 @@ export const RangeSlider = ({ label, isDisabled, rangeValue }) => {
 						: "made-c-range-slider"
 				}
 			>
-				<label class="made-c-range-slider__label" for="range-slider">
+				<label class="made-c-form__label" for="range-slider">
 					{label}
 					{isDisabled}
 				</label>
