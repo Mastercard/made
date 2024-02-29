@@ -5,7 +5,7 @@ let figmaTokens;
 
 //read json object from file. this is the json file from the figma plugin
 fs.readFile(
-  "figma/figma-tokens/figma-plugin-tokens-v2.2.0.json",
+  "figma/figma-tokens/figma-plugin-tokens-v2.3.0.json",
   "utf-8",
   (err, data) => {
     if (err) {
@@ -30,7 +30,7 @@ fs.readFile(
       //loop over top level json keys
       if (setName !== "$metadata" && setName !== "$themes") {
         //skip the $metadata and $themes keys that are needed only for the figma plugin
-        const path = `src-figma/2.2.0/${setName}`;
+        const path = `src-figma/2.3.0/${setName}`;
         if (path.split("/").length > 2) {
           //if path of files to be created is not the current directory of script, make the directory path, if doesn't already exist
           path
@@ -56,12 +56,6 @@ fs.readFile(
         for (let key in setValues) {
           //loop over second level keys
           let tokenJson = { [key]: setValues[key] }; //create an object containing json of each second level key
-
-          if ([key] == 'line') { //if line height key then need to convert value from percent to decimal, as percent only used in figma tokens
-            for (let multiplier in setValues[key]['height']) {
-              setValues[key]['height'][ multiplier]['value'] = `${""+ parseFloat(setValues[key]['height'][ multiplier]['value']) / 100 + ""}`;
-            }
-          }
 
           if ([key] == 'letter') { //if line height key then need to convert value from percent to decimal, as percent only used in figma tokens
             setValues[key]['spacing']['default']['value'] = 'normal';

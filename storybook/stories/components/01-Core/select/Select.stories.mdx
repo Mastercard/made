@@ -78,10 +78,9 @@ Use hint text for help that’s relevant to the majority of users, like how thei
 				Option 3
 			</option>
 		</select>
-		<svg width="12" class="made-c-select__arrow" height="6" viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg">
-			<title>arrow</title>
-			<path d="M6 6L0 0h12z" fill="currentColor" fill-rule="evenodd" />
-		</svg>
+		  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-c-select__arrow">
+                    <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
 	</div>
 	<div class="made-c-form__hint">Helper text</div>
 </div>`,
@@ -164,20 +163,9 @@ Add the disabled boolean attribute on an input to give it a grayed out appearanc
 				Option 3
 			</option>
 		</select>
-		<svg
-			width="12"
-			class="made-c-select__arrow"
-			height="6"
-			viewBox="0 0 12 6"
-			xmlns="http://www.w3.org/2000/svg"
-		>
-			<title>arrow</title>
-			<path
-				d="M6 6L0 0h12z"
-				fill="var(--made-color-action-text-disabled)"
-				fill-rule="evenodd"
-			/>
-		</svg>
+	  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-c-select__arrow">
+                    <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
 	</div>
 	<div class="made-c-form__hint">Helper text</div>
 </div>`,
@@ -255,19 +243,15 @@ Add an error message using the `made-c-form__validation--error` class.
 				Option 3
 			</option>
 		</select>
-		<svg width="12" class="made-c-select__arrow" height="6" viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg">
-			<title>arrow</title>
-			<path d="M6 6L0 0h12z" fill="currentColor" fill-rule="evenodd" />
-		</svg>
-		<svg class="made-c-select__icon" width="16" height="16" viewBox="0 0 16 16" class="made-c-select__icon">
-			<title>information icon</title>
-			<g fill="currentColor" fill-rule="evenodd">
-				<circle fill="var(--made-color-feedback-background-error)" cx="8" cy="8" r="8" />
-				<path d="M8.497 13H7.388V6.182h1.109V13zM7.942 3c.109 0 .211.02.307.058a.72.72 0 01.248.162.82.82 0 01.166.244.723.723 0 01.063.3c0 .11-.021.21-.063.302a.748.748 0 01-.414.396.818.818 0 01-.307.057.762.762 0 01-.554-.216.723.723 0 01-.221-.54A.756.756 0 017.943 3z" fill="var(--made-color-feedback-text-on-error)" />
-			</g>
-		</svg>
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-c-select__arrow">
+                    <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
 	</div>
-	<div class="made-c-form__validation--error">Validation</div>
+	<div class="made-c-form__validation--error">
+	  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-u-margin-right-1-x">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.495 1.87c.669-1.16 2.341-1.16 3.01 0l4.26 7.383c.668 1.159-.168 2.606-1.505 2.606H1.74c-1.337 0-2.173-1.447-1.505-2.606l4.26-7.384zm2.13 3.04a.543.543 0 10-1.086 0v2.484a.543.543 0 101.087 0V4.91zm-.542 3.927c-.3 0-.544.244-.544.544v.005c0 .3.244.543.544.543h.004c.3 0 .543-.244.543-.543V9.38c0-.3-.243-.544-.543-.544h-.004z" fill="var(--made-color-feedback-background-error)" />
+                        </svg>
+						Validation</div>
 </div>`,
         },
       },
@@ -343,19 +327,25 @@ Add an error message using the `made-c-form__validation--success` class.
 				Option 3
 			</option>
 		</select>
-		<svg width="12" class="made-c-select__arrow" height="6" viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg">
+		  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-c-select__arrow">
+                    <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
 			<title>arrow</title>
 			<path d="M6 6L0 0h12z" fill="currentColor" fill-rule="evenodd" />
 		</svg>
-		<svg width="16" height="16" viewBox="0 0 16 16" class="made-c-select__icon">
-			<title>Success</title>
-			<g fill="none" fill-rule="evenodd">
-				<path d="M8 0a8 8 0 00-8 8 8 8 0 008 8 8 8 0 008-8 8 8 0 00-8-8z" fill="var(--made-color-feedback-background-success)" />
-				<path d="M6.178 10.265l-2.37-2.37-.808.8 3.178 3.179L13 5.052l-.802-.802z" fill="var(--made-color-feedback-text-on-success)" />
-			</g>
-		</svg>
 	</div>
-	<div class="made-c-form__validation--success">Validation</div>
+	<div class="made-c-form__validation--success">
+	 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-u-margin-right-1-x">
+                            <g clip-path="url(#clip0_1024_34402)">
+                                <path fillRule="evenodd" clipRule="evenodd" d="M6 0a6 6 0 100 12A6 6 0 006 0zm2.316 4.72a.577.577 0 00-.94-.67L5.466 6.725l-.903-.903a.577.577 0 10-.816.816L5.13 8.023a.577.577 0 00.877-.072L8.316 4.72z" fill="var(--made-color-feedback-background-success)" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1024_34402">
+                                    <path fill="var(--made-color-feedback-text-on-success)" d="M0 0h12v12H0z" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+						Validation</div>
 </div>`,
         },
       },
@@ -439,35 +429,13 @@ export const filterDescriptions =
 					placeholder="Placeholder text"
 				/>
 				<button class="made-c-select__button">
-					<svg
-						width="26"
-						height="25"
-						viewBox="0 0 26 25"
-						xmlns="http://www.w3.org/2000/svg"
-						class="made-c-select__icon-clear"
-					>
-						<title>close</title>
-						<path
-							d="m23.585.146 1.768 1.768-10.586 10.585 10.586 10.585-1.768 1.768L13 14.266 2.415 24.852.647 23.084 11.233 12.5.647 1.914 2.415.146 13 10.732 23.585.146Z"
-							fill="currentColor"
-							fill-rule="evenodd"
-						/>
-					</svg>
-				</button>
-				<svg
-					width="12"
-					class="made-c-select__arrow"
-					height="6"
-					viewBox="0 0 12 6"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<title>arrow</title>
-					<path
-						d="M6 6L0 0h12z"
-						fill="currentColor"
-						fill-rule="evenodd"
-					/>
-				</svg>
+					 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.55806 4.55806C4.80214 4.31398 5.19786 4.31398 5.44194 4.55806L10 9.11612L14.5581 4.55806C14.8021 4.31398 15.1979 4.31398 15.4419 4.55806C15.686 4.80214 15.686 5.19786 15.4419 5.44194L10.8839 10L15.4419 14.5581C15.686 14.8021 15.686 15.1979 15.4419 15.4419C15.1979 15.686 14.8021 15.686 14.5581 15.4419L10 10.8839L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L9.11612 10L4.55806 5.44194C4.31398 5.19786 4.31398 4.80214 4.55806 4.55806Z" fill="#141413" />
+                        </svg>
+                    </button>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="made-c-select__arrow">
+                        <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
 			</div>
 			<div class="made-c-overflow-menu made-c-overflow-menu--form">
 				<ul class="made-c-overflow-menu__list made-c-scrollbar">
@@ -615,20 +583,9 @@ Use the multi select when you need a user to be able to select multiple options 
 		<button class="made-c-select made-u-text-left made-u-margin-bottom-0-x">
 			Default option
 		</button>
-		<svg
-			width="12"
-			class="made-c-select__arrow"
-			height="6"
-			viewBox="0 0 12 6"
-			xmlns="http://www.w3.org/2000/svg"
-		>
-			<title>arrow</title>
-			<path
-				d="M6 6L0 0h12z"
-				fill="currentColor"
-				fill-rule="evenodd"
-			/>
-		</svg>
+		  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-u-margin-right-1-x">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M4.495 1.87c.669-1.16 2.341-1.16 3.01 0l4.26 7.383c.668 1.159-.168 2.606-1.505 2.606H1.74c-1.337 0-2.173-1.447-1.505-2.606l4.26-7.384zm2.13 3.04a.543.543 0 10-1.086 0v2.484a.543.543 0 101.087 0V4.91zm-.542 3.927c-.3 0-.544.244-.544.544v.005c0 .3.244.543.544.543h.004c.3 0 .543-.244.543-.543V9.38c0-.3-.243-.544-.543-.544h-.004z" fill="var(--made-color-feedback-background-error)" />
+                        </svg>
 	</div>
 	<div class="made-c-overflow-menu made-c-overflow-menu--form">
 		<ul class="made-c-overflow-menu__list made-c-overflow-menu__list--select made-c-scrollbar">

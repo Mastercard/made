@@ -35,48 +35,6 @@ export const TextArea = ({
 				{label}
 			</label>
 			<div className="made-c-text-area__wrapper">
-				{state == "error" && (
-					<svg
-						className="made-c-text-area__icon"
-						width="16"
-						height="16"
-						viewBox="0 0 16 16"
-					>
-						<title>information icon</title>
-						<g fill="currentColor" fill-rule="evenodd">
-							<circle
-								fill="var(--made-color-feedback-background-error)"
-								cx="8"
-								cy="8"
-								r="8"
-							/>
-							<path
-								d="M8.497 13H7.388V6.182h1.109V13zM7.942 3c.109 0 .211.02.307.058a.72.72 0 01.248.162.82.82 0 01.166.244.723.723 0 01.063.3c0 .11-.021.21-.063.302a.748.748 0 01-.414.396.818.818 0 01-.307.057.762.762 0 01-.554-.216.723.723 0 01-.221-.54A.756.756 0 017.943 3z"
-								fill="var(--made-color-feedback-text-on-error)"
-							/>
-						</g>
-					</svg>
-				)}
-				{state == "success" && (
-					<svg
-						width="16"
-						height="16"
-						viewBox="0 0 16 16"
-						class="made-c-text-area__icon"
-					>
-						<title>Success</title>
-						<g fill="none" fill-rule="evenodd">
-							<path
-								d="M8 0a8 8 0 00-8 8 8 8 0 008 8 8 8 0 008-8 8 8 0 00-8-8z"
-								fill="var(--made-color-feedback-background-success)"
-							/>
-							<path
-								d="M6.178 10.265l-2.37-2.37-.808.8 3.178 3.179L13 5.052l-.802-.802z"
-								fill="var(--made-color-feedback-text-on-success)"
-							/>
-						</g>
-					</svg>
-				)}
 				<textarea
 					cols="50"
 					rows="4"
@@ -95,6 +53,23 @@ export const TextArea = ({
 			)}
 			{isValidationState && (
 				<div className={`made-c-form__validation--${validationClass}`}>
+					{state == "error" && (
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-u-margin-right-1-x">
+							<path fillRule="evenodd" clipRule="evenodd" d="M4.495 1.87c.669-1.16 2.341-1.16 3.01 0l4.26 7.383c.668 1.159-.168 2.606-1.505 2.606H1.74c-1.337 0-2.173-1.447-1.505-2.606l4.26-7.384zm2.13 3.04a.543.543 0 10-1.086 0v2.484a.543.543 0 101.087 0V4.91zm-.542 3.927c-.3 0-.544.244-.544.544v.005c0 .3.244.543.544.543h.004c.3 0 .543-.244.543-.543V9.38c0-.3-.243-.544-.543-.544h-.004z" fill="var(--made-color-feedback-background-error)" />
+						</svg>
+					)}
+					{state == "success" && (
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-u-margin-right-1-x">
+							<g clip-path="url(#clip0_1024_34402)">
+								<path fillRule="evenodd" clipRule="evenodd" d="M6 0a6 6 0 100 12A6 6 0 006 0zm2.316 4.72a.577.577 0 00-.94-.67L5.466 6.725l-.903-.903a.577.577 0 10-.816.816L5.13 8.023a.577.577 0 00.877-.072L8.316 4.72z" fill="var(--made-color-feedback-background-success)" />
+							</g>
+							<defs>
+								<clipPath id="clip0_1024_34402">
+									<path fill="var(--made-color-feedback-text-on-success)" d="M0 0h12v12H0z" />
+								</clipPath>
+							</defs>
+						</svg>
+					)}
 					{validationText}
 				</div>
 			)}

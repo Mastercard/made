@@ -1,5 +1,29 @@
 # Changelog
 
+## v3.0.0
+
+### BREAKING CHANGES ⚠️
+* Grid - removed max width, grid is now 100% width. 
+* Overflow menu: Removed `.made-c-overflow-menu__multiselect-item.made-c-checkbox__label::after` class the positions checkbox in overflow menu
+
+### VISUAL BREAKING CHANGES ⚠️
+* Accordion - removed width and height for accordion icon to align with new system icons
+
+* Search: add color for placeholder, added disabled color for icon, updated`.made-c-search-input__search-icon` class to align with new system icons
+* Select: add color for placeholder, added disabled color for icon, updated`.made-c-select__button` class to align with new system icons
+
+### Features 🚀
+* Accordion - added padding to the left of title and description, new disabled styling
+* Button - New styles for new button icon only `.made-c-button--icon-only`. Updated padding for buttons with icons to align with other variants. Added new button class to reset styles. 
+* Checkbox - New styles for checkbox and new variant for unbranded checkboxes
+* Form - add new styles to support icons with validation text and colour for placeholder text
+* Loading Indicator: Updated icon width and added new styles to support loading state in button
+* Pill: add min height to pill
+* Table: updated icon for border resize, this is not a button and not a background image
+* Text Input: add color for placeholder, added disabled color for icon, add class for text input with icon
+* Text area: add color for placeholder,
+* Toggle: added styles for small toggle, updated width of toggle
+
 ## v2.0.0
 
 ### Features 🚀

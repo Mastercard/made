@@ -1,0 +1,72 @@
+{
+  "body": {
+    "size - md": {
+      "weight - regular": {
+        "value": {
+          "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+          "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
+          "lineHeight": "{font.body.line-height}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.2}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "figmaOnly": true,
+        "comment": "Figma-only design token."
+      },
+      "weight - medium": {
+        "value": {
+          "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+          "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+          "lineHeight": "{font.body.line-height}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.2}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "figmaOnly": true,
+        "comment": "Figma-only design token."
+      }
+    },
+    "size - lg": {
+      "weight - regular": {
+        "value": {
+          "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+          "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
+          "lineHeight": "{font.body.line-height}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.3}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "figmaOnly": true,
+        "comment": "Figma-only design token."
+      },
+      "weight - medium": {
+        "value": {
+          "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+          "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+          "lineHeight": "{font.body.line-height}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.3}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "figmaOnly": true,
+        "comment": "Figma-only design token."
+      }
+    }
+  }
+}
