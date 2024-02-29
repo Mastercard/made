@@ -11,35 +11,13 @@ export const Pagination = ({
 		<div class="made-c-pagination">
 			<div class="made-c-pagination__controls">
 				<button type="button" class="made-c-pagination__button">
-					<svg
-						width="20"
-						height="24"
-						class="made-c-pagination__icon"
-						viewBox="0 0 20 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<title>pagination - first</title>
-						<path
-							d="M19.879 0v24L6.545 12 19.88 0zM2.182 0v24H0V0h2.182z"
-							fill="currentColor"
-							fill-rule="evenodd"
-						/>
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 					</svg>
 				</button>
 				<button type="button" class="made-c-pagination__button">
-					<svg
-						width="14"
-						height="24"
-						class="made-c-pagination__icon"
-						viewBox="0 0 14 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<title>pagination - previous</title>
-						<path
-							d="M0 12l13.333 12V0z"
-							fill="currentColor"
-							fill-rule="evenodd"
-						/>
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M15.75 19.5L8.25 12l7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 					</svg>
 				</button>
 				<label
@@ -60,35 +38,13 @@ export const Pagination = ({
 					type="button"
 					class="made-c-pagination__button made-u-margin-left-4-x"
 				>
-					<svg
-						width="14"
-						height="24"
-						class="made-c-pagination__icon"
-						viewBox="0 0 14 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<title>pagination - next</title>
-						<path
-							d="M13.333 12L0 24V0z"
-							fill="currentColor"
-							fill-rule="evenodd"
-						/>
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8.25 4.5l7.5 7.5-7.5 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 					</svg>
 				</button>
 				<button type="button" class="made-c-pagination__button">
-					<svg
-						width="20"
-						height="24"
-						class="made-c-pagination__icon"
-						viewBox="0 0 20 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<title>pagination - last</title>
-						<path
-							d="M0 0v24l13.333-12L0 0zm17.697 0v24h2.182V0h-2.182z"
-							fill="currentColor"
-							fill-rule="evenodd"
-						/>
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 					</svg>
 				</button>
 			</div>

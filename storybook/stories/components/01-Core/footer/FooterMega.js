@@ -23,7 +23,7 @@ export const FooterMega = ({
                         {isLogo && (
                             <img
                                 class="made-u-margin-top-10-x"
-                                src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/logo-small.svg"
+                                src="https://made.stage.mastercardlabs.com/images/logo-small.svg"
                                 alt="Mastercard logo"
                                 width="50"
                                 height="30"
