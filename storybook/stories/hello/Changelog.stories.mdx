@@ -7,6 +7,30 @@ import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
 
 ## CSS
 
+### v3.0.0
+
+### Breaking Changes ⚠️
+* Grid - removed max width, grid is now 100% width. 
+* Overflow menu: Removed `.made-c-overflow-menu__multiselect-item.made-c-checkbox__label::after` class the positions checkbox in overflow menu
+
+### Visual Breaking Changes ⚠️
+* Accordion - removed width and height for accordion icon to align with new system icons
+* Range slider label now aligns with other form labels using `made-c-form__label` class.
+* Search: add color for placeholder, added disabled color for icon, updated`.made-c-search-input__search-icon` class to align with new system icons
+* Select: add color for placeholder, added disabled color for icon, updated`.made-c-select__button` class to align with new system icons
+
+### Features 🚀
+* Accordion - added padding to the left of title and description, new disabled styling
+* Button - New styles for new button icon only `.made-c-button--icon-only`. Updated padding for buttons with icons to align with other variants. Added new button class to reset styles. 
+* Checkbox - New styles for checkbox and new variant for unbranded checkboxes
+* Form - add new styles to support icons with validation text and colour for placeholder text
+* Loading Indicator: Updated icon width and added new styles to support loading state in button
+* Pill: add min height to pill
+* Table: updated icon for border resize, this is not a button and not a background image
+* Text Input: add color for placeholder, added disabled color for icon, add class for text input with icon
+* Text area: add color for placeholder,
+* Toggle: added styles for small toggle, updated width of toggle
+
 ### v2.0.0
 
 #### Features 🚀
@@ -148,6 +172,22 @@ import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
 ----
 
 ## Design Tokens
+
+
+### 2.3.0
+
+#### Features 🚀
+
+##### New tokens added:
+
+* --made-checkbox-color-background-branded-selected
+* --made-checkbox-color-background-neutral-selected
+* --made-checkbox-icon-color-neutral-readonly
+* --made-checkbox-icon-color-neutral-default
+* --made-checkbox-icon-color-branded-readonly
+* --made-checkbox-icon-color-branded-default
+* --made-table-color-border-resize
+* --made-color-text-placeholder
 
 ### 2.2.0
 

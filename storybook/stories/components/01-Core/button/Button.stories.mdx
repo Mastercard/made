@@ -2,10 +2,7 @@ import { Meta, Canvas, Story, Props } from "@storybook/addon-docs/blocks";
 import { BADGE } from "@geometricpanda/storybook-addon-badges";
 import { Button } from "./Button";
 
-<Meta
-  title="Actions/Button"
-  parameters={{ badges: [BADGE.OBSOLETE]}}
-/>
+<Meta title="Actions/Button" parameters={{ badges: [BADGE.OBSOLETE] }} />
 
 export const button = (args) => <Button {...args} />;
 
@@ -38,8 +35,18 @@ The `made-c-button--primary` class adds primary button styles.
       isDisabled: {
         name: "Disabled",
       },
-      showIcon: {
+   showIcon: {
         name: "Show Icon",
+      },
+       showLoading: {
+        name: "Show Loading Indicator",
+      },
+      iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["right","left"],
+        },
       },
       size: {
         name: "Size",
@@ -64,6 +71,8 @@ The `made-c-button--primary` class adds primary button styles.
       style: "primary",
       isDisabled: false,
       showIcon: false,
+      iconPosition: "right",
+      showLoading: false,
       size: "default",
       isResponsive: false,
       background: "default",
@@ -103,8 +112,11 @@ The `made-c-button--primary-on-dark` class adds primary button on dark backgroun
       isDisabled: {
         name: "Disabled",
       },
-      showIcon: {
+showIcon: {
         name: "Show Icon",
+      },
+       showLoading: {
+        name: "Show Loading Indicator",
       },
       size: {
         name: "Size",
@@ -128,7 +140,8 @@ The `made-c-button--primary-on-dark` class adds primary button on dark backgroun
       text: "Primary",
       style: "primary",
       isDisabled: false,
-      showIcon: false,
+       showIcon: false,
+  showLoading: false,
       size: "default",
       isResponsive: false,
       background: "dark",
@@ -169,8 +182,17 @@ The `made-c-button--secondary` class adds primary button styles.
       isDisabled: {
         name: "Disabled",
       },
-      showIcon: {
+showIcon: {
         name: "Show Icon",
+      },
+       showLoading: {
+        name: "Show Loading Indicator",
+      },
+       showLoadingOnly: {
+        name: "Show Loading Indicator Only",
+      },
+       showLoading: {
+        name: "Show Loading Indicator",
       },
       size: {
         name: "Size",
@@ -194,7 +216,8 @@ The `made-c-button--secondary` class adds primary button styles.
       text: "Secondary",
       style: "secondary",
       isDisabled: false,
-      showIcon: false,
+       showIcon: false,
+  showLoading: false,
       size: "default",
       isResponsive: false,
       background: "default",
@@ -234,8 +257,11 @@ The `made-c-button--secondary-on-dark` class adds primary button on dark backgro
       isDisabled: {
         name: "Disabled",
       },
-      showIcon: {
+   showIcon: {
         name: "Show Icon",
+      },
+       showLoading: {
+        name: "Show Loading Indicator",
       },
       size: {
         name: "Size",
@@ -259,7 +285,8 @@ The `made-c-button--secondary-on-dark` class adds primary button on dark backgro
       text: "Secondary",
       style: "secondary",
       isDisabled: false,
-      showIcon: false,
+       showIcon: false,
+  showLoading: false,
       size: "default",
       isResponsive: false,
       background: "dark",
@@ -301,8 +328,11 @@ The `made-c-button--ghost` class adds primary button styles.
       isDisabled: {
         name: "Disabled",
       },
-      showIcon: {
+   showIcon: {
         name: "Show Icon",
+      },
+       showLoading: {
+        name: "Show Loading Indicator",
       },
       size: {
         name: "Size",
@@ -370,8 +400,11 @@ The `made-c-button--secondary-on-dark` class adds primary button on dark backgro
       isDisabled: {
         name: "Disabled",
       },
-      showIcon: {
+   showIcon: {
         name: "Show Icon",
+      },
+       showLoading: {
+        name: "Show Loading Indicator",
       },
       size: {
         name: "Size",
@@ -458,20 +491,9 @@ Styling for disabled state buttons is added when `disabled` attribute is added.
       disabled
     >
       Ghost Button
-      <svg
-        class="made-c-button__icon--ghost"
-        width="24"
-        height="16"
-        viewBox="0 0 24 16"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title>arrow-forward</title>
-        <path
-          d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
-          fill="currentColor"
-          fill-rule="evenodd"
-        />
-      </svg>
+       <svg class="made-u-margin-left-2-x" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 4.72a.75.75 0 011.06 0l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 010-1.5h13.19l-5.47-5.47a.75.75 0 010-1.06z" fill="currentColor" />
+          </svg>
     </button>
   </Story>
 </Canvas>
@@ -489,20 +511,9 @@ Can also be applied to disabled buttons on a dark background.
 <button type="button" class="made-c-button made-c-button--secondary-on-dark made-u-margin-right-6-x" aria-disabled="true" disabled>Secondary</button>
 <button type="button" class="made-c-button made-c-button--ghost-on-dark" aria-disabled="true" disabled>
   Ghost Button
-  <svg
-    class="made-c-button__icon--ghost"
-    width="24"
-    height="16"
-    viewBox="0 0 24 16"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-  <title>arrow-forward</title>
-  <path
-    d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
-    fill="currentColor"
-    fill-rule="evenodd"
-  />
-  </svg>
+    <svg class="made-u-margin-left-2-x" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 4.72a.75.75 0 011.06 0l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 010-1.5h13.19l-5.47-5.47a.75.75 0 010-1.06z" fill="currentColor" />
+          </svg>
 </button>
       `,
         },
@@ -534,20 +545,9 @@ Can also be applied to disabled buttons on a dark background.
             disabled
           >
             Ghost Button
-            <svg
-              class="made-c-button__icon--ghost"
-              width="24"
-              height="16"
-              viewBox="0 0 24 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>arrow-forward</title>
-              <path
-                d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
-                fill="currentColor"
-                fill-rule="evenodd"
-              />
-            </svg>
+             <svg class="made-u-margin-left-2-x" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 4.72a.75.75 0 011.06 0l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 010-1.5h13.19l-5.47-5.47a.75.75 0 010-1.06z" fill="currentColor" />
+             </svg>
           </button>
         </div>
       ),
@@ -555,51 +555,77 @@ Can also be applied to disabled buttons on a dark background.
   ></Story>
 </Canvas>
 
+## Loading State
+
+Styling for disabled state buttons is added when `disabled` attribute is added.
+
+<Canvas>
+  <Story name="Loading State">
+    <button
+      type="button"
+      class="made-c-button made-c-button--primary made-u-margin-right-6-x"
+    >
+       <div class="made-c-loading--on-primary made-c-loading--xsmall made-u-margin-right-2-x" role="status"></div>
+      Primary
+    </button>
+    <button
+      type="button"
+      class="made-c-button made-c-button--secondary made-u-margin-right-6-x"
+    >
+      Secondary
+      <div class="made-c-loading made-c-loading--xsmall made-u-margin-left-2-x" role="status"></div>
+    </button>
+  </Story>
+</Canvas>
+
 ## Button With Icons
 
-Add an SVG to the button adding the `made-c-button__icon` class to add spacing.
+Add an SVG to the button and add Made utility classes to add spacing for icons positioned to the left `made-u-margin-right-2-x` and right `made-u-margin-left-2-x`.
 
 <Canvas>
   <Story name="Button with Icons">
     <button
       type="button"
-      class="made-c-button made-c-button--primary made-c-button--icon made-u-margin-right-6-x"
+      class="made-c-button made-c-button--primary made-u-margin-right-6-x"
     >
+          <svg class="made-u-margin-right-2-x" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.055 4.418a1 1 0 01.277 1.387l-9 13.5a1 1 0 01-1.54.152l-6-6a1 1 0 111.415-1.414l5.138 5.137 8.323-12.485a1 1 0 011.387-.277z" fill="currentColor" />
+          </svg>
       Primary
-      <svg
-        class="made-c-button__icon"
-        width="24"
-        height="16"
-        viewBox="0 0 24 16"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title>arrow-forward</title>
-        <path
-          d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
-          fill="currentColor"
-          fill-rule="evenodd"
-        />
-      </svg>
     </button>
     <button
       type="button"
-      class="made-c-button made-c-button--secondary made-c-button--icon made-u-margin-right-6-x"
+      class="made-c-button made-c-button--secondary made-u-margin-right-6-x"
     >
       Secondary
-      <svg
-        class="made-c-button__icon"
-        width="24"
-        height="16"
-        viewBox="0 0 24 16"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title>arrow-forward</title>
-        <path
-          d="M19.024.42L24 7.999l-4.976 7.579-.708-.891L22.31 8.6H0v-1.09l22.387-.001-4.071-6.199.708-.891z"
-          fill="currentColor"
-          fill-rule="evenodd"
-        />
-      </svg>
+       <svg class="made-u-margin-left-2-x" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.22 4.72a.75.75 0 011.06 0l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 010-1.5h13.19l-5.47-5.47a.75.75 0 010-1.06z" fill="currentColor" />
+          </svg>
+    </button>
+  </Story>
+</Canvas>
+
+## Button With Icon Only
+
+Add an SVG to the button adding the `made-c-button--icon` class to create small round button.
+
+<Canvas>
+  <Story name="Button with Icon Only">
+    <button
+      type="button"
+      class="made-c-button made-c-button--primary made-c-button--icon-only made-u-margin-right-6-x"
+    >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" fill="currentColor" />
+          </svg>
+    </button>
+    <button
+      type="button"
+      class="made-c-button made-c-button--secondary made-c-button--icon-only"
+    >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" fill="currentColor" />
+          </svg>
     </button>
   </Story>
 </Canvas>

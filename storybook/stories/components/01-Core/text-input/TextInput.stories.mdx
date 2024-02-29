@@ -35,6 +35,13 @@ All text inputs must have visible labels; placeholder text is not an acceptable 
           options: ["default", "disabled", "error", "success"],
         },
       },
+       iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
     }}
     args={{
       name: "default",
@@ -44,6 +51,8 @@ All text inputs must have visible labels; placeholder text is not an acceptable 
       helperText: "Helper text",
       validationText: "Validation",
       state: "default",
+      icon: false,
+      iconPosition: "left"
     }}
     parameters={{
       controls: {
@@ -58,6 +67,148 @@ All text inputs must have visible labels; placeholder text is not an acceptable 
   </label>
   <div class="made-c-text-input__wrapper">
     <input type="text" id="default" name="default" class="made-c-text-input" placeholder="Placeholder text" />
+  </div>
+  <div class="made-c-form__hint">Helper text</div>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{textInput.bind({})}
+  </Story>
+</Canvas>
+
+## Default with left-aligned icons
+
+<Canvas>
+  <Story
+    name="Default with left-aligned icons"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      placeholder: {
+        name: "Placeholder",
+      },
+      helperText: {
+        name: "Helper Text",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error", "success"],
+        },
+      },
+      iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
+    }}
+    args={{
+      name: "default",
+      label: "Form label",
+      value: "",
+      placeholder: "Placeholder text",
+      helperText: "Helper text",
+      validationText: "Validation",
+      state: "default",
+      icon: true,
+      iconPosition: "left"
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name", "value"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <label for="default" class="made-c-form__label">
+    Form label
+  </label>
+  <div class="made-c-text-input__wrapper">
+    <input type="text" id="default" name="default" class="made-c-text-input" placeholder="Placeholder text" />
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-c-form__icon made-c-form__icon--left">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 5.625C1.25 4.24429 2.36929 3.125 3.75 3.125H16.25C17.6307 3.125 18.75 4.24429 18.75 5.625V14.375C18.75 15.7557 17.6307 16.875 16.25 16.875H3.75C2.36929 16.875 1.25 15.7557 1.25 14.375V5.625ZM2.5 5.625V5.82726C2.5 6.26133 2.72519 6.66433 3.09488 6.89183L9.34488 10.738C9.74664 10.9852 10.2534 10.9852 10.6551 10.738L16.9051 6.89183C17.2748 6.66433 17.5 6.26134 17.5 5.82726V5.625C17.5 4.93464 16.9404 4.375 16.25 4.375H3.75C3.05964 4.375 2.5 4.93464 2.5 5.625ZM17.5 7.99348L11.3102 11.8026C10.5067 12.297 9.49327 12.297 8.68976 11.8026L2.5 7.99348V14.375C2.5 15.0654 3.05964 15.625 3.75 15.625H16.25C16.9404 15.625 17.5 15.0654 17.5 14.375V7.99348Z" fill="currentColor"/>
+    </svg>
+  </div>
+  <div class="made-c-form__hint">Helper text</div>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{textInput.bind({})}
+  </Story>
+</Canvas>
+
+## Default with right-aligned icons
+
+<Canvas>
+  <Story
+    name="Default with right-aligned icons"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      placeholder: {
+        name: "Placeholder",
+      },
+      helperText: {
+        name: "Helper Text",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["default", "disabled", "error", "success"],
+        },
+      },
+      iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
+    }}
+    args={{
+      name: "default",
+      label: "Form label",
+      value: "",
+      placeholder: "Placeholder text",
+      helperText: "Helper text",
+      validationText: "Validation",
+      state: "default",
+      icon: true,
+      iconPosition: "right"
+    }}
+    parameters={{
+      controls: {
+        exclude: ["name", "value"],
+      },
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <label for="default" class="made-c-form__label">
+    Form label
+  </label>
+  <div class="made-c-text-input__wrapper">
+    <input type="text" id="default" name="default" class="made-c-text-input" placeholder="Placeholder text" />
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-c-form__icon made-c-form__icon--right">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M5.625 1.875C5.97018 1.875 6.25 2.15482 6.25 2.5V3.75H13.75V2.5C13.75 2.15482 14.0298 1.875 14.375 1.875C14.7202 1.875 15 2.15482 15 2.5V3.75H15.625C17.0057 3.75 18.125 4.86929 18.125 6.25V15.625C18.125 17.0057 17.0057 18.125 15.625 18.125H4.375C2.99429 18.125 1.875 17.0057 1.875 15.625V6.25C1.875 4.86929 2.99429 3.75 4.375 3.75H5V2.5C5 2.15482 5.27982 1.875 5.625 1.875ZM4.375 5C3.68464 5 3.125 5.55964 3.125 6.25V7.20946C3.49272 6.99674 3.91964 6.875 4.375 6.875H15.625C16.0804 6.875 16.5073 6.99674 16.875 7.20946V6.25C16.875 5.55964 16.3154 5 15.625 5H4.375ZM16.875 9.375C16.875 8.68464 16.3154 8.125 15.625 8.125H4.375C3.68464 8.125 3.125 8.68464 3.125 9.375V15.625C3.125 16.3154 3.68464 16.875 4.375 16.875H15.625C16.3154 16.875 16.875 16.3154 16.875 15.625V9.375ZM9.375 10.625C9.375 10.2798 9.65482 10 10 10H10.0062C10.3514 10 10.6312 10.2798 10.6312 10.625V10.6312C10.6312 10.9764 10.3514 11.2562 10.0062 11.2562H10C9.65482 11.2562 9.375 10.9764 9.375 10.6312V10.625ZM11.25 10.625C11.25 10.2798 11.5298 10 11.875 10H11.8812C12.2264 10 12.5062 10.2798 12.5062 10.625V10.6312C12.5062 10.9764 12.2264 11.2562 11.8812 11.2562H11.875C11.5298 11.2562 11.25 10.9764 11.25 10.6312V10.625ZM13.125 10.625C13.125 10.2798 13.4048 10 13.75 10H13.7562C14.1014 10 14.3812 10.2798 14.3812 10.625V10.6312C14.3812 10.9764 14.1014 11.2562 13.7562 11.2562H13.75C13.4048 11.2562 13.125 10.9764 13.125 10.6312V10.625ZM5.625 12.5C5.625 12.1548 5.90482 11.875 6.25 11.875H6.25625C6.60143 11.875 6.88125 12.1548 6.88125 12.5V12.5062C6.88125 12.8514 6.60143 13.1312 6.25625 13.1312H6.25C5.90482 13.1312 5.625 12.8514 5.625 12.5062V12.5ZM7.5 12.5C7.5 12.1548 7.77982 11.875 8.125 11.875H8.13125C8.47643 11.875 8.75625 12.1548 8.75625 12.5V12.5062C8.75625 12.8514 8.47643 13.1312 8.13125 13.1312H8.125C7.77982 13.1312 7.5 12.8514 7.5 12.5062V12.5ZM9.375 12.5C9.375 12.1548 9.65482 11.875 10 11.875H10.0062C10.3514 11.875 10.6312 12.1548 10.6312 12.5V12.5062C10.6312 12.8514 10.3514 13.1312 10.0062 13.1312H10C9.65482 13.1312 9.375 12.8514 9.375 12.5062V12.5ZM11.25 12.5C11.25 12.1548 11.5298 11.875 11.875 11.875H11.8812C12.2264 11.875 12.5062 12.1548 12.5062 12.5V12.5062C12.5062 12.8514 12.2264 13.1312 11.8812 13.1312H11.875C11.5298 13.1312 11.25 12.8514 11.25 12.5062V12.5ZM13.125 12.5C13.125 12.1548 13.4048 11.875 13.75 11.875H13.7562C14.1014 11.875 14.3812 12.1548 14.3812 12.5V12.5062C14.3812 12.8514 14.1014 13.1312 13.7562 13.1312H13.75C13.4048 13.1312 13.125 12.8514 13.125 12.5062V12.5ZM5.625 14.375C5.625 14.0298 5.90482 13.75 6.25 13.75H6.25625C6.60143 13.75 6.88125 14.0298 6.88125 14.375V14.3812C6.88125 14.7264 6.60143 15.0062 6.25625 15.0062H6.25C5.90482 15.0062 5.625 14.7264 5.625 14.3812V14.375ZM7.5 14.375C7.5 14.0298 7.77982 13.75 8.125 13.75H8.13125C8.47643 13.75 8.75625 14.0298 8.75625 14.375V14.3812C8.75625 14.7264 8.47643 15.0062 8.13125 15.0062H8.125C7.77982 15.0062 7.5 14.7264 7.5 14.3812V14.375ZM9.375 14.375C9.375 14.0298 9.65482 13.75 10 13.75H10.0062C10.3514 13.75 10.6312 14.0298 10.6312 14.375V14.3812C10.6312 14.7264 10.3514 15.0062 10.0062 15.0062H10C9.65482 15.0062 9.375 14.7264 9.375 14.3812V14.375ZM11.25 14.375C11.25 14.0298 11.5298 13.75 11.875 13.75H11.8812C12.2264 13.75 12.5062 14.0298 12.5062 14.375V14.3812C12.5062 14.7264 12.2264 15.0062 11.8812 15.0062H11.875C11.5298 15.0062 11.25 14.7264 11.25 14.3812V14.375Z" fill="#141413" />
+					</svg>
   </div>
   <div class="made-c-form__hint">Helper text</div>
 </div>`,
@@ -96,6 +247,13 @@ Add the disabled boolean attribute on an input to give it a grayed out appearanc
           options: ["default", "disabled", "error", "success"],
         },
       },
+        iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
     }}
     args={{
       name: "disabled-state",
@@ -105,6 +263,8 @@ Add the disabled boolean attribute on an input to give it a grayed out appearanc
       helperText: "Helper text",
       validationText: "Validation",
       state: "disabled",
+      icon: false,
+      iconPosition: "left"
     }}
     parameters={{
       controls: {
@@ -158,6 +318,13 @@ Add an error message using the `made-c-form__validation--error` class.
           options: ["default", "disabled", "error", "success"],
         },
       },
+        iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
     }}
     args={{
       name: "error-state",
@@ -167,6 +334,7 @@ Add an error message using the `made-c-form__validation--error` class.
       helperText: "Helper text",
       validationText: "Validation",
       state: "error",
+      icon: false
     }}
     parameters={{
       controls: {
@@ -180,16 +348,13 @@ Add an error message using the `made-c-form__validation--error` class.
     Form label
   </label>
   <div class="made-c-text-input__wrapper">
-    <svg class="made-c-text-input__icon" width="16" height="16" viewBox="0 0 16 16">
-      <title>information icon</title>
-      <g fill="currentColor" fill-rule="evenodd">
-        <circle fill="var(--made-color-feedback-background-error)" cx="8" cy="8" r="8" />
-        <path d="M8.497 13H7.388V6.182h1.109V13zM7.942 3c.109 0 .211.02.307.058a.72.72 0 01.248.162.82.82 0 01.166.244.723.723 0 01.063.3c0 .11-.021.21-.063.302a.748.748 0 01-.414.396.818.818 0 01-.307.057.762.762 0 01-.554-.216.723.723 0 01-.221-.54A.756.756 0 017.943 3z" fill="var(--made-color-feedback-text-on-error)" />
-      </g>
-    </svg>
     <input type="text" id="error-state" name="error" class="made-c-text-input made-c-text-input--error" placeholder="Placeholder text" />
   </div>
-  <div class="made-c-form__validation--error">Validation</div>
+  <div class="made-c-form__validation--error">
+  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-u-margin-right-1-x">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M4.495 1.87c.669-1.16 2.341-1.16 3.01 0l4.26 7.383c.668 1.159-.168 2.606-1.505 2.606H1.74c-1.337 0-2.173-1.447-1.505-2.606l4.26-7.384zm2.13 3.04a.543.543 0 10-1.086 0v2.484a.543.543 0 101.087 0V4.91zm-.542 3.927c-.3 0-.544.244-.544.544v.005c0 .3.244.543.544.543h.004c.3 0 .543-.244.543-.543V9.38c0-.3-.243-.544-.543-.544h-.004z" fill="var(--made-color-feedback-background-error)" />
+						</svg>
+            Validation</div>
 </div>`,
         },
       },
@@ -227,6 +392,13 @@ Add an error message using the `made-c-form__validation--success` class.
           options: ["default", "disabled", "error", "success"],
         },
       },
+        iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
     }}
     args={{
       name: "success-state",
@@ -236,6 +408,7 @@ Add an error message using the `made-c-form__validation--success` class.
       helperText: "Helper text",
       validationText: "Validation",
       state: "success",
+      icon: false
     }}
     parameters={{
       controls: {
@@ -249,16 +422,20 @@ Add an error message using the `made-c-form__validation--success` class.
     Form label
   </label>
   <div class="made-c-text-input__wrapper">
-    <svg width="16" height="16" viewBox="0 0 16 16" class="made-c-text-area__icon">
-      <title>Success</title>
-      <g fill="none" fill-rule="evenodd">
-        <path d="M8 0a8 8 0 00-8 8 8 8 0 008 8 8 8 0 008-8 8 8 0 00-8-8z" fill="var(--made-color-feedback-background-success)" />
-        <path d="M6.178 10.265l-2.37-2.37-.808.8 3.178 3.179L13 5.052l-.802-.802z" fill="var(--made-color-feedback-text-on-success)" />
-      </g>
-    </svg>
     <input type="text" id="success-state" name="success" class="made-c-text-input made-c-text-input--success" placeholder="Placeholder text" />
   </div>
-  <div class="made-c-form__validation--success">Validation</div>
+  <div class="made-c-form__validation--success">
+  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="made-u-margin-right-1-x">
+							<g clip-path="url(#clip0_1024_34402)">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M6 0a6 6 0 100 12A6 6 0 006 0zm2.316 4.72a.577.577 0 00-.94-.67L5.466 6.725l-.903-.903a.577.577 0 10-.816.816L5.13 8.023a.577.577 0 00.877-.072L8.316 4.72z" fill="var(--made-color-feedback-background-success)" />
+							</g>
+							<defs>
+								<clipPath id="clip0_1024_34402">
+									<path fill="var(--made-color-feedback-text-on-success)" d="M0 0h12v12H0z" />
+								</clipPath>
+							</defs>
+						</svg>
+            Validation</div>
 </div>`,
         },
       },
@@ -291,6 +468,13 @@ The password strength component allows you to show an indicator of how strong a 
           options: ["default", "weak", "average", "strong"],
         },
       },
+        iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
     }}
     args={{
       name: "password",
@@ -299,6 +483,7 @@ The password strength component allows you to show an indicator of how strong a 
       placeholder: "Placeholder text",
       state: "password",
       passwordStrength: "default",
+      icon: false
     }}
     parameters={{
       controls: {
@@ -319,6 +504,9 @@ The password strength component allows you to show an indicator of how strong a 
       class="made-c-text-input"
       placeholder="Placeholder text"
     />
+      <svg class="made-c-form__icon made-c-form__icon--right" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M12.002 5.25a9.755 9.755 0 00-9.254 6.67.261.261 0 000 .165 9.754 9.754 0 0018.505-.005.262.262 0 000-.165 9.755 9.755 0 00-9.252-6.665zM1.323 11.447C2.812 6.976 7.03 3.75 12.002 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113C21.19 17.024 16.972 20.25 12 20.25c-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 010-1.113zM12.001 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM8.25 12a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0z" fill="currentColor" />
+					</svg>
   </div>
   <div class="made-c-meter">
     <div class="made-c-meter__level"></div>
@@ -361,6 +549,13 @@ To show a password as weak add the class `made-c-meter__level--weak` alongside t
           options: ["default", "weak", "average", "strong"],
         },
       },
+         iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
     }}
     args={{
       name: "password",
@@ -369,6 +564,7 @@ To show a password as weak add the class `made-c-meter__level--weak` alongside t
       placeholder: "Placeholder text",
       state: "password",
       passwordStrength: "weak",
+      icon: false
     }}
     parameters={{
       controls: {
@@ -383,6 +579,9 @@ To show a password as weak add the class `made-c-meter__level--weak` alongside t
   </label>
   <div class="made-c-text-input__wrapper">
     <input type="password" id="password" name="password" value="password" class="made-c-text-input" placeholder="Placeholder text" />
+      <svg class="made-c-form__icon made-c-form__icon--right" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M12.002 5.25a9.755 9.755 0 00-9.254 6.67.261.261 0 000 .165 9.754 9.754 0 0018.505-.005.262.262 0 000-.165 9.755 9.755 0 00-9.252-6.665zM1.323 11.447C2.812 6.976 7.03 3.75 12.002 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113C21.19 17.024 16.972 20.25 12 20.25c-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 010-1.113zM12.001 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM8.25 12a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0z" fill="currentColor" />
+					</svg>
   </div>
   <div class="made-c-meter">
     <div class="made-c-meter__level made-c-meter__level--weak"></div>
@@ -427,6 +626,13 @@ To show a password as average add the class `made-c-meter__level--average` along
           options: ["default", "weak", "average", "strong"],
         },
       },
+         iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
     }}
     args={{
       name: "password",
@@ -435,6 +641,7 @@ To show a password as average add the class `made-c-meter__level--average` along
       placeholder: "Placeholder text",
       state: "password",
       passwordStrength: "average",
+      icon: false
     }}
     parameters={{
       controls: {
@@ -449,6 +656,9 @@ To show a password as average add the class `made-c-meter__level--average` along
 	</label>
 	<div class="made-c-text-input__wrapper">
 		<input type="password" id="default" name="default" value="password" class="made-c-text-input" placeholder="Placeholder text" />
+        <svg class="made-c-form__icon made-c-form__icon--right" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M12.002 5.25a9.755 9.755 0 00-9.254 6.67.261.261 0 000 .165 9.754 9.754 0 0018.505-.005.262.262 0 000-.165 9.755 9.755 0 00-9.252-6.665zM1.323 11.447C2.812 6.976 7.03 3.75 12.002 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113C21.19 17.024 16.972 20.25 12 20.25c-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 010-1.113zM12.001 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM8.25 12a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0z" fill="currentColor" />
+					</svg>
 	</div>
 	<div class="made-c-meter">
 		<div class="made-c-meter__level made-c-meter__level--average"></div>
@@ -493,6 +703,13 @@ To show a password as strong add the class `made-c-meter__level--strong` alongsi
           options: ["default", "weak", "average", "strong"],
         },
       },
+         iconPosition: {
+        name: "Icon Position",
+        control: {
+          type: "radio",
+          options: ["left", "right"],
+        },
+      },
     }}
     args={{
       name: "password",
@@ -501,6 +718,7 @@ To show a password as strong add the class `made-c-meter__level--strong` alongsi
       placeholder: "Placeholder text",
       state: "password",
       passwordStrength: "strong",
+      icon: false
     }}
     parameters={{
       controls: {
@@ -515,6 +733,9 @@ To show a password as strong add the class `made-c-meter__level--strong` alongsi
 	</label>
 	<div class="made-c-text-input__wrapper">
 		<input type="password" id="default" name="default" value="password" class="made-c-text-input" placeholder="Placeholder text" />
+        <svg class="made-c-form__icon made-c-form__icon--right" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M12.002 5.25a9.755 9.755 0 00-9.254 6.67.261.261 0 000 .165 9.754 9.754 0 0018.505-.005.262.262 0 000-.165 9.755 9.755 0 00-9.252-6.665zM1.323 11.447C2.812 6.976 7.03 3.75 12.002 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113C21.19 17.024 16.972 20.25 12 20.25c-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 010-1.113zM12.001 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM8.25 12a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0z" fill="currentColor" />
+					</svg>
 	</div>
 	<div class="made-c-meter">
 		<div class="made-c-meter__level made-c-meter__level--strong"></div>
