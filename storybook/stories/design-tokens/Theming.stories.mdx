@@ -2,12 +2,13 @@ import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
 import data from "../assets/data/theme.json";
 import { BADGE } from "@geometricpanda/storybook-addon-badges";
 import { linkTo } from "@storybook/addon-links";
+import ThemeGif from '../assets/images/theming.gif';
 
 <Meta title="Design Tokens/Theming" parameters={{}} />
 
 # Theming
 
-<img src="https://cdn.jsdelivr.net/gh/mastercard/made@main/storybook/stories/assets/images/theming.gif" alt="theme your products with Made design tokens" width="80%" />
+<img src={ThemeGif} alt="theme your products with Made design tokens" width="80%" />
 
 Themes are used to modify existing components to fit a specific visual style or brand.  By bringing together semantic atoms of the design system with smart role-based tokens, as well as a small number of themeable tokens, changing from light to dark mode, or from one brand to another is now just a matter of switching token values.
 Using an existing theme as a basis, simply select your preferred themeable tokens and apply those design decisions to a new theme. With these smart aliases in place, your UI will instantly rebrand—no change of styles necessary.

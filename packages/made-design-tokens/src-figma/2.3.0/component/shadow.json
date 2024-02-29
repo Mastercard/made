@@ -1,0 +1,10 @@
+{
+  "shadow": {
+    "toggle": {
+      "value": "0 5px 10px 0 rgba(20,20,19,0.15), 0 2px 2px 0 rgba(20,20,19,0.3);",
+      "type": "boxShadow",
+      "comment": "Shadow on slider on toggle component.",
+      "themeable": "No"
+    }
+  }
+}

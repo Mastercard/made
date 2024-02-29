@@ -38,34 +38,12 @@ export const Filter = ({
                         placeholder={placeholder}
                     />
                     <button class="made-c-select__button">
-                        <svg
-                            width="26"
-                            height="25"
-                            viewBox="0 0 26 25"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="made-c-select__icon-clear"
-                        >
-                            <title>close</title>
-                            <path
-                                d="m23.585.146 1.768 1.768-10.586 10.585 10.586 10.585-1.768 1.768L13 14.266 2.415 24.852.647 23.084 11.233 12.5.647 1.914 2.415.146 13 10.732 23.585.146Z"
-                                fill="currentColor"
-                                fill-rule="evenodd"
-                            />
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.55806 4.55806C4.80214 4.31398 5.19786 4.31398 5.44194 4.55806L10 9.11612L14.5581 4.55806C14.8021 4.31398 15.1979 4.31398 15.4419 4.55806C15.686 4.80214 15.686 5.19786 15.4419 5.44194L10.8839 10L15.4419 14.5581C15.686 14.8021 15.686 15.1979 15.4419 15.4419C15.1979 15.686 14.8021 15.686 14.5581 15.4419L10 10.8839L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L9.11612 10L4.55806 5.44194C4.31398 5.19786 4.31398 4.80214 4.55806 4.55806Z" fill="#141413" />
                         </svg>
                     </button>
-                    <svg
-                        width="12"
-                        class="made-c-select__arrow"
-                        height="6"
-                        viewBox="0 0 12 6"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <title>arrow</title>
-                        <path
-                            d="M6 6L0 0h12z"
-                            fill="currentColor"
-                            fill-rule="evenodd"
-                        />
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="made-c-select__arrow">
+                        <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
             )}
@@ -120,19 +98,8 @@ export const Filter = ({
                     <button class="made-c-select made-u-text-left made-u-margin-bottom-0-x">
                         {placeholder}
                     </button>
-                    <svg
-                        width="12"
-                        class="made-c-select__arrow"
-                        height="6"
-                        viewBox="0 0 12 6"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <title>arrow</title>
-                        <path
-                            d="M6 6L0 0h12z"
-                            fill="currentColor"
-                            fill-rule="evenodd"
-                        />
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="made-c-select__arrow">
+                        <path d="M16.25 6.875L10 13.125L3.75 6.875" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
             )}
