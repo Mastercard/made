@@ -1,0 +1,33 @@
+.made-c-tour--visible {
+	display: block;
+}
+
+.made-c-tour {
+	bottom: auto;
+	left: auto;
+	margin: var(--made-space-4-x);
+	max-width: 90%;
+	opacity: 1;
+	right: auto;
+	top: auto;
+	transform: none;
+	visibility: visible;
+}
+
+.made-c-tour__header {
+	display: flex;
+	justify-content: flex-end;
+	padding: var(--made-space-5-x) var(--made-space-4-x) var(--made-space-1-x)
+		var(--made-space-4-x);
+}
+
+.made-c-tour__content {
+	padding: 0 var(--made-space-6-x) 0 var(--made-space-6-x);
+}
+
+.made-c-tour__footer {
+	border-top: 1px solid var(--made-color-border-default-on-light);
+	margin-top: var(--made-space-8-x);
+	padding: var(--made-space-2-x) var(--made-space-6-x) var(--made-space-2-x)
+		var(--made-space-6-x);
+}
