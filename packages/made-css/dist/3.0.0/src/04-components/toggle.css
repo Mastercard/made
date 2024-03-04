@@ -1,0 +1,87 @@
+.made-c-toggle {
+	display: inline-block;
+	height: var(--made-size-6-x);
+	position: relative;
+	width: var(--made-size-12-x);
+}
+
+.made-c-toggle--small {
+	height: var(--made-size-4-x);
+	width: var(--made-size-8-x);
+}
+
+.made-c-toggle__input {
+	height: 0;
+	opacity: var(--made-opacity-0);
+	width: 0;
+}
+
+.made-c-toggle__slider {
+	background-color: var(--made-color-action-background-off);
+	border-radius: var(--made-border-radius-08);
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: var(--made-time-moderate-fast-01);
+}
+
+.made-c-toggle__slider::before {
+	background-color: var(--made-color-white);
+	border-radius: 50%;
+	bottom: 3px;
+	content: '';
+	height: 1.125rem;
+	left: 3px;
+	position: absolute;
+	transition: var(--made-time-moderate-fast-01);
+	width: 1.125rem;
+}
+
+.made-c-toggle__slider--small::before {
+	bottom: 2px;
+	height: var(--made-size-3-x);
+	left: 2px;
+	width: var(--made-size-3-x);
+}
+
+.made-c-toggle__input:checked+.made-c-toggle__slider {
+	background-color: var(--made-color-feedback-background-success);
+}
+
+.made-c-toggle__input:focus+.made-c-toggle__slider {
+	box-shadow: 0 0 1px var(--made-color-feedback-background-success);
+	outline: 2px solid var(--made-color-action-border-focus);
+	outline-offset: 2px;
+	transition: none;
+}
+
+.made-c-toggle__input:checked+.made-c-toggle__slider::before {
+	transform: translateX(1.5rem);
+}
+
+.made-c-toggle__input:checked + .made-c-toggle__slider--small::before {
+	transform: translateX(1rem);
+}
+
+.made-c-toggle__input:disabled+.made-c-toggle__slider,
+.made-c-toggle__input[aria-disabled='true']+.made-c-toggle__slider {
+	background-color: var(--made-color-action-disabled-toggle);
+	cursor: not-allowed;
+}
+
+.made-c-toggle__input:disabled+.made-c-toggle__slider::before,
+.made-c-toggle__input[aria-disabled='true']+.made-c-toggle__slider::before {
+	background-color: var(--made-color-white);
+	cursor: not-allowed;
+	opacity: var(--made-opacity-25);
+}
+
+.made-c-toggle__input:disabled:checked+.made-c-toggle__slider,
+.made-c-toggle__input:checked[aria-disabled='true']+.made-c-toggle__slider {
+	background-color: var(--made-color-action-background-on);
+	cursor: not-allowed;
+	opacity: var(--made-opacity-25);
+}
