@@ -1,0 +1,149 @@
+.made-c-tooltip {
+	background-color: var(--made-color-background-default);
+	border: 1px solid var(--made-color-border-default-on-light);
+	border-radius: var(--made-border-radius-default);
+	box-shadow: var(--made-shadow-default);
+	display: block;
+	max-width: 18rem;
+	min-width: 6.5rem;
+	opacity: 0;
+	position: absolute;
+	transition: opacity var(--made-time-moderate-01);
+	visibility: hidden;
+	width: max-content;
+	z-index: 1;
+}
+
+.made-c-tooltip::before {
+	border-color: var(--made-color-border-default-on-light) transparent
+		transparent;
+	border-image: initial;
+	border-style: solid;
+	border-width: 9px;
+	content: '';
+	height: 0;
+	position: absolute;
+	width: 0;
+	z-index: 100;
+}
+
+.made-c-tooltip::after {
+	border-color: var(--made-color-background-default) transparent transparent;
+	border-image: initial;
+	border-style: solid;
+	border-width: 8px;
+	content: '';
+	height: 0;
+	position: absolute;
+	width: 0;
+	z-index: 200;
+}
+
+.made-c-tooltip__label {
+	border-radius: var(--made-border-radius-default);
+	color: var(--made-color-text-default-on-light);
+	font-family: var(--made-font-body-family-narrow);
+	padding: var(--made-space-2-x) var(--made-space-3-x) var(--made-space-2-x)
+		var(--made-space-3-x);
+}
+
+.made-c-tooltip__label--has-title {
+	font-weight: var(--made-font-family-bold);
+	padding: var(--made-space-3-x) var(--made-space-4-x) var(--made-space-3-x)
+		var(--made-space-4-x);
+}
+
+.made-c-tooltip__label-title {
+	font-weight: var(--made-font-weight-bold);
+}
+
+/* Tooltip appears on top of a trigger */
+.made-c-tooltip--top::before {
+	bottom: -18px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.made-c-tooltip--top::after {
+	bottom: -16px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* Tooltip appears on bottom of a trigger */
+.made-c-tooltip--bottom::before {
+	left: 0;
+	margin: 0 auto;
+	right: 0;
+	top: -18px;
+	transform: rotate(180deg);
+}
+
+.made-c-tooltip--bottom::after {
+	left: 0;
+	margin: 0 auto;
+	right: 0;
+	top: -16px;
+	transform: rotate(180deg);
+}
+
+/* Tooltip appears on right of a trigger */
+.made-c-tooltip--right::before {
+	left: -18px;
+	margin-top: -9px;
+	top: 50%;
+	transform: rotate(90deg);
+}
+
+.made-c-tooltip--right::after {
+	left: -16px;
+	margin-top: -8px;
+	top: 50%;
+	transform: rotate(90deg);
+}
+
+/* Tooltip appears on left of a trigger */
+.made-c-tooltip--left::before {
+	margin-top: -9px;
+	right: -18px;
+	top: 50%;
+	transform: rotate(-90deg);
+}
+
+.made-c-tooltip--left::after {
+	margin-top: -8px;
+	right: -16px;
+	top: 50%;
+	transform: rotate(-90deg);
+}
+
+.made-c-tooltip-wrapper {
+	align-items: center;
+	display: inline-flex;
+	position: relative;
+}
+
+.made-c-tooltip--top {
+	bottom: 131%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.made-c-tooltip--right {
+	left: 131%;
+}
+
+.made-c-tooltip--bottom {
+	left: 50%;
+	top: 131%;
+	transform: translateX(-50%);
+}
+
+.made-c-tooltip--left {
+	right: 131%;
+}
+
+.made-c-tooltip-wrapper:hover .made-c-tooltip {
+	opacity: 1;
+	visibility: visible;
+}
