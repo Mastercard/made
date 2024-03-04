@@ -1,0 +1,56 @@
+.made-c-modal {
+	align-items: center;
+	background-color: var(--made-backdrop-color-background);
+	display: none;
+	height: 100vh;
+	justify-content: center;
+	left: 0;
+	opacity: var(--made-opacity-0);
+	position: fixed;
+	top: 0;
+	transition: opacity .24s cubic-bezier(.4, .14, 1, 1),
+		visibility 0ms linear .24s;
+	visibility: hidden;
+	width: 100vw;
+}
+
+.made-c-modal--visible {
+	display: flex;
+	opacity: var(--made-opacity-100);
+	transition: opacity .24s cubic-bezier(0, 0, .3, 1), visibility 0ms linear;
+	visibility: inherit;
+	z-index: var(--made-z-index-backdrop);
+}
+
+.made-c-modal__container {
+	background-color: var(--made-color-background-default);
+	border-radius: var(--made-border-radius-default);
+	box-shadow: var(--made-shadow-default);
+	max-height: 90%;
+	max-width: 90%;
+	overflow: hidden;
+	padding: var(--made-space-6-x) var(--made-space-6-x)
+		var(--made-space-11-x) var(--made-space-6-x);
+	position: fixed;
+	z-index: var(--made-z-index-modal);
+}
+
+.made-c-modal__content {
+	margin: var(--made-space-4-x) 0 var(--made-space-10-x) 0;
+	max-height: 60vh;
+	overflow-y: auto;
+	padding-right: var(--made-space-8-x);
+}
+
+.made-c-modal__content p:last-of-type {
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 600px) {
+	.made-c-modal__container {
+		padding-left: var(--made-space-14-x);
+		padding-right: var(--made-space-14-x);
+		position: relative;
+		width: 84%;
+	}
+}

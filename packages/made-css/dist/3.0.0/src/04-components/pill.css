@@ -1,0 +1,132 @@
+.made-c-pill {
+	align-items: center;
+	background-color: var(--made-pill-color-background-default);
+	border-radius: var(--made-pill-border-radius);
+	cursor: pointer;
+	display: inline-flex;
+	font-size: var(--made-font-size-04);
+	line-height: var(--made-line-height-default);
+	min-height: var(--made-size-6-x);
+	padding: 0 var(--made-space-2-x) 0 var(--made-space-2-x);
+}
+
+.made-c-pill__button {
+	align-items: center;
+	background-color: transparent;
+	border: 0;
+	border-radius: var(--made-pill-border-radius);
+	cursor: pointer;
+	display: inline-flex;
+	flex-shrink: 0;
+	height: var(--made-size-6-x);
+	justify-content: center;
+	margin: 0 0 0 .125rem;
+	padding: 0;
+	transition: background-color 70ms cubic-bezier(.2, 0, .38, .9), box-shadow 70ms cubic-bezier(.2, 0, .38, .9);
+	width: var(--made-size-6-x);
+}
+
+.made-c-pill__button:active,
+.made-c-pill__button:focus {
+	background-color: transparent;
+	outline: 2px solid var(--made-color-action-border-focus);
+	outline-offset: -2px;
+}
+
+.made-c-pill__button:hover {
+	background-color: var(--made-pill-color-background-hover);
+	opacity: 1;
+}
+
+.made-c-pill--sm {
+	font-size: var(--made-font-size-02);
+	line-height: var(--made-line-height-default);
+	min-height: 1.125rem;
+}
+
+.made-c-pill--sm .made-c-pill__button {
+	height: 1.12rem;
+	width: 1.12rem;
+}
+
+.made-c-pill:active,
+.made-c-pill:focus {
+	outline: 2px solid var(--made-color-action-border-focus);
+	outline-offset: 2px;
+}
+
+.made-c-pill--dismissable {
+	padding-right: 0;
+}
+
+.made-c-pill__label {
+	color: var(--made-color-text-default-on-light);
+}
+
+.made-c-pill__button svg {
+	fill: var(--made-color-text-default-on-light);
+}
+
+
+.made-c-pill--branded .made-c-pill__label {
+	margin-right: var(--made-space-2-x);
+}
+
+.made-c-pill__brand-icon {
+	margin-left: .125rem;
+}
+
+.made-c-pill__icon {
+	height: var(--made-size-3-x);
+	width: var(--made-size-3-x);
+}
+
+
+/* Squared Pill Variant */
+
+.made-c-pill--squared {
+	border-radius: var(--made-border-radius-02);
+}
+
+.made-c-pill--squared .made-c-pill__button {
+	border-radius: var(--made-border-radius-02);
+}
+
+
+/* Disabled Pill Properties */
+
+.made-c-pill--disabled {
+	background-color: var(--made-color-action-disabled-toggle);
+	color: var(--made-color-action-disabled);
+}
+
+.made-c-pill--disabled .made-c-pill__brand-icon {
+	opacity: var(--made-opacity-25);
+}
+
+.made-c-pill--disabled .made-c-pill__label {
+	color: var(--made-color-action-disabled);
+}
+
+.made-c-pill--disabled:active,
+.made-c-pill--disabled:focus {
+	outline: none;
+}
+
+.made-c-pill--disabled:hover,
+.made-c-pill--disabled .made-c-pill__button {
+	cursor: not-allowed;
+}
+
+.made-c-pill--disabled .made-c-pill__button {
+	background-color: transparent;
+}
+
+.made-c-pill--disabled .made-c-pill__button svg {
+	fill: var(--made-color-action-disabled);
+}
+
+.made-c-pill--disabled .made-c-pill__button:focus,
+.made-c-pill--disabled .made-c-pill__button:active {
+	outline: none;
+}
