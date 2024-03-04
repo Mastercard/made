@@ -1,0 +1,46 @@
+{
+  "time": {
+    "moderate": {
+      "01": {
+        "comment": "Micro-interactions, small expansion, short distance movements.",
+        "themeable": "No",
+        "type": "other",
+        "value": "150ms"
+      },
+      "02": {
+        "comment": "Expansion, system communication, toast.",
+        "themeable": "No",
+        "type": "other",
+        "value": "240ms"
+      },
+      "fast": {
+        "01": {
+          "comment": "Micro-interactions such as button and toggle.",
+          "themeable": "No",
+          "type": "other",
+          "value": "70ms"
+        },
+        "02": {
+          "comment": "Micro-interactions such as fade.",
+          "themeable": "No",
+          "type": "other",
+          "value": "110ms"
+        }
+      }
+    },
+    "slow": {
+      "01": {
+        "comment": "Large expansion, important system notifications.",
+        "themeable": "No",
+        "type": "other",
+        "value": "400ms"
+      },
+      "02": {
+        "comment": "Background dimming.",
+        "themeable": "No",
+        "type": "other",
+        "value": "700ms"
+      }
+    }
+  }
+}

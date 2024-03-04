@@ -1,0 +1,410 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 11 May 2023 09:28:11 GMT
+ */
+
+:root {
+  --made-footer-color-text: #f8fffd; /* Text color on footer component */
+  --made-footer-color-background: #4d6260; /* Background color for footer component */
+  --made-header-color-text: #f8fffd; /* Text color on header component */
+  --made-header-color-background: #4d6260; /* Background color for header component */
+  --made-pill-color-background-default: #e1e5e8; /* Background color for pill component. */
+  --made-pill-color-background-hover: #c7d0d1; /* Background color for pill components hover state for the close icon element.  */
+  --made-pill-border-radius: 12px; /* Pill Border Radius */
+  --made-search-color-background: #f5f8fa; /* Background color for search input component  */
+  --made-search-action-color-background-default: #f5f8fa; /* Background color for action within the search component */
+  --made-search-action-color-background-hover: #edf1f2; /* Background color for the hover state of action within the search component */
+  --made-shadow-toggle: 0 5px 10px 0 rgba(20,20,19,0.15), 0 2px 2px 0 rgba(20,20,19,0.3);; /* Shadow on slider on toggle component. */
+  --made-shadow-default: 0 2px 10px 0 rgba(20,20,19,0.20); /* Shadow for all content cards, dropdowns, dialogs, datepicker etc. */
+  --made-z-index-backdrop: 40; /* Used to set the z order layering of backdrop. */
+  --made-z-index-dropdown: 30; /* Used to set the z order layering of dropdown elements such as overflow menu, date picker... */
+  --made-z-index-modal: 50; /* Used to set the z order layering of modal. */
+  --made-z-index-toast: 50; /* Used to set the z order layering of toast. */
+  --made-border-radius-01: 2px; /* Border Radius: 2px */
+  --made-border-radius-02: 4px; /* Border Radius: 4px */
+  --made-border-radius-03: 6px; /* Border Radius: 6px */
+  --made-border-radius-04: 8px; /* Border Radius: 8px */
+  --made-border-radius-05: 12px; /* Border Radius: 12px */
+  --made-border-radius-06: 16px; /* Border Radius: 16px */
+  --made-border-radius-07: 20px; /* Border Radius: 20px */
+  --made-border-radius-08: 24px; /* Border Radius: 24px */
+  --made-border-radius-09: 28px; /* Border Radius: 28px */
+  --made-border-radius-circle: 50%; /* Border Radius: 50% */
+  --made-border-radius-default: 4px; /* Default border radius for UI components */
+  --made-border-radius-large: 8px; /* Large border radius for UI components */
+  --made-border-radius-small: 2px; /* Small border radius for UI components */
+  --made-color-accent-01-dark: #852d01; /* Accent color 1 - Dark */
+  --made-color-accent-01-darker: #331505; /* Accent color 1 - Darker */
+  --made-color-accent-01-default: #cf4500; /* Accent color 1 */
+  --made-color-accent-01-light: #d0805b; /* Accent color 1- Light */
+  --made-color-accent-02: #f37338; /* Accent color 2 */
+  --made-color-accent-03: #f38b00; /* Accent color 3 */
+  --made-color-accent-04: #ffc61e; /* Accent color 4 */
+  --made-color-accent-05: #628020; /* Accent color 5 */
+  --made-color-accent-06: #25836d; /* Accent color 6 */
+  --made-color-accent-07: #d7373c; /* Accent color 7 */
+  --made-color-gold-01: #fce8cc; /* Gold color 1 */
+  --made-color-gold-02: #f9d199; /* Gold color 2 */
+  --made-color-gold-03: #f7ad4c; /* Gold color 3 */
+  --made-color-gold-04: #f38b00; /* Gold color 4 */
+  --made-color-gold-05: #995600; /* Gold color 5 */
+  --made-color-gold-06: #583300; /* Gold color 6 */
+  --made-color-gold-07: #301c00; /* Gold color 7 */
+  --made-color-gray-01: #fafbfc; /* Canvas color - Gray 1 */
+  --made-color-gray-01-25: #f5f8fa; /* Canvas color - Gray 1.25 */
+  --made-color-gray-01-5: #edf1f2; /* Canvas color - Gray 1.5 */
+  --made-color-gray-02: #e1e5e8; /* Canvas color - Gray 2 */
+  --made-color-gray-02-5: #c7d0d1; /* Canvas color - Gray 2.5 */
+  --made-color-gray-03: #a5b0ae; /* Gray tints and shades - Gray 3 */
+  --made-color-gray-03-5: #d2f9f5; /* Gray tints and shades - Gray 3.5 */
+  --made-color-gray-04: #afe5e0; /* Gray tints and shades - Gray 4 */
+  --made-color-gray-04-5: #a4dad5; /* Gray tints and shades - Gray 4.5 */
+  --made-color-gray-05: #96c6c1; /* Canvas color - Gray 5 */
+  --made-color-gray-05-5: #84b0ab; /* Gray tints and shades - Gray 5.5 */
+  --made-color-gray-06: #779b96; /* Canvas color - Gray 6 */
+  --made-color-gray-06-5: #617c79; /* Gray tints and shades - Gray 6.5 */
+  --made-color-gray-07: #4d6260; /* Canvas color - Gray 7 */
+  --made-color-green-01: #e8f1d5; /* Green color 1 */
+  --made-color-green-02: #b6cd7e; /* Green color 2 */
+  --made-color-green-03: #87a740; /* Green color 3 */
+  --made-color-green-04: #628020; /* Green color 4 */
+  --made-color-green-05: #496019; /* Green color 5 */
+  --made-color-green-06: #324113; /* Green color 6 */
+  --made-color-green-07: #1c2509; /* Green color 7 */
+  --made-color-orange-01: #ffe1d1; /* Orange color 1 */
+  --made-color-orange-02: #ffab82; /* Orange color 2 */
+  --made-color-orange-03: #f37338; /* Orange color 3 */
+  --made-color-orange-04: #cf4500; /* Orange color 4 */
+  --made-color-orange-05: #9a3a0a; /* Orange color 5 */
+  --made-color-orange-06: #662808; /* Orange color 6 */
+  --made-color-orange-07: #331505; /* Orange color 7 */
+  --made-color-red-01: #f7dcf7; /* Red color 1 */
+  --made-color-red-02: #f59fdf; /* Red color 2 */
+  --made-color-red-03: #dd65e6; /* Red color 3 */
+  --made-color-red-04: #b538d6; /* Red color 4 */
+  --made-color-red-05: #a82286; /* Red color 5 */
+  --made-color-red-06: #7d1970; /* Red color 6 */
+  --made-color-red-07: #541113; /* Red color 7 */
+  --made-color-teal-01: #dcf5ef; /* Teal color 1 */
+  --made-color-teal-02: #88d3bf; /* Teal color 2 */
+  --made-color-teal-03: #4bab94; /* Teal color 3 */
+  --made-color-teal-04: #25836d; /* Teal color 4 */
+  --made-color-teal-05: #266555; /* Teal color 5 */
+  --made-color-teal-06: #23473d; /* Teal color 6 */
+  --made-color-teal-07: #1d2d27; /* Teal color 7 */
+  --made-color-white: #f8fffd; /* White */
+  --made-color-yellow-01: #fff4d1; /* Yellow color 1 */
+  --made-color-yellow-02: #ffe8a5; /* Yellow color 2 */
+  --made-color-yellow-03: #ffd863; /* Yellow color 3 */
+  --made-color-yellow-04: #ffc61e; /* Yellow color 4 */
+  --made-color-yellow-05: #b28c16; /* Yellow color 5 */
+  --made-color-yellow-06: #664f0c; /* Yellow color 6 */
+  --made-color-yellow-07: #332805; /* Yellow color 7 */
+  --made-color-green-success-01: #dff7df; /* Success Green 1 */
+  --made-color-green-success-02: #7cd87a; /* Success Green 2 */
+  --made-color-green-success-03: #35b132; /* Success Green 3 */
+  --made-color-green-success-04: #038a00; /* Success Green 4 */
+  --made-color-green-success-05: #097007; /* Success Green 5 */
+  --made-color-green-success-06: #0b560a; /* Success Green 6 */
+  --made-color-green-success-07: #042604; /* Success Green 7 */
+  --made-color-red-error-01: #fadef4; /* Error Red 1 */
+  --made-color-red-error-02: #ff99f1; /* Red error 2 */
+  --made-color-red-error-03: #ff57ca; /* Red error 3 */
+  --made-color-red-error-04: #ed009e; /* Red error 4 */
+  --made-color-red-error-05: #b00596; /* Red error 5 */
+  --made-color-red-error-06: #710808; /* Red error 6 */
+  --made-color-red-error-07: #330505; /* Red error 7 */
+  --made-color-action-background-disabled: #a5b0ae; /* Background color for disabled state of UI Elements such as tables, dropdowns... */
+  --made-color-action-background-highlight: #dcf5ef; /* Background color of highlight interactive color. Used on date range in Calendar */
+  --made-color-action-background-hover: #f5f8fa; /* Background color for hover state of UI Elements such as tables, dropdowns... */
+  --made-color-action-background-off: #a5b0ae; /* Background color for off state of UI Elements such as toggle */
+  --made-color-action-background-on: #008a60; /* Background color for on state of UI Elements such as toggle */
+  --made-color-action-background-on-dark-active: #a5b0ae; /* Background color of secondary interactive color. */
+  --made-color-action-background-on-dark-default: #dcf5ef; /* Background color of secondary interactive color */
+  --made-color-action-background-on-dark-hover: #e1e5e8; /* Background color of secondary interactive color. */
+  --made-color-action-background-primary-active: #23473d; /* Background color of primary interactive color e.g primary buttons. */
+  --made-color-action-background-primary-default: #4bab94; /* Background color of primary interactive color e.g primary buttons. */
+  --made-color-action-background-primary-hover: #266555; /* Background color of primary interactive color e.g primary buttons. */
+  --made-color-action-background-secondary-active: #f8fffd; /* Background color of secondary interactive color  e.g. secondary button */
+  --made-color-action-background-secondary-default: #f8fffd; /* Background color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-background-secondary-hover: #f8fffd; /* Background color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-background-selected: #edf1f2; /* Background color for selected state of UI Elements such as tables, dropdowns... */
+  --made-color-action-background-selected-hover: #e1e5e8; /* Background color for hover state of on selected UI Elements */
+  --made-color-action-border-disabled: #a5b0ae; /* Border color for disabled state of UI Elements such as tables, dropdowns... */
+  --made-color-action-border-focus: #4bab94; /* Outline color for focus state. */
+  --made-color-action-border-on-dark-active: #a5b0ae; /* Border color of secondary interactive color. */
+  --made-color-action-border-on-dark-default: #dcf5ef; /* Border color of secondary interactive color */
+  --made-color-action-border-on-dark-hover: #e1e5e8; /* Border color of secondary interactive color. */
+  --made-color-action-border-primary-active: #23473d; /* Border color of primary interactive color e.g primary buttons. */
+  --made-color-action-border-primary-default: #4bab94; /* Border color of primary interactive color e.g primary buttons. */
+  --made-color-action-border-primary-hover: #266555; /* Border color of primary interactive color e.g primary buttons. */
+  --made-color-action-border-secondary-active: #23473d; /* Border color of secondary interactive color  e.g. secondary button */
+  --made-color-action-border-secondary-default: #4bab94; /* Border color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-border-secondary-hover: #266555; /* Border color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-border-selected-on-dark: #dcf5ef; /* Border color for selected items on dark background. */
+  --made-color-action-border-selected-on-light: #4bab94; /* Border color for selected items. */
+  --made-color-action-border-focus-on-dark: #f8fffd; /* Outline color for focus state on dark backgrounds. */
+  --made-color-action-disabled: #a5b0ae; /* Global color for disabled state. */
+  --made-color-action-disabled-button: rgba(177, 173, 166, 0.5); /* Disabled state for buttons. Opacity at 50% */
+  --made-color-action-disabled-toggle: rgba(177, 173, 166, 0.25); /* Disabled state for toggles. Opacity at 25% */
+  --made-color-action-disabled-text-input: rgba(177, 173, 166, 0.1); /* Disabled state for text inputs. Opacity at 10% */
+  --made-color-action-on-dark-active: #a5b0ae; /* Text color of secondary interactive color on dark background e.g. buttons. */
+  --made-color-action-on-dark-default: #dcf5ef; /* Color of interactive color on dark background e.g. buttons */
+  --made-color-action-on-dark-hover: #e1e5e8; /* Text color of secondary interactive color on dark background e.g. buttons. */
+  --made-color-action-primary-active: #23473d; /* Color of primary interactive color on active  e.g. buttons */
+  --made-color-action-primary-default: #4bab94; /* Color of primary interactive color e.g. buttons */
+  --made-color-action-primary-hover: #266555; /* Color of primary interactive color on hover  e.g. buttons */
+  --made-color-action-secondary-active: #23473d; /* Color of secondary interactive color  e.g. secondary button */
+  --made-color-action-secondary-default: #4bab94; /* Color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-secondary-hover: #266555; /* Color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-text-disabled: #a5b0ae; /* Text color for disabled state of UI Elements */
+  --made-color-action-text-on-dark: #4d6260; /* Text color on top of interactive color on a dark background */
+  --made-color-action-text-on-dark-active: #a5b0ae; /* Text color of secondary interactive color e.g. secondary button on a dark background */
+  --made-color-action-text-on-dark-default: #dcf5ef; /* Text color of secondary interactive color e.g. secondary button on a dark background */
+  --made-color-action-text-on-dark-hover: #e1e5e8; /* Text color of secondary interactive color e.g. secondary button on a dark background */
+  --made-color-action-text-on-disabled: #ffffff; /* Text color on top of disabled state color */
+  --made-color-action-text-on-hover: #4d6260; /* Text color on top of hover state of UI Elements */
+  --made-color-action-text-on-primary: #ffffff; /* Text color on top of primary interactive color */
+  --made-color-action-text-on-secondary: #ffffff; /* Text color on top of secondary interactive color */
+  --made-color-action-text-on-selected: #4d6260; /* Text color on top of selected state of UI Elements */
+  --made-color-action-text-on-selected-hover: #4d6260; /* Text color on top of hover and selected state of UI Elements */
+  --made-color-action-text-primary-active: #23473d; /* Text color of primary color pressed interactive state   e.g. ghost button */
+  --made-color-action-text-primary-default: #4bab94; /* Text color of primary interactive color e.g. links */
+  --made-color-action-text-primary-hover: #266555; /* Text color of primary color hover interactive state e.g. secondary buttons */
+  --made-color-action-text-secondary-active: #23473d; /* Text color of secondary interactive color  e.g. secondary button */
+  --made-color-action-text-secondary-default: #4bab94; /* Text color of secondary interactive color e.g. secondary buttons */
+  --made-color-action-text-secondary-hover: #266555; /* Text color of secondary interactive color e.g. secondary buttons */
+  --made-color-background-default: #f8fffd; /* Main background color of the application. */
+  --made-color-background-gray-lightest: #edf1f2; /* Used on background of breadcrumb and pill components. */
+  --made-color-background-primary: #4bab94; /* Background of primary brand color. */
+  --made-color-background-01: #f5f8fa; /* Secondary background color of the application. */
+  --made-color-background-02: #e1e5e8; /* Tertiary background color of the application. */
+  --made-color-background-inverse: #4d6260; /* High contrast backgrounds/elements */
+  --made-color-border-default-on-dark: #96c6c1; /* Default Border color used for layout elements on a dark background. */
+  --made-color-border-default-on-light: #e1e5e8; /* Default Border color used for layout elements e.g. accordion, table. */
+  --made-color-brand-on-primary: #ffffff; /* The text color on your primary brand color */
+  --made-color-brand-on-secondary: #ffffff; /* The text color on your secondary brand color */
+  --made-color-brand-primary: #4bab94; /* The primary color of your brand */
+  --made-color-brand-secondary: #4bab94; /* The secondary color of your brand */
+  --made-color-feedback-background-error: #ff33b4; /* Background color for error state */
+  --made-color-feedback-background-error-light: #fadef4; /* Background color for error state of Light variation of notifications and toasts */
+  --made-color-feedback-background-information: #ffeb1f; /* Background color for neutral or optional state */
+  --made-color-feedback-background-information-light: #fff4d1; /* Background color for neutral or optional state of Light variation of notifications and toasts */
+  --made-color-feedback-background-success: #008a60; /* Background color for success or positive state */
+  --made-color-feedback-background-success-light: #dff7df; /* Background color for success or positive state for Light variation of notifications and toasts */
+  --made-color-feedback-background-warning: #f38b00; /* Background color for warning state */
+  --made-color-feedback-border-error: #ff33b4; /* Border color for error state */
+  --made-color-feedback-border-error-light: #fadef4; /* Border color for error state of Light variation of notifications and toasts */
+  --made-color-feedback-border-information: #ffeb1f; /* Border color  for neutral or optional state */
+  --made-color-feedback-border-information-light: #fff4d1; /* Border color for neutral or optional state of Light variation of notifications and toasts */
+  --made-color-feedback-border-success: #008a60; /* Border color  for success or positive state */
+  --made-color-feedback-border-success-light: #dff7df; /* Border color for success or positive state for Light variation of notifications and toasts */
+  --made-color-feedback-border-warning: #f38b00; /* Border color or for warning state */
+  --made-color-feedback-error: #ff33b4; /* Color for error state */
+  --made-color-feedback-error-light: #fadef4; /* Color for light variant of error state */
+  --made-color-feedback-information: #ffeb1f; /* Color for neutral or optional state */
+  --made-color-feedback-information-light: #fff4d1; /* Color for light variant of neutral or optional state */
+  --made-color-feedback-success: #008a60; /* Color for success or positive state */
+  --made-color-feedback-success-light: #dff7df; /* Color for light variant of success or positive state */
+  --made-color-feedback-warning: #f38b00; /* Color for warning state */
+  --made-color-feedback-text-error: #ff33b4; /* Text color for error state */
+  --made-color-feedback-text-information: #ffeb1f; /* Text color for neutral or optional state */
+  --made-color-feedback-text-on-error: #ffffff; /* Text color displayed on top of the error color */
+  --made-color-feedback-text-on-error-light: #b00596; /* Text color displayed on top of the error color of Light variation of notifications and toasts */
+  --made-color-feedback-text-on-information: #332805; /* Text color displayed on top of the error color */
+  --made-color-feedback-text-on-information-light: #332805; /* Text color displayed on top of the information color of Light variation of notifications and toasts */
+  --made-color-feedback-text-on-success: #ffffff; /* Text color displayed on top of the error color */
+  --made-color-feedback-text-on-success-light: #097007; /* Text color displayed on top of the success color of Light variation of notifications and toasts */
+  --made-color-feedback-text-on-warning: #ffffff; /* Text color displayed on top of the warning color */
+  --made-color-feedback-text-success: #008a60; /* Text color for success or positive state */
+  --made-color-feedback-text-warning: #f38b00; /* Text color for warning state */
+  --made-color-text-default-on-dark: #ffffff; /* Color of body text on dark background. */
+  --made-color-text-default-on-light: #4d6260; /* Color of body text on light background. */
+  --made-color-text-helper: #96c6c1; /* Text color of helper text on forms, cards etc. */
+  --made-color-text-primary: #4bab94; /* Text color of primary brand color. */
+  --made-color-text-inverse: #f8fffd; /* Inverse text/icon color */
+  --made-color-visualization-01: #0023cf; /* Data Visualization Color */
+  --made-color-visualization-02: #ac00cf; /* Data Visualization Color */
+  --made-color-visualization-03: #cf008a; /* Data Visualization Color */
+  --made-font-body-family-bold: serif, Arial; /* Font family for bold body text. */
+  --made-font-body-family-default: serif, Arial; /* Default font family for body text. */
+  --made-font-body-family-narrow: serif, Arial; /* Default font family for narrow/small text. Used on tooltip and notification */
+  --made-font-body-letter-spacing: normal; /* Default letter spacing for body text. */
+  --made-font-body-line-height: 1.5; /* Default line height for body text. */
+  --made-font-body-size-default: 0.875rem; /* Default font size for body text. */
+  --made-font-body-size-large: 1rem; /* Large font size for body text. */
+  --made-font-body-size-small: 0.75rem; /* Small font size for body text. */
+  --made-font-body-weight-bold: 700; /* Bold font weight for body text. */
+  --made-font-body-weight-default: 400; /* Default font weight for body text. */
+  --made-font-family-bold: serif, Arial; /* Default bold weight font used across application */
+  --made-font-family-extra-light: serif, Arial; /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */
+  --made-font-family-eyebrow: serif, Arial; /* Font family for headings (H1,H2 and display text) */
+  --made-font-family-heading: serif, Arial; /* Font family for headings (H1,H2 and display text) */
+  --made-font-family-light: serif, Arial; /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */
+  --made-font-family-medium: serif, Arial; /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */
+  --made-font-family-narrow: serif, Arial; /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */
+  --made-font-family-narrow-bold: serif, Arial; /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */
+  --made-font-family-narrow-medium: serif, Arial; /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */
+  --made-font-family-regular: serif, Arial; /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */
+  --made-font-heading-family-display-01: serif, Arial; /* Font family for Display 01. */
+  --made-font-heading-family-display-02: serif, Arial; /* Font family for Display 02. */
+  --made-font-heading-family-display-03: serif, Arial; /* Font family for Display 03. */
+  --made-font-heading-family-eyebrow-01: serif, Arial; /* Font family for small eyebrow text. */
+  --made-font-heading-family-eyebrow-02: serif, Arial; /* Font family for large eyebrow text. */
+  --made-font-heading-family-level-01: serif, Arial; /* Font Family for Heading 1 (H1). */
+  --made-font-heading-family-level-02: serif, Arial; /* Font Family for Heading 2 (H2). */
+  --made-font-heading-family-level-03: serif, Arial; /* Font Family for Heading 3 (H3). */
+  --made-font-heading-family-level-04: serif, Arial; /* Font Family for Heading 4 (H4). */
+  --made-font-heading-family-level-05: serif, Arial; /* Font Family for Heading 5 (H5). */
+  --made-font-heading-family-level-06: serif, Arial; /* Font Family for Heading 6 (H6). */
+  --made-font-heading-letter-spacing-display-01: normal; /* Letter spacing of Display 02. */
+  --made-font-heading-letter-spacing-display-02: normal; /* Letter spacing of Display 02. */
+  --made-font-heading-letter-spacing-display-03: normal; /* Letter spacing of Display 03. */
+  --made-font-heading-letter-spacing-eyebrow-01: 1.8px; /* Letter spacing for small eyebrow text. */
+  --made-font-heading-letter-spacing-eyebrow-02: 1.8px; /* Letter spacing for small eyebrow text. */
+  --made-font-heading-letter-spacing-level-01: normal; /* Letter spacing of Heading 1 (H1). */
+  --made-font-heading-letter-spacing-level-02: normal; /* Letter spacing of Heading 2 (H2). */
+  --made-font-heading-letter-spacing-level-03: normal; /* Letter spacing of Heading 3 (H3). */
+  --made-font-heading-letter-spacing-level-04: normal; /* Letter spacing of Heading 4 (H4). */
+  --made-font-heading-letter-spacing-level-05: normal; /* Letter spacing of Heading 5 (H5). */
+  --made-font-heading-letter-spacing-level-06: normal; /* Letter spacing of Heading 6 (H6). */
+  --made-font-heading-line-height-display-01: 1.25; /* Line height of Display 01. */
+  --made-font-heading-line-height-display-02: 1.25; /* Line height of Display 02. */
+  --made-font-heading-line-height-display-03: 1.25; /* Line height of Display 03. */
+  --made-font-heading-line-height-eyebrow-01: 1.25; /* Line Height for small eyebrow text. */
+  --made-font-heading-line-height-eyebrow-02: 1.25; /* Line Height for large eyebrow text. */
+  --made-font-heading-line-height-level-01: 1.25; /* Line Height of Heading 1 (H1). */
+  --made-font-heading-line-height-level-02: 1.25; /* Line Height of Heading 2 (H2). */
+  --made-font-heading-line-height-level-03: 1.25; /* Line Height of Heading 3 (H3). */
+  --made-font-heading-line-height-level-04: 1.25; /* Line Height of Heading 4 (H4). */
+  --made-font-heading-line-height-level-05: 1.25; /* Line Height of Heading 5 (H5). */
+  --made-font-heading-line-height-level-06: 1.25; /* Line Height of Heading 6 (H6). */
+  --made-font-heading-size-display-01: 5rem; /* Font Size for Display 01. */
+  --made-font-heading-size-display-02: 3rem; /* Font Size for Display 02. */
+  --made-font-heading-size-display-03: 2rem; /* Font Size for Display 03. */
+  --made-font-heading-size-eyebrow-01: 0.75rem; /* Font size for small eyebrow text */
+  --made-font-heading-size-eyebrow-02: 1rem; /* Font size for default eyebrow text */
+  --made-font-heading-size-level-01: 2rem; /* Font Size for Heading 1 (H1) */
+  --made-font-heading-size-level-02: 1.75rem; /* Font Size for Heading 2 (H2) */
+  --made-font-heading-size-level-03: 1.5rem; /* Font Size for Heading 3 (H3) */
+  --made-font-heading-size-level-04: 1.25rem; /* Font Size for Heading 4 (H4) */
+  --made-font-heading-size-level-05: 1.125rem; /* Font Size for Heading 5 (H5) */
+  --made-font-heading-size-level-06: 1rem; /* Font Size for Heading 6 (H6) */
+  --made-font-heading-weight-display-01: 400; /* Font family for Display 01. */
+  --made-font-heading-weight-display-02: 400; /* Font family for Display 02. */
+  --made-font-heading-weight-display-03: 400; /* Font family for Display 03. */
+  --made-font-heading-weight-eyebrow-01: 700; /* Font family for small eyebrow text. */
+  --made-font-heading-weight-eyebrow-02: 700; /* Font family for large eyebrow text. */
+  --made-font-heading-weight-level-01: 400; /* Font Family for Heading 1 (H1). */
+  --made-font-heading-weight-level-02: 400; /* Font Family for Heading 2 (H2). */
+  --made-font-heading-weight-level-03: 400; /* Font Family for Heading 3 (H3). */
+  --made-font-heading-weight-level-04: 400; /* Font Family for Heading 4 (H4). */
+  --made-font-heading-weight-level-05: 400; /* Font Family for Heading 5 (H5). */
+  --made-font-heading-weight-level-06: 400; /* Font Family for Heading 6 (H6). */
+  --made-font-size-10: 1.75rem; /* Font size: 28px */
+  --made-font-size-11: 2rem; /* Font size: 32px */
+  --made-font-size-12: 2.25rem; /* Font size: 36px */
+  --made-font-size-13: 3rem; /* Font size: 48px */
+  --made-font-size-14: 3.75rem; /* Font size: 60px */
+  --made-font-size-15: 5rem; /* Font size: 80px */
+  --made-font-size-01: 0.5625rem; /* Font size: 9px */
+  --made-font-size-02: 0.75rem; /* Font size: 12px */
+  --made-font-size-03: 0.8125rem; /* Font size: 13px */
+  --made-font-size-04: 0.875rem; /* Font size: 14px */
+  --made-font-size-05: 0.9375rem; /* Font size: 15px */
+  --made-font-size-06: 1rem; /* Font size: 16px */
+  --made-font-size-07: 1.125rem; /* Font size: 18px */
+  --made-font-size-08: 1.25rem; /* Font size: 20px */
+  --made-font-size-09: 1.5rem; /* Font size: 24px */
+  --made-font-weight-bold: 700; /* Use bold sparingly for subtitles, eyebrows, emphasis, and dates */
+  --made-font-weight-default: 400; /* Normal font weight is used for body text and form inputs. */
+  --made-font-weight-light: 100; /* Light font weight is used for headings. */
+  --made-font-weight-medium: 500; /* Semi bold font weight is used for buttons. */
+  --made-letter-spacing-default: normal; /* Default letter spacing for all text. */
+  --made-letter-spacing-eyebrow: 1.8px; /* Default letter spacing for all text. */
+  --made-line-height-1-25-x: 1.25; /* Headings use a 1.25× multiplier */
+  --made-line-height-1-5-x: 1.5; /* To ensure readability, Body uses a 1.5× multiplier */
+  --made-line-height-1-x: 1; /* Line height for single line text elements displayed in components */
+  --made-line-height-default: 1.5; /* Default line height. */
+  --made-line-height-heading: 1.25; /* Headings line-height */
+  --made-line-height-single: 1; /* Line height for single line text elements displayed in components */
+  --made-opacity-0: 0; /* Gives 0% opacity to an element (Hides an element). */
+  --made-opacity-15: 0.15; /* Gives 15% opacity to an element. */
+  --made-opacity-25: 0.25; /* Gives 25% opacity to an element. */
+  --made-opacity-50: 0.5; /* Gives 50% opacity to an element. */
+  --made-opacity-75: 0.75; /* Gives 75% opacity to an element. */
+  --made-opacity-100: 1; /* Gives 100% opacity to an element. */
+  --made-size-1-x: 0.25rem; /* Size: 4px */
+  --made-size-2-x: 0.5rem; /* Size: 8px */
+  --made-size-3-x: 0.75rem; /* Size: 12px */
+  --made-size-4-x: 1rem; /* Size: 16px */
+  --made-size-5-x: 1.25rem; /* Size: 20px */
+  --made-size-6-x: 1.5rem; /* Size: 24px */
+  --made-size-7-x: 1.75rem; /* Size: 28px */
+  --made-size-8-x: 2rem; /* Size: 32px */
+  --made-size-9-x: 2.25rem; /* Size: 36px */
+  --made-size-10-x: 2.5rem; /* Size: 40px */
+  --made-size-11-x: 2.75rem; /* Size: 44px */
+  --made-size-12-x: 3rem; /* Size: 48px */
+  --made-size-13-x: 3.25rem; /* Size: 52px */
+  --made-size-14-x: 3.5rem; /* Size: 56px */
+  --made-size-15-x: 3.75rem; /* Size: 60px */
+  --made-size-16-x: 4rem; /* Size: 64px */
+  --made-size-17-x: 4.25rem; /* Size: 68px */
+  --made-size-18-x: 4.5rem; /* Size: 72px */
+  --made-size-19-x: 4.75rem; /* Size: 76px */
+  --made-size-20-x: 5rem; /* Size: 80px */
+  --made-space-1-x: 0.25rem; /* Space: 4px */
+  --made-space-2-x: 0.5rem; /* Space: 8px */
+  --made-space-3-x: 0.75rem; /* Space: 12px */
+  --made-space-4-x: 1rem; /* Space: 16px */
+  --made-space-5-x: 1.25rem; /* Space: 20px */
+  --made-space-6-x: 1.5rem; /* Space: 24px */
+  --made-space-7-x: 1.75rem; /* Space: 28px */
+  --made-space-8-x: 2rem; /* Space: 32px */
+  --made-space-9-x: 2.25rem; /* Space: 36px */
+  --made-space-10-x: 2.5rem; /* Space: 40px */
+  --made-space-11-x: 2.75rem; /* Space: 44px */
+  --made-space-12-x: 3rem; /* Space: 48px */
+  --made-space-13-x: 3.25rem; /* Space: 52px */
+  --made-space-14-x: 3.5rem; /* Space: 56px */
+  --made-space-15-x: 3.75rem; /* Space: 60px */
+  --made-space-16-x: 4rem; /* Space: 64px */
+  --made-space-17-x: 4.25rem; /* Space: 68px */
+  --made-space-18-x: 4.5rem; /* Space: 72px */
+  --made-space-19-x: 4.75rem; /* Space: 76px */
+  --made-space-20-x: 5rem; /* Space: 80px */
+  --made-time-moderate-01: 150ms; /* Micro-interactions, small expansion, short distance movements. */
+  --made-time-moderate-02: 240ms; /* Expansion, system communication, toast. */
+  --made-time-moderate-fast-01: 70ms; /* Micro-interactions such as button and toggle. */
+  --made-time-moderate-fast-02: 110ms; /* Micro-interactions such as fade. */
+  --made-time-slow-01: 400ms; /* Large expansion, important system notifications. */
+  --made-time-slow-02: 700ms; /* Background dimming. */
+  --made-backdrop-color-background: rgba(20,20,19,0.7); /* Background on overlay used with modals */
+  --made-button-border-radius: 2px; /* Button Border Radius */
+  --made-connect-color-background-api: #ffc61e; /* Background color for items in API category. */
+  --made-connect-color-background-application: #25836d; /* Background color for items in application category. */
+  --made-connect-color-background-collection: #4d6260; /* Background color for items in collection category. */
+  --made-connect-color-background-document: #a5b0ae; /* Background color for items in document category. */
+  --made-connect-color-background-product: #A82226; /* Background color for items in product category. */
+  --made-connect-color-background-reference: #628020; /* Background color for items in reference category. */
+  --made-connect-color-background-report: #f38b00; /* Border color for items in report category. */
+  --made-connect-color-border-api: #ffc61e; /* Border color for items in API category. */
+  --made-connect-color-border-application: #25836d; /* Border color for items in application category. */
+  --made-connect-color-border-collection: #4d6260; /* Border color for items in collection category. */
+  --made-connect-color-border-document: #a5b0ae; /* Border color for items in document category. */
+  --made-connect-color-border-product: #A82226; /* Border color for items in product category. */
+  --made-connect-color-border-reference: #628020; /* Border color for items in reference category. */
+  --made-connect-color-border-report: #9a3a0a; /* Border color for items in report category. */
+  --made-forms-color-background-default: #f8fffd; /* Default background color for forms. */
+  --made-forms-color-border-default: #96c6c1; /* Default border color for forms. */
+  --made-grid-gutters-lg: 1rem; /* Gutter size on large breakpoint. */
+  --made-grid-gutters-md: 1rem; /* Gutter size on medium breakpoint. */
+  --made-grid-gutters-sm: 0.5rem; /* Grid gutter size on small breakpoint. */
+  --made-grid-margin-lg: 1rem; /* Margin size on large breakpoint. */
+  --made-grid-margin-md: 1rem; /* Margin size on medium breakpoint. */
+  --made-grid-margin-sm: 0.5rem; /* Margin size on small breakpoint. */
+  --made-link-color-default: #4bab94; /* Text color for link */
+  --made-link-color-on-dark: #dcf5ef; /* Text color for links on dark backgrounds */
+  --made-scrollbar-color-background: #a5b0ae; /* Background color for scrollbar component */
+}

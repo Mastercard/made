@@ -1,0 +1,127 @@
+.made-c-notification {
+	align-items: flex-start;
+	border-radius: var(--made-border-radius-default);
+	display: flex;
+	flex-direction: row;
+	padding: var(--made-space-4-x) var(--made-space-6-x);
+	width: 100%;
+}
+
+.made-c-notification__icon {
+	flex-shrink: 0;
+	margin-right: var(--made-space-3-x);
+	padding: .0357rem;
+}
+
+.made-c-notification__content {
+	flex: 1 1 auto;
+}
+
+.made-c-notification__title {
+	flex: 1 1 auto;
+	font-family: var(--made-font-family-medium);
+	font-size: var(--made-font-size-06);
+	word-break: break-all;
+}
+
+.made-c-notification__link {
+	color: inherit;
+	font-family: var(--made-font-family-medium);
+	font-size: var(--made-font-size-06);
+	margin-left: var(--made-space-4-x);
+	word-break: break-all;
+}
+
+.made-c-notification__link:focus {
+	outline-color: var(--made-color-action-border-focus-on-dark);
+}
+
+.made-c-notification__subtitle {
+	font-family: var(--made-font-body-family-narrow);
+	font-size: var(--made-font-size-06);
+	font-weight: var(--made-font-weight-default);
+	margin: 0;
+	margin-top: var(--made-space-2-x);
+	word-break: break-all;
+}
+
+.made-c-notification__button-close {
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	color: inherit;
+	cursor: pointer;
+	height: var(--made-size-6-x);
+	line-height: 0;
+	margin-left: var(--made-space-8-x);
+	margin-top: var(--made-space-1-x);
+	padding: 0;
+	width: var(--made-size-6-x);
+}
+
+.made-c-notification__button-close:focus {
+	outline: .125rem solid var(--made-color-action-border-focus-on-dark);
+}
+
+.made-c-notification__button-close-icon {
+	height: var(--made-size-6-x);
+	padding: .2645rem;
+	width: var(--made-size-6-x);
+}
+
+.made-c-notification--success {
+	background-color: var(--made-color-feedback-background-success);
+	color: var(--made-color-feedback-text-on-success);
+}
+
+.made-c-notification--error {
+	background-color: var(--made-color-feedback-background-error);
+	color: var(--made-color-feedback-text-on-error);
+}
+
+.made-c-notification--information {
+	background-color: var(--made-color-feedback-background-information);
+	color: var(--made-color-feedback-text-on-information);
+}
+
+.made-c-notification--success-light {
+	background-color: var(--made-color-feedback-background-success-light);
+	color: var(--made-color-feedback-text-on-success-light);
+}
+
+.made-c-notification--error-light {
+	background-color: var(--made-color-feedback-background-error-light);
+	color: var(--made-color-feedback-text-on-error-light);
+}
+
+.made-c-notification--information-light {
+	background-color: var(--made-color-feedback-background-information-light);
+	color: var(--made-color-feedback-text-on-information-light);
+}
+
+.made-c-notification--success-light .made-c-notification__link:focus {
+	outline-color: var(--made-color-action-border-focus);
+}
+
+.made-c-notification--error-light .made-c-notification__link:focus {
+	outline-color: var(--made-color-action-border-focus);
+}
+
+.made-c-notification--information-light .made-c-notification__link:focus {
+	outline-color: var(--made-color-action-border-focus);
+}
+
+.made-c-notification--success-light .made-c-notification__button-close:focus {
+	outline: .125rem solid var(--made-color-action-border-focus);
+}
+
+.made-c-notification--error-light .made-c-notification__button-close:focus {
+	outline: .125rem solid var(--made-color-action-border-focus);
+}
+
+.made-c-notification--information-light 
+.made-c-notification__button-close:active,
+.made-c-notification--information-light 
+.made-c-notification__button-close:focus {
+	outline: .125rem solid var(--made-color-action-border-focus);
+}

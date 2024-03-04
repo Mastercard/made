@@ -1,0 +1,28 @@
+{
+  "z-index": {
+    "backdrop": {
+      "comment": "Used to set the z order layering of backdrop.",
+      "themeable": "No",
+      "type": "other",
+      "value": "40"
+    },
+    "dropdown": {
+      "comment": "Used to set the z order layering of dropdown elements such as overflow menu, date picker...",
+      "themeable": "No",
+      "type": "other",
+      "value": "30"
+    },
+    "modal": {
+      "comment": "Used to set the z order layering of modal.",
+      "themeable": "No",
+      "type": "other",
+      "value": "50"
+    },
+    "toast": {
+      "comment": "Used to set the z order layering of toast.",
+      "themeable": "No",
+      "type": "other",
+      "value": "50"
+    }
+  }
+}

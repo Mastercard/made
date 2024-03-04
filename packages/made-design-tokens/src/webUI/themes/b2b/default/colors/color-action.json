@@ -1,0 +1,156 @@
+{
+  "color": {
+    "action": {
+      "primary": {
+        "default": {
+          "comment": "Color of primary interactive color e.g. buttons",
+          "value": "{color.brand.primary.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "hover": {
+          "comment": "Color of primary interactive color on hover  e.g. buttons",
+          "value": "{color.orange.05.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "active": {
+          "comment": "Color of primary interactive color on active  e.g. buttons",
+          "value": "{color.orange.07.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "default": {
+          "comment": "Color of secondary interactive color e.g. secondary buttons",
+          "value": "{color.brand.secondary.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "hover": {
+          "comment": "Color of secondary interactive color e.g. secondary buttons",
+          "value": "{color.action.primary.hover.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "active": {
+          "comment": "Color of secondary interactive color  e.g. secondary button",
+          "value": "{color.action.primary.active.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "on-dark": {
+        "default": {
+          "comment": "Color of interactive color on dark background e.g. buttons",
+          "value": "#FFFFFF",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "hover": {
+          "comment": "Text color of secondary interactive color on dark background e.g. buttons.",
+          "value": "{color.gray.02.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "active": {
+          "comment": "Text color of secondary interactive color on dark background e.g. buttons.",
+          "value": "{color.gray.03.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "comment": "Global color for disabled state.",
+        "value": "{color.gray.03.value}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "disabled-button": {
+        "comment": "Disabled state for buttons. Opacity at 50%.",
+        "value": "rgba(177, 173, 166, 0.5)",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "disabled-toggle": {
+        "comment": "Disabled state for toggles. Opacity at 25%.",
+        "value": "rgba(177, 173, 166, 0.25)",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "disabled-text-input": {
+        "comment": "Disabled state for text inputs. Opacity at 10%.",
+        "value": "rgba(177, 173, 166, 0.10)",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "background": {
+        "selected": {
+          "comment": "Background color for selected state of UI Elements such as tables, dropdowns...",
+          "value": "{color.gray.01-5.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "selected-hover": {
+          "comment": "Background color for hover state of on selected UI Elements",
+          "value": "{color.gray.02.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "hover": {
+          "comment": "Background color for hover state of UI Elements such as tables, dropdowns...",
+          "value": "{color.gray.01-25.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "border": {
+        "focus": {
+          "comment": "Outline color for focus state.",
+          "value": "{color.action.primary.default.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "focus-on-dark": {
+          "comment": "Outline color for focus state on dark backgrounds",
+          "value": "{color.white.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      },
+      "text": {
+        "on-dark": {
+          "comment": "Text color on top of interactive color on a dark background",
+          "value": "{color.gray.07.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-disabled": {
+          "comment": "Text color on top of disabled state color",
+          "value": "{color.text.default.on-dark.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-hover": {
+          "comment": "Text color on top of hover state of UI Elements",
+          "value": "{color.text.default.on-light.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-selected": {
+          "comment": "Text color on top of selected state of UI Elements",
+          "value": "{color.text.default.on-light.value}",
+          "themeable": "Yes",
+          "type": "color"
+        },
+        "on-selected-hover": {
+          "comment": "Text color on top of hover and selected state of UI Elements",
+          "value": "{color.text.default.on-light.value}",
+          "themeable": "Yes",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

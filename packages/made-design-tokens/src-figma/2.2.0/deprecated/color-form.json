@@ -1,0 +1,44 @@
+{
+  "forms": {
+    "color": {
+      "text": {
+        "placeholder": {
+          "comment": "Text color for placeholder text on forms.",
+          "deprecated": true,
+          "deprecated_comment": "made-color-text-default-on-light",
+          "value": "{color.gray.04.value}",
+          "themeable": "No",
+          "type": "color"
+        },
+        "hint": {
+          "comment": "Text color for hint text on forms.",
+          "value": "{color.gray.05.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-text-helper",
+          "themeable": "No",
+          "type": "color"
+        }
+      },
+      "border": {
+        "disabled": {
+          "comment": "Border color for :disabled state of forms.",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-border-disabled",
+          "value": "{color.gray.02.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      },
+      "background": {
+        "disabled": {
+          "comment": "Background color for :disabled state of forms.",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-disabled",
+          "value": "{color.gray.01.value}",
+          "themeable": "No",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

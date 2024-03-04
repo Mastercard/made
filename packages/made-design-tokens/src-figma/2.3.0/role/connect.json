@@ -1,0 +1,94 @@
+{
+  "connect": {
+    "color": {
+      "background": {
+        "api": {
+          "value": "{color.yellow.04.value}",
+          "type": "color",
+          "comment": "Background color for items in API category.",
+          "themeable": "No"
+        },
+        "application": {
+          "value": "{color.teal.04.value}",
+          "type": "color",
+          "comment": "Background color for items in application category.",
+          "themeable": "No"
+        },
+        "collection": {
+          "value": "{color.gray.07.value}",
+          "type": "color",
+          "comment": "Background color for items in collection category.",
+          "themeable": "No"
+        },
+        "document": {
+          "value": "{color.gray.03.value}",
+          "type": "color",
+          "comment": "Background color for items in document category.",
+          "themeable": "No"
+        },
+        "product": {
+          "value": "#A82226",
+          "type": "color",
+          "comment": "Background color for items in product category.",
+          "themeable": "No"
+        },
+        "reference": {
+          "value": "{color.green.04.value}",
+          "type": "color",
+          "comment": "Background color for items in reference category.",
+          "themeable": "No"
+        },
+        "report": {
+          "value": "{color.gold.04.value}",
+          "type": "color",
+          "comment": "Border color for items in report category.",
+          "themeable": "No"
+        }
+      },
+      "border": {
+        "api": {
+          "value": "{color.yellow.04.value}",
+          "type": "color",
+          "comment": "Border color for items in API category.",
+          "themeable": "No"
+        },
+        "application": {
+          "value": "{color.teal.04.value}",
+          "type": "color",
+          "comment": "Border color for items in application category.",
+          "themeable": "No"
+        },
+        "collection": {
+          "value": "{color.gray.07.value}",
+          "type": "color",
+          "comment": "Border color for items in collection category.",
+          "themeable": "No"
+        },
+        "document": {
+          "value": "{color.gray.03.value}",
+          "type": "color",
+          "comment": "Border color for items in document category.",
+          "themeable": "No"
+        },
+        "product": {
+          "value": "#A82226",
+          "type": "color",
+          "comment": "Border color for items in product category.",
+          "themeable": "No"
+        },
+        "reference": {
+          "value": "{color.green.04.value}",
+          "type": "color",
+          "comment": "Border color for items in reference category.",
+          "themeable": "No"
+        },
+        "report": {
+          "value": "{color.orange.05.value}",
+          "type": "color",
+          "comment": "Border color for items in report category.",
+          "themeable": "No"
+        }
+      }
+    }
+  }
+}

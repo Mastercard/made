@@ -28,16 +28,21 @@ There are also classes provided which allow percentage widths to be used. 25%, 5
 
 Width classes can be made responsive by appending the breakpoint to the class. Two breakpoints are provided: `md` and `lg`. Customise your widths on small, medium and large devices.
 
+For width classes using rems, examples would be `made-u-width-10-x`, `made-u-width--md-15-x`, `made-u-width--lg-20-x`. And for percentage width classes, examples would be `made-u-width-100`, `made-u-width--md-75`, `made-u-width--lg-50`.
+
 - Device width is less than 600px wide no breakpoint needs to be appended to the class.
 - Device width is 600px wide or more the `md` breakpoint can be appended to the class in order to use a different width at or above 600px.
 - Device width is 960px wide or more the `lg` breakpoint can be appended to the class in order to use a different width at or above 960px.
 
-Example below shows how these responsive classes can be used to apply a different width to an element at three different device widths.
+The examples below show responsive classes applying a different width to elements at three different device widths. The first example shows width classes using rems, and the second shows width classes using percentages.
 
 <Canvas>
   <Story name="Responsive Breakpoints">
-    <div class="made-s-spacing">
-      <div class="made-s-width-block made-u-width-5-x made-u-width--md-10-x made-u-width--lg-15-x"></div>
+    <div class="made-u-display-flex made-u-margin-bottom-5-x">
+      <div class="made-s-width-block made-u-width-10-x made-u-width--md-15-x made-u-width--lg-20-x"></div>
+    </div>
+    <div class="made-u-display-flex">
+      <div class="made-s-width-block made-u-width-50 made-u-width--md-75 made-u-width--lg-50"></div>
     </div>
   </Story>
 </Canvas>

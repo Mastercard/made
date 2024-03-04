@@ -5,18 +5,8 @@ export const DropZone = ({ linkText, text }) => {
 	return (
 		<div class="made-c-file-upload">
 			<label class="made-c-file-upload__label" for="file-upload-1">
-				<svg
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<title>upload</title>
-					<path
-						d="M24 19.703A4.302 4.302 0 0119.704 24H4.296A4.302 4.302 0 010 19.703v-7.985h1.09v7.985a3.208 3.208 0 003.206 3.206h15.408a3.209 3.209 0 003.205-3.206v-8.235H24v8.235zM18.564 6.75l-.772.772-5.4-5.402v16.515H11.3V2.057L5.836 7.522l-.771-.772L11.815 0l6.749 6.75z"
-						fill="currentColor"
-						fill-rule="evenodd"
-					/>
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M11.47 2.47a.75.75 0 011.06 0l4.5 4.5a.75.75 0 01-1.06 1.06l-3.22-3.22V16.5a.75.75 0 01-1.5 0V4.81L8.03 8.03a.75.75 0 01-1.06-1.06l4.5-4.5zM3 15.75a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" fill="#141413" />
 				</svg>
 				<p class="made-c-file-upload__text">
 					{linkText.length > 0 && (
