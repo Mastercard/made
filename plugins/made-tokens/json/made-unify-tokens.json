@@ -5,62 +5,52 @@
         "01": {
           "value": "2px",
           "type": "borderRadius",
-          "description": "Border Radius: 2px",
-          "themeable": "No"
+          "description": "Border Radius: 2px"
         },
         "02": {
           "value": "4px",
           "type": "borderRadius",
-          "description": "Border Radius: 4px",
-          "themeable": "No"
+          "description": "Border Radius: 4px"
         },
         "03": {
           "value": "6px",
           "type": "borderRadius",
-          "description": "Border Radius: 6px",
-          "themeable": "No"
+          "description": "Border Radius: 6px"
         },
         "04": {
           "value": "8px",
           "type": "borderRadius",
-          "description": "Border Radius: 8px",
-          "themeable": "No"
+          "description": "Border Radius: 8px"
         },
         "05": {
           "value": "12px",
           "type": "borderRadius",
-          "description": "Border Radius: 12px",
-          "themeable": "No"
+          "description": "Border Radius: 12px"
         },
         "06": {
           "value": "16px",
           "type": "borderRadius",
-          "description": "Border Radius: 16px",
-          "themeable": "No"
+          "description": "Border Radius: 16px"
         },
         "07": {
           "value": "20px",
           "type": "borderRadius",
-          "description": "Border Radius: 20px",
-          "themeable": "No"
+          "description": "Border Radius: 20px"
         },
         "08": {
           "value": "24px",
           "type": "borderRadius",
-          "description": "Border Radius: 24px",
-          "themeable": "No"
+          "description": "Border Radius: 24px"
         },
         "09": {
           "value": "28px",
           "type": "borderRadius",
-          "description": "Border Radius: 28px",
-          "themeable": "No"
+          "description": "Border Radius: 28px"
         },
         "circle": {
           "value": "50%",
           "type": "borderRadius",
-          "description": "Border Radius: 50%",
-          "themeable": "No"
+          "description": "Border Radius: 50%"
         }
       }
     },
@@ -95,344 +85,289 @@
         "02": {
           "value": "#F37338",
           "type": "color",
-          "description": "Accent color 2",
-          "themeable": "No"
+          "description": "Accent color 2"
         },
         "03": {
           "value": "#F38B00",
           "type": "color",
-          "description": "Accent color 3",
-          "themeable": "No"
+          "description": "Accent color 3"
         },
         "04": {
           "value": "#FFC61E",
           "type": "color",
-          "description": "Accent color 4",
-          "themeable": "No"
+          "description": "Accent color 4"
         },
         "05": {
           "value": "#628020",
           "type": "color",
-          "description": "Accent color 5",
-          "themeable": "No"
+          "description": "Accent color 5"
         },
         "06": {
           "value": "#25836D",
           "type": "color",
-          "description": "Accent color 6",
-          "themeable": "No"
+          "description": "Accent color 6"
         },
         "07": {
           "value": "#D7373C",
           "type": "color",
-          "description": "Accent color 7",
-          "themeable": "No"
+          "description": "Accent color 7"
         }
       },
       "gold": {
         "01": {
           "value": "#FCE8CC",
           "type": "color",
-          "description": "Gold color 1",
-          "themeable": "No"
+          "description": "Gold color 1"
         },
         "02": {
           "value": "#F9D199",
           "type": "color",
-          "description": "Gold color 2",
-          "themeable": "No"
+          "description": "Gold color 2"
         },
         "03": {
           "value": "#F7AD4C",
           "type": "color",
-          "description": "Gold color 3",
-          "themeable": "No"
+          "description": "Gold color 3"
         },
         "04": {
           "value": "#F38B00",
           "type": "color",
-          "description": "Gold color 4",
-          "themeable": "No"
+          "description": "Gold color 4"
         },
         "05": {
           "value": "#995600",
           "type": "color",
-          "description": "Gold color 5",
-          "themeable": "No"
+          "description": "Gold color 5"
         },
         "06": {
           "value": "#583300",
           "type": "color",
-          "description": "Gold color 6",
-          "themeable": "No"
+          "description": "Gold color 6"
         },
         "07": {
           "value": "#301C00",
           "type": "color",
-          "description": "Gold color 7",
-          "themeable": "No"
+          "description": "Gold color 7"
         }
       },
       "gray": {
         "01": {
           "value": "#FCFBFA",
           "type": "color",
-          "description": "Canvas color - Gray 1",
-          "themeable": "No"
+          "description": "Canvas color - Gray 1"
         },
         "01-25": {
           "value": "#FAF7F5",
           "type": "color",
-          "description": "Canvas color - Gray 1.25",
-          "themeable": "No"
+          "description": "Canvas color - Gray 1.25"
         },
         "01-5": {
           "value": "#F3F0EE",
           "type": "color",
-          "description": "Canvas color - Gray 1.5",
-          "themeable": "No"
+          "description": "Canvas color - Gray 1.5"
         },
         "02": {
           "value": "#E8E5E1",
           "type": "color",
-          "description": "Canvas color - Gray 2",
-          "themeable": "No"
+          "description": "Canvas color - Gray 2"
         },
         "02-5": {
           "value": "#D1CDC7",
           "type": "color",
-          "description": "Canvas color - Gray 2.5",
-          "themeable": "No"
+          "description": "Canvas color - Gray 2.5"
         },
         "03": {
           "value": "#B1ADA6",
           "type": "color",
-          "description": "Gray tints and shades - Gray 3",
-          "themeable": "No"
+          "description": "Gray tints and shades - Gray 3"
         },
         "03-5": {
           "value": "#96918B",
           "type": "color",
-          "description": "Gray tints and shades - Gray 3.5",
-          "themeable": "No"
+          "description": "Gray tints and shades - Gray 3.5"
         },
         "04": {
           "value": "#777470",
           "type": "color",
-          "description": "Gray tints and shades - Gray 4",
-          "themeable": "No"
+          "description": "Gray tints and shades - Gray 4"
         },
         "04-5": {
           "value": "#676561",
           "type": "color",
-          "description": "Gray tints and shades - Gray 4.5",
-          "themeable": "No"
+          "description": "Gray tints and shades - Gray 4.5"
         },
         "05": {
           "value": "#555250",
           "type": "color",
-          "description": "Canvas color - Gray 5",
-          "themeable": "No"
+          "description": "Canvas color - Gray 5"
         },
         "05-5": {
           "value": "#444340",
           "type": "color",
-          "description": "Gray tints and shades - Gray 5.5",
-          "themeable": "No"
+          "description": "Gray tints and shades - Gray 5.5"
         },
         "06": {
           "value": "#323231",
           "type": "color",
-          "description": "Canvas color - Gray 6",
-          "themeable": "No"
+          "description": "Canvas color - Gray 6"
         },
         "06-5": {
           "value": "#222221",
           "type": "color",
-          "description": "Gray tints and shades - Gray 6.5",
-          "themeable": "No"
+          "description": "Gray tints and shades - Gray 6.5"
         },
         "07": {
           "value": "#141413",
           "type": "color",
-          "description": "Canvas color - Gray 7",
-          "themeable": "No"
+          "description": "Canvas color - Gray 7"
         }
       },
       "green": {
         "01": {
           "value": "#E8F1D5",
           "type": "color",
-          "description": "Green color 1",
-          "themeable": "No"
+          "description": "Green color 1"
         },
         "02": {
           "value": "#B6CD7E",
           "type": "color",
-          "description": "Green color 2",
-          "themeable": "No"
+          "description": "Green color 2"
         },
         "03": {
           "value": "#87A740",
           "type": "color",
-          "description": "Green color 3",
-          "themeable": "No"
+          "description": "Green color 3"
         },
         "04": {
           "value": "#628020",
           "type": "color",
-          "description": "Green color 4",
-          "themeable": "No"
+          "description": "Green color 4"
         },
         "05": {
           "value": "#496019",
           "type": "color",
-          "description": "Green color 5",
-          "themeable": "No"
+          "description": "Green color 5"
         },
         "06": {
           "value": "#324113",
           "type": "color",
-          "description": "Green color 6",
-          "themeable": "No"
+          "description": "Green color 6"
         },
         "07": {
           "value": "#1C2509",
           "type": "color",
-          "description": "Green color 7",
-          "themeable": "No"
+          "description": "Green color 7"
         }
       },
       "orange": {
         "01": {
           "value": "#FFE1D1",
           "type": "color",
-          "description": "Orange color 1",
-          "themeable": "No"
+          "description": "Orange color 1"
         },
         "02": {
           "value": "#FFAB82",
           "type": "color",
-          "description": "Orange color 2",
-          "themeable": "No"
+          "description": "Orange color 2"
         },
         "03": {
           "value": "#F37338",
           "type": "color",
-          "description": "Orange color 3",
-          "themeable": "No"
+          "description": "Orange color 3"
         },
         "04": {
           "value": "#CF4500",
           "type": "color",
-          "description": "Orange color 4",
-          "themeable": "No"
+          "description": "Orange color 4"
         },
         "05": {
           "value": "#9A3A0A",
           "type": "color",
-          "description": "Orange color 5",
-          "themeable": "No"
+          "description": "Orange color 5"
         },
         "06": {
           "value": "#662808",
           "type": "color",
-          "description": "Orange color 6",
-          "themeable": "No"
+          "description": "Orange color 6"
         },
         "07": {
           "value": "#331505",
           "type": "color",
-          "description": "Orange color 7",
-          "themeable": "No"
+          "description": "Orange color 7"
         }
       },
       "red": {
         "01": {
           "value": "#F8DDDE",
           "type": "color",
-          "description": "Red color 1",
-          "themeable": "No"
+          "description": "Red color 1"
         },
         "02": {
           "value": "#F4A79F",
           "type": "color",
-          "description": "Red color 2",
-          "themeable": "No"
+          "description": "Red color 2"
         },
         "03": {
           "value": "#E66F65",
           "type": "color",
-          "description": "Red color 3",
-          "themeable": "No"
+          "description": "Red color 3"
         },
         "04": {
           "value": "#D7373C",
           "type": "color",
-          "description": "Red color 4",
-          "themeable": "No"
+          "description": "Red color 4"
         },
         "05": {
           "value": "#A82226",
           "type": "color",
-          "description": "Red color 5",
-          "themeable": "No"
+          "description": "Red color 5"
         },
         "06": {
           "value": "#7E191C",
           "type": "color",
-          "description": "Red color 6",
-          "themeable": "No"
+          "description": "Red color 6"
         },
         "07": {
           "value": "#541113",
           "type": "color",
-          "description": "Red color 7",
-          "themeable": "No"
+          "description": "Red color 7"
         }
       },
       "teal": {
         "01": {
           "value": "#DCF5EF",
           "type": "color",
-          "description": "Teal color 1",
-          "themeable": "No"
+          "description": "Teal color 1"
         },
         "02": {
           "value": "#88D3BF",
           "type": "color",
-          "description": "Teal color 2",
-          "themeable": "No"
+          "description": "Teal color 2"
         },
         "03": {
           "value": "#4BAB94",
           "type": "color",
-          "description": "Teal color 3",
-          "themeable": "No"
+          "description": "Teal color 3"
         },
         "04": {
           "value": "#25836D",
           "type": "color",
-          "description": "Teal color 4",
-          "themeable": "No"
+          "description": "Teal color 4"
         },
         "05": {
           "value": "#266555",
           "type": "color",
-          "description": "Teal color 5",
-          "themeable": "No"
+          "description": "Teal color 5"
         },
         "06": {
           "value": "#23473D",
           "type": "color",
-          "description": "Teal color 6",
-          "themeable": "No"
+          "description": "Teal color 6"
         },
         "07": {
           "value": "#1D2D27",
           "type": "color",
-          "description": "Teal color 7",
-          "themeable": "No"
+          "description": "Teal color 7"
         }
       },
       "white": {
@@ -445,87 +380,73 @@
         "01": {
           "value": "#FFF4D1",
           "type": "color",
-          "description": "Yellow color 1",
-          "themeable": "No"
+          "description": "Yellow color 1"
         },
         "02": {
           "value": "#FFE8A5",
           "type": "color",
-          "description": "Yellow color 2",
-          "themeable": "No"
+          "description": "Yellow color 2"
         },
         "03": {
           "value": "#FFD863",
           "type": "color",
-          "description": "Yellow color 3",
-          "themeable": "No"
+          "description": "Yellow color 3"
         },
         "04": {
           "value": "#FFC61E",
           "type": "color",
-          "description": "Yellow color 4",
-          "themeable": "No"
+          "description": "Yellow color 4"
         },
         "05": {
           "value": "#B28C16",
           "type": "color",
-          "description": "Yellow color 5",
-          "themeable": "No"
+          "description": "Yellow color 5"
         },
         "06": {
           "value": "#664F0C",
           "type": "color",
-          "description": "Yellow color 6",
-          "themeable": "No"
+          "description": "Yellow color 6"
         },
         "07": {
           "value": "#332805",
           "type": "color",
-          "description": "Yellow color 7",
-          "themeable": "No"
+          "description": "Yellow color 7"
         }
       },
       "green-success": {
         "01": {
           "value": "#DFF7DF",
           "type": "color",
-          "themeable": "No",
           "description": "Success Green 1"
         },
         "02": {
           "value": "#7CD87A",
           "type": "color",
-          "themeable": "No",
           "description": "Success Green 2"
         },
         "03": {
           "value": "#35B132",
           "type": "color",
-          "themeable": "No",
           "description": "Success Green 3"
         },
         "04": {
           "value": "#038A00",
           "type": "color",
-          "themeable": "No",
           "description": "Success Green 4"
         },
         "05": {
           "value": "#097007",
           "type": "color",
-          "themeable": "No",
           "description": "Success Green 5"
         },
         "06": {
           "value": "#0B560A",
           "type": "color",
-          "themeable": "No",
           "description": "Success Green 6"
         },
         "07": {
           "value": "#042604",
           "type": "color",
-          "themeable": "No",
           "description": "Success Green 7"
         }
       },
@@ -533,43 +454,36 @@
         "01": {
           "value": "#FADEDE",
           "type": "color",
-          "themeable": "No",
           "description": "Error Red 1"
         },
         "02": {
           "value": "#FF9898",
           "type": "color",
-          "themeable": "No",
           "description": "Red error 2"
         },
         "03": {
           "value": "#FF5656",
           "type": "color",
-          "themeable": "No",
           "description": "Red error 3"
         },
         "04": {
           "value": "#EE0000",
           "type": "color",
-          "themeable": "No",
           "description": "Red error 4"
         },
         "05": {
           "value": "#B00606",
           "type": "color",
-          "themeable": "No",
           "description": "Red error 5"
         },
         "06": {
           "value": "#710808",
           "type": "color",
-          "themeable": "No",
           "description": "Red error 6"
         },
         "07": {
           "value": "#330505",
           "type": "color",
-          "themeable": "No",
           "description": "Red error 7"
         }
       }
@@ -861,14 +775,12 @@
         "01": {
           "value": "150ms",
           "type": "other",
-          "description": "Micro-interactions, small expansion, short distance movements.",
-          "themeable": "No"
+          "description": "Micro-interactions, small expansion, short distance movements."
         },
         "02": {
           "value": "240ms",
           "type": "other",
-          "description": "Expansion, system communication, toast.",
-          "themeable": "No"
+          "description": "Expansion, system communication, toast."
         },
         "fast": {
           "01": {
@@ -889,14 +801,12 @@
         "01": {
           "value": "400ms",
           "type": "other",
-          "description": "Large expansion, important system notifications.",
-          "themeable": "No"
+          "description": "Large expansion, important system notifications."
         },
         "02": {
           "value": "700ms",
           "type": "other",
-          "description": "Background dimming.",
-          "themeable": "No"
+          "description": "Background dimming."
         }
       }
     },
@@ -925,14 +835,12 @@
         "letter-spacing": {
           "value": "{letter.spacing.default}",
           "type": "letterSpacing",
-          "description": "--StyleDictionary-- Default letter spacing for body text.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Default letter spacing for body text."
         },
         "line-height": {
           "value": "{line.height.default}",
           "type": "lineHeights",
-          "description": "--StyleDictionary-- Default line height for body text.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Default line height for body text."
         },
         "size": {
           "default": {
@@ -973,62 +881,52 @@
         "bold": {
           "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
           "type": "other",
-          "description": "--StyleDictionary-- Default bold weight font used across application",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Default bold weight font used across application"
         },
         "extra-light": {
           "value": "MarkOffcForMC-ExtraLight, MarkOffcForMC, Arial, Helvetica, sans-serif",
           "type": "other",
-          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications."
         },
         "eyebrow": {
           "value": "{font.family.bold}",
           "type": "fontFamilies",
-          "themeable": "Yes",
           "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)"
         },
         "heading": {
           "value": "{font.family.light}",
           "type": "fontFamilies",
-          "themeable": "Yes",
           "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)"
         },
         "light": {
           "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
           "type": "other",
-          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications."
         },
         "medium": {
           "value": "MarkOffcForMC-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif",
           "type": "other",
-          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications."
         },
         "narrow": {
           "value": "MarkForMCNrw, MarkOffcForMC, Arial, Helvetica, sans-serif",
           "type": "other",
-          "description": "--StyleDictionary-- Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow."
         },
         "narrow-bold": {
           "value": "MarkForMCNrw-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
           "type": "other",
-          "description": "--StyleDictionary-- Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow."
         },
         "narrow-medium": {
           "value": "MarkForMCNrw-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif",
           "type": "other",
-          "description": "--StyleDictionary-- Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow."
         },
         "regular": {
           "value": "MarkOffcForMC, Arial, Helvetica, sans-serif",
           "type": "other",
-          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications."
         }
       },
       "heading": {
@@ -1407,118 +1305,99 @@
         "10": {
           "value": "28px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 28px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 28px"
         },
         "11": {
           "value": "32px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 32px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 32px"
         },
         "12": {
           "value": "36px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 36px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 36px"
         },
         "13": {
           "value": "48px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 48px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 48px"
         },
         "14": {
           "value": "60px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 60px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 60px"
         },
         "15": {
           "value": "80px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 80px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 80px"
         },
         "01": {
           "value": "9px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 9px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 9px"
         },
         "02": {
           "value": "12px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 12px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 12px"
         },
         "03": {
           "value": "13px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 13px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 13px"
         },
         "04": {
           "value": "14px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 14px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 14px"
         },
         "05": {
           "value": "15px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 15px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 15px"
         },
         "06": {
           "value": "16px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 16px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 16px"
         },
         "07": {
           "value": "18px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 18px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 18px"
         },
         "08": {
           "value": "20px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 20px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 20px"
         },
         "09": {
           "value": "24px",
           "type": "fontSizes",
-          "description": "--StyleDictionary-- Font size: 24px",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Font size: 24px"
         }
       },
       "weight": {
         "bold": {
           "value": "700",
           "type": "fontWeights",
-          "description": "--StyleDictionary-- Use bold sparingly for subtitles, eyebrows, emphasis, and dates",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Use bold sparingly for subtitles, eyebrows, emphasis, and dates"
         },
         "default": {
           "value": "400",
           "type": "fontWeights",
-          "description": "--StyleDictionary-- Normal font weight is used for body text and form inputs.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Normal font weight is used for body text and form inputs."
         },
         "light": {
           "value": "100",
           "type": "fontWeights",
-          "description": "--StyleDictionary-- Light font weight is used for headings.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Light font weight is used for headings."
         },
         "medium": {
           "value": "500",
           "type": "fontWeights",
-          "description": "--StyleDictionary-- Semi bold font weight is used for buttons.",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Semi bold font weight is used for buttons."
         }
       }
     },
@@ -1527,14 +1406,12 @@
         "default": {
           "value": "0",
           "type": "letterSpacing",
-          "description": "--StyleDictionary-- Default letter spacing for all text.",
-          "themeable": "Yes"
+          "description": "--StyleDictionary-- Default letter spacing for all text."
         },
         "eyebrow": {
           "value": "1.8",
           "type": "letterSpacing",
-          "description": "--StyleDictionary-- Default letter spacing for all text.",
-          "themeable": "Yes"
+          "description": "--StyleDictionary-- Default letter spacing for all text."
         }
       }
     },
@@ -1543,92 +1420,77 @@
         "1-25-x": {
           "value": "125%",
           "type": "lineHeights",
-          "description": "--StyleDictionary-- Headings use a 1.25× multiplier",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Headings use a 1.25× multiplier"
         },
         "1-5-x": {
           "value": "150%",
           "type": "lineHeights",
-          "description": "--StyleDictionary-- To ensure readability, Body uses a 1.5× multiplier",
-          "themeable": "No"
+          "description": "--StyleDictionary-- To ensure readability, Body uses a 1.5× multiplier"
         },
         "1-x": {
           "value": "100%",
           "type": "lineHeights",
-          "description": "--StyleDictionary-- Line height for single line text elements displayed in components",
-          "themeable": "No"
+          "description": "--StyleDictionary-- Line height for single line text elements displayed in components"
         },
         "default": {
           "value": "150%",
           "type": "lineHeights",
-          "description": "--StyleDictionary-- Default line height.",
-          "themeable": "Yes"
+          "description": "--StyleDictionary-- Default line height."
         },
         "heading": {
           "value": "125%",
           "type": "lineHeights",
-          "description": "--StyleDictionary-- Headings line-height",
-          "themeable": "Yes"
+          "description": "--StyleDictionary-- Headings line-height"
         },
         "single": {
           "value": "100%",
           "type": "lineHeights",
-          "description": "--StyleDictionary-- Line height for single line text elements displayed in components",
-          "themeable": "Yes"
+          "description": "--StyleDictionary-- Line height for single line text elements displayed in components"
         },
         "rem-01": {
           "value": "0.75rem",
           "type": "lineHeights",
-          "description": "12px line height",
-          "themeable": "No"
+          "description": "12px line height"
         },
         "rem-02": {
           "value": "1rem",
           "type": "lineHeights",
-          "description": "16px line height",
-          "themeable": "No"
+          "description": "16px line height"
         },
         "rem-03": {
           "value": "1.125rem",
           "type": "lineHeights",
-          "description": "18px line height",
-          "themeable": "No"
+          "description": "18px line height"
         },
         "rem-04": {
           "value": "1.25rem",
           "type": "lineHeights",
-          "description": "20px line height",
-          "themeable": "No"
+          "description": "20px line height"
         },
         "rem-05": {
           "value": "1.5rem",
           "type": "lineHeights",
-          "description": "24px line height",
-          "themeable": "No"
+          "description": "24px line height"
         },
         "rem-06": {
           "value": "1.75rem",
           "type": "lineHeights",
-          "description": "28px line height",
-          "themeable": "No"
+          "description": "28px line height"
         },
         "rem-07": {
           "value": "2rem",
           "type": "lineHeights",
-          "description": "32px line height",
-          "themeable": "No"
+          "description": "32px line height"
         },
         "rem-08": {
           "value": "2.5rem",
           "type": "lineHeights",
-          "description": "40px line height",
-          "themeable": "No"
+          "description": "40px line height"
         },
         "rem-09": {
           "value": "3rem",
           "type": "lineHeights",
-          "description": "48px line height",
-          "themeable": "No"
+          "description": "48px line height"
         }
       }
     }
