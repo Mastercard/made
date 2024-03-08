@@ -1,4 +1,7 @@
 {
+  "unify/primitives": {},
+  "unify/semantic": {},
+  "unify/components": {},
   "themes/mastercard": {
     "border": {
       "radius": {
@@ -1498,6 +1501,9 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
+      "unify/primitives",
+      "unify/semantic",
+      "unify/components",
       "themes/mastercard"
     ]
   }
