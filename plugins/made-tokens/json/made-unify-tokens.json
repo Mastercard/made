@@ -1495,13 +1495,6 @@
       }
     }
   },
-  "$themes": [
-    {
-      "id": "6d135a1dcdea37517b2e28b48b3ee1e42c74967d",
-      "name": "Default",
-      "selectedTokenSets": {
-        "global": "enabled"
-    },
   "$metadata": {
     "tokenSetOrder": [
       "global"
