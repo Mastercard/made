@@ -1,5 +1,5 @@
 {
-  "unify/primitives": {
+  "unify/primitive": {
     "color": {
       "white": {
         "value": "#ffffff",
@@ -1566,8 +1566,8 @@
     }
   },
   "unify/semantic": {},
-  "unify/components": {},
-  "themes/mastercard": {
+  "unify/component": {},
+  "themes/mastercard/light": {
     "border": {
       "radius": {
         "01": {
@@ -3063,13 +3063,19 @@
       }
     }
   },
+  "themes/mastercard/dark": {},
+  "themes/partnerbank/light": {},
+  "themes/partnerbank/dark": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "unify/primitives",
+      "unify/primitive",
       "unify/semantic",
-      "unify/components",
-      "themes/mastercard"
+      "unify/component",
+      "themes/mastercard/light",
+      "themes/mastercard/dark",
+      "themes/partnerbank/light",
+      "themes/partnerbank/dark"
     ]
   }
 }
