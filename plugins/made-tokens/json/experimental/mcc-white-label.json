@@ -1672,7 +1672,7 @@
           }
         },
         "side-section": {
-          "links": {
+          "action": {
             "value": "{color.orange.04}",
             "type": "color"
           },
