@@ -1626,7 +1626,40 @@
       }
     }
   },
-  "themes/default (MA)": {},
+  "themes/default (MA)": {
+    "top-nav": {
+      "background": {
+        "value": "{color.gray.07}",
+        "type": "color"
+      },
+      "links": {
+        "value": "{color.white}",
+        "type": "color"
+      }
+    },
+    "footer": {
+      "background": {
+        "value": "{color.gray.06}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "links": {
+        "value": "{color.orange.02}",
+        "type": "color"
+      },
+      "language-switcher-border": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "menu-dividers": {
+        "value": "{color.gray.04}",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [
     {
       "id": "6d135a1dcdea37517b2e28b48b3ee1e42c74967d",
