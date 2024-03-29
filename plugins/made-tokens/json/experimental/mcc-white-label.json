@@ -1670,6 +1670,24 @@
             "value": "{color.white}",
             "type": "color"
           }
+        },
+        "side-section": {
+          "links": {
+            "value": "{color.orange.04}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.gray.07}",
+            "type": "color"
+          },
+          "surface": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{color.gray.03}",
+            "type": "color"
+          }
         }
       }
     }
