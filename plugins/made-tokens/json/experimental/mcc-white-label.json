@@ -1658,6 +1658,20 @@
         "value": "{color.gray.04}",
         "type": "color"
       }
+    },
+    "page": {
+      "sign-in": {
+        "welcome-section": {
+          "background": {
+            "value": "{color.gray.07}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.white}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "$themes": [
