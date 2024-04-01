@@ -1642,14 +1642,6 @@
         "value": "{color.gray.06}",
         "type": "color"
       },
-      "text": {
-        "value": "{color.white}",
-        "type": "color"
-      },
-      "links": {
-        "value": "{color.orange.02}",
-        "type": "color"
-      },
       "language-switcher-border": {
         "value": "{color.white}",
         "type": "color"
@@ -1723,6 +1715,30 @@
         "value": "false",
         "type": "boolean",
         "description": "Partnerbank"
+      }
+    },
+    "global": {
+      "interactive": {
+        "links": {
+          "on-light": {
+            "value": "{color.orange.04}",
+            "type": "color"
+          },
+          "on-dark": {
+            "value": "{color.orange.02}",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "on-light": {
+          "value": "{color.gray.07}",
+          "type": "color"
+        },
+        "on-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        }
       }
     }
   },
