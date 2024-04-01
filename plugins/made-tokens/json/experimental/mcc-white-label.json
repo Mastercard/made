@@ -1761,6 +1761,14 @@
         "type": "boolean",
         "description": "Partnerbank"
       }
+    },
+    "brand-font": {
+      "value": "Mark Offc For MC",
+      "type": "fontFamilies"
+    },
+    "brand-font-copy": {
+      "value": "Mark Offc For MC",
+      "type": "fontFamilies"
     }
   },
   "themes/BoligBanken": {
@@ -1898,6 +1906,10 @@
           }
         }
       }
+    },
+    "brand-font": {
+      "value": "Inter",
+      "type": "fontFamilies"
     }
   },
   "$themes": [
