@@ -1680,14 +1680,26 @@
         "type": "color"
       }
     },
-    "top-nav": {
-      "background": {
-        "value": "{color.gray.07}",
-        "type": "color"
+    "navigation": {
+      "top": {
+        "links": {
+          "value": "{global.interactive.links.neutral}",
+          "type": "color"
+        },
+        "background": {
+          "value": "{color.gray.07}",
+          "type": "color"
+        }
       },
-      "links": {
-        "value": "{global.interactive.links.neutral}",
-        "type": "color"
+      "side": {
+        "background": {
+          "value": "{color.gray.07}",
+          "type": "color"
+        },
+        "links": {
+          "value": "{global.interactive.links.neutral}",
+          "type": "color"
+        }
       }
     },
     "footer": {
@@ -1833,14 +1845,26 @@
         "type": "color"
       }
     },
-    "top-nav": {
-      "background": {
-        "value": "{global.brand.primary}",
-        "type": "color"
+    "navigation": {
+      "top": {
+        "links": {
+          "value": "{global.interactive.links.neutral}",
+          "type": "color"
+        },
+        "background": {
+          "value": "{global.brand.primary}",
+          "type": "color"
+        }
       },
-      "links": {
-        "value": "{global.interactive.links.neutral}",
-        "type": "color"
+      "side": {
+        "background": {
+          "value": "{color.gray.07}",
+          "type": "color"
+        },
+        "links": {
+          "value": "{global.interactive.links.neutral}",
+          "type": "color"
+        }
       }
     },
     "footer": {
