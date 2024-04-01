@@ -1546,10 +1546,6 @@
           }
         },
         "side-section": {
-          "surface": {
-            "value": "{color.white}",
-            "type": "color"
-          },
           "border": {
             "value": "{color.gray.03}",
             "type": "color"
@@ -1734,10 +1730,6 @@
           }
         },
         "side-section": {
-          "surface": {
-            "value": "{color.white}",
-            "type": "color"
-          },
           "border": {
             "value": "{color.gray.03}",
             "type": "color"
