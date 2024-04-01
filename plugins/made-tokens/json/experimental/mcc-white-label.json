@@ -1432,6 +1432,10 @@
         "primary": {
           "value": "{color.orange.04}",
           "type": "color"
+        },
+        "accent-1": {
+          "value": "{color.teal.04}",
+          "type": "color"
         }
       },
       "interactive": {
@@ -1596,10 +1600,6 @@
       "primary": {
         "value": "20px",
         "type": "borderRadius"
-      },
-      "primaryyy": {
-        "value": "4px",
-        "type": "borderRadius"
       }
     }
   },
@@ -1608,6 +1608,10 @@
       "brand": {
         "primary": {
           "value": "#002776",
+          "type": "color"
+        },
+        "accent-1": {
+          "value": "{global.brand.primary}",
           "type": "color"
         }
       },
