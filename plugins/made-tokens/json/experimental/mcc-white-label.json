@@ -1652,6 +1652,10 @@
                 }
               }
             }
+          },
+          "neutral": {
+            "value": "{color.white}",
+            "type": "color"
           }
         },
         "button": {
@@ -1678,7 +1682,7 @@
         "type": "color"
       },
       "links": {
-        "value": "{color.white}",
+        "value": "{global.interactive.links.neutral}",
         "type": "color"
       }
     },
@@ -1704,7 +1708,7 @@
             "type": "color"
           },
           "text": {
-            "value": "{color.white}",
+            "value": "{global.text.on-dark}",
             "type": "color"
           }
         },
