@@ -1799,7 +1799,8 @@
       "id": "6d135a1dcdea37517b2e28b48b3ee1e42c74967d",
       "name": "Default",
       "selectedTokenSets": {
-        "global": "enabled"
+        "global": "enabled",
+        "themes/default (MA)": "enabled"
       },
       "$figmaStyleReferences": {
         "backdrop.color.background": "S:f6d435937638b7fc638c60e4a782cd49596718f3,",
@@ -2080,6 +2081,16 @@
         "link_.size - md": "S:8870c2d5dc69158b56e06ae7367efde69e153ac2,",
         "link_.size - sm - :hover": "S:2eb6b20e96defca7b5b37445f7b93ef776cf99e7,",
         "link_.size - md - :hover": "S:101fbce963dc82c95f26c4d57cdecc34395fce8b,"
+      }
+    },
+    {
+      "id": "a5104daa58fdbd27428f3a356bab3b4abb0849b8",
+      "name": "BoligBanken",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "themes/default (MA)": "enabled",
+        "themes/BoligBanken": "enabled",
+        "global": "enabled"
       }
     }
   ],
