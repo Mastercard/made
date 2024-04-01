@@ -1674,6 +1674,10 @@
           "value": "{color.white}",
           "type": "color"
         }
+      },
+      "body-background": {
+        "value": "{color.white}",
+        "type": "color"
       }
     },
     "top-nav": {
@@ -1823,6 +1827,10 @@
           "value": "{color.white}",
           "type": "color"
         }
+      },
+      "body-background": {
+        "value": "{color.white}",
+        "type": "color"
       }
     },
     "top-nav": {
