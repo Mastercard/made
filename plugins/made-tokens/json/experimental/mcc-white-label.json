@@ -1761,6 +1761,18 @@
     "brand-font": {
       "value": "Mark Offc For MC",
       "type": "fontFamilies"
+    },
+    "image": {
+      "sign-in": {
+        "brand-1": {
+          "value": "true",
+          "type": "boolean"
+        },
+        "brand-2": {
+          "value": "false",
+          "type": "boolean"
+        }
+      }
     }
   },
   "themes/BoligBanken": {
@@ -1898,6 +1910,18 @@
     "brand-font": {
       "value": "Inter",
       "type": "fontFamilies"
+    },
+    "image": {
+      "sign-in": {
+        "brand-1": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "brand-2": {
+          "value": "true",
+          "type": "boolean"
+        }
+      }
     }
   },
   "$themes": [
