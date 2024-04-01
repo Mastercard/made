@@ -1690,6 +1690,106 @@
           }
         }
       }
+    },
+    "logo": {
+      "brand-1": {
+        "value": "true",
+        "type": "boolean",
+        "description": "Mastercard"
+      },
+      "brand-2": {
+        "value": "false",
+        "type": "boolean",
+        "description": "BoligBanken"
+      },
+      "brand-3": {
+        "value": "false",
+        "type": "boolean",
+        "description": "Partnerbank"
+      }
+    }
+  },
+  "themes/BoligBanken": {
+    "top-nav": {
+      "background": {
+        "value": "{color.gray.07}",
+        "type": "color"
+      },
+      "links": {
+        "value": "{color.white}",
+        "type": "color"
+      }
+    },
+    "footer": {
+      "background": {
+        "value": "{color.gray.06}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "links": {
+        "value": "{color.orange.02}",
+        "type": "color"
+      },
+      "language-switcher-border": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "menu-dividers": {
+        "value": "{color.gray.04}",
+        "type": "color"
+      }
+    },
+    "page": {
+      "sign-in": {
+        "welcome-section": {
+          "background": {
+            "value": "{color.gray.07}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.white}",
+            "type": "color"
+          }
+        },
+        "side-section": {
+          "action": {
+            "value": "{color.orange.04}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.gray.07}",
+            "type": "color"
+          },
+          "surface": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{color.gray.03}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "logo": {
+      "brand-1": {
+        "value": "false",
+        "type": "boolean",
+        "description": "Mastercard"
+      },
+      "brand-2": {
+        "value": "true",
+        "type": "boolean",
+        "description": "BoligBanken"
+      },
+      "brand-3": {
+        "value": "false",
+        "type": "boolean",
+        "description": "Partnerbank"
+      }
     }
   },
   "$themes": [
@@ -1697,7 +1797,8 @@
       "id": "6d135a1dcdea37517b2e28b48b3ee1e42c74967d",
       "name": "Default",
       "selectedTokenSets": {
-        "global": "enabled"
+        "global": "enabled",
+        "themes/BoligBanken": "disabled"
       },
       "$figmaStyleReferences": {
         "backdrop.color.background": "S:f6d435937638b7fc638c60e4a782cd49596718f3,",
@@ -1984,7 +2085,8 @@
   "$metadata": {
     "tokenSetOrder": [
       "global",
-      "themes/default (MA)"
+      "themes/default (MA)",
+      "themes/BoligBanken"
     ]
   }
 }
