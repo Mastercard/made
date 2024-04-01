@@ -1483,6 +1483,11 @@
         "background": {
           "value": "{color.white}",
           "type": "color"
+        },
+        "background-secondary": {
+          "value": "{color.gray.01-5}",
+          "type": "color",
+          "description": "Background color used for the dashboard page body."
         }
       }
     },
@@ -1666,6 +1671,11 @@
         "background": {
           "value": "{color.white}",
           "type": "color"
+        },
+        "background-secondary": {
+          "value": "#f2f2f2",
+          "type": "color",
+          "description": "Background color used for the dashboard page body."
         }
       }
     },
