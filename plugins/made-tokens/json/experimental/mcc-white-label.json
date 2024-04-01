@@ -1627,6 +1627,51 @@
     }
   },
   "themes/default (MA)": {
+    "global": {
+      "brand": {
+        "primary": {
+          "value": "{color.orange.04}",
+          "type": "color"
+        }
+      },
+      "interactive": {
+        "links": {
+          "on-light": {
+            "value": "{global.brand.primary}",
+            "type": "color"
+          },
+          "on-dark": {
+            "value": "{global.brand.primary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": ".540",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "button": {
+          "primary": {
+            "value": "{global.brand.primary}",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "on-light": {
+          "value": "{color.gray.07}",
+          "type": "color"
+        },
+        "on-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        }
+      }
+    },
     "top-nav": {
       "background": {
         "value": "{color.gray.07}",
@@ -1716,16 +1761,56 @@
         "type": "boolean",
         "description": "Partnerbank"
       }
+    }
+  },
+  "themes/BoligBanken": {
+    "logo": {
+      "brand-1": {
+        "value": "false",
+        "type": "boolean",
+        "description": "Mastercard"
+      },
+      "brand-2": {
+        "value": "true",
+        "type": "boolean",
+        "description": "BoligBanken"
+      },
+      "brand-3": {
+        "value": "false",
+        "type": "boolean",
+        "description": "Partnerbank"
+      }
     },
     "global": {
+      "brand": {
+        "primary": {
+          "value": "#002776",
+          "type": "color"
+        }
+      },
       "interactive": {
         "links": {
           "on-light": {
-            "value": "{color.orange.04}",
+            "value": "{global.brand.primary}",
             "type": "color"
           },
           "on-dark": {
-            "value": "{color.orange.02}",
+            "value": "{global.brand.primary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": ".540",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "button": {
+          "primary": {
+            "value": "{global.brand.primary}",
             "type": "color"
           }
         }
@@ -1740,9 +1825,7 @@
           "type": "color"
         }
       }
-    }
-  },
-  "themes/BoligBanken": {
+    },
     "top-nav": {
       "background": {
         "value": "{color.gray.07}",
@@ -1756,14 +1839,6 @@
     "footer": {
       "background": {
         "value": "{color.gray.06}",
-        "type": "color"
-      },
-      "text": {
-        "value": "{color.white}",
-        "type": "color"
-      },
-      "links": {
-        "value": "{color.orange.02}",
         "type": "color"
       },
       "language-switcher-border": {
@@ -1805,23 +1880,23 @@
             "type": "color"
           }
         }
-      }
-    },
-    "logo": {
-      "brand-1": {
-        "value": "false",
-        "type": "boolean",
-        "description": "Mastercard"
       },
-      "brand-2": {
-        "value": "true",
-        "type": "boolean",
-        "description": "BoligBanken"
-      },
-      "brand-3": {
-        "value": "false",
-        "type": "boolean",
-        "description": "Partnerbank"
+      "inner": {
+        "dashboard": {
+          "background": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "top-header": {
+            "value": "{color.gray.07}",
+            "type": "color"
+          },
+          "surface": {
+            "value": "#",
+            "type": "color",
+            "description": "content card background color"
+          }
+        }
       }
     }
   },
