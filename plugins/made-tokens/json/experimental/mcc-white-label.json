@@ -1714,11 +1714,11 @@
         },
         "side-section": {
           "action": {
-            "value": "{color.orange.04}",
+            "value": "{global.interactive.links.on-light}",
             "type": "color"
           },
           "text": {
-            "value": "{color.gray.07}",
+            "value": "{global.text.on-light}",
             "type": "color"
           },
           "surface": {
@@ -1742,7 +1742,7 @@
             "type": "color"
           },
           "surface": {
-            "value": "#",
+            "value": "{color.white}",
             "type": "color",
             "description": "content card background color"
           }
