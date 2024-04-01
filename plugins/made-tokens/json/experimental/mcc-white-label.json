@@ -1854,7 +1854,7 @@
       "sign-in": {
         "welcome-section": {
           "background": {
-            "value": "{color.gray.07}",
+            "value": "{global.brand.primary}",
             "type": "color"
           },
           "text": {
