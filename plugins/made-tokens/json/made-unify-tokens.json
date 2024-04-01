@@ -2001,100 +2001,6 @@
           "description": "Red error 7"
         }
       }
-    }
-  },
-  "themes/mastercard/theme - light": {
-    "border": {
-      "radius": {
-        "01": {
-          "value": "2px",
-          "type": "borderRadius",
-          "description": "Border Radius: 2px"
-        },
-        "02": {
-          "value": "4px",
-          "type": "borderRadius",
-          "description": "Border Radius: 4px"
-        },
-        "03": {
-          "value": "6px",
-          "type": "borderRadius",
-          "description": "Border Radius: 6px"
-        },
-        "04": {
-          "value": "8px",
-          "type": "borderRadius",
-          "description": "Border Radius: 8px"
-        },
-        "05": {
-          "value": "12px",
-          "type": "borderRadius",
-          "description": "Border Radius: 12px"
-        },
-        "06": {
-          "value": "16px",
-          "type": "borderRadius",
-          "description": "Border Radius: 16px"
-        },
-        "07": {
-          "value": "20px",
-          "type": "borderRadius",
-          "description": "Border Radius: 20px"
-        },
-        "08": {
-          "value": "24px",
-          "type": "borderRadius",
-          "description": "Border Radius: 24px"
-        },
-        "09": {
-          "value": "28px",
-          "type": "borderRadius",
-          "description": "Border Radius: 28px"
-        },
-        "circle": {
-          "value": "50%",
-          "type": "borderRadius",
-          "description": "Border Radius: 50%"
-        }
-      }
-    },
-    "opacity": {
-      "0": {
-        "value": "0",
-        "type": "opacity",
-        "description": "Gives 0% opacity to an element (Hides an element).",
-        "themeable": "No"
-      },
-      "15": {
-        "value": "0.15",
-        "type": "opacity",
-        "description": "Gives 15% opacity to an element.",
-        "themeable": "No"
-      },
-      "25": {
-        "value": "0.25",
-        "type": "opacity",
-        "description": "Gives 25% opacity to an element.",
-        "themeable": "No"
-      },
-      "50": {
-        "value": "0.5",
-        "type": "opacity",
-        "description": "Gives 50% opacity to an element.",
-        "themeable": "No"
-      },
-      "75": {
-        "value": "0.75",
-        "type": "opacity",
-        "description": "Gives 75% opacity to an element.",
-        "themeable": "No"
-      },
-      "100": {
-        "value": "1",
-        "type": "opacity",
-        "description": "Gives 100% opacity to an element.",
-        "themeable": "No"
-      }
     },
     "size": {
       "1-x": {
@@ -2340,78 +2246,100 @@
         "themeable": "No"
       }
     },
-    "time": {
-      "moderate": {
-        "01": {
-          "value": "150ms",
-          "type": "other",
-          "description": "Micro-interactions, small expansion, short distance movements."
-        },
-        "02": {
-          "value": "240ms",
-          "type": "other",
-          "description": "Expansion, system communication, toast."
-        },
-        "fast": {
-          "01": {
-            "value": "70ms",
-            "type": "other",
-            "description": "Micro-interactions such as button and toggle.",
-            "themeable": "No"
-          },
-          "02": {
-            "value": "110ms",
-            "type": "other",
-            "description": "Micro-interactions such as fade.",
-            "themeable": "No"
-          }
-        }
+    "opacity": {
+      "0": {
+        "value": "0",
+        "type": "opacity",
+        "description": "Gives 0% opacity to an element (Hides an element).",
+        "themeable": "No"
       },
-      "slow": {
+      "15": {
+        "value": "0.15",
+        "type": "opacity",
+        "description": "Gives 15% opacity to an element.",
+        "themeable": "No"
+      },
+      "25": {
+        "value": "0.25",
+        "type": "opacity",
+        "description": "Gives 25% opacity to an element.",
+        "themeable": "No"
+      },
+      "50": {
+        "value": "0.5",
+        "type": "opacity",
+        "description": "Gives 50% opacity to an element.",
+        "themeable": "No"
+      },
+      "75": {
+        "value": "0.75",
+        "type": "opacity",
+        "description": "Gives 75% opacity to an element.",
+        "themeable": "No"
+      },
+      "100": {
+        "value": "1",
+        "type": "opacity",
+        "description": "Gives 100% opacity to an element.",
+        "themeable": "No"
+      }
+    },
+    "border": {
+      "radius": {
         "01": {
-          "value": "400ms",
-          "type": "other",
-          "description": "Large expansion, important system notifications."
+          "value": "2px",
+          "type": "borderRadius",
+          "description": "Border Radius: 2px"
         },
         "02": {
-          "value": "700ms",
-          "type": "other",
-          "description": "Background dimming."
+          "value": "4px",
+          "type": "borderRadius",
+          "description": "Border Radius: 4px"
+        },
+        "03": {
+          "value": "6px",
+          "type": "borderRadius",
+          "description": "Border Radius: 6px"
+        },
+        "04": {
+          "value": "8px",
+          "type": "borderRadius",
+          "description": "Border Radius: 8px"
+        },
+        "05": {
+          "value": "12px",
+          "type": "borderRadius",
+          "description": "Border Radius: 12px"
+        },
+        "06": {
+          "value": "16px",
+          "type": "borderRadius",
+          "description": "Border Radius: 16px"
+        },
+        "07": {
+          "value": "20px",
+          "type": "borderRadius",
+          "description": "Border Radius: 20px"
+        },
+        "08": {
+          "value": "24px",
+          "type": "borderRadius",
+          "description": "Border Radius: 24px"
+        },
+        "09": {
+          "value": "28px",
+          "type": "borderRadius",
+          "description": "Border Radius: 28px"
+        },
+        "circle": {
+          "value": "50%",
+          "type": "borderRadius",
+          "description": "Border Radius: 50%"
         }
       }
     },
     "font": {
       "body": {
-        "family": {
-          "bold": {
-            "value": "{font.family.medium}",
-            "type": "fontSizes",
-            "description": "--StyleDictionary-- Font family for bold body text.",
-            "themeable": "Yes"
-          },
-          "default": {
-            "value": "{font.family.regular}",
-            "type": "fontSizes",
-            "description": "--StyleDictionary-- Default font family for body text.",
-            "themeable": "Yes"
-          },
-          "narrow": {
-            "value": "{font.family.narrow}",
-            "type": "fontSizes",
-            "description": "--StyleDictionary-- Default font family for narrow/small text. Used on tooltip and notification",
-            "themeable": "Yes"
-          }
-        },
-        "letter-spacing": {
-          "value": "{letter.spacing.default}",
-          "type": "letterSpacing",
-          "description": "--StyleDictionary-- Default letter spacing for body text."
-        },
-        "line-height": {
-          "value": "{line.height.default}",
-          "type": "lineHeights",
-          "description": "--StyleDictionary-- Default line height for body text."
-        },
         "size": {
           "default": {
             "value": "{font.size.04}",
@@ -2445,19 +2373,39 @@
             "description": "--StyleDictionary-- Default font weight for body text.",
             "themeable": "Yes"
           }
+        },
+        "line-height": {
+          "value": "{line.height.default}",
+          "type": "lineHeights",
+          "description": "--StyleDictionary-- Default line height for body text."
+        },
+        "family": {
+          "bold": {
+            "value": "{font.family.medium}",
+            "type": "fontSizes",
+            "description": "--StyleDictionary-- Font family for bold body text.",
+            "themeable": "Yes"
+          },
+          "default": {
+            "value": "{font.family.regular}",
+            "type": "fontSizes",
+            "description": "--StyleDictionary-- Default font family for body text.",
+            "themeable": "Yes"
+          },
+          "narrow": {
+            "value": "{font.family.narrow}",
+            "type": "fontSizes",
+            "description": "--StyleDictionary-- Default font family for narrow/small text. Used on tooltip and notification",
+            "themeable": "Yes"
+          }
+        },
+        "letter-spacing": {
+          "value": "{letter.spacing.default}",
+          "type": "letterSpacing",
+          "description": "--StyleDictionary-- Default letter spacing for body text."
         }
       },
       "family": {
-        "bold": {
-          "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
-          "type": "other",
-          "description": "--StyleDictionary-- Default bold weight font used across application"
-        },
-        "extra-light": {
-          "value": "MarkOffcForMC-ExtraLight, MarkOffcForMC, Arial, Helvetica, sans-serif",
-          "type": "other",
-          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications."
-        },
         "eyebrow": {
           "value": "{font.family.bold}",
           "type": "fontFamilies",
@@ -2467,6 +2415,16 @@
           "value": "{font.family.light}",
           "type": "fontFamilies",
           "description": "--StyleDictionary-- Font family for headings (H1,H2 and display text)"
+        },
+        "bold": {
+          "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+          "type": "other",
+          "description": "--StyleDictionary-- Default bold weight font used across application"
+        },
+        "extra-light": {
+          "value": "MarkOffcForMC-ExtraLight, MarkOffcForMC, Arial, Helvetica, sans-serif",
+          "type": "other",
+          "description": "--StyleDictionary-- Use Mark for MC for text slightly larger than 14-pixels in all digital applications."
         },
         "light": {
           "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
@@ -2574,76 +2532,76 @@
             }
           }
         },
-        "letter-spacing": {
+        "weight": {
           "display": {
             "01": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Display 02.",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font family for Display 01.",
               "themeable": "No"
             },
             "02": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Display 02.",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font family for Display 02.",
               "themeable": "No"
             },
             "03": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Display 03.",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font family for Display 03.",
               "themeable": "No"
             }
           },
           "eyebrow": {
             "01": {
-              "value": "{letter.spacing.eyebrow}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing for small eyebrow text.",
-              "themeable": "No"
+              "value": "{font.weight.bold}",
+              "type": "fontFamilies",
+              "themeable": "No",
+              "description": "--StyleDictionary-- Font family for small eyebrow text."
             },
             "02": {
-              "value": "{letter.spacing.eyebrow}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing for small eyebrow text.",
-              "themeable": "No"
+              "value": "{font.weight.bold}",
+              "type": "fontFamilies",
+              "themeable": "No",
+              "description": "--StyleDictionary-- Font family for large eyebrow text."
             }
           },
           "level": {
             "01": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Heading 1 (H1).",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font Family for Heading 1 (H1).",
               "themeable": "No"
             },
             "02": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Heading 2 (H2).",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font Family for Heading 2 (H2).",
               "themeable": "No"
             },
             "03": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Heading 3 (H3).",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font Family for Heading 3 (H3).",
               "themeable": "No"
             },
             "04": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Heading 4 (H4).",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font Family for Heading 4 (H4).",
               "themeable": "No"
             },
             "05": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Heading 5 (H5).",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font Family for Heading 5 (H5).",
               "themeable": "No"
             },
             "06": {
-              "value": "{letter.spacing.default}",
-              "type": "letterSpacing",
-              "description": "--StyleDictionary-- Letter spacing of Heading 6 (H6).",
+              "value": "{font.weight.default}",
+              "type": "fontFamilies",
+              "description": "--StyleDictionary-- Font Family for Heading 6 (H6).",
               "themeable": "No"
             }
           }
@@ -2796,79 +2754,101 @@
             }
           }
         },
-        "weight": {
+        "letter-spacing": {
           "display": {
             "01": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font family for Display 01.",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Display 02.",
               "themeable": "No"
             },
             "02": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font family for Display 02.",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Display 02.",
               "themeable": "No"
             },
             "03": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font family for Display 03.",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Display 03.",
               "themeable": "No"
             }
           },
           "eyebrow": {
             "01": {
-              "value": "{font.weight.bold}",
-              "type": "fontFamilies",
-              "themeable": "No",
-              "description": "--StyleDictionary-- Font family for small eyebrow text."
+              "value": "{letter.spacing.eyebrow}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing for small eyebrow text.",
+              "themeable": "No"
             },
             "02": {
-              "value": "{font.weight.bold}",
-              "type": "fontFamilies",
-              "themeable": "No",
-              "description": "--StyleDictionary-- Font family for large eyebrow text."
+              "value": "{letter.spacing.eyebrow}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing for small eyebrow text.",
+              "themeable": "No"
             }
           },
           "level": {
             "01": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font Family for Heading 1 (H1).",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Heading 1 (H1).",
               "themeable": "No"
             },
             "02": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font Family for Heading 2 (H2).",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Heading 2 (H2).",
               "themeable": "No"
             },
             "03": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font Family for Heading 3 (H3).",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Heading 3 (H3).",
               "themeable": "No"
             },
             "04": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font Family for Heading 4 (H4).",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Heading 4 (H4).",
               "themeable": "No"
             },
             "05": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font Family for Heading 5 (H5).",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Heading 5 (H5).",
               "themeable": "No"
             },
             "06": {
-              "value": "{font.weight.default}",
-              "type": "fontFamilies",
-              "description": "--StyleDictionary-- Font Family for Heading 6 (H6).",
+              "value": "{letter.spacing.default}",
+              "type": "letterSpacing",
+              "description": "--StyleDictionary-- Letter spacing of Heading 6 (H6).",
               "themeable": "No"
             }
           }
+        }
+      },
+      "weight": {
+        "bold": {
+          "value": "700",
+          "type": "fontWeights",
+          "description": "--StyleDictionary-- Use bold sparingly for subtitles, eyebrows, emphasis, and dates"
+        },
+        "default": {
+          "value": "400",
+          "type": "fontWeights",
+          "description": "--StyleDictionary-- Normal font weight is used for body text and form inputs."
+        },
+        "light": {
+          "value": "100",
+          "type": "fontWeights",
+          "description": "--StyleDictionary-- Light font weight is used for headings."
+        },
+        "medium": {
+          "value": "500",
+          "type": "fontWeights",
+          "description": "--StyleDictionary-- Semi bold font weight is used for buttons."
         }
       },
       "size": {
@@ -2946,42 +2926,6 @@
           "value": "24px",
           "type": "fontSizes",
           "description": "--StyleDictionary-- Font size: 24px"
-        }
-      },
-      "weight": {
-        "bold": {
-          "value": "700",
-          "type": "fontWeights",
-          "description": "--StyleDictionary-- Use bold sparingly for subtitles, eyebrows, emphasis, and dates"
-        },
-        "default": {
-          "value": "400",
-          "type": "fontWeights",
-          "description": "--StyleDictionary-- Normal font weight is used for body text and form inputs."
-        },
-        "light": {
-          "value": "100",
-          "type": "fontWeights",
-          "description": "--StyleDictionary-- Light font weight is used for headings."
-        },
-        "medium": {
-          "value": "500",
-          "type": "fontWeights",
-          "description": "--StyleDictionary-- Semi bold font weight is used for buttons."
-        }
-      }
-    },
-    "letter": {
-      "spacing": {
-        "default": {
-          "value": "0",
-          "type": "letterSpacing",
-          "description": "--StyleDictionary-- Default letter spacing for all text."
-        },
-        "eyebrow": {
-          "value": "1.8",
-          "type": "letterSpacing",
-          "description": "--StyleDictionary-- Default letter spacing for all text."
         }
       }
     },
@@ -3063,8 +3007,63 @@
           "description": "48px line height"
         }
       }
+    },
+    "letter": {
+      "spacing": {
+        "default": {
+          "value": "0",
+          "type": "letterSpacing",
+          "description": "--StyleDictionary-- Default letter spacing for all text."
+        },
+        "eyebrow": {
+          "value": "1.8",
+          "type": "letterSpacing",
+          "description": "--StyleDictionary-- Default letter spacing for all text."
+        }
+      }
+    },
+    "time": {
+      "moderate": {
+        "01": {
+          "value": "150ms",
+          "type": "other",
+          "description": "Micro-interactions, small expansion, short distance movements."
+        },
+        "02": {
+          "value": "240ms",
+          "type": "other",
+          "description": "Expansion, system communication, toast."
+        },
+        "fast": {
+          "01": {
+            "value": "70ms",
+            "type": "other",
+            "description": "Micro-interactions such as button and toggle.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "110ms",
+            "type": "other",
+            "description": "Micro-interactions such as fade.",
+            "themeable": "No"
+          }
+        }
+      },
+      "slow": {
+        "01": {
+          "value": "400ms",
+          "type": "other",
+          "description": "Large expansion, important system notifications."
+        },
+        "02": {
+          "value": "700ms",
+          "type": "other",
+          "description": "Background dimming."
+        }
+      }
     }
   },
+  "themes/mastercard/theme - light": {},
   "themes/mastercard/theme - dark": {},
   "themes/partnerbank/primitives": {},
   "themes/partnerbank/theme - light": {},
@@ -3076,11 +3075,7 @@
       "selectedTokenSets": {
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
-        "unify/component": "enabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled",
-        "themes/partnerbank/primitives": "disabled",
-        "themes/mastercard/primitives": "disabled"
+        "unify/component": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3092,9 +3087,6 @@
         "unify/semantic": "enabled",
         "unify/component": "enabled",
         "themes/mastercard/theme - dark": "enabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled",
-        "themes/partnerbank/primitives": "disabled",
         "themes/mastercard/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
@@ -3107,9 +3099,6 @@
         "unify/semantic": "enabled",
         "unify/component": "enabled",
         "themes/mastercard/theme - light": "enabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled",
-        "themes/partnerbank/primitives": "disabled",
         "themes/mastercard/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
