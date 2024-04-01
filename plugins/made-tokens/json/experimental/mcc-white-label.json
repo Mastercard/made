@@ -1713,14 +1713,6 @@
           }
         },
         "side-section": {
-          "action": {
-            "value": "{global.interactive.links.on-light}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{global.text.on-light}",
-            "type": "color"
-          },
           "surface": {
             "value": "{color.white}",
             "type": "color"
@@ -1769,30 +1761,9 @@
     "brand-font": {
       "value": "Mark Offc For MC",
       "type": "fontFamilies"
-    },
-    "brand-font-copy": {
-      "value": "Mark Offc For MC",
-      "type": "fontFamilies"
     }
   },
   "themes/BoligBanken": {
-    "logo": {
-      "brand-1": {
-        "value": "false",
-        "type": "boolean",
-        "description": "Mastercard"
-      },
-      "brand-2": {
-        "value": "true",
-        "type": "boolean",
-        "description": "BoligBanken"
-      },
-      "brand-3": {
-        "value": "false",
-        "type": "boolean",
-        "description": "Partnerbank"
-      }
-    },
     "global": {
       "brand": {
         "primary": {
@@ -1818,6 +1789,10 @@
                 }
               }
             }
+          },
+          "neutral": {
+            "value": "{color.white}",
+            "type": "color"
           }
         },
         "button": {
@@ -1844,7 +1819,7 @@
         "type": "color"
       },
       "links": {
-        "value": "{color.white}",
+        "value": "{global.interactive.links.neutral}",
         "type": "color"
       }
     },
@@ -1870,19 +1845,11 @@
             "type": "color"
           },
           "text": {
-            "value": "{color.white}",
+            "value": "{global.text.on-dark}",
             "type": "color"
           }
         },
         "side-section": {
-          "action": {
-            "value": "{color.orange.04}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{color.gray.07}",
-            "type": "color"
-          },
           "surface": {
             "value": "{color.white}",
             "type": "color"
@@ -1904,11 +1871,28 @@
             "type": "color"
           },
           "surface": {
-            "value": "#",
+            "value": "{color.white}",
             "type": "color",
             "description": "content card background color"
           }
         }
+      }
+    },
+    "logo": {
+      "brand-1": {
+        "value": "false",
+        "type": "boolean",
+        "description": "Mastercard"
+      },
+      "brand-2": {
+        "value": "true",
+        "type": "boolean",
+        "description": "BoligBanken"
+      },
+      "brand-3": {
+        "value": "false",
+        "type": "boolean",
+        "description": "Partnerbank"
       }
     },
     "brand-font": {
@@ -1921,7 +1905,8 @@
       "id": "6d135a1dcdea37517b2e28b48b3ee1e42c74967d",
       "name": "Default",
       "selectedTokenSets": {
-        "global": "enabled"
+        "global": "enabled",
+        "themes/BoligBanken": "disabled"
       },
       "$figmaStyleReferences": {
         "backdrop.color.background": "S:f6d435937638b7fc638c60e4a782cd49596718f3,",
