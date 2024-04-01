@@ -1591,6 +1591,16 @@
           "type": "boolean"
         }
       }
+    },
+    "button": {
+      "primary": {
+        "value": "20px",
+        "type": "borderRadius"
+      },
+      "primaryyy": {
+        "value": "4px",
+        "type": "borderRadius"
+      }
     }
   },
   "themes/BoligBanken": {
@@ -1757,6 +1767,12 @@
           "value": "true",
           "type": "boolean"
         }
+      }
+    },
+    "button": {
+      "primary": {
+        "value": "4px",
+        "type": "borderRadius"
       }
     }
   },
