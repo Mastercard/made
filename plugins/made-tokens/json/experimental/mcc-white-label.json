@@ -1815,7 +1815,7 @@
     },
     "top-nav": {
       "background": {
-        "value": "{color.gray.07}",
+        "value": "{global.brand.primary}",
         "type": "color"
       },
       "links": {
@@ -1905,8 +1905,7 @@
       "id": "6d135a1dcdea37517b2e28b48b3ee1e42c74967d",
       "name": "Default",
       "selectedTokenSets": {
-        "global": "enabled",
-        "themes/BoligBanken": "disabled"
+        "global": "enabled"
       },
       "$figmaStyleReferences": {
         "backdrop.color.background": "S:f6d435937638b7fc638c60e4a782cd49596718f3,",
