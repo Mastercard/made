@@ -1567,7 +1567,7 @@
   },
   "unify/semantic": {},
   "unify/component": {},
-  "themes/mastercard/primitive": {
+  "themes/mastercard/primitives": {
     "color": {
       "accent": {
         "01": {
@@ -3066,8 +3066,9 @@
     }
   },
   "themes/mastercard/theme - dark": {},
-  "themes/partnerbank/light": {},
-  "themes/partnerbank/dark": {},
+  "themes/partnerbank/primitives": {},
+  "themes/partnerbank/theme - light": {},
+  "themes/partnerbank/theme - dark": {},
   "$themes": [
     {
       "id": "d31c2295f09dfde776482a5112130ab959986c1f",
@@ -3076,9 +3077,10 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/mastercard/primitive": "disabled",
-        "themes/mastercard/theme - light": "disabled",
-        "themes/mastercard/theme - dark": "disabled"
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/mastercard/primitives": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3089,9 +3091,11 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/mastercard/primitive": "disabled",
-        "themes/mastercard/theme - light": "disabled",
-        "themes/mastercard/theme - dark": "enabled"
+        "themes/mastercard/theme - dark": "enabled",
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/mastercard/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3102,9 +3106,11 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/mastercard/primitive": "disabled",
         "themes/mastercard/theme - light": "enabled",
-        "themes/mastercard/theme - dark": "disabled"
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/mastercard/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3115,10 +3121,8 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/partnerbank/light": "enabled",
-        "themes/mastercard/primitive": "disabled",
-        "themes/mastercard/theme - light": "disabled",
-        "themes/mastercard/theme - dark": "disabled"
+        "themes/partnerbank/theme - light": "enabled",
+        "themes/partnerbank/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3129,10 +3133,8 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/partnerbank/dark": "enabled",
-        "themes/mastercard/primitive": "disabled",
-        "themes/mastercard/theme - light": "disabled",
-        "themes/mastercard/theme - dark": "disabled"
+        "themes/partnerbank/theme - dark": "enabled",
+        "themes/partnerbank/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -3142,11 +3144,12 @@
       "unify/primitive",
       "unify/semantic",
       "unify/component",
-      "themes/mastercard/primitive",
+      "themes/mastercard/primitives",
       "themes/mastercard/theme - light",
       "themes/mastercard/theme - dark",
-      "themes/partnerbank/light",
-      "themes/partnerbank/dark"
+      "themes/partnerbank/primitives",
+      "themes/partnerbank/theme - light",
+      "themes/partnerbank/theme - dark"
     ]
   }
 }
