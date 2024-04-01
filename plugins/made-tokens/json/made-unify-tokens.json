@@ -1567,61 +1567,7 @@
   },
   "unify/semantic": {},
   "unify/component": {},
-  "themes/mastercard/light": {
-    "border": {
-      "radius": {
-        "01": {
-          "value": "2px",
-          "type": "borderRadius",
-          "description": "Border Radius: 2px"
-        },
-        "02": {
-          "value": "4px",
-          "type": "borderRadius",
-          "description": "Border Radius: 4px"
-        },
-        "03": {
-          "value": "6px",
-          "type": "borderRadius",
-          "description": "Border Radius: 6px"
-        },
-        "04": {
-          "value": "8px",
-          "type": "borderRadius",
-          "description": "Border Radius: 8px"
-        },
-        "05": {
-          "value": "12px",
-          "type": "borderRadius",
-          "description": "Border Radius: 12px"
-        },
-        "06": {
-          "value": "16px",
-          "type": "borderRadius",
-          "description": "Border Radius: 16px"
-        },
-        "07": {
-          "value": "20px",
-          "type": "borderRadius",
-          "description": "Border Radius: 20px"
-        },
-        "08": {
-          "value": "24px",
-          "type": "borderRadius",
-          "description": "Border Radius: 24px"
-        },
-        "09": {
-          "value": "28px",
-          "type": "borderRadius",
-          "description": "Border Radius: 28px"
-        },
-        "circle": {
-          "value": "50%",
-          "type": "borderRadius",
-          "description": "Border Radius: 50%"
-        }
-      }
-    },
+  "themes/mastercard/primitive": {
     "color": {
       "accent": {
         "01": {
@@ -2053,6 +1999,62 @@
           "value": "#330505",
           "type": "color",
           "description": "Red error 7"
+        }
+      }
+    }
+  },
+  "themes/mastercard/theme - light": {
+    "border": {
+      "radius": {
+        "01": {
+          "value": "2px",
+          "type": "borderRadius",
+          "description": "Border Radius: 2px"
+        },
+        "02": {
+          "value": "4px",
+          "type": "borderRadius",
+          "description": "Border Radius: 4px"
+        },
+        "03": {
+          "value": "6px",
+          "type": "borderRadius",
+          "description": "Border Radius: 6px"
+        },
+        "04": {
+          "value": "8px",
+          "type": "borderRadius",
+          "description": "Border Radius: 8px"
+        },
+        "05": {
+          "value": "12px",
+          "type": "borderRadius",
+          "description": "Border Radius: 12px"
+        },
+        "06": {
+          "value": "16px",
+          "type": "borderRadius",
+          "description": "Border Radius: 16px"
+        },
+        "07": {
+          "value": "20px",
+          "type": "borderRadius",
+          "description": "Border Radius: 20px"
+        },
+        "08": {
+          "value": "24px",
+          "type": "borderRadius",
+          "description": "Border Radius: 24px"
+        },
+        "09": {
+          "value": "28px",
+          "type": "borderRadius",
+          "description": "Border Radius: 28px"
+        },
+        "circle": {
+          "value": "50%",
+          "type": "borderRadius",
+          "description": "Border Radius: 50%"
         }
       }
     },
@@ -3063,7 +3065,7 @@
       }
     }
   },
-  "themes/mastercard/dark": {},
+  "themes/mastercard/theme - dark": {},
   "themes/partnerbank/light": {},
   "themes/partnerbank/dark": {},
   "$themes": [
@@ -3073,7 +3075,10 @@
       "selectedTokenSets": {
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
-        "unify/component": "enabled"
+        "unify/component": "enabled",
+        "themes/mastercard/primitive": "disabled",
+        "themes/mastercard/theme - light": "disabled",
+        "themes/mastercard/theme - dark": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3084,7 +3089,9 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/mastercard/dark": "enabled"
+        "themes/mastercard/primitive": "disabled",
+        "themes/mastercard/theme - light": "disabled",
+        "themes/mastercard/theme - dark": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3095,7 +3102,9 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/mastercard/light": "enabled"
+        "themes/mastercard/primitive": "disabled",
+        "themes/mastercard/theme - light": "enabled",
+        "themes/mastercard/theme - dark": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3106,7 +3115,10 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/partnerbank/light": "enabled"
+        "themes/partnerbank/light": "enabled",
+        "themes/mastercard/primitive": "disabled",
+        "themes/mastercard/theme - light": "disabled",
+        "themes/mastercard/theme - dark": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3117,7 +3129,10 @@
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
         "unify/component": "enabled",
-        "themes/partnerbank/dark": "enabled"
+        "themes/partnerbank/dark": "enabled",
+        "themes/mastercard/primitive": "disabled",
+        "themes/mastercard/theme - light": "disabled",
+        "themes/mastercard/theme - dark": "disabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -3127,8 +3142,9 @@
       "unify/primitive",
       "unify/semantic",
       "unify/component",
-      "themes/mastercard/light",
-      "themes/mastercard/dark",
+      "themes/mastercard/primitive",
+      "themes/mastercard/theme - light",
+      "themes/mastercard/theme - dark",
       "themes/partnerbank/light",
       "themes/partnerbank/dark"
     ]
