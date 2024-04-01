@@ -3076,8 +3076,7 @@
       "selectedTokenSets": {
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
-        "unify/component": "enabled",
-        "unify/themes/dark": "disabled"
+        "unify/component": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3112,8 +3111,7 @@
         "unify/semantic": "enabled",
         "unify/component": "enabled",
         "themes/mastercard/theme - dark": "enabled",
-        "themes/mastercard/primitives": "enabled",
-        "unify/themes/dark": "disabled"
+        "themes/mastercard/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3137,8 +3135,7 @@
         "unify/semantic": "enabled",
         "unify/component": "enabled",
         "themes/partnerbank/theme - dark": "enabled",
-        "themes/partnerbank/primitives": "enabled",
-        "unify/themes/dark": "disabled"
+        "themes/partnerbank/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
     }
