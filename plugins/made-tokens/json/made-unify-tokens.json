@@ -1567,6 +1567,7 @@
   },
   "unify/semantic": {},
   "unify/component": {},
+  "unify/themes/dark": {},
   "themes/mastercard/primitives": {
     "color": {
       "accent": {
@@ -3075,7 +3076,31 @@
       "selectedTokenSets": {
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
-        "unify/component": "enabled"
+        "unify/component": "enabled",
+        "unify/themes/dark": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "bf421d9b925e8990dc82496b486467d1b52d1a4d",
+      "name": "Unify – Dark",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "unify/primitive": "enabled",
+        "unify/semantic": "enabled",
+        "unify/component": "enabled",
+        "unify/themes/dark": "enabled"
+      }
+    },
+    {
+      "id": "dce9ee992dad0b3fdf6d9208f986d409d48079de",
+      "name": "Mastercard",
+      "selectedTokenSets": {
+        "unify/primitive": "enabled",
+        "unify/semantic": "enabled",
+        "unify/component": "enabled",
+        "themes/mastercard/theme - light": "enabled",
+        "themes/mastercard/primitives": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3087,25 +3112,14 @@
         "unify/semantic": "enabled",
         "unify/component": "enabled",
         "themes/mastercard/theme - dark": "enabled",
-        "themes/mastercard/primitives": "enabled"
-      },
-      "$figmaStyleReferences": {}
-    },
-    {
-      "id": "dce9ee992dad0b3fdf6d9208f986d409d48079de",
-      "name": "Mastercard – Light",
-      "selectedTokenSets": {
-        "unify/primitive": "enabled",
-        "unify/semantic": "enabled",
-        "unify/component": "enabled",
-        "themes/mastercard/theme - light": "enabled",
-        "themes/mastercard/primitives": "enabled"
+        "themes/mastercard/primitives": "enabled",
+        "unify/themes/dark": "disabled"
       },
       "$figmaStyleReferences": {}
     },
     {
       "id": "870e8dcaca193a3ea676c04211025a5261d3e97e",
-      "name": "PartnerBank – Light",
+      "name": "PartnerBank",
       "selectedTokenSets": {
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
@@ -3123,7 +3137,8 @@
         "unify/semantic": "enabled",
         "unify/component": "enabled",
         "themes/partnerbank/theme - dark": "enabled",
-        "themes/partnerbank/primitives": "enabled"
+        "themes/partnerbank/primitives": "enabled",
+        "unify/themes/dark": "disabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -3133,6 +3148,7 @@
       "unify/primitive",
       "unify/semantic",
       "unify/component",
+      "unify/themes/dark",
       "themes/mastercard/primitives",
       "themes/mastercard/theme - light",
       "themes/mastercard/theme - dark",
