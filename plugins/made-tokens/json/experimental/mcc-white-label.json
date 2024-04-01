@@ -1475,9 +1475,11 @@
           "type": "color"
         }
       },
-      "body-background": {
-        "value": "{color.white}",
-        "type": "color"
+      "body": {
+        "background": {
+          "value": "{color.white}",
+          "type": "color"
+        }
       }
     },
     "navigation": {
@@ -1640,9 +1642,11 @@
           "type": "color"
         }
       },
-      "body-background": {
-        "value": "{color.white}",
-        "type": "color"
+      "body": {
+        "background": {
+          "value": "{color.white}",
+          "type": "color"
+        }
       }
     },
     "navigation": {
