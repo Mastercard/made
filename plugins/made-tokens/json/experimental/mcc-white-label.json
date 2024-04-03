@@ -1623,7 +1623,7 @@
     "global": {
       "brand": {
         "primary": {
-          "value": "{color.orange.04}",
+          "value": "{color.orange.03}",
           "type": "color"
         },
         "accent-1": {
