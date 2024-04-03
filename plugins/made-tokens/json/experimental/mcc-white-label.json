@@ -1489,6 +1489,19 @@
           "type": "color",
           "description": "Background color used for the dashboard page body."
         }
+      },
+      "border": {
+        "default": {
+          "value": "{color.gray.03}",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Content card background"
+        }
       }
     },
     "navigation": {
@@ -1543,21 +1556,6 @@
           "text": {
             "value": "{global.text.on-dark}",
             "type": "color"
-          }
-        },
-        "side-section": {
-          "border": {
-            "value": "{color.gray.03}",
-            "type": "color"
-          },
-          "border-copy": {
-            "value": "{color.gray.05-5}",
-            "type": "color"
-          },
-          "surface": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "Content card background"
           }
         }
       },
@@ -1682,20 +1680,18 @@
           "type": "color",
           "description": "Background color used for the dashboard page body."
         }
-      }
-    },
-    "page": {
-      "sign-in": {
-        "side-section": {
-          "surface": {
-            "value": "{color.gray.06}",
-            "type": "color",
-            "description": "Content card background"
-          },
-          "border": {
-            "value": "{color.gray.05-5}",
-            "type": "color"
-          }
+      },
+      "surface": {
+        "default": {
+          "value": "{color.gray.06}",
+          "type": "color",
+          "description": "Content card background"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.gray.05-5}",
+          "type": "color"
         }
       }
     }
@@ -1763,6 +1759,19 @@
           "type": "color",
           "description": "Background color used for the dashboard page body."
         }
+      },
+      "border": {
+        "default": {
+          "value": "{color.gray.05-5}",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Content card background"
+        }
       }
     },
     "navigation": {
@@ -1817,17 +1826,6 @@
           "text": {
             "value": "{global.text.on-dark}",
             "type": "color"
-          }
-        },
-        "side-section": {
-          "border": {
-            "value": "{color.gray.05-5}",
-            "type": "color"
-          },
-          "surface": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "Content card background"
           }
         }
       },
