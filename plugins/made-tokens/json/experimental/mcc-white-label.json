@@ -1713,7 +1713,7 @@
       "forms": {
         "input": {
           "border": {
-            "value": "{color.gray.02-5}",
+            "value": "{color.gray.03-5}",
             "type": "color"
           },
           "text": {
