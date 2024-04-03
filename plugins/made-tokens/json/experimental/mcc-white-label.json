@@ -1502,6 +1502,22 @@
           "type": "color",
           "description": "Content card background"
         }
+      },
+      "forms": {
+        "input": {
+          "border": {
+            "value": "{color.gray.03-5}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.gray.07}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{global.forms.input.border}",
+            "type": "color"
+          }
+        }
       }
     },
     "navigation": {
@@ -1693,6 +1709,22 @@
           "value": "{color.gray.05-5}",
           "type": "color"
         }
+      },
+      "forms": {
+        "input": {
+          "border": {
+            "value": "{color.gray.02-5}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{global.text.on-dark}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{global.forms.input.border}",
+            "type": "color"
+          }
+        }
       }
     }
   },
@@ -1771,6 +1803,22 @@
           "value": "{color.white}",
           "type": "color",
           "description": "Content card background"
+        }
+      },
+      "forms": {
+        "input": {
+          "border": {
+            "value": "{color.gray.02-5}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{global.text.on-dark}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{global.forms.input.border}",
+            "type": "color"
+          }
         }
       }
     },
