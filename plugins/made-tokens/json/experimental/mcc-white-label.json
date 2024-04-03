@@ -1692,7 +1692,7 @@
           "type": "color"
         },
         "background-secondary": {
-          "value": "{color.gray.01-5}",
+          "value": "{global.body.background}",
           "type": "color",
           "description": "Background color used for the dashboard page body."
         }
