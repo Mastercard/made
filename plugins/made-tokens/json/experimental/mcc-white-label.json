@@ -1426,7 +1426,7 @@
       }
     }
   },
-  "themes/default (MA)": {
+  "themes/default": {
     "global": {
       "brand": {
         "primary": {
@@ -1607,6 +1607,72 @@
       "primary": {
         "value": "20px",
         "type": "borderRadius"
+      }
+    }
+  },
+  "themes/default - dark": {
+    "global": {
+      "brand": {
+        "primary": {
+          "value": "{color.orange.04}",
+          "type": "color"
+        },
+        "accent-1": {
+          "value": "{color.teal.04}",
+          "type": "color"
+        }
+      },
+      "interactive": {
+        "links": {
+          "on-light": {
+            "value": "{global.brand.primary}",
+            "type": "color"
+          },
+          "on-dark": {
+            "value": "{global.brand.primary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": ".540",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "neutral": {
+            "value": "{color.white}",
+            "type": "color"
+          }
+        },
+        "button": {
+          "primary": {
+            "value": "{global.brand.primary}",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "on-light": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "on-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        }
+      },
+      "body": {
+        "background": {
+          "value": "{color.gray.06-5}",
+          "type": "color"
+        },
+        "background-secondary": {
+          "value": "{color.gray.01-5}",
+          "type": "color",
+          "description": "Background color used for the dashboard page body."
+        }
       }
     }
   },
@@ -1800,7 +1866,8 @@
       "name": "Default",
       "selectedTokenSets": {
         "global": "enabled",
-        "themes/default (MA)": "enabled"
+        "themes/default - dark": "disabled",
+        "themes/default": "enabled"
       },
       "$figmaStyleReferences": {
         "backdrop.color.background": "S:f6d435937638b7fc638c60e4a782cd49596718f3,",
@@ -2088,16 +2155,18 @@
       "name": "BoligBanken",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "themes/default (MA)": "enabled",
         "themes/BoligBanken": "enabled",
-        "global": "enabled"
+        "global": "enabled",
+        "themes/default - dark": "disabled",
+        "themes/default": "enabled"
       }
     }
   ],
   "$metadata": {
     "tokenSetOrder": [
       "global",
-      "themes/default (MA)",
+      "themes/default",
+      "themes/default - dark",
       "themes/BoligBanken"
     ]
   }
