@@ -1577,18 +1577,9 @@
       },
       "inner": {
         "dashboard": {
-          "background": {
-            "value": "{color.white}",
-            "type": "color"
-          },
           "top-header": {
-            "value": "{color.gray.07}",
+            "value": "{color.gray.06-5}",
             "type": "color"
-          },
-          "surface": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "content card background color"
           }
         }
       }
@@ -1722,6 +1713,16 @@
           },
           "icon": {
             "value": "{global.forms.input.border}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "page": {
+      "inner": {
+        "dashboard": {
+          "top-header": {
+            "value": "{color.gray.07}",
             "type": "color"
           }
         }
@@ -1879,18 +1880,9 @@
       },
       "inner": {
         "dashboard": {
-          "background": {
-            "value": "{color.white}",
-            "type": "color"
-          },
           "top-header": {
             "value": "{color.gray.07}",
             "type": "color"
-          },
-          "surface": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "content card background color"
           }
         }
       }
