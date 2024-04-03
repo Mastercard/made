@@ -1549,6 +1549,15 @@
           "border": {
             "value": "{color.gray.03}",
             "type": "color"
+          },
+          "border-copy": {
+            "value": "{color.gray.05-5}",
+            "type": "color"
+          },
+          "surface": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "Content card background"
           }
         }
       },
@@ -1674,6 +1683,21 @@
           "description": "Background color used for the dashboard page body."
         }
       }
+    },
+    "page": {
+      "sign-in": {
+        "side-section": {
+          "surface": {
+            "value": "{color.gray.06}",
+            "type": "color",
+            "description": "Content card background"
+          },
+          "border": {
+            "value": "{color.gray.05-5}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "themes/BoligBanken": {
@@ -1797,8 +1821,13 @@
         },
         "side-section": {
           "border": {
-            "value": "{color.gray.03}",
+            "value": "{color.gray.05-5}",
             "type": "color"
+          },
+          "surface": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "Content card background"
           }
         }
       },
@@ -1866,7 +1895,6 @@
       "name": "Default",
       "selectedTokenSets": {
         "global": "enabled",
-        "themes/default - dark": "disabled",
         "themes/default": "enabled"
       },
       "$figmaStyleReferences": {
@@ -2157,7 +2185,6 @@
       "selectedTokenSets": {
         "themes/BoligBanken": "enabled",
         "global": "enabled",
-        "themes/default - dark": "disabled",
         "themes/default": "enabled"
       }
     }
