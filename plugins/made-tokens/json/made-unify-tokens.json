@@ -1171,7 +1171,7 @@
         "value": "0.75rem",
         "type": "fontSizes"
       },
-      "sm": {
+      "small": {
         "value": "0.875rem",
         "type": "fontSizes"
       },
@@ -1179,7 +1179,7 @@
         "value": "1rem",
         "type": "fontSizes"
       },
-      "lg": {
+      "large": {
         "value": "1.125rem",
         "type": "fontSizes"
       },
@@ -2058,8 +2058,8 @@
         }
       }
     },
-    "eb": {
-      "sm": {
+    "eyebrow": {
+      "small": {
         "value": {
           "fontFamily": "{font-family.primary}",
           "fontWeight": "{font-weight.primary.bold}",
@@ -2073,7 +2073,7 @@
         },
         "type": "typography"
       },
-      "lg": {
+      "large": {
         "value": {
           "fontFamily": "{font-family.primary}",
           "fontWeight": "{font-weight.primary.bold}",
@@ -2090,7 +2090,7 @@
       }
     },
     "link": {
-      "md": {
+      "medium": {
         "hover": {
           "value": {
             "fontFamily": "{font-family.primary}",
@@ -2122,7 +2122,7 @@
           "description": "Figma-only design token."
         }
       },
-      "sm": {
+      "small": {
         "hover": {
           "value": {
             "fontFamily": "{font-family.primary}",
@@ -2157,7 +2157,7 @@
     },
     "body": {
       "bold": {
-        "lg": {
+        "large": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.bold}",
@@ -2172,7 +2172,7 @@
           "type": "typography",
           "description": "For more web based experiences, consider using either the Md or Lg size. \n\nUse either Sm or Lg for long paragraphs that cater to long form reading."
         },
-        "md": {
+        "medium": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.bold}",
@@ -2187,7 +2187,7 @@
           "type": "typography",
           "description": "Md sizes are best suited to either Web or Product experiences where 1.5x is too spacious"
         },
-        "sm": {
+        "small": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.bold}",
@@ -2204,7 +2204,7 @@
         }
       },
       "medium": {
-        "lg": {
+        "large": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.medium}",
@@ -2218,7 +2218,7 @@
           },
           "type": "typography"
         },
-        "md": {
+        "medium": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.medium}",
@@ -2232,7 +2232,7 @@
           },
           "type": "typography"
         },
-        "sm": {
+        "small": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.medium}",
@@ -2248,7 +2248,7 @@
         }
       },
       "regular": {
-        "lg": {
+        "large": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.regular}",
@@ -2262,7 +2262,7 @@
           },
           "type": "typography"
         },
-        "md": {
+        "medium": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.regular}",
@@ -2276,7 +2276,7 @@
           },
           "type": "typography"
         },
-        "sm": {
+        "small": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.regular}",
@@ -2292,7 +2292,7 @@
         }
       },
       "narrow": {
-        "lg": {
+        "large": {
           "value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.secondary.regular}",
@@ -2306,7 +2306,7 @@
           },
           "type": "typography"
         },
-        "md": {
+        "medium": {
           "value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.secondary.regular}",
@@ -2320,7 +2320,7 @@
           },
           "type": "typography"
         },
-        "sm": {
+        "small": {
           "value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.secondary.regular}",
@@ -2338,7 +2338,7 @@
     },
     "label": {
       "bold": {
-        "md": {
+        "medium": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.bold}",
@@ -2352,7 +2352,7 @@
           },
           "type": "typography"
         },
-        "sm": {
+        "small": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.bold}",
@@ -2368,7 +2368,7 @@
         }
       },
       "medium": {
-        "md": {
+        "medium": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.medium}",
@@ -2382,7 +2382,7 @@
           },
           "type": "typography"
         },
-        "sm": {
+        "small": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.medium}",
@@ -2398,7 +2398,7 @@
         }
       },
       "regular": {
-        "md": {
+        "medium": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.regular}",
@@ -2412,7 +2412,7 @@
           },
           "type": "typography"
         },
-        "sm": {
+        "small": {
           "value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.primary.regular}",
@@ -2428,7 +2428,7 @@
         }
       },
       "narrow": {
-        "md": {
+        "medium": {
           "value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.secondary.regular}",
@@ -2442,7 +2442,7 @@
           },
           "type": "typography"
         },
-        "sm": {
+        "small": {
           "value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.secondary.regular}",
