@@ -1780,6 +1780,60 @@
       "value": "24rem",
       "type": "dimension",
       "description": "384px"
+    },
+    "border": {
+      "radius": {
+        "01": {
+          "value": "2px",
+          "type": "borderRadius",
+          "description": "Border Radius: 2px"
+        },
+        "02": {
+          "value": "4px",
+          "type": "borderRadius",
+          "description": "Border Radius: 4px"
+        },
+        "03": {
+          "value": "6px",
+          "type": "borderRadius",
+          "description": "Border Radius: 6px"
+        },
+        "04": {
+          "value": "8px",
+          "type": "borderRadius",
+          "description": "Border Radius: 8px"
+        },
+        "05": {
+          "value": "12px",
+          "type": "borderRadius",
+          "description": "Border Radius: 12px"
+        },
+        "06": {
+          "value": "16px",
+          "type": "borderRadius",
+          "description": "Border Radius: 16px"
+        },
+        "07": {
+          "value": "20px",
+          "type": "borderRadius",
+          "description": "Border Radius: 20px"
+        },
+        "08": {
+          "value": "24px",
+          "type": "borderRadius",
+          "description": "Border Radius: 24px"
+        },
+        "09": {
+          "value": "28px",
+          "type": "borderRadius",
+          "description": "Border Radius: 28px"
+        },
+        "circle": {
+          "value": "50%",
+          "type": "borderRadius",
+          "description": "Border Radius: 50%"
+        }
+      }
     }
   },
   "unify/semantic": {},
