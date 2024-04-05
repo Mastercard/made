@@ -53,6 +53,10 @@
         "900": {
           "value": "#0f172a",
           "type": "color"
+        },
+        "950": {
+          "value": "#020617",
+          "type": "color"
         }
       },
       "gray": {
@@ -94,6 +98,10 @@
         },
         "900": {
           "value": "#111827",
+          "type": "color"
+        },
+        "950": {
+          "value": "#030712",
           "type": "color"
         }
       },
@@ -137,6 +145,10 @@
         "900": {
           "value": "#18181b",
           "type": "color"
+        },
+        "950": {
+          "value": "#09090b",
+          "type": "color"
         }
       },
       "neutral": {
@@ -178,6 +190,10 @@
         },
         "900": {
           "value": "#171717",
+          "type": "color"
+        },
+        "950": {
+          "value": "#0a0a0a",
           "type": "color"
         }
       },
@@ -221,6 +237,10 @@
         "900": {
           "value": "#1c1917",
           "type": "color"
+        },
+        "950": {
+          "value": "#0c0a09",
+          "type": "color"
         }
       },
       "red": {
@@ -262,6 +282,10 @@
         },
         "900": {
           "value": "#7f1d1d",
+          "type": "color"
+        },
+        "950": {
+          "value": "#450a0a",
           "type": "color"
         }
       },
@@ -305,6 +329,10 @@
         "900": {
           "value": "#7c2d12",
           "type": "color"
+        },
+        "950": {
+          "value": "#431407",
+          "type": "color"
         }
       },
       "amber": {
@@ -346,6 +374,10 @@
         },
         "900": {
           "value": "#78350f",
+          "type": "color"
+        },
+        "950": {
+          "value": "#451a03",
           "type": "color"
         }
       },
@@ -389,6 +421,10 @@
         "900": {
           "value": "#713f12",
           "type": "color"
+        },
+        "950": {
+          "value": "#422006",
+          "type": "color"
         }
       },
       "lime": {
@@ -430,6 +466,10 @@
         },
         "900": {
           "value": "#365314",
+          "type": "color"
+        },
+        "950": {
+          "value": "#1a2e05",
           "type": "color"
         }
       },
@@ -473,6 +513,10 @@
         "900": {
           "value": "#14532d",
           "type": "color"
+        },
+        "950": {
+          "value": "#052e16",
+          "type": "color"
         }
       },
       "emerald": {
@@ -514,6 +558,10 @@
         },
         "900": {
           "value": "#064e3b",
+          "type": "color"
+        },
+        "950": {
+          "value": "#022c22",
           "type": "color"
         }
       },
@@ -557,6 +605,10 @@
         "900": {
           "value": "#134e4a",
           "type": "color"
+        },
+        "950": {
+          "value": "#042f2e",
+          "type": "color"
         }
       },
       "cyan": {
@@ -598,6 +650,10 @@
         },
         "900": {
           "value": "#164e63",
+          "type": "color"
+        },
+        "950": {
+          "value": "#083344",
           "type": "color"
         }
       },
@@ -641,6 +697,10 @@
         "900": {
           "value": "#0c4a6e",
           "type": "color"
+        },
+        "950": {
+          "value": "#082f49",
+          "type": "color"
         }
       },
       "blue": {
@@ -682,6 +742,10 @@
         },
         "900": {
           "value": "#1e3a8a",
+          "type": "color"
+        },
+        "950": {
+          "value": "#172554",
           "type": "color"
         }
       },
@@ -725,6 +789,10 @@
         "900": {
           "value": "#312e81",
           "type": "color"
+        },
+        "950": {
+          "value": "#1e1b4b",
+          "type": "color"
         }
       },
       "violet": {
@@ -766,6 +834,10 @@
         },
         "900": {
           "value": "#4c1d95",
+          "type": "color"
+        },
+        "950": {
+          "value": "#2e1065",
           "type": "color"
         }
       },
@@ -809,6 +881,10 @@
         "900": {
           "value": "#581c87",
           "type": "color"
+        },
+        "950": {
+          "value": "#3b0764",
+          "type": "color"
         }
       },
       "fuchsia": {
@@ -850,6 +926,10 @@
         },
         "900": {
           "value": "#701a75",
+          "type": "color"
+        },
+        "950": {
+          "value": "#4a044e",
           "type": "color"
         }
       },
@@ -893,6 +973,10 @@
         "900": {
           "value": "#831843",
           "type": "color"
+        },
+        "950": {
+          "value": "#500724",
+          "type": "color"
         }
       },
       "rose": {
@@ -934,6 +1018,10 @@
         },
         "900": {
           "value": "#881337",
+          "type": "color"
+        },
+        "950": {
+          "value": "#4c0519",
           "type": "color"
         }
       }
