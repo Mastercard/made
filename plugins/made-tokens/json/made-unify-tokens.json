@@ -2311,22 +2311,70 @@
     }
   },
   "unify/semantic": {
+    "border": {
+      "radius": {
+        "rounded-none": {
+          "value": "0px",
+          "type": "borderRadius"
+        },
+        "rounded-sm": {
+          "value": "0.125rem",
+          "type": "borderRadius"
+        },
+        "rounded": {
+          "value": "0.25rem",
+          "type": "borderRadius"
+        },
+        "rounded-md": {
+          "value": "0.375rem",
+          "type": "borderRadius"
+        },
+        "rounded-lg": {
+          "value": "0.5rem",
+          "type": "borderRadius"
+        },
+        "rounded-xl": {
+          "value": "0.75rem",
+          "type": "borderRadius"
+        },
+        "rounded-2xl": {
+          "value": "1rem",
+          "type": "borderRadius"
+        },
+        "rounded-3xl": {
+          "value": "1.5rem",
+          "type": "borderRadius"
+        },
+        "rounded-full": {
+          "value": "9999px",
+          "type": "borderRadius"
+        }
+      }
+    },
     "color": {
       "text": {
         "primary": {
-          "value": "#111827",
+          "value": "{color.gray.900}",
           "type": "color",
           "parent": "Semantic/Light",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
         "disabled": {
-          "value": "#11182740",
+          "value": "{color.text.primary}",
           "type": "color",
           "parent": "Semantic/Light",
-          "description": ""
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.25",
+                "space": "lch"
+              }
+            }
+          }
         },
         "inverse": {
-          "value": "#ffffff",
+          "value": "{color.white}",
           "type": "color",
           "parent": "Semantic/Light",
           "description": "Inverse text color"
@@ -2338,64 +2386,57 @@
           "description": "Brand color. For use on primary links."
         },
         "danger": {
-          "value": "#b91c1c",
+          "value": "{color.red.700}",
           "type": "color",
-          "parent": "Semantic/Light",
-          "description": ""
+          "parent": "Semantic/Light"
         },
         "warning": {
-          "value": "#92400e",
+          "value": "{color.amber.800}",
           "type": "color",
-          "parent": "Semantic/Light",
-          "description": ""
+          "parent": "Semantic/Light"
         },
         "success": {
-          "value": "#166534",
+          "value": "{color.green.800}",
           "type": "color",
-          "parent": "Semantic/Light",
-          "description": ""
+          "parent": "Semantic/Light"
         },
         "discovery": {
-          "value": "#6b21a8",
+          "value": "{color.purple.800}",
           "type": "color",
-          "parent": "Semantic/Light",
-          "description": ""
+          "parent": "Semantic/Light"
         },
         "information": {
-          "value": "#1e40af",
+          "value": "{color.blue.800}",
           "type": "color",
-          "parent": "Semantic/Light",
-          "description": ""
+          "parent": "Semantic/Light"
         },
         "helper": {
-          "value": "#6b7280",
+          "value": "{color.gray.500}",
           "type": "color",
           "parent": "Semantic/Light",
           "description": "Tertiary text;\nHelp text"
         },
         "secondary": {
-          "value": "#4b5563",
+          "value": "{color.gray.600}",
           "type": "color",
           "parent": "Semantic/Light",
           "description": "Secondary text;\nInput labels"
         },
         "on-color": {
-          "value": "#ffffff",
+          "value": "{color.white}",
           "type": "color",
           "parent": "Semantic/Light",
           "description": "Text on interactive colors;\nText on button colors"
         },
         "placeholder": {
-          "value": "#6b7280",
+          "value": "{color.gray.500}",
           "type": "color",
-          "parent": "Semantic/Light",
-          "description": ""
+          "parent": "Semantic/Light"
         },
         "neutral": {
-          "value": "#1f2937",
+          "value": "{color.gray.800}",
           "type": "color",
-          "parent": "Semantic/Light",
-          "description": ""
+          "parent": "Semantic/Light"
         }
       },
       "link": {
@@ -2898,46 +2939,6 @@
           "type": "color",
           "parent": "Semantic/Light",
           "description": ""
-        }
-      }
-    },
-    "border": {
-      "radius": {
-        "rounded-none": {
-          "value": "0px",
-          "type": "borderRadius"
-        },
-        "rounded-sm": {
-          "value": "0.125rem",
-          "type": "borderRadius"
-        },
-        "rounded": {
-          "value": "0.25rem",
-          "type": "borderRadius"
-        },
-        "rounded-md": {
-          "value": "0.375rem",
-          "type": "borderRadius"
-        },
-        "rounded-lg": {
-          "value": "0.5rem",
-          "type": "borderRadius"
-        },
-        "rounded-xl": {
-          "value": "0.75rem",
-          "type": "borderRadius"
-        },
-        "rounded-2xl": {
-          "value": "1rem",
-          "type": "borderRadius"
-        },
-        "rounded-3xl": {
-          "value": "1.5rem",
-          "type": "borderRadius"
-        },
-        "rounded-full": {
-          "value": "9999px",
-          "type": "borderRadius"
         }
       }
     }
