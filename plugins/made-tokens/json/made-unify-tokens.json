@@ -1,8 +1,178 @@
 {
   "unify/primitive": {
-    "0": {
-      "value": "0px",
-      "type": "dimension"
+    "dimension": {
+      "0": {
+        "value": "0rem",
+        "type": "dimension"
+      },
+      "0-x": {
+        "value": "0px",
+        "type": "dimension"
+      },
+      "0-5-x": {
+        "value": "0.125rem",
+        "type": "dimension"
+      },
+      "1-x": {
+        "value": "0.25rem",
+        "type": "dimension",
+        "description": "4px"
+      },
+      "1-5-x": {
+        "value": "0.375rem",
+        "type": "dimension",
+        "description": "6px"
+      },
+      "2-x": {
+        "value": "0.5rem",
+        "type": "dimension",
+        "description": "8px"
+      },
+      "2-5": {
+        "value": "0.625rem",
+        "type": "dimension",
+        "description": "10px"
+      },
+      "3-x": {
+        "value": "0.75rem",
+        "type": "dimension",
+        "description": "12px"
+      },
+      "3-5-x": {
+        "value": "0.875rem",
+        "type": "dimension",
+        "description": "14px"
+      },
+      "4-x": {
+        "value": "1rem",
+        "type": "dimension",
+        "description": "16px"
+      },
+      "5-x": {
+        "value": "1.25rem",
+        "type": "dimension",
+        "description": "20px"
+      },
+      "6-x": {
+        "value": "1.5rem",
+        "type": "dimension",
+        "description": "24px"
+      },
+      "7-x": {
+        "value": "1.75rem",
+        "type": "dimension",
+        "description": "28px"
+      },
+      "8-x": {
+        "value": "2rem",
+        "type": "dimension",
+        "description": "32px"
+      },
+      "9-x": {
+        "value": "2.25rem",
+        "type": "dimension",
+        "description": "36px"
+      },
+      "10-x": {
+        "value": "2.5rem",
+        "type": "dimension",
+        "description": "40px"
+      },
+      "11-x": {
+        "value": "2.75rem",
+        "type": "dimension",
+        "description": "44px"
+      },
+      "12-x": {
+        "value": "3rem",
+        "type": "dimension",
+        "description": "48px"
+      },
+      "14-x": {
+        "value": "3.5rem",
+        "type": "dimension",
+        "description": "56px"
+      },
+      "16-x": {
+        "value": "4rem",
+        "type": "dimension",
+        "description": "64px"
+      },
+      "20-x": {
+        "value": "5rem",
+        "type": "dimension",
+        "description": "80px"
+      },
+      "24-x": {
+        "value": "6rem",
+        "type": "dimension",
+        "description": "96px"
+      },
+      "28-x": {
+        "value": "7rem",
+        "type": "dimension",
+        "description": "112px"
+      },
+      "32-x": {
+        "value": "8rem",
+        "type": "dimension",
+        "description": "128px"
+      },
+      "36-x": {
+        "value": "9rem",
+        "type": "dimension",
+        "description": "144px"
+      },
+      "40-x": {
+        "value": "10rem",
+        "type": "dimension",
+        "description": "160px"
+      },
+      "44-x": {
+        "value": "11rem",
+        "type": "dimension",
+        "description": "176px"
+      },
+      "48-x": {
+        "value": "12rem",
+        "type": "dimension",
+        "description": "192px"
+      },
+      "52-x": {
+        "value": "13rem",
+        "type": "dimension",
+        "description": "208px"
+      },
+      "56-x": {
+        "value": "14rem",
+        "type": "dimension",
+        "description": "224px"
+      },
+      "60-x": {
+        "value": "15rem",
+        "type": "dimension",
+        "description": "240px"
+      },
+      "64-x": {
+        "value": "16rem",
+        "type": "dimension",
+        "description": "256px"
+      },
+      "72-x": {
+        "value": "18rem",
+        "type": "dimension",
+        "description": "288px"
+      },
+      "80-x": {
+        "value": "20rem",
+        "type": "dimension",
+        "description": "320px"
+      },
+      "96-x": {
+        "value": "24rem",
+        "type": "dimension",
+        "description": "384px"
+      }
     },
     "color": {
       "white": {
@@ -1477,174 +1647,6 @@
         "type": "opacity"
       }
     },
-    "0-x": {
-      "value": "0px",
-      "type": "dimension"
-    },
-    "0-5-x": {
-      "value": "0.125rem",
-      "type": "dimension"
-    },
-    "1-x": {
-      "value": "0.25rem",
-      "type": "dimension",
-      "description": "4px"
-    },
-    "1-5-x": {
-      "value": "0.375rem",
-      "type": "dimension",
-      "description": "6px"
-    },
-    "2-x": {
-      "value": "0.5rem",
-      "type": "dimension",
-      "description": "8px"
-    },
-    "2-5": {
-      "value": "0.625rem",
-      "type": "dimension",
-      "description": "10px"
-    },
-    "3-x": {
-      "value": "0.75rem",
-      "type": "dimension",
-      "description": "12px"
-    },
-    "3-5-x": {
-      "value": "0.875rem",
-      "type": "dimension",
-      "description": "14px"
-    },
-    "4-x": {
-      "value": "1rem",
-      "type": "dimension",
-      "description": "16px"
-    },
-    "5-x": {
-      "value": "1.25rem",
-      "type": "dimension",
-      "description": "20px"
-    },
-    "6-x": {
-      "value": "1.5rem",
-      "type": "dimension",
-      "description": "24px"
-    },
-    "7-x": {
-      "value": "1.75rem",
-      "type": "dimension",
-      "description": "28px"
-    },
-    "8-x": {
-      "value": "2rem",
-      "type": "dimension",
-      "description": "32px"
-    },
-    "9-x": {
-      "value": "2.25rem",
-      "type": "dimension",
-      "description": "36px"
-    },
-    "10-x": {
-      "value": "2.5rem",
-      "type": "dimension",
-      "description": "40px"
-    },
-    "11-x": {
-      "value": "2.75rem",
-      "type": "dimension",
-      "description": "44px"
-    },
-    "12-x": {
-      "value": "3rem",
-      "type": "dimension",
-      "description": "48px"
-    },
-    "14-x": {
-      "value": "3.5rem",
-      "type": "dimension",
-      "description": "56px"
-    },
-    "16-x": {
-      "value": "4rem",
-      "type": "dimension",
-      "description": "64px"
-    },
-    "20-x": {
-      "value": "5rem",
-      "type": "dimension",
-      "description": "80px"
-    },
-    "24-x": {
-      "value": "6rem",
-      "type": "dimension",
-      "description": "96px"
-    },
-    "28-x": {
-      "value": "7rem",
-      "type": "dimension",
-      "description": "112px"
-    },
-    "32-x": {
-      "value": "8rem",
-      "type": "dimension",
-      "description": "128px"
-    },
-    "36-x": {
-      "value": "9rem",
-      "type": "dimension",
-      "description": "144px"
-    },
-    "40-x": {
-      "value": "10rem",
-      "type": "dimension",
-      "description": "160px"
-    },
-    "44-x": {
-      "value": "11rem",
-      "type": "dimension",
-      "description": "176px"
-    },
-    "48-x": {
-      "value": "12rem",
-      "type": "dimension",
-      "description": "192px"
-    },
-    "52-x": {
-      "value": "13rem",
-      "type": "dimension",
-      "description": "208px"
-    },
-    "56-x": {
-      "value": "14rem",
-      "type": "dimension",
-      "description": "224px"
-    },
-    "60-x": {
-      "value": "15rem",
-      "type": "dimension",
-      "description": "240px"
-    },
-    "64-x": {
-      "value": "16rem",
-      "type": "dimension",
-      "description": "256px"
-    },
-    "72-x": {
-      "value": "18rem",
-      "type": "dimension",
-      "description": "288px"
-    },
-    "80-x": {
-      "value": "20rem",
-      "type": "dimension",
-      "description": "320px"
-    },
-    "96-x": {
-      "value": "24rem",
-      "type": "dimension",
-      "description": "384px"
-    },
     "border-radius": {
       "01": {
         "value": "2px",
@@ -2453,7 +2455,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "dimension.0.25",
                 "space": "lch"
               }
             }
@@ -2548,7 +2550,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "dimension.0.25",
                 "space": "lch"
               }
             }
@@ -2920,6 +2922,12 @@
           "parent": "Semantic/Light"
         }
       }
+    },
+    "grid-gutters": {
+      "sm": {
+        "value": "{2-x}",
+        "type": "spacing"
+      }
     }
   },
   "unify/component": {},
@@ -2938,7 +2946,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "dimension.0.25",
                 "space": "lch"
               }
             }
@@ -3033,7 +3041,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "dimension.0.25",
                 "space": "lch"
               }
             }
@@ -3098,7 +3106,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.16",
+                "value": "dimension.0.16",
                 "space": "lch"
               }
             }
@@ -3111,7 +3119,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.08",
+                "value": "dimension.0.08",
                 "space": "lch"
               }
             }
@@ -3160,7 +3168,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.16",
+                "value": "dimension.0.16",
                 "space": "lch"
               }
             }
@@ -3173,7 +3181,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.16",
+                "value": "dimension.0.16",
                 "space": "lch"
               }
             }
@@ -3930,7 +3938,6 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "0": "9d24bdda75839ff3dd0b67a48f180a6c489d9998",
         "border.radius.rounded-none": "89d515f134c50fd32e208916d86468b540a45561",
         "border.radius.rounded-sm": "09a4853510a016b010ebaee185a74eeb04f740a5",
         "border.radius.rounded": "5d445d902736fa2efaf933022ced0cc7bc65a455",
@@ -4398,7 +4405,8 @@
         "color.purple.950": "b38882693fec5f55db517df9b5251b82af89acec",
         "color.fuchsia.950": "ca788f7d7276cf59c17b414425f9de0705db1c1c",
         "color.pink.950": "582178518e6ea091b814660dc3820f40c4df5a44",
-        "color.rose.950": "9bcc9917bddccbdee772725543855d6b99ec9b06"
+        "color.rose.950": "9bcc9917bddccbdee772725543855d6b99ec9b06",
+        "dimension.0": "9d24bdda75839ff3dd0b67a48f180a6c489d9998"
       },
       "$figmaCollectionId": "VariableCollectionId:25:2408",
       "$figmaModeId": "25:6",
