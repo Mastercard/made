@@ -2684,7 +2684,7 @@
           },
           "secondary": {
             "default": {
-              "value": "{color.brand.primary}",
+              "value": "{color.brand.secondary}",
               "type": "color",
               "parent": "Semantic/Light"
             },
