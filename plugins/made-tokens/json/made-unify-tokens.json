@@ -2604,14 +2604,12 @@
       },
       "border": {
         "default": {
-          "value": "#e5e7eb",
-          "type": "color",
-          "description": ""
+          "value": "{color.gray.200}",
+          "type": "color"
         },
         "disabled": {
-          "value": "#d1d5db",
-          "type": "color",
-          "description": ""
+          "value": "{color.gray.300}",
+          "type": "color"
         },
         "focused": {
           "value": "{color.border.brand}",
@@ -2619,9 +2617,8 @@
           "description": ""
         },
         "input": {
-          "value": "#d1d5db",
-          "type": "color",
-          "description": ""
+          "value": "{color.gray.300}",
+          "type": "color"
         },
         "brand": {
           "value": "{color.brand.primary}",
@@ -2629,44 +2626,36 @@
           "description": ""
         },
         "danger": {
-          "value": "#fecaca",
-          "type": "color",
-          "description": ""
+          "value": "{color.red.200}",
+          "type": "color"
         },
         "warning": {
-          "value": "#fde68a",
-          "type": "color",
-          "description": ""
+          "value": "{color.amber.200}",
+          "type": "color"
         },
         "success": {
-          "value": "#bbf7d0",
-          "type": "color",
-          "description": ""
+          "value": "{color.green.200}",
+          "type": "color"
         },
         "discovery": {
-          "value": "#e9d5ff",
-          "type": "color",
-          "description": ""
+          "value": "{color.purple.200}",
+          "type": "color"
         },
         "information": {
-          "value": "#bfdbfe",
-          "type": "color",
-          "description": ""
+          "value": "{color.blue.200}",
+          "type": "color"
         },
         "bold": {
-          "value": "#d1d5db",
-          "type": "color",
-          "description": ""
+          "value": "{color.gray.300}",
+          "type": "color"
         },
         "strong": {
-          "value": "#9ca3af",
-          "type": "color",
-          "description": ""
+          "value": "{color.gray.400}",
+          "type": "color"
         },
         "neutral": {
-          "value": "#e5e7eb",
-          "type": "color",
-          "description": ""
+          "value": "{color.gray.200}",
+          "type": "color"
         }
       },
       "background": {
