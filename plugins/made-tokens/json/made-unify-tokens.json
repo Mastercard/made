@@ -1246,16 +1246,6 @@
         "type": "letterSpacing"
       }
     },
-    "TW-font-family": {
-      "primary": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
-      "secondary": {
-        "value": "Open Sans",
-        "type": "fontFamilies"
-      }
-    },
     "sizing": {
       "0": {
         "value": "0px",
