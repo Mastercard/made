@@ -3196,11 +3196,11 @@
               "parent": "Semantic/Light"
             },
             "hovered": {
-              "value": "{color.gray.700}",
+              "value": "{color.gray.100}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.gray.950}",
+              "value": "{color.gray.200}",
               "type": "color"
             }
           },
@@ -3211,11 +3211,11 @@
               "parent": "Semantic/Light"
             },
             "hovered": {
-              "value": "{color.gray.700}",
+              "value": "{color.gray.100}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.gray.950}",
+              "value": "{color.gray.200}",
               "type": "color"
             }
           }
@@ -3223,43 +3223,43 @@
         "feedback": {
           "danger": {
             "default": {
-              "value": "{color.red.100}",
+              "value": "{color.red.950}",
               "type": "color"
             },
             "hovered": {
-              "value": "{color.red.200}",
+              "value": "{color.red.900}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.red.300}",
+              "value": "{color.red.800}",
               "type": "color"
             },
             "strong": {
               "default": {
-                "value": "{color.red.600}",
+                "value": "{color.red.400}",
                 "type": "color"
               },
               "hovered": {
-                "value": "{color.red.700}",
+                "value": "{color.red.300}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{color.red.900}",
+                "value": "{color.red.200}",
                 "type": "color"
               }
             }
           },
           "warning": {
             "default": {
-              "value": "{color.amber.100}",
+              "value": "{color.amber.950}",
               "type": "color"
             },
             "hovered": {
-              "value": "{color.amber.200}",
+              "value": "{color.amber.900}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.amber.300}",
+              "value": "{color.amber.800}",
               "type": "color"
             },
             "strong": {
@@ -3395,7 +3395,7 @@
         },
         "surface": {
           "default": {
-            "value": "{color.white}",
+            "value": "{color.gray.900}",
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
@@ -3429,12 +3429,12 @@
       },
       "brand": {
         "primary": {
-          "value": "{color.gray.900}",
+          "value": "{color.white}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "secondary": {
-          "value": "{color.gray.900}",
+          "value": "{color.white}",
           "type": "color",
           "parent": "Semantic/Light"
         }
