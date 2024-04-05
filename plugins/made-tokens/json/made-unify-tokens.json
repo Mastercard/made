@@ -2667,20 +2667,35 @@
           }
         },
         "brand": {
-          "default": {
-            "value": "{color.brand.primary}",
-            "type": "color",
-            "parent": "Semantic/Light"
+          "primary": {
+            "default": {
+              "value": "{color.brand.primary}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hovered": {
+              "value": "{color.gray.700}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.gray.950}",
+              "type": "color"
+            }
           },
-          "hovered": {
-            "value": "#374151",
-            "type": "color",
-            "description": ""
-          },
-          "pressed": {
-            "value": "#030712",
-            "type": "color",
-            "description": ""
+          "secondary": {
+            "default": {
+              "value": "{color.brand.primary}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hovered": {
+              "value": "{color.gray.700}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.gray.950}",
+              "type": "color"
+            }
           }
         },
         "feedback": {
@@ -3539,9 +3554,6 @@
         "color.border.strong": "feb9ce1ff09a1a1a15950daa949a984ae8afe59f",
         "color.border.neutral": "ba8845a86f80dbeae4c65a79b406a7b37d299009",
         "color.background.input.default": "1cbcb53ceeed6809872278f27696f542cf733d0d",
-        "color.background.brand.default": "2bc67b173c0a3cb4a7b96c6ef072f822750a1eb4",
-        "color.background.brand.hovered": "5816f26c93a62c65f92d72689bcf23dda92e7524",
-        "color.background.brand.pressed": "5b2990ec9a36a0d1d3ffdf118ec0fb8f90e60758",
         "color.background.feedback.danger.default": "3f114ceccadd8659bc90cbfe997b9a020cdf10da",
         "color.background.feedback.danger.hovered": "f1d1afe5ffa75bb8f582406a6bc35726cd19486d",
         "color.background.feedback.danger.pressed": "f395d6a6db4a5841162bd2614bb54f0630198f31",
@@ -3925,7 +3937,10 @@
         "border-radius.circle": "92ca09926855c24bf420b21fb51734c5f6fdf127",
         "paragraph-indent.0": "ec9604bb46a7f5159bb0c7785bb919d3dc92d064",
         "color.background.surface.default": "3dd6b74de6c143463c19442d42204800175386f4",
-        "color.background.surface.transparent": "07a37f6f84eea4e6cedfe92d52a29499be896d70"
+        "color.background.surface.transparent": "07a37f6f84eea4e6cedfe92d52a29499be896d70",
+        "color.background.brand.primary.default": "2bc67b173c0a3cb4a7b96c6ef072f822750a1eb4",
+        "color.background.brand.primary.hovered": "5816f26c93a62c65f92d72689bcf23dda92e7524",
+        "color.background.brand.primary.pressed": "5b2990ec9a36a0d1d3ffdf118ec0fb8f90e60758"
       },
       "$figmaCollectionId": "VariableCollectionId:24:2099",
       "$figmaModeId": "24:9",
