@@ -1649,47 +1649,47 @@
     },
     "border-radius": {
       "01": {
-        "value": "2px",
+        "value": "{dimension.0-5-x}",
         "type": "borderRadius",
         "description": "Border Radius: 2px"
       },
       "02": {
-        "value": "4px",
+        "value": "{dimension.1-x}",
         "type": "borderRadius",
         "description": "Border Radius: 4px"
       },
       "03": {
-        "value": "6px",
+        "value": "{dimension.1-5-x}",
         "type": "borderRadius",
         "description": "Border Radius: 6px"
       },
       "04": {
-        "value": "8px",
+        "value": "{dimension.2-x}",
         "type": "borderRadius",
         "description": "Border Radius: 8px"
       },
       "05": {
-        "value": "12px",
+        "value": "{dimension.3-x}",
         "type": "borderRadius",
         "description": "Border Radius: 12px"
       },
       "06": {
-        "value": "16px",
+        "value": "{dimension.4-x}",
         "type": "borderRadius",
         "description": "Border Radius: 16px"
       },
       "07": {
-        "value": "20px",
+        "value": "{dimension.5-x}",
         "type": "borderRadius",
         "description": "Border Radius: 20px"
       },
       "08": {
-        "value": "24px",
+        "value": "{dimension.6-x}",
         "type": "borderRadius",
         "description": "Border Radius: 24px"
       },
       "09": {
-        "value": "28px",
+        "value": "{dimension.7-x}",
         "type": "borderRadius",
         "description": "Border Radius: 28px"
       },
