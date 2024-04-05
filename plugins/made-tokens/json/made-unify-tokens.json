@@ -2944,7 +2944,97 @@
     }
   },
   "unify/component": {},
-  "unify/themes/dark": {},
+  "unify/themes/dark": {
+    "color": {
+      "text": {
+        "primary": {
+          "value": "{color.gray.300}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+        },
+        "disabled": {
+          "value": "{color.text.primary}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.25",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "inverse": {
+          "value": "{color.gray.900}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Inverse text color"
+        },
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Brand color. For use on primary links."
+        },
+        "danger": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "warning": {
+          "value": "{color.amber.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "success": {
+          "value": "{color.green.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "discovery": {
+          "value": "{color.purple.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "information": {
+          "value": "{color.blue.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "helper": {
+          "value": "{color.slate.500}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Tertiary text;\nHelp text"
+        },
+        "secondary": {
+          "value": "{color.gray.600}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Secondary text;\nInput labels"
+        },
+        "on-color": {
+          "value": "{color.white}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Text on interactive colors;\nText on button colors"
+        },
+        "placeholder": {
+          "value": "{color.gray.500}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "neutral": {
+          "value": "{color.gray.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        }
+      }
+    }
+  },
   "themes/mastercard/primitives": {
     "color": {
       "accent": {
