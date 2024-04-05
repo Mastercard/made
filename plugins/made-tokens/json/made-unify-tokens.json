@@ -2630,10 +2630,9 @@
         },
         "brand": {
           "default": {
-            "value": "#111827",
+            "value": "{color.brand.primary}",
             "type": "color",
-            "parent": "Semantic/Light",
-            "description": ""
+            "parent": "Semantic/Light"
           },
           "hovered": {
             "value": "#374151",
@@ -2935,10 +2934,14 @@
       },
       "brand": {
         "primary": {
-          "value": "#111827",
+          "value": "{color.gray.900}",
           "type": "color",
-          "parent": "Semantic/Light",
-          "description": ""
+          "parent": "Semantic/Light"
+        },
+        "secondary": {
+          "value": "{color.gray.900}",
+          "type": "color",
+          "parent": "Semantic/Light"
         }
       }
     }
