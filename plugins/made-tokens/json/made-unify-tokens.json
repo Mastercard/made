@@ -2661,7 +2661,7 @@
       "background": {
         "input": {
           "default": {
-            "value": "{color.background.surface}",
+            "value": "{color.background.surface.default}",
             "type": "color",
             "description": ""
           }
@@ -2890,39 +2890,37 @@
           }
         },
         "surface": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "Default application surface color. Use this for e.g. card backgrounds.",
-          "secondary": {
-            "value": "#f8fafc",
+          "default": {
+            "value": "{color.white}",
             "type": "color",
-            "description": ""
+            "description": "Default application surface color. Use this for e.g. card backgrounds."
+          },
+          "transparent": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{color.gray.50}",
+            "type": "color"
           },
           "tertiary": {
-            "value": "#f3f4f6",
-            "type": "color",
-            "description": ""
+            "value": "{color.gray.100}",
+            "type": "color"
           }
         },
-        "surface-transparent": {
-          "value": "#ffffff03",
-          "type": "color",
-          "description": ""
-        },
         "background": {
-          "value": "#f8fafc",
+          "value": "{color.gray.50}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
         "surfac-raised": {
-          "value": "#f8fafc",
+          "value": "{color.gray.50}",
           "type": "color",
           "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
         },
         "disabled": {
-          "value": "#f3f4f6",
-          "type": "color",
-          "description": ""
+          "value": "{color.gray.100}",
+          "type": "color"
         }
       },
       "brand": {
@@ -3613,8 +3611,6 @@
         "color.background.feedback.neutral.strong.default": "09045f5bff6ae44931401608069146d14bddfbef",
         "color.background.feedback.neutral.strong.hovered": "eae742017b9c0a6aaf2e383f9f0c2f8c03194523",
         "color.background.feedback.neutral.strong.pressed": "2050633f2a848aebafe5420007ebbe55d1462e96",
-        "color.background.surface": "3dd6b74de6c143463c19442d42204800175386f4",
-        "color.background.surface-transparent": "07a37f6f84eea4e6cedfe92d52a29499be896d70",
         "color.background.background": "cbb8e2abb0e2d517bc991b8cb16fcc0d06f50a0f",
         "color.background.surfac-raised": "820d4ee32a96317dc8bc86bd7ffdf7a1c63c9815",
         "color.background.disabled": "9adb58f5ded09b7ba2353312c90f05a3320c3597",
@@ -3960,7 +3956,9 @@
         "border-radius.08": "99fc3529e7551c0a0bb37fa8912c5e84dc33af6a",
         "border-radius.09": "a1e69c09554aad3f665f8c5239d002c5b57cfb53",
         "border-radius.circle": "92ca09926855c24bf420b21fb51734c5f6fdf127",
-        "paragraph-indent.0": "ec9604bb46a7f5159bb0c7785bb919d3dc92d064"
+        "paragraph-indent.0": "ec9604bb46a7f5159bb0c7785bb919d3dc92d064",
+        "color.background.surface.default": "3dd6b74de6c143463c19442d42204800175386f4",
+        "color.background.surface.transparent": "07a37f6f84eea4e6cedfe92d52a29499be896d70"
       },
       "$figmaCollectionId": "VariableCollectionId:24:2099",
       "$figmaModeId": "24:9",
