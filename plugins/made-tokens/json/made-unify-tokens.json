@@ -2558,10 +2558,13 @@
           "value": "{color.white}",
           "type": "color"
         },
-        "brand": {
+        "brand-primary": {
           "value": "{color.brand.primary}",
-          "type": "color",
-          "description": ""
+          "type": "color"
+        },
+        "brand-secondary": {
+          "value": "{color.brand.primary}",
+          "type": "color"
         },
         "danger": {
           "value": "{color.red.700}",
@@ -3040,47 +3043,50 @@
           "value": "{color.gray.900}",
           "type": "color"
         },
-        "brand": {
-          "value": "{color.brand.primary}",
-          "type": "color",
-          "description": ""
+        "brand-primary": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "brand-secondary": {
+          "value": "{color.white}",
+          "type": "color"
         },
         "danger": {
-          "value": "{color.red.700}",
+          "value": "{color.red.300}",
           "type": "color",
           "description": "color.icon.danger"
         },
         "warning": {
-          "value": "{color.amber.700}",
+          "value": "{color.amber.300}",
           "type": "color",
           "description": "color.icon.warning"
         },
         "success": {
-          "value": "{color.green.700}",
+          "value": "{color.green.300}",
           "type": "color"
         },
         "discovery": {
-          "value": "{color.purple.700}",
+          "value": "{color.purple.300}",
           "type": "color"
         },
         "information": {
-          "value": "{color.blue.700}",
+          "value": "{color.blue.300}",
           "type": "color"
         },
         "secondary": {
-          "value": "{color.gray.600}",
+          "value": "{color.slate.400}",
           "type": "color"
         },
         "helper": {
-          "value": "{color.gray.500}",
+          "value": "{color.slate.500}",
           "type": "color"
         },
         "on-color": {
-          "value": "{color.white}",
+          "value": "{color.gray.900}",
           "type": "color"
         },
         "neutral": {
-          "value": "{color.gray.700}",
+          "value": "{color.gray.300}",
           "type": "color"
         }
       },
@@ -3920,7 +3926,6 @@
         "color.icon.primary": "79bbe55f993c242c56d8893508cf4088d6468810",
         "color.icon.disabled": "82e32ab59badecc7ab6c5a753297b4755eb287bd",
         "color.icon.inverse": "679a166cd67fddba3f18ae00ac47adb52704dbe7",
-        "color.icon.brand": "6710544cf9d52542a24547c24a2ed43106024a5a",
         "color.icon.danger": "24193cb82e5b255a706bce19bd0a58a04d0e202b",
         "color.icon.warning": "43b77f2eb32d0af5bc0348d6c2299fbbdcf9b222",
         "color.icon.success": "bcc270d547f27e3f1e5f3943c8cb7804b783822f",
@@ -4357,7 +4362,8 @@
         "color.purple.950": "9e2d60611123ce2cf4f601e9f3acbca21b883f43",
         "color.fuchsia.950": "518895f17dbd3c7f7ff061f6e080927787b66bfd",
         "color.pink.950": "fe12791507a978f86ea157585326a7b1217881d8",
-        "color.rose.950": "f0e59d5b92c96ec405f92353fd004910cfcdc74d"
+        "color.rose.950": "f0e59d5b92c96ec405f92353fd004910cfcdc74d",
+        "color.icon.brand-primary": "6710544cf9d52542a24547c24a2ed43106024a5a"
       },
       "$figmaCollectionId": "VariableCollectionId:24:2542",
       "$figmaModeId": "24:13",
@@ -4394,7 +4400,6 @@
         "color.icon.primary": "79bbe55f993c242c56d8893508cf4088d6468810",
         "color.icon.disabled": "82e32ab59badecc7ab6c5a753297b4755eb287bd",
         "color.icon.inverse": "679a166cd67fddba3f18ae00ac47adb52704dbe7",
-        "color.icon.brand": "6710544cf9d52542a24547c24a2ed43106024a5a",
         "color.icon.danger": "24193cb82e5b255a706bce19bd0a58a04d0e202b",
         "color.icon.warning": "43b77f2eb32d0af5bc0348d6c2299fbbdcf9b222",
         "color.icon.success": "bcc270d547f27e3f1e5f3943c8cb7804b783822f",
@@ -4468,7 +4473,8 @@
         "color.background.surface.tertiary": "61c77dbfbfce4b3d399ecc86398a436f2a5c746b",
         "color.background.brand.secondary.default": "37077c5b285e96fb6af6185a36a7fa514664e98a",
         "color.background.brand.secondary.hovered": "7882c57e7b0820d53eccf630715e05e78a660df8",
-        "color.background.brand.secondary.pressed": "14df4067ebc739f1177ebc83926f922dc0a5b8cc"
+        "color.background.brand.secondary.pressed": "14df4067ebc739f1177ebc83926f922dc0a5b8cc",
+        "color.icon.brand-primary": "6710544cf9d52542a24547c24a2ed43106024a5a"
       },
       "$figmaCollectionId": "VariableCollectionId:24:2542",
       "$figmaModeId": "24:14",
