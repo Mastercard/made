@@ -2398,6 +2398,46 @@
         "type": "dimension",
         "description": "figma-only"
       }
+    },
+    "time": {
+      "moderate": {
+        "01": {
+          "value": "150ms",
+          "type": "other",
+          "description": "Micro-interactions, small expansion, short distance movements."
+        },
+        "02": {
+          "value": "240ms",
+          "type": "other",
+          "description": "Expansion, system communication, toast."
+        },
+        "fast": {
+          "01": {
+            "value": "70ms",
+            "type": "other",
+            "description": "Micro-interactions such as button and toggle.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "110ms",
+            "type": "other",
+            "description": "Micro-interactions such as fade.",
+            "themeable": "No"
+          }
+        }
+      },
+      "slow": {
+        "01": {
+          "value": "400ms",
+          "type": "other",
+          "description": "Large expansion, important system notifications."
+        },
+        "02": {
+          "value": "700ms",
+          "type": "other",
+          "description": "Background dimming."
+        }
+      }
     }
   },
   "unify/semantic": {
@@ -3927,46 +3967,6 @@
           "value": "#330505",
           "type": "color",
           "description": "Red error 7"
-        }
-      }
-    },
-    "time": {
-      "moderate": {
-        "01": {
-          "value": "150ms",
-          "type": "other",
-          "description": "Micro-interactions, small expansion, short distance movements."
-        },
-        "02": {
-          "value": "240ms",
-          "type": "other",
-          "description": "Expansion, system communication, toast."
-        },
-        "fast": {
-          "01": {
-            "value": "70ms",
-            "type": "other",
-            "description": "Micro-interactions such as button and toggle.",
-            "themeable": "No"
-          },
-          "02": {
-            "value": "110ms",
-            "type": "other",
-            "description": "Micro-interactions such as fade.",
-            "themeable": "No"
-          }
-        }
-      },
-      "slow": {
-        "01": {
-          "value": "400ms",
-          "type": "other",
-          "description": "Large expansion, important system notifications."
-        },
-        "02": {
-          "value": "700ms",
-          "type": "other",
-          "description": "Background dimming."
         }
       }
     }
