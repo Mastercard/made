@@ -2311,6 +2311,596 @@
     }
   },
   "unify/semantic": {
+    "color": {
+      "text": {
+        "primary": {
+          "value": "#111827",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+        },
+        "disabled": {
+          "value": "#11182740",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "inverse": {
+          "value": "#ffffff",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Inverse text color"
+        },
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Brand color. For use on primary links."
+        },
+        "danger": {
+          "value": "#b91c1c",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "warning": {
+          "value": "#92400e",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "success": {
+          "value": "#166534",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "discovery": {
+          "value": "#6b21a8",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "information": {
+          "value": "#1e40af",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "helper": {
+          "value": "#6b7280",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Tertiary text;\nHelp text"
+        },
+        "secondary": {
+          "value": "#4b5563",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Secondary text;\nInput labels"
+        },
+        "on-color": {
+          "value": "#ffffff",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Text on interactive colors;\nText on button colors"
+        },
+        "placeholder": {
+          "value": "#6b7280",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "neutral": {
+          "value": "#1f2937",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.text.brand}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "pressed": {
+          "value": "#030712",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "visited": {
+          "value": "{color.text.discovery}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        }
+      },
+      "icon": {
+        "primary": {
+          "value": "#111827",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "disabled": {
+          "value": "#11182740",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "inverse": {
+          "value": "#ffffff",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "danger": {
+          "value": "#b91c1c",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "color.icon.danger"
+        },
+        "warning": {
+          "value": "#b45309",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "color.icon.warning"
+        },
+        "success": {
+          "value": "#15803d",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "discovery": {
+          "value": "#7e22ce",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "information": {
+          "value": "#1d4ed8",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "secondary": {
+          "value": "#4b5563",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "helper": {
+          "value": "#6b7280",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "on-color": {
+          "value": "#ffffff",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "neutral": {
+          "value": "#374151",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        }
+      },
+      "border": {
+        "default": {
+          "value": "#e5e7eb",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "disabled": {
+          "value": "#d1d5db",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "focused": {
+          "value": "{color.border.brand}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "input": {
+          "value": "#d1d5db",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "danger": {
+          "value": "#fecaca",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "warning": {
+          "value": "#fde68a",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "success": {
+          "value": "#bbf7d0",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "discovery": {
+          "value": "#e9d5ff",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "information": {
+          "value": "#bfdbfe",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "bold": {
+          "value": "#d1d5db",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "strong": {
+          "value": "#9ca3af",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "neutral": {
+          "value": "#e5e7eb",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        }
+      },
+      "background": {
+        "input": {
+          "default": {
+            "value": "{color.background.surface}",
+            "type": "color",
+            "parent": "Semantic/Light",
+            "description": ""
+          }
+        },
+        "brand": {
+          "default": {
+            "value": "#111827",
+            "type": "color",
+            "parent": "Semantic/Light",
+            "description": ""
+          },
+          "hovered": {
+            "value": "#374151",
+            "type": "color",
+            "parent": "Semantic/Light",
+            "description": ""
+          },
+          "pressed": {
+            "value": "#030712",
+            "type": "color",
+            "parent": "Semantic/Light",
+            "description": ""
+          }
+        },
+        "feedback": {
+          "danger": {
+            "default": {
+              "value": "#fee2e2",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "hovered": {
+              "value": "#fecaca",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "pressed": {
+              "value": "#fca5a5",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "strong": {
+              "default": {
+                "value": "#dc2626",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "hovered": {
+                "value": "#b91c1c",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "pressed": {
+                "value": "#7f1d1d",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              }
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "#fef3c7",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "hovered": {
+              "value": "#fde68a",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "pressed": {
+              "value": "#fcd34d",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "strong": {
+              "default": {
+                "value": "#92400e",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": "color.background.warning.bold"
+              },
+              "hovered": {
+                "value": "#b45309",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": "color.background.warning.bold.hovered"
+              },
+              "pressed": {
+                "value": "#78350f",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": "color.background.warning.bold.pressed"
+              }
+            }
+          },
+          "success": {
+            "default": {
+              "value": "#dcfce7",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "hovered": {
+              "value": "#86efac",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "pressed": {
+              "value": "#4ade80",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "strong": {
+              "default": {
+                "value": "#15803d",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "hovered": {
+                "value": "#166534",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "pressed": {
+                "value": "#14532d",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              }
+            }
+          },
+          "discovery": {
+            "default": {
+              "value": "#f3f0ff",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "hovered": {
+              "value": "#dfd8fd",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "pressed": {
+              "value": "#b8acf6",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "strong": {
+              "default": {
+                "value": "#6e5dc6",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "hovered": {
+                "value": "#5e4db2",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "pressed": {
+                "value": "#352c63",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              }
+            }
+          },
+          "information": {
+            "default": {
+              "value": "#dbeafe",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "hovered": {
+              "value": "#bfdbfe",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "pressed": {
+              "value": "#60a5fa",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "strong": {
+              "default": {
+                "value": "#2563eb",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "hovered": {
+                "value": "#1d4ed8",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "pressed": {
+                "value": "#1e3a8a",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              }
+            }
+          },
+          "neutral": {
+            "default": {
+              "value": "#e5e7eb",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "hovered": {
+              "value": "#d1d5db",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "pressed": {
+              "value": "#d1d5db",
+              "type": "color",
+              "parent": "Semantic/Light",
+              "description": ""
+            },
+            "strong": {
+              "default": {
+                "value": "#111827",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "hovered": {
+                "value": "#374151",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              },
+              "pressed": {
+                "value": "#030712",
+                "type": "color",
+                "parent": "Semantic/Light",
+                "description": ""
+              }
+            }
+          }
+        },
+        "surface": {
+          "value": "#ffffff",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Default application surface color. Use this for e.g. card backgrounds.",
+          "secondary": {
+            "value": "#f8fafc",
+            "type": "color",
+            "parent": "Semantic/Light",
+            "description": ""
+          },
+          "tertiary": {
+            "value": "#f3f4f6",
+            "type": "color",
+            "parent": "Semantic/Light",
+            "description": ""
+          }
+        },
+        "surface-transparent": {
+          "value": "#ffffff03",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        },
+        "background": {
+          "value": "#f8fafc",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Default application background color. Should be set to either html or body element."
+        },
+        "surfac-raised": {
+          "value": "#f8fafc",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
+        },
+        "disabled": {
+          "value": "#f3f4f6",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        }
+      },
+      "brand": {
+        "primary": {
+          "value": "#111827",
+          "type": "color",
+          "parent": "Semantic/Light",
+          "description": ""
+        }
+      }
+    },
     "border": {
       "radius": {
         "rounded-none": {
