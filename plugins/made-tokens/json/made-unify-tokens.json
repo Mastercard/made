@@ -2832,9 +2832,6 @@
   },
   "themes/mastercard/theme - light": {},
   "themes/mastercard/theme - dark": {},
-  "themes/partnerbank/primitives": {},
-  "themes/partnerbank/theme - light": {},
-  "themes/partnerbank/theme - dark": {},
   "$themes": [
     {
       "id": "d31c2295f09dfde776482a5112130ab959986c1f",
@@ -4467,9 +4464,7 @@
       "selectedTokenSets": {
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
-        "unify/component": "enabled",
-        "themes/partnerbank/theme - light": "enabled",
-        "themes/partnerbank/primitives": "enabled"
+        "unify/component": "enabled"
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
@@ -4834,9 +4829,7 @@
       "selectedTokenSets": {
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
-        "unify/component": "enabled",
-        "themes/partnerbank/theme - dark": "enabled",
-        "themes/partnerbank/primitives": "enabled"
+        "unify/component": "enabled"
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
@@ -5204,10 +5197,7 @@
       "unify/themes/dark",
       "themes/mastercard/primitives",
       "themes/mastercard/theme - light",
-      "themes/mastercard/theme - dark",
-      "themes/partnerbank/primitives",
-      "themes/partnerbank/theme - light",
-      "themes/partnerbank/theme - dark"
+      "themes/mastercard/theme - dark"
     ]
   }
 }
