@@ -2401,7 +2401,7 @@
     }
   },
   "unify/semantic": {
-    "border": {
+    "TW–border": {
       "radius": {
         "rounded-none": {
           "value": "0px",
@@ -3962,15 +3962,6 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "border.radius.rounded-none": "89d515f134c50fd32e208916d86468b540a45561",
-        "border.radius.rounded-sm": "09a4853510a016b010ebaee185a74eeb04f740a5",
-        "border.radius.rounded": "5d445d902736fa2efaf933022ced0cc7bc65a455",
-        "border.radius.rounded-md": "b637907de8e09abafad262507666411eed76f120",
-        "border.radius.rounded-lg": "c8d2cd2300eb7496bc07946b586a67319d729659",
-        "border.radius.rounded-xl": "f59a9765624292400a81d129623c4b313c5a6319",
-        "border.radius.rounded-2xl": "2d01c932d7edf638d5ece618338f36398e50a3ea",
-        "border.radius.rounded-3xl": "e7f97c14395ae1299b9851c1996b4f9141d9368c",
-        "border.radius.rounded-full": "626776fc3e67fb9f426edd767a8503a458486592",
         "color.text.primary": "9075474a4b3d091b467fad1fc6137bb9d3561a75",
         "color.text.disabled": "5ac008d7a5ae9683cf930be1d22ad9d045906a68",
         "color.text.inverse": "ad499f2e5c0b8eedc3e900b73a166e6179f1fb33",
@@ -4430,7 +4421,16 @@
         "color.fuchsia.950": "ca788f7d7276cf59c17b414425f9de0705db1c1c",
         "color.pink.950": "582178518e6ea091b814660dc3820f40c4df5a44",
         "color.rose.950": "9bcc9917bddccbdee772725543855d6b99ec9b06",
-        "dimension.0": "9d24bdda75839ff3dd0b67a48f180a6c489d9998"
+        "dimension.0": "9d24bdda75839ff3dd0b67a48f180a6c489d9998",
+        "TW–border.radius.rounded-none": "89d515f134c50fd32e208916d86468b540a45561",
+        "TW–border.radius.rounded-sm": "09a4853510a016b010ebaee185a74eeb04f740a5",
+        "TW–border.radius.rounded": "5d445d902736fa2efaf933022ced0cc7bc65a455",
+        "TW–border.radius.rounded-md": "b637907de8e09abafad262507666411eed76f120",
+        "TW–border.radius.rounded-lg": "c8d2cd2300eb7496bc07946b586a67319d729659",
+        "TW–border.radius.rounded-xl": "f59a9765624292400a81d129623c4b313c5a6319",
+        "TW–border.radius.rounded-2xl": "2d01c932d7edf638d5ece618338f36398e50a3ea",
+        "TW–border.radius.rounded-3xl": "e7f97c14395ae1299b9851c1996b4f9141d9368c",
+        "TW–border.radius.rounded-full": "626776fc3e67fb9f426edd767a8503a458486592"
       },
       "$figmaCollectionId": "VariableCollectionId:25:2408",
       "$figmaModeId": "25:6",
