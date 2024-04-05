@@ -2923,10 +2923,34 @@
         }
       }
     },
-    "grid-gutters": {
-      "sm": {
-        "value": "{2-x}",
-        "type": "spacing"
+    "grid": {
+      "gutters": {
+        "sm": {
+          "value": "{dimension.2-x}",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{dimension.4-x}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{dimension.4-x}",
+          "type": "spacing"
+        }
+      },
+      "margin": {
+        "sm": {
+          "value": "{dimension.2-x}",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{dimension.4-x}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{dimension.4-x}",
+          "type": "spacing"
+        }
       }
     }
   },
