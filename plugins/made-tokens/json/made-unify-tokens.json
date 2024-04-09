@@ -2483,6 +2483,10 @@
     },
     "border": {
       "radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
         "default": {
           "value": "{dimension.1-x}",
           "type": "borderRadius",
