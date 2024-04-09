@@ -298,10 +298,10 @@
         "description": "Size: 48px"
       },
       "13-x": {
-        "value": "52px",
+        "value": "{dimension.13-x}",
         "type": "sizing",
-        "description": "Size: 52px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 52px"
       },
       "14-x": {
         "value": "{dimension.14-x}",
@@ -310,10 +310,10 @@
         "description": "Size: 56px"
       },
       "15-x": {
-        "value": "60px",
+        "value": "{dimension.15-x}",
         "type": "sizing",
-        "description": "Size: 60px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 60px"
       },
       "16-x": {
         "value": "{dimension.16-x}",
@@ -322,22 +322,22 @@
         "description": "Size: 64px"
       },
       "17-x": {
-        "value": "68px",
+        "value": "{dimension.17-x}",
         "type": "sizing",
-        "description": "Size: 68px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 68px"
       },
       "18-x": {
-        "value": "72px",
+        "value": "{dimension.18-x}",
         "type": "sizing",
-        "description": "Size: 72px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 72px"
       },
       "19-x": {
-        "value": "76px",
+        "value": "{dimension.19-x}",
         "type": "sizing",
-        "description": "Size: 76px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 76px"
       },
       "20-x": {
         "value": "{dimension.20-x}",
