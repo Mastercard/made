@@ -28,7 +28,7 @@
         "type": "dimension",
         "description": "8px"
       },
-      "2-5": {
+      "2-5-x": {
         "value": "0.625rem",
         "type": "dimension",
         "description": "10px"
@@ -1198,8 +1198,9 @@
     },
     "spacing": {
       "0-x": {
-        "value": "0px",
-        "type": "spacing"
+        "value": "{dimension.0}",
+        "type": "spacing",
+        "description": "0px"
       },
       "1-x": {
         "value": "0.25rem",
@@ -1368,150 +1369,151 @@
     },
     "sizing": {
       "0-x": {
-        "value": "0px",
-        "type": "sizing"
+        "value": "{dimension.0}",
+        "type": "sizing",
+        "description": "0px"
       },
       "24-x": {
-        "value": "6rem",
+        "value": "{dimension.24-x}",
         "type": "sizing",
         "description": "96px"
       },
       "28-x": {
-        "value": "7rem",
+        "value": "{dimension.28-x}",
         "type": "sizing",
         "description": "112px"
       },
       "32-x": {
-        "value": "8rem",
+        "value": "{dimension.32-x}",
         "type": "sizing",
         "description": "128px"
       },
       "36-x": {
-        "value": "9rem",
+        "value": "{dimension.36-x}",
         "type": "sizing",
         "description": "144px"
       },
       "40-x": {
-        "value": "10rem",
+        "value": "{dimension.40-x}",
         "type": "sizing",
         "description": "160px"
       },
       "44-x": {
-        "value": "11rem",
+        "value": "{dimension.44-x}",
         "type": "sizing",
         "description": "176px"
       },
       "48-x": {
-        "value": "12rem",
+        "value": "{dimension.48-x}",
         "type": "sizing",
         "description": "192px"
       },
       "52-x": {
-        "value": "13rem",
+        "value": "{dimension.52-x}",
         "type": "sizing",
         "description": "208px"
       },
       "56-x": {
-        "value": "14rem",
+        "value": "{dimension.56-x}",
         "type": "sizing",
         "description": "224px"
       },
       "60-x": {
-        "value": "15rem",
+        "value": "{dimension.60-x}",
         "type": "sizing",
         "description": "240px"
       },
       "64-x": {
-        "value": "16rem",
+        "value": "{dimension.64-x}",
         "type": "sizing",
         "description": "256px"
       },
       "72-x": {
-        "value": "18rem",
+        "value": "{dimension.72-x}",
         "type": "sizing",
         "description": "288px"
       },
       "80-x": {
-        "value": "20rem",
+        "value": "{dimension.80-x}",
         "type": "sizing",
         "description": "320px"
       },
       "96-x": {
-        "value": "24rem",
+        "value": "{dimension.96-x}",
         "type": "sizing",
         "description": "384px"
       },
       "1-x": {
-        "value": "4px",
+        "value": "{dimension.1-x}",
         "type": "sizing",
-        "description": "Size: 4px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 4px"
       },
       "2-x": {
-        "value": "8px",
+        "value": "{dimension.2-x}",
         "type": "sizing",
-        "description": "Size: 8px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 8px"
       },
       "3-x": {
-        "value": "12px",
+        "value": "{dimension.3-x}",
         "type": "sizing",
-        "description": "Size: 12px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 12px"
       },
       "4-x": {
-        "value": "16px",
+        "value": "{dimension.4-x}",
         "type": "sizing",
-        "description": "Size: 16px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 16px"
       },
       "5-x": {
-        "value": "20px",
+        "value": "{dimension.5-x}",
         "type": "sizing",
-        "description": "Size: 20px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 20px"
       },
       "6-x": {
-        "value": "24px",
+        "value": "{dimension.6-x}",
         "type": "sizing",
-        "description": "Size: 24px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 24px"
       },
       "7-x": {
-        "value": "28px",
+        "value": "{dimension.7-x}",
         "type": "sizing",
-        "description": "Size: 28px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 28px"
       },
       "8-x": {
-        "value": "32px",
+        "value": "{dimension.8-x}",
         "type": "sizing",
-        "description": "Size: 32px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 32px"
       },
       "9-x": {
-        "value": "36px",
+        "value": "{dimension.9-x}",
         "type": "sizing",
-        "description": "Size: 36px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 36px"
       },
       "10-x": {
-        "value": "40px",
+        "value": "{dimension.10-x}",
         "type": "sizing",
-        "description": "Size: 40px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 40px"
       },
       "11-x": {
-        "value": "44px",
+        "value": "{dimension.11-x}",
         "type": "sizing",
-        "description": "Size: 44px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 44px"
       },
       "12-x": {
-        "value": "48px",
+        "value": "{dimension.12-x}",
         "type": "sizing",
-        "description": "Size: 48px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 48px"
       },
       "13-x": {
         "value": "52px",
@@ -1520,10 +1522,10 @@
         "themeable": "No"
       },
       "14-x": {
-        "value": "56px",
+        "value": "{dimension.14-x}",
         "type": "sizing",
-        "description": "Size: 56px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 56px"
       },
       "15-x": {
         "value": "60px",
@@ -1532,10 +1534,10 @@
         "themeable": "No"
       },
       "16-x": {
-        "value": "64px",
+        "value": "{dimension.16-x}",
         "type": "sizing",
-        "description": "Size: 64px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 64px"
       },
       "17-x": {
         "value": "68px",
@@ -1556,31 +1558,32 @@
         "themeable": "No"
       },
       "20-x": {
-        "value": "80px",
+        "value": "{dimension.20-x}",
         "type": "sizing",
-        "description": "Size: 80px",
-        "themeable": "No"
+        "themeable": "No",
+        "description": "Size: 80px"
       },
       "1px": {
         "value": "1px",
         "type": "sizing"
       },
       "0-5-x": {
-        "value": "0.125rem",
-        "type": "sizing"
+        "value": "{dimension.0-5-x}",
+        "type": "sizing",
+        "description": "2px"
       },
       "1-5-x": {
-        "value": "0.375rem",
+        "value": "{dimension.1-5-x}",
         "type": "sizing",
         "description": "6px"
       },
       "2-5-x": {
-        "value": "0.625rem",
+        "value": "{dimension.2-5-x}",
         "type": "sizing",
         "description": "10px"
       },
       "3-5-x": {
-        "value": "0.875rem",
+        "value": "{dimension.3-5-x}",
         "type": "sizing",
         "description": "14px"
       }
@@ -4104,7 +4107,6 @@
         "dimension.1-x": "e446cd863cd63ebc7b705e7d76050f27ae9cca94",
         "dimension.1-5-x": "0e712544f37e0b5b0d700500cba998241105739d",
         "dimension.2-x": "494516a1f18ccbdde602f8c90ae0d7d20099b253",
-        "dimension.2-5": "1a39fb97b7085d7df76283ae161e2237dfc343c0",
         "dimension.3-x": "e064607578647bcaa2fd0d946fddfe50e888ae6b",
         "dimension.3-5-x": "b487711c6c504ee1afef5e19ca9461f838d2eed6",
         "dimension.4-x": "a5d0355ac4da8662b66af3f9f9d26ba08fadef9b",
@@ -4461,7 +4463,8 @@
         "border-radius.09": "4335e87392e0a99eaf3b20dbaf38bbe2ad83964e",
         "border-radius.circle": "f35cf7318804d82135cd9c7f4129506f049d1172",
         "paragraph-indent.0": "1ccecb23be0624219d2b646a079b7e932d94c499",
-        "sizing.0-x": "c86288fb7b13bc3a79278c5cc5806a3db0392fb3"
+        "sizing.0-x": "c86288fb7b13bc3a79278c5cc5806a3db0392fb3",
+        "dimension.2-5-x": "1a39fb97b7085d7df76283ae161e2237dfc343c0"
       },
       "$figmaCollectionId": "VariableCollectionId:27:1503",
       "$figmaModeId": "27:0",
