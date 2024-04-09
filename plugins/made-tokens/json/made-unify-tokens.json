@@ -88,15 +88,40 @@
         "type": "dimension",
         "description": "48px"
       },
+      "13-x": {
+        "value": "3.25rem",
+        "type": "dimension",
+        "description": "52px"
+      },
       "14-x": {
         "value": "3.5rem",
         "type": "dimension",
         "description": "56px"
       },
+      "15-x": {
+        "value": "3.75rem",
+        "type": "dimension",
+        "description": "60px"
+      },
       "16-x": {
         "value": "4rem",
         "type": "dimension",
         "description": "64px"
+      },
+      "17-x": {
+        "value": "4.25rem",
+        "type": "dimension",
+        "description": "68px"
+      },
+      "18-x": {
+        "value": "4.5rem",
+        "type": "dimension",
+        "description": "72px"
+      },
+      "19-x": {
+        "value": "4.75rem",
+        "type": "dimension",
+        "description": "76px"
       },
       "20-x": {
         "value": "5rem",
