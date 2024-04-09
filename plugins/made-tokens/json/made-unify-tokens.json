@@ -1,10 +1,6 @@
 {
   "unify/primitive": {
     "dimension": {
-      "0": {
-        "value": "0rem",
-        "type": "dimension"
-      },
       "0-x": {
         "value": "0px",
         "type": "dimension"
@@ -201,7 +197,7 @@
     },
     "sizing": {
       "0-x": {
-        "value": "{dimension.0}",
+        "value": "{dimension.0-x}",
         "type": "sizing",
         "description": "0px"
       },
@@ -418,171 +414,191 @@
     },
     "spacing": {
       "0-x": {
-        "value": "{dimension.0}",
+        "value": "{dimension.0-x}",
         "type": "spacing",
         "description": "0px"
       },
       "0-5-x": {
-        "value": "0.125rem",
+        "value": "{dimension.0-5-x}",
         "type": "spacing"
       },
       "1-x": {
-        "value": "0.25rem",
+        "value": "{dimension.1-x}",
         "type": "spacing",
         "description": "4px"
       },
       "1-5-x": {
-        "value": "0.375rem",
+        "value": "{dimension.1-5-x}",
         "type": "spacing",
         "description": "6px"
       },
       "2-x": {
-        "value": "0.5rem",
+        "value": "{dimension.2-x}",
         "type": "spacing",
         "description": "8px"
       },
       "2-5-x": {
-        "value": "0.625rem",
+        "value": "{dimension.2-5-x}",
         "type": "spacing",
         "description": "10px"
       },
       "3-x": {
-        "value": "0.75rem",
+        "value": "{dimension.3-x}",
         "type": "spacing",
         "description": "12px"
       },
       "3-5-x": {
-        "value": "0.875rem",
+        "value": "{dimension.3-5-x}",
         "type": "spacing",
         "description": "14px"
       },
       "4-x": {
-        "value": "1rem",
+        "value": "{dimension.4-x}",
         "type": "spacing",
         "description": "16px"
       },
       "5-x": {
-        "value": "1.25rem",
+        "value": "{dimension.5-x}",
         "type": "spacing",
         "description": "20px"
       },
       "6-x": {
-        "value": "1.5rem",
+        "value": "{dimension.6-x}",
         "type": "spacing",
         "description": "24px"
       },
       "7-x": {
-        "value": "1.75rem",
+        "value": "{dimension.7-x}",
         "type": "spacing",
         "description": "28px"
       },
       "8-x": {
-        "value": "2rem",
+        "value": "{dimension.8-x}",
         "type": "spacing",
         "description": "32px"
       },
       "9-x": {
-        "value": "2.25rem",
+        "value": "{dimension.9-x}",
         "type": "spacing",
         "description": "36px"
       },
       "10-x": {
-        "value": "2.5rem",
+        "value": "{dimension.10-x}",
         "type": "spacing",
         "description": "40px"
       },
       "11-x": {
-        "value": "2.75rem",
+        "value": "{dimension.11-x}",
         "type": "spacing",
         "description": "44px"
       },
       "12-x": {
-        "value": "3rem",
+        "value": "{dimension.12-x}",
         "type": "spacing",
         "description": "48px"
       },
+      "13-x": {
+        "value": "{dimension.13-x}",
+        "type": "spacing"
+      },
       "14-x": {
-        "value": "3.5rem",
+        "value": "{dimension.14-x}",
         "type": "spacing",
         "description": "56px"
       },
+      "15-x": {
+        "value": "{dimension.15-x}",
+        "type": "spacing"
+      },
       "16-x": {
-        "value": "4rem",
+        "value": "{dimension.16-x}",
         "type": "spacing",
         "description": "64px"
       },
+      "17-x": {
+        "value": "{dimension.17-x}",
+        "type": "spacing"
+      },
+      "18-x": {
+        "value": "{dimension.18-x}",
+        "type": "spacing"
+      },
+      "19-x": {
+        "value": "{dimension.19-x}",
+        "type": "spacing"
+      },
       "20-x": {
-        "value": "5rem",
+        "value": "{dimension.20-x}",
         "type": "spacing",
         "description": "80px"
       },
       "24-x": {
-        "value": "6rem",
+        "value": "{dimension.24-x}",
         "type": "spacing",
         "description": "96px"
       },
       "28-x": {
-        "value": "7rem",
+        "value": "{dimension.28-x}",
         "type": "spacing",
         "description": "112px"
       },
       "32-x": {
-        "value": "8rem",
+        "value": "{dimension.32-x}",
         "type": "spacing",
         "description": "128px"
       },
       "36-x": {
-        "value": "9rem",
+        "value": "{dimension.36-x}",
         "type": "spacing",
         "description": "144px"
       },
       "40-x": {
-        "value": "10rem",
+        "value": "{dimension.40-x}",
         "type": "spacing",
         "description": "160px"
       },
       "44-x": {
-        "value": "11rem",
+        "value": "{dimension.44-x}",
         "type": "spacing",
         "description": "176px"
       },
       "48-x": {
-        "value": "12rem",
+        "value": "{dimension.48-x}",
         "type": "spacing",
         "description": "192px"
       },
       "52-x": {
-        "value": "13rem",
+        "value": "{dimension.52-x}",
         "type": "spacing",
         "description": "208px"
       },
       "56-x": {
-        "value": "14rem",
+        "value": "{dimension.56-x}",
         "type": "spacing",
         "description": "224px"
       },
       "60-x": {
-        "value": "15rem",
+        "value": "{dimension.60-x}",
         "type": "spacing",
         "description": "240px"
       },
       "64-x": {
-        "value": "16rem",
+        "value": "{dimension.64-x}",
         "type": "spacing",
         "description": "256px"
       },
       "72-x": {
-        "value": "18rem",
+        "value": "{dimension.72-x}",
         "type": "spacing",
         "description": "288px"
       },
       "80-x": {
-        "value": "20rem",
+        "value": "{dimension.80-x}",
         "type": "spacing",
         "description": "320px"
       },
       "96-x": {
-        "value": "24rem",
+        "value": "{dimension.96-x}",
         "type": "spacing",
         "description": "384px"
       }
@@ -4122,7 +4138,6 @@
         "grid.margin.sm": "bf23e3ad79b10c2f28fa95baf377171fdaf785dd",
         "grid.margin.md": "01753c12c52e9c80366d1a2b821a2111edf5b0b0",
         "grid.margin.lg": "e829be4e73724d45a7333bb224e3a043c9bde2d3",
-        "dimension.0": "2322f0f39025a172239184b0e8c29ef8c41cf73b",
         "dimension.0-x": "36e66a746e22dff9aacf7d66f4db4662c0060639",
         "dimension.0-5-x": "d62e0417cd88872238f387ab3de61c86f51845f9",
         "dimension.1-x": "e446cd863cd63ebc7b705e7d76050f27ae9cca94",
