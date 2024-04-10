@@ -2889,6 +2889,20 @@
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "selection-bg": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": ".5",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "The background color of a selected text"
+        },
         "on-color": {
           "value": "{color.white}",
           "type": "color",
@@ -3525,6 +3539,20 @@
           "value": "{color.gray.200}",
           "type": "color",
           "parent": "Semantic/Light"
+        },
+        "selection-bg": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": ".5",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "The background color of a selected text"
         },
         "on-color": {
           "value": "{color.gray.900}",
