@@ -1741,11 +1741,11 @@
     },
     "font-family": {
       "primary": {
-        "value": "Mark Offc For MC",
+        "value": "Inter",
         "type": "fontFamilies"
       },
       "secondary": {
-        "value": "MarkForMCNrw",
+        "value": "Inter",
         "type": "fontFamilies"
       }
     },
@@ -4089,6 +4089,16 @@
           "type": "other",
           "description": "Background dimming."
         }
+      }
+    },
+    "font-family": {
+      "primary": {
+        "value": "Mark Offc For MC",
+        "type": "fontFamilies"
+      },
+      "secondary": {
+        "value": "MarkForMCNrw",
+        "type": "fontFamilies"
       }
     }
   },
