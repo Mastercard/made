@@ -1922,7 +1922,7 @@
       "h4": {
         "value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.primary.medium}",
+          "fontWeight": "{font-weight.primary.bold}",
           "lineHeight": "{line-height.1}",
           "fontSize": "{font-size.xl}",
           "letterSpacing": "{letter-spacing.1}",
@@ -1937,7 +1937,7 @@
       "h5": {
         "value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.primary.medium}",
+          "fontWeight": "{font-weight.primary.bold}",
           "lineHeight": "{line-height.1}",
           "fontSize": "{font-size.lg}",
           "letterSpacing": "{letter-spacing.1}",
@@ -1952,7 +1952,7 @@
       "h6": {
         "value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.primary.medium}",
+          "fontWeight": "{font-weight.primary.bold}",
           "lineHeight": "{line-height.1}",
           "fontSize": "{font-size.base}",
           "letterSpacing": "{letter-spacing.1}",
