@@ -2458,24 +2458,24 @@
     "color": {
       "brand": {
         "primary": {
-          "value": "{color.gray.900}",
+          "value": "{color.neutral.900}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "secondary": {
-          "value": "{color.gray.900}",
+          "value": "{color.neutral.900}",
           "type": "color",
           "parent": "Semantic/Light"
         }
       },
       "background": {
         "default": {
-          "value": "{color.gray.50}",
+          "value": "{color.neutral.50}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
         "disabled": {
-          "value": "{color.gray.100}",
+          "value": "{color.neutral.100}",
           "type": "color"
         },
         "surface": {
@@ -2485,7 +2485,7 @@
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
           "raised": {
-            "value": "{color.gray.50}",
+            "value": "{color.neutral.50}",
             "type": "color",
             "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
           },
@@ -2494,11 +2494,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{color.gray.50}",
+            "value": "{color.neutral.50}",
             "type": "color"
           },
           "tertiary": {
-            "value": "{color.gray.100}",
+            "value": "{color.neutral.100}",
             "type": "color"
           }
         },
@@ -2510,11 +2510,11 @@
               "parent": "Semantic/Light"
             },
             "hovered": {
-              "value": "{color.gray.700}",
+              "value": "{color.neutral.700}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.gray.950}",
+              "value": "{color.neutral.950}",
               "type": "color"
             }
           },
@@ -2722,19 +2722,19 @@
           "description": ""
         },
         "default": {
-          "value": "{color.gray.200}",
+          "value": "{color.neutral.200}",
           "type": "color"
         },
         "bold": {
-          "value": "{color.gray.300}",
+          "value": "{color.neutral.300}",
           "type": "color"
         },
         "strong": {
-          "value": "{color.gray.400}",
+          "value": "{color.neutral.400}",
           "type": "color"
         },
         "neutral": {
-          "value": "{color.gray.200}",
+          "value": "{color.neutral.200}",
           "type": "color"
         },
         "focused": {
@@ -2743,11 +2743,11 @@
           "description": ""
         },
         "disabled": {
-          "value": "{color.gray.300}",
+          "value": "{color.neutral.300}",
           "type": "color"
         },
         "input": {
-          "value": "{color.gray.300}",
+          "value": "{color.neutral.300}",
           "type": "color"
         },
         "success": {
@@ -2785,7 +2785,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{color.gray.600}",
+          "value": "{color.neutral.600}",
           "type": "color"
         },
         "inverse": {
@@ -2806,11 +2806,11 @@
           }
         },
         "helper": {
-          "value": "{color.gray.500}",
+          "value": "{color.neutral.500}",
           "type": "color"
         },
         "neutral": {
-          "value": "{color.gray.700}",
+          "value": "{color.neutral.700}",
           "type": "color"
         },
         "on-color": {
@@ -2847,12 +2847,12 @@
           "description": "Brand color. For use on primary links."
         },
         "primary": {
-          "value": "{color.gray.900}",
+          "value": "{color.neutral.900}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
         "secondary": {
-          "value": "{color.gray.600}",
+          "value": "{color.neutral.600}",
           "type": "color",
           "description": "Secondary text;\nInput labels"
         },
@@ -2875,17 +2875,17 @@
           }
         },
         "placeholder": {
-          "value": "{color.gray.500}",
+          "value": "{color.neutral.500}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "helper": {
-          "value": "{color.gray.500}",
+          "value": "{color.neutral.500}",
           "type": "color",
           "description": "Tertiary text;\nHelp text"
         },
         "neutral": {
-          "value": "{color.gray.800}",
+          "value": "{color.neutral.800}",
           "type": "color",
           "parent": "Semantic/Light"
         },
@@ -2941,11 +2941,11 @@
           "description": ""
         },
         "hover": {
-          "value": "{color.gray.700}",
+          "value": "{color.neutral.700}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.gray.950}",
+          "value": "{color.neutral.950}",
           "type": "color"
         },
         "visited": {
