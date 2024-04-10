@@ -2488,6 +2488,38 @@
             "type": "color"
           }
         },
+        "brand": {
+          "primary": {
+            "default": {
+              "value": "{color.brand.primary}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hovered": {
+              "value": "{color.gray.100}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.gray.200}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{color.brand.secondary}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hovered": {
+              "value": "{color.gray.100}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.gray.200}",
+              "type": "color"
+            }
+          }
+        },
         "feedback": {
           "danger": {
             "default": {
@@ -3004,11 +3036,37 @@
         }
       },
       "background": {
-        "input": {
+        "default": {
+          "value": "{color.slate.700}",
+          "type": "color",
+          "description": "Default application background color. Should be set to either html or body element."
+        },
+        "disabled": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "surface": {
           "default": {
-            "value": "{color.background.surface.default}",
+            "value": "{color.gray.900}",
             "type": "color",
-            "description": ""
+            "description": "Default application surface color. Use this for e.g. card backgrounds."
+          },
+          "raised": {
+            "value": "{color.slate.700}",
+            "type": "color",
+            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
+          },
+          "transparent": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{color.gray.900}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{color.gray.700}",
+            "type": "color"
           }
         },
         "brand": {
@@ -3216,38 +3274,12 @@
             }
           }
         },
-        "surface": {
+        "input": {
           "default": {
-            "value": "{color.gray.900}",
+            "value": "{color.background.surface.default}",
             "type": "color",
-            "description": "Default application surface color. Use this for e.g. card backgrounds."
-          },
-          "transparent": {
-            "value": "transparent",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "{color.gray.900}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{color.gray.700}",
-            "type": "color"
-          },
-          "raised": {
-            "value": "{color.slate.700}",
-            "type": "color",
-            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
+            "description": ""
           }
-        },
-        "default": {
-          "value": "{color.slate.700}",
-          "type": "color",
-          "description": "Default application background color. Should be set to either html or body element."
-        },
-        "disabled": {
-          "value": "{color.white}",
-          "type": "color"
         }
       },
       "border": {
