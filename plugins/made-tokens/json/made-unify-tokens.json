@@ -2844,6 +2844,24 @@
           "value": "{color.text.discovery}",
           "type": "color",
           "description": ""
+        },
+        "neutral": {
+          "default": {
+            "value": "{color.text.brand}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.link.hover}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.link.pressed}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{color.link.visited}",
+            "type": "color"
+          }
         }
       },
       "text": {
@@ -3463,6 +3481,24 @@
           "value": "{color.text.discovery}",
           "type": "color",
           "description": ""
+        },
+        "neutral": {
+          "default": {
+            "value": "{color.text.brand}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.link.hover}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.link.pressed}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{color.link.visited}",
+            "type": "color"
+          }
         }
       },
       "text": {
