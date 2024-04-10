@@ -3055,17 +3055,17 @@
           "themeable": "Yes",
           "description": "4px. Default border radius for UI components"
         },
-        "large": {
-          "value": "{dimension.2-x}",
-          "type": "borderRadius",
-          "themeable": "Yes",
-          "description": "8px. Large border radius for UI components"
-        },
         "small": {
           "value": "{dimension.0-5-x}",
           "type": "borderRadius",
           "themeable": "Yes",
           "description": "2px. Small border radius for UI components"
+        },
+        "large": {
+          "value": "{dimension.2-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "8px. Large border radius for UI components"
         }
       }
     }
