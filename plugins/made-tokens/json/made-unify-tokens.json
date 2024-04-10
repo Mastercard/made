@@ -2832,6 +2832,10 @@
           "type": "color",
           "description": ""
         },
+        "hover": {
+          "value": "{color.gray.700}",
+          "type": "color"
+        },
         "pressed": {
           "value": "{color.gray.950}",
           "type": "color"
@@ -3446,6 +3450,10 @@
           "value": "{color.text.brand}",
           "type": "color",
           "description": ""
+        },
+        "hover": {
+          "value": "{color.gray.100}",
+          "type": "color"
         },
         "pressed": {
           "value": "{color.gray.200}",
