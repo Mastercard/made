@@ -1877,7 +1877,7 @@
       "h1": {
         "value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.primary.light}",
+          "fontWeight": "{font-weight.primary.bold}",
           "lineHeight": "{line-height.1}",
           "fontSize": "{font-size.4xl}",
           "letterSpacing": "{letter-spacing.1}",
@@ -4099,6 +4099,23 @@
       "secondary": {
         "value": "MarkForMCNrw",
         "type": "fontFamilies"
+      }
+    },
+    "heading": {
+      "h1": {
+        "value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.primary.light}",
+          "lineHeight": "{line-height.1}",
+          "fontSize": "{font-size.4xl}",
+          "letterSpacing": "{letter-spacing.1}",
+          "paragraphSpacing": "{paragraph-spacing.0}",
+          "paragraphIndent": "{paragraph-indent.0}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "type": "typography",
+        "description": "Figma-only design token."
       }
     }
   },
