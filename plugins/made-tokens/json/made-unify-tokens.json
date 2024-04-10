@@ -3395,8 +3395,24 @@
         }
       },
       "icon": {
+        "brand-primary": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "brand-secondary": {
+          "value": "{color.white}",
+          "type": "color"
+        },
         "primary": {
           "value": "{color.slate.300}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.slate.400}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.gray.900}",
           "type": "color"
         },
         "disabled": {
@@ -3412,16 +3428,20 @@
             }
           }
         },
-        "inverse": {
+        "helper": {
+          "value": "{color.slate.500}",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "{color.gray.300}",
+          "type": "color"
+        },
+        "on-color": {
           "value": "{color.gray.900}",
           "type": "color"
         },
-        "brand-primary": {
-          "value": "{color.white}",
-          "type": "color"
-        },
-        "brand-secondary": {
-          "value": "{color.white}",
+        "success": {
+          "value": "{color.green.300}",
           "type": "color"
         },
         "danger": {
@@ -3434,32 +3454,12 @@
           "type": "color",
           "description": "color.icon.warning"
         },
-        "success": {
-          "value": "{color.green.300}",
-          "type": "color"
-        },
-        "discovery": {
-          "value": "{color.purple.300}",
-          "type": "color"
-        },
         "information": {
           "value": "{color.blue.300}",
           "type": "color"
         },
-        "secondary": {
-          "value": "{color.slate.400}",
-          "type": "color"
-        },
-        "helper": {
-          "value": "{color.slate.500}",
-          "type": "color"
-        },
-        "on-color": {
-          "value": "{color.gray.900}",
-          "type": "color"
-        },
-        "neutral": {
-          "value": "{color.gray.300}",
+        "discovery": {
+          "value": "{color.purple.300}",
           "type": "color"
         }
       },
@@ -3502,10 +3502,25 @@
         }
       },
       "text": {
+        "brand": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Brand color. For use on primary links."
+        },
         "primary": {
           "value": "{color.gray.300}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+        },
+        "secondary": {
+          "value": "{color.slate.400}",
+          "type": "color",
+          "description": "Secondary text;\nInput labels"
+        },
+        "inverse": {
+          "value": "{color.gray.900}",
+          "type": "color",
+          "description": "Inverse text color"
         },
         "disabled": {
           "value": "{color.text.primary}",
@@ -3520,15 +3535,30 @@
             }
           }
         },
-        "inverse": {
+        "placeholder": {
+          "value": "{color.slate.400}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "helper": {
+          "value": "{color.slate.500}",
+          "type": "color",
+          "description": "Tertiary text;\nHelp text"
+        },
+        "neutral": {
+          "value": "{color.gray.200}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "on-color": {
           "value": "{color.gray.900}",
           "type": "color",
-          "description": "Inverse text color"
+          "description": "Text on interactive colors;\nText on button colors"
         },
-        "brand": {
-          "value": "{color.white}",
+        "success": {
+          "value": "{color.green.200}",
           "type": "color",
-          "description": "Brand color. For use on primary links."
+          "parent": "Semantic/Light"
         },
         "danger": {
           "value": "{color.red.200}",
@@ -3540,43 +3570,13 @@
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "success": {
-          "value": "{color.green.200}",
-          "type": "color",
-          "parent": "Semantic/Light"
-        },
-        "discovery": {
-          "value": "{color.purple.200}",
-          "type": "color",
-          "parent": "Semantic/Light"
-        },
         "information": {
           "value": "{color.blue.200}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "helper": {
-          "value": "{color.slate.500}",
-          "type": "color",
-          "description": "Tertiary text;\nHelp text"
-        },
-        "secondary": {
-          "value": "{color.slate.400}",
-          "type": "color",
-          "description": "Secondary text;\nInput labels"
-        },
-        "on-color": {
-          "value": "{color.gray.900}",
-          "type": "color",
-          "description": "Text on interactive colors;\nText on button colors"
-        },
-        "placeholder": {
-          "value": "{color.slate.400}",
-          "type": "color",
-          "parent": "Semantic/Light"
-        },
-        "neutral": {
-          "value": "{color.gray.200}",
+        "discovery": {
+          "value": "{color.purple.200}",
           "type": "color",
           "parent": "Semantic/Light"
         }
