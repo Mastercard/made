@@ -2826,44 +2826,6 @@
           "type": "color"
         }
       },
-      "link": {
-        "default": {
-          "value": "{color.text.brand}",
-          "type": "color",
-          "description": ""
-        },
-        "hover": {
-          "value": "{color.gray.700}",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "{color.gray.950}",
-          "type": "color"
-        },
-        "visited": {
-          "value": "{color.text.discovery}",
-          "type": "color",
-          "description": ""
-        },
-        "neutral": {
-          "default": {
-            "value": "{color.text.brand}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.link.hover}",
-            "type": "color"
-          },
-          "pressed": {
-            "value": "{color.link.pressed}",
-            "type": "color"
-          },
-          "visited": {
-            "value": "{color.link.visited}",
-            "type": "color"
-          }
-        }
-      },
       "text": {
         "brand": {
           "value": "{color.brand.primary}",
@@ -2942,6 +2904,44 @@
           "value": "{color.purple.800}",
           "type": "color",
           "parent": "Semantic/Light"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.text.brand}",
+          "type": "color",
+          "description": ""
+        },
+        "hover": {
+          "value": "{color.gray.700}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{color.gray.950}",
+          "type": "color"
+        },
+        "visited": {
+          "value": "{color.text.discovery}",
+          "type": "color",
+          "description": ""
+        },
+        "neutral": {
+          "default": {
+            "value": "{color.text.brand}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.link.hover}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.link.pressed}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{color.link.visited}",
+            "type": "color"
+          }
         }
       }
     },
@@ -3463,44 +3463,6 @@
           "type": "color"
         }
       },
-      "link": {
-        "default": {
-          "value": "{color.text.brand}",
-          "type": "color",
-          "description": ""
-        },
-        "hover": {
-          "value": "{color.gray.100}",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "{color.gray.200}",
-          "type": "color"
-        },
-        "visited": {
-          "value": "{color.text.discovery}",
-          "type": "color",
-          "description": ""
-        },
-        "neutral": {
-          "default": {
-            "value": "{color.text.brand}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.link.hover}",
-            "type": "color"
-          },
-          "pressed": {
-            "value": "{color.link.pressed}",
-            "type": "color"
-          },
-          "visited": {
-            "value": "{color.link.visited}",
-            "type": "color"
-          }
-        }
-      },
       "text": {
         "brand": {
           "value": "{color.white}",
@@ -3579,6 +3541,44 @@
           "value": "{color.purple.200}",
           "type": "color",
           "parent": "Semantic/Light"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.text.brand}",
+          "type": "color",
+          "description": ""
+        },
+        "hover": {
+          "value": "{color.gray.100}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{color.gray.200}",
+          "type": "color"
+        },
+        "visited": {
+          "value": "{color.text.discovery}",
+          "type": "color",
+          "description": ""
+        },
+        "neutral": {
+          "default": {
+            "value": "{color.text.brand}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.link.hover}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.link.pressed}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{color.link.visited}",
+            "type": "color"
+          }
         }
       }
     }
