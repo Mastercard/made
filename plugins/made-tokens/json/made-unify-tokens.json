@@ -1892,7 +1892,7 @@
       "h2": {
         "value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.primary.light}",
+          "fontWeight": "{font-weight.primary.bold}",
           "lineHeight": "{line-height.1}",
           "fontSize": "{font-size.3xl}",
           "letterSpacing": "{letter-spacing.1}",
@@ -1907,7 +1907,7 @@
       "h3": {
         "value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.primary.regular}",
+          "fontWeight": "{font-weight.primary.bold}",
           "lineHeight": "{line-height.1}",
           "fontSize": "{font-size.2xl}",
           "letterSpacing": "{letter-spacing.1}",
@@ -1922,7 +1922,7 @@
       "h4": {
         "value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.primary.regular}",
+          "fontWeight": "{font-weight.primary.medium}",
           "lineHeight": "{line-height.1}",
           "fontSize": "{font-size.xl}",
           "letterSpacing": "{letter-spacing.1}",
@@ -1937,7 +1937,7 @@
       "h5": {
         "value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.primary.regular}",
+          "fontWeight": "{font-weight.primary.medium}",
           "lineHeight": "{line-height.1}",
           "fontSize": "{font-size.lg}",
           "letterSpacing": "{letter-spacing.1}",
@@ -1968,7 +1968,7 @@
         "h1": {
           "value": {
             "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.primary.light}",
+            "fontWeight": "{font-weight.primary.bold}",
             "lineHeight": "{line-height.1}",
             "fontSize": "{font-size.7xl}",
             "letterSpacing": "{letter-spacing.1}",
@@ -1983,7 +1983,7 @@
         "h2": {
           "value": {
             "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.primary.light}",
+            "fontWeight": "{font-weight.primary.bold}",
             "lineHeight": "{line-height.1}",
             "fontSize": "{font-size.6xl}",
             "letterSpacing": "{letter-spacing.1}",
@@ -1998,7 +1998,7 @@
         "h3": {
           "value": {
             "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.primary.light}",
+            "fontWeight": "{font-weight.primary.bold}",
             "lineHeight": "{line-height.1}",
             "fontSize": "{font-size.5xl}",
             "letterSpacing": "{letter-spacing.1}",
@@ -4116,6 +4116,128 @@
         },
         "type": "typography",
         "description": "Figma-only design token."
+      },
+      "h2": {
+        "value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.primary.light}",
+          "lineHeight": "{line-height.1}",
+          "fontSize": "{font-size.3xl}",
+          "letterSpacing": "{letter-spacing.1}",
+          "paragraphSpacing": "{paragraph-spacing.0}",
+          "paragraphIndent": "{paragraph-indent.0}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "type": "typography",
+        "description": "Figma-only design token."
+      },
+      "h3": {
+        "value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.primary.regular}",
+          "lineHeight": "{line-height.1}",
+          "fontSize": "{font-size.2xl}",
+          "letterSpacing": "{letter-spacing.1}",
+          "paragraphSpacing": "{paragraph-spacing.0}",
+          "paragraphIndent": "{paragraph-indent.0}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "type": "typography",
+        "description": "Figma-only design token."
+      },
+      "h4": {
+        "value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.primary.regular}",
+          "lineHeight": "{line-height.1}",
+          "fontSize": "{font-size.xl}",
+          "letterSpacing": "{letter-spacing.1}",
+          "paragraphSpacing": "{paragraph-spacing.0}",
+          "paragraphIndent": "{paragraph-indent.0}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "type": "typography",
+        "description": "Figma-only design token."
+      },
+      "h5": {
+        "value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.primary.regular}",
+          "lineHeight": "{line-height.1}",
+          "fontSize": "{font-size.lg}",
+          "letterSpacing": "{letter-spacing.1}",
+          "paragraphSpacing": "{paragraph-spacing.0}",
+          "paragraphIndent": "{paragraph-indent.0}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "type": "typography",
+        "description": "Figma-only design token."
+      },
+      "h6": {
+        "value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.primary.medium}",
+          "lineHeight": "{line-height.1}",
+          "fontSize": "{font-size.base}",
+          "letterSpacing": "{letter-spacing.1}",
+          "paragraphSpacing": "{paragraph-spacing.0}",
+          "paragraphIndent": "{paragraph-indent.0}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "type": "typography",
+        "description": "Figma-only design token."
+      },
+      "display": {
+        "h1": {
+          "value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.primary.light}",
+            "lineHeight": "{line-height.1}",
+            "fontSize": "{font-size.7xl}",
+            "letterSpacing": "{letter-spacing.1}",
+            "paragraphSpacing": "{paragraph-spacing.0}",
+            "paragraphIndent": "{paragraph-indent.0}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Figma-only design token."
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.primary.light}",
+            "lineHeight": "{line-height.1}",
+            "fontSize": "{font-size.6xl}",
+            "letterSpacing": "{letter-spacing.1}",
+            "paragraphSpacing": "{paragraph-spacing.0}",
+            "paragraphIndent": "{paragraph-indent.0}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Figma-only design token."
+        },
+        "h3": {
+          "value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.primary.light}",
+            "lineHeight": "{line-height.1}",
+            "fontSize": "{font-size.5xl}",
+            "letterSpacing": "{letter-spacing.1}",
+            "paragraphSpacing": "{paragraph-spacing.0}",
+            "paragraphIndent": "{paragraph-indent.0}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "type": "typography",
+          "description": "Figma-only design token."
+        }
       }
     }
   },
