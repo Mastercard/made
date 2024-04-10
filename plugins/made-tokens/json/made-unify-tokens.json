@@ -2652,17 +2652,17 @@
           "tertiary": {
             "value": "{color.gray.100}",
             "type": "color"
+          },
+          "raised": {
+            "value": "{color.gray.50}",
+            "type": "color",
+            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
           }
         },
-        "background": {
+        "default": {
           "value": "{color.gray.50}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
-        },
-        "surface-raised": {
-          "value": "{color.gray.50}",
-          "type": "color",
-          "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
         },
         "disabled": {
           "value": "{color.gray.100}",
@@ -3233,17 +3233,17 @@
           "tertiary": {
             "value": "{color.gray.700}",
             "type": "color"
+          },
+          "raised": {
+            "value": "{color.slate.700}",
+            "type": "color",
+            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
           }
         },
-        "background": {
+        "default": {
           "value": "{color.slate.700}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
-        },
-        "surface-raised": {
-          "value": "{color.slate.700}",
-          "type": "color",
-          "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
         },
         "disabled": {
           "value": "{color.white}",
@@ -4099,7 +4099,6 @@
         "color.background.surface.transparent": "4eb76494afdf9a5b6780b1a840c1db76cbcfdea8",
         "color.background.surface.secondary": "8d4c7d88868ccc75bd13121936f58be82a8898bd",
         "color.background.surface.tertiary": "ded2bc22b662e8645c1adf5851576ed906c2f014",
-        "color.background.background": "876f4bb09df84d0e5221a981293a7e644c41a180",
         "color.background.disabled": "62b2cda423845188d337abcafaee9e5b5a195df6",
         "color.brand.primary": "3d184ed6b971f5e5406255415ea4c723e440588f",
         "color.brand.secondary": "cfe4092022cfaaeb34549ac1317b145de0f0206d",
@@ -4471,7 +4470,8 @@
         "sizing.0-x": "c86288fb7b13bc3a79278c5cc5806a3db0392fb3",
         "dimension.2-5-x": "1a39fb97b7085d7df76283ae161e2237dfc343c0",
         "spacing.2-5-x": "d4be462ba8cdaaaf799d643710d3e3fad64d2a1f",
-        "color.background.surface-raised": "c1e7a6bf0c7354c6a14950c0b3efd274c5a9a677"
+        "color.background.default": "876f4bb09df84d0e5221a981293a7e644c41a180",
+        "color.background.surface.raised": "c1e7a6bf0c7354c6a14950c0b3efd274c5a9a677"
       },
       "$figmaCollectionId": "VariableCollectionId:27:1503",
       "$figmaModeId": "27:0",
@@ -4579,11 +4579,11 @@
         "color.background.surface.transparent": "4eb76494afdf9a5b6780b1a840c1db76cbcfdea8",
         "color.background.surface.secondary": "8d4c7d88868ccc75bd13121936f58be82a8898bd",
         "color.background.surface.tertiary": "ded2bc22b662e8645c1adf5851576ed906c2f014",
-        "color.background.background": "876f4bb09df84d0e5221a981293a7e644c41a180",
         "color.background.disabled": "62b2cda423845188d337abcafaee9e5b5a195df6",
         "color.brand.primary": "3d184ed6b971f5e5406255415ea4c723e440588f",
         "color.brand.secondary": "cfe4092022cfaaeb34549ac1317b145de0f0206d",
-        "color.background.surface-raised": "c1e7a6bf0c7354c6a14950c0b3efd274c5a9a677"
+        "color.background.default": "876f4bb09df84d0e5221a981293a7e644c41a180",
+        "color.background.surface.raised": "c1e7a6bf0c7354c6a14950c0b3efd274c5a9a677"
       },
       "$figmaCollectionId": "VariableCollectionId:27:1503",
       "$figmaModeId": "27:1",
