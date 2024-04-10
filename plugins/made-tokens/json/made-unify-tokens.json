@@ -2455,11 +2455,37 @@
         }
       },
       "background": {
-        "input": {
+        "default": {
+          "value": "{color.gray.50}",
+          "type": "color",
+          "description": "Default application background color. Should be set to either html or body element."
+        },
+        "disabled": {
+          "value": "{color.gray.100}",
+          "type": "color"
+        },
+        "surface": {
           "default": {
-            "value": "{color.background.surface.default}",
+            "value": "{color.white}",
             "type": "color",
-            "description": ""
+            "description": "Default application surface color. Use this for e.g. card backgrounds."
+          },
+          "raised": {
+            "value": "{color.gray.50}",
+            "type": "color",
+            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
+          },
+          "transparent": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{color.gray.50}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{color.gray.100}",
+            "type": "color"
           }
         },
         "feedback": {
@@ -2635,38 +2661,12 @@
             }
           }
         },
-        "surface": {
+        "input": {
           "default": {
-            "value": "{color.white}",
+            "value": "{color.background.surface.default}",
             "type": "color",
-            "description": "Default application surface color. Use this for e.g. card backgrounds."
-          },
-          "transparent": {
-            "value": "transparent",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "{color.gray.50}",
-            "type": "color"
-          },
-          "tertiary": {
-            "value": "{color.gray.100}",
-            "type": "color"
-          },
-          "raised": {
-            "value": "{color.gray.50}",
-            "type": "color",
-            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
+            "description": ""
           }
-        },
-        "default": {
-          "value": "{color.gray.50}",
-          "type": "color",
-          "description": "Default application background color. Should be set to either html or body element."
-        },
-        "disabled": {
-          "value": "{color.gray.100}",
-          "type": "color"
         }
       },
       "border": {
