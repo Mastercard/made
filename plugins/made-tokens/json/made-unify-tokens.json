@@ -2950,7 +2950,7 @@
       },
       "link": {
         "default": {
-          "value": "{color.text.brand}",
+          "value": "{color.foreground.brand}",
           "type": "color",
           "description": ""
         },
@@ -2963,13 +2963,574 @@
           "type": "color"
         },
         "visited": {
-          "value": "{color.text.discovery}",
+          "value": "{color.foreground.discovery}",
           "type": "color",
           "description": ""
         },
         "neutral": {
           "default": {
-            "value": "{color.text.brand}",
+            "value": "{color.foreground.brand}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.link.hover}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.link.pressed}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{color.link.visited}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "grid": {
+      "gutters": {
+        "sm": {
+          "value": "{dimension.2-x}",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{dimension.4-x}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{dimension.4-x}",
+          "type": "spacing"
+        }
+      },
+      "margin": {
+        "sm": {
+          "value": "{dimension.2-x}",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{dimension.4-x}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{dimension.4-x}",
+          "type": "spacing"
+        }
+      }
+    },
+    "TW–border": {
+      "radius": {
+        "rounded-none": {
+          "value": "0px",
+          "type": "borderRadius"
+        },
+        "rounded-sm": {
+          "value": "0.125rem",
+          "type": "borderRadius"
+        },
+        "rounded": {
+          "value": "0.25rem",
+          "type": "borderRadius"
+        },
+        "rounded-md": {
+          "value": "0.375rem",
+          "type": "borderRadius"
+        },
+        "rounded-lg": {
+          "value": "0.5rem",
+          "type": "borderRadius"
+        },
+        "rounded-xl": {
+          "value": "0.75rem",
+          "type": "borderRadius"
+        },
+        "rounded-2xl": {
+          "value": "1rem",
+          "type": "borderRadius"
+        },
+        "rounded-3xl": {
+          "value": "1.5rem",
+          "type": "borderRadius"
+        },
+        "rounded-full": {
+          "value": "9999px",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "border": {
+      "radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "{dimension.1-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "4px. Default border radius for UI components"
+        },
+        "small": {
+          "value": "{dimension.0-5-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "2px. Small border radius for UI components"
+        },
+        "large": {
+          "value": "{dimension.2-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "8px. Large border radius for UI components"
+        }
+      }
+    }
+  },
+  "unify/semantic_v2": {
+    "color": {
+      "brand": {
+        "primary": {
+          "value": "{color.neutral.900}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "secondary": {
+          "value": "{color.neutral.900}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{color.neutral.50}",
+          "type": "color",
+          "description": "Default application background color. Should be set to either html or body element."
+        },
+        "disabled": {
+          "value": "{color.neutral.100}",
+          "type": "color"
+        },
+        "backdrop": {
+          "value": "{color.neutral.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.7",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Background on overlay used with modals\t"
+        },
+        "surface": {
+          "default": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "Default application surface color. Use this for e.g. card backgrounds."
+          },
+          "raised": {
+            "value": "{color.neutral.50}",
+            "type": "color",
+            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
+          },
+          "transparent": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{color.neutral.50}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{color.neutral.100}",
+            "type": "color"
+          }
+        },
+        "brand": {
+          "primary": {
+            "default": {
+              "value": "{color.brand.primary}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hovered": {
+              "value": "{color.neutral.700}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.neutral.950}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{color.brand.secondary}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hovered": {
+              "value": "{color.background.brand.primary.hovered}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.background.brand.primary.pressed}",
+              "type": "color"
+            }
+          }
+        },
+        "feedback": {
+          "danger": {
+            "default": {
+              "value": "{color.red.100}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{color.red.200}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.red.300}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.red.600}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{color.red.700}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{color.red.900}",
+                "type": "color"
+              }
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "{color.amber.100}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{color.amber.200}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.amber.300}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.amber.800}",
+                "type": "color",
+                "description": "color.background.warning.bold"
+              },
+              "hovered": {
+                "value": "{color.amber.700}",
+                "type": "color",
+                "description": "color.background.warning.bold.hovered"
+              },
+              "pressed": {
+                "value": "{color.amber.900}",
+                "type": "color",
+                "description": "color.background.warning.bold.pressed"
+              }
+            }
+          },
+          "success": {
+            "default": {
+              "value": "{color.green.100}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{color.green.300}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.green.400}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.green.700}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{color.green.800}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{color.green.900}",
+                "type": "color"
+              }
+            }
+          },
+          "discovery": {
+            "default": {
+              "value": "{color.purple.100}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{color.purple.200}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.purple.300}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.violet.700}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{color.violet.800}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{color.violet.900}",
+                "type": "color"
+              }
+            }
+          },
+          "information": {
+            "default": {
+              "value": "{color.blue.100}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{color.blue.200}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.blue.300}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.blue.600}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{color.blue.700}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{color.blue.900}",
+                "type": "color"
+              }
+            }
+          },
+          "neutral": {
+            "default": {
+              "value": "{color.neutral.200}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{color.neutral.300}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.neutral.300}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.neutral.900}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{color.neutral.700}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{color.neutral.950}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "input": {
+          "default": {
+            "value": "{color.background.surface.default}",
+            "type": "color",
+            "description": ""
+          }
+        }
+      },
+      "border": {
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "description": ""
+        },
+        "default": {
+          "value": "{color.neutral.200}",
+          "type": "color"
+        },
+        "bold": {
+          "value": "{color.neutral.300}",
+          "type": "color"
+        },
+        "strong": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "{color.neutral.200}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{color.border.brand}",
+          "type": "color",
+          "description": ""
+        },
+        "disabled": {
+          "value": "{color.neutral.300}",
+          "type": "color"
+        },
+        "input": {
+          "value": "{color.neutral.300}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.200}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color.red.200}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.amber.200}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{color.blue.200}",
+          "type": "color"
+        },
+        "discovery": {
+          "value": "{color.purple.200}",
+          "type": "color"
+        }
+      },
+      "foreground": {
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "description": "Brand color. For use on primary links."
+        },
+        "primary": {
+          "value": "{color.neutral.900}",
+          "type": "color",
+          "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+        },
+        "secondary": {
+          "value": "{color.neutral.600}",
+          "type": "color",
+          "description": "Secondary text;\nInput labels"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Inverse text color"
+        },
+        "disabled": {
+          "value": "{color.text.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "dimension.0.25",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "placeholder": {
+          "value": "{color.neutral.500}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "helper": {
+          "value": "{color.neutral.500}",
+          "type": "color",
+          "description": "Tertiary text;\nHelp text"
+        },
+        "neutral": {
+          "value": "{color.neutral.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "selection-bg": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": ".5",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "The background color of a selected text"
+        },
+        "on-color": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Text on interactive colors;\nText on button colors"
+        },
+        "success": {
+          "value": "{color.green.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "danger": {
+          "value": "{color.red.700}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "warning": {
+          "value": "{color.amber.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "information": {
+          "value": "{color.blue.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "discovery": {
+          "value": "{color.purple.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.foreground.brand}",
+          "type": "color",
+          "description": ""
+        },
+        "hover": {
+          "value": "{color.neutral.700}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{color.neutral.950}",
+          "type": "color"
+        },
+        "visited": {
+          "value": "{color.foreground.discovery}",
+          "type": "color",
+          "description": ""
+        },
+        "neutral": {
+          "default": {
+            "value": "{color.foreground.brand}",
             "type": "color"
           },
           "hover": {
@@ -3606,7 +4167,7 @@
       },
       "link": {
         "default": {
-          "value": "{color.text.brand}",
+          "value": "{color.foreground.brand}",
           "type": "color",
           "description": ""
         },
@@ -3619,13 +4180,13 @@
           "type": "color"
         },
         "visited": {
-          "value": "{color.text.discovery}",
+          "value": "{color.foreground.discovery}",
           "type": "color",
           "description": ""
         },
         "neutral": {
           "default": {
-            "value": "{color.text.brand}",
+            "value": "{color.foreground.brand}",
             "type": "color"
           },
           "hover": {
@@ -4623,8 +5184,7 @@
         },
         "disabled": {
           "value": "{color.neutral.400}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "helper": {
           "value": "{color.neutral.500}",
@@ -4757,7 +5317,7 @@
       },
       "link": {
         "default": {
-          "value": "{color.text.brand}",
+          "value": "{color.foreground.brand}",
           "type": "color",
           "description": ""
         },
@@ -4770,13 +5330,13 @@
           "type": "color"
         },
         "visited": {
-          "value": "{color.text.discovery}",
+          "value": "{color.foreground.discovery}",
           "type": "color",
           "description": ""
         },
         "neutral": {
           "default": {
-            "value": "{color.text.brand}",
+            "value": "{color.foreground.brand}",
             "type": "color"
           },
           "hover": {
@@ -4803,7 +5363,8 @@
       "selectedTokenSets": {
         "unify/primitive": "enabled",
         "unify/semantic": "enabled",
-        "unify/component": "enabled"
+        "unify/component": "enabled",
+        "unify/semantic_v2": "disabled"
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
@@ -4819,20 +5380,6 @@
         "border.radius.default": "63b0cd6424f8bea2dd7952d079389c94edd44c5e",
         "border.radius.large": "a61f52d0278b5060f67141f75100f58ed630073c",
         "border.radius.small": "9e771cf359bdbd35949e518a9d6cfef52ee6a13e",
-        "color.text.primary": "41f6f914deae47cc92a2c94538ad2e22f4b210f2",
-        "color.text.disabled": "67cd624418ebcc28f5ca8db7dc91b94c6d20bb3a",
-        "color.text.inverse": "46256f91453526d0d784470da8c0fd33087d327b",
-        "color.text.brand": "fb449a273b74b6c80f5d14e816603830d3e76f55",
-        "color.text.danger": "871d2d01156686a91110b407ed976150530267b7",
-        "color.text.warning": "d8ebdfb67ca977f9dbb1132e76a99fd25d199b74",
-        "color.text.success": "0b4bb1e719af83db45c6384d8103bfe810d81deb",
-        "color.text.discovery": "716418dde3ffb06405f23c6c4cd534563b80463c",
-        "color.text.information": "c87df7e6e7d60b272912fdd929a01baf309910ae",
-        "color.text.helper": "e5cb78ee5154c706161e0dd705b52bcdc3519148",
-        "color.text.secondary": "e5cb695a65008e01352c13745b2cc182deefbb87",
-        "color.text.on-color": "9b64ffa9c9e6eccb4a3a7bbaf5896dcf1e1b14dd",
-        "color.text.placeholder": "171a9bd7a5710690a6e1488ac88279daaa2376ab",
-        "color.text.neutral": "263e1219424012d37b2e6ad80afaca204a5bc67f",
         "color.link.default": "c6a878837715d7209db2e9d68fee68e89a0c823e",
         "color.link.pressed": "ae5c9b5ef3b319b2dfdf7c8a03134062d18cfe84",
         "color.link.visited": "b54970835e7295251b3a2c4ba3d83855901ebcdf",
@@ -5282,7 +5829,21 @@
         "dimension.2-5-x": "1a39fb97b7085d7df76283ae161e2237dfc343c0",
         "spacing.2-5-x": "d4be462ba8cdaaaf799d643710d3e3fad64d2a1f",
         "color.background.default": "876f4bb09df84d0e5221a981293a7e644c41a180",
-        "color.background.surface.raised": "c1e7a6bf0c7354c6a14950c0b3efd274c5a9a677"
+        "color.background.surface.raised": "c1e7a6bf0c7354c6a14950c0b3efd274c5a9a677",
+        "color.foreground.primary": "41f6f914deae47cc92a2c94538ad2e22f4b210f2",
+        "color.foreground.disabled": "67cd624418ebcc28f5ca8db7dc91b94c6d20bb3a",
+        "color.foreground.inverse": "46256f91453526d0d784470da8c0fd33087d327b",
+        "color.foreground.brand": "fb449a273b74b6c80f5d14e816603830d3e76f55",
+        "color.foreground.danger": "871d2d01156686a91110b407ed976150530267b7",
+        "color.foreground.warning": "d8ebdfb67ca977f9dbb1132e76a99fd25d199b74",
+        "color.foreground.success": "0b4bb1e719af83db45c6384d8103bfe810d81deb",
+        "color.foreground.discovery": "716418dde3ffb06405f23c6c4cd534563b80463c",
+        "color.foreground.information": "c87df7e6e7d60b272912fdd929a01baf309910ae",
+        "color.foreground.helper": "e5cb78ee5154c706161e0dd705b52bcdc3519148",
+        "color.foreground.secondary": "e5cb695a65008e01352c13745b2cc182deefbb87",
+        "color.foreground.on-color": "9b64ffa9c9e6eccb4a3a7bbaf5896dcf1e1b14dd",
+        "color.foreground.placeholder": "171a9bd7a5710690a6e1488ac88279daaa2376ab",
+        "color.foreground.neutral": "263e1219424012d37b2e6ad80afaca204a5bc67f"
       },
       "$figmaCollectionId": "VariableCollectionId:27:1503",
       "$figmaModeId": "27:0",
@@ -5296,23 +5857,10 @@
         "unify/primitive": "source",
         "unify/semantic": "source",
         "unify/component": "source",
-        "unify/themes/dark": "enabled"
+        "unify/themes/dark": "enabled",
+        "unify/semantic_v2": "disabled"
       },
       "$figmaVariableReferences": {
-        "color.text.primary": "41f6f914deae47cc92a2c94538ad2e22f4b210f2",
-        "color.text.disabled": "67cd624418ebcc28f5ca8db7dc91b94c6d20bb3a",
-        "color.text.inverse": "46256f91453526d0d784470da8c0fd33087d327b",
-        "color.text.brand": "fb449a273b74b6c80f5d14e816603830d3e76f55",
-        "color.text.danger": "871d2d01156686a91110b407ed976150530267b7",
-        "color.text.warning": "d8ebdfb67ca977f9dbb1132e76a99fd25d199b74",
-        "color.text.success": "0b4bb1e719af83db45c6384d8103bfe810d81deb",
-        "color.text.discovery": "716418dde3ffb06405f23c6c4cd534563b80463c",
-        "color.text.information": "c87df7e6e7d60b272912fdd929a01baf309910ae",
-        "color.text.helper": "e5cb78ee5154c706161e0dd705b52bcdc3519148",
-        "color.text.secondary": "e5cb695a65008e01352c13745b2cc182deefbb87",
-        "color.text.on-color": "9b64ffa9c9e6eccb4a3a7bbaf5896dcf1e1b14dd",
-        "color.text.placeholder": "171a9bd7a5710690a6e1488ac88279daaa2376ab",
-        "color.text.neutral": "263e1219424012d37b2e6ad80afaca204a5bc67f",
         "color.link.default": "c6a878837715d7209db2e9d68fee68e89a0c823e",
         "color.link.pressed": "ae5c9b5ef3b319b2dfdf7c8a03134062d18cfe84",
         "color.link.visited": "b54970835e7295251b3a2c4ba3d83855901ebcdf",
@@ -5394,7 +5942,21 @@
         "color.brand.primary": "3d184ed6b971f5e5406255415ea4c723e440588f",
         "color.brand.secondary": "cfe4092022cfaaeb34549ac1317b145de0f0206d",
         "color.background.default": "876f4bb09df84d0e5221a981293a7e644c41a180",
-        "color.background.surface.raised": "c1e7a6bf0c7354c6a14950c0b3efd274c5a9a677"
+        "color.background.surface.raised": "c1e7a6bf0c7354c6a14950c0b3efd274c5a9a677",
+        "color.foreground.primary": "41f6f914deae47cc92a2c94538ad2e22f4b210f2",
+        "color.foreground.disabled": "67cd624418ebcc28f5ca8db7dc91b94c6d20bb3a",
+        "color.foreground.inverse": "46256f91453526d0d784470da8c0fd33087d327b",
+        "color.foreground.brand": "fb449a273b74b6c80f5d14e816603830d3e76f55",
+        "color.foreground.danger": "871d2d01156686a91110b407ed976150530267b7",
+        "color.foreground.warning": "d8ebdfb67ca977f9dbb1132e76a99fd25d199b74",
+        "color.foreground.success": "0b4bb1e719af83db45c6384d8103bfe810d81deb",
+        "color.foreground.discovery": "716418dde3ffb06405f23c6c4cd534563b80463c",
+        "color.foreground.information": "c87df7e6e7d60b272912fdd929a01baf309910ae",
+        "color.foreground.helper": "e5cb78ee5154c706161e0dd705b52bcdc3519148",
+        "color.foreground.secondary": "e5cb695a65008e01352c13745b2cc182deefbb87",
+        "color.foreground.on-color": "9b64ffa9c9e6eccb4a3a7bbaf5896dcf1e1b14dd",
+        "color.foreground.placeholder": "171a9bd7a5710690a6e1488ac88279daaa2376ab",
+        "color.foreground.neutral": "263e1219424012d37b2e6ad80afaca204a5bc67f"
       },
       "$figmaCollectionId": "VariableCollectionId:27:1503",
       "$figmaModeId": "27:1",
@@ -5408,7 +5970,8 @@
         "unify/semantic": "source",
         "unify/component": "source",
         "themes/mastercard/theme - light": "enabled",
-        "themes/mastercard/primitives": "source"
+        "themes/mastercard/primitives": "source",
+        "unify/semantic_v2": "disabled"
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {},
@@ -5425,7 +5988,8 @@
         "unify/component": "source",
         "themes/mastercard/theme - dark": "enabled",
         "themes/mastercard/primitives": "source",
-        "themes/mastercard/theme - light": "source"
+        "themes/mastercard/theme - light": "source",
+        "unify/semantic_v2": "disabled"
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {},
@@ -5438,6 +6002,7 @@
     "tokenSetOrder": [
       "unify/primitive",
       "unify/semantic",
+      "unify/semantic_v2",
       "unify/component",
       "unify/themes/dark",
       "themes/mastercard/primitives",
