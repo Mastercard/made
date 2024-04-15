@@ -4285,7 +4285,7 @@
       },
       "background": {
         "default": {
-          "value": "{color.neutral.50}",
+          "value": "{color.white}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
@@ -4309,12 +4309,12 @@
         },
         "surface": {
           "default": {
-            "value": "{color.white}",
+            "value": "{color.gray.01-25}",
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
           "raised": {
-            "value": "{color.neutral.50}",
+            "value": "{color.gray.01-5}",
             "type": "color",
             "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
           },
@@ -4323,11 +4323,11 @@
             "type": "color"
           },
           "secondary": {
-            "value": "{color.neutral.50}",
+            "value": "{color.gray.01-5}",
             "type": "color"
           },
           "tertiary": {
-            "value": "{color.neutral.100}",
+            "value": "{color.gray.02}",
             "type": "color"
           }
         },
@@ -4339,11 +4339,11 @@
               "parent": "Semantic/Light"
             },
             "hovered": {
-              "value": "{color.neutral.700}",
+              "value": "{color.orange.05}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.neutral.950}",
+              "value": "{color.orange.06}",
               "type": "color"
             }
           },
