@@ -4610,7 +4610,7 @@
           "type": "color"
         },
         "primary": {
-          "value": "{color.brand.primary}",
+          "value": "{color.text.primary}",
           "type": "color"
         },
         "secondary": {
