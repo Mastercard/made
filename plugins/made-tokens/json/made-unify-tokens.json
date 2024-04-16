@@ -4309,7 +4309,7 @@
         },
         "surface": {
           "default": {
-            "value": "{color.gray.01-25}",
+            "value": "{color.white}",
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
