@@ -3444,20 +3444,40 @@
           "value": "{color.green.900}",
           "type": "color"
         },
+        "success-strong": {
+          "value": "{color.background.feedback.success.strong.default}",
+          "type": "color"
+        },
         "danger": {
           "value": "{color.red.900}",
+          "type": "color"
+        },
+        "danger-strong": {
+          "value": "{color.background.feedback.danger.strong.default}",
           "type": "color"
         },
         "warning": {
           "value": "{color.amber.900}",
           "type": "color"
         },
+        "warning-strong": {
+          "value": "{color.background.feedback.warning.strong.default}",
+          "type": "color"
+        },
         "information": {
           "value": "{color.blue.900}",
           "type": "color"
         },
+        "information-strong": {
+          "value": "{color.background.feedback.information.strong.default}",
+          "type": "color"
+        },
         "discovery": {
           "value": "{color.purple.900}",
+          "type": "color"
+        },
+        "discovery-strong": {
+          "value": "{color.background.feedback.discovery.strong.default}",
           "type": "color"
         }
       },
@@ -4603,20 +4623,40 @@
           "value": "{color.green-success.01}",
           "type": "color"
         },
+        "success-strong": {
+          "value": "{color.background.feedback.success.strong.default}",
+          "type": "color"
+        },
         "danger": {
           "value": "{color.red-error.01}",
+          "type": "color"
+        },
+        "danger-strong": {
+          "value": "{color.background.feedback.danger.strong.default}",
           "type": "color"
         },
         "warning": {
           "value": "{color.yellow.01}",
           "type": "color"
         },
+        "warning-strong": {
+          "value": "{color.background.feedback.warning.strong.default}",
+          "type": "color"
+        },
         "information": {
           "value": "{color.gold.01}",
           "type": "color"
         },
+        "information-strong": {
+          "value": "{color.background.feedback.information.strong.default}",
+          "type": "color"
+        },
         "discovery": {
           "value": "{color.teal.01}",
+          "type": "color"
+        },
+        "discovery-strong": {
+          "value": "{color.background.feedback.discovery.strong.default}",
           "type": "color"
         }
       },
