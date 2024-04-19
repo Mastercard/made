@@ -2229,20 +2229,40 @@
           "value": "{color.green.200}",
           "type": "color"
         },
+        "success-strong": {
+          "value": "{color.background.feedback.success.strong.default}",
+          "type": "color"
+        },
         "danger": {
           "value": "{color.red.200}",
+          "type": "color"
+        },
+        "danger-strong": {
+          "value": "{color.background.feedback.danger.strong.default}",
           "type": "color"
         },
         "warning": {
           "value": "{color.amber.200}",
           "type": "color"
         },
+        "warning-strong": {
+          "value": "{color.background.feedback.warning.strong.default}",
+          "type": "color"
+        },
         "information": {
           "value": "{color.blue.200}",
           "type": "color"
         },
+        "information-strong": {
+          "value": "{color.background.feedback.information.strong.default}",
+          "type": "color"
+        },
         "discovery": {
           "value": "{color.purple.200}",
+          "type": "color"
+        },
+        "discovery-strong": {
+          "value": "{color.background.feedback.discovery.strong.default}",
           "type": "color"
         }
       },
@@ -5353,7 +5373,6 @@
         "color.border.disabled": "396a143c9a16252d04bc1afde5f9a8af4c79b953",
         "color.border.input": "aa0a9fa0e19620a5095ba9be3a64a8e531183965",
         "color.border.success": "90da575995ef2fbd00d22e4261dca4add80f13d7",
-        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957",
         "color.border.warning": "7ac42973e28a0e7e81a623acc9fae72442ce0b7f",
         "color.border.information": "0a9e8fb5549a73980b9ef352a61840d9cd54a31c",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
@@ -5412,7 +5431,8 @@
         "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
-        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0"
+        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
+        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957"
       },
       "group": "themes"
     },
@@ -5491,7 +5511,6 @@
         "color.border.disabled": "396a143c9a16252d04bc1afde5f9a8af4c79b953",
         "color.border.input": "aa0a9fa0e19620a5095ba9be3a64a8e531183965",
         "color.border.success": "90da575995ef2fbd00d22e4261dca4add80f13d7",
-        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957",
         "color.border.warning": "7ac42973e28a0e7e81a623acc9fae72442ce0b7f",
         "color.border.information": "0a9e8fb5549a73980b9ef352a61840d9cd54a31c",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
@@ -5531,7 +5550,8 @@
         "color.link.neutral.default": "bd62ff5c2ad7029b17e43b335dd5c6479e253dbd",
         "color.link.neutral.hover": "a9266f5777b6d77c9ec6e5bb3a9264b192a0c65b",
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
-        "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c"
+        "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
+        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957"
       },
       "group": "themes"
     },
@@ -5611,7 +5631,6 @@
         "color.border.disabled": "396a143c9a16252d04bc1afde5f9a8af4c79b953",
         "color.border.input": "aa0a9fa0e19620a5095ba9be3a64a8e531183965",
         "color.border.success": "90da575995ef2fbd00d22e4261dca4add80f13d7",
-        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957",
         "color.border.warning": "7ac42973e28a0e7e81a623acc9fae72442ce0b7f",
         "color.border.information": "0a9e8fb5549a73980b9ef352a61840d9cd54a31c",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
@@ -5651,7 +5670,8 @@
         "color.link.neutral.default": "bd62ff5c2ad7029b17e43b335dd5c6479e253dbd",
         "color.link.neutral.hover": "a9266f5777b6d77c9ec6e5bb3a9264b192a0c65b",
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
-        "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c"
+        "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
+        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957"
       },
       "group": "themes"
     },
