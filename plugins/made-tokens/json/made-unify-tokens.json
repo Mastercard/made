@@ -5413,9 +5413,15 @@
         "color.border.disabled": "396a143c9a16252d04bc1afde5f9a8af4c79b953",
         "color.border.input": "aa0a9fa0e19620a5095ba9be3a64a8e531183965",
         "color.border.success": "90da575995ef2fbd00d22e4261dca4add80f13d7",
+        "color.border.success-strong": "a3a14248d67a115df25eedc0669d584bb3f20674",
+        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957",
+        "color.border.danger-strong": "7fcf81c08927747cb55689e4d20331300d54bde9",
         "color.border.warning": "7ac42973e28a0e7e81a623acc9fae72442ce0b7f",
+        "color.border.warning-strong": "823b3e32b10d4476d6fcfa545254005be22e60a5",
         "color.border.information": "0a9e8fb5549a73980b9ef352a61840d9cd54a31c",
+        "color.border.information-strong": "a80256174c2a25f4f07380e456e8aa59a5955a01",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
+        "color.border.discovery-strong": "7614c9a2f458f7f5ecf484651eba32a774ce6eb0",
         "color.icon.brand-primary": "29975d92b842054b9b2b62065e10f097b7f225f4",
         "color.icon.brand-secondary": "76a7f15caf0c73c9da18952fb04e383eeae9e82b",
         "color.icon.primary": "414553162270932295149fe0abd09505466e4e67",
@@ -5471,8 +5477,7 @@
         "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
-        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957"
+        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0"
       },
       "group": "themes"
     },
@@ -5551,8 +5556,13 @@
         "color.border.disabled": "396a143c9a16252d04bc1afde5f9a8af4c79b953",
         "color.border.input": "aa0a9fa0e19620a5095ba9be3a64a8e531183965",
         "color.border.success": "90da575995ef2fbd00d22e4261dca4add80f13d7",
+        "color.border.success-strong": "a3a14248d67a115df25eedc0669d584bb3f20674",
+        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957",
+        "color.border.danger-strong": "7fcf81c08927747cb55689e4d20331300d54bde9",
         "color.border.warning": "7ac42973e28a0e7e81a623acc9fae72442ce0b7f",
+        "color.border.warning-strong": "823b3e32b10d4476d6fcfa545254005be22e60a5",
         "color.border.information": "0a9e8fb5549a73980b9ef352a61840d9cd54a31c",
+        "color.border.information-strong": "a80256174c2a25f4f07380e456e8aa59a5955a01",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
         "color.icon.brand-primary": "29975d92b842054b9b2b62065e10f097b7f225f4",
         "color.icon.brand-secondary": "76a7f15caf0c73c9da18952fb04e383eeae9e82b",
@@ -5591,7 +5601,7 @@
         "color.link.neutral.hover": "a9266f5777b6d77c9ec6e5bb3a9264b192a0c65b",
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
         "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
-        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957"
+        "color.border.discovery-strong": "7614c9a2f458f7f5ecf484651eba32a774ce6eb0"
       },
       "group": "themes"
     },
@@ -5671,8 +5681,13 @@
         "color.border.disabled": "396a143c9a16252d04bc1afde5f9a8af4c79b953",
         "color.border.input": "aa0a9fa0e19620a5095ba9be3a64a8e531183965",
         "color.border.success": "90da575995ef2fbd00d22e4261dca4add80f13d7",
+        "color.border.success-strong": "a3a14248d67a115df25eedc0669d584bb3f20674",
+        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957",
+        "color.border.danger-strong": "7fcf81c08927747cb55689e4d20331300d54bde9",
         "color.border.warning": "7ac42973e28a0e7e81a623acc9fae72442ce0b7f",
+        "color.border.warning-strong": "823b3e32b10d4476d6fcfa545254005be22e60a5",
         "color.border.information": "0a9e8fb5549a73980b9ef352a61840d9cd54a31c",
+        "color.border.information-strong": "a80256174c2a25f4f07380e456e8aa59a5955a01",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
         "color.icon.brand-primary": "29975d92b842054b9b2b62065e10f097b7f225f4",
         "color.icon.brand-secondary": "76a7f15caf0c73c9da18952fb04e383eeae9e82b",
@@ -5711,7 +5726,7 @@
         "color.link.neutral.hover": "a9266f5777b6d77c9ec6e5bb3a9264b192a0c65b",
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
         "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
-        "color.border.danger": "9aa7f831aad3211656febf25e26fd23945109957"
+        "color.border.discovery-strong": "7614c9a2f458f7f5ecf484651eba32a774ce6eb0"
       },
       "group": "themes"
     },
