@@ -2559,6 +2559,10 @@
           "type": "borderRadius",
           "themeable": "Yes",
           "description": "8px. Large border radius for UI components"
+        },
+        "full": {
+          "value": "100%",
+          "type": "borderRadius"
         }
       }
     },
