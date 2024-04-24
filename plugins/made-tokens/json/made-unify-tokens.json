@@ -2218,7 +2218,7 @@
           "description": ""
         },
         "disabled": {
-          "value": "{color.neutral.300}",
+          "value": "{color.neutral.100}",
           "type": "color"
         },
         "input": {
@@ -5475,7 +5475,8 @@
         "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
-        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0"
+        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
+        "border.radius.full": "30d137fe56e5a7994ca0c9190bab908e3dd5078f"
       },
       "group": "themes"
     },
