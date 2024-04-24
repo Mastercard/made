@@ -2431,9 +2431,8 @@
       },
       "link": {
         "default": {
-          "value": "{color.foreground.brand}",
-          "type": "color",
-          "description": ""
+          "value": "{color.text.brand}",
+          "type": "color"
         },
         "hover": {
           "value": "{color.neutral.700}",
@@ -2449,19 +2448,19 @@
         },
         "neutral": {
           "default": {
-            "value": "{color.foreground.brand}",
+            "value": "{color.text.primary}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.link.hover}",
+            "value": "{color.neutral.600}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.link.pressed}",
+            "value": "{color.neutral.950}",
             "type": "color"
           },
           "visited": {
-            "value": "{color.link.visited}",
+            "value": "{color.neutral.400}",
             "type": "color"
           }
         }
@@ -3645,9 +3644,8 @@
       },
       "link": {
         "default": {
-          "value": "{color.foreground.brand}",
-          "type": "color",
-          "description": ""
+          "value": "{color.text.brand}",
+          "type": "color"
         },
         "hover": {
           "value": "{color.neutral.100}",
@@ -5342,8 +5340,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "unify/primitive": "source",
-        "unify/semantic": "enabled",
-        "unify/component": "enabled"
+        "unify/semantic": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:2",
