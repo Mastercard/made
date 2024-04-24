@@ -2444,9 +2444,8 @@
           "type": "color"
         },
         "visited": {
-          "value": "{color.foreground.discovery}",
-          "type": "color",
-          "description": ""
+          "value": "{color.text.discovery}",
+          "type": "color"
         },
         "neutral": {
           "default": {
@@ -3659,9 +3658,8 @@
           "type": "color"
         },
         "visited": {
-          "value": "{color.foreground.discovery}",
-          "type": "color",
-          "description": ""
+          "value": "{color.text.discovery}",
+          "type": "color"
         },
         "neutral": {
           "default": {
@@ -4829,9 +4827,8 @@
           "type": "color"
         },
         "visited": {
-          "value": "{color.foreground.discovery}",
-          "type": "color",
-          "description": ""
+          "value": "{color.text.discovery}",
+          "type": "color"
         },
         "neutral": {
           "default": {
