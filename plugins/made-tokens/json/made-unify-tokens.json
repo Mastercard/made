@@ -2363,7 +2363,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.35",
+                "value": "0.40",
                 "space": "lch"
               }
             }
