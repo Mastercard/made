@@ -2561,7 +2561,7 @@
           "description": "8px. Large border radius for UI components"
         },
         "full": {
-          "value": "100%",
+          "value": "{dimension.96-x}",
           "type": "borderRadius"
         }
       }
@@ -5476,7 +5476,7 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "30d137fe56e5a7994ca0c9190bab908e3dd5078f"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
       },
       "group": "themes"
     },
@@ -5486,7 +5486,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "unify/primitive": "source",
-        "unify/semantic": "source",
+        "unify/semantic": "enabled",
         "unify/component": "source",
         "unify/themes/dark": "enabled"
       },
@@ -5600,7 +5600,27 @@
         "color.link.neutral.default": "bd62ff5c2ad7029b17e43b335dd5c6479e253dbd",
         "color.link.neutral.hover": "a9266f5777b6d77c9ec6e5bb3a9264b192a0c65b",
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
-        "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c"
+        "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
+        "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
+        "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
+        "grid.gutters.lg": "ed566cf1a5c7ee3da79ce9f9b87bb82d32c8145b",
+        "grid.margin.sm": "6a8b49ab4fb8c7b896306d1fc32ea0fb78bfec74",
+        "grid.margin.md": "1b446200586aea3130133f7941c02bc8cc3830a4",
+        "grid.margin.lg": "da4c457285a9a0f71b12d915374b48e841204be8",
+        "TW–border.radius.rounded-none": "c01dc6e6a973624e7130beea161446684c6664ec",
+        "TW–border.radius.rounded-sm": "16bb5f2258e1fd6807bf3f3f4683d9aa25f2b5c3",
+        "TW–border.radius.rounded": "407dc218a773a3caf82adc9f458d1fd6dcdd9f78",
+        "TW–border.radius.rounded-md": "9dabb3d845d94588b89550d1b14a5d6ebecdfd44",
+        "TW–border.radius.rounded-lg": "776eb7fc8cca5e856b4dfdbfe8fd32a22a128b51",
+        "TW–border.radius.rounded-xl": "2dcb981b10df71f8060a4639b6dbb1ff6d2f9638",
+        "TW–border.radius.rounded-2xl": "9badfdff66cff78d46d83fe7fe0e9e13ab9070f4",
+        "TW–border.radius.rounded-3xl": "9a61c6f820ef133f42a405e183832c1b65b5d59f",
+        "TW–border.radius.rounded-full": "ae27191c61802c33cd53f1e22f2809cd81bb0ae6",
+        "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
+        "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
+        "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
+        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
       },
       "group": "themes"
     },
@@ -5610,7 +5630,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "unify/primitive": "source",
-        "unify/semantic": "source",
+        "unify/semantic": "enabled",
         "unify/component": "source",
         "themes/mastercard/primitives": "source",
         "themes/mastercard/theme - light": "enabled"
@@ -5725,7 +5745,27 @@
         "color.link.neutral.default": "bd62ff5c2ad7029b17e43b335dd5c6479e253dbd",
         "color.link.neutral.hover": "a9266f5777b6d77c9ec6e5bb3a9264b192a0c65b",
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
-        "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c"
+        "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
+        "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
+        "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
+        "grid.gutters.lg": "ed566cf1a5c7ee3da79ce9f9b87bb82d32c8145b",
+        "grid.margin.sm": "6a8b49ab4fb8c7b896306d1fc32ea0fb78bfec74",
+        "grid.margin.md": "1b446200586aea3130133f7941c02bc8cc3830a4",
+        "grid.margin.lg": "da4c457285a9a0f71b12d915374b48e841204be8",
+        "TW–border.radius.rounded-none": "c01dc6e6a973624e7130beea161446684c6664ec",
+        "TW–border.radius.rounded-sm": "16bb5f2258e1fd6807bf3f3f4683d9aa25f2b5c3",
+        "TW–border.radius.rounded": "407dc218a773a3caf82adc9f458d1fd6dcdd9f78",
+        "TW–border.radius.rounded-md": "9dabb3d845d94588b89550d1b14a5d6ebecdfd44",
+        "TW–border.radius.rounded-lg": "776eb7fc8cca5e856b4dfdbfe8fd32a22a128b51",
+        "TW–border.radius.rounded-xl": "2dcb981b10df71f8060a4639b6dbb1ff6d2f9638",
+        "TW–border.radius.rounded-2xl": "9badfdff66cff78d46d83fe7fe0e9e13ab9070f4",
+        "TW–border.radius.rounded-3xl": "9a61c6f820ef133f42a405e183832c1b65b5d59f",
+        "TW–border.radius.rounded-full": "ae27191c61802c33cd53f1e22f2809cd81bb0ae6",
+        "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
+        "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
+        "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
+        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
       },
       "group": "themes"
     },
@@ -5735,7 +5775,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "unify/primitive": "source",
-        "unify/semantic": "source",
+        "unify/semantic": "enabled",
         "unify/component": "source",
         "themes/mastercard/primitives": "source",
         "themes/mastercard/theme - light": "source",
@@ -5743,7 +5783,28 @@
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:5",
-      "$figmaVariableReferences": {},
+      "$figmaVariableReferences": {
+        "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
+        "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
+        "grid.gutters.lg": "ed566cf1a5c7ee3da79ce9f9b87bb82d32c8145b",
+        "grid.margin.sm": "6a8b49ab4fb8c7b896306d1fc32ea0fb78bfec74",
+        "grid.margin.md": "1b446200586aea3130133f7941c02bc8cc3830a4",
+        "grid.margin.lg": "da4c457285a9a0f71b12d915374b48e841204be8",
+        "TW–border.radius.rounded-none": "c01dc6e6a973624e7130beea161446684c6664ec",
+        "TW–border.radius.rounded-sm": "16bb5f2258e1fd6807bf3f3f4683d9aa25f2b5c3",
+        "TW–border.radius.rounded": "407dc218a773a3caf82adc9f458d1fd6dcdd9f78",
+        "TW–border.radius.rounded-md": "9dabb3d845d94588b89550d1b14a5d6ebecdfd44",
+        "TW–border.radius.rounded-lg": "776eb7fc8cca5e856b4dfdbfe8fd32a22a128b51",
+        "TW–border.radius.rounded-xl": "2dcb981b10df71f8060a4639b6dbb1ff6d2f9638",
+        "TW–border.radius.rounded-2xl": "9badfdff66cff78d46d83fe7fe0e9e13ab9070f4",
+        "TW–border.radius.rounded-3xl": "9a61c6f820ef133f42a405e183832c1b65b5d59f",
+        "TW–border.radius.rounded-full": "ae27191c61802c33cd53f1e22f2809cd81bb0ae6",
+        "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
+        "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
+        "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
+        "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+      },
       "group": "themes"
     }
   ],
