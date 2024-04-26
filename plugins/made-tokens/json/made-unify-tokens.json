@@ -3128,7 +3128,7 @@
           "description": "Default application background color. Should be set to either html or body element."
         },
         "disabled": {
-          "value": "{color.white}",
+          "value": "{color.neutral.800}",
           "type": "color"
         },
         "backdrop": {
@@ -3426,17 +3426,9 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.neutral.300}",
+          "value": "{color.neutral.700}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.08",
-                "space": "lch"
-              }
-            }
-          }
+          "$extensions": {}
         },
         "input": {
           "value": "{color.neutral.500}",
@@ -3505,17 +3497,9 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.icon.primary}",
+          "value": "{color.neutral.600}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.25",
-                "space": "lch"
-              }
-            }
-          }
+          "$extensions": {}
         },
         "helper": {
           "value": "{color.neutral.500}",
@@ -3574,17 +3558,9 @@
           "description": "Inverse text color"
         },
         "disabled": {
-          "value": "{color.text.primary}",
+          "value": "{color.neutral.500}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.50",
-                "space": "lch"
-              }
-            }
-          }
+          "$extensions": {}
         },
         "placeholder": {
           "value": "{color.neutral.400}",
