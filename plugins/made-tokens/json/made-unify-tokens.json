@@ -2219,7 +2219,8 @@
         },
         "disabled": {
           "value": "{color.neutral.100}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {}
         },
         "input": {
           "value": "{color.neutral.300}",
@@ -2357,7 +2358,7 @@
           "description": "Inverse text color"
         },
         "disabled": {
-          "value": "{color.text.primary}",
+          "value": "{color.neutral.400}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -3427,8 +3428,7 @@
         },
         "disabled": {
           "value": "{color.neutral.700}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "input": {
           "value": "{color.neutral.500}",
@@ -3498,8 +3498,7 @@
         },
         "disabled": {
           "value": "{color.neutral.600}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "helper": {
           "value": "{color.neutral.500}",
@@ -3559,8 +3558,7 @@
         },
         "disabled": {
           "value": "{color.neutral.500}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "placeholder": {
           "value": "{color.neutral.400}",
