@@ -2219,8 +2219,7 @@
         },
         "disabled": {
           "value": "{color.neutral.100}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "input": {
           "value": "{color.neutral.300}",
@@ -2294,8 +2293,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "alpha",
-                "value": "0.25",
+                "type": "lighten",
+                "value": "0.80",
                 "space": "lch"
               }
             }
@@ -2363,8 +2362,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "alpha",
-                "value": "0.40",
+                "type": "lighten",
+                "value": "0.60",
                 "space": "lch"
               }
             }
