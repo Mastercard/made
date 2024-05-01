@@ -3659,64 +3659,6 @@
   },
   "themes/mastercard/primitives": {
     "color": {
-      "accent": {
-        "01": {
-          "dark": {
-            "value": "#852D01",
-            "type": "color",
-            "description": "Accent color 1 - Dark",
-            "themeable": "No"
-          },
-          "darker": {
-            "value": "#331505",
-            "type": "color",
-            "description": "Accent color 1 - Darker",
-            "themeable": "No"
-          },
-          "default": {
-            "value": "#CF4500",
-            "type": "color",
-            "description": "Accent color 1",
-            "themeable": "No"
-          },
-          "light": {
-            "value": "#D0805B",
-            "type": "color",
-            "description": "Accent color 1- Light",
-            "themeable": "No"
-          }
-        },
-        "02": {
-          "value": "#F37338",
-          "type": "color",
-          "description": "Accent color 2"
-        },
-        "03": {
-          "value": "#F38B00",
-          "type": "color",
-          "description": "Accent color 3"
-        },
-        "04": {
-          "value": "#FFC61E",
-          "type": "color",
-          "description": "Accent color 4"
-        },
-        "05": {
-          "value": "#628020",
-          "type": "color",
-          "description": "Accent color 5"
-        },
-        "06": {
-          "value": "#25836D",
-          "type": "color",
-          "description": "Accent color 6"
-        },
-        "07": {
-          "value": "#D7373C",
-          "type": "color",
-          "description": "Accent color 7"
-        }
-      },
       "gold": {
         "01": {
           "value": "#FCE8CC",
