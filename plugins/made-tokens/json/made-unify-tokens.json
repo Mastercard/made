@@ -3104,6 +3104,19 @@
           "type": "typography"
         }
       }
+    },
+    "box-shadow": {
+      "default": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "10",
+          "spread": "0",
+          "color": "{color.neutral.700}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
     }
   },
   "unify/component": {},
@@ -5256,7 +5269,9 @@
     {
       "id": "4a716a885dd099f0530a9b3a241d3e30c600e992",
       "name": "unify - light",
-      "$figmaStyleReferences": {},
+      "$figmaStyleReferences": {
+        "box-shadow.default": "S:3fb3609454162656ec07cd90fa5d16dd6d79ad3d,"
+      },
       "selectedTokenSets": {
         "unify/primitive": "source",
         "unify/semantic": "enabled"
