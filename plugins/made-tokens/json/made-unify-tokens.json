@@ -2521,6 +2521,12 @@
             "type": "color"
           }
         }
+      },
+      "box-shadow": {
+        "default": {
+          "value": "{color.neutral.200}",
+          "type": "color"
+        }
       }
     },
     "grid": {
@@ -3196,7 +3202,7 @@
           "y": "1",
           "blur": "3",
           "spread": "0",
-          "color": "{color.neutral.200}",
+          "color": "{color.box-shadow.default}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -3751,6 +3757,12 @@
             "type": "color"
           }
         }
+      },
+      "box-shadow": {
+        "default": {
+          "value": "{color.neutral.600}",
+          "type": "color"
+        }
       }
     },
     "box-shadow": {
@@ -3760,7 +3772,7 @@
           "y": "1",
           "blur": "3",
           "spread": "0",
-          "color": "{color.neutral.600}",
+          "color": "{color.box-shadow.default}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -5496,7 +5508,8 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
+        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a"
       },
       "group": "themes"
     },
@@ -5621,6 +5634,7 @@
         "color.link.neutral.hover": "a9266f5777b6d77c9ec6e5bb3a9264b192a0c65b",
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
         "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
+        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
         "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
@@ -5795,7 +5809,8 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
+        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a"
       },
       "group": "themes"
     },
@@ -5838,7 +5853,8 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
+        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a"
       },
       "group": "themes"
     }
