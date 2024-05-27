@@ -2020,22 +2020,24 @@
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
-          "raised": {
+          "hover": {
             "value": "{color.neutral.50}",
             "type": "color",
-            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
+            "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
           "transparent": {
             "value": "transparent",
             "type": "color"
           },
-          "secondary": {
+          "selected": {
             "value": "{color.neutral.50}",
-            "type": "color"
+            "type": "color",
+            "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
-          "tertiary": {
+          "selected-hover": {
             "value": "{color.neutral.100}",
-            "type": "color"
+            "type": "color",
+            "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           }
         },
         "brand": {
@@ -2324,6 +2326,10 @@
         },
         "discovery-strong": {
           "value": "{color.background.feedback.discovery.strong.default}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.white}",
           "type": "color"
         }
       },
@@ -3450,7 +3456,7 @@
           },
           "neutral": {
             "default": {
-              "value": "{color.background.surface.tertiary}",
+              "value": "{color.background.surface.selected-hover}",
               "type": "color"
             },
             "hovered": {
@@ -5385,10 +5391,7 @@
         "color.background.disabled": "f5743a792b4557aa9bf3e31d040746a4554f7ef7",
         "color.background.backdrop": "f476ebef4b3fef98e874afc8dacbc1b527d92324",
         "color.background.surface.default": "e3dbc93dc2c903c71eab10753c3daa433854a1bc",
-        "color.background.surface.raised": "6220ba5259055c11f820ede34f6ae2997763d3b7",
         "color.background.surface.transparent": "57b307a6e89c1b3b7e30e0f7f1f2fae67f8eff70",
-        "color.background.surface.secondary": "5bd57d9f47a68eccec892d263f2b755405ec391f",
-        "color.background.surface.tertiary": "82428b333c24960f24033ab6defa5ea1b85dd31b",
         "color.background.brand.primary.default": "4c065cd53a755a9dd2cb43186b3121b102d78556",
         "color.background.brand.primary.hovered": "db5657a8673a10f7fd2cf51b09599b4c671d0583",
         "color.background.brand.primary.pressed": "0e7ea68d52c770431f096bbaa592dcc410a45c38",
@@ -5510,7 +5513,10 @@
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
         "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
-        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a"
+        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
+        "color.background.surface.hover": "6220ba5259055c11f820ede34f6ae2997763d3b7",
+        "color.background.surface.selected": "5bd57d9f47a68eccec892d263f2b755405ec391f",
+        "color.background.surface.selected-hover": "82428b333c24960f24033ab6defa5ea1b85dd31b"
       },
       "group": "themes"
     },
@@ -5536,10 +5542,7 @@
         "color.background.disabled": "f5743a792b4557aa9bf3e31d040746a4554f7ef7",
         "color.background.backdrop": "f476ebef4b3fef98e874afc8dacbc1b527d92324",
         "color.background.surface.default": "e3dbc93dc2c903c71eab10753c3daa433854a1bc",
-        "color.background.surface.raised": "6220ba5259055c11f820ede34f6ae2997763d3b7",
         "color.background.surface.transparent": "57b307a6e89c1b3b7e30e0f7f1f2fae67f8eff70",
-        "color.background.surface.secondary": "5bd57d9f47a68eccec892d263f2b755405ec391f",
-        "color.background.surface.tertiary": "82428b333c24960f24033ab6defa5ea1b85dd31b",
         "color.background.brand.primary.default": "4c065cd53a755a9dd2cb43186b3121b102d78556",
         "color.background.brand.primary.hovered": "db5657a8673a10f7fd2cf51b09599b4c671d0583",
         "color.background.brand.primary.pressed": "0e7ea68d52c770431f096bbaa592dcc410a45c38",
@@ -5663,7 +5666,10 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
+        "color.background.surface.hover": "6220ba5259055c11f820ede34f6ae2997763d3b7",
+        "color.background.surface.selected": "5bd57d9f47a68eccec892d263f2b755405ec391f",
+        "color.background.surface.selected-hover": "82428b333c24960f24033ab6defa5ea1b85dd31b"
       },
       "group": "themes"
     },
@@ -5687,10 +5693,7 @@
         "color.background.disabled": "f5743a792b4557aa9bf3e31d040746a4554f7ef7",
         "color.background.backdrop": "f476ebef4b3fef98e874afc8dacbc1b527d92324",
         "color.background.surface.default": "e3dbc93dc2c903c71eab10753c3daa433854a1bc",
-        "color.background.surface.raised": "6220ba5259055c11f820ede34f6ae2997763d3b7",
         "color.background.surface.transparent": "57b307a6e89c1b3b7e30e0f7f1f2fae67f8eff70",
-        "color.background.surface.secondary": "5bd57d9f47a68eccec892d263f2b755405ec391f",
-        "color.background.surface.tertiary": "82428b333c24960f24033ab6defa5ea1b85dd31b",
         "color.background.brand.primary.default": "4c065cd53a755a9dd2cb43186b3121b102d78556",
         "color.background.brand.primary.hovered": "db5657a8673a10f7fd2cf51b09599b4c671d0583",
         "color.background.brand.primary.pressed": "0e7ea68d52c770431f096bbaa592dcc410a45c38",
@@ -5814,7 +5817,10 @@
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
         "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
-        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a"
+        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
+        "color.background.surface.hover": "6220ba5259055c11f820ede34f6ae2997763d3b7",
+        "color.background.surface.selected": "5bd57d9f47a68eccec892d263f2b755405ec391f",
+        "color.background.surface.selected-hover": "82428b333c24960f24033ab6defa5ea1b85dd31b"
       },
       "group": "themes"
     },
