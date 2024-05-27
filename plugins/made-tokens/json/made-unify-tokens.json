@@ -2021,7 +2021,7 @@
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
           "hover": {
-            "value": "{color.neutral.50}",
+            "value": "{color.neutral.100}",
             "type": "color",
             "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
@@ -2030,12 +2030,12 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.neutral.50}",
+            "value": "{color.neutral.200}",
             "type": "color",
             "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
           "selected-hover": {
-            "value": "{color.neutral.100}",
+            "value": "{color.neutral.300}",
             "type": "color",
             "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           }
@@ -5391,7 +5391,10 @@
         "color.background.disabled": "f5743a792b4557aa9bf3e31d040746a4554f7ef7",
         "color.background.backdrop": "f476ebef4b3fef98e874afc8dacbc1b527d92324",
         "color.background.surface.default": "e3dbc93dc2c903c71eab10753c3daa433854a1bc",
+        "color.background.surface.hover": "b63829f5ee9c48dcc52902f886b675bce42f27c4",
         "color.background.surface.transparent": "57b307a6e89c1b3b7e30e0f7f1f2fae67f8eff70",
+        "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
+        "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
         "color.background.brand.primary.default": "4c065cd53a755a9dd2cb43186b3121b102d78556",
         "color.background.brand.primary.hovered": "db5657a8673a10f7fd2cf51b09599b4c671d0583",
         "color.background.brand.primary.pressed": "0e7ea68d52c770431f096bbaa592dcc410a45c38",
@@ -5453,6 +5456,7 @@
         "color.border.information-strong": "a80256174c2a25f4f07380e456e8aa59a5955a01",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
         "color.border.discovery-strong": "7614c9a2f458f7f5ecf484651eba32a774ce6eb0",
+        "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
         "color.icon.primary": "414553162270932295149fe0abd09505466e4e67",
         "color.icon.secondary": "a7467a281e42acbead30c738655e9b0f173385a5",
@@ -5489,6 +5493,7 @@
         "color.link.neutral.hover": "a9266f5777b6d77c9ec6e5bb3a9264b192a0c65b",
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
         "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
+        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
         "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
         "grid.gutters.lg": "ed566cf1a5c7ee3da79ce9f9b87bb82d32c8145b",
@@ -5512,11 +5517,7 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
-        "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
-        "color.background.surface.hover": "6220ba5259055c11f820ede34f6ae2997763d3b7",
-        "color.background.surface.selected": "5bd57d9f47a68eccec892d263f2b755405ec391f",
-        "color.background.surface.selected-hover": "82428b333c24960f24033ab6defa5ea1b85dd31b"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
       },
       "group": "themes"
     },
