@@ -2331,6 +2331,10 @@
         "inverse": {
           "value": "{color.white}",
           "type": "color"
+        },
+        "neutral-strong": {
+          "value": "{color.background.feedback.neutral.strong.default}",
+          "type": "color"
         }
       },
       "icon": {
