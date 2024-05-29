@@ -1,7 +1,6 @@
 name: Bug report 🐛
 description:
- Please complete this form to the best of your ability to report a bug to the Made team — we’d love your feedback!
-These issues will be reviewed and a member of the Made team will get back to you as soon as we can.
+  Something not working as expected? This is the place to report your issue.
 title: '[Bug]: '
 labels: 'type: bug 🐛'
 body:
@@ -18,8 +17,24 @@ body:
       description: Which package(s) are you using?
       multiple: true
       options:
-        - 'made-design-tokens'
-        - 'made-css'
+        - '@carbon/react'
+        - '@carbon/styles'
+        - 'carbon-components'
+        - 'carbon-components-react'
+        - '@carbon/colors'
+        - '@carbon/elements'
+        - '@carbon/grid'
+        - '@carbon/icons'
+        - '@carbon/icons-react'
+        - '@carbon/icons-vue'
+        - '@carbon/layout'
+        - '@carbon/motion'
+        - '@carbon/pictograms'
+        - '@carbon/pictograms-react'
+        - '@carbon/themes'
+        - '@carbon/type'
+        - '@carbon/upgrade'
+        - 'carbon-components-svelte'
     validations:
       required: true
   - type: dropdown
@@ -38,9 +53,15 @@ body:
     attributes:
       label: Package version
       description: 'Which version(s) are you using?'
-      placeholder: e.g. v2.0.0
+      placeholder: e.g. v10.42.0
     validations:
       required: true
+  - type: input
+    id: react-version
+    attributes:
+      label: React version
+      description: 'Which React version are you using?'
+      placeholder: e.g. v17.0.2
   - type: textarea
     id: description
     attributes:
@@ -56,7 +77,7 @@ body:
     attributes:
       label: Reproduction/example
       description: |
-       Please send us code example in URL or code repo to investigate the issue
+        Re-create the issue using [CodeSandbox](https://codesandbox.io/) or [Stackblitz](https://stackblitz.com). We have templates for [@carbon/react](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/examples/vite?file=src%2FApp.jsx), [@carbon/styles](https://codesandbox.io/s/github/carbon-design-system/carbon/tree/v11.2.0/examples/codesandbox-styles), and [carbon-components-react](https://codesandbox.io/s/github/carbon-design-system/carbon/tree/v10/packages/react/examples/codesandbox)
     validations:
       required: true
   - type: textarea
@@ -68,3 +89,33 @@ body:
         reproduction/example link above?'
     validations:
       required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Suggested Severity
+      description:
+        'Read more to understand our [severity levels](https://github.com/carbon-design-system/carbon/blob/main/docs/guides/support.md#severity)'
+      options:
+        - 'Severity 1 = Must be fixed ASAP. The response must be swift. Someone from the team must drop all current work and be immediately reassigned to address the issue.'
+        - 'Severity 2 = User cannot complete task, and/or no workaround within the user experience of a given component.'
+        - 'Severity 3 = User can complete task, and/or has a workaround within the user experience of a given component.'
+        - 'Severity 4 = Unrelated to a user task, has a workaround or does not need a workaround.'
+  - type: input
+    id: application
+    attributes:
+      label: Application/PAL
+      description: "What application and/or PAL do you work on?"
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Please confirm the following
+      options:
+        - label:
+            I agree to follow this project's [Code of
+            Conduct](https://github.com/carbon-design-system/carbon/blob/f555616971a03fd454c0f4daea184adf41fff05b/.github/CODE_OF_CONDUCT.md)
+          required: true
+        - label:
+            I checked the [current
+            issues](https://github.com/carbon-design-system/carbon/issues) for
+            duplicate problems
