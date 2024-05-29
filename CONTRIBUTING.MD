@@ -31,10 +31,7 @@ Please see contributing guide in each project for more information:
 
 ## What is the contribution process?
 1. **Issue:** Check repo for an _existing_ issue related to your contribution
-   first. If none exist, open a new issue. Be sure to check the right repo.
-   (i.e. Don't open an issue for website documentation in the `carbon`
-   monorepo.) We reserve the right to close any issues that haven't been filled
-   out properly according to the issue template.
+   first. If none exist, open a new issue. 
 2. **Development environment:** If you haven't already, fork and clone whichever
    repo you want to contribute to. Then, create a new branch and add your
    contribution in it.
