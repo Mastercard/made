@@ -108,8 +108,3 @@ Push the changes to Gitlabs
 When the branch has been pushed. Create a merge request for another developer to review your code. 
 
 See documentation on [Gitlhub docs]([https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)) for more information.
-
-- Click on the Merge Request tab on the left hand side.
-- Click the new merge request button
-- Choose the branch you pushed and request to merge into master. Click merge branch and continue
-- Add title (use conventional commit naming convention) and description of changes made. Assign the MR to a Made. developer for a code review and click Submit.
