@@ -21,6 +21,9 @@ We use Style Dictionary to transform our design tokens to scale across multiple 
 
 This means we can ensure brand consistency throughout any targeted platform. To learn more about Style Dictionary see their [documentation site](https://amzn.github.io/style-dictionary/#/) and [Github examples](https://github.com/amzn/style-dictionary).
 
+### Documentation
+Please review [Project Structure](./PROJECT-STRUCTURE.md) and [Design Tokens](./DESIGN-TOKENS-101.md) documentation to learn more about the project.
+
 ### Naming Conventions
 
 Made Design Tokens follow best practice as outlined by Nathan Curtis in [Naming Tokens in Design Systems](https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676)
