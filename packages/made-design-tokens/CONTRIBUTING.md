@@ -110,4 +110,4 @@ Push the changes to Gitlabs
 
 When the branch has been pushed. Create a merge request for another developer to review your code. 
 
-See documentation on [Gitlhub docs]([https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)) for more information.
+See documentation on [Gitlhub docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) for more information.
