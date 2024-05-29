@@ -28,3 +28,32 @@ Please see contributing guide in each project for more information:
 
 - [Made Design Tokens](https://github.com/Mastercard/made/blob/develop/packages/made-design-tokens/CONTRIBUTING.md)
 - [Made CSS](https://github.com/Mastercard/made/blob/develop/packages/made-css/CONTRIBUTING.md)
+
+## What is the contribution process?
+1. **Issue:** Check repo for an _existing_ issue related to your contribution
+   first. If none exist, open a new issue. Be sure to check the right repo.
+   (i.e. Don't open an issue for website documentation in the `carbon`
+   monorepo.) We reserve the right to close any issues that haven't been filled
+   out properly according to the issue template.
+2. **Development environment:** If you haven't already, fork and clone whichever
+   repo you want to contribute to. Then, create a new branch and add your
+   contribution in it.
+3. **Pull request:** Submit a PR. Be sure to fill out the template properly.
+4. **Approval:** Get PR approved by design and developers, or make any necessary
+   changes for approval. This process may be quick or take a few iterations of
+   feedback-update.
+5. **Documentation:** After design and dev have approved and merged PR, update
+   any website documentation if necessary. One of the best examples for this is
+   if you're contributing to component work which has website documentation
+   related to your contribution.
+
+Here are some contribution quick tips:
+
+- **Do** check repos for existing issues.
+- **Do** fill out the required template for contributions entirely; this
+  pertains to both issues and PRs.
+- **Do** follow existing coding and writing styles.
+- **Do** follow proper commit messages syntax.
+- **Do not** branch off another branch.
+- **Do not** include unrelated changes in the same PR.
+- **Do not** create one massive PR if it can be broken up into smaller PRs.
