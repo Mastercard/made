@@ -1,6 +1,7 @@
 name: Bug report 🐛
 description:
-  Something not working as expected? This is the place to report your issue.
+ Please complete this form to the best of your ability to report a bug to the Made team — we’d love your feedback!
+These issues will be reviewed and a member of the Made team will get back to you as soon as we can.
 title: '[Bug]: '
 labels: 'type: bug 🐛'
 body:
@@ -55,7 +56,7 @@ body:
     attributes:
       label: Reproduction/example
       description: |
-        Re-create the issue using [CodeSandbox](https://codesandbox.io/) or [Stackblitz](https://stackblitz.com). We have templates for [@carbon/react](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/examples/vite?file=src%2FApp.jsx), [@carbon/styles](https://codesandbox.io/s/github/carbon-design-system/carbon/tree/v11.2.0/examples/codesandbox-styles), and [carbon-components-react](https://codesandbox.io/s/github/carbon-design-system/carbon/tree/v10/packages/react/examples/codesandbox)
+       Please send us code example in URL or code repo to investigate the issue
     validations:
       required: true
   - type: textarea
