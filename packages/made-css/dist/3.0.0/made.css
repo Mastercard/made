@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Sun, 18 Jun 2023 00:48:02 GMT
+ * Generated on Thu, 15 Feb 2024 13:00:04 GMT
  */
 
- :root { /* Border color for items in product category. */ /* Background color for items in product category. */ /* Background on overlay used with modals */ /* Background dimming. */ /* Large expansion, important system notifications. */ /* Micro-interactions such as fade. */ /* Micro-interactions such as button and toggle. */ /* Expansion, system communication, toast. */ /* Micro-interactions, small expansion, short distance movements. */ /* Space: 80px */ /* Space: 76px */ /* Space: 72px */ /* Space: 68px */ /* Space: 64px */ /* Space: 60px */ /* Space: 56px */ /* Space: 52px */ /* Space: 48px */ /* Space: 44px */ /* Space: 40px */ /* Space: 36px */ /* Space: 32px */ /* Space: 28px */ /* Space: 24px */ /* Space: 20px */ /* Space: 16px */ /* Space: 12px */ /* Space: 8px */ /* Space: 4px */ /* Size: 80px */ /* Size: 76px */ /* Size: 72px */ /* Size: 68px */ /* Size: 64px */ /* Size: 60px */ /* Size: 56px */ /* Size: 52px */ /* Size: 48px */ /* Size: 44px */ /* Size: 40px */ /* Size: 36px */ /* Size: 32px */ /* Size: 28px */ /* Size: 24px */ /* Size: 20px */ /* Size: 16px */ /* Size: 12px */ /* Size: 8px */ /* Size: 4px */ /* Gives 100% opacity to an element. */ /* Gives 75% opacity to an element. */ /* Gives 50% opacity to an element. */ /* Gives 25% opacity to an element. */ /* Gives 15% opacity to an element. */ /* Gives 0% opacity to an element (Hides an element). */ /* Line height for single line text elements displayed in components */ /* Headings line-height */ /* Default line height. */ /* Line height for single line text elements displayed in components */ /* To ensure readability, Body uses a 1.5× multiplier */ /* Headings use a 1.25× multiplier */ /* Default letter spacing for all text. */ /* Default letter spacing for all text. */ /* Semi bold font weight is used for buttons. */ /* Light font weight is used for headings. */ /* Normal font weight is used for body text and form inputs. */ /* Use bold sparingly for subtitles, eyebrows, emphasis, and dates */ /* Font size: 24px */ /* Font size: 20px */ /* Font size: 18px */ /* Font size: 16px */ /* Font size: 15px */ /* Font size: 14px */ /* Font size: 13px */ /* Font size: 12px */ /* Font size: 9px */ /* Font size: 80px */ /* Font size: 60px */ /* Font size: 48px */ /* Font size: 36px */ /* Font size: 32px */ /* Font size: 28px */ /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */ /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */ /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */ /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */ /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */ /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */ /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */ /* Default bold weight font used across application */ /* Border Radius: 50% */ /* Border Radius: 28px */ /* Border Radius: 24px */ /* Border Radius: 20px */ /* Border Radius: 16px */ /* Border Radius: 12px */ /* Border Radius: 8px */ /* Border Radius: 6px */ /* Border Radius: 4px */ /* Border Radius: 2px */ /* Data Visualization Color */ /* Data Visualization Color */ /* Data Visualization Color */ /* Color of body text on dark background. */ /* Color for success or positive state */ /* Color for error state */ /* Red error 7 */ /* Red error 6 */ /* Red error 5 */ /* Red error 4 */ /* Red error 3 */ /* Red error 2 */ /* Error Red 1 */ /* Success Green 7 */ /* Success Green 6 */ /* Success Green 5 */ /* Success Green 4 */ /* Success Green 3 */ /* Success Green 2 */ /* Success Green 1 */ /* Yellow color 7 */ /* Yellow color 6 */ /* Yellow color 5 */ /* Yellow color 4 */ /* Yellow color 3 */ /* Yellow color 2 */ /* Yellow color 1 */ /* White */ /* Teal color 7 */ /* Teal color 6 */ /* Teal color 5 */ /* Teal color 4 */ /* Teal color 3 */ /* Teal color 2 */ /* Teal color 1 */ /* Red color 7 */ /* Red color 6 */ /* Red color 5 */ /* Red color 4 */ /* Red color 3 */ /* Red color 2 */ /* Red color 1 */ /* Orange color 7 */ /* Orange color 6 */ /* Orange color 5 */ /* Orange color 4 */ /* Orange color 3 */ /* Orange color 2 */ /* Orange color 1 */ /* Green color 7 */ /* Green color 6 */ /* Green color 5 */ /* Green color 4 */ /* Green color 3 */ /* Green color 2 */ /* Green color 1 */ /* Canvas color - Gray 7 */ /* Gray tints and shades - Gray 6.5 */ /* Canvas color - Gray 6 */ /* Gray tints and shades - Gray 5.5 */ /* Canvas color - Gray 5 */ /* Gray tints and shades - Gray 4.5 */ /* Gray tints and shades - Gray 4 */ /* Gray tints and shades - Gray 3.5 */ /* Gray tints and shades - Gray 3 */ /* Canvas color - Gray 2.5 */ /* Canvas color - Gray 2 */ /* Canvas color - Gray 1.5 */ /* Canvas color - Gray 1.25 */ /* Canvas color - Gray 1 */ /* Gold color 7 */ /* Gold color 6 */ /* Gold color 5 */ /* Gold color 4 */ /* Gold color 3 */ /* Gold color 2 */ /* Gold color 1 */ /* Accent color 7 */ /* Accent color 6 */ /* Accent color 5 */ /* Accent color 4 */ /* Accent color 3 */ /* Accent color 2 */ /* Accent color 1- Light */ /* Accent color 1 */ /* Accent color 1 - Darker */ /* Accent color 1 - Dark */ /* The text color on your secondary brand color */ /* The text color on your primary brand color */ /* Color of interactive color on dark background e.g. buttons */ /* Disabled state for text inputs. Opacity at 10% */ /* Disabled state for toggles. Opacity at 25% */ /* Disabled state for buttons. Opacity at 50% */ /* Used to set the z order layering of toast. */ /* Used to set the z order layering of modal. */ /* Used to set the z order layering of dropdown elements such as overflow menu, date picker... */ /* Used to set the z order layering of backdrop. */ /* Shadow for all content cards, dropdowns, dialogs, datepicker etc. */; /* Shadow on slider on toggle component. */ /* Background color for scrollbar component */ /* Margin size on small breakpoint. */ /* Margin size on medium breakpoint. */ /* Margin size on large breakpoint. */ /* Grid gutter size on small breakpoint. */ /* Gutter size on medium breakpoint. */ /* Gutter size on large breakpoint. */ /* Border color for items in report category. */ /* Border color for items in reference category. */ /* Border color for items in document category. */ /* Border color for items in collection category. */ /* Border color for items in application category. */ /* Border color for items in API category. */ /* Border color for items in report category. */ /* Background color for items in reference category. */ /* Background color for items in document category. */ /* Background color for items in collection category. */ /* Background color for items in application category. */ /* Background color for items in API category. */ /* Font Family for Heading 6 (H6). */ /* Font Family for Heading 5 (H5). */ /* Font Family for Heading 4 (H4). */ /* Font Family for Heading 3 (H3). */ /* Font Family for Heading 2 (H2). */ /* Font Family for Heading 1 (H1). */ /* Font family for large eyebrow text. */ /* Font family for small eyebrow text. */ /* Font family for Display 03. */ /* Font family for Display 02. */ /* Font family for Display 01. */ /* Font Size for Heading 6 (H6) */ /* Font Size for Heading 5 (H5) */ /* Font Size for Heading 4 (H4) */ /* Font Size for Heading 3 (H3) */ /* Font Size for Heading 2 (H2) */ /* Font Size for Heading 1 (H1) */ /* Font Size for Display 03. */ /* Font Size for Display 02. */ /* Font Size for Display 01. */ /* Line Height of Heading 6 (H6). */ /* Line Height of Heading 5 (H5). */ /* Line Height of Heading 4 (H4). */ /* Line Height of Heading 3 (H3). */ /* Line Height of Heading 2 (H2). */ /* Line Height of Heading 1 (H1). */ /* Line Height for large eyebrow text. */ /* Line Height for small eyebrow text. */ /* Line height of Display 03. */ /* Line height of Display 02. */ /* Line height of Display 01. */ /* Letter spacing of Heading 6 (H6). */ /* Letter spacing of Heading 5 (H5). */ /* Letter spacing of Heading 4 (H4). */ /* Letter spacing of Heading 3 (H3). */ /* Letter spacing of Heading 2 (H2). */ /* Letter spacing of Heading 1 (H1). */ /* Letter spacing for small eyebrow text. */ /* Letter spacing for small eyebrow text. */ /* Letter spacing of Display 03. */ /* Letter spacing of Display 02. */ /* Letter spacing of Display 02. */ /* Font family for headings (H1,H2 and display text) */ /* Font family for headings (H1,H2 and display text) */ /* Default font weight for body text. */ /* Bold font weight for body text. */ /* Small font size for body text. */ /* Large font size for body text. */ /* Default font size for body text. */ /* Default line height for body text. */ /* Default letter spacing for body text. */ /* Default font family for narrow/small text. Used on tooltip and notification */ /* Default font family for body text. */ /* Font family for bold body text. */ /* Small border radius for UI components */ /* Large border radius for UI components */ /* Default border radius for UI components */ /* Default border color for forms. */ /* Button Border Radius */ /* Text color for links on dark backgrounds */ /* Inverse text/icon color */ /* Text color of helper text on forms, cards etc. */ /* Color of body text on light background. */ /* Text color for success or positive state */ /* Text color displayed on top of the warning color */ /* Text color displayed on top of the success color of Light variation of notifications and toasts */ /* Text color displayed on top of the error color */ /* Text color displayed on top of the information color of Light variation of notifications and toasts */ /* Text color displayed on top of the error color */ /* Text color displayed on top of the error color of Light variation of notifications and toasts */ /* Text color displayed on top of the error color */ /* Text color for error state */ /* Color for warning state */ /* Color for light variant of success or positive state */ /* Color for light variant of neutral or optional state */ /* Color for neutral or optional state */ /* Color for light variant of error state */ /* Border color  for success or positive state */ /* Border color for error state */ /* Background color for success or positive state */ /* Background color for error state */ /* Default Border color used for layout elements e.g. accordion, table. */ /* Default Border color used for layout elements on a dark background. */ /* High contrast backgrounds/elements */ /* Tertiary background color of the application. */ /* Secondary background color of the application.  */ /* Used on background of breadcrumb and pill components. */ /* Main background color of the application. */ /* The secondary color of your brand */ /* The primary color of your brand */ /* Text color on top of secondary interactive color */ /* Text color on top of primary interactive color */ /* Text color on top of disabled state color */ /* Text color of secondary interactive color e.g. secondary button on a dark background */ /* Text color on top of interactive color on a dark background */ /* Color of primary interactive color on hover  e.g. buttons */ /* Color of primary interactive color on active  e.g. buttons */ /* Text color of secondary interactive color on dark background e.g. buttons. */ /* Text color of secondary interactive color on dark background e.g. buttons. */ /* Global color for disabled state. */ /* Outline color for focus state on dark backgrounds. */ /* Border color for selected items on dark background. */ /* Border color of secondary interactive color */ /* Background color for hover state of on selected UI Elements */ /* Background color for selected state of UI Elements such as tables, dropdowns... */ /* Background color of secondary interactive color */ /* Background color for on state of UI Elements such as toggle */ /* Background color for hover state of UI Elements such as tables, dropdowns... */ /* Background color of highlight interactive color. Used on date range in Calendar */ /* Background color for the hover state of action within the search component */ /* Pill Border Radius */ /* Background color for pill components hover state for the close icon element.  */ /* Background color for header component */ /* Text color on header component */ /* Background color for footer component */ /* Text color on footer component */ /* Font size for default eyebrow text */ /* Font size for small eyebrow text */ /* Font Family for Heading 6 (H6). */ /* Font Family for Heading 5 (H5). */ /* Font Family for Heading 4 (H4). */ /* Font Family for Heading 3 (H3). */ /* Font Family for Heading 2 (H2). */ /* Font Family for Heading 1 (H1). */ /* Font family for large eyebrow text. */ /* Font family for small eyebrow text. */ /* Font family for Display 03. */ /* Font family for Display 02. */ /* Font family for Display 01. */ /* Default background color for forms. */ /* Text color of primary brand color. */ /* Text color for warning state */ /* Text color for neutral or optional state */ /* Border color or for warning state */ /* Border color for success or positive state for Light variation of notifications and toasts */ /* Border color for neutral or optional state of Light variation of notifications and toasts */ /* Border color  for neutral or optional state */ /* Border color for error state of Light variation of notifications and toasts */ /* Background color for warning state */ /* Background color for success or positive state for Light variation of notifications and toasts */ /* Background color for neutral or optional state of Light variation of notifications and toasts */ /* Background color for neutral or optional state */ /* Background color for error state of Light variation of notifications and toasts */ /* Background of primary brand color. */ /* Text color of primary color hover interactive state e.g. secondary buttons */ /* Text color of primary color pressed interactive state   e.g. ghost button */ /* Text color on top of hover and selected state of UI Elements */ /* Text color on top of selected state of UI Elements */ /* Text color on top of hover state of UI Elements */ /* Text color of secondary interactive color e.g. secondary button on a dark background */ /* Text color of secondary interactive color e.g. secondary button on a dark background */ /* Text color for disabled state of UI Elements */ /* Color of secondary interactive color e.g. secondary buttons */ /* Color of secondary interactive color e.g. secondary buttons */ /* Color of secondary interactive color  e.g. secondary button */ /* Color of primary interactive color e.g. buttons */ /* Border color of primary interactive color e.g primary buttons. */ /* Border color of primary interactive color e.g primary buttons. */ /* Border color of secondary interactive color. */ /* Border color of secondary interactive color. */ /* Border color for disabled state of UI Elements such as tables, dropdowns... */ /* Background color of secondary interactive color e.g. secondary buttons */ /* Background color of secondary interactive color e.g. secondary buttons */ /* Background color of secondary interactive color  e.g. secondary button */ /* Background color of primary interactive color e.g primary buttons. */ /* Background color of primary interactive color e.g primary buttons. */ /* Background color of secondary interactive color. */ /* Background color of secondary interactive color. */ /* Background color for off state of UI Elements such as toggle */ /* Background color for disabled state of UI Elements such as tables, dropdowns... */ /* Background color for search input component  */ /* Background color for pill component. */ /* Text color for link */ /* Text color of secondary interactive color e.g. secondary buttons */ /* Text color of secondary interactive color e.g. secondary buttons */ /* Text color of secondary interactive color  e.g. secondary button */ /* Text color of primary interactive color e.g. links */ /* Border color for selected items. */ /* Border color of secondary interactive color e.g. secondary buttons */ /* Border color of secondary interactive color e.g. secondary buttons */ /* Border color of secondary interactive color  e.g. secondary button */ /* Border color of primary interactive color e.g primary buttons. */ /* Outline color for focus state. */ /* Background color of primary interactive color e.g primary buttons. */ /* Background color for action within the search component */
+ :root { /* Background color for branded checkboxes in their selected states. */ /* Background color for neutral checkboxes in their selected states. */ /* Icon color for neutral, read-only checkboxes in their selected states. */ /* Icon color for neutral checkboxes in their selected states. */ /* Icon color for branded, read-only checkboxes in their selected states. */ /*  Icon color for branded checkboxes in their selected states. */ /* Text color on footer component */ /* Background color for footer component */ /* Text color on header component */ /* Background color for header component */ /* Background color for pill component. */ /* Background color for pill components hover state for the close icon element.  */ /* Pill Border Radius */ /* Background color for search input component  */ /* Background color for action within the search component */ /* Background color for the hover state of action within the search component */; /* Shadow on slider on toggle component. */ /* Shadow for all content cards, dropdowns, dialogs, datepicker etc. */ /* Color for the resize element in Data Table columns */ /* Used to set the z order layering of backdrop. */ /* Used to set the z order layering of dropdown elements such as overflow menu, date picker... */ /* Used to set the z order layering of modal. */ /* Used to set the z order layering of toast. */ /* Border Radius: 2px */ /* Border Radius: 4px */ /* Border Radius: 6px */ /* Border Radius: 8px */ /* Border Radius: 12px */ /* Border Radius: 16px */ /* Border Radius: 20px */ /* Border Radius: 24px */ /* Border Radius: 28px */ /* Border Radius: 50% */ /* Default border radius for UI components */ /* Large border radius for UI components */ /* Small border radius for UI components */ /* Accent color 1 - Dark */ /* Accent color 1 - Darker */ /* Accent color 1 */ /* Accent color 1- Light */ /* Accent color 2 */ /* Accent color 3 */ /* Accent color 4 */ /* Accent color 5 */ /* Accent color 6 */ /* Accent color 7 */ /* Gold color 1 */ /* Gold color 2 */ /* Gold color 3 */ /* Gold color 4 */ /* Gold color 5 */ /* Gold color 6 */ /* Gold color 7 */ /* Canvas color - Gray 1 */ /* Canvas color - Gray 1.25 */ /* Canvas color - Gray 1.5 */ /* Canvas color - Gray 2 */ /* Canvas color - Gray 2.5 */ /* Gray tints and shades - Gray 3 */ /* Gray tints and shades - Gray 3.5 */ /* Gray tints and shades - Gray 4 */ /* Gray tints and shades - Gray 4.5 */ /* Canvas color - Gray 5 */ /* Gray tints and shades - Gray 5.5 */ /* Canvas color - Gray 6 */ /* Gray tints and shades - Gray 6.5 */ /* Canvas color - Gray 7 */ /* Green color 1 */ /* Green color 2 */ /* Green color 3 */ /* Green color 4 */ /* Green color 5 */ /* Green color 6 */ /* Green color 7 */ /* Orange color 1 */ /* Orange color 2 */ /* Orange color 3 */ /* Orange color 4 */ /* Orange color 5 */ /* Orange color 6 */ /* Orange color 7 */ /* Red color 1 */ /* Red color 2 */ /* Red color 3 */ /* Red color 4 */ /* Red color 5 */ /* Red color 6 */ /* Red color 7 */ /* Teal color 1 */ /* Teal color 2 */ /* Teal color 3 */ /* Teal color 4 */ /* Teal color 5 */ /* Teal color 6 */ /* Teal color 7 */ /* White */ /* Yellow color 1 */ /* Yellow color 2 */ /* Yellow color 3 */ /* Yellow color 4 */ /* Yellow color 5 */ /* Yellow color 6 */ /* Yellow color 7 */ /* Success Green 1 */ /* Success Green 2 */ /* Success Green 3 */ /* Success Green 4 */ /* Success Green 5 */ /* Success Green 6 */ /* Success Green 7 */ /* Error Red 1 */ /* Red error 2 */ /* Red error 3 */ /* Red error 4 */ /* Red error 5 */ /* Red error 6 */ /* Red error 7 */ /* Background color for disabled state of UI Elements such as tables, dropdowns... */ /* Background color of highlight interactive color. Used on date range in Calendar */ /* Background color for hover state of UI Elements such as tables, dropdowns... */ /* Background color for off state of UI Elements such as toggle */ /* Background color for on state of UI Elements such as toggle */ /* Background color of secondary interactive color. */ /* Background color of secondary interactive color */ /* Background color of secondary interactive color. */ /* Background color of primary interactive color e.g primary buttons. */ /* Background color of primary interactive color e.g primary buttons. */ /* Background color of primary interactive color e.g primary buttons. */ /* Background color of secondary interactive color  e.g. secondary button */ /* Background color of secondary interactive color e.g. secondary buttons */ /* Background color of secondary interactive color e.g. secondary buttons */ /* Background color for selected state of UI Elements such as tables, dropdowns... */ /* Background color for hover state of on selected UI Elements */ /* Border color for disabled state of UI Elements such as tables, dropdowns... */ /* Outline color for focus state. */ /* Border color of secondary interactive color. */ /* Border color of secondary interactive color */ /* Border color of secondary interactive color. */ /* Border color of primary interactive color e.g primary buttons. */ /* Border color of primary interactive color e.g primary buttons. */ /* Border color of primary interactive color e.g primary buttons. */ /* Border color of secondary interactive color  e.g. secondary button */ /* Border color of secondary interactive color e.g. secondary buttons */ /* Border color of secondary interactive color e.g. secondary buttons */ /* Border color for selected items on dark background. */ /* Border color for selected items. */ /* Outline color for focus state on dark backgrounds. */ /* Global color for disabled state. */ /* Disabled state for buttons. Opacity at 50% */ /* Disabled state for toggles. Opacity at 25% */ /* Disabled state for text inputs. Opacity at 10% */ /* Text color of secondary interactive color on dark background e.g. buttons. */ /* Color of interactive color on dark background e.g. buttons */ /* Text color of secondary interactive color on dark background e.g. buttons. */ /* Color of primary interactive color on active  e.g. buttons */ /* Color of primary interactive color e.g. buttons */ /* Color of primary interactive color on hover  e.g. buttons */ /* Color of secondary interactive color  e.g. secondary button */ /* Color of secondary interactive color e.g. secondary buttons */ /* Color of secondary interactive color e.g. secondary buttons */ /* Text color for disabled state of UI Elements */ /* Text color on top of interactive color on a dark background */ /* Text color of secondary interactive color e.g. secondary button on a dark background */ /* Text color of secondary interactive color e.g. secondary button on a dark background */ /* Text color of secondary interactive color e.g. secondary button on a dark background */ /* Text color on top of disabled state color */ /* Text color on top of hover state of UI Elements */ /* Text color on top of primary interactive color */ /* Text color on top of secondary interactive color */ /* Text color on top of selected state of UI Elements */ /* Text color on top of hover and selected state of UI Elements */ /* Text color of primary color pressed interactive state   e.g. ghost button */ /* Text color of primary interactive color e.g. links */ /* Text color of primary color hover interactive state e.g. secondary buttons */ /* Text color of secondary interactive color  e.g. secondary button */ /* Text color of secondary interactive color e.g. secondary buttons */ /* Text color of secondary interactive color e.g. secondary buttons */ /* Main background color of the application. */ /* Used on background of breadcrumb and pill components. */ /* Background of primary brand color. */ /* Secondary background color of the application. */ /* Tertiary background color of the application. */ /* High contrast backgrounds/elements */ /* Default Border color used for layout elements on a dark background. */ /* Default Border color used for layout elements e.g. accordion, table. */ /* The text color on your primary brand color */ /* The text color on your secondary brand color */ /* The primary color of your brand */ /* The secondary color of your brand */ /* Background color for error state */ /* Background color for error state of Light variation of notifications and toasts */ /* Background color for neutral or optional state */ /* Background color for neutral or optional state of Light variation of notifications and toasts */ /* Background color for success or positive state */ /* Background color for success or positive state for Light variation of notifications and toasts */ /* Background color for warning state */ /* Border color for error state */ /* Border color for error state of Light variation of notifications and toasts */ /* Border color  for neutral or optional state */ /* Border color for neutral or optional state of Light variation of notifications and toasts */ /* Border color  for success or positive state */ /* Border color for success or positive state for Light variation of notifications and toasts */ /* Border color or for warning state */ /* Color for error state */ /* Color for light variant of error state */ /* Color for neutral or optional state */ /* Color for light variant of neutral or optional state */ /* Color for success or positive state */ /* Color for light variant of success or positive state */ /* Color for warning state */ /* Text color for error state */ /* Text color for neutral or optional state */ /* Text color displayed on top of the error color */ /* Text color displayed on top of the error color of Light variation of notifications and toasts */ /* Text color displayed on top of the error color */ /* Text color displayed on top of the information color of Light variation of notifications and toasts */ /* Text color displayed on top of the error color */ /* Text color displayed on top of the success color of Light variation of notifications and toasts */ /* Text color displayed on top of the warning color */ /* Text color for success or positive state */ /* Text color for warning state */ /* Color of body text on dark background. */ /* Color of body text on light background. */ /* Text color of helper text on forms, cards etc. */ /* Text color of primary brand color. */ /* Inverse text/icon color */ /* Text color for placeholder content */ /* Data Visualization Color */ /* Data Visualization Color */ /* Data Visualization Color */ /* Font family for bold body text. */ /* Default font family for body text. */ /* Default font family for narrow/small text. Used on tooltip and notification */ /* Default letter spacing for body text. */ /* Default line height for body text. */ /* Default font size for body text. */ /* Large font size for body text. */ /* Small font size for body text. */ /* Bold font weight for body text. */ /* Default font weight for body text. */ /* Default bold weight font used across application */ /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */ /* Font family for headings (H1,H2 and display text) */ /* Font family for headings (H1,H2 and display text) */ /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */ /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */ /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */ /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */ /* Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow. */ /* Use Mark for MC for text slightly larger than 14-pixels in all digital applications. */ /* Font family for Display 01. */ /* Font family for Display 02. */ /* Font family for Display 03. */ /* Font family for small eyebrow text. */ /* Font family for large eyebrow text. */ /* Font Family for Heading 1 (H1). */ /* Font Family for Heading 2 (H2). */ /* Font Family for Heading 3 (H3). */ /* Font Family for Heading 4 (H4). */ /* Font Family for Heading 5 (H5). */ /* Font Family for Heading 6 (H6). */ /* Letter spacing of Display 02. */ /* Letter spacing of Display 02. */ /* Letter spacing of Display 03. */ /* Letter spacing for small eyebrow text. */ /* Letter spacing for small eyebrow text. */ /* Letter spacing of Heading 1 (H1). */ /* Letter spacing of Heading 2 (H2). */ /* Letter spacing of Heading 3 (H3). */ /* Letter spacing of Heading 4 (H4). */ /* Letter spacing of Heading 5 (H5). */ /* Letter spacing of Heading 6 (H6). */ /* Line height of Display 01. */ /* Line height of Display 02. */ /* Line height of Display 03. */ /* Line Height for small eyebrow text. */ /* Line Height for large eyebrow text. */ /* Line Height of Heading 1 (H1). */ /* Line Height of Heading 2 (H2). */ /* Line Height of Heading 3 (H3). */ /* Line Height of Heading 4 (H4). */ /* Line Height of Heading 5 (H5). */ /* Line Height of Heading 6 (H6). */ /* Font Size for Display 01. */ /* Font Size for Display 02. */ /* Font Size for Display 03. */ /* Font size for small eyebrow text */ /* Font size for default eyebrow text */ /* Font Size for Heading 1 (H1) */ /* Font Size for Heading 2 (H2) */ /* Font Size for Heading 3 (H3) */ /* Font Size for Heading 4 (H4) */ /* Font Size for Heading 5 (H5) */ /* Font Size for Heading 6 (H6) */ /* Font family for Display 01. */ /* Font family for Display 02. */ /* Font family for Display 03. */ /* Font family for small eyebrow text. */ /* Font family for large eyebrow text. */ /* Font Family for Heading 1 (H1). */ /* Font Family for Heading 2 (H2). */ /* Font Family for Heading 3 (H3). */ /* Font Family for Heading 4 (H4). */ /* Font Family for Heading 5 (H5). */ /* Font Family for Heading 6 (H6). */ /* Font size: 28px */ /* Font size: 32px */ /* Font size: 36px */ /* Font size: 48px */ /* Font size: 60px */ /* Font size: 80px */ /* Font size: 9px */ /* Font size: 12px */ /* Font size: 13px */ /* Font size: 14px */ /* Font size: 15px */ /* Font size: 16px */ /* Font size: 18px */ /* Font size: 20px */ /* Font size: 24px */ /* Use bold sparingly for subtitles, eyebrows, emphasis, and dates */ /* Normal font weight is used for body text and form inputs. */ /* Light font weight is used for headings. */ /* Semi bold font weight is used for buttons. */ /* Default letter spacing for all text. */ /* Default letter spacing for all text. */ /* Headings use a 1.25× multiplier */ /* To ensure readability, Body uses a 1.5× multiplier */ /* Line height for single line text elements displayed in components */ /* Default line height. */ /* Headings line-height */ /* Line height for single line text elements displayed in components */ /* 12px line height */ /* 16px line height */ /* 18px line height */ /* 20px line height */ /* 24px line height */ /* 28px line height */ /* 32px line height */ /* 40px line height */ /* 48px line height */ /* Gives 0% opacity to an element (Hides an element). */ /* Gives 15% opacity to an element. */ /* Gives 25% opacity to an element. */ /* Gives 50% opacity to an element. */ /* Gives 75% opacity to an element. */ /* Gives 100% opacity to an element. */ /* Size: 4px */ /* Size: 8px */ /* Size: 12px */ /* Size: 16px */ /* Size: 20px */ /* Size: 24px */ /* Size: 28px */ /* Size: 32px */ /* Size: 36px */ /* Size: 40px */ /* Size: 44px */ /* Size: 48px */ /* Size: 52px */ /* Size: 56px */ /* Size: 60px */ /* Size: 64px */ /* Size: 68px */ /* Size: 72px */ /* Size: 76px */ /* Size: 80px */ /* Space: 4px */ /* Space: 8px */ /* Space: 12px */ /* Space: 16px */ /* Space: 20px */ /* Space: 24px */ /* Space: 28px */ /* Space: 32px */ /* Space: 36px */ /* Space: 40px */ /* Space: 44px */ /* Space: 48px */ /* Space: 52px */ /* Space: 56px */ /* Space: 60px */ /* Space: 64px */ /* Space: 68px */ /* Space: 72px */ /* Space: 76px */ /* Space: 80px */ /* Micro-interactions, small expansion, short distance movements. */ /* Expansion, system communication, toast. */ /* Micro-interactions such as button and toggle. */ /* Micro-interactions such as fade. */ /* Large expansion, important system notifications. */ /* Background dimming. */ /* Background on overlay used with modals */ /* Button Border Radius */ /* Background color for items in API category. */ /* Background color for items in application category. */ /* Background color for items in collection category. */ /* Background color for items in document category. */ /* Background color for items in product category. */ /* Background color for items in reference category. */ /* Border color for items in report category. */ /* Border color for items in API category. */ /* Border color for items in application category. */ /* Border color for items in collection category. */ /* Border color for items in document category. */ /* Border color for items in product category. */ /* Border color for items in reference category. */ /* Border color for items in report category. */ /* Default background color for forms. */ /* Default border color for forms. */ /* Gutter size on large breakpoint. */ /* Gutter size on medium breakpoint. */ /* Grid gutter size on small breakpoint. */ /* Margin size on large breakpoint. */ /* Margin size on medium breakpoint. */ /* Margin size on small breakpoint. */ /* Text color for link */ /* Text color for links on dark backgrounds */ /* Background color for scrollbar component */
   }
 
  * {
@@ -336,9 +336,28 @@
 	font-size: 1rem;
 	justify-content: space-between;
 	line-height: 1.5;
-	padding: 1.25rem 1rem 1.25rem 0;
+	padding: 1.25rem 1rem 1.25rem 0.75rem;
 	text-align: left;
 	width: 100%;
+}
+
+ .made-c-accordion__header:disabled {
+	background-color: #ffffff;
+	color: #b1ada6;
+}
+
+ .made-c-accordion__header:disabled:hover {
+	background-color: #ffffff;
+	color: #b1ada6;
+}
+
+ .made-c-accordion__header:disabled svg {
+	background-color: #ffffff;
+	color: #b1ada6;
+}
+
+ .made-c-accordion__description {
+	margin: 0;
 }
 
  .made-c-accordion__header--active {
@@ -352,9 +371,7 @@
 
  .made-c-accordion__icon {
 	color: #141413;
-	height: 1rem;
 	transition: all 110ms cubic-bezier(.2, 0, .38, .9);
-	width: 1rem;
 }
 
  .made-c-accordion__header--active .made-c-accordion__icon {
@@ -370,7 +387,7 @@
  .made-c-accordion__content {
 	display: none;
 	line-height: 1.5;
-	padding: 0 3.75rem 1.5rem 0;
+	padding: 0 3.75rem 1.5rem 0.75rem;
 }
 
  .made-c-accordion__content--active {
@@ -432,8 +449,11 @@
 	color: #ffffff;
 }
 
- .made-c-button--icon {
-	padding: 0 1rem 0 1.5rem;
+ .made-c-button--icon-only {
+	border-radius: 50%;
+	height: 2.5rem;
+	padding: .625rem;
+	width: 2.5rem;
 }
 
  .made-c-button--primary:hover {
@@ -572,7 +592,7 @@
 	background: transparent;
 	border: none;
 	border-radius: 0;
-	color: #141413;
+	color: #cf4500;
 	max-height: 2.5rem;
 	min-height: 2.5rem;
 	padding: 0.25rem 0;
@@ -580,19 +600,19 @@
 }
 
  .made-c-button--ghost:hover {
-	color: #141413;
-}
-
- .made-c-button--ghost:active {
-	color: #141413;
+	color: #9a3a0a;
 }
 
  .made-c-button--ghost:hover .made-c-button--ghost__icon {
-	fill: #9a3a0a;
+	color: #9a3a0a;
+}
+
+ .made-c-button--ghost:active {
+	color: #331505;
 }
 
  .made-c-button--ghost:active .made-c-button--ghost__icon {
-	fill: #9a3a0a;
+	color: #331505;
 }
 
  .made-c-button--ghost-on-dark {
@@ -654,7 +674,7 @@
 }
 
  .made-c-button__icon {
-	margin: 0 0 0 2rem;
+	margin: 0 0 0 0.5rem;
 }
 
  .made-c-button--small {
@@ -670,11 +690,13 @@
 	border: none;
 	color: inherit;
 	cursor: pointer;
+	height: 1.5rem;
 	line-height: 0;
 	padding: 0;
 	position: absolute;
 	right: 1.5rem;
 	top: 1.25rem;
+	width: 1.5rem;
 }
 
  .made-c-button-close:hover {
@@ -701,6 +723,17 @@
 
  .made-c-button.made-u-width-100 .made-c-button__icon {
 	margin-left: auto;
+}
+
+ .made-c-button--reset {
+	background: transparent;
+	border: none;
+	color: inherit;
+	cursor: pointer;
+	height: auto;
+	line-height: 0;
+	padding: 0;
+	width: auto;
 }
 
  .made-c-breadcrumb {
@@ -936,7 +969,9 @@
 	overflow: hidden;
 	padding: 0;
 	position: absolute;
-	white-space: nowrap; /* added line */
+	white-space: nowrap;
+
+	/* added line */
 	width: 1px;
 }
 
@@ -944,7 +979,7 @@
 	align-items: center;
 	cursor: pointer;
 	display: flex;
-	line-height: 1.5;
+	line-height: 1.125rem;
 	position: relative;
 }
 
@@ -960,87 +995,80 @@
 	width: 1rem;
 }
 
- .made-c-checkbox:focus + .made-c-checkbox__label::before {
+ .made-c-checkbox:focus+.made-c-checkbox__label::before {
 	outline: 2px solid #cf4500;
 	outline-offset: 2px;
 }
 
  .made-c-checkbox__label::after {
-	border-bottom: 1px solid #ffffff;
-	border-left: 0;
-	border-right: 1px solid #ffffff;
-	border-top: 0;
-	content: '';
-	height: .6rem;
-	left: .35rem;
-	margin-bottom: .125rem;
+	align-items: center;
+	background-color: transparent;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMTczLjg5OCA0MzkuNDA0bC0xNjYuNC0xNjYuNGMtOS45OTctOS45OTctOS45OTctMjYuMjA2IDAtMzYuMjA0bDM2LjIwMy0zNi4yMDRjOS45OTctOS45OTggMjYuMjA3LTkuOTk4IDM2LjIwNCAwTDE5MiAzMTIuNjkgNDMyLjA5NSA3Mi41OTZjOS45OTctOS45OTcgMjYuMjA3LTkuOTk3IDM2LjIwNCAwbDM2LjIwMyAzNi4yMDRjOS45OTcgOS45OTcgOS45OTcgMjYuMjA2IDAgMzYuMjA0bC0yOTQuNCAyOTQuNDAxYy05Ljk5OCA5Ljk5Ny0yNi4yMDcgOS45OTctMzYuMjA0LS4wMDF6Ii8+PC9zdmc+);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 10px 10px;
+	content: ' ';
+	display: flex;
+	height: 1rem;
+	justify-content: center;
 	position: absolute;
-	transform: rotate(45deg) scale(1.1);
-	width: 0.25rem;
-}
-
- .made-c-checkbox:checked + .made-c-checkbox__label::after {
-	border-color: #cf4500;
-}
-
- .made-c-checkbox.made-c-checkbox--indeterminate + .made-c-checkbox__label::after {
-	border: 0;
-	color: #cf4500;
-	content: '...';
-	font-weight: normal;
-	height: 0;
-	left: .08rem;
-	letter-spacing: .05rem;
-	top: -.25rem;
-	transform: none;
+	text-align: center;
 	width: 1rem;
 }
 
- .made-c-checkbox:indeterminate + .made-c-checkbox__label::after {
+ .made-c-checkbox:checked+.made-c-checkbox__label::before {
+	background-color: #cf4500;
+	border: 1px solid #cf4500;
+}
+
+ .made-c-checkbox:checked+.made-c-checkbox__label--neutral::before {
+	background-color: #323231;
+	border: 1px solid #323231;
+}
+
+ .made-c-checkbox:checked.made-c-checkbox--indeterminate+.made-c-checkbox__label::after,
+.made-c-checkbox:checked.made-c-checkbox:indeterminate+.made-c-checkbox__label::after {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yLjgzMjAzIDguMTI1QzIuODMyMDMgNy43Nzk4MiAzLjA1NTg5IDcuNSAzLjMzMjAzIDcuNUgxMi42NjU0QzEyLjk0MTUgNy41IDEzLjE2NTQgNy43Nzk4MiAxMy4xNjU0IDguMTI1QzEzLjE2NTQgOC40NzAxOCAxMi45NDE1IDguNzUgMTIuNjY1NCA4Ljc1SDMuMzMyMDNDMy4wNTU4OSA4Ljc1IDIuODMyMDMgOC40NzAxOCAyLjgzMjAzIDguMTI1WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);
 	border: 0;
-	color: #cf4500;
-	content: '...';
-	font-weight: normal;
-	height: 0;
-	left: .08rem;
-	letter-spacing: .05rem;
-	top: -.25rem;
-	transform: none;
-	width: 1rem;
+	content: '';
 }
 
- .made-c-checkbox--indeterminate:disabled + .made-c-checkbox__label::after {
+ .made-c-checkbox--indeterminate:disabled+.made-c-checkbox__label::after {
 	color: #b1ada6;
 }
 
- .made-c-checkbox:indeterminate:disabled + .made-c-checkbox__label::after {
+ .made-c-checkbox:indeterminate:disabled+.made-c-checkbox__label::after {
 	color: #b1ada6;
 }
 
- .made-c-checkbox:checked:disabled + .made-c-checkbox__label::after {
+ .made-c-checkbox:checked:disabled+.made-c-checkbox__label::after {
 	border-color: #b1ada6;
 }
 
- .made-c-checkbox:checked[aria-disabled='true'] + .made-c-checkbox__label::after {
+ .made-c-checkbox:checked[aria-disabled='true']+.made-c-checkbox__label::after {
 	border-color: #b1ada6;
 }
 
- .made-c-checkbox:disabled + .made-c-checkbox__label {
+ .made-c-checkbox:disabled+.made-c-checkbox__label {
 	color: #b1ada6;
 	cursor: not-allowed;
 }
 
- .made-c-checkbox[aria-disabled='true'] + .made-c-checkbox__label {
+ .made-c-checkbox[aria-disabled='true']+.made-c-checkbox__label {
 	color: #b1ada6;
 	cursor: not-allowed;
 }
 
- .made-c-checkbox:disabled + .made-c-checkbox__label::before {
+ .made-c-checkbox:disabled+.made-c-checkbox__label::before {
 	border: 1px solid #b1ada6;
 }
 
- .made-c-checkbox[aria-disabled='true'] + .made-c-checkbox__label::before {
+ .made-c-checkbox[aria-disabled='true']+.made-c-checkbox__label::before {
 	border: 1px solid #b1ada6;
+}
+
+ .made-c-checkbox:checked+.made-c-checkbox__label--neutral::before {
+	background: #323231;
 }
 
  .made-c-checkbox__label--error {
@@ -1051,8 +1079,13 @@
 	border: 1px solid #ee0000;
 }
 
- .made-c-checkbox:checked + .made-c-checkbox__label--error::after {
-	border-color: #ee0000;
+ .made-c-checkbox:checked+.made-c-checkbox__label--error::before {
+	background: #ee0000;
+	border: 1px solid #ee0000;
+}
+
+ .made-c-checkbox:checked+.made-c-checkbox__label--error::after {
+	border-color: #ffffff;
 }
 
  .made-c-checkbox-group {
@@ -1671,8 +1704,17 @@
 }
 
  .made-c-form__validation--error {
+	align-items: flex-start;
 	color: #ee0000;
+	display: flex;
 	font-size: 0.75rem;
+	line-height: 1;
+	word-break: break-word;
+}
+
+ .made-c-form__validation--success svg,
+.made-c-form__validation--error svg {
+	flex-shrink: 0;
 }
 
  .made-c-form__label--success {
@@ -1680,13 +1722,35 @@
 }
 
  .made-c-form__validation--success {
+	align-items: center;
 	color: #038a00;
+	display: flex;
 	font-size: 0.75rem;
+	line-height: 1;
 }
 
  .made-c-form__hint {
 	color: #555250;
 	font-size: 0.75rem;
+}
+
+ .made-c-text-input--icon {
+	padding-left: 2.25rem;
+}
+
+ .made-c-form__icon {
+	height: 2.5rem;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+}
+
+ .made-c-form__icon--right {
+	right: 0.75rem;
+}
+
+ .made-c-form__icon--left {
+	left: 0.75rem;
 }
 
  .made-c-footer {
@@ -1759,7 +1823,6 @@
  .made-l-grid {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1400px;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 	width: 100%;
@@ -2110,15 +2173,25 @@
 
  .made-c-loading {
 	animation: loading .75s linear infinite;
-	border: 1px solid #cf4500;
+	border: 1.5px solid #cf4500;
 	border-radius: 50%;
 	border-right-color: transparent;
 	vertical-align: text-bottom;
 }
 
+ .made-c-loading--xsmall {
+	height: 1.25rem;
+	width: 1.25rem;
+}
+
  .made-c-loading--small {
 	height: 2rem;
 	width: 2rem;
+}
+
+ .made-c-loading--xsmall {
+	height: 1.25rem;
+	width: 1.25rem;
 }
 
  .made-c-loading--large {
@@ -2128,6 +2201,22 @@
 
  .made-c-loading__message {
 	margin-top: 1.25rem;
+}
+
+ .made-c-loading--on-primary {
+	animation: loading .75s linear infinite;
+	border: 1.5px solid #ffffff;
+	border-radius: 50%;
+	border-right-color: transparent;
+	vertical-align: text-bottom;
+}
+
+ .made-c-loading--default {
+	animation: loading .75s linear infinite;
+	border: 1.5px solid #141413;
+	border-radius: 50%;
+	border-right-color: transparent;
+	vertical-align: text-bottom;
 }
 
  @keyframes loading {
@@ -2243,13 +2332,15 @@
  .made-c-notification__button-close {
 	background: transparent;
 	border: 0;
-	border-radius: 4px;
+	border-radius: 0;
 	color: inherit;
 	cursor: pointer;
+	height: 1.5rem;
 	line-height: 0;
 	margin-left: 2rem;
 	margin-top: 0.25rem;
 	padding: 0;
+	width: 1.5rem;
 }
 
  .made-c-notification__button-close:focus {
@@ -2431,10 +2522,6 @@
 	font-family: MarkOffcForMC, Arial, Helvetica, sans-serif;
 	min-height: 2rem;
 	padding: 0.5rem 1rem;
-}
-
- .made-c-overflow-menu__multiselect-item.made-c-checkbox__label::after {
-	left: 1.35rem;
 }
 
  .made-c-overflow-menu__link--left-align {
@@ -2880,6 +2967,14 @@
 	width: 100%;
 }
 
+ .made-c-search-input::-moz-placeholder {
+	color: #777470;
+}
+
+ .made-c-search-input::placeholder {
+	color: #777470;
+}
+
  .made-c-search-input:disabled {
 	background-color: rgba(177, 173, 166, 0.1);
 	border: 1px solid rgba(177, 173, 166, 0.1);
@@ -2892,18 +2987,23 @@
 	color: #b1ada6;
 }
 
+ .made-c-search-input:disabled+svg {
+	color: #b1ada6;
+}
+
+ .made-c-search-input[aria-disabled='true']+svg {
+	color: #b1ada6;
+}
+
  .made-c-search-input:focus {
 	outline: 2px solid #cf4500;
 	outline-offset: 2px;
 }
 
  .made-c-search-input__search-icon {
-	height: 1rem;
 	left: 0.75rem;
-	padding: .063rem;
 	position: absolute;
-	top: 0.75rem;
-	width: 1rem;
+	top: 22%;
 }
 
  .made-c-search-input__close-button {
@@ -3007,6 +3107,14 @@
 	width: 100%;
 }
 
+ .made-c-select::-moz-placeholder {
+	color: #777470;
+}
+
+ .made-c-select::placeholder {
+	color: #777470;
+}
+
  .made-c-select__arrow {
 	height: 2.5rem;
 	pointer-events: none;
@@ -3043,6 +3151,14 @@
 	opacity: 0.15;
 }
 
+ .made-c-select:disabled+svg {
+	color: #b1ada6;
+}
+
+ .made-c-select[aria-disabled='true']+svg {
+	color: #b1ada6;
+}
+
  .made-c-select--error {
 	border: 1px solid #ee0000;
 	padding-right: 2.5rem;
@@ -3058,10 +3174,11 @@
 	border: 0;
 	color: #141413;
 	cursor: pointer;
+	margin-right: 0.25rem;
 	padding: 0;
 	position: absolute;
 	right: 2rem;
-	top: 36%;
+	top: 25%;
 }
 
  .made-c-select__button:active {
@@ -3091,35 +3208,20 @@
 	width: 100%;
 }
 
+ .made-c-table tbody tr:hover {
+	background-color: #faf7f5;
+	color: #141413;
+}
+
  .made-c-table th {
-	padding: 0.5rem 1rem 0.5rem
-		1rem;
-	vertical-align: middle;
-}
-
- .made-c-table th::before {
-	background-image: url("data:image/svg+xml,%3Csvg width='3' height='22' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3E1FE39056-042E-415E-80A2-393C2BD8B01F%3C/title%3E%3Cpath d='M1.083 20a1 1 0 1 1 0 2 1 1 0 0 1 0-2Zm0-10a1 1 0 1 1 0 2 1 1 0 0 1 0-2Zm0-10a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z' fill='%23B1ADA6' fill-rule='evenodd'/%3E%3C/svg%3E");
-	background-position: 0 50%;
-	background-repeat: no-repeat;
-	bottom: 0;
-	content: '';
-	display: inline-block;
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 1rem;
-}
-
- .made-c-table th:first-child::before {
-	background-image: none;
-	content: '';
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	position: relative;
+	text-align: left;
 }
 
  .made-c-table td {
 	border-bottom: 1px solid #e8e5e1;
-	padding: 0.5rem 1rem 0.5rem
-		1rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
 	vertical-align: middle;
 }
 
@@ -3164,6 +3266,23 @@
  .made-c-table--selected-row:hover {
 	background-color: #e8e5e1;
 	color: #141413;
+}
+
+ .made-c-table__button--resize {
+	bottom: 0.25rem;
+	cursor: col-resize;
+	left: -0.625rem;
+	position: absolute;
+	right: unset;
+}
+
+ .made-c-table__button--sortable {
+	align-items: center;
+	color: #cf4500;
+	display: flex;
+	font-family: MarkOffcForMC-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif;
+	font-size: 0.875rem;
+	font-weight: 700;
 }
 
  .made-c-tabs__list {
@@ -3269,16 +3388,48 @@
 	width: 100%;
 }
 
+ .made-c-text-input::-moz-placeholder {
+	color: #777470;
+}
+
+ .made-c-text-input::placeholder {
+	color: #777470;
+}
+
  .made-c-text-input--small {
 	margin: 0 0 0 1rem;
 	text-align: center;
 	width: 3.5rem;
 }
 
+ .made-c-text-input--icon {
+	padding-left: 2.25rem;
+}
+
  .made-c-text-input:focus {
 	border: 1px solid #cf4500;
 	box-shadow: 0 0 0 1px #cf4500;
 	outline: none;
+}
+
+ .made-c-text-input:disabled {
+	background-color: rgba(177, 173, 166, 0.1);
+	border: 1px solid rgba(177, 173, 166, 0.1);
+	color: #b1ada6;
+}
+
+ .made-c-text-input[aria-disabled='true'] {
+	background-color: rgba(177, 173, 166, 0.1);
+	border: 1px solid rgba(177, 173, 166, 0.1);
+	color: #b1ada6;
+}
+
+ .made-c-text-input:disabled+svg {
+	color: #b1ada6;
+}
+
+ .made-c-text-input[aria-disabled='true']+svg {
+	color: #b1ada6;
 }
 
  .made-c-text-input:disabled {
@@ -3359,6 +3510,14 @@
 	width: 100%;
 }
 
+ .made-c-text-area::-moz-placeholder {
+	color: #777470;
+}
+
+ .made-c-text-area::placeholder {
+	color: #777470;
+}
+
  .made-c-text-area__icon {
 	position: absolute;
 	right: 0.75rem;
@@ -3397,7 +3556,12 @@
 	display: inline-block;
 	height: 1.5rem;
 	position: relative;
-	width: 2.5rem;
+	width: 3rem;
+}
+
+ .made-c-toggle--small {
+	height: 1rem;
+	width: 2rem;
 }
 
  .made-c-toggle__input {
@@ -3415,85 +3579,100 @@
 	position: absolute;
 	right: 0;
 	top: 0;
-	transition: .4s;
+	transition: 70ms;
 }
 
  .made-c-toggle__slider::before {
 	background-color: #ffffff;
 	border-radius: 50%;
-	bottom: 1px;
-	box-shadow: 0 5px 10px 0 rgba(20,20,19,0.15), 0 2px 2px 0 rgba(20,20,19,0.3);
+	bottom: 3px;
 	content: '';
-	height: 1.375rem; /* No design token for 22px */
-	left: 1px;
+	height: 1.125rem;
+	left: 3px;
 	position: absolute;
-	transition: .4s;
-	width: 1.375rem; /* No design token for 22px */
+	transition: 70ms;
+	width: 1.125rem;
 }
 
- .made-c-toggle__input:checked + .made-c-toggle__slider {
+ .made-c-toggle__slider--small::before {
+	bottom: 2px;
+	height: 0.75rem;
+	left: 2px;
+	width: 0.75rem;
+}
+
+ .made-c-toggle__input:checked+.made-c-toggle__slider {
 	background-color: #038a00;
 }
 
- .made-c-toggle__input:focus + .made-c-toggle__slider {
+ .made-c-toggle__input:focus+.made-c-toggle__slider {
 	box-shadow: 0 0 1px #038a00;
 	outline: 2px solid #cf4500;
 	outline-offset: 2px;
 	transition: none;
 }
 
- .made-c-toggle__input:checked + .made-c-toggle__slider::before {
+ .made-c-toggle__input:checked+.made-c-toggle__slider::before {
+	transform: translateX(1.5rem);
+}
+
+ .made-c-toggle__input:checked + .made-c-toggle__slider--small::before {
 	transform: translateX(1rem);
 }
 
- .made-c-toggle__input:disabled + .made-c-toggle__slider {
+ .made-c-toggle__input:disabled+.made-c-toggle__slider {
 	background-color: rgba(177, 173, 166, 0.25);
 	cursor: not-allowed;
 }
 
- .made-c-toggle__input[aria-disabled='true'] + .made-c-toggle__slider {
+ .made-c-toggle__input[aria-disabled='true']+.made-c-toggle__slider {
 	background-color: rgba(177, 173, 166, 0.25);
 	cursor: not-allowed;
 }
 
- .made-c-toggle__input:disabled + .made-c-toggle__slider::before {
+ .made-c-toggle__input:disabled+.made-c-toggle__slider::before {
 	background-color: #ffffff;
 	cursor: not-allowed;
-	opacity: 0.5;
+	opacity: 0.25;
 }
 
- .made-c-toggle__input[aria-disabled='true'] + .made-c-toggle__slider::before {
+ .made-c-toggle__input[aria-disabled='true']+.made-c-toggle__slider::before {
 	background-color: #ffffff;
 	cursor: not-allowed;
-	opacity: 0.5;
+	opacity: 0.25;
 }
 
- .made-c-toggle__input:disabled:checked + .made-c-toggle__slider {
+ .made-c-toggle__input:disabled:checked+.made-c-toggle__slider {
 	background-color: #038a00;
 	cursor: not-allowed;
-	opacity: 0.5;
+	opacity: 0.25;
 }
 
- .made-c-toggle__input:checked[aria-disabled='true'] + .made-c-toggle__slider {
+ .made-c-toggle__input:checked[aria-disabled='true']+.made-c-toggle__slider {
 	background-color: #038a00;
 	cursor: not-allowed;
-	opacity: 0.5;
+	opacity: 0.25;
 }
 
  .made-c-toast {
-	align-items: flex-start;
+	align-items: center;
 	border-radius: 4px;
 	display: flex;
 	padding: 1rem 1rem;
 	position: absolute;
-	width: 100%;
+	width: 90%;
 	z-index: 50;
 }
 
  .made-c-toast__icon {
 	flex-shrink: 0;
 	margin-right: 0.75rem;
-	padding: .0357rem;
+}
+
+ .made-c-toast__button-close-icon {
+	height: 1.5rem;
+	padding: .2645rem;
+	width: 1.5rem;
 }
 
  .made-c-toast__content {
@@ -3501,29 +3680,26 @@
 	font-family: MarkOffcForMC-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
+	margin-left: 0.75rem;
 	word-break: break-all;
 }
 
  .made-c-toast__button-close {
 	background: transparent;
 	border: 0;
-	border-radius: 4px;
+	border-radius: 0;
 	color: inherit;
 	cursor: pointer;
+	height: 1.5rem;
 	line-height: 0;
 	margin-left: 2rem;
 	padding: 0;
+	width: 1.5rem;
 }
 
  .made-c-toast__button-close:focus {
 	outline: .125rem solid #ffffff;
 	outline-offset: .125rem;
-}
-
- .made-c-toast__button-close-icon {
-	height: 1.5rem;
-	padding: .2645rem;
-	width: 1.5rem;
 }
 
  .made-c-toast--success {
@@ -3784,8 +3960,10 @@
 	background-color: transparent;
 	border: none;
 	color: #141413;
+	height: 1.5rem;
 	margin: 0 0.5rem 0 0;
 	padding: 0;
+	width: 1.5rem;
 }
 
  .made-c-pagination__button:focus {
@@ -3804,13 +3982,13 @@
 }
 
  .made-c-form__label--pagination {
-	font-size: 0.75rem;
+	font-size: 0.875rem;
 	margin: 0 0.5rem;
 	padding: 0;
 }
 
  .made-c-pagination__item {
-	font-size: 0.75rem;
+	font-size: 0.875rem;
 }
 
  .made-c-pagination__input {
@@ -3850,6 +4028,7 @@
 	display: inline-flex;
 	font-size: 0.875rem;
 	line-height: 1.5;
+	min-height: 1.5rem;
 	padding: 0 0.5rem 0 0.5rem;
 }
 
@@ -3865,7 +4044,7 @@
 	justify-content: center;
 	margin: 0 0 0 .125rem;
 	padding: 0;
-	transition: background-color 70ms cubic-bezier(.2,0,.38,.9),box-shadow 70ms cubic-bezier(.2,0,.38,.9);
+	transition: background-color 70ms cubic-bezier(.2, 0, .38, .9), box-shadow 70ms cubic-bezier(.2, 0, .38, .9);
 	width: 1.5rem;
 }
 
@@ -3889,6 +4068,7 @@
  .made-c-pill--sm {
 	font-size: 0.75rem;
 	line-height: 1.5;
+	min-height: 1.125rem;
 }
 
  .made-c-pill--sm .made-c-pill__button {
@@ -3937,8 +4117,7 @@
 	border-radius: 4px;
 }
 
- .made-c-pill--squared
-.made-c-pill__button {
+ .made-c-pill--squared .made-c-pill__button {
 	border-radius: 4px;
 }
 

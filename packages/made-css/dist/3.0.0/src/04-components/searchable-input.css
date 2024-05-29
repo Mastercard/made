@@ -1,0 +1,66 @@
+.made-c-text-input__select-button {
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	height: var(--made-space-10-x);
+	padding: 0;
+	position: absolute;
+	right: var(--made-space-8-x);
+}
+
+.made-c-text-input__select-button:focus {
+	outline: 2px solid var(--made-color-action-border-focus);
+	outline-offset: 2px;
+}
+
+.made-c-text-input__select-button:hover {
+	opacity: var(--made-opacity-75);
+}
+
+.made-c-text-input__select-close {
+	height: var(--made-space-3-x);
+	width: var(--made-space-3-x);
+}
+
+.made-c-text-input--searchable-input {
+	padding-left: var(--made-space-4-x);
+}
+
+.made-c-searchable-input {
+	border-radius: var(--made-border-radius-default);
+	box-shadow: var(--made-shadow-default);
+}
+
+.made-c-searchable-input__options-wrapper {
+	border-radius: var(--made-border-radius-default);
+	padding-right: var(--made-space-1-x);
+}
+
+.made-c-searchable-input__options {
+	border-radius: var(--made-border-radius-default);
+	max-height: 18.125rem;
+	overflow-y: auto;
+	padding-right: var(--made-space-1-x);
+}
+
+.made-c-searchable-input--overflow-menu {
+	border-radius: 0;
+	border-right: 1px solid var(--made-color-border-default-on-light);
+	box-shadow: none;
+	max-width: none;
+	width: 100%;
+}
+
+.made-c-searchable-input__footer {
+	border-top: 1px solid var(--made-color-border-default-on-light);
+	padding: var(--made-space-4-x);
+}
+
+.made-c-searchable-input__options::-webkit-scrollbar {
+	width: var(--made-size-2-x);
+}
+
+.made-c-searchable-input__options::-webkit-scrollbar-thumb {
+	background-color: var(--made-scrollbar-color-background);
+	border-radius: var(--made-border-radius-06);
+}
