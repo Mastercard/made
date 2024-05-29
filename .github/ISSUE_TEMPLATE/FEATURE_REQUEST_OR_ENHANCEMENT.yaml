@@ -15,7 +15,9 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: Your team
+      label: The problem
+      description:
+        'Provide a clear and concise description of what the problem this new feature is trying to solve. (For example, I find it frustrating when...). Be sure to attach screenshots or videos to illustrate the problem.'
     validations:
       required: true
   - type: textarea
@@ -43,4 +45,3 @@ body:
     attributes:
       label: Available extra resources
       description: 'What resources do you have to assist this effort?'
-  - type: markdown
