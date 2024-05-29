@@ -1,0 +1,118 @@
+.made-c-progress-ring {
+	display: inline-flex;
+	position: relative;
+}
+
+.made-c-progress-ring__path {
+	background-color: var(--made-color-background-default);
+	stroke: var(--made-color-border-default-on-light);
+	stroke-width: .375rem;
+}
+
+.made-c-progress-ring__path-fill {
+	stroke: var(--made-color-action-border-primary-default);
+	stroke-width: .375rem;
+	transform: rotate(-90deg);
+	transform-origin: center;
+}
+
+.made-c-progress-ring__content {
+	align-items: center;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.made-c-progress-ring__progress {
+	font-size: var(--made-font-heading-size-level-01);
+	line-height: var(--made-line-height-heading);
+}
+
+.made-c-progress-ring__description {
+	font-family: var(--made-font-body-family-bold);
+	font-size: var(--made-font-body-size-small);
+	letter-spacing: var(--made-font-heading-letter-spacing-eyebrow-01);
+	text-transform: uppercase;
+}
+
+.made-c-stepper {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.made-c-stepper__step {
+	flex: 1 1 0%;
+	position: relative;
+}
+
+.made-c-stepper__step::after {
+	background-color: var(--made-color-border-default-on-light);
+	content: '';
+	height: .125rem;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.made-c-stepper__step:last-child::after {
+	display: none;
+}
+
+.made-c-stepper__progress {
+	align-items: center;
+	background-color: var(--made-color-background-default);
+	border: 2px solid var(--made-color-border-default-on-light);
+	border-radius: 100%;
+	display: flex;
+	height: var(--made-size-6-x);
+	justify-content: center;
+	position: absolute;
+	top: -30%;
+	width: var(--made-size-6-x);
+	z-index: 1;
+}
+
+.made-c-stepper__progress--complete,
+.made-c-stepper__progress--current {
+	background-color: var(--made-color-feedback-background-success);
+	border: 2px solid var(--made-color-feedback-border-success);
+	color: var(--made-color-text-default-on-dark);
+}
+
+.made-c-stepper__label {
+	color: var(--made-color-action-text-disabled);
+	display: block;
+	font-size: var(--made-font-size-02);
+	margin-top: var(--made-space-4-x);
+}
+
+.made-c-stepper__label--current {
+	color: var(--made-color-text-default-on-light);
+	font-family: var(--made-font-body-family-bold);
+}
+
+.made-c-stepper__label--complete {
+	color: var(--made-color-text-default-on-light);
+}
+
+.made-c-stepper__progress--current {
+	background-color: var(--made-color-text-default-on-light);
+	border: none;
+	box-shadow: 0 0 0 5px var(--made-color-background-default), 0 0 0 7px var(--made-color-text-default-on-light);
+	height: .625rem;
+	margin-left: .438rem;
+	top: -10%;
+	width: .625rem;
+}
+
+.made-c-stepper__icon {
+	height: var(--made-size-4-x);
+	width: var(--made-size-4-x);
+}
