@@ -5494,7 +5494,13 @@
       "name": "unify - light",
       "$figmaStyleReferences": {
         "box-shadow.default": "S:3fb3609454162656ec07cd90fa5d16dd6d79ad3d,",
-        "box-shadow.subtle": "S:f0d875a2bf6d078f8a6a2f6bee1721ae98106dd4,"
+        "box-shadow.subtle": "S:f0d875a2bf6d078f8a6a2f6bee1721ae98106dd4,",
+        "shadow-sm": "S:97fddcdc0b80ec92111855ebc53068f23cbede68,",
+        "shadow": "S:107259938a2e80e440dc14dea807a7be015e23f0,",
+        "shadow-md": "S:df29af727a64c7decdf625b4dc1c03321bd844c8,",
+        "shadow-lg": "S:e5c1353705d4960b982539c60d6b6282b942bacc,",
+        "shadow-xl": "S:2e38a0539508fea386dd187e9e7f82f60a85f440,",
+        "shadow-2xl": "S:1d0624b5f409a20e98d91bccce6ac2f116cec7be,"
       },
       "selectedTokenSets": {
         "unify/primitive": "source",
