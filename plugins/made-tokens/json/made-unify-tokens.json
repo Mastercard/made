@@ -2650,7 +2650,7 @@
           "description": "8px. Large border radius for UI components"
         },
         "full": {
-          "value": "999",
+          "value": "9999",
           "type": "borderRadius"
         }
       }
