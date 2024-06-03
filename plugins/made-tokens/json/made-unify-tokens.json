@@ -7,7 +7,8 @@
       },
       "0-5-x": {
         "value": "0.125rem",
-        "type": "dimension"
+        "type": "dimension",
+        "description": "2px"
       },
       "1-x": {
         "value": "0.25rem",
