@@ -3360,7 +3360,7 @@
           "type": "color"
         },
         "backdrop": {
-          "value": "{color.neutral.900}",
+          "value": "{color.neutral.800}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -5582,6 +5582,7 @@
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
         "color.border.discovery-strong": "7614c9a2f458f7f5ecf484651eba32a774ce6eb0",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
+        "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
         "color.icon.primary": "414553162270932295149fe0abd09505466e4e67",
         "color.icon.secondary": "a7467a281e42acbead30c738655e9b0f173385a5",
@@ -5642,8 +5643,7 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
-        "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
       },
       "group": "themes"
     },
@@ -5776,6 +5776,7 @@
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
         "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
+        "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
         "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
@@ -5800,8 +5801,7 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
-        "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
       },
       "group": "themes"
     },
@@ -5931,6 +5931,7 @@
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
         "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
+        "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
         "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
@@ -5956,8 +5957,7 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
-        "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
       },
       "group": "themes"
     },
@@ -5980,6 +5980,7 @@
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
         "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
+        "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
         "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
@@ -6005,8 +6006,7 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
-        "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
       },
       "group": "themes"
     }
