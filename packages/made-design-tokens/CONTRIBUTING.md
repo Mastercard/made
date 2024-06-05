@@ -21,6 +21,9 @@ We use Style Dictionary to transform our design tokens to scale across multiple 
 
 This means we can ensure brand consistency throughout any targeted platform. To learn more about Style Dictionary see their [documentation site](https://amzn.github.io/style-dictionary/#/) and [Github examples](https://github.com/amzn/style-dictionary).
 
+### Documentation
+Please review [Project Structure](./PROJECT-STRUCTURE.md) and [Design Tokens](./DESIGN-TOKENS-101.md) documentation to learn more about the project.
+
 ### Naming Conventions
 
 Made Design Tokens follow best practice as outlined by Nathan Curtis in [Naming Tokens in Design Systems](https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676)
@@ -39,62 +42,42 @@ We follow [conventional commits'](https://www.conventionalcommits.org/en/v1.0.0/
 
 Please follow the spec to have a successful commit.
 
-## Contribute
+## Start contributing
 
-### Propose an update or new feature
+###  - Setting up your environment -
 
-Whether you’re proposing an update, a new feature or simply making something better, we welcome contribution. 
+#### 1. Fork the repo:
 
-Simply contact the Made. team and provide the following information:
+Go to [Made's repository on GitHub](https://github.com/Mastercard/)
+and click the `Fork` button in the top-right corner. This will create a copy
+repo of Made associated with your account.
 
-- A brief description of the update you want to propose.
-- Clarify whether it’s a variation of an existing token, format or a new theme
-- Include mockups of any fidelity (optional)
-- Include any inspirations from other products (optional)
-- Once your request is raised, we’ll review and set up a meeting to discuss the proposal in greater detail.
+### 2. Clone your fork:
 
-We’ll cover the following:
+1.  Go to your [GitHub Repositories](https://github.com/settings/repositories).
+2.  Click on `[your_github_username]/made`.
+3.  Click on the `Code` button and copy the URL from the `Clone with HTTPS` option.
 
-- What exactly needs working on 
-- How much you’d like to contribute
-- Support needed to get the job done
-- Suitable timings that work for you
-- If your work meets our contribution criteria, your request will be added to our backlog and marked as 'To do'. At this stage, you can either start contribution or leave it for a member of the Made production team to pick up.
+For more information see [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [Forking a repo] https://help.github.com/articles/fork-a-repo/) for more details.
 
-### Submit a Pull Request
+Great job on getting to this point! Now it's time to code :computer:
 
-Good pull requests - patches, improvements, new features - are a fantastic help, before starting please open a new issue as documented above for whatever you are adding. That way, we can also offer suggestions or let you know if there is already an effort in progress.
+## - Setting up your code -
 
-With that all in place, you're ready to start contributing to Made.!
+### 1. Find or create an issue
 
-**Fork this repo**  
-Click the Fork button in the top-right corner. This will create a copy repo of Made. Design Tokens to your account. 
+Before you start coding, if you have an issue in mind that you'd like to tackle,
+please first [search](https://github.com/Mastercard/made/issues) the
+issues to see if a similar issue you'd like to work on has already been
+submitted. If a similar issue has been submitted, assign yourself or ask to be
+assigned to the issue by posting a comment.
 
-**Clone your fork**    
-[You can clone a repository by using the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository)
+If the issue does not exist, please make a new issue. Issues give us context
+about what you are contributing and expedite the process to getting your
+contributions merged into Made. It's a win for everybody :tada:
 
-```
-# Clone your fork of the repo into the current directory
-git clone http://labs.mastercard.com/gitlab8/<your-username>/made-design-tokens.git
 
-# Navigate to the newly cloned directory
-cd made-design-tokens
-
-# Assign the original repo to a remote called "upstream"
-git remote add upstream http://labs.mastercard.com/gitlab8/made-design-tokens.git
-
-# Verify the remote was added
-git remote -v
-```
-
-**Make sure you have the latest changes**    
-
-```
-git checkout master
-git pull upstream master
-```
-
-**Work on a feature branch**   
+### 2. Work in a feature branch
 When contributing to Made., your work should always be done in a branch off of your repo, this is also how you will submit your pull request when your work is done. To create a new branch, ensure you are in your forked branch in your terminal and run:
 
 ```
@@ -103,7 +86,14 @@ git checkout -b feature/your-branch-name
 
 Review [Design Tokens 101](./DESIGN-TOKENS-101.md) for a how to guide on creating new tokens, themes formats and to Design Tokens Checklist before submitting your PR.
 
-**Commit  Changes**  
+### 3. Install dependencies
+
+From the root directory of your fork, run:
+
+`npm install`
+
+
+### Commit  Changes 
 When the changes are done, add all changes
 
 `git add .`
@@ -116,13 +106,8 @@ Push the changes to Gitlabs
 
 ```git push```
 
-**Open a new Merge Request**  
+### Open a new Merge Request 
 
 When the branch has been pushed. Create a merge request for another developer to review your code. 
 
-See documentation on [Gitlabs create merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) for more information.
-
-- Click on the Merge Request tab on the left hand side.
-- Click the new merge request button
-- Choose the branch you pushed and request to merge into master. Click merge branch and continue
-- Add title (use conventional commit naming convention) and description of changes made. Assign the MR to a Made. developer for a code review and click Submit.
+See documentation on [Gitlhub docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) for more information.
