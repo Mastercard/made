@@ -7,6 +7,10 @@ export const RangeSlider = ({ label, isDisabled, rangeValue }) => {
 
 	const [value, setValue] = useState(rangeValue); //initial value of range slider is 50
 
+	const handleClick = () => {
+		rangeSlider.current.focus();
+	  };
+
 	const updateRangeSlider = (newValue) => {
 		let rangeSliderBackgroundColor =
 			"var(--made-color-border-default-on-light)";
@@ -48,7 +52,7 @@ export const RangeSlider = ({ label, isDisabled, rangeValue }) => {
 						: "made-c-range-slider"
 				}
 			>
-				<label class="made-c-range-slider__label" for="range-slider">
+				<label class="made-c-form__label" for="range-slider">
 					{label}
 					{isDisabled}
 				</label>
@@ -64,6 +68,7 @@ export const RangeSlider = ({ label, isDisabled, rangeValue }) => {
 						value={value}
 						ref={rangeSlider}
 						onChange={setValueByRangeSlider}
+						onClick={handleClick}
 						disabled={isDisabled}
 					/>
 					<div class="made-c-range-slider__max-value">100</div>

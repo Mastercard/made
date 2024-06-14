@@ -1,0 +1,18 @@
+{
+  "font": {
+    "family": {
+      "heading": {
+        "comment": "Font family for headings (H1,H2 and display text)",
+        "value": "{font.family.light.value}",
+        "themeable": "Yes",
+        "type": "fontFamilies"
+      },
+      "eyebrow": {
+        "comment": "Font family for headings (H1,H2 and display text)",
+        "value": "{font.family.bold.value}",
+        "themeable": "Yes",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

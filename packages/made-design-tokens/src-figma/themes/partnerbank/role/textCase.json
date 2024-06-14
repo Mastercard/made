@@ -1,0 +1,16 @@
+{
+  "textCase": {
+    "none": {
+      "value": "none",
+      "type": "textCase",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "uppercase": {
+      "value": "uppercase",
+      "type": "textCase",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "paragraphIndent": {
+    "0": {
+      "value": "0px",
+      "type": "dimension",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

@@ -1,20 +1,21 @@
 {
-  "extends": ["stylelint-config-standard"],
-  "plugins": ["stylelint-order", "stylelint-selector-bem-pattern"],
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "plugins": ["stylelint-order"],
   "rules": {
-    "indentation": 2,
+    "indentation": "tab",
     "max-line-length": 80,
     "string-quotes": "single",
     "declaration-block-no-redundant-longhand-properties": true,
     "selector-max-id": 0,
     "declaration-no-important": true,
     "declaration-block-no-duplicate-properties": true,
+    "selector-class-pattern": null, 
     "selector-no-qualifying-type": [true, {
       "ignore": ["attribute"]
     }],
     "comment-whitespace-inside": "always",
     "selector-list-comma-newline-after": "always",
-    "unit-allowed-list": ["rem", "px", "%", "vh", "ms", "s", "fr", "deg"],
+    "unit-allowed-list": ["rem", "px", "%", "vh", "ms", "s", "fr", "deg", "vw"],
     "max-nesting-depth" : 1,
     "block-opening-brace-space-before": "always",
     "block-opening-brace-newline-after": "always",
@@ -35,19 +36,10 @@
     "number-leading-zero": "never",
     "block-no-empty": true,
     "no-empty-source": null,
-    "color-hex-length": "short",
     "order/order": [
       "custom-properties",
       "declarations"
     ],
     "order/properties-alphabetical-order": true
-  },
-  "plugin/selector-bem-pattern": {
-    "componentName": "[A-Z]+",
-    "componentSelectors": {
-      "initial": "^\\.{componentName}(?:-[a-z]+)?$",
-      "combined": "^\\.combined-{componentName}-[a-z]+$"
-    },
-    "utilitySelectors": "^\\.util-[a-z]+$"
   }
 }

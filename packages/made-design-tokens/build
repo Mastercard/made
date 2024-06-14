@@ -1,3 +1,6 @@
+# This file is a legacy file that was used to get tokens from DSM and run build in this project. 
+# Keeping here as reference incase DSM is cool again!
+
 #!/usr/bin/env bash
 TOKENS_URL=https://mastercard.invisionapp.com/dsm-export/mastercard/made-mobile-ui/tokens-style-dictionary.zip
 API_KEY=f910fa6ff1035fc742a8d267f5072c3d

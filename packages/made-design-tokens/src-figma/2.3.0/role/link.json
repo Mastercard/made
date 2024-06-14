@@ -1,0 +1,18 @@
+{
+  "link": {
+    "color": {
+      "default": {
+        "value": "{color.action.primary.default.value}",
+        "type": "color",
+        "comment": "Text color for link",
+        "themeable": "Yes"
+      },
+      "on-dark": {
+        "value": "{color.action.on-dark.default.value}",
+        "type": "color",
+        "comment": "Text color for links on dark backgrounds",
+        "themeable": "Yes"
+      }
+    }
+  }
+}

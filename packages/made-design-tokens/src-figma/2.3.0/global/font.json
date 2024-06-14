@@ -1,0 +1,624 @@
+{
+  "font": {
+    "body": {
+      "family": {
+        "bold": {
+          "value": "{font.family.medium.value}",
+          "type": "fontSizes",
+          "comment": "Font family for bold body text.",
+          "themeable": "Yes"
+        },
+        "default": {
+          "value": "{font.family.regular.value}",
+          "type": "fontSizes",
+          "comment": "Default font family for body text.",
+          "themeable": "Yes"
+        },
+        "narrow": {
+          "value": "{font.family.narrow.value}",
+          "type": "fontSizes",
+          "comment": "Default font family for narrow/small text. Used on tooltip and notification",
+          "themeable": "Yes"
+        }
+      },
+      "letter.spacing": {
+        "value": "{letter.spacing.default.value}",
+        "type": "letterSpacing",
+        "comment": "Default letter spacing for body text.",
+        "themeable": "No"
+      },
+      "line-height": {
+        "value": "{line.height.default.value}",
+        "type": "lineHeights",
+        "comment": "Default line height for body text.",
+        "themeable": "No"
+      },
+      "size": {
+        "default": {
+          "value": "{font.size.04.value}",
+          "type": "fontFamilies",
+          "comment": "Default font size for body text.",
+          "themeable": "Yes"
+        },
+        "large": {
+          "value": "{font.size.06.value}",
+          "type": "fontFamilies",
+          "comment": "Large font size for body text.",
+          "themeable": "Yes"
+        },
+        "small": {
+          "value": "{font.size.02.value}",
+          "type": "fontFamilies",
+          "comment": "Small font size for body text.",
+          "themeable": "Yes"
+        }
+      },
+      "weight": {
+        "bold": {
+          "value": "{font.weight.bold.value}",
+          "type": "fontWeights",
+          "comment": "Bold font weight for body text.",
+          "themeable": "Yes"
+        },
+        "default": {
+          "value": "{font.weight.default.value}",
+          "type": "fontWeights",
+          "comment": "Default font weight for body text.",
+          "themeable": "Yes"
+        }
+      }
+    },
+    "family": {
+      "bold": {
+        "value": "MarkOffcForMC-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "type": "other",
+        "comment": "Default bold weight font used across application",
+        "themeable": "No"
+      },
+      "extra-light": {
+        "value": "MarkOffcForMC-ExtraLight, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "type": "other",
+        "comment": "Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
+        "themeable": "No"
+      },
+      "eyebrow": {
+        "value": "{font.family.bold.value}",
+        "type": "fontFamilies",
+        "themeable": "Yes",
+        "comment": "Font family for headings (H1,H2 and display text)"
+      },
+      "heading": {
+        "value": "{font.family.light.value}",
+        "type": "fontFamilies",
+        "themeable": "Yes",
+        "comment": "Font family for headings (H1,H2 and display text)"
+      },
+      "light": {
+        "value": "MarkOffcForMC-Light, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "type": "other",
+        "comment": "Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
+        "themeable": "No"
+      },
+      "medium": {
+        "value": "MarkOffcForMC-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "type": "other",
+        "comment": "Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
+        "themeable": "No"
+      },
+      "narrow": {
+        "value": "MarkForMCNrw, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "type": "other",
+        "comment": "Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
+        "themeable": "No"
+      },
+      "narrow-bold": {
+        "value": "MarkForMCNrw-Bold, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "type": "other",
+        "comment": "Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
+        "themeable": "No"
+      },
+      "narrow-medium": {
+        "value": "MarkForMCNrw-Medium, MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "type": "other",
+        "comment": "Use Mark for MC Narrow for text smaller or equal to 14-pixels in all digital applications. It provides greater legibility for body copy, tight columns, or charts. 12-pixels is the minimum size for Narrow.",
+        "themeable": "No"
+      },
+      "regular": {
+        "value": "MarkOffcForMC, Arial, Helvetica, sans-serif",
+        "type": "other",
+        "comment": "Use Mark for MC for text slightly larger than 14-pixels in all digital applications.",
+        "themeable": "No"
+      }
+    },
+    "heading": {
+      "family": {
+        "display": {
+          "01": {
+            "value": "{font.family.heading.value}",
+            "type": "fontFamilies",
+            "comment": "Font family for Display 01.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{font.family.heading.value}",
+            "type": "fontFamilies",
+            "comment": "Font family for Display 02.",
+            "themeable": "No"
+          },
+          "03": {
+            "value": "{font.family.heading.value}",
+            "type": "fontFamilies",
+            "comment": "Font family for Display 03.",
+            "themeable": "No"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "value": "{font.family.eyebrow.value}",
+            "type": "fontFamilies",
+            "comment": "Font family for small eyebrow text.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{font.family.eyebrow.value}",
+            "type": "fontFamilies",
+            "comment": "Font family for large eyebrow text.",
+            "themeable": "No"
+          }
+        },
+        "level": {
+          "01": {
+            "value": "{font.family.heading.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 1 (H1).",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{font.family.heading.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 2 (H2).",
+            "themeable": "No"
+          },
+          "03": {
+            "value": "{font.body.family.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 3 (H3).",
+            "themeable": "No"
+          },
+          "04": {
+            "value": "{font.body.family.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 4 (H4).",
+            "themeable": "No"
+          },
+          "05": {
+            "value": "{font.body.family.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 5 (H5).",
+            "themeable": "No"
+          },
+          "06": {
+            "value": "{font.body.family.bold.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 6 (H6).",
+            "themeable": "No"
+          }
+        }
+      },
+      "letter.spacing": {
+        "display": {
+          "01": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Display 02.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Display 02.",
+            "themeable": "No"
+          },
+          "03": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Display 03.",
+            "themeable": "No"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "value": "{letter.spacing.eyebrow.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing for small eyebrow text.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{letter.spacing.eyebrow.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing for small eyebrow text.",
+            "themeable": "No"
+          }
+        },
+        "level": {
+          "01": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Heading 1 (H1).",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Heading 2 (H2).",
+            "themeable": "No"
+          },
+          "03": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Heading 3 (H3).",
+            "themeable": "No"
+          },
+          "04": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Heading 4 (H4).",
+            "themeable": "No"
+          },
+          "05": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Heading 5 (H5).",
+            "themeable": "No"
+          },
+          "06": {
+            "value": "{letter.spacing.default.value}",
+            "type": "letterSpacing",
+            "comment": "Letter spacing of Heading 6 (H6).",
+            "themeable": "No"
+          }
+        }
+      },
+      "line-height": {
+        "display": {
+          "01": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line height of Display 01.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line height of Display 02.",
+            "themeable": "No"
+          },
+          "03": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line height of Display 03.",
+            "themeable": "No"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line Height for small eyebrow text.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line Height for large eyebrow text.",
+            "themeable": "No"
+          }
+        },
+        "level": {
+          "01": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line Height of Heading 1 (H1).",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line Height of Heading 2 (H2).",
+            "themeable": "No"
+          },
+          "03": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line Height of Heading 3 (H3).",
+            "themeable": "No"
+          },
+          "04": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line Height of Heading 4 (H4).",
+            "themeable": "No"
+          },
+          "05": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line Height of Heading 5 (H5).",
+            "themeable": "No"
+          },
+          "06": {
+            "value": "{line.height.heading.value}",
+            "type": "lineHeights",
+            "comment": "Line Height of Heading 6 (H6).",
+            "themeable": "No"
+          }
+        }
+      },
+      "size": {
+        "display": {
+          "01": {
+            "value": "{font.size.15.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Display 01.",
+            "themeable": "Yes"
+          },
+          "02": {
+            "value": "{font.size.13.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Display 02.",
+            "themeable": "Yes"
+          },
+          "03": {
+            "value": "{font.size.11.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Display 03.",
+            "themeable": "Yes"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "value": "{font.body.size.small.value}",
+            "type": "fontSizes",
+            "comment": "Font size for small eyebrow text",
+            "themeable": "Yes"
+          },
+          "02": {
+            "value": "{font.body.size.large.value}",
+            "type": "fontSizes",
+            "comment": "Font size for default eyebrow text",
+            "themeable": "Yes"
+          }
+        },
+        "level": {
+          "01": {
+            "value": "{font.size.11.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Heading 1 (H1)",
+            "themeable": "Yes"
+          },
+          "02": {
+            "value": "{font.size.10.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Heading 2 (H2)",
+            "themeable": "Yes"
+          },
+          "03": {
+            "value": "{font.size.09.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Heading 3 (H3)",
+            "themeable": "Yes"
+          },
+          "04": {
+            "value": "{font.size.08.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Heading 4 (H4)",
+            "themeable": "Yes"
+          },
+          "05": {
+            "value": "{font.size.07.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Heading 5 (H5)",
+            "themeable": "Yes"
+          },
+          "06": {
+            "value": "{font.size.06.value}",
+            "type": "fontSizes",
+            "comment": "Font Size for Heading 6 (H6)",
+            "themeable": "Yes"
+          }
+        }
+      },
+      "weight": {
+        "display": {
+          "01": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font family for Display 01.",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font family for Display 02.",
+            "themeable": "No"
+          },
+          "03": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font family for Display 03.",
+            "themeable": "No"
+          }
+        },
+        "eyebrow": {
+          "01": {
+            "value": "{font.weight.bold.value}",
+            "type": "fontFamilies",
+            "themeable": "No",
+            "comment": "Font family for small eyebrow text."
+          },
+          "02": {
+            "value": "{font.weight.bold.value}",
+            "type": "fontFamilies",
+            "themeable": "No",
+            "comment": "Font family for large eyebrow text."
+          }
+        },
+        "level": {
+          "01": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 1 (H1).",
+            "themeable": "No"
+          },
+          "02": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 2 (H2).",
+            "themeable": "No"
+          },
+          "03": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 3 (H3).",
+            "themeable": "No"
+          },
+          "04": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 4 (H4).",
+            "themeable": "No"
+          },
+          "05": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 5 (H5).",
+            "themeable": "No"
+          },
+          "06": {
+            "value": "{font.weight.default.value}",
+            "type": "fontFamilies",
+            "comment": "Font Family for Heading 6 (H6).",
+            "themeable": "No"
+          }
+        }
+      }
+    },
+    "size": {
+      "10": {
+        "value": "28px",
+        "type": "fontSizes",
+        "comment": "Font size: 28px",
+        "themeable": "No"
+      },
+      "11": {
+        "value": "32px",
+        "type": "fontSizes",
+        "comment": "Font size: 32px",
+        "themeable": "No"
+      },
+      "12": {
+        "value": "36px",
+        "type": "fontSizes",
+        "comment": "Font size: 36px",
+        "themeable": "No"
+      },
+      "13": {
+        "value": "48px",
+        "type": "fontSizes",
+        "comment": "Font size: 48px",
+        "themeable": "No"
+      },
+      "14": {
+        "value": "60px",
+        "type": "fontSizes",
+        "comment": "Font size: 60px",
+        "themeable": "No"
+      },
+      "15": {
+        "value": "80px",
+        "type": "fontSizes",
+        "comment": "Font size: 80px",
+        "themeable": "No"
+      },
+      "01": {
+        "value": "9px",
+        "type": "fontSizes",
+        "comment": "Font size: 9px",
+        "themeable": "No"
+      },
+      "02": {
+        "value": "12px",
+        "type": "fontSizes",
+        "comment": "Font size: 12px",
+        "themeable": "No"
+      },
+      "03": {
+        "value": "13px",
+        "type": "fontSizes",
+        "comment": "Font size: 13px",
+        "themeable": "No"
+      },
+      "04": {
+        "value": "14px",
+        "type": "fontSizes",
+        "comment": "Font size: 14px",
+        "themeable": "No"
+      },
+      "05": {
+        "value": "15px",
+        "type": "fontSizes",
+        "comment": "Font size: 15px",
+        "themeable": "No"
+      },
+      "06": {
+        "value": "16px",
+        "type": "fontSizes",
+        "comment": "Font size: 16px",
+        "themeable": "No"
+      },
+      "07": {
+        "value": "18px",
+        "type": "fontSizes",
+        "comment": "Font size: 18px",
+        "themeable": "No"
+      },
+      "08": {
+        "value": "20px",
+        "type": "fontSizes",
+        "comment": "Font size: 20px",
+        "themeable": "No"
+      },
+      "09": {
+        "value": "24px",
+        "type": "fontSizes",
+        "comment": "Font size: 24px",
+        "themeable": "No"
+      }
+    },
+    "weight": {
+      "bold": {
+        "value": "700",
+        "type": "fontWeights",
+        "comment": "Use bold sparingly for subtitles, eyebrows, emphasis, and dates",
+        "themeable": "No"
+      },
+      "default": {
+        "value": "400",
+        "type": "fontWeights",
+        "comment": "Normal font weight is used for body text and form inputs.",
+        "themeable": "No"
+      },
+      "light": {
+        "value": "100",
+        "type": "fontWeights",
+        "comment": "Light font weight is used for headings.",
+        "themeable": "No"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeights",
+        "comment": "Semi bold font weight is used for buttons.",
+        "themeable": "No"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "backdrop": {
+    "color": {
+      "background": {
+        "comment": "Background on overlay used with modals",
+        "themeable": "Yes",
+        "type": "color",
+        "value": "rgba(20,20,19,0.7)"
+      }
+    }
+  }
+}

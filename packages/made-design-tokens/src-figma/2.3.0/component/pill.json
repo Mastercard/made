@@ -1,0 +1,20 @@
+{
+  "pill": {
+    "color": {
+      "background": {
+        "default": {
+          "value": "{color.background.02.value}",
+          "type": "color",
+          "comment": "Background color for pill component.",
+          "themeable": "Yes"
+        },
+        "hover": {
+          "value": "{color.gray.02-5.value}",
+          "type": "color",
+          "comment": "Background color for pill components hover state for the close icon element. ",
+          "themeable": "Yes"
+        }
+      }
+    }
+  }
+}

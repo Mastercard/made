@@ -1,0 +1,10 @@
+{
+  "shadow": {
+    "default": {
+      "value": "0 2px 10px 0 rgba(20,20,19,0.20)",
+      "type": "boxShadow",
+      "comment": "Shadow for all content cards, dropdowns, dialogs, datepicker etc.",
+      "themeable": "Yes"
+    }
+  }
+}
