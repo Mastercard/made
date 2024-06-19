@@ -1748,6 +1748,10 @@
       "secondary": {
         "value": "Geist",
         "type": "fontFamilies"
+      },
+      "tertiary": {
+        "value": "Geist Mono",
+        "type": "fontFamilies"
       }
     },
     "line": {
