@@ -1742,11 +1742,11 @@
     },
     "font-family": {
       "primary": {
-        "value": "Inter",
+        "value": "Geist",
         "type": "fontFamilies"
       },
       "secondary": {
-        "value": "Inter",
+        "value": "Geist",
         "type": "fontFamilies"
       }
     },
@@ -5509,7 +5509,42 @@
         "shadow-md": "S:df29af727a64c7decdf625b4dc1c03321bd844c8,",
         "shadow-lg": "S:e5c1353705d4960b982539c60d6b6282b942bacc,",
         "shadow-xl": "S:2e38a0539508fea386dd187e9e7f82f60a85f440,",
-        "shadow-2xl": "S:1d0624b5f409a20e98d91bccce6ac2f116cec7be,"
+        "shadow-2xl": "S:1d0624b5f409a20e98d91bccce6ac2f116cec7be,",
+        "heading.h1": "S:ae9cef6b7b892eaad93eb93139580cf09ce7e46d,",
+        "heading.h2": "S:5e6f5d125ec82a84569463c8cbf10e75e7ebd7fe,",
+        "heading.h3": "S:ce010132a70a6de041dfec6f701a7efea9486d45,",
+        "heading.h4": "S:d75421dd4df7b1d4409afd8581edb2ac33c28e8a,",
+        "heading.h5": "S:eac0397ed805ffae0d473de33e0829f1e793adf3,",
+        "heading.h6": "S:8c6b18c3a3e0f7607c38929395a3ad7729ff1329,",
+        "heading.display.h1": "S:a8670397c957b6685a0e1c2551d7a38f0ed4a818,",
+        "heading.display.h2": "S:c33d473957fd9e7c705a8a22e6493662e41aa7d3,",
+        "heading.display.h3": "S:a7ace2aa7205a1d8a5a3b530f394df0b8e44830f,",
+        "eyebrow.small": "S:acec1730f0cfc435c280efb996268064c29d320b,",
+        "eyebrow.large": "S:6aa9dd30890baae4290e81caf150ce8f8357f5e7,",
+        "link.medium.hover": "S:677c8e687237f29d1ca395f142925d319b04f86a,",
+        "link.medium.default": "S:8b4e14f76c81a07115154f3453ed09b6ae38d96f,",
+        "link.small.hover": "S:d45d3084984c6c141a629eae51c55ebba06b815a,",
+        "link.small.default": "S:649e2d8d11ed1bf89670074631615e08a3d481bc,",
+        "body.bold.large": "S:fe50da20309cf2ababd334a0d672e82c857207c4,",
+        "body.bold.medium": "S:517e3bb7c7bde80498367f9adc31fc6deb8f7ee0,",
+        "body.bold.small": "S:1061f900f259dd946f0aaab9c6ba733840aae7cd,",
+        "body.medium.large": "S:da6c90799d3a82a43f2aac5d394c033bdb83a52f,",
+        "body.medium.medium": "S:836bc08f01d20bc226be0cc8f5633cb85c3a66fd,",
+        "body.medium.small": "S:ea11bc2cf3161be81d1d5a7036e95546f91b4e17,",
+        "body.regular.large": "S:f1b98e32c465564a75e975563594f0343be83d66,",
+        "body.regular.medium": "S:eb1dd09e4b57d8889168bbf477d9051642b6c37f,",
+        "body.regular.small": "S:c22bf1ce93e337fcad2871c781811a647e95517b,",
+        "body.secondary.large": "S:6fe5472ddca93de274f1d01046979719544c741c,",
+        "body.secondary.medium": "S:5c941efb1f3e686c655e082fede5570efbfd091f,",
+        "body.secondary.small": "S:7d689909b6a198a92131e4ed077ecabb809c699b,",
+        "label.bold.medium": "S:678c25403dee1af9b12e3ba98262684fa227e2b1,",
+        "label.bold.small": "S:83ae05894c55811cf720c27dc443bc5f0bbf8322,",
+        "label.medium.medium": "S:2d91f9f264f58fe4f4eb918c9ba28e49eb879da6,",
+        "label.medium.small": "S:e61c3c95a78a0e144999b42f815f0af98835bb17,",
+        "label.regular.medium": "S:580713d7c05d84aa6f23aa8ce061162fef4bd224,",
+        "label.regular.small": "S:750327dea0ec504061a726f3021706dba7dca802,",
+        "label.secondary.medium": "S:59dc9bf463113b34a2c377b713358f983dda317d,",
+        "label.secondary.small": "S:1a6b39b4a2dc9b8766365f14506ab6b4b892a841,"
       },
       "selectedTokenSets": {
         "unify/primitive": "source",
