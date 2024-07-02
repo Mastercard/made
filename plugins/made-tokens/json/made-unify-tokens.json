@@ -2294,7 +2294,7 @@
           "type": "color"
         },
         "input": {
-          "value": "{color.neutral.300}",
+          "value": "{color.neutral.200}",
           "type": "color"
         },
         "success": {
