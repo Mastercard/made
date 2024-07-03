@@ -5,6 +5,11 @@
         "value": "0px",
         "type": "dimension"
       },
+      "1-px": {
+        "value": "1px",
+        "type": "dimension",
+        "description": "1px"
+      },
       "0-5-x": {
         "value": "0.125rem",
         "type": "dimension",
