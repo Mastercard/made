@@ -2665,7 +2665,7 @@
         "focus-offset": {
           "value": "{border.radius.default} + {dimension.0-5-x}",
           "type": "borderRadius",
-          "description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, drawers, buttons)"
+          "description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, buttons etc)"
         }
       }
     },
@@ -5696,7 +5696,8 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
+        "border.radius.focus-offset": "b030307e4d665d16d122d763d35f31581b56c152"
       },
       "group": "themes"
     },
@@ -5852,7 +5853,8 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
+        "border.radius.focus-offset": "b030307e4d665d16d122d763d35f31581b56c152"
       },
       "group": "themes"
     },
@@ -6008,7 +6010,8 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
+        "border.radius.focus-offset": "b030307e4d665d16d122d763d35f31581b56c152"
       },
       "group": "themes"
     },
@@ -6057,7 +6060,8 @@
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
-        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0"
+        "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
+        "border.radius.focus-offset": "b030307e4d665d16d122d763d35f31581b56c152"
       },
       "group": "themes"
     }
