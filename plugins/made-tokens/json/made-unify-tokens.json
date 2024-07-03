@@ -2661,6 +2661,11 @@
         "full": {
           "value": "9999",
           "type": "borderRadius"
+        },
+        "focus-offset": {
+          "value": "{border.radius.default} + {dimension.0-5-x}",
+          "type": "borderRadius",
+          "description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, drawers, buttons)"
         }
       }
     },
