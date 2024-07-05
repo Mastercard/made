@@ -1,6 +1,6 @@
 {
   "unify/primitive": {
-    "dimension": {
+    "size-space": {
       "0-x": {
         "value": "0px",
         "type": "dimension"
@@ -203,408 +203,408 @@
     },
     "sizing": {
       "0-x": {
-        "value": "{dimension.0-x}",
+        "value": "{size-space.0-x}",
         "type": "sizing",
         "description": "0px"
       },
       "0-5-x": {
-        "value": "{dimension.0-5-x}",
+        "value": "{size-space.0-5-x}",
         "type": "sizing",
         "description": "2px"
       },
       "1-x": {
-        "value": "{dimension.1-x}",
+        "value": "{size-space.1-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 4px"
       },
       "1-5-x": {
-        "value": "{dimension.1-5-x}",
+        "value": "{size-space.1-5-x}",
         "type": "sizing",
         "description": "6px"
       },
       "2-x": {
-        "value": "{dimension.2-x}",
+        "value": "{size-space.2-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 8px"
       },
       "2-5-x": {
-        "value": "{dimension.2-5-x}",
+        "value": "{size-space.2-5-x}",
         "type": "sizing",
         "description": "10px"
       },
       "3-x": {
-        "value": "{dimension.3-x}",
+        "value": "{size-space.3-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 12px"
       },
       "3-5-x": {
-        "value": "{dimension.3-5-x}",
+        "value": "{size-space.3-5-x}",
         "type": "sizing",
         "description": "14px"
       },
       "4-x": {
-        "value": "{dimension.4-x}",
+        "value": "{size-space.4-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 16px"
       },
       "5-x": {
-        "value": "{dimension.5-x}",
+        "value": "{size-space.5-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 20px"
       },
       "6-x": {
-        "value": "{dimension.6-x}",
+        "value": "{size-space.6-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 24px"
       },
       "7-x": {
-        "value": "{dimension.7-x}",
+        "value": "{size-space.7-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 28px"
       },
       "8-x": {
-        "value": "{dimension.8-x}",
+        "value": "{size-space.8-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 32px"
       },
       "9-x": {
-        "value": "{dimension.9-x}",
+        "value": "{size-space.9-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 36px"
       },
       "10-x": {
-        "value": "{dimension.10-x}",
+        "value": "{size-space.10-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 40px"
       },
       "11-x": {
-        "value": "{dimension.11-x}",
+        "value": "{size-space.11-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 44px"
       },
       "12-x": {
-        "value": "{dimension.12-x}",
+        "value": "{size-space.12-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 48px"
       },
       "13-x": {
-        "value": "{dimension.13-x}",
+        "value": "{size-space.13-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 52px"
       },
       "14-x": {
-        "value": "{dimension.14-x}",
+        "value": "{size-space.14-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 56px"
       },
       "15-x": {
-        "value": "{dimension.15-x}",
+        "value": "{size-space.15-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 60px"
       },
       "16-x": {
-        "value": "{dimension.16-x}",
+        "value": "{size-space.16-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 64px"
       },
       "17-x": {
-        "value": "{dimension.17-x}",
+        "value": "{size-space.17-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 68px"
       },
       "18-x": {
-        "value": "{dimension.18-x}",
+        "value": "{size-space.18-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 72px"
       },
       "19-x": {
-        "value": "{dimension.19-x}",
+        "value": "{size-space.19-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 76px"
       },
       "20-x": {
-        "value": "{dimension.20-x}",
+        "value": "{size-space.20-x}",
         "type": "sizing",
         "themeable": "No",
         "description": "Size: 80px"
       },
       "24-x": {
-        "value": "{dimension.24-x}",
+        "value": "{size-space.24-x}",
         "type": "sizing",
         "description": "96px"
       },
       "28-x": {
-        "value": "{dimension.28-x}",
+        "value": "{size-space.28-x}",
         "type": "sizing",
         "description": "112px"
       },
       "32-x": {
-        "value": "{dimension.32-x}",
+        "value": "{size-space.32-x}",
         "type": "sizing",
         "description": "128px"
       },
       "36-x": {
-        "value": "{dimension.36-x}",
+        "value": "{size-space.36-x}",
         "type": "sizing",
         "description": "144px"
       },
       "40-x": {
-        "value": "{dimension.40-x}",
+        "value": "{size-space.40-x}",
         "type": "sizing",
         "description": "160px"
       },
       "44-x": {
-        "value": "{dimension.44-x}",
+        "value": "{size-space.44-x}",
         "type": "sizing",
         "description": "176px"
       },
       "48-x": {
-        "value": "{dimension.48-x}",
+        "value": "{size-space.48-x}",
         "type": "sizing",
         "description": "192px"
       },
       "52-x": {
-        "value": "{dimension.52-x}",
+        "value": "{size-space.52-x}",
         "type": "sizing",
         "description": "208px"
       },
       "56-x": {
-        "value": "{dimension.56-x}",
+        "value": "{size-space.56-x}",
         "type": "sizing",
         "description": "224px"
       },
       "60-x": {
-        "value": "{dimension.60-x}",
+        "value": "{size-space.60-x}",
         "type": "sizing",
         "description": "240px"
       },
       "64-x": {
-        "value": "{dimension.64-x}",
+        "value": "{size-space.64-x}",
         "type": "sizing",
         "description": "256px"
       },
       "72-x": {
-        "value": "{dimension.72-x}",
+        "value": "{size-space.72-x}",
         "type": "sizing",
         "description": "288px"
       },
       "80-x": {
-        "value": "{dimension.80-x}",
+        "value": "{size-space.80-x}",
         "type": "sizing",
         "description": "320px"
       },
       "96-x": {
-        "value": "{dimension.96-x}",
+        "value": "{size-space.96-x}",
         "type": "sizing",
         "description": "384px"
       }
     },
     "spacing": {
       "0-x": {
-        "value": "{dimension.0-x}",
+        "value": "{size-space.0-x}",
         "type": "spacing",
         "description": "0px"
       },
       "0-5-x": {
-        "value": "{dimension.0-5-x}",
+        "value": "{size-space.0-5-x}",
         "type": "spacing"
       },
       "1-x": {
-        "value": "{dimension.1-x}",
+        "value": "{size-space.1-x}",
         "type": "spacing",
         "description": "4px"
       },
       "1-5-x": {
-        "value": "{dimension.1-5-x}",
+        "value": "{size-space.1-5-x}",
         "type": "spacing",
         "description": "6px"
       },
       "2-x": {
-        "value": "{dimension.2-x}",
+        "value": "{size-space.2-x}",
         "type": "spacing",
         "description": "8px"
       },
       "2-5-x": {
-        "value": "{dimension.2-5-x}",
+        "value": "{size-space.2-5-x}",
         "type": "spacing",
         "description": "10px"
       },
       "3-x": {
-        "value": "{dimension.3-x}",
+        "value": "{size-space.3-x}",
         "type": "spacing",
         "description": "12px"
       },
       "3-5-x": {
-        "value": "{dimension.3-5-x}",
+        "value": "{size-space.3-5-x}",
         "type": "spacing",
         "description": "14px"
       },
       "4-x": {
-        "value": "{dimension.4-x}",
+        "value": "{size-space.4-x}",
         "type": "spacing",
         "description": "16px"
       },
       "5-x": {
-        "value": "{dimension.5-x}",
+        "value": "{size-space.5-x}",
         "type": "spacing",
         "description": "20px"
       },
       "6-x": {
-        "value": "{dimension.6-x}",
+        "value": "{size-space.6-x}",
         "type": "spacing",
         "description": "24px"
       },
       "7-x": {
-        "value": "{dimension.7-x}",
+        "value": "{size-space.7-x}",
         "type": "spacing",
         "description": "28px"
       },
       "8-x": {
-        "value": "{dimension.8-x}",
+        "value": "{size-space.8-x}",
         "type": "spacing",
         "description": "32px"
       },
       "9-x": {
-        "value": "{dimension.9-x}",
+        "value": "{size-space.9-x}",
         "type": "spacing",
         "description": "36px"
       },
       "10-x": {
-        "value": "{dimension.10-x}",
+        "value": "{size-space.10-x}",
         "type": "spacing",
         "description": "40px"
       },
       "11-x": {
-        "value": "{dimension.11-x}",
+        "value": "{size-space.11-x}",
         "type": "spacing",
         "description": "44px"
       },
       "12-x": {
-        "value": "{dimension.12-x}",
+        "value": "{size-space.12-x}",
         "type": "spacing",
         "description": "48px"
       },
       "13-x": {
-        "value": "{dimension.13-x}",
+        "value": "{size-space.13-x}",
         "type": "spacing"
       },
       "14-x": {
-        "value": "{dimension.14-x}",
+        "value": "{size-space.14-x}",
         "type": "spacing",
         "description": "56px"
       },
       "15-x": {
-        "value": "{dimension.15-x}",
+        "value": "{size-space.15-x}",
         "type": "spacing"
       },
       "16-x": {
-        "value": "{dimension.16-x}",
+        "value": "{size-space.16-x}",
         "type": "spacing",
         "description": "64px"
       },
       "17-x": {
-        "value": "{dimension.17-x}",
+        "value": "{size-space.17-x}",
         "type": "spacing"
       },
       "18-x": {
-        "value": "{dimension.18-x}",
+        "value": "{size-space.18-x}",
         "type": "spacing"
       },
       "19-x": {
-        "value": "{dimension.19-x}",
+        "value": "{size-space.19-x}",
         "type": "spacing"
       },
       "20-x": {
-        "value": "{dimension.20-x}",
+        "value": "{size-space.20-x}",
         "type": "spacing",
         "description": "80px"
       },
       "24-x": {
-        "value": "{dimension.24-x}",
+        "value": "{size-space.24-x}",
         "type": "spacing",
         "description": "96px"
       },
       "28-x": {
-        "value": "{dimension.28-x}",
+        "value": "{size-space.28-x}",
         "type": "spacing",
         "description": "112px"
       },
       "32-x": {
-        "value": "{dimension.32-x}",
+        "value": "{size-space.32-x}",
         "type": "spacing",
         "description": "128px"
       },
       "36-x": {
-        "value": "{dimension.36-x}",
+        "value": "{size-space.36-x}",
         "type": "spacing",
         "description": "144px"
       },
       "40-x": {
-        "value": "{dimension.40-x}",
+        "value": "{size-space.40-x}",
         "type": "spacing",
         "description": "160px"
       },
       "44-x": {
-        "value": "{dimension.44-x}",
+        "value": "{size-space.44-x}",
         "type": "spacing",
         "description": "176px"
       },
       "48-x": {
-        "value": "{dimension.48-x}",
+        "value": "{size-space.48-x}",
         "type": "spacing",
         "description": "192px"
       },
       "52-x": {
-        "value": "{dimension.52-x}",
+        "value": "{size-space.52-x}",
         "type": "spacing",
         "description": "208px"
       },
       "56-x": {
-        "value": "{dimension.56-x}",
+        "value": "{size-space.56-x}",
         "type": "spacing",
         "description": "224px"
       },
       "60-x": {
-        "value": "{dimension.60-x}",
+        "value": "{size-space.60-x}",
         "type": "spacing",
         "description": "240px"
       },
       "64-x": {
-        "value": "{dimension.64-x}",
+        "value": "{size-space.64-x}",
         "type": "spacing",
         "description": "256px"
       },
       "72-x": {
-        "value": "{dimension.72-x}",
+        "value": "{size-space.72-x}",
         "type": "spacing",
         "description": "288px"
       },
       "80-x": {
-        "value": "{dimension.80-x}",
+        "value": "{size-space.80-x}",
         "type": "spacing",
         "description": "320px"
       },
       "96-x": {
-        "value": "{dimension.96-x}",
+        "value": "{size-space.96-x}",
         "type": "spacing",
         "description": "384px"
       }
@@ -1695,47 +1695,47 @@
     },
     "border-radius": {
       "01": {
-        "value": "{dimension.0-5-x}",
+        "value": "{size-space.0-5-x}",
         "type": "borderRadius",
         "description": "Border Radius: 2px"
       },
       "02": {
-        "value": "{dimension.1-x}",
+        "value": "{size-space.1-x}",
         "type": "borderRadius",
         "description": "Border Radius: 4px"
       },
       "03": {
-        "value": "{dimension.1-5-x}",
+        "value": "{size-space.1-5-x}",
         "type": "borderRadius",
         "description": "Border Radius: 6px"
       },
       "04": {
-        "value": "{dimension.2-x}",
+        "value": "{size-space.2-x}",
         "type": "borderRadius",
         "description": "Border Radius: 8px"
       },
       "05": {
-        "value": "{dimension.3-x}",
+        "value": "{size-space.3-x}",
         "type": "borderRadius",
         "description": "Border Radius: 12px"
       },
       "06": {
-        "value": "{dimension.4-x}",
+        "value": "{size-space.4-x}",
         "type": "borderRadius",
         "description": "Border Radius: 16px"
       },
       "07": {
-        "value": "{dimension.5-x}",
+        "value": "{size-space.5-x}",
         "type": "borderRadius",
         "description": "Border Radius: 20px"
       },
       "08": {
-        "value": "{dimension.6-x}",
+        "value": "{size-space.6-x}",
         "type": "borderRadius",
         "description": "Border Radius: 24px"
       },
       "09": {
-        "value": "{dimension.7-x}",
+        "value": "{size-space.7-x}",
         "type": "borderRadius",
         "description": "Border Radius: 28px"
       },
@@ -2556,45 +2556,45 @@
     "grid": {
       "gutters": {
         "sm": {
-          "value": "{dimension.2-x}",
+          "value": "{size-space.2-x}",
           "type": "spacing"
         },
         "md": {
-          "value": "{dimension.4-x}",
+          "value": "{size-space.4-x}",
           "type": "spacing"
         },
         "lg": {
-          "value": "{dimension.4-x}",
+          "value": "{size-space.4-x}",
           "type": "spacing"
         },
         "xl": {
-          "value": "{dimension.4-x}",
+          "value": "{size-space.4-x}",
           "type": "spacing"
         },
         "2xl": {
-          "value": "{dimension.4-x}",
+          "value": "{size-space.4-x}",
           "type": "spacing"
         }
       },
       "margin": {
         "sm": {
-          "value": "{dimension.2-x}",
+          "value": "{size-space.2-x}",
           "type": "spacing"
         },
         "md": {
-          "value": "{dimension.4-x}",
+          "value": "{size-space.4-x}",
           "type": "spacing"
         },
         "lg": {
-          "value": "{dimension.8-x}",
+          "value": "{size-space.8-x}",
           "type": "spacing"
         },
         "xl": {
-          "value": "{dimension.10-x}",
+          "value": "{size-space.10-x}",
           "type": "spacing"
         },
         "2xl": {
-          "value": "{dimension.10-x}",
+          "value": "{size-space.10-x}",
           "type": "spacing"
         }
       }
@@ -2652,13 +2652,13 @@
           "description": "6px. Default border radius for UI components"
         },
         "small": {
-          "value": "{dimension.0-5-x}",
+          "value": "{size-space.0-5-x}",
           "type": "borderRadius",
           "themeable": "Yes",
           "description": "2px. Small border radius for UI components"
         },
         "large": {
-          "value": "{dimension.2-x}",
+          "value": "{size-space.2-x}",
           "type": "borderRadius",
           "themeable": "Yes",
           "description": "8px. Large border radius for UI components"
@@ -2668,7 +2668,7 @@
           "type": "borderRadius"
         },
         "focus-offset": {
-          "value": "{border.radius.default} + {dimension.0-5-x}",
+          "value": "{border.radius.default} + {size-space.0-5-x}",
           "type": "borderRadius",
           "description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, buttons etc)"
         }
@@ -4932,7 +4932,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "dimension.0.25",
+                "value": "size-space.0.25",
                 "space": "lch"
               }
             }
@@ -5049,45 +5049,6 @@
       "$figmaCollectionId": "VariableCollectionId:73826:20530",
       "$figmaModeId": "73826:0",
       "$figmaVariableReferences": {
-        "dimension.0-x": "bc113f5820a34a19e96dea8ec8d88bfeb45be019",
-        "dimension.0-5-x": "6c3e3f626e9dd2515899b469986e0f9a700f5da9",
-        "dimension.1-x": "e7e231f72cbcc15965d78b2ab9b52546b209909f",
-        "dimension.1-5-x": "0a670dc2601b789527013964e09bb793f237aee8",
-        "dimension.2-x": "27bd3bc35c9a89cff58a8afd9a2b39d99f20ac78",
-        "dimension.2-5-x": "d0702d37dcc4dc88be2832dd06398bef1dee501c",
-        "dimension.3-x": "e890f8424057d4cbcf8b2ba4009370388e74be7e",
-        "dimension.3-5-x": "7f8f3c555da99d972295c79dbaeb9f5a6242b74a",
-        "dimension.4-x": "61bb985463807741ffdeadc28a8466d2b3bd4e16",
-        "dimension.5-x": "2c675727027793e508a3b8da63b25f33eddd94a0",
-        "dimension.6-x": "fb6410df240566d79b0a2ce342770e7bee502710",
-        "dimension.7-x": "e307e6006b6e09d6f0cec1ea1ff89365f805b25c",
-        "dimension.8-x": "0c6fed31b1a3eaca91d488a9b395793662c99e10",
-        "dimension.9-x": "6c3310ff5558eb6fa1be44dacc32af1d9c5c9145",
-        "dimension.10-x": "c65c0f19b3a89c9d55f49d7b3ef7ea53ed767200",
-        "dimension.11-x": "856b908091ccfb1d9e4bccf1ec482f6961b97ed4",
-        "dimension.12-x": "e1d3b68e7ff56313ef6e229506bc00a421ed059f",
-        "dimension.13-x": "8bc7a147bff7767bfb426fae15aba2fa099865a8",
-        "dimension.14-x": "bf2f791ebbc0865ebd8fea6ed3f958a268be9c5c",
-        "dimension.15-x": "c27b0148d29c17df5ded8e0d49cb3346724aec60",
-        "dimension.16-x": "b62ea62f6efb7fb69abe56601d98063eb685f521",
-        "dimension.17-x": "b54824f0cb08230b7dc881458e5e6f3815403ed6",
-        "dimension.18-x": "5678bfeb6e6c08a9110850e9ac5bc376d9738bdd",
-        "dimension.19-x": "4f10c14aee045ce9c4f6e2faca81f1ee4a31a4d5",
-        "dimension.20-x": "bdce981ec1239ea669eb307d1c9f7863e4d2e7aa",
-        "dimension.24-x": "34a8aa095935f180b82ede8d29ad16a39d9a103f",
-        "dimension.28-x": "4df612d4e85680f1b6100bc2ee96c084b0ee51c8",
-        "dimension.32-x": "67abc60a5347190c127e50994920c9e9690225a0",
-        "dimension.36-x": "08d8d63c2e82587a89ae08809773e15023c5e8cb",
-        "dimension.40-x": "db9da40dd06c36f2d82dafe2a89797ea121bda19",
-        "dimension.44-x": "738a50c3c7f48823b0b3d48ede5b495c57c7165d",
-        "dimension.48-x": "9dd0712b757426197317a0b083846b859eed87e6",
-        "dimension.52-x": "849cb43155d7a98903f14f1cb27b20d8d5ba8356",
-        "dimension.56-x": "9117d01a79e1ef4c20716f69b5fbd877e2cd6ea9",
-        "dimension.60-x": "8eaf925b46a42c12df976151f235aebb14136944",
-        "dimension.64-x": "67da33f4a8c3b6c6005a785d620456e7ec8c895b",
-        "dimension.72-x": "3797831954c3f179a999c4398b9f2427af3ae21f",
-        "dimension.80-x": "ac11662d3e892c6ba1e923d8103bffb2c481700b",
-        "dimension.96-x": "ca6ad10cdc86f57978be35b390a2e63ee1ff1bd7",
         "sizing.0-x": "f4dafdddd2063c5201f73a14f1867b9be3d50214",
         "sizing.0-5-x": "6d0b6c4164aa4d32a30983b049fdfa9fb46589d3",
         "sizing.1-x": "6c2ab42c4883d9352ff7fe4d629ef8b1793518cb",
@@ -5423,7 +5384,46 @@
         "paragraph-indent.0": "84b48369f9e1e22c344b456b6ec8d11fc2884249",
         "border-width.none": "c06206a30d59767f5ec909261ba559d5509e03fc",
         "border-width.01": "821afa44d628ed5b4e76d51a8fe48c1d613d5d2d",
-        "border-width.02": "7bfbe1804665149e644d7589e3c70b7305dd9025"
+        "border-width.02": "7bfbe1804665149e644d7589e3c70b7305dd9025",
+        "size-space.0-x": "bc113f5820a34a19e96dea8ec8d88bfeb45be019",
+        "size-space.0-5-x": "6c3e3f626e9dd2515899b469986e0f9a700f5da9",
+        "size-space.1-x": "e7e231f72cbcc15965d78b2ab9b52546b209909f",
+        "size-space.1-5-x": "0a670dc2601b789527013964e09bb793f237aee8",
+        "size-space.2-x": "27bd3bc35c9a89cff58a8afd9a2b39d99f20ac78",
+        "size-space.2-5-x": "d0702d37dcc4dc88be2832dd06398bef1dee501c",
+        "size-space.3-x": "e890f8424057d4cbcf8b2ba4009370388e74be7e",
+        "size-space.3-5-x": "7f8f3c555da99d972295c79dbaeb9f5a6242b74a",
+        "size-space.4-x": "61bb985463807741ffdeadc28a8466d2b3bd4e16",
+        "size-space.5-x": "2c675727027793e508a3b8da63b25f33eddd94a0",
+        "size-space.6-x": "fb6410df240566d79b0a2ce342770e7bee502710",
+        "size-space.7-x": "e307e6006b6e09d6f0cec1ea1ff89365f805b25c",
+        "size-space.8-x": "0c6fed31b1a3eaca91d488a9b395793662c99e10",
+        "size-space.9-x": "6c3310ff5558eb6fa1be44dacc32af1d9c5c9145",
+        "size-space.10-x": "c65c0f19b3a89c9d55f49d7b3ef7ea53ed767200",
+        "size-space.11-x": "856b908091ccfb1d9e4bccf1ec482f6961b97ed4",
+        "size-space.12-x": "e1d3b68e7ff56313ef6e229506bc00a421ed059f",
+        "size-space.13-x": "8bc7a147bff7767bfb426fae15aba2fa099865a8",
+        "size-space.14-x": "bf2f791ebbc0865ebd8fea6ed3f958a268be9c5c",
+        "size-space.15-x": "c27b0148d29c17df5ded8e0d49cb3346724aec60",
+        "size-space.16-x": "b62ea62f6efb7fb69abe56601d98063eb685f521",
+        "size-space.17-x": "b54824f0cb08230b7dc881458e5e6f3815403ed6",
+        "size-space.18-x": "5678bfeb6e6c08a9110850e9ac5bc376d9738bdd",
+        "size-space.19-x": "4f10c14aee045ce9c4f6e2faca81f1ee4a31a4d5",
+        "size-space.20-x": "bdce981ec1239ea669eb307d1c9f7863e4d2e7aa",
+        "size-space.24-x": "34a8aa095935f180b82ede8d29ad16a39d9a103f",
+        "size-space.28-x": "4df612d4e85680f1b6100bc2ee96c084b0ee51c8",
+        "size-space.32-x": "67abc60a5347190c127e50994920c9e9690225a0",
+        "size-space.36-x": "08d8d63c2e82587a89ae08809773e15023c5e8cb",
+        "size-space.40-x": "db9da40dd06c36f2d82dafe2a89797ea121bda19",
+        "size-space.44-x": "738a50c3c7f48823b0b3d48ede5b495c57c7165d",
+        "size-space.48-x": "9dd0712b757426197317a0b083846b859eed87e6",
+        "size-space.52-x": "849cb43155d7a98903f14f1cb27b20d8d5ba8356",
+        "size-space.56-x": "9117d01a79e1ef4c20716f69b5fbd877e2cd6ea9",
+        "size-space.60-x": "8eaf925b46a42c12df976151f235aebb14136944",
+        "size-space.64-x": "67da33f4a8c3b6c6005a785d620456e7ec8c895b",
+        "size-space.72-x": "3797831954c3f179a999c4398b9f2427af3ae21f",
+        "size-space.80-x": "ac11662d3e892c6ba1e923d8103bffb2c481700b",
+        "size-space.96-x": "ca6ad10cdc86f57978be35b390a2e63ee1ff1bd7"
       },
       "group": "primitives - unify"
     },
