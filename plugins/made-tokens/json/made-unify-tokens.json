@@ -3352,7 +3352,32 @@
       "description": "Double xl drop shadow"
     }
   },
-  "unify/component": {},
+  "unify/component": {
+    "component": {
+      "accordion": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "0",
+          "type": "spacing"
+        },
+        "title": {
+          "font-size": {
+            "value": "0",
+            "type": "fontSizes"
+          }
+        },
+        "subtitle": {
+          "font-size": {
+            "value": "0",
+            "type": "fontSizes"
+          }
+        }
+      }
+    }
+  },
   "unify/themes/dark": {
     "color": {
       "brand": {
@@ -5563,11 +5588,14 @@
       },
       "selectedTokenSets": {
         "unify/primitive": "source",
-        "unify/semantic": "enabled"
+        "unify/semantic": "enabled",
+        "unify/component": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:2",
       "$figmaVariableReferences": {
+        "component.accordion.padding-x": "89d9393a9c4a94b65662e35f6f0465c707a7e5e0",
+        "component.accordion.padding-y": "d41a515609b1f0f80e15db5e1466a04db3e083d7",
         "color.brand.primary": "bff05e3acc4ec29e6998ffb61717ae2e20ce47da",
         "color.brand.secondary": "aabbc6101d6b064cd6c0a9fe93460237d0afa086",
         "color.background.default": "675145c3ee1f186de21a61c5ce3d9062c319ff15",
