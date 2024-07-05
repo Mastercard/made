@@ -5,7 +5,7 @@
         "value": "0px",
         "type": "dimension"
       },
-      "1-px": {
+      "0-25-px": {
         "value": "1px",
         "type": "dimension",
         "description": "1px"
@@ -5075,7 +5075,6 @@
       "$figmaModeId": "73826:0",
       "$figmaVariableReferences": {
         "size-space.0-x": "bc113f5820a34a19e96dea8ec8d88bfeb45be019",
-        "size-space.1-px": "026f5b59dd32838227e781a786067b3916ceccf9",
         "size-space.0-5-x": "6c3e3f626e9dd2515899b469986e0f9a700f5da9",
         "size-space.1-x": "e7e231f72cbcc15965d78b2ab9b52546b209909f",
         "size-space.1-5-x": "0a670dc2601b789527013964e09bb793f237aee8",
@@ -5449,7 +5448,8 @@
         "paragraph-indent.0": "84b48369f9e1e22c344b456b6ec8d11fc2884249",
         "border-width.none": "c06206a30d59767f5ec909261ba559d5509e03fc",
         "border-width.01": "821afa44d628ed5b4e76d51a8fe48c1d613d5d2d",
-        "border-width.02": "7bfbe1804665149e644d7589e3c70b7305dd9025"
+        "border-width.02": "7bfbe1804665149e644d7589e3c70b7305dd9025",
+        "size-space.0-25-px": "026f5b59dd32838227e781a786067b3916ceccf9"
       },
       "group": "primitives - unify"
     },
