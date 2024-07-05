@@ -1,3 +1,13 @@
+/* 
+
+This file is used to output JSON file for Storybook documentation.
+See https://amzn.github.io/style-dictionary/#/tokens?id=category-type-item 
+for more information on how to target a token.
+
+If you add a new token category add to the template below.
+
+*/
+
 module.exports = function (dictionary, options) {
   return (
     `{ "color" : {
@@ -14,7 +24,9 @@ module.exports = function (dictionary, options) {
           token.attributes.type === `teal` ||
           token.attributes.type === `gray` ||
           token.attributes.type === `white` ||
-          token.attributes.type === `black`
+          token.attributes.type === `black` ||
+          token.attributes.type === `green-success` ||
+          token.attributes.type === `red-error`
       )
       .map((token) => {
         const original = `${token.original.value
@@ -102,6 +114,10 @@ module.exports = function (dictionary, options) {
           (token.attributes.category === `footer` &&
             token.attributes.type === `color`) ||
           (token.attributes.category === `scrollbar` &&
+            token.attributes.type === `color`) ||
+          (token.attributes.category === `pill` &&
+            token.attributes.type === `color`) ||
+          (token.attributes.category === `search` &&
             token.attributes.type === `color`)
       )
       .map((token) => {
@@ -183,6 +199,58 @@ module.exports = function (dictionary, options) {
         (token) =>
           token.attributes.category === `forms` &&
           token.attributes.type === `color` &&
+          token.deprecated !== true
+      )
+      .map((token) => {
+        const original = `${token.original.value
+          .replace(/\./g, " ")
+          .replace(/\{/g, "")
+          .replace(/\}/g, "")
+          .replace(/\-}/g, " ")
+          .replace(/value/g, "")
+          .toUpperCase()}`;
+        return ` 
+         {
+            "name": "${token.name}",
+            "value": "${token.value}",
+            "comment": "${token.comment}",
+                "themeable": "${token.themeable}",
+            "original": "${original}"
+          }`;
+      })
+      .join(`,`) +
+    `],
+    "checkbox" : [\n` +
+    dictionary.allProperties
+      .filter(
+        (token) =>
+          token.attributes.category === `checkbox` &&
+          token.deprecated !== true
+      )
+      .map((token) => {
+        const original = `${token.original.value
+          .replace(/\./g, " ")
+          .replace(/\{/g, "")
+          .replace(/\}/g, "")
+          .replace(/\-}/g, " ")
+          .replace(/value/g, "")
+          .toUpperCase()}`;
+        return ` 
+         {
+            "name": "${token.name}",
+            "value": "${token.value}",
+            "comment": "${token.comment}",
+                "themeable": "${token.themeable}",
+            "original": "${original}"
+          }`;
+      })
+      .join(`,`) +
+    `],
+    "table" : [\n` +
+    dictionary.allProperties
+      .filter(
+        (token) =>
+          token.attributes.category === `table` &&
           token.deprecated !== true
       )
       .map((token) => {

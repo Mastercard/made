@@ -1,3 +1,10 @@
+/* 
+
+This file is used to transform web spacing tokens to rems. 
+Required as this project uses different naming conventions to Style Dictionary.
+See https://amzn.github.io/style-dictionary/#/transforms?id=defining-custom-transforms for more info.
+
+*/
 module.exports = {
   type: `value`,
   matcher: (token) =>

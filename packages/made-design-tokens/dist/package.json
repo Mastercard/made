@@ -1,11 +1,12 @@
 {
   "name": "@mastercard/made-design-tokens",
-  "version": "2.1.1",
+  "version": "2.3.0",
   "description": "Design tokens by Made Framework",
   "owner": "Made",
   "main": "index.js",
   "files": [
-    "dist"
+    "*.*",
+    "web/"
   ],
   "repository": {
     "type": "git",
@@ -21,7 +22,10 @@
     "postbuild": "cp package.json dist && cp README.md dist",
     "pack": "npm pack",
     "changelog": "standard-version",
-    "publish-web": "npm run build && npm publish dist"
+    "publish-web": "npm run build && npm publish dist",
+    "publish-github": "cp package.json dist/2.2.0 && cd dist/2.2.0 && npm publish",
+    "figma-to-sd": "node ./figma/split-figma-tokens/figmaToSD.js",
+    "partnerbank-to-sd": "node ./figma/split-figma-tokens/partnerBankToSD.js"
   },
   "author": "",
   "license": "Apache-2.0",

@@ -1,0 +1,16 @@
+{
+  "fontFamilies": {
+    "mark-offc-for-mc": {
+      "value": "Space Grotesk",
+      "type": "fontFamilies",
+      "figmaOnly": true,
+      "comment": "Figma-only design token."
+    },
+    "markformcnrw": {
+      "value": "Inter",
+      "type": "fontFamilies",
+      "figmaOnly": true,
+      "comment": "Figma-only design token. MarkForMCNrw"
+    }
+  }
+}

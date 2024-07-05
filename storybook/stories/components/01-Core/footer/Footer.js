@@ -13,7 +13,7 @@ export const Footer = ({
 			<ul class="made-c-footer__list">
 				{isCopyright && (<li class="made-c-footer__item">&copy; {copyrightText}</li>)}
 				{isLink && (<li class="made-c-footer__item">
-				<a href="#" class="made-c-footer__link">
+				<a href="#" class="made-c-footer__link" tabIndex="0">
 					{linkText}
 				</a>
 			</li>)}

@@ -1,0 +1,118 @@
+{
+  "lineHeights": {
+    "0": {
+      "value": "40",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "1": {
+      "value": "35",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "2": {
+      "value": "30",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "3": {
+      "value": "25",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "4": {
+      "value": "22.5",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "5": {
+      "value": "20",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "6": {
+      "value": "100",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "7": {
+      "value": "75",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "8": {
+      "value": "60",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "9": {
+      "value": "18",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "10": {
+      "value": "24",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "11": {
+      "value": "21",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "12": {
+      "value": "12",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "13": {
+      "value": "14",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "14": {
+      "value": "13",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "15": {
+      "value": "15",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "16": {
+      "value": "16",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "17": {
+      "value": "9",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "18": {
+      "value": "AUTO",
+      "type": "lineHeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

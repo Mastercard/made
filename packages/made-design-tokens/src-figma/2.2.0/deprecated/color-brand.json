@@ -1,0 +1,38 @@
+{
+  "color": {
+    "brand": {
+      "error": {
+        "comment": "Color for error state",
+        "value": "{color.accent.07.value}",
+        "themeable": "No",
+        "deprecated": true,
+        "deprecated_comment": "made-color-feedback-error",
+        "type": "color"
+      },
+      "success": {
+        "comment": "Color for success or positive state",
+        "value": "{color.accent.05.value}",
+        "deprecated": true,
+        "deprecated_comment": "made-color-feedback-success",
+        "themeable": "No",
+        "type": "color"
+      },
+      "information": {
+        "comment": "Color for neutral or optional state",
+        "value": "{color.accent.04.value}",
+        "deprecated": true,
+        "deprecated_comment": "made-color-feedback-information",
+        "themeable": "No",
+        "type": "color"
+      },
+      "warning": {
+        "comment": "Color for warning state",
+        "value": "{color.accent.03.value}",
+        "deprecated": true,
+        "deprecated_comment": "made-color-feedback-warning",
+        "themeable": "No",
+        "type": "color"
+      }
+    }
+  }
+}

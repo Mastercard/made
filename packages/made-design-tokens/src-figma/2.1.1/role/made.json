@@ -1,0 +1,42 @@
+{
+  "made": {
+    "shadow": {
+      "default": {
+        "value": {
+          "color": "#14141333",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 10,
+          "spread": 0
+        },
+        "type": "boxShadow",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      },
+      "toggle": {
+        "value": [
+          {
+            "color": "#1414134d",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 2,
+            "blur": 2,
+            "spread": 0
+          },
+          {
+            "color": "#14141326",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 5,
+            "blur": 10,
+            "spread": 0
+          }
+        ],
+        "type": "boxShadow",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      }
+    }
+  }
+}

@@ -18,7 +18,7 @@ export const Breadcrumb = ({
             <ol class="made-c-breadcrumb__list">
                 <li class="made-c-breadcrumb__item">
                     {isHomeIcon == true && (
-                        <a href="" class="made-c-breadcrumb__link--home">
+                        <a href="" class="made-c-breadcrumb__link--home" tabIndex="0">
                             <svg
                                 width="24"
                                 height="24"
@@ -45,7 +45,7 @@ export const Breadcrumb = ({
                     links.map(function (label, index) {
                         return (
                             <li class="made-c-breadcrumb__item" id={index}>
-                                <a href="" class="made-c-breadcrumb__link">
+                                <a href="" class="made-c-breadcrumb__link" tabIndex="0">
                                     {label}
                                 </a>
                             </li>

@@ -1,0 +1,16 @@
+{
+  "letterSpacing": {
+    "0": {
+      "value": "0",
+      "type": "letterSpacing",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "1": {
+      "value": "1.8",
+      "type": "letterSpacing",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

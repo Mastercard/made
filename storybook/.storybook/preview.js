@@ -40,11 +40,15 @@ export const parameters = {
     storySort: {
       order: [
         "Hello",
-        ["Introduction", "Overview", "Getting Started", "What's New", "Changelog", "Contribute", "Roadmap", "Naming Conventions"],
+        ["Introduction", "Overview", "Getting Started", "Naming Conventions", "What's New", "Changelog", "Roadmap", "Migration", "Contribute"],
+        "GitHub",
+        ["External Teams"],
+        "Tools",
+        ["VS Code Extension"],
         "Design Tokens",
-        ["Overview", "Theming", "Color", "Typography", "Space", "Border Radius", "Shadow"],
+        ["Overview", "Theming", "Color", "Typography", "Space", "Border Radius", "Shadow", "Opacity", "Size", "Time", "Z-Index", "Connect Apps"],
         "Foundations",
-        [ "Icons", "Fonts", "Typography",, "Grid", "Branding"],
+        ["Icons", "System Icons", "Fonts", "Typography", "Grid", "Branding"],
         "Actions",
         ["Button"],
         "Forms",

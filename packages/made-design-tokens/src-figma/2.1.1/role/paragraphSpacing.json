@@ -1,0 +1,28 @@
+{
+  "paragraphSpacing": {
+    "0": {
+      "value": "0",
+      "type": "paragraphSpacing",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "1": {
+      "value": "18",
+      "type": "paragraphSpacing",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "2": {
+      "value": "20",
+      "type": "paragraphSpacing",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "3": {
+      "value": "24",
+      "type": "paragraphSpacing",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}
