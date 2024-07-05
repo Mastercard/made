@@ -3353,7 +3353,7 @@
     }
   },
   "unify/component": {
-    "component": {
+    "comp": {
       "accordion": {
         "padding-x": {
           "value": "{size-space.4-x}",
@@ -5594,8 +5594,6 @@
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:2",
       "$figmaVariableReferences": {
-        "component.accordion.padding-x": "89d9393a9c4a94b65662e35f6f0465c707a7e5e0",
-        "component.accordion.padding-y": "d41a515609b1f0f80e15db5e1466a04db3e083d7",
         "color.brand.primary": "bff05e3acc4ec29e6998ffb61717ae2e20ce47da",
         "color.brand.secondary": "aabbc6101d6b064cd6c0a9fe93460237d0afa086",
         "color.background.default": "675145c3ee1f186de21a61c5ce3d9062c319ff15",
@@ -5731,7 +5729,9 @@
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
         "border.radius.large": "d36f8a3c81749b8914ca815d7e62d5ee0aa73fd0",
         "border.radius.full": "21a03de989cf8dbc76d7e5fb3890175fbe66b5b0",
-        "border.radius.focus-offset": "b030307e4d665d16d122d763d35f31581b56c152"
+        "border.radius.focus-offset": "b030307e4d665d16d122d763d35f31581b56c152",
+        "comp.accordion.padding-x": "89d9393a9c4a94b65662e35f6f0465c707a7e5e0",
+        "comp.accordion.padding-y": "d41a515609b1f0f80e15db5e1466a04db3e083d7"
       },
       "group": "themes"
     },
