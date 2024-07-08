@@ -2827,6 +2827,17 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
+      },
+      "none": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "transparent",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
       }
     },
     "shadow-sm": {
@@ -3001,9 +3012,13 @@
             "type": "spacing"
           },
           "border-radius": {
-            "value": "0",
+            "value": "{border.radius.default}",
             "type": "borderRadius"
           }
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
         }
       }
     }
