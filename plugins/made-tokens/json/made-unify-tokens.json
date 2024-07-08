@@ -4714,7 +4714,7 @@
             "type": "borderRadius"
           },
           "padding-x": {
-            "value": "{size-space.4-x}",
+            "value": "{size-space.8-x}",
             "type": "spacing"
           },
           "padding-y": {
