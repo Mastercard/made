@@ -2967,6 +2967,44 @@
             "type": "fontSizes"
           }
         }
+      },
+      "button": {
+        "default": {
+          "padding-x": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
+          }
+        },
+        "small": {
+          "padding-x": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "0",
+            "type": "spacing"
+          },
+          "border-radius": {
+            "value": "0",
+            "type": "borderRadius"
+          }
+        }
       }
     }
   },
