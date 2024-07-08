@@ -3000,11 +3000,11 @@
         },
         "small": {
           "padding-x": {
-            "value": "0",
+            "value": "{size-space.3-x}",
             "type": "spacing"
           },
           "padding-y": {
-            "value": "0",
+            "value": "{size-space.1-x}",
             "type": "spacing"
           },
           "gap-x": {
