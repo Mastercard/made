@@ -2968,13 +2968,13 @@
         },
         "title": {
           "font-size": {
-            "value": "0",
+            "value": "{font-size.06}",
             "type": "fontSizes"
           }
         },
         "subtitle": {
           "font-size": {
-            "value": "0",
+            "value": "{font-size.02}",
             "type": "fontSizes"
           }
         }
