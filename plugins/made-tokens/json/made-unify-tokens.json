@@ -4705,6 +4705,56 @@
           }
         }
       }
+    },
+    "component": {
+      "button": {
+        "default": {
+          "border-radius": {
+            "value": "{border.radius.full}",
+            "type": "borderRadius"
+          },
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "border-radius": {
+            "value": "{border.radius.full}",
+            "type": "borderRadius"
+          },
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.1-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        }
+      },
+      "accordion": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "themes/mastercard/theme - dark": {},
