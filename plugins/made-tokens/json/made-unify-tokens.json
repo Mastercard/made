@@ -3547,6 +3547,48 @@
         },
         "type": "boxShadow"
       }
+    },
+    "component": {
+      "accordion": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        }
+      },
+      "button": {
+        "default": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.1-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        }
+      }
     }
   },
   "themes/mastercard/primitives": {
@@ -5168,10 +5210,10 @@
         "component.button.default.padding-x": "5abbfc343ce6922237012b544fb1c45075047850",
         "component.button.default.padding-y": "c8a9ced2b6fe051abfb8e0f8981e0553ca4e5114",
         "component.button.default.gap-x": "3f74f14f49f20d25c0776e92332a3f903b5147df",
+        "component.button.default.border-radius": "8033627f3cfade01990c4950401644bcce340aae",
         "component.button.small.padding-x": "1981d68b940df7e08b55e6e1affc226471272f38",
         "component.button.small.padding-y": "82c7a108ddc429eed24a6c862fe553c24398b638",
         "component.button.small.gap-x": "7aff0362caee39fe6dd33160d7df2eb7baeb478d",
-        "component.button.default.border-radius": "8033627f3cfade01990c4950401644bcce340aae",
         "component.button.small.border-radius": "14988b103e06ab297016d46bcee55be5dfde7947",
         "color.brand.primary": "bff05e3acc4ec29e6998ffb61717ae2e20ce47da",
         "color.brand.secondary": "aabbc6101d6b064cd6c0a9fe93460237d0afa086",
@@ -5294,15 +5336,6 @@
         "grid.margin.lg": "da4c457285a9a0f71b12d915374b48e841204be8",
         "grid.margin.xl": "22ac771cc1c93c6f3201954e5f35a93d58f0bfbc",
         "grid.margin.2xl": "bb28b2be49ceab8e2c0bdd75dd011f8b74c91d57",
-        "TW–border.radius.rounded-none": "c01dc6e6a973624e7130beea161446684c6664ec",
-        "TW–border.radius.rounded-sm": "16bb5f2258e1fd6807bf3f3f4683d9aa25f2b5c3",
-        "TW–border.radius.rounded": "407dc218a773a3caf82adc9f458d1fd6dcdd9f78",
-        "TW–border.radius.rounded-md": "9dabb3d845d94588b89550d1b14a5d6ebecdfd44",
-        "TW–border.radius.rounded-lg": "776eb7fc8cca5e856b4dfdbfe8fd32a22a128b51",
-        "TW–border.radius.rounded-xl": "2dcb981b10df71f8060a4639b6dbb1ff6d2f9638",
-        "TW–border.radius.rounded-2xl": "9badfdff66cff78d46d83fe7fe0e9e13ab9070f4",
-        "TW–border.radius.rounded-3xl": "9a61c6f820ef133f42a405e183832c1b65b5d59f",
-        "TW–border.radius.rounded-full": "ae27191c61802c33cd53f1e22f2809cd81bb0ae6",
         "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
@@ -5438,6 +5471,14 @@
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
         "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
         "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
+        "component.accordion.padding-x": "fda77fb8f8755b8e86a4b62580d124da65a3eac3",
+        "component.accordion.padding-y": "c5da8e67d684cbde6f40f85ecf432386020b80cd",
+        "component.button.default.padding-x": "5abbfc343ce6922237012b544fb1c45075047850",
+        "component.button.default.padding-y": "c8a9ced2b6fe051abfb8e0f8981e0553ca4e5114",
+        "component.button.default.gap-x": "3f74f14f49f20d25c0776e92332a3f903b5147df",
+        "component.button.small.padding-x": "1981d68b940df7e08b55e6e1affc226471272f38",
+        "component.button.small.padding-y": "82c7a108ddc429eed24a6c862fe553c24398b638",
+        "component.button.small.gap-x": "7aff0362caee39fe6dd33160d7df2eb7baeb478d",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
         "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
@@ -5451,15 +5492,6 @@
         "grid.margin.lg": "da4c457285a9a0f71b12d915374b48e841204be8",
         "grid.margin.xl": "22ac771cc1c93c6f3201954e5f35a93d58f0bfbc",
         "grid.margin.2xl": "bb28b2be49ceab8e2c0bdd75dd011f8b74c91d57",
-        "TW–border.radius.rounded-none": "c01dc6e6a973624e7130beea161446684c6664ec",
-        "TW–border.radius.rounded-sm": "16bb5f2258e1fd6807bf3f3f4683d9aa25f2b5c3",
-        "TW–border.radius.rounded": "407dc218a773a3caf82adc9f458d1fd6dcdd9f78",
-        "TW–border.radius.rounded-md": "9dabb3d845d94588b89550d1b14a5d6ebecdfd44",
-        "TW–border.radius.rounded-lg": "776eb7fc8cca5e856b4dfdbfe8fd32a22a128b51",
-        "TW–border.radius.rounded-xl": "2dcb981b10df71f8060a4639b6dbb1ff6d2f9638",
-        "TW–border.radius.rounded-2xl": "9badfdff66cff78d46d83fe7fe0e9e13ab9070f4",
-        "TW–border.radius.rounded-3xl": "9a61c6f820ef133f42a405e183832c1b65b5d59f",
-        "TW–border.radius.rounded-full": "ae27191c61802c33cd53f1e22f2809cd81bb0ae6",
         "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
@@ -5592,15 +5624,15 @@
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
         "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
         "component.button.default.border-radius": "8033627f3cfade01990c4950401644bcce340aae",
-        "component.button.small.border-radius": "14988b103e06ab297016d46bcee55be5dfde7947",
-        "component.accordion.padding-x": "fda77fb8f8755b8e86a4b62580d124da65a3eac3",
-        "component.accordion.padding-y": "c5da8e67d684cbde6f40f85ecf432386020b80cd",
         "component.button.default.padding-x": "5abbfc343ce6922237012b544fb1c45075047850",
         "component.button.default.padding-y": "c8a9ced2b6fe051abfb8e0f8981e0553ca4e5114",
         "component.button.default.gap-x": "3f74f14f49f20d25c0776e92332a3f903b5147df",
+        "component.button.small.border-radius": "14988b103e06ab297016d46bcee55be5dfde7947",
         "component.button.small.padding-x": "1981d68b940df7e08b55e6e1affc226471272f38",
         "component.button.small.padding-y": "82c7a108ddc429eed24a6c862fe553c24398b638",
         "component.button.small.gap-x": "7aff0362caee39fe6dd33160d7df2eb7baeb478d",
+        "component.accordion.padding-x": "fda77fb8f8755b8e86a4b62580d124da65a3eac3",
+        "component.accordion.padding-y": "c5da8e67d684cbde6f40f85ecf432386020b80cd",
         "color.background.surface.hover": "b63829f5ee9c48dcc52902f886b675bce42f27c4",
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
         "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
@@ -5618,15 +5650,6 @@
         "grid.margin.lg": "da4c457285a9a0f71b12d915374b48e841204be8",
         "grid.margin.xl": "22ac771cc1c93c6f3201954e5f35a93d58f0bfbc",
         "grid.margin.2xl": "bb28b2be49ceab8e2c0bdd75dd011f8b74c91d57",
-        "TW–border.radius.rounded-none": "c01dc6e6a973624e7130beea161446684c6664ec",
-        "TW–border.radius.rounded-sm": "16bb5f2258e1fd6807bf3f3f4683d9aa25f2b5c3",
-        "TW–border.radius.rounded": "407dc218a773a3caf82adc9f458d1fd6dcdd9f78",
-        "TW–border.radius.rounded-md": "9dabb3d845d94588b89550d1b14a5d6ebecdfd44",
-        "TW–border.radius.rounded-lg": "776eb7fc8cca5e856b4dfdbfe8fd32a22a128b51",
-        "TW–border.radius.rounded-xl": "2dcb981b10df71f8060a4639b6dbb1ff6d2f9638",
-        "TW–border.radius.rounded-2xl": "9badfdff66cff78d46d83fe7fe0e9e13ab9070f4",
-        "TW–border.radius.rounded-3xl": "9a61c6f820ef133f42a405e183832c1b65b5d59f",
-        "TW–border.radius.rounded-full": "ae27191c61802c33cd53f1e22f2809cd81bb0ae6",
         "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
@@ -5668,15 +5691,6 @@
         "grid.margin.lg": "da4c457285a9a0f71b12d915374b48e841204be8",
         "grid.margin.xl": "22ac771cc1c93c6f3201954e5f35a93d58f0bfbc",
         "grid.margin.2xl": "bb28b2be49ceab8e2c0bdd75dd011f8b74c91d57",
-        "TW–border.radius.rounded-none": "c01dc6e6a973624e7130beea161446684c6664ec",
-        "TW–border.radius.rounded-sm": "16bb5f2258e1fd6807bf3f3f4683d9aa25f2b5c3",
-        "TW–border.radius.rounded": "407dc218a773a3caf82adc9f458d1fd6dcdd9f78",
-        "TW–border.radius.rounded-md": "9dabb3d845d94588b89550d1b14a5d6ebecdfd44",
-        "TW–border.radius.rounded-lg": "776eb7fc8cca5e856b4dfdbfe8fd32a22a128b51",
-        "TW–border.radius.rounded-xl": "2dcb981b10df71f8060a4639b6dbb1ff6d2f9638",
-        "TW–border.radius.rounded-2xl": "9badfdff66cff78d46d83fe7fe0e9e13ab9070f4",
-        "TW–border.radius.rounded-3xl": "9a61c6f820ef133f42a405e183832c1b65b5d59f",
-        "TW–border.radius.rounded-full": "ae27191c61802c33cd53f1e22f2809cd81bb0ae6",
         "border.radius.none": "0acf5214e62935f7ff956e7a6bd9c70f1e6f2abe",
         "border.radius.default": "76ea3bca1469e2e7510378c174f675ea3447f8d3",
         "border.radius.small": "d19435bb2666dd419cd9217ba274fed35cc6730c",
