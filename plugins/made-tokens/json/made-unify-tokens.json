@@ -1396,15 +1396,15 @@
           "type": "lineHeights",
           "description": "28px line height"
         },
-        "rem-08": {
-          "value": "2.5rem",
-          "type": "lineHeights",
-          "description": "40px line height"
-        },
         "rem-07": {
           "value": "2rem",
           "type": "lineHeights",
           "description": "32px line height"
+        },
+        "rem-08": {
+          "value": "2.5rem",
+          "type": "lineHeights",
+          "description": "40px line height"
         },
         "rem-09": {
           "value": "3rem",
@@ -2181,46 +2181,6 @@
         "2xl": {
           "value": "{size-space.10-x}",
           "type": "spacing"
-        }
-      }
-    },
-    "TW–border": {
-      "radius": {
-        "rounded-none": {
-          "value": "0px",
-          "type": "borderRadius"
-        },
-        "rounded-sm": {
-          "value": "0.125rem",
-          "type": "borderRadius"
-        },
-        "rounded": {
-          "value": "0.25rem",
-          "type": "borderRadius"
-        },
-        "rounded-md": {
-          "value": "0.375rem",
-          "type": "borderRadius"
-        },
-        "rounded-lg": {
-          "value": "0.5rem",
-          "type": "borderRadius"
-        },
-        "rounded-xl": {
-          "value": "0.75rem",
-          "type": "borderRadius"
-        },
-        "rounded-2xl": {
-          "value": "1rem",
-          "type": "borderRadius"
-        },
-        "rounded-3xl": {
-          "value": "1.5rem",
-          "type": "borderRadius"
-        },
-        "rounded-full": {
-          "value": "9999px",
-          "type": "borderRadius"
         }
       }
     },
