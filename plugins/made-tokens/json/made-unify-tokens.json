@@ -1637,6 +1637,11 @@
             "value": "{color.neutral.300}",
             "type": "color",
             "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+          },
+          "inverse": {
+            "value": "{color.neutral.900}",
+            "type": "color",
+            "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
           }
         },
         "brand": {
