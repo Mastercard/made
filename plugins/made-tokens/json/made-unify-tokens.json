@@ -3045,6 +3045,11 @@
           "selected-hover": {
             "value": "{color.neutral.700}",
             "type": "color"
+          },
+          "inverse": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
           }
         },
         "brand": {
