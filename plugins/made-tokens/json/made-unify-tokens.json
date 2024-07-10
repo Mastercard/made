@@ -3582,6 +3582,10 @@
           "gap-x": {
             "value": "{size-space.2-x}",
             "type": "spacing"
+          },
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
           }
         },
         "small": {
@@ -3596,6 +3600,10 @@
           "gap-x": {
             "value": "{size-space.2-x}",
             "type": "spacing"
+          },
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
           }
         }
       }
@@ -5236,6 +5244,7 @@
         "color.background.surface.transparent": "57b307a6e89c1b3b7e30e0f7f1f2fae67f8eff70",
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
         "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
+        "color.background.surface.inverse": "90125aaa4612387f0408250033026bea5b17d029",
         "color.background.brand.primary.default": "4c065cd53a755a9dd2cb43186b3121b102d78556",
         "color.background.brand.primary.hovered": "db5657a8673a10f7fd2cf51b09599b4c671d0583",
         "color.background.brand.primary.pressed": "0e7ea68d52c770431f096bbaa592dcc410a45c38",
@@ -5382,6 +5391,7 @@
         "color.background.surface.transparent": "57b307a6e89c1b3b7e30e0f7f1f2fae67f8eff70",
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
         "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
+        "color.background.surface.inverse": "90125aaa4612387f0408250033026bea5b17d029",
         "color.background.brand.primary.default": "4c065cd53a755a9dd2cb43186b3121b102d78556",
         "color.background.brand.primary.hovered": "db5657a8673a10f7fd2cf51b09599b4c671d0583",
         "color.background.brand.primary.pressed": "0e7ea68d52c770431f096bbaa592dcc410a45c38",
@@ -5489,6 +5499,8 @@
         "component.button.small.padding-x": "1981d68b940df7e08b55e6e1affc226471272f38",
         "component.button.small.padding-y": "82c7a108ddc429eed24a6c862fe553c24398b638",
         "component.button.small.gap-x": "7aff0362caee39fe6dd33160d7df2eb7baeb478d",
+        "component.button.default.border-radius": "8033627f3cfade01990c4950401644bcce340aae",
+        "component.button.small.border-radius": "14988b103e06ab297016d46bcee55be5dfde7947",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
         "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
@@ -5646,6 +5658,7 @@
         "color.background.surface.hover": "b63829f5ee9c48dcc52902f886b675bce42f27c4",
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
         "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
+        "color.background.surface.inverse": "90125aaa4612387f0408250033026bea5b17d029",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
         "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
@@ -5687,6 +5700,7 @@
         "color.background.surface.hover": "b63829f5ee9c48dcc52902f886b675bce42f27c4",
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
         "color.background.surface.selected-hover": "301cc6885778a893d422f04a9b1440e8f1df1bd9",
+        "color.background.surface.inverse": "90125aaa4612387f0408250033026bea5b17d029",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
         "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
