@@ -4643,12 +4643,12 @@
           "type": "color"
         },
         "danger": {
-          "value": "{color.red.700}",
+          "value": "{color.background.feedback.danger.strong.hovered}",
           "type": "color",
           "description": "color.icon.danger"
         },
         "warning": {
-          "value": "{color.amber.700}",
+          "value": "{color.background.feedback.warning.strong.default}",
           "type": "color",
           "description": "color.icon.warning"
         },
@@ -4735,12 +4735,12 @@
           "parent": "Semantic/Light"
         },
         "danger": {
-          "value": "{color.red.700}",
+          "value": "{color.background.feedback.danger.strong.hovered}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "warning": {
-          "value": "{color.amber.800}",
+          "value": "{color.background.feedback.warning.strong.hovered}",
           "type": "color",
           "parent": "Semantic/Light"
         },
