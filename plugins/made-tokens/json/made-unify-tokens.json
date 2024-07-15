@@ -4698,7 +4698,7 @@
           "description": "Tertiary text;\nHelp text"
         },
         "neutral": {
-          "value": "{color.neutral.800}",
+          "value": "{color.gray.06-5}",
           "type": "color",
           "parent": "Semantic/Light"
         },
