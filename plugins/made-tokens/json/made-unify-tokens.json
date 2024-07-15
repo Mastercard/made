@@ -4523,15 +4523,15 @@
           "type": "color"
         },
         "bold": {
-          "value": "{color.neutral.300}",
+          "value": "{color.gray.03}",
           "type": "color"
         },
         "strong": {
-          "value": "{color.neutral.400}",
+          "value": "{color.gray.04}",
           "type": "color"
         },
         "neutral": {
-          "value": "{color.neutral.200}",
+          "value": "{color.gray.01-5}",
           "type": "color"
         },
         "focused": {
@@ -4540,11 +4540,11 @@
           "description": ""
         },
         "disabled": {
-          "value": "{color.neutral.100}",
+          "value": "{color.gray.01}",
           "type": "color"
         },
         "input": {
-          "value": "{color.neutral.200}",
+          "value": "{color.border.default}",
           "type": "color"
         },
         "success": {
@@ -4769,7 +4769,7 @@
           "type": "color"
         },
         "visited": {
-          "value": "{color.text.discovery}",
+          "value": "{color.teal.04}",
           "type": "color"
         },
         "neutral": {
