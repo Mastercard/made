@@ -4548,7 +4548,7 @@
           "type": "color"
         },
         "success": {
-          "value": "{color.green.200}",
+          "value": "{color.background.feedback.success.default}",
           "type": "color"
         },
         "success-strong": {
@@ -4556,7 +4556,7 @@
           "type": "color"
         },
         "danger": {
-          "value": "{color.red.200}",
+          "value": "{color.background.feedback.danger.default}",
           "type": "color"
         },
         "danger-strong": {
@@ -4564,7 +4564,7 @@
           "type": "color"
         },
         "warning": {
-          "value": "{color.amber.200}",
+          "value": "{color.background.feedback.warning.default}",
           "type": "color"
         },
         "warning-strong": {
