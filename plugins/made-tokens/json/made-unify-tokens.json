@@ -4307,11 +4307,11 @@
               "parent": "Semantic/Light"
             },
             "hovered": {
-              "value": "{color.neutral.700}",
+              "value": "{color.orange.05}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.neutral.950}",
+              "value": "{color.orange.06}",
               "type": "color"
             }
           },
