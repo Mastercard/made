@@ -4177,22 +4177,72 @@
     }
   },
   "themes/mastercard/theme - light": {
+    "component": {
+      "button": {
+        "default": {
+          "border-radius": {
+            "value": "{border.radius.full}",
+            "type": "borderRadius"
+          },
+          "padding-x": {
+            "value": "{size-space.8-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "border-radius": {
+            "value": "{border.radius.full}",
+            "type": "borderRadius"
+          },
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.1-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        }
+      },
+      "accordion": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        }
+      }
+    },
     "color": {
       "brand": {
         "primary": {
-          "value": "{color.orange.04}",
+          "value": "{color.neutral.900}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "secondary": {
-          "value": "{color.brand.primary}",
+          "value": "{color.neutral.900}",
           "type": "color",
           "parent": "Semantic/Light"
         }
       },
       "background": {
         "default": {
-          "value": "{color.white}",
+          "value": "{color.neutral.50}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
@@ -4220,22 +4270,33 @@
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
-          "raised": {
-            "value": "{color.gray.01-5}",
+          "secondary": {
+            "value": "{color.neutral.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.neutral.100}",
             "type": "color",
-            "description": "Default raised surface color. Use this when you need to separate a specific layer from the surface color, e.g. table headers."
+            "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
           "transparent": {
             "value": "transparent",
             "type": "color"
           },
-          "secondary": {
-            "value": "{color.gray.01-5}",
-            "type": "color"
+          "selected": {
+            "value": "{color.neutral.200}",
+            "type": "color",
+            "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
-          "tertiary": {
-            "value": "{color.gray.02}",
-            "type": "color"
+          "selected-hover": {
+            "value": "{color.neutral.300}",
+            "type": "color",
+            "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+          },
+          "inverse": {
+            "value": "{color.neutral.900}",
+            "type": "color",
+            "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
           }
         },
         "brand": {
@@ -4246,11 +4307,11 @@
               "parent": "Semantic/Light"
             },
             "hovered": {
-              "value": "{color.orange.05}",
+              "value": "{color.neutral.700}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.orange.06}",
+              "value": "{color.neutral.950}",
               "type": "color"
             }
           },
@@ -4479,15 +4540,15 @@
           "description": ""
         },
         "disabled": {
-          "value": "{color.neutral.300}",
+          "value": "{color.neutral.100}",
           "type": "color"
         },
         "input": {
-          "value": "{color.neutral.300}",
+          "value": "{color.neutral.200}",
           "type": "color"
         },
         "success": {
-          "value": "{color.green-success.01}",
+          "value": "{color.green.200}",
           "type": "color"
         },
         "success-strong": {
@@ -4495,7 +4556,7 @@
           "type": "color"
         },
         "danger": {
-          "value": "{color.red-error.01}",
+          "value": "{color.red.200}",
           "type": "color"
         },
         "danger-strong": {
@@ -4503,7 +4564,7 @@
           "type": "color"
         },
         "warning": {
-          "value": "{color.yellow.01}",
+          "value": "{color.amber.200}",
           "type": "color"
         },
         "warning-strong": {
@@ -4511,7 +4572,7 @@
           "type": "color"
         },
         "information": {
-          "value": "{color.gold.01}",
+          "value": "{color.blue.200}",
           "type": "color"
         },
         "information-strong": {
@@ -4519,20 +4580,24 @@
           "type": "color"
         },
         "discovery": {
-          "value": "{color.teal.01}",
+          "value": "{color.purple.200}",
           "type": "color"
         },
         "discovery-strong": {
           "value": "{color.background.feedback.discovery.strong.default}",
           "type": "color"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "neutral-strong": {
+          "value": "{color.background.feedback.neutral.strong.default}",
+          "type": "color"
         }
       },
       "icon": {
-        "brand-primary": {
-          "value": "{color.brand.primary}",
-          "type": "color"
-        },
-        "brand-secondary": {
+        "brand": {
           "value": "{color.brand.primary}",
           "type": "color"
         },
@@ -4549,8 +4614,17 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.neutral.400}",
-          "type": "color"
+          "value": "{color.icon.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.80",
+                "space": "lch"
+              }
+            }
+          }
         },
         "helper": {
           "value": "{color.neutral.500}",
@@ -4609,13 +4683,13 @@
           "description": "Inverse text color"
         },
         "disabled": {
-          "value": "{color.text.primary}",
+          "value": "{color.neutral.400}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "alpha",
-                "value": "size-space.0.25",
+                "type": "lighten",
+                "value": "0.60",
                 "space": "lch"
               }
             }
@@ -4648,7 +4722,7 @@
               }
             }
           },
-          "description": "The background color of a selected text"
+          "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
         "on-color": {
           "value": "{color.white}",
@@ -4683,12 +4757,11 @@
       },
       "link": {
         "default": {
-          "value": "{color.foreground.brand}",
-          "type": "color",
-          "description": ""
+          "value": "{color.text.brand}",
+          "type": "color"
         },
         "hover": {
-          "value": "{color.neutral.700}",
+          "value": "{color.neutral.600}",
           "type": "color"
         },
         "pressed": {
@@ -4701,15 +4774,15 @@
         },
         "neutral": {
           "default": {
-            "value": "{color.foreground.brand}",
+            "value": "{color.text.primary}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.link.hover}",
+            "value": "{color.neutral.600}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.link.pressed}",
+            "value": "{color.neutral.950}",
             "type": "color"
           },
           "visited": {
@@ -4717,55 +4790,11 @@
             "type": "color"
           }
         }
-      }
-    },
-    "component": {
-      "button": {
-        "default": {
-          "border-radius": {
-            "value": "{border.radius.full}",
-            "type": "borderRadius"
-          },
-          "padding-x": {
-            "value": "{size-space.8-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
-        },
-        "small": {
-          "border-radius": {
-            "value": "{border.radius.full}",
-            "type": "borderRadius"
-          },
-          "padding-x": {
-            "value": "{size-space.3-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.1-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
-        }
       },
-      "accordion": {
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
+      "box-shadow": {
+        "default": {
+          "value": "{color.neutral.200}",
+          "type": "color"
         }
       }
     }
