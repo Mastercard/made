@@ -4242,12 +4242,12 @@
       },
       "background": {
         "default": {
-          "value": "{color.neutral.50}",
+          "value": "{color.gray.01}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
         "disabled": {
-          "value": "{color.neutral.100}",
+          "value": "{color.gray.01}",
           "type": "color"
         },
         "backdrop": {
@@ -4271,11 +4271,11 @@
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
           "secondary": {
-            "value": "{color.neutral.100}",
+            "value": "{color.gray.01-25}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.neutral.100}",
+            "value": "{color.gray.01-5}",
             "type": "color",
             "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
@@ -4284,17 +4284,17 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.neutral.200}",
+            "value": "{color.gray.02}",
             "type": "color",
             "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
           "selected-hover": {
-            "value": "{color.neutral.300}",
+            "value": "{color.gray.02-5}",
             "type": "color",
             "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           },
           "inverse": {
-            "value": "{color.neutral.900}",
+            "value": "{color.gray.07}",
             "type": "color",
             "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
           }
