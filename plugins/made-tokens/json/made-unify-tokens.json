@@ -4519,7 +4519,7 @@
           "description": ""
         },
         "default": {
-          "value": "{color.neutral.200}",
+          "value": "{color.gray.02}",
           "type": "color"
         },
         "bold": {
