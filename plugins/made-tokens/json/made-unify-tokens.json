@@ -4230,12 +4230,12 @@
     "color": {
       "brand": {
         "primary": {
-          "value": "{color.neutral.900}",
+          "value": "{color.orange.04}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "secondary": {
-          "value": "{color.neutral.900}",
+          "value": "{color.orange.04}",
           "type": "color",
           "parent": "Semantic/Light"
         }
@@ -4251,7 +4251,7 @@
           "type": "color"
         },
         "backdrop": {
-          "value": "{color.neutral.900}",
+          "value": "{color.gray.07}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
