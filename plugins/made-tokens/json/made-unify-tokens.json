@@ -4753,11 +4753,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.neutral.600}",
+          "value": "{color.orange.05}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.neutral.950}",
+          "value": "{color.orange.06}",
           "type": "color"
         },
         "visited": {
