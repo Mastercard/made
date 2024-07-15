@@ -4334,43 +4334,43 @@
         "feedback": {
           "danger": {
             "default": {
-              "value": "{color.red.100}",
+              "value": "{color.red-error.01}",
               "type": "color"
             },
             "hovered": {
-              "value": "{color.red.200}",
+              "value": "{color.red-error.02}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.red.300}",
+              "value": "{color.red-error.03}",
               "type": "color"
             },
             "strong": {
               "default": {
-                "value": "{color.red.600}",
+                "value": "{color.red-error.04}",
                 "type": "color"
               },
               "hovered": {
-                "value": "{color.red.700}",
+                "value": "{color.red-error.05}",
                 "type": "color"
               },
               "pressed": {
-                "value": "{color.red.900}",
+                "value": "{color.red-error.06}",
                 "type": "color"
               }
             }
           },
           "warning": {
             "default": {
-              "value": "{color.amber.100}",
+              "value": "{color.yellow.01}",
               "type": "color"
             },
             "hovered": {
-              "value": "{color.amber.200}",
+              "value": "{color.yellow.02}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.amber.300}",
+              "value": "{color.yellow.03}",
               "type": "color"
             },
             "strong": {
