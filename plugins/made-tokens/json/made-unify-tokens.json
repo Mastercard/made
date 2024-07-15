@@ -4639,7 +4639,7 @@
           "type": "color"
         },
         "success": {
-          "value": "{color.green.700}",
+          "value": "{color.background.feedback.success.strong.default}",
           "type": "color"
         },
         "danger": {
@@ -4730,7 +4730,7 @@
           "description": "Text on interactive colors;\nText on button colors"
         },
         "success": {
-          "value": "{color.green.800}",
+          "value": "{color.background.feedback.success.strong.hovered}",
           "type": "color",
           "parent": "Semantic/Light"
         },
