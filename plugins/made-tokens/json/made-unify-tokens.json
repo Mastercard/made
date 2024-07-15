@@ -4684,8 +4684,7 @@
         },
         "disabled": {
           "value": "{color.gray.02-5}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "placeholder": {
           "value": "{color.gray.04}",
@@ -4766,15 +4765,15 @@
         },
         "neutral": {
           "default": {
-            "value": "{color.text.primary}",
+            "value": "{color.gray.06-5}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.neutral.600}",
+            "value": "{color.gray.05}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.neutral.950}",
+            "value": "{color.gray.07}",
             "type": "color"
           },
           "visited": {
