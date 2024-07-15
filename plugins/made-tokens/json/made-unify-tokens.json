@@ -4668,12 +4668,12 @@
           "description": "Brand color. For use on primary links."
         },
         "primary": {
-          "value": "{color.neutral.900}",
+          "value": "{color.gray.07}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
         "secondary": {
-          "value": "{color.neutral.600}",
+          "value": "{color.gray.04-5}",
           "type": "color",
           "description": "Secondary text;\nInput labels"
         },
@@ -4683,25 +4683,17 @@
           "description": "Inverse text color"
         },
         "disabled": {
-          "value": "{color.neutral.400}",
+          "value": "{color.gray.02-5}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "0.60",
-                "space": "lch"
-              }
-            }
-          }
+          "$extensions": {}
         },
         "placeholder": {
-          "value": "{color.neutral.500}",
+          "value": "{color.gray.04}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "helper": {
-          "value": "{color.neutral.500}",
+          "value": "{color.gray.05}",
           "type": "color",
           "description": "Tertiary text;\nHelp text"
         },
