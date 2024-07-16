@@ -5279,36 +5279,36 @@
           "description": "Brand color. For use on primary links."
         },
         "primary": {
-          "value": "{color.gray.07}",
+          "value": "{color.gray.01-5}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
         "secondary": {
-          "value": "{color.gray.04-5}",
+          "value": "{color.gray.02-5}",
           "type": "color",
           "description": "Secondary text;\nInput labels"
         },
         "inverse": {
-          "value": "{color.white}",
+          "value": "{color.gray.07}",
           "type": "color",
           "description": "Inverse text color"
         },
         "disabled": {
-          "value": "{color.gray.02-5}",
+          "value": "{color.gray.04}",
           "type": "color"
         },
         "placeholder": {
-          "value": "{color.gray.04}",
+          "value": "{color.gray.03}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "helper": {
-          "value": "{color.gray.05}",
+          "value": "{color.gray.04}",
           "type": "color",
           "description": "Tertiary text;\nHelp text"
         },
         "neutral": {
-          "value": "{color.gray.06-5}",
+          "value": "{color.gray.01}",
           "type": "color",
           "parent": "Semantic/Light"
         },
@@ -5318,8 +5318,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "lighten",
-                "value": ".5",
+                "type": "darken",
+                "value": ".4",
                 "space": "lch"
               }
             }
@@ -5327,7 +5327,7 @@
           "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
         "on-color": {
-          "value": "{color.white}",
+          "value": "{color.gray.07}",
           "type": "color",
           "description": "Text on interactive colors;\nText on button colors"
         },
@@ -5347,12 +5347,12 @@
           "parent": "Semantic/Light"
         },
         "information": {
-          "value": "{color.blue.800}",
+          "value": "{color.blue.200}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "discovery": {
-          "value": "{color.purple.800}",
+          "value": "{color.purple.200}",
           "type": "color",
           "parent": "Semantic/Light"
         }
