@@ -5359,15 +5359,15 @@
       },
       "link": {
         "default": {
-          "value": "{color.text.brand}",
+          "value": "{color.orange.03}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.orange.05}",
+          "value": "{color.orange.02}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.orange.06}",
+          "value": "{color.orange.01}",
           "type": "color"
         },
         "visited": {
@@ -5376,15 +5376,15 @@
         },
         "neutral": {
           "default": {
-            "value": "{color.gray.06-5}",
+            "value": "{color.white}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.gray.05}",
+            "value": "{color.gray.02-5}",
             "type": "color"
           },
           "pressed": {
-            "value": "{color.gray.07}",
+            "value": "{color.gray.03}",
             "type": "color"
           },
           "visited": {
