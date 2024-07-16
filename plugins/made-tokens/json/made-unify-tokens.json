@@ -5395,7 +5395,7 @@
       },
       "box-shadow": {
         "default": {
-          "value": "rgba(20,20,19,0.20)",
+          "value": "{color.gray.05}",
           "type": "color"
         }
       }
