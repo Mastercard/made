@@ -5000,17 +5000,17 @@
             },
             "strong": {
               "default": {
-                "value": "{color.gold.03}",
+                "value": "{color.yellow.03}",
                 "type": "color",
                 "description": "color.background.warning.bold"
               },
               "hovered": {
-                "value": "{color.gold.02}",
+                "value": "{color.yellow.02}",
                 "type": "color",
                 "description": "color.background.warning.bold.hovered"
               },
               "pressed": {
-                "value": "{color.gold.01}",
+                "value": "{color.yellow.01}",
                 "type": "color",
                 "description": "color.background.warning.bold.pressed"
               }
@@ -5196,7 +5196,7 @@
           "type": "color"
         },
         "information": {
-          "value": "{color.blue.200}",
+          "value": "{color.blue.950}",
           "type": "color"
         },
         "information-strong": {
@@ -5204,7 +5204,7 @@
           "type": "color"
         },
         "discovery": {
-          "value": "{color.purple.200}",
+          "value": "{color.purple.900}",
           "type": "color"
         },
         "discovery-strong": {
