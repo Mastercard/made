@@ -5144,11 +5144,11 @@
           "description": ""
         },
         "default": {
-          "value": "{color.gray.02}",
+          "value": "{color.gray.05}",
           "type": "color"
         },
         "bold": {
-          "value": "{color.gray.03}",
+          "value": "{color.gray.02}",
           "type": "color"
         },
         "strong": {
@@ -5160,9 +5160,8 @@
           "type": "color"
         },
         "focused": {
-          "value": "{color.border.brand}",
-          "type": "color",
-          "description": ""
+          "value": "{color.orange.03}",
+          "type": "color"
         },
         "disabled": {
           "value": "{color.gray.01}",
