@@ -3562,48 +3562,58 @@
       "accordion": {
         "padding-x": {
           "value": "{size-space.4-x}",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Figma-only design token."
         },
         "padding-y": {
           "value": "{size-space.4-x}",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Figma-only design token."
         }
       },
       "button": {
         "default": {
           "padding-x": {
             "value": "{size-space.4-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "padding-y": {
             "value": "{size-space.2-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "gap-x": {
             "value": "{size-space.2-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "border-radius": {
             "value": "{border.radius.default}",
-            "type": "borderRadius"
+            "type": "borderRadius",
+            "description": "Figma-only design token."
           }
         },
         "small": {
           "padding-x": {
             "value": "{size-space.3-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "padding-y": {
             "value": "{size-space.1-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "gap-x": {
             "value": "{size-space.2-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "border-radius": {
             "value": "{border.radius.default}",
-            "type": "borderRadius"
+            "type": "borderRadius",
+            "description": "Figma-only design token."
           }
         }
       }
@@ -4182,48 +4192,58 @@
         "default": {
           "border-radius": {
             "value": "{border.radius.full}",
-            "type": "borderRadius"
+            "type": "borderRadius",
+            "description": "Figma-only design token."
           },
           "padding-x": {
             "value": "{size-space.8-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "padding-y": {
             "value": "{size-space.2-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "gap-x": {
             "value": "{size-space.2-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           }
         },
         "small": {
           "border-radius": {
             "value": "{border.radius.full}",
-            "type": "borderRadius"
+            "type": "borderRadius",
+            "description": "Figma-only design token."
           },
           "padding-x": {
             "value": "{size-space.3-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "padding-y": {
             "value": "{size-space.1-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           },
           "gap-x": {
             "value": "{size-space.2-x}",
-            "type": "spacing"
+            "type": "spacing",
+            "description": "Figma-only design token."
           }
         }
       },
       "accordion": {
         "padding-x": {
           "value": "{size-space.4-x}",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Figma-only design token."
         },
         "padding-y": {
           "value": "{size-space.4-x}",
-          "type": "spacing"
+          "type": "spacing",
+          "description": "Figma-only design token."
         }
       }
     },
@@ -4615,8 +4635,7 @@
         },
         "disabled": {
           "value": "{color.text.disabled}",
-          "type": "color",
-          "$extensions": {}
+          "type": "color"
         },
         "helper": {
           "value": "{color.text.helper}",
@@ -4782,7 +4801,58 @@
       }
     }
   },
-  "themes/mastercard/theme - dark": {},
+  "themes/mastercard/theme - dark": {
+    "component": {
+      "button": {
+        "default": {
+          "padding-x": {
+            "value": "{size-space.8-x}",
+            "type": "spacing",
+            "description": "Figma-only design token."
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing",
+            "description": "Figma-only design token."
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing",
+            "description": "Figma-only design token."
+          }
+        },
+        "small": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing",
+            "description": "Figma-only design token."
+          },
+          "padding-y": {
+            "value": "{size-space.1-x}",
+            "type": "spacing",
+            "description": "Figma-only design token."
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing",
+            "description": "Figma-only design token."
+          }
+        }
+      },
+      "accordion": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing",
+          "description": "Figma-only design token."
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing",
+          "description": "Figma-only design token."
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "39953943d8df7e1df1008e57e9f9c587fcb5de5c",
