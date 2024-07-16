@@ -5246,7 +5246,7 @@
           "type": "color"
         },
         "on-color": {
-          "value": "{color.white}",
+          "value": "{color.text.on-color}",
           "type": "color"
         },
         "success": {
@@ -5279,7 +5279,7 @@
           "description": "Brand color. For use on primary links."
         },
         "primary": {
-          "value": "{color.gray.01-5}",
+          "value": "{color.white}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
