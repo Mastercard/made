@@ -3358,11 +3358,7 @@
         }
       },
       "icon": {
-        "brand-primary": {
-          "value": "{color.white}",
-          "type": "color"
-        },
-        "brand-secondary": {
+        "brand": {
           "value": "{color.white}",
           "type": "color"
         },
@@ -6087,8 +6083,6 @@
         "color.border.information-strong": "a80256174c2a25f4f07380e456e8aa59a5955a01",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
         "color.border.discovery-strong": "7614c9a2f458f7f5ecf484651eba32a774ce6eb0",
-        "color.icon.brand-primary": "29975d92b842054b9b2b62065e10f097b7f225f4",
-        "color.icon.brand-secondary": "76a7f15caf0c73c9da18952fb04e383eeae9e82b",
         "color.icon.primary": "414553162270932295149fe0abd09505466e4e67",
         "color.icon.secondary": "a7467a281e42acbead30c738655e9b0f173385a5",
         "color.icon.inverse": "7f165bd034c8f2bc5ea4b1c2ccbf935740a0becc",
@@ -6137,7 +6131,7 @@
         "component.button.small.border-radius": "14988b103e06ab297016d46bcee55be5dfde7947",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
         "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
-        "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
+        "color.icon.brand": "29975d92b842054b9b2b62065e10f097b7f225f4",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
         "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
         "grid.gutters.lg": "ed566cf1a5c7ee3da79ce9f9b87bb82d32c8145b",
@@ -6242,7 +6236,6 @@
         "color.border.information-strong": "a80256174c2a25f4f07380e456e8aa59a5955a01",
         "color.border.discovery": "d31544fc6cfc9e205d4ed49ece74079e2c0c4f06",
         "color.border.discovery-strong": "7614c9a2f458f7f5ecf484651eba32a774ce6eb0",
-        "color.icon.brand-primary": "29975d92b842054b9b2b62065e10f097b7f225f4",
         "color.icon.brand-secondary": "76a7f15caf0c73c9da18952fb04e383eeae9e82b",
         "color.icon.primary": "414553162270932295149fe0abd09505466e4e67",
         "color.icon.secondary": "a7467a281e42acbead30c738655e9b0f173385a5",
@@ -6295,7 +6288,7 @@
         "color.background.surface.inverse": "90125aaa4612387f0408250033026bea5b17d029",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
         "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
-        "color.icon.brand": "300bba9c682114f8d60f3bec67efe4f33227ebe5",
+        "color.icon.brand": "29975d92b842054b9b2b62065e10f097b7f225f4",
         "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
         "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
