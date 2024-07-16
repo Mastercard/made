@@ -5152,11 +5152,11 @@
           "type": "color"
         },
         "strong": {
-          "value": "{color.gray.04}",
+          "value": "{color.gray.01-5}",
           "type": "color"
         },
         "neutral": {
-          "value": "{color.gray.01-5}",
+          "value": "{color.gray.01-25}",
           "type": "color"
         },
         "focused": {
@@ -5164,7 +5164,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.gray.01}",
+          "value": "{color.gray.06}",
           "type": "color"
         },
         "input": {
