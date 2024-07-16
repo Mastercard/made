@@ -5264,11 +5264,11 @@
           "description": "color.icon.warning"
         },
         "information": {
-          "value": "{color.blue.700}",
+          "value": "{color.blue.300}",
           "type": "color"
         },
         "discovery": {
-          "value": "{color.purple.700}",
+          "value": "{color.purple.300}",
           "type": "color"
         }
       },
