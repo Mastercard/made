@@ -5260,25 +5260,25 @@
           "type": "color"
         },
         "success": {
-          "value": "{color.background.feedback.success.strong.default}",
+          "value": "{color.text.success}",
           "type": "color"
         },
         "danger": {
-          "value": "{color.background.feedback.danger.strong.hovered}",
+          "value": "{color.text.danger}",
           "type": "color",
           "description": "color.icon.danger"
         },
         "warning": {
-          "value": "{color.background.feedback.warning.strong.default}",
+          "value": "{color.text.warning}",
           "type": "color",
           "description": "color.icon.warning"
         },
         "information": {
-          "value": "{color.blue.300}",
+          "value": "{color.text.information}",
           "type": "color"
         },
         "discovery": {
-          "value": "{color.purple.300}",
+          "value": "{color.text.discovery}",
           "type": "color"
         }
       },
@@ -5342,27 +5342,27 @@
           "description": "Text on interactive colors;\nText on button colors"
         },
         "success": {
-          "value": "{color.background.feedback.success.strong.hovered}",
+          "value": "{color.green-success.03}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "danger": {
-          "value": "{color.background.feedback.danger.strong.hovered}",
+          "value": "{color.red-error.03}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "warning": {
-          "value": "{color.background.feedback.warning.strong.hovered}",
+          "value": "{color.yellow.03}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "information": {
-          "value": "{color.blue.200}",
+          "value": "{color.blue.400}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "discovery": {
-          "value": "{color.purple.200}",
+          "value": "{color.purple.400}",
           "type": "color",
           "parent": "Semantic/Light"
         }
