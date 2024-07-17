@@ -5369,15 +5369,15 @@
       },
       "link": {
         "default": {
-          "value": "{color.orange.03}",
-          "type": "color"
-        },
-        "hover": {
           "value": "{color.orange.02}",
           "type": "color"
         },
-        "pressed": {
+        "hover": {
           "value": "{color.orange.01}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{color.orange.03}",
           "type": "color"
         },
         "visited": {
