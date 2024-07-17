@@ -3473,7 +3473,7 @@
           "description": "Text on interactive colors;\nText on button colors"
         },
         "success": {
-          "value": "{color.green.200}",
+          "value": "{color.green.400}",
           "type": "color",
           "parent": "Semantic/Light"
         },
