@@ -3478,7 +3478,7 @@
           "parent": "Semantic/Light"
         },
         "danger": {
-          "value": "{color.red.200}",
+          "value": "{color.red.400}",
           "type": "color",
           "parent": "Semantic/Light"
         },
