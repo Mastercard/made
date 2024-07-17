@@ -3483,17 +3483,17 @@
           "parent": "Semantic/Light"
         },
         "warning": {
-          "value": "{color.amber.200}",
+          "value": "{color.amber.300}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "information": {
-          "value": "{color.blue.200}",
+          "value": "{color.blue.300}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "discovery": {
-          "value": "{color.purple.200}",
+          "value": "{color.purple.300}",
           "type": "color",
           "parent": "Semantic/Light"
         }
