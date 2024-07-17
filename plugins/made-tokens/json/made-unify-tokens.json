@@ -3420,7 +3420,7 @@
           "description": "Brand color. For use on primary links."
         },
         "primary": {
-          "value": "{color.neutral.300}",
+          "value": "{color.white}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
@@ -6334,9 +6334,11 @@
         "component.button.default.padding-x": "5abbfc343ce6922237012b544fb1c45075047850",
         "component.button.default.padding-y": "c8a9ced2b6fe051abfb8e0f8981e0553ca4e5114",
         "component.button.default.gap-x": "3f74f14f49f20d25c0776e92332a3f903b5147df",
+        "component.button.default.border-radius": "8033627f3cfade01990c4950401644bcce340aae",
         "component.button.small.padding-x": "1981d68b940df7e08b55e6e1affc226471272f38",
         "component.button.small.padding-y": "82c7a108ddc429eed24a6c862fe553c24398b638",
         "component.button.small.gap-x": "7aff0362caee39fe6dd33160d7df2eb7baeb478d",
+        "component.button.small.border-radius": "14988b103e06ab297016d46bcee55be5dfde7947",
         "component.accordion.padding-x": "fda77fb8f8755b8e86a4b62580d124da65a3eac3",
         "component.accordion.padding-y": "c5da8e67d684cbde6f40f85ecf432386020b80cd",
         "color.brand.primary": "bff05e3acc4ec29e6998ffb61717ae2e20ce47da",
