@@ -1913,7 +1913,7 @@
           "type": "color"
         },
         "warning-strong": {
-          "value": "{color.background.feedback.warning.strong.default}",
+          "value": "{color.amber.500}",
           "type": "color"
         },
         "information": {
