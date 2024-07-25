@@ -1529,11 +1529,13 @@
     "paragraph-spacing": {
       "01": {
         "value": "0",
-        "type": "paragraphSpacing"
+        "type": "paragraphSpacing",
+        "description": "figma-only"
       },
       "02": {
         "value": "18",
-        "type": "paragraphSpacing"
+        "type": "paragraphSpacing",
+        "description": "figma-only"
       }
     },
     "text-case": {
