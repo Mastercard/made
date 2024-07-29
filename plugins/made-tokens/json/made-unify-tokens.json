@@ -2999,7 +2999,7 @@
       },
       "background": {
         "default": {
-          "value": "{color.neutral.700}",
+          "value": "{color.neutral.800}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
