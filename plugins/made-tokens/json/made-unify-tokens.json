@@ -7135,6 +7135,19 @@
         "border.radius.focus-offset": "b030307e4d665d16d122d763d35f31581b56c152"
       },
       "group": "themes"
+    },
+    {
+      "id": "db3a849dcd62b5963e6b0f5b29c8246c6156d10d",
+      "name": "partnerbank - light",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "unify/primitive": "source",
+        "unify/semantic": "source",
+        "unify/component": "source",
+        "themes/partnerbank/primitives": "source",
+        "themes/partnerbank/theme - light": "enabled"
+      },
+      "group": "themes"
     }
   ],
   "$metadata": {
