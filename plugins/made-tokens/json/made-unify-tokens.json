@@ -5413,13 +5413,19 @@
       }
     }
   },
+  "themes/partnerbank/primitives": {},
+  "themes/partnerbank/theme - light": {},
+  "themes/partnerbank/theme - dark": {},
   "$themes": [
     {
       "id": "39953943d8df7e1df1008e57e9f9c587fcb5de5c",
       "name": "primitive",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "unify/primitive": "enabled"
+        "unify/primitive": "enabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73826:20530",
       "$figmaModeId": "73826:0",
@@ -5730,7 +5736,10 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "unify/primitive": "source",
-        "themes/mastercard/primitives": "enabled"
+        "themes/mastercard/primitives": "enabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73826:21002",
       "$figmaModeId": "73826:2",
@@ -5860,7 +5869,10 @@
       "selectedTokenSets": {
         "unify/primitive": "source",
         "unify/semantic": "enabled",
-        "unify/component": "enabled"
+        "unify/component": "enabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:2",
@@ -6017,7 +6029,10 @@
         "unify/primitive": "source",
         "unify/semantic": "enabled",
         "unify/component": "source",
-        "unify/themes/dark": "enabled"
+        "unify/themes/dark": "enabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:3",
@@ -6172,7 +6187,10 @@
         "unify/semantic": "enabled",
         "unify/component": "source",
         "themes/mastercard/primitives": "source",
-        "themes/mastercard/theme - light": "enabled"
+        "themes/mastercard/theme - light": "enabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:4",
@@ -6328,7 +6346,10 @@
         "unify/component": "source",
         "themes/mastercard/primitives": "source",
         "themes/mastercard/theme - light": "source",
-        "themes/mastercard/theme - dark": "enabled"
+        "themes/mastercard/theme - dark": "enabled",
+        "themes/partnerbank/primitives": "disabled",
+        "themes/partnerbank/theme - light": "disabled",
+        "themes/partnerbank/theme - dark": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:5",
@@ -6483,7 +6504,10 @@
       "unify/themes/dark",
       "themes/mastercard/primitives",
       "themes/mastercard/theme - light",
-      "themes/mastercard/theme - dark"
+      "themes/mastercard/theme - dark",
+      "themes/partnerbank/primitives",
+      "themes/partnerbank/theme - light",
+      "themes/partnerbank/theme - dark"
     ]
   }
 }
