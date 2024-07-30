@@ -5422,10 +5422,7 @@
       "name": "primitive",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "unify/primitive": "enabled",
-        "themes/partnerbank/primitives": "disabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled"
+        "unify/primitive": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73826:20530",
       "$figmaModeId": "73826:0",
@@ -5736,10 +5733,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "unify/primitive": "source",
-        "themes/mastercard/primitives": "enabled",
-        "themes/partnerbank/primitives": "disabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled"
+        "themes/mastercard/primitives": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73826:21002",
       "$figmaModeId": "73826:2",
@@ -5869,10 +5863,7 @@
       "selectedTokenSets": {
         "unify/primitive": "source",
         "unify/semantic": "enabled",
-        "unify/component": "enabled",
-        "themes/partnerbank/primitives": "disabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled"
+        "unify/component": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:2",
@@ -6029,10 +6020,7 @@
         "unify/primitive": "source",
         "unify/semantic": "enabled",
         "unify/component": "source",
-        "unify/themes/dark": "enabled",
-        "themes/partnerbank/primitives": "disabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled"
+        "unify/themes/dark": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:3",
@@ -6187,10 +6175,7 @@
         "unify/semantic": "enabled",
         "unify/component": "source",
         "themes/mastercard/primitives": "source",
-        "themes/mastercard/theme - light": "enabled",
-        "themes/partnerbank/primitives": "disabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled"
+        "themes/mastercard/theme - light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:4",
@@ -6346,10 +6331,7 @@
         "unify/component": "source",
         "themes/mastercard/primitives": "source",
         "themes/mastercard/theme - light": "source",
-        "themes/mastercard/theme - dark": "enabled",
-        "themes/partnerbank/primitives": "disabled",
-        "themes/partnerbank/theme - light": "disabled",
-        "themes/partnerbank/theme - dark": "disabled"
+        "themes/mastercard/theme - dark": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:73810:93494",
       "$figmaModeId": "73810:5",
