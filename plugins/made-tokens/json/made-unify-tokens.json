@@ -1911,7 +1911,7 @@
           "type": "color"
         },
         "warning": {
-          "value": "{color.amber.200}",
+          "value": "{color.yellow.200}",
           "type": "color"
         },
         "warning-strong": {
@@ -1995,7 +1995,7 @@
           "description": "color.icon.danger"
         },
         "warning": {
-          "value": "{color.amber.700}",
+          "value": "{color.yellow.600}",
           "type": "color",
           "description": "color.icon.warning"
         },
@@ -2087,7 +2087,7 @@
           "parent": "Semantic/Light"
         },
         "warning": {
-          "value": "{color.amber.800}",
+          "value": "{color.yellow.700}",
           "type": "color",
           "parent": "Semantic/Light"
         },
