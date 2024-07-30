@@ -5413,7 +5413,94 @@
       }
     }
   },
-  "themes/partnerbank/primitives": {},
+  "themes/partnerbank/primitives": {
+    "color": {
+      "teal": {
+        "value": "#18A886",
+        "type": "color",
+        "description": "figma-only"
+      },
+      "turquoise": {
+        "value": "#2BAAB9",
+        "type": "color",
+        "description": "figma-only"
+      },
+      "accent": {
+        "01": {
+          "value": "#FB853C",
+          "type": "color",
+          "description": "figma-only"
+        },
+        "02": {
+          "value": "#79B252",
+          "type": "color",
+          "description": "figma-only"
+        }
+      },
+      "error": {
+        "value": "#D7373C",
+        "type": "color",
+        "description": "figma-only"
+      },
+      "gray": {
+        "01": {
+          "value": "#F8F8F8",
+          "type": "color",
+          "description": "figma-only"
+        },
+        "02": {
+          "value": "#F0F0F0",
+          "type": "color",
+          "description": "figma-only"
+        },
+        "03": {
+          "value": "#BCBCBC",
+          "type": "color",
+          "description": "figma-only"
+        },
+        "04": {
+          "value": "#686868",
+          "type": "color",
+          "description": "figma-only"
+        }
+      },
+      "black": {
+        "value": "#282828",
+        "type": "color",
+        "description": "figma-only"
+      },
+      "white": {
+        "065": {
+          "value": "#ffffff",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".65",
+                "space": "srgb"
+              }
+            }
+          },
+          "description": "figma-only"
+        },
+        "022": {
+          "value": "#ffffff",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".22",
+                "space": "srgb"
+              }
+            }
+          },
+          "description": "figma-only"
+        }
+      }
+    }
+  },
   "themes/partnerbank/theme - light": {},
   "themes/partnerbank/theme - dark": {},
   "$themes": [
