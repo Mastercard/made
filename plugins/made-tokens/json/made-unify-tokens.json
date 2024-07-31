@@ -1621,6 +1621,10 @@
             "value": "{color.neutral.100}",
             "type": "color"
           },
+          "secondary-hover": {
+            "value": "{color.neutral.200}",
+            "type": "color"
+          },
           "hover": {
             "value": "{color.neutral.100}",
             "type": "color",
