@@ -3056,6 +3056,10 @@
             "value": "{color.white}",
             "type": "color",
             "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+          },
+          "secondary-hover": {
+            "value": "{color.neutral.700}",
+            "type": "color"
           }
         },
         "brand": {
@@ -6548,6 +6552,7 @@
         "color.background.backdrop": "f476ebef4b3fef98e874afc8dacbc1b527d92324",
         "color.background.surface.default": "e3dbc93dc2c903c71eab10753c3daa433854a1bc",
         "color.background.surface.secondary": "d6128dfe6d10b4edf366753ff04cd37e4de7dcc5",
+        "color.background.surface.secondary-hover": "62b80570addf8368457abd8c3840895c699c0a70",
         "color.background.surface.hover": "b63829f5ee9c48dcc52902f886b675bce42f27c4",
         "color.background.surface.transparent": "57b307a6e89c1b3b7e30e0f7f1f2fae67f8eff70",
         "color.background.surface.selected": "92cfca7e4ee50f2d0c16881dfff56b19e4087536",
@@ -6808,6 +6813,7 @@
         "component.button.small.padding-y": "82c7a108ddc429eed24a6c862fe553c24398b638",
         "component.button.small.gap-x": "7aff0362caee39fe6dd33160d7df2eb7baeb478d",
         "component.button.small.border-radius": "14988b103e06ab297016d46bcee55be5dfde7947",
+        "color.background.surface.secondary-hover": "62b80570addf8368457abd8c3840895c699c0a70",
         "color.border.inverse": "1fec334aa8365b8ca7076db0ecfcce693d211238",
         "color.border.neutral-strong": "035b908477ea65981f8f6510d9318fcbaa31c782",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
@@ -6965,6 +6971,7 @@
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
         "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
         "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
+        "color.background.surface.secondary-hover": "62b80570addf8368457abd8c3840895c699c0a70",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
         "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
         "grid.gutters.lg": "ed566cf1a5c7ee3da79ce9f9b87bb82d32c8145b",
@@ -7121,6 +7128,7 @@
         "color.link.neutral.pressed": "466a95f2d1b938b18d09843500313bcd8b23e604",
         "color.link.neutral.visited": "ec899b04e68d20be4cca5b982239d00c11dfd03c",
         "color.box-shadow.default": "1ca7931ccfc33383cdcad6773079ece84f6d3e0a",
+        "color.background.surface.secondary-hover": "62b80570addf8368457abd8c3840895c699c0a70",
         "grid.gutters.sm": "8398757a272a3294cb7dcf9f241f416428502e14",
         "grid.gutters.md": "bff8902b8a3a34179cf0e4cb48cadecbd3e2a145",
         "grid.gutters.lg": "ed566cf1a5c7ee3da79ce9f9b87bb82d32c8145b",
