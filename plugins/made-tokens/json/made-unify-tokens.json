@@ -1685,7 +1685,7 @@
         "feedback": {
           "danger": {
             "default": {
-              "value": "{color.red.100}",
+              "value": "{color.red.50}",
               "type": "color"
             },
             "hovered": {
@@ -1713,7 +1713,7 @@
           },
           "warning": {
             "default": {
-              "value": "{color.yellow.100}",
+              "value": "{color.yellow.50}",
               "type": "color"
             },
             "hovered": {
@@ -1744,15 +1744,15 @@
           },
           "success": {
             "default": {
-              "value": "{color.green.100}",
+              "value": "{color.green.50}",
               "type": "color"
             },
             "hovered": {
-              "value": "{color.green.300}",
+              "value": "{color.green.200}",
               "type": "color"
             },
             "pressed": {
-              "value": "{color.green.400}",
+              "value": "{color.green.300}",
               "type": "color"
             },
             "strong": {
@@ -1772,7 +1772,7 @@
           },
           "discovery": {
             "default": {
-              "value": "{color.purple.100}",
+              "value": "{color.purple.50}",
               "type": "color"
             },
             "hovered": {
@@ -1800,7 +1800,7 @@
           },
           "information": {
             "default": {
-              "value": "{color.blue.100}",
+              "value": "{color.blue.50}",
               "type": "color"
             },
             "hovered": {
