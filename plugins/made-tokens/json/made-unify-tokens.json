@@ -2941,6 +2941,16 @@
             "value": "{font-size.02}",
             "type": "fontSizes"
           }
+        },
+        "border-radius": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "box-shadow": {
+            "value": "{box-shadow.none}",
+            "type": "boxShadow"
+          }
         }
       },
       "button": {
