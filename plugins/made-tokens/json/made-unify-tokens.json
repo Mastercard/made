@@ -2770,7 +2770,7 @@
       }
     },
     "box-shadow": {
-      "default": {
+      "default-OLD": {
         "value": {
           "x": "0",
           "y": "2",
@@ -2781,7 +2781,7 @@
         },
         "type": "boxShadow"
       },
-      "subtle": {
+      "subtle-OLD": {
         "value": {
           "x": "0",
           "y": "1",
@@ -2802,121 +2802,121 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
-      }
-    },
-    "shadow-sm": {
-      "value": {
-        "x": "0",
-        "y": "1",
-        "blur": "2",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.05)",
-        "type": "dropShadow"
       },
-      "type": "boxShadow",
-      "description": "Small drop shadow"
-    },
-    "shadow": {
-      "value": [
-        {
-          "x": "0",
-          "y": "1",
-          "blur": "3",
-          "spread": "0",
-          "color": "rgba(0,0,0,0.1)",
-          "type": "dropShadow"
-        },
-        {
+      "sm": {
+        "value": {
           "x": "0",
           "y": "1",
           "blur": "2",
-          "spread": "-1",
-          "color": "rgba(0,0,0,0.1)",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow",
-      "description": "Default drop shadow"
-    },
-    "shadow-md": {
-      "value": [
-        {
-          "x": "0",
-          "y": "4",
-          "blur": "6",
-          "spread": "-1",
-          "color": "rgba(0,0,0,0.1)",
+          "spread": "0",
+          "color": "rgba(0,0,0,0.05)",
           "type": "dropShadow"
         },
-        {
-          "x": "0",
-          "y": "2",
-          "blur": "4",
-          "spread": "-2",
-          "color": "rgba(0,0,0,0.1)",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow",
-      "description": "Medium drop shadow"
-    },
-    "shadow-lg": {
-      "value": [
-        {
-          "x": "0",
-          "y": "10",
-          "blur": "15",
-          "spread": "-3",
-          "color": "rgba(0,0,0,0.1)",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "4",
-          "blur": "6",
-          "spread": "-4",
-          "color": "rgba(0,0,0,0.1)",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow",
-      "description": "Large drop shadow"
-    },
-    "shadow-xl": {
-      "value": [
-        {
-          "x": "0",
-          "y": "20",
-          "blur": "25",
-          "spread": "-5",
-          "color": "rgba(0,0,0,0.1)",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "8",
-          "blur": "10",
-          "spread": "-6",
-          "color": "rgba(0,0,0,0.1)",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow",
-      "description": "Extra large drop shadow"
-    },
-    "shadow-2xl": {
-      "value": [
-        {
-          "x": "0",
-          "y": "25",
-          "blur": "50",
-          "spread": "-12",
-          "color": "rgba(0,0,0,0.25)",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow",
-      "description": "Double xl drop shadow"
+        "type": "boxShadow",
+        "description": "Small drop shadow"
+      },
+      "default": {
+        "value": [
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "3",
+            "spread": "0",
+            "color": "rgba(0,0,0,0.1)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "-1",
+            "color": "rgba(0,0,0,0.1)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Default drop shadow"
+      },
+      "md": {
+        "value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-1",
+            "color": "rgba(0,0,0,0.1)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "-2",
+            "color": "rgba(0,0,0,0.1)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Medium drop shadow"
+      },
+      "lg": {
+        "value": [
+          {
+            "x": "0",
+            "y": "10",
+            "blur": "15",
+            "spread": "-3",
+            "color": "rgba(0,0,0,0.1)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-4",
+            "color": "rgba(0,0,0,0.1)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Large drop shadow"
+      },
+      "xl": {
+        "value": [
+          {
+            "x": "0",
+            "y": "20",
+            "blur": "25",
+            "spread": "-5",
+            "color": "rgba(0,0,0,0.1)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "10",
+            "spread": "-6",
+            "color": "rgba(0,0,0,0.1)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Extra large drop shadow"
+      },
+      "2xl": {
+        "value": [
+          {
+            "x": "0",
+            "y": "25",
+            "blur": "50",
+            "spread": "-12",
+            "color": "rgba(0,0,0,0.25)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Double xl drop shadow"
+      }
     }
   },
   "unify/component": {
@@ -6493,14 +6493,6 @@
       "id": "4a716a885dd099f0530a9b3a241d3e30c600e992",
       "name": "unify - light",
       "$figmaStyleReferences": {
-        "box-shadow.default": "S:3fb3609454162656ec07cd90fa5d16dd6d79ad3d,",
-        "box-shadow.subtle": "S:f0d875a2bf6d078f8a6a2f6bee1721ae98106dd4,",
-        "shadow-sm": "S:97fddcdc0b80ec92111855ebc53068f23cbede68,",
-        "shadow": "S:107259938a2e80e440dc14dea807a7be015e23f0,",
-        "shadow-md": "S:df29af727a64c7decdf625b4dc1c03321bd844c8,",
-        "shadow-lg": "S:e5c1353705d4960b982539c60d6b6282b942bacc,",
-        "shadow-xl": "S:2e38a0539508fea386dd187e9e7f82f60a85f440,",
-        "shadow-2xl": "S:1d0624b5f409a20e98d91bccce6ac2f116cec7be,",
         "heading.h1": "S:ae9cef6b7b892eaad93eb93139580cf09ce7e46d,",
         "heading.h2": "S:5e6f5d125ec82a84569463c8cbf10e75e7ebd7fe,",
         "heading.h3": "S:ce010132a70a6de041dfec6f701a7efea9486d45,",
@@ -6535,7 +6527,15 @@
         "label.regular.medium": "S:580713d7c05d84aa6f23aa8ce061162fef4bd224,",
         "label.regular.small": "S:750327dea0ec504061a726f3021706dba7dca802,",
         "label.secondary.medium": "S:59dc9bf463113b34a2c377b713358f983dda317d,",
-        "label.secondary.small": "S:1a6b39b4a2dc9b8766365f14506ab6b4b892a841,"
+        "label.secondary.small": "S:1a6b39b4a2dc9b8766365f14506ab6b4b892a841,",
+        "box-shadow.sm": "S:97fddcdc0b80ec92111855ebc53068f23cbede68,",
+        "box-shadow.md": "S:df29af727a64c7decdf625b4dc1c03321bd844c8,",
+        "box-shadow.lg": "S:e5c1353705d4960b982539c60d6b6282b942bacc,",
+        "box-shadow.xl": "S:2e38a0539508fea386dd187e9e7f82f60a85f440,",
+        "box-shadow.2xl": "S:1d0624b5f409a20e98d91bccce6ac2f116cec7be,",
+        "box-shadow.default-OLD": "S:3fb3609454162656ec07cd90fa5d16dd6d79ad3d,",
+        "box-shadow.default": "S:107259938a2e80e440dc14dea807a7be015e23f0,",
+        "box-shadow.subtle-OLD": "S:f0d875a2bf6d078f8a6a2f6bee1721ae98106dd4,"
       },
       "selectedTokenSets": {
         "unify/primitive": "source",
@@ -6691,8 +6691,8 @@
       "id": "c50d47b4b726c71ed3a640d815b7ea81cd24e4bc",
       "name": "unify - dark",
       "$figmaStyleReferences": {
-        "box-shadow.default": "S:3fb3609454162656ec07cd90fa5d16dd6d79ad3d,",
-        "box-shadow.subtle": "S:f0d875a2bf6d078f8a6a2f6bee1721ae98106dd4,"
+        "box-shadow.default-OLD": "S:3fb3609454162656ec07cd90fa5d16dd6d79ad3d,",
+        "box-shadow.subtle-OLD": "S:f0d875a2bf6d078f8a6a2f6bee1721ae98106dd4,"
       },
       "selectedTokenSets": {
         "unify/primitive": "source",
