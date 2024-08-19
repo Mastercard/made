@@ -9746,62 +9746,78 @@
   },
   "theme/Mastercard B2B": {
     "component": {
-      "button": {
-        "default": {
-          "border-radius": {
-            "value": "{border.radius.full}",
-            "type": "borderRadius",
-            "description": "Figma-only design token."
-          },
-          "padding-x": {
-            "value": "{size-space.8-x}",
-            "type": "spacing",
-            "description": "Figma-only design token."
-          },
-          "padding-y": {
-            "value": "{size-space.2-x}",
-            "type": "spacing",
-            "description": "Figma-only design token."
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing",
-            "description": "Figma-only design token."
-          }
-        },
-        "small": {
-          "border-radius": {
-            "value": "{border.radius.full}",
-            "type": "borderRadius",
-            "description": "Figma-only design token."
-          },
-          "padding-x": {
-            "value": "{size-space.3-x}",
-            "type": "spacing",
-            "description": "Figma-only design token."
-          },
-          "padding-y": {
-            "value": "{size-space.1-x}",
-            "type": "spacing",
-            "description": "Figma-only design token."
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing",
-            "description": "Figma-only design token."
-          }
-        }
-      },
       "accordion": {
         "padding-x": {
           "value": "{size-space.4-x}",
-          "type": "spacing",
-          "description": "Figma-only design token."
+          "type": "spacing"
         },
         "padding-y": {
           "value": "{size-space.4-x}",
-          "type": "spacing",
-          "description": "Figma-only design token."
+          "type": "spacing"
+        },
+        "title": {
+          "font-size": {
+            "value": "{font-size.06}",
+            "type": "fontSizes"
+          }
+        },
+        "subtitle": {
+          "font-size": {
+            "value": "{font-size.02}",
+            "type": "fontSizes"
+          }
+        },
+        "border-radius": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "box-shadow": {
+            "value": "{box-shadow.none}",
+            "type": "boxShadow"
+          }
+        }
+      },
+      "button": {
+        "default": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
+          }
+        },
+        "small": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.1-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
+          }
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
         }
       }
     },
