@@ -2343,11 +2343,11 @@
               "value": "{color.red.50}",
               "type": "color"
             },
-            "hovered": {
+            "hover": {
               "value": "{color.red.200}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{color.red.300}",
               "type": "color"
             },
@@ -2356,11 +2356,11 @@
                 "value": "{color.red.600}",
                 "type": "color"
               },
-              "hovered": {
+              "hover": {
                 "value": "{color.red.700}",
                 "type": "color"
               },
-              "pressed": {
+              "active": {
                 "value": "{color.red.900}",
                 "type": "color"
               }
@@ -2371,11 +2371,11 @@
               "value": "{color.yellow.50}",
               "type": "color"
             },
-            "hovered": {
+            "hover": {
               "value": "{color.yellow.200}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{color.yellow.300}",
               "type": "color"
             },
@@ -2385,12 +2385,12 @@
                 "type": "color",
                 "description": "color.background.warning.bold"
               },
-              "hovered": {
+              "hover": {
                 "value": "{color.yellow.700}",
                 "type": "color",
                 "description": "color.background.warning.bold.hovered"
               },
-              "pressed": {
+              "active": {
                 "value": "{color.yellow.800}",
                 "type": "color",
                 "description": "color.background.warning.bold.pressed"
@@ -2402,11 +2402,11 @@
               "value": "{color.green.50}",
               "type": "color"
             },
-            "hovered": {
+            "hover": {
               "value": "{color.green.200}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{color.green.300}",
               "type": "color"
             },
@@ -2415,11 +2415,11 @@
                 "value": "{color.green.700}",
                 "type": "color"
               },
-              "hovered": {
+              "hover": {
                 "value": "{color.green.800}",
                 "type": "color"
               },
-              "pressed": {
+              "active": {
                 "value": "{color.green.900}",
                 "type": "color"
               }
@@ -2430,11 +2430,11 @@
               "value": "{color.purple.50}",
               "type": "color"
             },
-            "hovered": {
+            "hover": {
               "value": "{color.purple.200}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{color.purple.300}",
               "type": "color"
             },
@@ -2443,11 +2443,11 @@
                 "value": "{color.violet.700}",
                 "type": "color"
               },
-              "hovered": {
+              "hover": {
                 "value": "{color.violet.800}",
                 "type": "color"
               },
-              "pressed": {
+              "active": {
                 "value": "{color.violet.900}",
                 "type": "color"
               }
@@ -2458,11 +2458,11 @@
               "value": "{color.blue.50}",
               "type": "color"
             },
-            "hovered": {
+            "hover": {
               "value": "{color.blue.200}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{color.blue.300}",
               "type": "color"
             },
@@ -2471,11 +2471,11 @@
                 "value": "{color.blue.600}",
                 "type": "color"
               },
-              "hovered": {
+              "hover": {
                 "value": "{color.blue.700}",
                 "type": "color"
               },
-              "pressed": {
+              "active": {
                 "value": "{color.blue.900}",
                 "type": "color"
               }
@@ -2486,11 +2486,11 @@
               "value": "{color.neutral.100}",
               "type": "color"
             },
-            "hovered": {
+            "hover": {
               "value": "{color.neutral.200}",
               "type": "color"
             },
-            "pressed": {
+            "active": {
               "value": "{color.neutral.300}",
               "type": "color"
             },
@@ -3571,82 +3571,6 @@
         ],
         "type": "boxShadow",
         "description": "Double xl drop shadow"
-      }
-    },
-    "component": {
-      "accordion": {
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "title": {
-          "font-size": {
-            "value": "{font-size.06}",
-            "type": "fontSizes"
-          }
-        },
-        "subtitle": {
-          "font-size": {
-            "value": "{font-size.02}",
-            "type": "fontSizes"
-          }
-        },
-        "border-radius": {
-          "value": "0",
-          "type": "borderRadius"
-        },
-        "box-shadow": {
-          "box-shadow": {
-            "value": "{box-shadow.none}",
-            "type": "boxShadow"
-          }
-        }
-      },
-      "button": {
-        "default": {
-          "padding-x": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          },
-          "border-radius": {
-            "value": "{border.radius.default}",
-            "type": "borderRadius"
-          }
-        },
-        "small": {
-          "padding-x": {
-            "value": "{size-space.3-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.1-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          },
-          "border-radius": {
-            "value": "{border.radius.default}",
-            "type": "borderRadius"
-          }
-        },
-        "box-shadow": {
-          "value": "{box-shadow.none}",
-          "type": "boxShadow"
-        }
       }
     }
   },
