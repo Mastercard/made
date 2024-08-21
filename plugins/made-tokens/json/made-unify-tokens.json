@@ -2142,12 +2142,25 @@
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
+          "default-dark": {
+            "value": "{color.neutral.950}",
+            "type": "color",
+            "description": "Default application surface color. Use this for e.g. card backgrounds."
+          },
           "secondary": {
             "value": "{color.neutral.100}",
             "type": "color"
           },
+          "secondary-dark": {
+            "value": "{color.neutral.800}",
+            "type": "color"
+          },
           "secondary-hover": {
             "value": "{color.neutral.200}",
+            "type": "color"
+          },
+          "secondary-hover-dark": {
+            "value": "{color.neutral.700}",
             "type": "color"
           },
           "hover": {
@@ -3612,8 +3625,25 @@
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
+          "default-dark": {
+            "value": "{color.neutral.950}",
+            "type": "color",
+            "description": "Default application surface color. Use this for e.g. card backgrounds."
+          },
           "secondary": {
             "value": "{color.gray.01-25}",
+            "type": "color"
+          },
+          "secondary-dark": {
+            "value": "{color.neutral.800}",
+            "type": "color"
+          },
+          "secondary-hover": {
+            "value": "{color.neutral.200}",
+            "type": "color"
+          },
+          "secondary-hover-dark": {
+            "value": "{color.neutral.700}",
             "type": "color"
           },
           "hover": {
