@@ -5134,57 +5134,57 @@
       },
       "icon": {
         "brand": {
-          "value": "{color.brand.primary}",
+          "value": "{color.icon.brand}",
           "type": "color"
         },
         "primary": {
-          "value": "{color.text.primary}",
+          "value": "{color.icon.primary}",
           "type": "color"
         },
         "secondary": {
-          "value": "{color.text.secondary}",
+          "value": "{color.icon.secondary}",
           "type": "color"
         },
         "inverse": {
-          "value": "{color.white}",
+          "value": "{color.icon.inverse}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.text.disabled}",
+          "value": "{color.icon.disabled}",
           "type": "color"
         },
         "helper": {
-          "value": "{color.text.helper}",
+          "value": "{color.icon.helper}",
           "type": "color"
         },
         "neutral": {
-          "value": "{color.text.neutral}",
+          "value": "{color.icon.neutral}",
           "type": "color"
         },
         "on-color": {
-          "value": "{color.white}",
+          "value": "{color.icon.on-color}",
           "type": "color"
         },
         "success": {
-          "value": "{color.background.feedback.success.strong.default}",
+          "value": "{color.icon.success}",
           "type": "color"
         },
         "danger": {
-          "value": "{color.background.feedback.danger.strong.hover}",
+          "value": "{color.icon.danger}",
           "type": "color",
           "description": "color.icon.danger"
         },
         "warning": {
-          "value": "{color.background.feedback.warning.strong.default}",
+          "value": "{color.icon.warning}",
           "type": "color",
           "description": "color.icon.warning"
         },
         "information": {
-          "value": "{color.blue.700}",
+          "value": "{color.icon.information}",
           "type": "color"
         },
         "discovery": {
-          "value": "{color.purple.700}",
+          "value": "{color.icon.discovery}",
           "type": "color"
         }
       },
