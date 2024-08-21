@@ -2104,8 +2104,26 @@
           "value": "{color.neutral.100}",
           "type": "color"
         },
+        "disabled-dark": {
+          "value": "{color.neutral.800}",
+          "type": "color"
+        },
         "backdrop": {
           "value": "{color.neutral.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.7",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Background on overlay used with modals\t"
+        },
+        "backdrop-dark": {
+          "value": "{color.neutral.800}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -3556,8 +3574,26 @@
           "value": "{color.gray.01}",
           "type": "color"
         },
+        "disabled-dark": {
+          "value": "{color.neutral.800}",
+          "type": "color"
+        },
         "backdrop": {
           "value": "{color.gray.07}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.7",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Background on overlay used with modals\t"
+        },
+        "backdrop-dark": {
+          "value": "{color.neutral.800}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
