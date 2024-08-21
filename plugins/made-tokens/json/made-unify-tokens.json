@@ -5941,6 +5941,62 @@
         "font-family.secondary": "30d67cc2a9abdb9b9b179766a0f957a00820718a",
         "font-family.tertiary": "75ef7a33c2aa5b7869463195d7b59ddde1736edc"
       }
+    },
+    {
+      "id": "792fc6f975fbe42e78f53d04cf2558c2514b8aac",
+      "name": "Mastercard B2C",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "primitives/Unify": "source",
+        "primitives/Mastercard": "enabled",
+        "theme/Mastercard B2B": "source",
+        "theme/Mastercard B2C": "enabled"
+      },
+      "group": "02 theme"
+    },
+    {
+      "id": "def36ffc6cb3eb49edffc41019d9db212dfd3308",
+      "name": "Partnerbank",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "primitives/Unify": "source",
+        "primitives/Mastercard": "source",
+        "primitives/Partnerbank": "enabled",
+        "theme/Partnerbank": "enabled"
+      },
+      "group": "02 theme"
+    },
+    {
+      "id": "e8ce6865dbb15f46a73a2752b86e2be5289e92f6",
+      "name": "light",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "primitives/Unify": "source",
+        "primitives/Mastercard": "source",
+        "primitives/Partnerbank": "source",
+        "theme/Mastercard B2B": "source",
+        "theme/Mastercard B2C": "source",
+        "theme/Partnerbank": "source",
+        "mode/light": "enabled",
+        "theme/Unify": "source"
+      },
+      "group": "03 mode"
+    },
+    {
+      "id": "b179224df67aa697ceb2e53e4945d1ca1aaf04c3",
+      "name": "dark",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "primitives/Unify": "source",
+        "primitives/Mastercard": "source",
+        "primitives/Partnerbank": "source",
+        "theme/Unify": "source",
+        "theme/Mastercard B2B": "source",
+        "theme/Mastercard B2C": "source",
+        "theme/Partnerbank": "source",
+        "mode/dark": "enabled"
+      },
+      "group": "03 mode"
     }
   ],
   "$metadata": {
