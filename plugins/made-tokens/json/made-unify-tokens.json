@@ -3527,14 +3527,14 @@
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "primary-dark": {
+          "value": "{color.orange.03}",
+          "type": "color"
+        },
         "secondary": {
           "value": "{color.orange.04}",
           "type": "color",
           "parent": "Semantic/Light"
-        },
-        "primary-dark": {
-          "value": "{color.orange.03}",
-          "type": "color"
         },
         "secondary-dark": {
           "value": "{color.orange.03}",
@@ -3544,6 +3544,11 @@
       "background": {
         "default": {
           "value": "{color.gray.01}",
+          "type": "color",
+          "description": "Default application background color. Should be set to either html or body element."
+        },
+        "default-dark": {
+          "value": "{color.neutral.900}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
@@ -3811,11 +3816,6 @@
             "type": "color",
             "description": ""
           }
-        },
-        "default-dark": {
-          "value": "{color.neutral.900}",
-          "type": "color",
-          "description": "Default application background color. Should be set to either html or body element."
         }
       },
       "border": {
@@ -4189,6 +4189,11 @@
       "background": {
         "default": {
           "value": "{color.gray.01}",
+          "type": "color",
+          "description": "Default application background color. Should be set to either html or body element."
+        },
+        "default-dark": {
+          "value": "{color.neutral.900}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
@@ -4771,6 +4776,13 @@
         "secondary-dark": {
           "value": "{color.white}",
           "type": "color"
+        }
+      },
+      "background": {
+        "default-dark": {
+          "value": "{color.neutral.900}",
+          "type": "color",
+          "description": "Default application background color. Should be set to either html or body element."
         }
       }
     }
