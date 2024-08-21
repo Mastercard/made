@@ -5317,7 +5317,558 @@
       }
     }
   },
-  "mode/dark": {},
+  "mode/dark": {
+    "color": {
+      "brand": {
+        "primary": {
+          "value": "{color.brand.primary-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "secondary": {
+          "value": "{color.brand.secondary-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{color.background.default-dark}",
+          "type": "color",
+          "description": "Default application background color. Should be set to either html or body element."
+        },
+        "disabled": {
+          "value": "{color.background.disabled-dark}",
+          "type": "color"
+        },
+        "backdrop": {
+          "value": "{color.background.backdrop-dark}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.7",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Background on overlay used with modals\t"
+        },
+        "surface": {
+          "default": {
+            "value": "{color.background.surface.default-dark}",
+            "type": "color",
+            "description": "Default application surface color. Use this for e.g. card backgrounds."
+          },
+          "secondary": {
+            "value": "{color.background.surface.secondary-dark}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.background.surface.hover-dark}",
+            "type": "color",
+            "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
+          },
+          "transparent": {
+            "value": "{color.background.surface.transparent-dark}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.background.surface.selected-dark}",
+            "type": "color",
+            "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
+          },
+          "selected-hover": {
+            "value": "{color.background.surface.selected-hover-dark}",
+            "type": "color",
+            "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+          },
+          "inverse": {
+            "value": "{color.background.surface.inverse-dark}",
+            "type": "color",
+            "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+          }
+        },
+        "brand": {
+          "primary": {
+            "default": {
+              "value": "{color.background.brand.primary.default-dark}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hover": {
+              "value": "{color.background.brand.primary.hover-dark}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.brand.primary.active-dark}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{color.brand.secondary-dark}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hover": {
+              "value": "{color.background.brand.primary.hover-dark}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.brand.primary.active-dark}",
+              "type": "color"
+            }
+          }
+        },
+        "feedback": {
+          "danger": {
+            "default": {
+              "value": "{color.background.feedback.danger.default-dark}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.background.feedback.danger.hover-dark}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.feedback.danger.active-dark}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.background.feedback.danger.strong.default-dark}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.background.feedback.danger.strong.hover-dark}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.background.feedback.danger.strong.active-dark}",
+                "type": "color"
+              }
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "{color.background.feedback.warning.default-dark}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.background.feedback.warning.hover-dark}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.feedback.warning.active-dark}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.background.feedback.warning.strong.default-dark}",
+                "type": "color",
+                "description": "color.background.warning.bold"
+              },
+              "hover": {
+                "value": "{color.background.feedback.warning.strong.hover-dark}",
+                "type": "color",
+                "description": "color.background.warning.bold.hover"
+              },
+              "active": {
+                "value": "{color.background.feedback.warning.strong.active-dark}",
+                "type": "color",
+                "description": "color.background.warning.bold.active"
+              }
+            }
+          },
+          "success": {
+            "default": {
+              "value": "{color.background.feedback.success.default-dark}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.background.feedback.success.hover-dark}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.feedback.success.active-dark}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.background.feedback.success.strong.default-dark}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.background.feedback.success.strong.hover-dark}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.background.feedback.success.strong.active-dark}",
+                "type": "color"
+              }
+            }
+          },
+          "discovery": {
+            "default": {
+              "value": "{color.background.feedback.discovery.default-dark}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.background.feedback.discovery.hover-dark}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.feedback.discovery.active-dark}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.background.feedback.discovery.strong.default-dark}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.background.feedback.discovery.strong.default-dark}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.background.feedback.discovery.strong.active-dark}",
+                "type": "color"
+              }
+            }
+          },
+          "information": {
+            "default": {
+              "value": "{color.background.feedback.information.default-dark}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.background.feedback.information.hover-dark}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.feedback.information.active-dark}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.background.feedback.information.strong.default-dark}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.background.feedback.information.strong.hover-dark}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.background.feedback.information.strong.active-dark}",
+                "type": "color"
+              }
+            }
+          },
+          "neutral": {
+            "default": {
+              "value": "{color.background.feedback.neutral.default-dark}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.background.feedback.neutral.hover-dark}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.feedback.neutral.active-dark}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.background.feedback.neutral.strong.default-dark}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.background.feedback.neutral.strong.hover-dark}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.background.feedback.neutral.strong.active-dark}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "input": {
+          "default": {
+            "value": "{color.background.input.default-dark}",
+            "type": "color"
+          }
+        }
+      },
+      "border": {
+        "brand": {
+          "value": "{color.border.brand-dark}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{color.border.default-dark}",
+          "type": "color"
+        },
+        "bold": {
+          "value": "{color.border.bold-dark}",
+          "type": "color"
+        },
+        "strong": {
+          "value": "{color.border.strong-dark}",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "{color.border.neutral-dark}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{color.border.focused-dark}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.border.disabled-dark}",
+          "type": "color"
+        },
+        "input": {
+          "value": "{color.border.input-dark}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.border.success-dark}",
+          "type": "color"
+        },
+        "success-strong": {
+          "value": "{color.border.success-strong-dark}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color.border.danger-dark}",
+          "type": "color"
+        },
+        "danger-strong": {
+          "value": "{color.border.danger-strong-dark}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.border.warning-dark}",
+          "type": "color"
+        },
+        "warning-strong": {
+          "value": "{color.border.warning-strong-dark}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{color.border.information-dark}",
+          "type": "color"
+        },
+        "information-strong": {
+          "value": "{color.border.information-strong-dark}",
+          "type": "color"
+        },
+        "discovery": {
+          "value": "{color.border.discovery-dark}",
+          "type": "color"
+        },
+        "discovery-strong": {
+          "value": "{color.border.discovery-strong-dark}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.border.inverse-dark}",
+          "type": "color"
+        },
+        "neutral-strong": {
+          "value": "{color.border.neutral-strong-dark}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "brand": {
+          "value": "{color.icon.brand-dark}",
+          "type": "color"
+        },
+        "primary": {
+          "value": "{color.icon.primary-dark}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.icon.secondary-dark}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.icon.inverse-dark}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.icon.disabled-dark}",
+          "type": "color"
+        },
+        "helper": {
+          "value": "{color.icon.helper-dark}",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "{color.icon.neutral-dark}",
+          "type": "color"
+        },
+        "on-color": {
+          "value": "{color.icon.on-color-dark}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.icon.success-dark}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color.icon.danger-dark}",
+          "type": "color",
+          "description": "color.icon.danger"
+        },
+        "warning": {
+          "value": "{color.icon.warning-dark}",
+          "type": "color",
+          "description": "color.icon.warning"
+        },
+        "information": {
+          "value": "{color.icon.information-dark}",
+          "type": "color"
+        },
+        "discovery": {
+          "value": "{color.icon.discovery-dark}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "brand": {
+          "value": "{color.text.brand-dark}",
+          "type": "color",
+          "description": "Brand color. For use on primary links."
+        },
+        "primary": {
+          "value": "{color.text.primary-dark}",
+          "type": "color",
+          "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+        },
+        "secondary": {
+          "value": "{color.text.secondary-dark}",
+          "type": "color",
+          "description": "Secondary text;\nInput labels"
+        },
+        "inverse": {
+          "value": "{color.text.inverse-dark}",
+          "type": "color",
+          "description": "Inverse text color"
+        },
+        "disabled": {
+          "value": "{color.text.disabled-dark}",
+          "type": "color"
+        },
+        "placeholder": {
+          "value": "{color.text.placeholder-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "helper": {
+          "value": "{color.text.helper-dark}",
+          "type": "color",
+          "description": "Tertiary text;\nHelp text"
+        },
+        "neutral": {
+          "value": "{color.text.neutral-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "selection-bg": {
+          "value": "{color.text.selection-bg-dark}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": ".5",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+        },
+        "on-color": {
+          "value": "{color.text.on-color-dark}",
+          "type": "color",
+          "description": "Text on interactive colors;\nText on button colors"
+        },
+        "success": {
+          "value": "{color.text.success-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "danger": {
+          "value": "{color.text.danger-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "warning": {
+          "value": "{color.text.warning-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "information": {
+          "value": "{color.text.information-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "discovery": {
+          "value": "{color.text.discovery-dark}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.link.default-dark}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.link.hover-dark}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.link.active-dark}",
+          "type": "color"
+        },
+        "visited": {
+          "value": "{color.link.visited-dark}",
+          "type": "color"
+        },
+        "neutral": {
+          "default": {
+            "value": "{color.link.neutral.default-dark}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.link.neutral.hover-dark}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.link.neutral.active-dark}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{color.link.neutral.visited-dark}",
+            "type": "color"
+          }
+        }
+      },
+      "box-shadow": {
+        "default": {
+          "value": "{color.box-shadow.default-dark}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "b762af98bcc3afc812e4925a4385cf8605e72105",
