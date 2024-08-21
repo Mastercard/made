@@ -1998,6 +1998,10 @@
       "secondary": {
         "value": "MarkForMCNrw",
         "type": "fontFamilies"
+      },
+      "tertiary": {
+        "value": "Mark Offc For MC",
+        "type": "fontFamilies"
       }
     },
     "heading": {
@@ -2225,6 +2229,20 @@
           },
           "description": "figma-only"
         }
+      }
+    },
+    "font-family": {
+      "primary": {
+        "value": "Mark Offc For MC",
+        "type": "fontFamilies"
+      },
+      "secondary": {
+        "value": "MarkForMCNrw",
+        "type": "fontFamilies"
+      },
+      "tertiary": {
+        "value": "Mark Offc For MC",
+        "type": "fontFamilies"
       }
     }
   },
