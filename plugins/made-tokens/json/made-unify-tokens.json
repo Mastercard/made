@@ -2168,6 +2168,11 @@
             "type": "color",
             "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
+          "hover-dark": {
+            "value": "{color.neutral.900}",
+            "type": "color",
+            "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
+          },
           "transparent": {
             "value": "transparent",
             "type": "color"
@@ -2177,13 +2182,28 @@
             "type": "color",
             "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
+          "selected-dark": {
+            "value": "{color.neutral.800}",
+            "type": "color",
+            "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
+          },
           "selected-hover": {
             "value": "{color.neutral.300}",
             "type": "color",
             "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           },
+          "selected-hover-dark": {
+            "value": "{color.neutral.700}",
+            "type": "color",
+            "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+          },
           "inverse": {
             "value": "{color.neutral.900}",
+            "type": "color",
+            "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+          },
+          "inverse-dark": {
+            "value": "{color.white}",
             "type": "color",
             "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
           }
@@ -3651,6 +3671,11 @@
             "type": "color",
             "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
+          "hover-dark": {
+            "value": "{color.neutral.900}",
+            "type": "color",
+            "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
+          },
           "transparent": {
             "value": "transparent",
             "type": "color"
@@ -3660,13 +3685,28 @@
             "type": "color",
             "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
+          "selected-dark": {
+            "value": "{color.neutral.800}",
+            "type": "color",
+            "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
+          },
           "selected-hover": {
             "value": "{color.gray.02-5}",
             "type": "color",
             "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           },
+          "selected-hover-dark": {
+            "value": "{color.neutral.700}",
+            "type": "color",
+            "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+          },
           "inverse": {
             "value": "{color.gray.07}",
+            "type": "color",
+            "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+          },
+          "inverse-dark": {
+            "value": "{color.white}",
             "type": "color",
             "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
           }
