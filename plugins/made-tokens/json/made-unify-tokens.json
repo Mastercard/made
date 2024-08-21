@@ -4769,28 +4769,28 @@
     "color": {
       "brand": {
         "primary": {
-          "value": "{color.orange.04}",
+          "value": "{color.brand.primary}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "secondary": {
-          "value": "{color.orange.04}",
+          "value": "{color.brand.secondary}",
           "type": "color",
           "parent": "Semantic/Light"
         }
       },
       "background": {
         "default": {
-          "value": "{color.gray.01}",
+          "value": "{color.background.default}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
         "disabled": {
-          "value": "{color.gray.01}",
+          "value": "{color.background.disabled}",
           "type": "color"
         },
         "backdrop": {
-          "value": "{color.gray.07}",
+          "value": "{color.background.backdrop}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -4805,16 +4805,16 @@
         },
         "surface": {
           "default": {
-            "value": "{color.white}",
+            "value": "{color.background.surface.default}",
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
           "secondary": {
-            "value": "{color.gray.01-25}",
+            "value": "{color.background.surface.secondary}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.gray.01-5}",
+            "value": "{color.background.surface.hover}",
             "type": "color",
             "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
@@ -4823,17 +4823,17 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.gray.02}",
+            "value": "{color.background.surface.selected}",
             "type": "color",
             "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
           "selected-hover": {
-            "value": "{color.gray.02-5}",
+            "value": "{color.background.surface.selected-hover}",
             "type": "color",
             "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           },
           "inverse": {
-            "value": "{color.gray.07}",
+            "value": "{color.background.surface.inverse}",
             "type": "color",
             "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
           }
@@ -4841,7 +4841,7 @@
         "brand": {
           "primary": {
             "default": {
-              "value": "{color.brand.primary}",
+              "value": "{color.background.brand.primary.default}",
               "type": "color",
               "parent": "Semantic/Light"
             },
