@@ -4734,17 +4734,17 @@
     },
     "font": {
       "primary": {
-        "value": "{font-family.primary}",
+        "value": "Mark Offc For MC",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "secondary": {
-        "value": "{font-family.secondary}",
+        "value": "MarkForMCNrw",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "tertiary": {
-        "value": "{font-family.tertiary}",
+        "value": "Mark Offc For MC",
         "type": "fontFamilies",
         "description": "figma-only"
       }
@@ -4753,17 +4753,17 @@
   "theme/Partnerbank": {
     "font": {
       "primary": {
-        "value": "{font-family.primary}",
+        "value": "Mark Offc For MC",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "secondary": {
-        "value": "{font-family.secondary}",
+        "value": "MarkForMCNrw",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "tertiary": {
-        "value": "{font-family.tertiary}",
+        "value": "Mark Offc For MC",
         "type": "fontFamilies",
         "description": "figma-only"
       }
