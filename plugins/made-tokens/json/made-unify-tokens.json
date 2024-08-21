@@ -4765,7 +4765,561 @@
       }
     }
   },
-  "mode/light": {},
+  "mode/light": {
+    "color": {
+      "brand": {
+        "primary": {
+          "value": "{color.orange.04}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "secondary": {
+          "value": "{color.orange.04}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{color.gray.01}",
+          "type": "color",
+          "description": "Default application background color. Should be set to either html or body element."
+        },
+        "disabled": {
+          "value": "{color.gray.01}",
+          "type": "color"
+        },
+        "backdrop": {
+          "value": "{color.gray.07}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.7",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Background on overlay used with modals\t"
+        },
+        "surface": {
+          "default": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "Default application surface color. Use this for e.g. card backgrounds."
+          },
+          "secondary": {
+            "value": "{color.gray.01-25}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.gray.01-5}",
+            "type": "color",
+            "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
+          },
+          "transparent": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.gray.02}",
+            "type": "color",
+            "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
+          },
+          "selected-hover": {
+            "value": "{color.gray.02-5}",
+            "type": "color",
+            "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+          },
+          "inverse": {
+            "value": "{color.gray.07}",
+            "type": "color",
+            "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+          }
+        },
+        "brand": {
+          "primary": {
+            "default": {
+              "value": "{color.brand.primary}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hover": {
+              "value": "{color.orange.05}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.orange.06}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "{color.brand.secondary}",
+              "type": "color",
+              "parent": "Semantic/Light"
+            },
+            "hover": {
+              "value": "{color.background.brand.primary.hover}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.background.brand.primary.active}",
+              "type": "color"
+            }
+          }
+        },
+        "feedback": {
+          "danger": {
+            "default": {
+              "value": "{color.red-error.01}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.red-error.02}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.red-error.03}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.red-error.04}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.red-error.05}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.red-error.06}",
+                "type": "color"
+              }
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "{color.yellow.01}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.yellow.02}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.yellow.03}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.gold.05}",
+                "type": "color",
+                "description": "color.background.warning.bold"
+              },
+              "hover": {
+                "value": "{color.gold.06}",
+                "type": "color",
+                "description": "color.background.warning.bold.hover"
+              },
+              "active": {
+                "value": "{color.gold.07}",
+                "type": "color",
+                "description": "color.background.warning.bold.active"
+              }
+            }
+          },
+          "success": {
+            "default": {
+              "value": "{color.green-success.01}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.green-success.02}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.green-success.03}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.green-success.04}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.green-success.05}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.green-success.06}",
+                "type": "color"
+              }
+            }
+          },
+          "discovery": {
+            "default": {
+              "value": "{color.purple.100}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.purple.200}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.purple.300}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.violet.700}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.violet.800}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.violet.900}",
+                "type": "color"
+              }
+            }
+          },
+          "information": {
+            "default": {
+              "value": "{color.blue.100}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.blue.200}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.blue.300}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.blue.600}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.blue.700}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.blue.900}",
+                "type": "color"
+              }
+            }
+          },
+          "neutral": {
+            "default": {
+              "value": "{color.gray.01-5}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.gray.02}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.gray.02-5}",
+              "type": "color"
+            },
+            "strong": {
+              "default": {
+                "value": "{color.gray.06-5}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.gray.06}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.gray.07}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "input": {
+          "default": {
+            "value": "{color.background.surface.default}",
+            "type": "color",
+            "description": ""
+          }
+        }
+      },
+      "border": {
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "description": ""
+        },
+        "default": {
+          "value": "{color.gray.02}",
+          "type": "color"
+        },
+        "bold": {
+          "value": "{color.gray.03}",
+          "type": "color"
+        },
+        "strong": {
+          "value": "{color.gray.04}",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "{color.gray.01-5}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{color.border.brand}",
+          "type": "color",
+          "description": ""
+        },
+        "disabled": {
+          "value": "{color.gray.01}",
+          "type": "color"
+        },
+        "input": {
+          "value": "{color.border.default}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.background.feedback.success.default}",
+          "type": "color"
+        },
+        "success-strong": {
+          "value": "{color.background.feedback.success.strong.default}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color.background.feedback.danger.default}",
+          "type": "color"
+        },
+        "danger-strong": {
+          "value": "{color.background.feedback.danger.strong.default}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.background.feedback.warning.default}",
+          "type": "color"
+        },
+        "warning-strong": {
+          "value": "{color.background.feedback.warning.strong.default}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{color.blue.200}",
+          "type": "color"
+        },
+        "information-strong": {
+          "value": "{color.background.feedback.information.strong.default}",
+          "type": "color"
+        },
+        "discovery": {
+          "value": "{color.purple.200}",
+          "type": "color"
+        },
+        "discovery-strong": {
+          "value": "{color.background.feedback.discovery.strong.default}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "neutral-strong": {
+          "value": "{color.background.feedback.neutral.strong.default}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color"
+        },
+        "primary": {
+          "value": "{color.text.primary}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.text.secondary}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.text.disabled}",
+          "type": "color"
+        },
+        "helper": {
+          "value": "{color.text.helper}",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "{color.text.neutral}",
+          "type": "color"
+        },
+        "on-color": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.background.feedback.success.strong.default}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color.background.feedback.danger.strong.hover}",
+          "type": "color",
+          "description": "color.icon.danger"
+        },
+        "warning": {
+          "value": "{color.background.feedback.warning.strong.default}",
+          "type": "color",
+          "description": "color.icon.warning"
+        },
+        "information": {
+          "value": "{color.blue.700}",
+          "type": "color"
+        },
+        "discovery": {
+          "value": "{color.purple.700}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "brand": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "description": "Brand color. For use on primary links."
+        },
+        "primary": {
+          "value": "{color.gray.07}",
+          "type": "color",
+          "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+        },
+        "secondary": {
+          "value": "{color.gray.04-5}",
+          "type": "color",
+          "description": "Secondary text;\nInput labels"
+        },
+        "inverse": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Inverse text color"
+        },
+        "disabled": {
+          "value": "{color.gray.02-5}",
+          "type": "color"
+        },
+        "placeholder": {
+          "value": "{color.gray.04}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "helper": {
+          "value": "{color.gray.05}",
+          "type": "color",
+          "description": "Tertiary text;\nHelp text"
+        },
+        "neutral": {
+          "value": "{color.gray.06-5}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "selection-bg": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": ".5",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+        },
+        "on-color": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Text on interactive colors;\nText on button colors"
+        },
+        "success": {
+          "value": "{color.background.feedback.success.strong.hover}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "danger": {
+          "value": "{color.background.feedback.danger.strong.hover}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "warning": {
+          "value": "{color.background.feedback.warning.strong.hover}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "information": {
+          "value": "{color.blue.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "discovery": {
+          "value": "{color.purple.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.text.brand}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.orange.05}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.orange.06}",
+          "type": "color"
+        },
+        "visited": {
+          "value": "{color.teal.04}",
+          "type": "color"
+        },
+        "neutral": {
+          "default": {
+            "value": "{color.gray.06-5}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.gray.05}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.gray.07}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{color.link.visited}",
+            "type": "color"
+          }
+        }
+      },
+      "box-shadow": {
+        "default": {
+          "value": "rgba(20,20,19,0.20)",
+          "type": "color"
+        }
+      }
+    }
+  },
   "mode/dark": {},
   "$themes": [
     {
@@ -5304,7 +5858,9 @@
       "$figmaModeId": "1:16",
       "$figmaVariableReferences": {
         "color.brand.primary": "78b675ef8aee0ee79275f5e0dd8777c5ffd690be",
+        "color.brand.primary-dark": "45d50b588a406ee1f4aec0f149aabd4fdb4101f9",
         "color.brand.secondary": "f61fb9639a3cc2bdb10f1e957e2a69307cec2074",
+        "color.brand.secondary-dark": "52e3cc8b54f45217f813315434344d5f838bb029",
         "color.background.default": "e75ccb38767a1946e26e32893d15c7ee252692e4",
         "color.background.disabled": "ef3e28b06d0dbd80c5d5ffa8c1acac06cf8ca887",
         "color.background.backdrop": "fbacb66c1d0125f59bda8ef52175ab60224c6ead",
@@ -5415,26 +5971,7 @@
         "color.link.neutral.hover": "a7fa5d755aedfe4a84b4f042023c68ca106b42f6",
         "color.link.neutral.active": "60e195c134d4e264663e0d294c660fa978780d9d",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
-        "color.box-shadow.default": "4b5ad5510855162f8e8c579ad0a1d3b0b4900bed",
-        "grid.gutters.sm": "8e2665d5daddb813b659ff19879ce0b93a144aca",
-        "grid.gutters.md": "c208981c5c37934cacc84d2f58e417b09e9f3ad8",
-        "grid.gutters.lg": "2988da9a978ec6ad59787a10138963d61a8a9a35",
-        "grid.gutters.xl": "e62a464e354658a1102c2a510e705c3abbb25208",
-        "grid.gutters.2xl": "8e8e9a9028fcc43da0c59207b2ee66e7fca6c233",
-        "grid.margin.sm": "5a7a6083262a406c8d51213211130ef31ba37eb7",
-        "grid.margin.md": "d3c1122ad401f599eb55818beb029e70c904ca17",
-        "grid.margin.lg": "527a6523ca6896db4713125de53095285c1af947",
-        "grid.margin.xl": "e0420bfbc20f599f075ba1ea22d5ea4ad8adf72b",
-        "grid.margin.2xl": "75cc5c8c42931d12039081acd48147bf9ac37b27",
-        "border.radius.none": "dc2d7f77d5b19458b5860692bc406d300db30117",
-        "border.radius.default": "cb70aa5c20a824f290db47e1fd213a815355220a",
-        "border.radius.small": "e19a91843dea8d34127194d74706177b4b9546ad",
-        "border.radius.large": "69c1d154ffc28f4f59e3369508737dd7552967c7",
-        "border.radius.full": "d7d3cf14e4692ebce164ff16a97b0bf939ecd3fb",
-        "border.radius.focus-offset": "b4676a282172bdb8eda4c13b17939f32ba248ed3",
-        "font.primary": "a323fc0f945847ad0136382d861f51e701c33337",
-        "font.secondary": "5d114b81f34fa8071f32987af3ff269e80f3d887",
-        "font.tertiary": "c984220d1c71f6eb57c53a69c415f1f0d98fdeae"
+        "color.box-shadow.default": "4b5ad5510855162f8e8c579ad0a1d3b0b4900bed"
       },
       "group": "02 theme"
     },
@@ -5462,19 +5999,6 @@
       "$figmaCollectionId": "VariableCollectionId:1:735",
       "$figmaModeId": "1:17",
       "$figmaVariableReferences": {
-        "component.accordion.padding-x": "7c588559648dfbc20d7a4f73b987ab8982cbf9ec",
-        "component.accordion.padding-y": "8fc0ea8e34fd4a2fa2fe4bf2ca50571d1e7ab14e",
-        "component.accordion.title.font-size": "ba50ef9b613f88840fe3f85e19dcb1792caa55a6",
-        "component.accordion.subtitle.font-size": "ec86cca6f670d1b6e9ee07b0c54a40b9bf5d6f9a",
-        "component.accordion.border-radius": "9dd5dfc1245b6dc1c71acb731da156f0d8d79d5d",
-        "component.button.default.padding-x": "b562ff70bddb031b46777cd2ca2d2dcf7f0e201f",
-        "component.button.default.padding-y": "fa939248a03d1b68d1ddbb8e594310719dc66ead",
-        "component.button.default.gap-x": "ee8453cc52dd5556d81a0fb89e04b466c9675ffd",
-        "component.button.default.border-radius": "74dc1c48c5899bc34f280a1aa28cf550ddee15f4",
-        "component.button.small.padding-x": "2bdacb437d32f59b228f231874c18754a203f19e",
-        "component.button.small.padding-y": "20087693ee9b58adcf750efd621a54a6369b5986",
-        "component.button.small.gap-x": "c3e6800c3300714e878953770571da8040224f17",
-        "component.button.small.border-radius": "0cf9110b93ee8cceaeaa8f534a0684c1dd887805",
         "color.brand.primary": "78b675ef8aee0ee79275f5e0dd8777c5ffd690be",
         "color.brand.secondary": "f61fb9639a3cc2bdb10f1e957e2a69307cec2074",
         "color.background.default": "e75ccb38767a1946e26e32893d15c7ee252692e4",
@@ -5587,9 +6111,8 @@
         "color.link.neutral.active": "60e195c134d4e264663e0d294c660fa978780d9d",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.box-shadow.default": "4b5ad5510855162f8e8c579ad0a1d3b0b4900bed",
-        "font.primary": "a323fc0f945847ad0136382d861f51e701c33337",
-        "font.secondary": "5d114b81f34fa8071f32987af3ff269e80f3d887",
-        "font.tertiary": "c984220d1c71f6eb57c53a69c415f1f0d98fdeae"
+        "color.brand.primary-dark": "45d50b588a406ee1f4aec0f149aabd4fdb4101f9",
+        "color.brand.secondary-dark": "52e3cc8b54f45217f813315434344d5f838bb029"
       },
       "group": "02 theme"
     },
@@ -5605,16 +6128,6 @@
       "$figmaCollectionId": "VariableCollectionId:1:735",
       "$figmaModeId": "1:18",
       "$figmaVariableReferences": {
-        "component.button.default.border-radius": "74dc1c48c5899bc34f280a1aa28cf550ddee15f4",
-        "component.button.default.padding-x": "b562ff70bddb031b46777cd2ca2d2dcf7f0e201f",
-        "component.button.default.padding-y": "fa939248a03d1b68d1ddbb8e594310719dc66ead",
-        "component.button.default.gap-x": "ee8453cc52dd5556d81a0fb89e04b466c9675ffd",
-        "component.button.small.border-radius": "0cf9110b93ee8cceaeaa8f534a0684c1dd887805",
-        "component.button.small.padding-x": "2bdacb437d32f59b228f231874c18754a203f19e",
-        "component.button.small.padding-y": "20087693ee9b58adcf750efd621a54a6369b5986",
-        "component.button.small.gap-x": "c3e6800c3300714e878953770571da8040224f17",
-        "component.accordion.padding-x": "7c588559648dfbc20d7a4f73b987ab8982cbf9ec",
-        "component.accordion.padding-y": "8fc0ea8e34fd4a2fa2fe4bf2ca50571d1e7ab14e",
         "color.brand.primary": "78b675ef8aee0ee79275f5e0dd8777c5ffd690be",
         "color.brand.secondary": "f61fb9639a3cc2bdb10f1e957e2a69307cec2074",
         "color.background.default": "e75ccb38767a1946e26e32893d15c7ee252692e4",
@@ -5727,9 +6240,8 @@
         "color.link.neutral.active": "60e195c134d4e264663e0d294c660fa978780d9d",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.box-shadow.default": "4b5ad5510855162f8e8c579ad0a1d3b0b4900bed",
-        "font.primary": "a323fc0f945847ad0136382d861f51e701c33337",
-        "font.secondary": "5d114b81f34fa8071f32987af3ff269e80f3d887",
-        "font.tertiary": "c984220d1c71f6eb57c53a69c415f1f0d98fdeae"
+        "color.brand.primary-dark": "45d50b588a406ee1f4aec0f149aabd4fdb4101f9",
+        "color.brand.secondary-dark": "52e3cc8b54f45217f813315434344d5f838bb029"
       },
       "group": "02 theme"
     },
@@ -5745,9 +6257,8 @@
       "$figmaCollectionId": "VariableCollectionId:1:735",
       "$figmaModeId": "1:19",
       "$figmaVariableReferences": {
-        "font.primary": "a323fc0f945847ad0136382d861f51e701c33337",
-        "font.secondary": "5d114b81f34fa8071f32987af3ff269e80f3d887",
-        "font.tertiary": "c984220d1c71f6eb57c53a69c415f1f0d98fdeae"
+        "color.brand.primary-dark": "45d50b588a406ee1f4aec0f149aabd4fdb4101f9",
+        "color.brand.secondary-dark": "52e3cc8b54f45217f813315434344d5f838bb029"
       },
       "group": "02 theme"
     },
