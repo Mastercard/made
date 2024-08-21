@@ -5190,46 +5190,46 @@
       },
       "text": {
         "brand": {
-          "value": "{color.brand.primary}",
+          "value": "{color.text.brand}",
           "type": "color",
           "description": "Brand color. For use on primary links."
         },
         "primary": {
-          "value": "{color.gray.07}",
+          "value": "{color.text.primary}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
         "secondary": {
-          "value": "{color.gray.04-5}",
+          "value": "{color.text.secondary}",
           "type": "color",
           "description": "Secondary text;\nInput labels"
         },
         "inverse": {
-          "value": "{color.white}",
+          "value": "{color.text.inverse}",
           "type": "color",
           "description": "Inverse text color"
         },
         "disabled": {
-          "value": "{color.gray.02-5}",
+          "value": "{color.text.disabled}",
           "type": "color"
         },
         "placeholder": {
-          "value": "{color.gray.04}",
+          "value": "{color.text.placeholder}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "helper": {
-          "value": "{color.gray.05}",
+          "value": "{color.text.helper}",
           "type": "color",
           "description": "Tertiary text;\nHelp text"
         },
         "neutral": {
-          "value": "{color.gray.06-5}",
+          "value": "{color.text.neutral}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "selection-bg": {
-          "value": "{color.brand.primary}",
+          "value": "{color.text.selection-bg}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -5243,75 +5243,75 @@
           "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
         "on-color": {
-          "value": "{color.white}",
+          "value": "{color.text.on-color}",
           "type": "color",
           "description": "Text on interactive colors;\nText on button colors"
         },
         "success": {
-          "value": "{color.background.feedback.success.strong.hover}",
+          "value": "{color.text.success}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "danger": {
-          "value": "{color.background.feedback.danger.strong.hover}",
+          "value": "{color.text.danger}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "warning": {
-          "value": "{color.background.feedback.warning.strong.hover}",
+          "value": "{color.text.warning}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "information": {
-          "value": "{color.blue.800}",
+          "value": "{color.text.information}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "discovery": {
-          "value": "{color.purple.800}",
+          "value": "{color.text.discovery}",
           "type": "color",
           "parent": "Semantic/Light"
         }
       },
       "link": {
         "default": {
-          "value": "{color.text.brand}",
+          "value": "{color.link.default}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.orange.05}",
+          "value": "{color.link.hover}",
           "type": "color"
         },
         "active": {
-          "value": "{color.orange.06}",
+          "value": "{color.link.active}",
           "type": "color"
         },
         "visited": {
-          "value": "{color.teal.04}",
+          "value": "{color.link.visited}",
           "type": "color"
         },
         "neutral": {
           "default": {
-            "value": "{color.gray.06-5}",
+            "value": "{color.link.neutral.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{color.gray.05}",
+            "value": "{color.link.neutral.hover}",
             "type": "color"
           },
           "active": {
-            "value": "{color.gray.07}",
+            "value": "{color.link.neutral.active}",
             "type": "color"
           },
           "visited": {
-            "value": "{color.link.visited}",
+            "value": "{color.link.neutral.visited}",
             "type": "color"
           }
         }
       },
       "box-shadow": {
         "default": {
-          "value": "rgba(20,20,19,0.20)",
+          "value": "{color.box-shadow.default}",
           "type": "color"
         }
       }
