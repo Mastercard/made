@@ -2297,6 +2297,10 @@
                 "value": "{color.red.600}",
                 "type": "color"
               },
+              "default-dark": {
+                "value": "{color.red.400}",
+                "type": "color"
+              },
               "hover": {
                 "value": "{color.red.700}",
                 "type": "color"
@@ -4212,6 +4216,10 @@
                 "value": "{color.red-error.04}",
                 "type": "color"
               },
+              "default-dark": {
+                "value": "{color.red.400}",
+                "type": "color"
+              },
               "hover": {
                 "value": "{color.red-error.05}",
                 "type": "color"
@@ -5353,6 +5361,10 @@
             "strong": {
               "default": {
                 "value": "{color.red-error.04}",
+                "type": "color"
+              },
+              "default-dark": {
+                "value": "{color.red.400}",
                 "type": "color"
               },
               "hover": {
@@ -6514,6 +6526,10 @@
             "strong": {
               "default": {
                 "value": "{color.red-error.04}",
+                "type": "color"
+              },
+              "default-dark": {
+                "value": "{color.red.400}",
                 "type": "color"
               },
               "hover": {
