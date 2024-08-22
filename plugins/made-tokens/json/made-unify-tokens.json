@@ -2941,8 +2941,17 @@
             }
           }
         },
+        "disabled-dark": {
+          "value": "{color.neutral.500}",
+          "type": "color"
+        },
         "placeholder": {
           "value": "{color.neutral.500}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "placeholder-dark": {
+          "value": "{color.neutral.400}",
           "type": "color",
           "parent": "Semantic/Light"
         },
@@ -2951,8 +2960,18 @@
           "type": "color",
           "description": "Tertiary text;\nHelp text"
         },
+        "helper-dark": {
+          "value": "{color.neutral.500}",
+          "type": "color",
+          "description": "Tertiary text;\nHelp text"
+        },
         "neutral": {
           "value": "{color.neutral.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "neutral-dark": {
+          "value": "{color.neutral.200}",
           "type": "color",
           "parent": "Semantic/Light"
         },
@@ -4761,13 +4780,26 @@
           "value": "{color.gray.02-5}",
           "type": "color"
         },
+        "disabled-dark": {
+          "value": "{color.neutral.500}",
+          "type": "color"
+        },
         "placeholder": {
           "value": "{color.gray.04}",
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "placeholder-dark": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        },
         "helper": {
           "value": "{color.gray.05}",
+          "type": "color",
+          "description": "Tertiary text;\nHelp text"
+        },
+        "helper-dark": {
+          "value": "{color.neutral.500}",
           "type": "color",
           "description": "Tertiary text;\nHelp text"
         },
@@ -4775,6 +4807,10 @@
           "value": "{color.gray.06-5}",
           "type": "color",
           "parent": "Semantic/Light"
+        },
+        "neutral-dark": {
+          "value": "{color.neutral.200}",
+          "type": "color"
         },
         "selection-bg": {
           "value": "{color.brand.primary}",
