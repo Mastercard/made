@@ -2174,7 +2174,11 @@
             "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
           "transparent": {
-            "value": "transparent",
+            "value": "rgba(255,255,255,0)",
+            "type": "color"
+          },
+          "transparent-dark": {
+            "value": "rgba(0,0,0,0)",
             "type": "color"
           },
           "selected": {
@@ -4106,6 +4110,10 @@
             "value": "transparent",
             "type": "color"
           },
+          "transparent-dark": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
+          },
           "selected": {
             "value": "{color.gray.02}",
             "type": "color",
@@ -5259,6 +5267,10 @@
           },
           "transparent": {
             "value": "transparent",
+            "type": "color"
+          },
+          "transparent-dark": {
+            "value": "rgba(0,0,0,0)",
             "type": "color"
           },
           "selected": {
@@ -6432,6 +6444,10 @@
           },
           "transparent": {
             "value": "transparent",
+            "type": "color"
+          },
+          "transparent-dark": {
+            "value": "rgba(0,0,0,0)",
             "type": "color"
           },
           "selected": {
