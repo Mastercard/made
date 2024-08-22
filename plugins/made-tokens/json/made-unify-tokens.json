@@ -2370,17 +2370,33 @@
               "value": "{color.green.50}",
               "type": "color"
             },
+            "default-dark": {
+              "value": "{color.green.950}",
+              "type": "color"
+            },
             "hover": {
               "value": "{color.green.200}",
+              "type": "color"
+            },
+            "hover-dark": {
+              "value": "{color.green.900}",
               "type": "color"
             },
             "active": {
               "value": "{color.green.300}",
               "type": "color"
             },
+            "active-dark": {
+              "value": "{color.green.800}",
+              "type": "color"
+            },
             "strong": {
               "default": {
                 "value": "{color.green.700}",
+                "type": "color"
+              },
+              "default-dark": {
+                "value": "{color.green.500}",
                 "type": "color"
               },
               "hover": {
@@ -3936,17 +3952,33 @@
               "value": "{color.green-success.01}",
               "type": "color"
             },
+            "default-dark": {
+              "value": "{color.green.950}",
+              "type": "color"
+            },
             "hover": {
               "value": "{color.green-success.02}",
+              "type": "color"
+            },
+            "hover-dark": {
+              "value": "{color.green.900}",
               "type": "color"
             },
             "active": {
               "value": "{color.green-success.03}",
               "type": "color"
             },
+            "active-dark": {
+              "value": "{color.green.800}",
+              "type": "color"
+            },
             "strong": {
               "default": {
                 "value": "{color.green-success.04}",
+                "type": "color"
+              },
+              "default-dark": {
+                "value": "{color.green.500}",
                 "type": "color"
               },
               "hover": {
