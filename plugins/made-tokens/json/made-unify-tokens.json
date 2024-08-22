@@ -2989,8 +2989,27 @@
           },
           "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
+        "selection-bg-dark": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+        },
         "on-color": {
           "value": "{color.white}",
+          "type": "color",
+          "description": "Text on interactive colors;\nText on button colors"
+        },
+        "on-color-dark": {
+          "value": "{color.neutral.900}",
           "type": "color",
           "description": "Text on interactive colors;\nText on button colors"
         },
@@ -2999,8 +3018,18 @@
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "success-dark": {
+          "value": "{color.green.400}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
         "danger": {
           "value": "{color.red.700}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "danger-dark": {
+          "value": "{color.red.400}",
           "type": "color",
           "parent": "Semantic/Light"
         },
@@ -3009,13 +3038,28 @@
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "warning-dark": {
+          "value": "{color.amber.400}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
         "information": {
           "value": "{color.blue.800}",
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "information-dark": {
+          "value": "{color.blue.400}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
         "discovery": {
           "value": "{color.purple.800}",
+          "type": "color",
+          "parent": "Semantic/Light"
+        },
+        "discovery-dark": {
+          "value": "{color.purple.400}",
           "type": "color",
           "parent": "Semantic/Light"
         }
@@ -4826,8 +4870,27 @@
           },
           "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
+        "selection-bg-dark": {
+          "value": "{color.brand.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+        },
         "on-color": {
           "value": "{color.white}",
+          "type": "color",
+          "description": "Text on interactive colors;\nText on button colors"
+        },
+        "on-color-dark": {
+          "value": "{color.neutral.900}",
           "type": "color",
           "description": "Text on interactive colors;\nText on button colors"
         },
@@ -4836,25 +4899,45 @@
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "success-dark": {
+          "value": "{color.green.400}",
+          "type": "color"
+        },
         "danger": {
           "value": "{color.background.feedback.danger.strong.hover}",
           "type": "color",
           "parent": "Semantic/Light"
+        },
+        "danger-dark": {
+          "value": "{color.red.400}",
+          "type": "color"
         },
         "warning": {
           "value": "{color.background.feedback.warning.strong.hover}",
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "warning-dark": {
+          "value": "{color.amber.400}",
+          "type": "color"
+        },
         "information": {
           "value": "{color.blue.800}",
           "type": "color",
           "parent": "Semantic/Light"
         },
+        "information-dark": {
+          "value": "{color.blue.400}",
+          "type": "color"
+        },
         "discovery": {
           "value": "{color.purple.800}",
           "type": "color",
           "parent": "Semantic/Light"
+        },
+        "discovery-dark": {
+          "value": "{color.purple.400}",
+          "type": "color"
         }
       },
       "link": {
