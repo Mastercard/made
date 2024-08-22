@@ -2773,16 +2773,32 @@
           "value": "{color.brand.primary}",
           "type": "color"
         },
+        "brand-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        },
         "primary": {
           "value": "{color.text.primary}",
+          "type": "color"
+        },
+        "primary-dark": {
+          "value": "{color.neutral.300}",
           "type": "color"
         },
         "secondary": {
           "value": "{color.neutral.600}",
           "type": "color"
         },
+        "secondary-dark": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        },
         "inverse": {
           "value": "{color.white}",
+          "type": "color"
+        },
+        "inverse-dark": {
+          "value": "{color.neutral.900}",
           "type": "color"
         },
         "disabled": {
@@ -2797,6 +2813,10 @@
               }
             }
           }
+        },
+        "disabled-dark": {
+          "value": "{color.neutral.600}",
+          "type": "color"
         },
         "helper": {
           "value": "{color.neutral.500}",
@@ -4537,20 +4557,40 @@
           "value": "{color.brand.primary}",
           "type": "color"
         },
+        "brand-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        },
         "primary": {
           "value": "{color.text.primary}",
+          "type": "color"
+        },
+        "primary-dark": {
+          "value": "{color.neutral.300}",
           "type": "color"
         },
         "secondary": {
           "value": "{color.text.secondary}",
           "type": "color"
         },
+        "secondary-dark": {
+          "value": "{color.neutral.400}",
+          "type": "color"
+        },
         "inverse": {
           "value": "{color.white}",
           "type": "color"
         },
+        "inverse-dark": {
+          "value": "{color.neutral.900}",
+          "type": "color"
+        },
         "disabled": {
           "value": "{color.text.disabled}",
+          "type": "color"
+        },
+        "disabled-dark": {
+          "value": "{color.neutral.600}",
           "type": "color"
         },
         "helper": {
