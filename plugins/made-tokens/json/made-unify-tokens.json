@@ -2592,11 +2592,23 @@
           "type": "color",
           "description": ""
         },
+        "brand-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        },
         "default": {
           "value": "{color.neutral.200}",
           "type": "color"
         },
+        "default-dark": {
+          "value": "{color.neutral.700}",
+          "type": "color"
+        },
         "bold": {
+          "value": "{color.neutral.300}",
+          "type": "color"
+        },
+        "bold-dark": {
           "value": "{color.neutral.300}",
           "type": "color"
         },
@@ -2604,8 +2616,38 @@
           "value": "{color.neutral.400}",
           "type": "color"
         },
+        "strong-dark": {
+          "value": "{color.neutral.400}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.3",
+                "space": "lch"
+              }
+            }
+          }
+        },
         "neutral": {
           "value": "{color.neutral.200}",
+          "type": "color"
+        },
+        "neutral-dark": {
+          "value": "{color.neutral.200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "neutral-strong": {
+          "value": "{color.background.feedback.neutral.strong.default}",
           "type": "color"
         },
         "focused": {
@@ -2663,10 +2705,6 @@
         },
         "inverse": {
           "value": "{color.white}",
-          "type": "color"
-        },
-        "neutral-strong": {
-          "value": "{color.background.feedback.neutral.strong.default}",
           "type": "color"
         }
       },
@@ -4258,20 +4296,62 @@
           "type": "color",
           "description": ""
         },
+        "brand-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        },
         "default": {
           "value": "{color.gray.02}",
+          "type": "color"
+        },
+        "default-dark": {
+          "value": "{color.neutral.700}",
           "type": "color"
         },
         "bold": {
           "value": "{color.gray.03}",
           "type": "color"
         },
+        "bold-dark": {
+          "value": "{color.neutral.300}",
+          "type": "color"
+        },
         "strong": {
           "value": "{color.gray.04}",
           "type": "color"
         },
+        "strong-dark": {
+          "value": "{color.neutral.400}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.3",
+                "space": "lch"
+              }
+            }
+          }
+        },
         "neutral": {
           "value": "{color.gray.01-5}",
+          "type": "color"
+        },
+        "neutral-dark": {
+          "value": "{color.neutral.200}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.16",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "neutral-strong": {
+          "value": "{color.background.feedback.neutral.strong.default}",
           "type": "color"
         },
         "focused": {
@@ -4329,10 +4409,6 @@
         },
         "inverse": {
           "value": "{color.white}",
-          "type": "color"
-        },
-        "neutral-strong": {
-          "value": "{color.background.feedback.neutral.strong.default}",
           "type": "color"
         }
       },
