@@ -2846,8 +2846,17 @@
           "value": "{color.green.700}",
           "type": "color"
         },
+        "success-dark": {
+          "value": "{color.green.300}",
+          "type": "color"
+        },
         "danger": {
           "value": "{color.red.700}",
+          "type": "color",
+          "description": "color.icon.danger"
+        },
+        "danger-dark": {
+          "value": "{color.red.300}",
           "type": "color",
           "description": "color.icon.danger"
         },
@@ -2856,12 +2865,25 @@
           "type": "color",
           "description": "color.icon.warning"
         },
+        "warning-dark": {
+          "value": "{color.yellow.300}",
+          "type": "color",
+          "description": "color.icon.warning"
+        },
         "information": {
           "value": "{color.blue.700}",
           "type": "color"
         },
+        "information-dark": {
+          "value": "{color.blue.300}",
+          "type": "color"
+        },
         "discovery": {
           "value": "{color.purple.700}",
+          "type": "color"
+        },
+        "discovery-dark": {
+          "value": "{color.purple.300}",
           "type": "color"
         }
       },
@@ -4633,8 +4655,17 @@
           "value": "{color.background.feedback.success.strong.default}",
           "type": "color"
         },
+        "success-dark": {
+          "value": "{color.green.300}",
+          "type": "color"
+        },
         "danger": {
           "value": "{color.background.feedback.danger.strong.hover}",
+          "type": "color",
+          "description": "color.icon.danger"
+        },
+        "danger-dark": {
+          "value": "{color.red.300}",
           "type": "color",
           "description": "color.icon.danger"
         },
@@ -4643,12 +4674,25 @@
           "type": "color",
           "description": "color.icon.warning"
         },
+        "warning-dark": {
+          "value": "{color.yellow.300}",
+          "type": "color",
+          "description": "color.icon.warning"
+        },
         "information": {
           "value": "{color.blue.700}",
           "type": "color"
         },
+        "information-dark": {
+          "value": "{color.blue.300}",
+          "type": "color"
+        },
         "discovery": {
           "value": "{color.purple.700}",
+          "type": "color"
+        },
+        "discovery-dark": {
+          "value": "{color.purple.300}",
           "type": "color"
         }
       },
