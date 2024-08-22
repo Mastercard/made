@@ -2338,13 +2338,28 @@
                 "type": "color",
                 "description": "color.background.warning.bold"
               },
+              "default-dark": {
+                "value": "{color.amber.300}",
+                "type": "color",
+                "description": "color.background.warning.bold"
+              },
               "hover": {
                 "value": "{color.yellow.700}",
                 "type": "color",
                 "description": "color.background.warning.bold.hover"
               },
+              "hover-dark": {
+                "value": "{color.amber.400}",
+                "type": "color",
+                "description": "color.background.warning.bold.hover"
+              },
               "active": {
                 "value": "{color.yellow.800}",
+                "type": "color",
+                "description": "color.background.warning.bold.active"
+              },
+              "active-dark": {
+                "value": "{color.amber.500}",
                 "type": "color",
                 "description": "color.background.warning.bold.active"
               }
@@ -3889,13 +3904,28 @@
                 "type": "color",
                 "description": "color.background.warning.bold"
               },
+              "default-dark": {
+                "value": "{color.amber.300}",
+                "type": "color",
+                "description": "color.background.warning.bold"
+              },
               "hover": {
                 "value": "{color.gold.06}",
                 "type": "color",
                 "description": "color.background.warning.bold.hover"
               },
+              "hover-dark": {
+                "value": "{color.amber.400}",
+                "type": "color",
+                "description": "color.background.warning.bold.hover"
+              },
               "active": {
                 "value": "{color.gold.07}",
+                "type": "color",
+                "description": "color.background.warning.bold.active"
+              },
+              "active-dark": {
+                "value": "{color.amber.500}",
                 "type": "color",
                 "description": "color.background.warning.bold.active"
               }
