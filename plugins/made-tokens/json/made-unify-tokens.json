@@ -2403,8 +2403,16 @@
                 "value": "{color.green.800}",
                 "type": "color"
               },
+              "hover-dark": {
+                "value": "{color.green.400}",
+                "type": "color"
+              },
               "active": {
                 "value": "{color.green.900}",
+                "type": "color"
+              },
+              "active-dark": {
+                "value": "{color.green.300}",
                 "type": "color"
               }
             }
@@ -2414,12 +2422,24 @@
               "value": "{color.purple.50}",
               "type": "color"
             },
+            "default-dark": {
+              "value": "{color.purple.950}",
+              "type": "color"
+            },
             "hover": {
               "value": "{color.purple.200}",
               "type": "color"
             },
+            "hover-dark": {
+              "value": "{color.purple.900}",
+              "type": "color"
+            },
             "active": {
               "value": "{color.purple.300}",
+              "type": "color"
+            },
+            "active-dark": {
+              "value": "{color.purple.800}",
               "type": "color"
             },
             "strong": {
@@ -2427,12 +2447,24 @@
                 "value": "{color.violet.700}",
                 "type": "color"
               },
+              "default-dark": {
+                "value": "{color.violet.400}",
+                "type": "color"
+              },
               "hover": {
                 "value": "{color.violet.800}",
                 "type": "color"
               },
+              "hover-dark": {
+                "value": "{color.violet.300}",
+                "type": "color"
+              },
               "active": {
                 "value": "{color.violet.900}",
+                "type": "color"
+              },
+              "active-dark": {
+                "value": "{color.violet.200}",
                 "type": "color"
               }
             }
@@ -3985,8 +4017,16 @@
                 "value": "{color.green-success.05}",
                 "type": "color"
               },
+              "hover-dark": {
+                "value": "{color.green.400}",
+                "type": "color"
+              },
               "active": {
                 "value": "{color.green-success.06}",
+                "type": "color"
+              },
+              "active-dark": {
+                "value": "{color.green.300}",
                 "type": "color"
               }
             }
@@ -3996,12 +4036,24 @@
               "value": "{color.purple.100}",
               "type": "color"
             },
+            "default-dark": {
+              "value": "{color.purple.950}",
+              "type": "color"
+            },
             "hover": {
               "value": "{color.purple.200}",
               "type": "color"
             },
+            "hover-dark": {
+              "value": "{color.purple.900}",
+              "type": "color"
+            },
             "active": {
               "value": "{color.purple.300}",
+              "type": "color"
+            },
+            "active-dark": {
+              "value": "{color.purple.800}",
               "type": "color"
             },
             "strong": {
@@ -4009,12 +4061,24 @@
                 "value": "{color.violet.700}",
                 "type": "color"
               },
+              "default-dark": {
+                "value": "{color.violet.400}",
+                "type": "color"
+              },
               "hover": {
                 "value": "{color.violet.800}",
                 "type": "color"
               },
+              "hover-dark": {
+                "value": "{color.violet.300}",
+                "type": "color"
+              },
               "active": {
                 "value": "{color.violet.900}",
+                "type": "color"
+              },
+              "active-dark": {
+                "value": "{color.violet.200}",
                 "type": "color"
               }
             }
