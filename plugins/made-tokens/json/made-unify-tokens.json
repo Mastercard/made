@@ -2893,8 +2893,18 @@
           "type": "color",
           "description": "Brand color. For use on primary links."
         },
+        "brand-dark": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Brand color. For use on primary links."
+        },
         "primary": {
           "value": "{color.neutral.900}",
+          "type": "color",
+          "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+        },
+        "primary-dark": {
+          "value": "{color.white}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
@@ -2903,8 +2913,18 @@
           "type": "color",
           "description": "Secondary text;\nInput labels"
         },
+        "secondary-dark": {
+          "value": "{color.neutral.400}",
+          "type": "color",
+          "description": "Secondary text;\nInput labels"
+        },
         "inverse": {
           "value": "{color.white}",
+          "type": "color",
+          "description": "Inverse text color"
+        },
+        "inverse-dark": {
+          "value": "{color.neutral.900}",
           "type": "color",
           "description": "Inverse text color"
         },
@@ -4702,8 +4722,18 @@
           "type": "color",
           "description": "Brand color. For use on primary links."
         },
+        "brand-dark": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "Brand color. For use on primary links."
+        },
         "primary": {
           "value": "{color.gray.07}",
+          "type": "color",
+          "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+        },
+        "primary-dark": {
+          "value": "{color.white}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
@@ -4712,8 +4742,18 @@
           "type": "color",
           "description": "Secondary text;\nInput labels"
         },
+        "secondary-dark": {
+          "value": "{color.neutral.400}",
+          "type": "color",
+          "description": "Secondary text;\nInput labels"
+        },
         "inverse": {
           "value": "{color.white}",
+          "type": "color",
+          "description": "Inverse text color"
+        },
+        "inverse-dark": {
+          "value": "{color.neutral.900}",
           "type": "color",
           "description": "Inverse text color"
         },
