@@ -3012,7 +3012,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "lighten",
-                "value": "0.1",
+                "value": "0.2",
                 "space": "lch"
               }
             }
@@ -4922,8 +4922,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "lighten",
-                "value": "0.1",
+                "type": "darken",
+                "value": "0.5",
                 "space": "lch"
               }
             }
@@ -6081,8 +6081,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "lighten",
-                "value": "0.1",
+                "type": "darken",
+                "value": "0.5",
                 "space": "lch"
               }
             }
@@ -7258,8 +7258,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "lighten",
-                "value": "0.1",
+                "type": "darken",
+                "value": "0.5",
                 "space": "lch"
               }
             }
@@ -7876,15 +7876,6 @@
         "selection-bg": {
           "value": "{color.text.selection-bg}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": ".5",
-                "space": "lch"
-              }
-            }
-          },
           "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
         "on-color": {
@@ -8419,15 +8410,6 @@
         "selection-bg": {
           "value": "{color.text.selection-bg-dark}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": ".5",
-                "space": "lch"
-              }
-            }
-          },
           "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
         "on-color": {
