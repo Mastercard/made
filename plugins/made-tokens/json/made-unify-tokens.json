@@ -3069,16 +3069,32 @@
           "value": "{color.text.brand}",
           "type": "color"
         },
+        "default-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        },
         "hover": {
           "value": "{color.neutral.600}",
+          "type": "color"
+        },
+        "hover-dark": {
+          "value": "{color.neutral.100}",
           "type": "color"
         },
         "active": {
           "value": "{color.neutral.950}",
           "type": "color"
         },
+        "active-dark": {
+          "value": "{color.neutral.300}",
+          "type": "color"
+        },
         "visited": {
           "value": "{color.text.discovery}",
+          "type": "color"
+        },
+        "visited-dark": {
+          "value": "{color.violet.400}",
           "type": "color"
         },
         "neutral": {
@@ -4945,16 +4961,32 @@
           "value": "{color.text.brand}",
           "type": "color"
         },
+        "default-dark": {
+          "value": "{color.white}",
+          "type": "color"
+        },
         "hover": {
           "value": "{color.orange.05}",
+          "type": "color"
+        },
+        "hover-dark": {
+          "value": "{color.neutral.100}",
           "type": "color"
         },
         "active": {
           "value": "{color.orange.06}",
           "type": "color"
         },
+        "active-dark": {
+          "value": "{color.neutral.300}",
+          "type": "color"
+        },
         "visited": {
           "value": "{color.teal.04}",
+          "type": "color"
+        },
+        "visited-dark": {
+          "value": "{color.violet.400}",
           "type": "color"
         },
         "neutral": {
