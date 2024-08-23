@@ -9790,12 +9790,12 @@
         "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
-        "color.shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
-        "color.shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0",
-        "color.box-shadow.primary": "8017f30e788d5dc4f09cbeec29c8a529d8cb94bf",
-        "color.box-shadow.secondary": "c4e281eabd32aa1218303d46b1e0b5f623ccf433",
-        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba"
+        "color.shadow.primary": "5a228bbe7282f81eb2f565963377dc9fb2709b16",
+        "color.shadow.primary-dark": "321a3b5cd8a10690055fdd14756925aa5a9fc41f",
+        "color.shadow.secondary": "46d88eb93bc5c85bc8c2a4d4895d5b1abc23fe5c",
+        "color.shadow.secondary-dark": "7523538fb8a5f1d22bd2372b5965fec74f25ae02",
+        "color.shadow.tertiary": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58",
+        "color.shadow.tertiary-dark": "b03fbc166567228074e24517ce137c7de637a00a"
       },
       "group": "02 theme"
     },
@@ -10047,12 +10047,12 @@
         "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
-        "color.shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
-        "color.shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0",
-        "color.box-shadow.primary": "8017f30e788d5dc4f09cbeec29c8a529d8cb94bf",
-        "color.box-shadow.secondary": "c4e281eabd32aa1218303d46b1e0b5f623ccf433",
-        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba"
+        "color.shadow.primary": "5a228bbe7282f81eb2f565963377dc9fb2709b16",
+        "color.shadow.primary-dark": "321a3b5cd8a10690055fdd14756925aa5a9fc41f",
+        "color.shadow.secondary": "46d88eb93bc5c85bc8c2a4d4895d5b1abc23fe5c",
+        "color.shadow.secondary-dark": "7523538fb8a5f1d22bd2372b5965fec74f25ae02",
+        "color.shadow.tertiary": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58",
+        "color.shadow.tertiary-dark": "b03fbc166567228074e24517ce137c7de637a00a"
       },
       "group": "02 theme"
     },
@@ -10292,12 +10292,12 @@
         "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
-        "color.shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
-        "color.shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0",
-        "color.box-shadow.primary": "8017f30e788d5dc4f09cbeec29c8a529d8cb94bf",
-        "color.box-shadow.secondary": "c4e281eabd32aa1218303d46b1e0b5f623ccf433",
-        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba"
+        "color.shadow.primary": "5a228bbe7282f81eb2f565963377dc9fb2709b16",
+        "color.shadow.primary-dark": "321a3b5cd8a10690055fdd14756925aa5a9fc41f",
+        "color.shadow.secondary": "46d88eb93bc5c85bc8c2a4d4895d5b1abc23fe5c",
+        "color.shadow.secondary-dark": "7523538fb8a5f1d22bd2372b5965fec74f25ae02",
+        "color.shadow.tertiary": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58",
+        "color.shadow.tertiary-dark": "b03fbc166567228074e24517ce137c7de637a00a"
       },
       "group": "02 theme"
     },
@@ -10537,12 +10537,12 @@
         "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
-        "color.shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
-        "color.shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0",
-        "color.box-shadow.primary": "8017f30e788d5dc4f09cbeec29c8a529d8cb94bf",
-        "color.box-shadow.secondary": "c4e281eabd32aa1218303d46b1e0b5f623ccf433",
-        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba"
+        "color.shadow.primary": "5a228bbe7282f81eb2f565963377dc9fb2709b16",
+        "color.shadow.primary-dark": "321a3b5cd8a10690055fdd14756925aa5a9fc41f",
+        "color.shadow.secondary": "46d88eb93bc5c85bc8c2a4d4895d5b1abc23fe5c",
+        "color.shadow.secondary-dark": "7523538fb8a5f1d22bd2372b5965fec74f25ae02",
+        "color.shadow.tertiary": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58",
+        "color.shadow.tertiary-dark": "b03fbc166567228074e24517ce137c7de637a00a"
       },
       "group": "02 theme"
     },
@@ -10673,10 +10673,9 @@
         "color.link.neutral.hover": "1fb341954d198cb12b539843c4030c23ae552ccc",
         "color.link.neutral.active": "f0ecac4df878797f23a9ba7294f0cbcaa7566be5",
         "color.link.neutral.visited": "61a75e9a4c65e1e2f20254ff8ddf5dd5b771cca3",
-        "color.shadow.default": "144870f8729fd1caf7aa65790e5e8ea38b62d4f6",
-        "color.box-shadow.primary": "dd5a1e595bd605df299a212ccfd8dce3218bae93",
-        "color.box-shadow.secondary": "078d5f95b163cdedc900a478dbd068d0c15b3fb7",
-        "color.box-shadow.tertiary": "02055f64cf4b0baf8acf02370c0633b3effcef62"
+        "color.box-shadow.primary": "77668108d717dd3e1b469b37e4597274411d9026",
+        "color.box-shadow.secondary": "bb0a9455389657701a15f43fabb705ff9c828515",
+        "color.box-shadow.tertiary": "b7fdb14f73a5ca01a45718b4b7aa595b4a1f7eb6"
       },
       "$figmaCollectionId": "VariableCollectionId:1:736",
       "$figmaModeId": "1:20"
@@ -10808,10 +10807,9 @@
         "color.link.neutral.hover": "1fb341954d198cb12b539843c4030c23ae552ccc",
         "color.link.neutral.active": "f0ecac4df878797f23a9ba7294f0cbcaa7566be5",
         "color.link.neutral.visited": "61a75e9a4c65e1e2f20254ff8ddf5dd5b771cca3",
-        "color.shadow.default": "144870f8729fd1caf7aa65790e5e8ea38b62d4f6",
-        "color.box-shadow.primary": "dd5a1e595bd605df299a212ccfd8dce3218bae93",
-        "color.box-shadow.secondary": "078d5f95b163cdedc900a478dbd068d0c15b3fb7",
-        "color.box-shadow.tertiary": "02055f64cf4b0baf8acf02370c0633b3effcef62"
+        "color.box-shadow.primary": "77668108d717dd3e1b469b37e4597274411d9026",
+        "color.box-shadow.secondary": "bb0a9455389657701a15f43fabb705ff9c828515",
+        "color.box-shadow.tertiary": "b7fdb14f73a5ca01a45718b4b7aa595b4a1f7eb6"
       },
       "$figmaCollectionId": "VariableCollectionId:1:736",
       "$figmaModeId": "1:21"
