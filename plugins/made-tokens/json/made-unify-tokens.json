@@ -8510,6 +8510,18 @@
         "default": {
           "value": "{color.box-shadow.default}",
           "type": "color"
+        },
+        "primary": {
+          "value": "{color.box-shadow.primary}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.box-shadow.secondary}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{color.box-shadow.tertiary}",
+          "type": "color"
         }
       }
     }
@@ -9043,6 +9055,18 @@
       "box-shadow": {
         "default": {
           "value": "{color.box-shadow.default-dark}",
+          "type": "color"
+        },
+        "primary": {
+          "value": "{color.box-shadow.primary-dark}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.box-shadow.secondary-dark}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{color.box-shadow.tertiary-dark}",
           "type": "color"
         }
       }
