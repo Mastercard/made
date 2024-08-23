@@ -4004,34 +4004,18 @@
           "type": "spacing"
         }
       },
-      "button": {
-        "default": {
-          "padding-x": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
+      "alert": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
         },
-        "small": {
-          "padding-x": {
-            "value": "{size-space.3-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.1-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "gap-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
         }
       }
     }
@@ -4098,6 +4082,16 @@
             "value": "{size-space.2-x}",
             "type": "spacing"
           }
+        }
+      },
+      "alert": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
         }
       }
     },
@@ -5397,6 +5391,16 @@
             "type": "spacing"
           }
         }
+      },
+      "alert": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        }
       }
     },
     "color": {
@@ -6694,6 +6698,16 @@
             "value": "{size-space.2-x}",
             "type": "spacing"
           }
+        }
+      },
+      "alert": {
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
         }
       }
     },
