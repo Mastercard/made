@@ -8476,15 +8476,15 @@
       },
       "box-shadow": {
         "primary": {
-          "value": "{color.box-shadow.primary}",
+          "value": "{color.shadow.primary}",
           "type": "color"
         },
         "secondary": {
-          "value": "{color.box-shadow.secondary}",
+          "value": "{color.shadow.secondary}",
           "type": "color"
         },
         "tertiary": {
-          "value": "{color.box-shadow.tertiary}",
+          "value": "{color.shadow.tertiary}",
           "type": "color"
         }
       }
