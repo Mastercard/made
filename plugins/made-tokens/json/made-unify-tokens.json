@@ -3947,10 +3947,6 @@
             "type": "fontSizes"
           }
         },
-        "border-radius": {
-          "value": "0",
-          "type": "borderRadius"
-        },
         "box-shadow": {
           "box-shadow": {
             "value": "{box-shadow.none}",
@@ -3971,10 +3967,6 @@
           "gap-x": {
             "value": "{size-space.2-x}",
             "type": "spacing"
-          },
-          "border-radius": {
-            "value": "{border.radius.default}",
-            "type": "borderRadius"
           }
         },
         "small": {
@@ -3989,10 +3981,6 @@
           "gap-x": {
             "value": "{size-space.2-x}",
             "type": "spacing"
-          },
-          "border-radius": {
-            "value": "{border.radius.default}",
-            "type": "borderRadius"
           }
         },
         "box-shadow": {
@@ -5080,6 +5068,41 @@
         "value": "Mark Offc For MC",
         "type": "fontFamilies",
         "description": "figma-only"
+      }
+    },
+    "border": {
+      "radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "{border-radius.03}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "6px. Default border radius for UI components"
+        },
+        "small": {
+          "value": "{size-space.0-5-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "2px. Small border radius for UI components"
+        },
+        "large": {
+          "value": "{size-space.2-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "8px. Large border radius for UI components"
+        },
+        "full": {
+          "value": "9999",
+          "type": "borderRadius"
+        },
+        "focus-offset": {
+          "value": "{border.radius.default} + {size-space.0-5-x}",
+          "type": "borderRadius",
+          "description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, buttons etc)"
+        }
       }
     }
   },
@@ -5106,10 +5129,6 @@
             "type": "fontSizes"
           }
         },
-        "border-radius": {
-          "value": "0",
-          "type": "borderRadius"
-        },
         "box-shadow": {
           "box-shadow": {
             "value": "{box-shadow.none}",
@@ -5130,10 +5149,6 @@
           "gap-x": {
             "value": "{size-space.2-x}",
             "type": "spacing"
-          },
-          "border-radius": {
-            "value": "{border.radius.default}",
-            "type": "borderRadius"
           }
         },
         "small": {
@@ -5148,10 +5163,6 @@
           "gap-x": {
             "value": "{size-space.2-x}",
             "type": "spacing"
-          },
-          "border-radius": {
-            "value": "{border.radius.default}",
-            "type": "borderRadius"
           }
         },
         "box-shadow": {
@@ -6239,6 +6250,41 @@
         "value": "Mark Offc For MC",
         "type": "fontFamilies",
         "description": "figma-only"
+      }
+    },
+    "border": {
+      "radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "{border-radius.03}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "6px. Default border radius for UI components"
+        },
+        "small": {
+          "value": "{size-space.0-5-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "2px. Small border radius for UI components"
+        },
+        "large": {
+          "value": "{size-space.2-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "8px. Large border radius for UI components"
+        },
+        "full": {
+          "value": "9999",
+          "type": "borderRadius"
+        },
+        "focus-offset": {
+          "value": "{border.radius.default} + {size-space.0-5-x}",
+          "type": "borderRadius",
+          "description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, buttons etc)"
+        }
       }
     }
   },
@@ -6265,10 +6311,6 @@
             "type": "fontSizes"
           }
         },
-        "border-radius": {
-          "value": "0",
-          "type": "borderRadius"
-        },
         "box-shadow": {
           "box-shadow": {
             "value": "{box-shadow.none}",
@@ -6289,10 +6331,6 @@
           "gap-x": {
             "value": "{size-space.2-x}",
             "type": "spacing"
-          },
-          "border-radius": {
-            "value": "{border.radius.default}",
-            "type": "borderRadius"
           }
         },
         "small": {
@@ -6307,10 +6345,6 @@
           "gap-x": {
             "value": "{size-space.2-x}",
             "type": "spacing"
-          },
-          "border-radius": {
-            "value": "{border.radius.default}",
-            "type": "borderRadius"
           }
         },
         "box-shadow": {
@@ -7416,6 +7450,41 @@
         "value": "Mark Offc For MC",
         "type": "fontFamilies",
         "description": "figma-only"
+      }
+    },
+    "border": {
+      "radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "{border-radius.03}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "6px. Default border radius for UI components"
+        },
+        "small": {
+          "value": "{size-space.0-5-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "2px. Small border radius for UI components"
+        },
+        "large": {
+          "value": "{size-space.2-x}",
+          "type": "borderRadius",
+          "themeable": "Yes",
+          "description": "8px. Large border radius for UI components"
+        },
+        "full": {
+          "value": "9999",
+          "type": "borderRadius"
+        },
+        "focus-offset": {
+          "value": "{border.radius.default} + {size-space.0-5-x}",
+          "type": "borderRadius",
+          "description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, buttons etc)"
+        }
       }
     }
   },
