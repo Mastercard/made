@@ -3156,6 +3156,84 @@
         "default-dark": {
           "value": "{color.neutral.600}",
           "type": "color"
+        },
+        "primary": {
+          "value": "{color.black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.05",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "primary-dark": {
+          "value": "{color.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.05",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "value": "{color.black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "secondary-dark": {
+          "value": "{color.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "tertiary": {
+          "value": "{color.black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.25",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "tertiary-dark": {
+          "value": "{color.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.25",
+                "space": "lch"
+              }
+            }
+          }
         }
       }
     },
