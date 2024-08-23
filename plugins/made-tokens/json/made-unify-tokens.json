@@ -3148,15 +3148,7 @@
           }
         }
       },
-      "box-shadow": {
-        "default": {
-          "value": "{color.neutral.200}",
-          "type": "color"
-        },
-        "default-dark": {
-          "value": "{color.neutral.600}",
-          "type": "color"
-        },
+      "shadow": {
         "primary": {
           "value": "{color.black}",
           "type": "color",
@@ -5162,15 +5154,7 @@
           }
         }
       },
-      "box-shadow": {
-        "default": {
-          "value": "rgba(20,20,19,0.20)",
-          "type": "color"
-        },
-        "default-dark": {
-          "value": "{color.neutral.600}",
-          "type": "color"
-        },
+      "shadow": {
         "primary": {
           "value": "{color.black}",
           "type": "color",
@@ -6468,15 +6452,7 @@
           }
         }
       },
-      "box-shadow": {
-        "default": {
-          "value": "rgba(20,20,19,0.20)",
-          "type": "color"
-        },
-        "default-dark": {
-          "value": "{color.neutral.600}",
-          "type": "color"
-        },
+      "shadow": {
         "primary": {
           "value": "{color.black}",
           "type": "color",
@@ -7792,15 +7768,7 @@
           }
         }
       },
-      "box-shadow": {
-        "default": {
-          "value": "rgba(20,20,19,0.20)",
-          "type": "color"
-        },
-        "default-dark": {
-          "value": "{color.neutral.600}",
-          "type": "color"
-        },
+      "shadow": {
         "primary": {
           "value": "{color.black}",
           "type": "color",
@@ -8507,10 +8475,6 @@
         }
       },
       "box-shadow": {
-        "default": {
-          "value": "{color.box-shadow.default}",
-          "type": "color"
-        },
         "primary": {
           "value": "{color.box-shadow.primary}",
           "type": "color"
@@ -9053,20 +9017,16 @@
         }
       },
       "box-shadow": {
-        "default": {
-          "value": "{color.box-shadow.default-dark}",
-          "type": "color"
-        },
         "primary": {
-          "value": "{color.box-shadow.primary-dark}",
+          "value": "{color.shadow.primary-dark}",
           "type": "color"
         },
         "secondary": {
-          "value": "{color.box-shadow.secondary-dark}",
+          "value": "{color.shadow.secondary-dark}",
           "type": "color"
         },
         "tertiary": {
-          "value": "{color.box-shadow.tertiary-dark}",
+          "value": "{color.shadow.tertiary-dark}",
           "type": "color"
         }
       }
@@ -9830,14 +9790,12 @@
         "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.box-shadow.default": "4b5ad5510855162f8e8c579ad0a1d3b0b4900bed",
-        "color.box-shadow.default-dark": "badf18db60940b9a317163861915de37141404b0",
+        "color.shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
+        "color.shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
+        "color.shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0",
         "color.box-shadow.primary": "8017f30e788d5dc4f09cbeec29c8a529d8cb94bf",
-        "color.box-shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
         "color.box-shadow.secondary": "c4e281eabd32aa1218303d46b1e0b5f623ccf433",
-        "color.box-shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
-        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba",
-        "color.box-shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0"
+        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba"
       },
       "group": "02 theme"
     },
@@ -10089,14 +10047,12 @@
         "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.box-shadow.default": "4b5ad5510855162f8e8c579ad0a1d3b0b4900bed",
-        "color.box-shadow.default-dark": "badf18db60940b9a317163861915de37141404b0",
+        "color.shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
+        "color.shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
+        "color.shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0",
         "color.box-shadow.primary": "8017f30e788d5dc4f09cbeec29c8a529d8cb94bf",
-        "color.box-shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
         "color.box-shadow.secondary": "c4e281eabd32aa1218303d46b1e0b5f623ccf433",
-        "color.box-shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
-        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba",
-        "color.box-shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0"
+        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba"
       },
       "group": "02 theme"
     },
@@ -10336,14 +10292,12 @@
         "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.box-shadow.default": "4b5ad5510855162f8e8c579ad0a1d3b0b4900bed",
-        "color.box-shadow.default-dark": "badf18db60940b9a317163861915de37141404b0",
+        "color.shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
+        "color.shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
+        "color.shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0",
         "color.box-shadow.primary": "8017f30e788d5dc4f09cbeec29c8a529d8cb94bf",
-        "color.box-shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
         "color.box-shadow.secondary": "c4e281eabd32aa1218303d46b1e0b5f623ccf433",
-        "color.box-shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
-        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba",
-        "color.box-shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0"
+        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba"
       },
       "group": "02 theme"
     },
@@ -10583,14 +10537,12 @@
         "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
         "color.link.neutral.visited": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.box-shadow.default": "4b5ad5510855162f8e8c579ad0a1d3b0b4900bed",
-        "color.box-shadow.default-dark": "badf18db60940b9a317163861915de37141404b0",
+        "color.shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
+        "color.shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
+        "color.shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0",
         "color.box-shadow.primary": "8017f30e788d5dc4f09cbeec29c8a529d8cb94bf",
-        "color.box-shadow.primary-dark": "0728322c0acee4c1382178c72cc40c1e55ddf315",
         "color.box-shadow.secondary": "c4e281eabd32aa1218303d46b1e0b5f623ccf433",
-        "color.box-shadow.secondary-dark": "a338dc3e5db54314f38240c0a08e700163891b92",
-        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba",
-        "color.box-shadow.tertiary-dark": "670b1788efa236d0d7efa3a583011d7bf9af67c0"
+        "color.box-shadow.tertiary": "8b43dd0e98b1139a455d12627023815f3fb0a6ba"
       },
       "group": "02 theme"
     },
@@ -10721,7 +10673,7 @@
         "color.link.neutral.hover": "1fb341954d198cb12b539843c4030c23ae552ccc",
         "color.link.neutral.active": "f0ecac4df878797f23a9ba7294f0cbcaa7566be5",
         "color.link.neutral.visited": "61a75e9a4c65e1e2f20254ff8ddf5dd5b771cca3",
-        "color.box-shadow.default": "144870f8729fd1caf7aa65790e5e8ea38b62d4f6",
+        "color.shadow.default": "144870f8729fd1caf7aa65790e5e8ea38b62d4f6",
         "color.box-shadow.primary": "dd5a1e595bd605df299a212ccfd8dce3218bae93",
         "color.box-shadow.secondary": "078d5f95b163cdedc900a478dbd068d0c15b3fb7",
         "color.box-shadow.tertiary": "02055f64cf4b0baf8acf02370c0633b3effcef62"
@@ -10856,7 +10808,7 @@
         "color.link.neutral.hover": "1fb341954d198cb12b539843c4030c23ae552ccc",
         "color.link.neutral.active": "f0ecac4df878797f23a9ba7294f0cbcaa7566be5",
         "color.link.neutral.visited": "61a75e9a4c65e1e2f20254ff8ddf5dd5b771cca3",
-        "color.box-shadow.default": "144870f8729fd1caf7aa65790e5e8ea38b62d4f6",
+        "color.shadow.default": "144870f8729fd1caf7aa65790e5e8ea38b62d4f6",
         "color.box-shadow.primary": "dd5a1e595bd605df299a212ccfd8dce3218bae93",
         "color.box-shadow.secondary": "078d5f95b163cdedc900a478dbd068d0c15b3fb7",
         "color.box-shadow.tertiary": "02055f64cf4b0baf8acf02370c0633b3effcef62"
