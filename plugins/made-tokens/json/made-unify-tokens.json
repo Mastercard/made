@@ -4016,6 +4016,10 @@
         "gap-x": {
           "value": "{size-space.4-x}",
           "type": "spacing"
+        },
+        "border-radius": {
+          "value": "{border-radius.03}",
+          "type": "borderRadius"
         }
       }
     }
