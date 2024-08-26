@@ -4022,7 +4022,7 @@
           "type": "borderRadius"
         },
         "box-shadow": {
-          "value": "{box-shadow.default}",
+          "value": "{box-shadow.md}",
           "type": "boxShadow"
         }
       }
