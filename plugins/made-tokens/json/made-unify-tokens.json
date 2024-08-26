@@ -4024,6 +4024,18 @@
         "box-shadow": {
           "value": "{box-shadow.md}",
           "type": "boxShadow"
+        },
+        "title": {
+          "font-size": {
+            "value": "{font-size.06}",
+            "type": "fontSizes"
+          }
+        },
+        "subtitle": {
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          }
         }
       }
     }
