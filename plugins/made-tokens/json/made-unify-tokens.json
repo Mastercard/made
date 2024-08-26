@@ -9833,7 +9833,8 @@
       "selectedTokenSets": {
         "primitives/Unify": "source",
         "primitives/Mastercard": "source",
-        "theme/Mastercard B2B": "enabled"
+        "theme/Mastercard B2B": "enabled",
+        "mode/light": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:1:735",
       "$figmaModeId": "1:17",
@@ -10078,7 +10079,8 @@
       "selectedTokenSets": {
         "primitives/Unify": "source",
         "primitives/Mastercard": "source",
-        "theme/Mastercard B2C": "enabled"
+        "theme/Mastercard B2C": "enabled",
+        "mode/light": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:1:735",
       "$figmaModeId": "1:18",
@@ -10323,7 +10325,8 @@
       "selectedTokenSets": {
         "primitives/Unify": "source",
         "primitives/Partnerbank": "source",
-        "theme/Partnerbank": "enabled"
+        "theme/Partnerbank": "enabled",
+        "mode/light": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:1:735",
       "$figmaModeId": "1:19",
