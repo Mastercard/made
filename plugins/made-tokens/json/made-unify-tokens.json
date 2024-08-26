@@ -9575,7 +9575,8 @@
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
-        "theme/Unify": "enabled"
+        "theme/Unify": "enabled",
+        "mode/light": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:1:735",
       "$figmaModeId": "1:16",
