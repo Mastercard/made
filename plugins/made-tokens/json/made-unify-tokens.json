@@ -4020,6 +4020,10 @@
         "border-radius": {
           "value": "{border-radius.03}",
           "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.default}",
+          "type": "boxShadow"
         }
       }
     }
