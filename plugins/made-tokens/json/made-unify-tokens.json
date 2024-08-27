@@ -4059,6 +4059,16 @@
           "value": "{border.radius.default}",
           "type": "borderRadius"
         }
+      },
+      "badge": {
+        "border-radius": {
+          "value": "{border.radius.full}",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
+        }
       }
     }
   },
