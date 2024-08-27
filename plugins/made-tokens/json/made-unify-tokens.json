@@ -4147,6 +4147,16 @@
           "value": "{box-shadow.sm}",
           "type": "boxShadow"
         }
+      },
+      "checkbox": {
+        "border-radius": {
+          "value": "{border-radius.01}",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
+        }
       }
     }
   },
