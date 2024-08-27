@@ -4079,44 +4079,8 @@
           "value": "{box-shadow.none}",
           "type": "boxShadow"
         }
-      }
-    }
-  },
-  "theme/Mastercard B2B": {
-    "component": {
-      "accordion": {
-        "title": {
-          "font-size": {
-            "value": "{font-size.06}",
-            "type": "fontSizes"
-          }
-        },
-        "subtitle": {
-          "font-size": {
-            "value": "{font-size.02}",
-            "type": "fontSizes"
-          }
-        },
-        "box-shadow": {
-          "box-shadow": {
-            "value": "{box-shadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        }
       },
       "button": {
-        "box-shadow": {
-          "value": "{box-shadow.none}",
-          "type": "boxShadow"
-        },
         "default": {
           "padding-x": {
             "value": "{size-space.4-x}",
@@ -4144,19 +4108,15 @@
             "value": "{size-space.2-x}",
             "type": "spacing"
           }
-        }
-      },
-      "alert": {
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
         },
-        "padding-y": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
         }
       }
-    },
+    }
+  },
+  "theme/Mastercard B2B": {
     "color": {
       "brand": {
         "primary": {
@@ -5391,80 +5351,6 @@
     }
   },
   "theme/Mastercard B2C": {
-    "component": {
-      "accordion": {
-        "title": {
-          "font-size": {
-            "value": "{font-size.06}",
-            "type": "fontSizes"
-          }
-        },
-        "subtitle": {
-          "font-size": {
-            "value": "{font-size.02}",
-            "type": "fontSizes"
-          }
-        },
-        "box-shadow": {
-          "box-shadow": {
-            "value": "{box-shadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        }
-      },
-      "button": {
-        "box-shadow": {
-          "value": "{box-shadow.none}",
-          "type": "boxShadow"
-        },
-        "default": {
-          "padding-x": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
-        },
-        "small": {
-          "padding-x": {
-            "value": "{size-space.3-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.1-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
-        }
-      },
-      "alert": {
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        }
-      }
-    },
     "color": {
       "brand": {
         "primary": {
@@ -6699,80 +6585,6 @@
     }
   },
   "theme/Partnerbank": {
-    "component": {
-      "accordion": {
-        "title": {
-          "font-size": {
-            "value": "{font-size.06}",
-            "type": "fontSizes"
-          }
-        },
-        "subtitle": {
-          "font-size": {
-            "value": "{font-size.02}",
-            "type": "fontSizes"
-          }
-        },
-        "box-shadow": {
-          "box-shadow": {
-            "value": "{box-shadow.none}",
-            "type": "boxShadow"
-          }
-        },
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        }
-      },
-      "button": {
-        "box-shadow": {
-          "value": "{box-shadow.none}",
-          "type": "boxShadow"
-        },
-        "default": {
-          "padding-x": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
-        },
-        "small": {
-          "padding-x": {
-            "value": "{size-space.3-x}",
-            "type": "spacing"
-          },
-          "padding-y": {
-            "value": "{size-space.1-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
-        }
-      },
-      "alert": {
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        }
-      }
-    },
     "color": {
       "brand": {
         "primary": {
