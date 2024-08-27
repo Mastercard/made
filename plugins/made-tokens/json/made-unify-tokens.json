@@ -4063,7 +4063,7 @@
       "button": {
         "default": {
           "font-size": {
-            "value": "{font-size.04}",
+            "value": "{font-size.06}",
             "type": "fontSizes"
           },
           "padding-x": {
