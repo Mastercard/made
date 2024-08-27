@@ -4131,6 +4131,10 @@
         }
       },
       "card": {
+        "border-radius": {
+          "value": "{border.radius.default}",
+          "type": "borderRadius"
+        },
         "padding-x": {
           "value": "{size-space.0-x}",
           "type": "spacing"
@@ -4138,6 +4142,10 @@
         "padding-y": {
           "value": "{size-space.0-x}",
           "type": "spacing"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.sm}",
+          "type": "boxShadow"
         }
       }
     }
