@@ -4215,13 +4215,33 @@
         }
       },
       "modal": {
-        "padding-x": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
+        "top-bar": {
+          "padding-top": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-left": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          }
         },
-        "padding-y": {
-          "value": "{size-space.2-5-x}",
-          "type": "spacing"
+        "footer": {
+          "padding-top": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          }
         }
       }
     }
