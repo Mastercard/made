@@ -4285,6 +4285,12 @@
           "value": "{box-shadow.none}",
           "type": "boxShadow"
         }
+      },
+      "pagination": {
+        "gap-x": {
+          "value": "{size-space.1-x}",
+          "type": "spacing"
+        }
       }
     }
   },
