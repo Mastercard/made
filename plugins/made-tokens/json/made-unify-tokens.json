@@ -4156,6 +4156,10 @@
         "box-shadow": {
           "value": "{box-shadow.none}",
           "type": "boxShadow"
+        },
+        "border-color": {
+          "value": "{color.border.default}",
+          "type": "color"
         }
       },
       "avatar": {
