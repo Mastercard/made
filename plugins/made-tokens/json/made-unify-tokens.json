@@ -4258,6 +4258,24 @@
           "type": "color"
         }
       },
+      "link": {
+        "gap-x": {
+          "value": "{size-space.1-x}",
+          "type": "spacing"
+        },
+        "default": {
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          }
+        },
+        "large": {
+          "font-size": {
+            "value": "{font-size.06}",
+            "type": "fontSizes"
+          }
+        }
+      },
       "checkbox": {
         "border-radius": {
           "value": "{border-radius.01}",
