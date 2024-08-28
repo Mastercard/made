@@ -4144,6 +4144,10 @@
         "padding-y": {
           "value": "{size-space.2-5-x}",
           "type": "spacing"
+        },
+        "border-width": {
+          "value": "{border-width.01}",
+          "type": "borderWidth"
         }
       },
       "avatar": {
