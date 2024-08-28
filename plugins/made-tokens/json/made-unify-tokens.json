@@ -4217,29 +4217,29 @@
       "modal": {
         "top-bar": {
           "padding-top": {
-            "value": "{size-space.3-x}",
+            "value": "{size-space.6-x}",
             "type": "spacing"
           },
           "padding-bottom": {
-            "value": "{size-space.3-x}",
+            "value": "{size-space.4-x}",
             "type": "spacing"
           },
           "padding-left": {
-            "value": "{size-space.3-x}",
+            "value": "{size-space.6-x}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{size-space.3-x}",
+            "value": "{size-space.12-x}",
             "type": "spacing"
           }
         },
         "footer": {
           "padding-top": {
-            "value": "{size-space.3-x}",
+            "value": "{size-space.4-x}",
             "type": "spacing"
           },
           "padding-bottom": {
-            "value": "{size-space.3-x}",
+            "value": "{size-space.4-x}",
             "type": "spacing"
           }
         }
