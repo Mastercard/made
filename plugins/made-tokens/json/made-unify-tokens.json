@@ -4148,6 +4148,14 @@
         "border-width": {
           "value": "{border-width.01}",
           "type": "borderWidth"
+        },
+        "border-radius": {
+          "value": "{border.radius.default}",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
         }
       },
       "avatar": {
