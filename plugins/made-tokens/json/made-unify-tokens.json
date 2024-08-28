@@ -4121,13 +4121,13 @@
       "form-control": {
         "label": {
           "font-size": {
-            "value": "{font-size.02}",
+            "value": "{font-size.04}",
             "type": "fontSizes"
           }
         },
         "value": {
           "font-size": {
-            "value": "{font-size.02}",
+            "value": "{font-size.04}",
             "type": "fontSizes"
           }
         },
