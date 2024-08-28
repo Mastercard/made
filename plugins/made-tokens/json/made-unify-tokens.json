@@ -4110,26 +4110,6 @@
           "type": "boxShadow"
         }
       },
-      "form": {
-        "label": {
-          "font-size": {
-            "value": "{font-size.04}",
-            "type": "fontSizes"
-          }
-        },
-        "value": {
-          "font-size": {
-            "value": "{font-size.04}",
-            "type": "fontSizes"
-          }
-        },
-        "helper-text": {
-          "font-size": {
-            "value": "{font-size.02}",
-            "type": "fontSizes"
-          }
-        }
-      },
       "fieldset": {
         "label": {
           "font-size": {
