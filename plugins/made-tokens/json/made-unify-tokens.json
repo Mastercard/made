@@ -4118,6 +4118,26 @@
           }
         }
       },
+      "form-control": {
+        "label": {
+          "font-size": {
+            "value": "{font-size.02}",
+            "type": "fontSizes"
+          }
+        },
+        "value": {
+          "font-size": {
+            "value": "{font-size.02}",
+            "type": "fontSizes"
+          }
+        },
+        "helper-text": {
+          "font-size": {
+            "value": "{font-size.02}",
+            "type": "fontSizes"
+          }
+        }
+      },
       "avatar": {
         "box-shadow": {
           "value": "{box-shadow.none}",
