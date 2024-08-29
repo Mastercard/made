@@ -4306,6 +4306,16 @@
           "value": "{font-size.04}",
           "type": "fontSizes"
         }
+      },
+      "radio": {
+        "border-radius": {
+          "value": "{border-radius.circle}",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
+        }
       }
     }
   },
