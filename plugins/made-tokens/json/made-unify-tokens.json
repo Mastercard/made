@@ -4265,6 +4265,10 @@
             "value": "{border-radius.circle}",
             "type": "borderRadius"
           },
+          "box-shadow": {
+            "value": "{box-shadow.default}",
+            "type": "boxShadow"
+          },
           "width": {
             "value": "{size-space.6-x}",
             "type": "sizing"
@@ -4284,10 +4288,6 @@
           "border-radius": {
             "value": "{border-radius.circle}",
             "type": "borderRadius"
-          },
-          "box-shadow": {
-            "value": "{box-shadow.default}",
-            "type": "boxShadow"
           },
           "height": {
             "value": "{size-space.2-x}",
