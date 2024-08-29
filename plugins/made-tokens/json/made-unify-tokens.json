@@ -4117,48 +4117,6 @@
           }
         }
       },
-      "form-control": {
-        "label": {
-          "font-size": {
-            "value": "{font-size.04}",
-            "type": "fontSizes"
-          }
-        },
-        "value": {
-          "font-size": "[object Object]"
-        },
-        "helper-text": {
-          "font-size": {
-            "value": "{font-size.02}",
-            "type": "fontSizes"
-          }
-        },
-        "padding-x": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.2-5-x}",
-          "type": "spacing"
-        },
-        "border-width": {
-          "value": "{border-width.01}",
-          "type": "borderWidth"
-        },
-        "border-radius": {
-          "value": "{border.radius.default}",
-          "type": "borderRadius"
-        },
-        "box-shadow": {
-          "value": "{box-shadow.none}",
-          "type": "boxShadow"
-        },
-        "border-color": {
-          "value": "{color.border.default}",
-          "type": "color"
-        },
-        "type": "other"
-      },
       "modal": {
         "title": {
           "font-size": {
