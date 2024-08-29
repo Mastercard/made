@@ -1332,9 +1332,8 @@
         "description": "Border Radius: 28px"
       },
       "circle": {
-        "value": "50%",
-        "type": "borderRadius",
-        "description": "Border Radius: 50%"
+        "value": "9999",
+        "type": "borderRadius"
       }
     },
     "line": {
