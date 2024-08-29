@@ -4408,6 +4408,16 @@
           "value": "{box-shadow.none}",
           "type": "boxShadow"
         }
+      },
+      "tooltip": {
+        "border-radius": {
+          "value": "{border.radius.default}",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
+        }
       }
     }
   },
