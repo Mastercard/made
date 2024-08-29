@@ -4316,6 +4316,18 @@
           "value": "{box-shadow.none}",
           "type": "boxShadow"
         }
+      },
+      "range": {
+        "track": {
+          "border-radius": {
+            "value": "{border-radius.circle}",
+            "type": "borderRadius"
+          },
+          "height": {
+            "value": "{size-space.2-x}",
+            "type": "sizing"
+          }
+        }
       }
     }
   },
