@@ -4359,30 +4359,32 @@
           "type": "boxShadow"
         }
       },
-      "tab": {
+      "tabs": {
         "default": {
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
-          }
-        },
-        "contained": {
-          "font-size": {
-            "value": "{font-size.04}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "tabs": {
-        "default": {
+          },
           "border-color": {
             "value": "{color.border.brand}",
             "type": "color"
           }
         },
         "contained": {
-          "item-selected": {
-            "background": {
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          },
+          "item": {
+            "background-selected": {
+              "value": "{color.background.surface.default}",
+              "type": "color"
+            }
+          }
+        },
+        "minimal": {
+          "item": {
+            "background-selected": {
               "value": "{color.border.brand}",
               "type": "color"
             }
