@@ -4160,7 +4160,8 @@
         "border-color": {
           "value": "{color.border.default}",
           "type": "color"
-        }
+        },
+        "type": "other"
       },
       "modal": {
         "title": {
@@ -4288,7 +4289,7 @@
       },
       "pagination": {
         "gap-x": {
-          "value": "{size-space.1-x}",
+          "value": "{size-space.0-x}",
           "type": "spacing"
         }
       }
