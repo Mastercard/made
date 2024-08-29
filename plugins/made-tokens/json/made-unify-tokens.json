@@ -4451,23 +4451,13 @@
           "type": "spacing"
         }
       },
-      "file-upload": {
-        "border-width": {
-          "value": "{border-width.01}",
-          "type": "borderWidth"
-        },
-        "border-radius": {
-          "value": "{border.radius.default}",
-          "type": "borderRadius"
-        },
-        "box-shadow": {
-          "value": "{box-shadow.none}",
-          "type": "boxShadow"
-        }
-      },
       "table": {
         "cell": {
           "header": {
+            "font-size": {
+              "value": "{font-size.04}",
+              "type": "fontSizes"
+            },
             "border-width": {
               "value": "{border-width.02}",
               "type": "borderWidth"
@@ -4482,6 +4472,10 @@
             }
           },
           "data": {
+            "font-size": {
+              "value": "{font-size.04}",
+              "type": "fontSizes"
+            },
             "border-width": {
               "value": "{border-width.01}",
               "type": "borderWidth"
@@ -4499,6 +4493,24 @@
         "border-radius": {
           "value": "{border.radius.none}",
           "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
+        }
+      },
+      "file-upload": {
+        "border-width": {
+          "value": "{border-width.01}",
+          "type": "borderWidth"
+        },
+        "border-radius": {
+          "value": "{border.radius.default}",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
         }
       },
       "textarea": {
