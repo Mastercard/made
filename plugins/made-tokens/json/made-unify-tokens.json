@@ -4358,6 +4358,36 @@
           "value": "{box-shadow.none}",
           "type": "boxShadow"
         }
+      },
+      "tab": {
+        "default": {
+          "font-size": {
+            "value": "{font-size.06}",
+            "type": "fontSizes"
+          }
+        },
+        "contained": {
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "tabs": {
+        "default": {
+          "border-color": {
+            "value": "{color.border.brand}",
+            "type": "color"
+          }
+        },
+        "contained": {
+          "item-selected": {
+            "background": {
+              "value": "{color.border.brand}",
+              "type": "color"
+            }
+          }
+        }
       }
     }
   },
