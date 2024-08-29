@@ -4465,6 +4465,42 @@
           "type": "boxShadow"
         }
       },
+      "table": {
+        "cell": {
+          "header": {
+            "border-width": {
+              "value": "{border-width.02}",
+              "type": "borderWidth"
+            },
+            "padding-x": {
+              "value": "{size-space.4-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.3-x}",
+              "type": "spacing"
+            }
+          },
+          "data": {
+            "border-width": {
+              "value": "{border-width.01}",
+              "type": "borderWidth"
+            },
+            "padding-x": {
+              "value": "{size-space.4-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.4-x}",
+              "type": "spacing"
+            }
+          }
+        },
+        "border-radius": {
+          "value": "{border.radius.none}",
+          "type": "borderRadius"
+        }
+      },
       "textarea": {
         "padding-x": {
           "value": "{size-space.3-x}",
