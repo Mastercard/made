@@ -4360,6 +4360,22 @@
         }
       },
       "tabs": {
+        "contained": {
+          "item": {
+            "box-shadow": {
+              "value": "{box-shadow.default}",
+              "type": "boxShadow"
+            },
+            "background-selected": {
+              "value": "{color.background.surface.default}",
+              "type": "color"
+            }
+          },
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          }
+        },
         "default": {
           "font-size": {
             "value": "{font-size.06}",
@@ -4368,18 +4384,6 @@
           "border-color": {
             "value": "{color.border.brand}",
             "type": "color"
-          }
-        },
-        "contained": {
-          "font-size": {
-            "value": "{font-size.04}",
-            "type": "fontSizes"
-          },
-          "item": {
-            "background-selected": {
-              "value": "{color.background.surface.default}",
-              "type": "color"
-            }
           }
         },
         "minimal": {
