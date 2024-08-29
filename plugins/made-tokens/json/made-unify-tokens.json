@@ -4349,34 +4349,22 @@
           "type": "spacing"
         }
       },
-      "radio": {
-        "border-radius": {
-          "value": "{border-radius.circle}",
-          "type": "borderRadius"
-        },
-        "box-shadow": {
-          "value": "{box-shadow.none}",
-          "type": "boxShadow"
-        }
-      },
       "tabs": {
-        "contained": {
+        "default": {
           "item": {
-            "box-shadow": {
-              "value": "{box-shadow.default}",
-              "type": "boxShadow"
+            "padding-x": {
+              "value": "{size-space.4-x}",
+              "type": "spacing"
             },
-            "background-selected": {
-              "value": "{color.background.surface.default}",
-              "type": "color"
+            "padding-y": {
+              "value": "{size-space.2-5-x}",
+              "type": "spacing"
+            },
+            "border-width": {
+              "value": "{size-space.0-5-x}",
+              "type": "borderWidth"
             }
           },
-          "font-size": {
-            "value": "{font-size.04}",
-            "type": "fontSizes"
-          }
-        },
-        "default": {
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
@@ -4386,6 +4374,30 @@
             "type": "color"
           }
         },
+        "contained": {
+          "item": {
+            "box-shadow": {
+              "value": "{box-shadow.default}",
+              "type": "boxShadow"
+            },
+            "background-selected": {
+              "value": "{color.background.surface.default}",
+              "type": "color"
+            },
+            "padding-x": {
+              "value": "{size-space.3-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.1-x}",
+              "type": "spacing"
+            }
+          },
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          }
+        },
         "minimal": {
           "item": {
             "background-selected": {
@@ -4393,6 +4405,16 @@
               "type": "color"
             }
           }
+        }
+      },
+      "radio": {
+        "border-radius": {
+          "value": "{border-radius.circle}",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
         }
       }
     }
