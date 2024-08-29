@@ -4396,6 +4396,10 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "padding": {
+            "value": "{size-space.1-x}",
+            "type": "spacing"
           }
         },
         "minimal": {
