@@ -4288,6 +4288,12 @@
         }
       },
       "pagination": {
+        "item-active": {
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
+          }
+        },
         "gap-x": {
           "value": "{size-space.0-x}",
           "type": "spacing"
