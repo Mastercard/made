@@ -4388,6 +4388,26 @@
           "value": "{size-space.3-x}",
           "type": "spacing"
         }
+      },
+      "toggle": {
+        "border-radius": {
+          "value": "{border-radius.circle}",
+          "type": "borderRadius"
+        },
+        "thumb": {
+          "border-radius": {
+            "value": "{border-radius.circle}",
+            "type": "borderRadius"
+          },
+          "box-shadow": {
+            "value": "{box-shadow.none}",
+            "type": "boxShadow"
+          }
+        },
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
+        }
       }
     }
   },
