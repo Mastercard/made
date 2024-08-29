@@ -4292,11 +4292,19 @@
           "border-radius": {
             "value": "{border.radius.default}",
             "type": "borderRadius"
+          },
+          "box-shadow": {
+            "value": "{box-shadow.none}",
+            "type": "boxShadow"
           }
         },
         "gap-x": {
           "value": "{size-space.0-x}",
           "type": "spacing"
+        },
+        "font-size": {
+          "value": "{font-size.04}",
+          "type": "fontSizes"
         }
       }
     }
