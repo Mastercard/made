@@ -4274,7 +4274,7 @@
             "type": "sizing"
           }
         },
-        "fill": {
+        "track-fill": {
           "background": {
             "value": "{color.border.brand}",
             "type": "color"
