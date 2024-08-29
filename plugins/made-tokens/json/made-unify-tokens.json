@@ -4213,6 +4213,28 @@
           "type": "color"
         }
       },
+      "menu": {
+        "box-shadow": {
+          "value": "{box-shadow.md}",
+          "type": "boxShadow"
+        },
+        "border-color": {
+          "value": "{color.border.default}",
+          "type": "color"
+        },
+        "border-radius": {
+          "value": "{border.radius.default}",
+          "type": "borderRadius"
+        },
+        "padding-x": {
+          "value": "{size-space.0-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.2-x}",
+          "type": "spacing"
+        }
+      },
       "range": {
         "thumb": {
           "border-color": {
