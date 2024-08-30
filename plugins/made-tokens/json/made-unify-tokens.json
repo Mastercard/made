@@ -4216,9 +4216,11 @@
           "value": "{box-shadow.none}",
           "type": "boxShadow"
         },
-        "border-radius": {
-          "value": "{border.radius.default}",
-          "type": "borderRadius"
+        "squared": {
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
+          }
         }
       },
       "badge": {
