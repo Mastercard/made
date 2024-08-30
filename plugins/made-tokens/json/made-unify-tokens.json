@@ -4529,6 +4529,18 @@
             "value": "{border-width.02}",
             "type": "borderWidth"
           }
+        },
+        "title": {
+          "font-size": {
+            "value": "{font-size.06}",
+            "type": "fontSizes"
+          }
+        },
+        "subtitle": {
+          "font-size": {
+            "value": "{font-size.02}",
+            "type": "fontSizes"
+          }
         }
       },
       "file-upload": {
