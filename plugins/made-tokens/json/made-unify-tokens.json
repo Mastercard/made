@@ -4552,6 +4552,12 @@
           "value": "{border.radius.default}",
           "type": "borderRadius"
         },
+        "day-selected": {
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
+          }
+        },
         "box-shadow": {
           "value": "{box-shadow.sm}",
           "type": "boxShadow"
