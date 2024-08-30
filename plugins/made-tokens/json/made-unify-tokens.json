@@ -4013,6 +4013,24 @@
             "value": "{font-size.04}",
             "type": "fontSizes"
           }
+        },
+        "contained": {
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
+          },
+          "border-width": {
+            "value": "{border-width.01}",
+            "type": "borderWidth"
+          },
+          "box-shadow": {
+            "value": "{box-shadow.none}",
+            "type": "boxShadow"
+          },
+          "border-color": {
+            "value": "{color.border.default}",
+            "type": "color"
+          }
         }
       },
       "alert": {
