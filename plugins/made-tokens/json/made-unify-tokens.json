@@ -4099,7 +4099,7 @@
       },
       "breadcrumb": {
         "gap": {
-          "value": "{size-space.4-x}",
+          "value": "{size-space.0-5-x}",
           "type": "spacing"
         },
         "font-size": {
