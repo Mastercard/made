@@ -3859,7 +3859,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0",
-          "color": "transparent",
+          "color": "{color.border.none}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -4201,7 +4201,7 @@
           "type": "borderRadius"
         },
         "border-color": {
-          "value": "transparent",
+          "value": "{color.border.none}",
           "type": "color"
         },
         "box-shadow": {
@@ -4603,7 +4603,7 @@
       },
       "date-picker": {
         "border-color": {
-          "value": "transparent",
+          "value": "{color.border.none}",
           "type": "color"
         },
         "day": {
@@ -4723,7 +4723,7 @@
           "type": "borderRadius"
         },
         "border-color": {
-          "value": "transparent",
+          "value": "{color.border.none}",
           "type": "color"
         },
         "padding-x": {
