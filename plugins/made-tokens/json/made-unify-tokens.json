@@ -4570,6 +4570,10 @@
           "padding-right": {
             "value": "{size-space.6-x}",
             "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
           }
         }
       }
