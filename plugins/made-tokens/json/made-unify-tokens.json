@@ -4655,6 +4655,28 @@
           "type": "color"
         }
       },
+      "sheet": {
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
+        },
+        "border-radius": {
+          "value": "{border.radius.none}",
+          "type": "borderRadius"
+        },
+        "border-color": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "padding-x": {
+          "value": "{size-space.6-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.6-x}",
+          "type": "spacing"
+        }
+      },
       "scrollbar": {
         "border-radius": {
           "value": "{border-radius.circle}",
