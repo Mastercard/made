@@ -4671,6 +4671,30 @@
             "value": "{color.border.brand}",
             "type": "color"
           }
+        },
+        "sm": {
+          "font-size": {
+            "value": "{font-size.02}",
+            "type": "fontSizes"
+          }
+        },
+        "md": {
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          }
+        },
+        "lg": {
+          "font-size": {
+            "value": "{font-size.06}",
+            "type": "fontSizes"
+          }
+        },
+        "xl": {
+          "font-size": {
+            "value": "{font-size.08}",
+            "type": "fontSizes"
+          }
         }
       }
     }
