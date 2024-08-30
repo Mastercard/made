@@ -4641,6 +4641,20 @@
           "type": "boxShadow"
         }
       },
+      "drawer": {
+        "box-shadow": {
+          "value": "{box-shadow.none}",
+          "type": "boxShadow"
+        },
+        "border-radius": {
+          "value": "{border.radius.default}",
+          "type": "borderRadius"
+        },
+        "border-color": {
+          "value": "{color.border.default}",
+          "type": "color"
+        }
+      },
       "scrollbar": {
         "border-radius": {
           "value": "{border-radius.circle}",
@@ -4695,6 +4709,16 @@
             "value": "{font-size.08}",
             "type": "fontSizes"
           }
+        }
+      },
+      "drawer-picker": {
+        "padding-x": {
+          "value": "{size-space.2-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
         }
       }
     }
