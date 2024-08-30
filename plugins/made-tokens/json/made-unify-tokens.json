@@ -4499,6 +4499,38 @@
           "type": "boxShadow"
         }
       },
+      "stepper": {
+        "item": {
+          "border-color": {
+            "value": "{color.border.default}",
+            "type": "color"
+          },
+          "padding-top": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{size-space.6-x}",
+            "type": "spacing"
+          },
+          "padding-left": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{size-space.6-x}",
+            "type": "spacing"
+          },
+          "gap-x": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "border-width": {
+            "value": "{border-width.02}",
+            "type": "borderWidth"
+          }
+        }
+      },
       "file-upload": {
         "border-width": {
           "value": "{border-width.01}",
@@ -4551,30 +4583,6 @@
         "box-shadow": {
           "value": "{box-shadow.none}",
           "type": "boxShadow"
-        }
-      },
-      "stepper": {
-        "item": {
-          "padding-top": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-bottom": {
-            "value": "{size-space.6-x}",
-            "type": "spacing"
-          },
-          "padding-left": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{size-space.6-x}",
-            "type": "spacing"
-          },
-          "gap-x": {
-            "value": "{size-space.2-x}",
-            "type": "spacing"
-          }
         }
       }
     }
