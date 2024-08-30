@@ -4658,6 +4658,20 @@
             "type": "color"
           }
         }
+      },
+      "loader": {
+        "track": {
+          "background": {
+            "value": "{color.border.default}",
+            "type": "color"
+          }
+        },
+        "progress": {
+          "background": {
+            "value": "{color.border.brand}",
+            "type": "color"
+          }
+        }
       }
     }
   },
