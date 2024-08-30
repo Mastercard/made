@@ -4552,6 +4552,10 @@
           "value": "{border.radius.default}",
           "type": "borderRadius"
         },
+        "box-shadow": {
+          "value": "{box-shadow.sm}",
+          "type": "boxShadow"
+        },
         "padding-x": {
           "value": "{size-space.4-x}",
           "type": "spacing"
