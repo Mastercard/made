@@ -1307,27 +1307,27 @@
         "description": "Border Radius: 8px"
       },
       "05": {
-        "value": "{size-space.3-x}",
+        "value": "{size-space.2-5-x}",
         "type": "borderRadius",
         "description": "Border Radius: 12px"
       },
       "06": {
-        "value": "{size-space.4-x}",
+        "value": "{size-space.3-x}",
         "type": "borderRadius",
         "description": "Border Radius: 16px"
       },
       "07": {
-        "value": "{size-space.5-x}",
+        "value": "{size-space.4-x}",
         "type": "borderRadius",
         "description": "Border Radius: 20px"
       },
       "08": {
-        "value": "{size-space.6-x}",
+        "value": "{size-space.5-x}",
         "type": "borderRadius",
         "description": "Border Radius: 24px"
       },
       "09": {
-        "value": "{size-space.7-x}",
+        "value": "{size-space.6-x}",
         "type": "borderRadius",
         "description": "Border Radius: 28px"
       },
