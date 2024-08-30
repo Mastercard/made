@@ -2781,6 +2781,10 @@
         "inverse-dark": {
           "value": "{color.neutral.950}",
           "type": "color"
+        },
+        "none": {
+          "value": "rgba(255,255,255,0)",
+          "type": "color"
         }
       },
       "icon": {
