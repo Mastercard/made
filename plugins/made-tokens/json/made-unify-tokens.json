@@ -4640,6 +4640,24 @@
           "value": "{box-shadow.none}",
           "type": "boxShadow"
         }
+      },
+      "scrollbar": {
+        "border-radius": {
+          "value": "{border-radius.circle}",
+          "type": "borderRadius"
+        },
+        "track": {
+          "background": {
+            "value": "{color.background.surface.default}",
+            "type": "color"
+          }
+        },
+        "thumb": {
+          "background": {
+            "value": "{color.neutral.400}",
+            "type": "color"
+          }
+        }
       }
     }
   },
