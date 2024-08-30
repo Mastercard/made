@@ -4543,6 +4543,24 @@
           }
         }
       },
+      "date-picker": {
+        "border-color": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "border-radius": {
+          "value": "{border.radius.default}",
+          "type": "borderRadius"
+        },
+        "padding-x": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        },
+        "padding-y": {
+          "value": "{size-space.4-x}",
+          "type": "spacing"
+        }
+      },
       "file-upload": {
         "border-width": {
           "value": "{border-width.01}",
