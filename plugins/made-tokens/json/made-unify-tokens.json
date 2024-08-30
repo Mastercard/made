@@ -4231,6 +4231,18 @@
         "box-shadow": {
           "value": "{box-shadow.none}",
           "type": "boxShadow"
+        },
+        "default": {
+          "font-size": {
+            "value": "{size-space.2-5-x}",
+            "type": "fontSizes"
+          }
+        },
+        "large": {
+          "font-size": {
+            "value": "{size-space.3-5-x}",
+            "type": "fontSizes"
+          }
         }
       },
       "card": {
