@@ -4548,6 +4548,12 @@
           "value": "transparent",
           "type": "color"
         },
+        "day": {
+          "background-selected": {
+            "value": "{color.background.brand.primary.default}",
+            "type": "color"
+          }
+        },
         "border-radius": {
           "value": "{border.radius.default}",
           "type": "borderRadius"
