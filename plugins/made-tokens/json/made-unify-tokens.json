@@ -4575,6 +4575,16 @@
         "padding-y": {
           "value": "{size-space.4-x}",
           "type": "spacing"
+        },
+        "font-size": {
+          "value": "{font-size.04}",
+          "type": "fontSizes"
+        },
+        "weekday": {
+          "font-size": {
+            "value": "{font-size.02}",
+            "type": "fontSizes"
+          }
         }
       },
       "file-upload": {
