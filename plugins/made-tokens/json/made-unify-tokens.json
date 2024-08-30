@@ -4157,32 +4157,6 @@
           "type": "boxShadow"
         }
       },
-      "form": {
-        "fieldset": {
-          "legend": {
-            "font-size": {
-              "value": "{font-size.02}",
-              "type": "fontSizes"
-            }
-          }
-        },
-        "label": {
-          "font-size": {
-            "value": "{font-size.04}",
-            "type": "fontSizes"
-          }
-        },
-        "value": {
-          "font-size": "[object Object]"
-        },
-        "helper-text": {
-          "font-size": {
-            "value": "{font-size.02}",
-            "type": "fontSizes"
-          }
-        },
-        "type": "other"
-      },
       "modal": {
         "title": {
           "font-size": {
