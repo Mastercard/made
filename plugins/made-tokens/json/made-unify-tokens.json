@@ -1726,17 +1726,17 @@
             },
             "strong": {
               "default": {
-                "value": "{color.yellow.600}",
+                "value": "{color.yellow.400}",
                 "type": "color",
                 "description": "color.background.warning.bold"
               },
               "hover": {
-                "value": "{color.yellow.700}",
+                "value": "{color.yellow.500}",
                 "type": "color",
                 "description": "color.background.warning.bold.hovered"
               },
               "active": {
-                "value": "{color.yellow.800}",
+                "value": "{color.yellow.600}",
                 "type": "color",
                 "description": "color.background.warning.bold.pressed"
               }
