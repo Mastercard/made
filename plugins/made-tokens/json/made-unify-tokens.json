@@ -4444,6 +4444,16 @@
           "padding": {
             "value": "{size-space.1-x}",
             "type": "spacing"
+          },
+          "border-radius": {
+            "value": "{border.radius.default}",
+            "type": "borderRadius"
+          },
+          "tab": {
+            "border-radius": {
+              "value": "{border.radius.default}",
+              "type": "borderRadius"
+            }
           }
         },
         "minimal": {
