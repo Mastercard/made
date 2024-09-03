@@ -4385,6 +4385,12 @@
         "gap": {
           "value": "{size-space.0-5-x}",
           "type": "spacing"
+        },
+        "star": {
+          "background-active": {
+            "value": "{color.icon.brand}",
+            "type": "color"
+          }
         }
       },
       "tabs": {
