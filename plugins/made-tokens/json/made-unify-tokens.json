@@ -3864,6 +3864,18 @@
         },
         "type": "boxShadow"
       },
+      "global": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
+      },
       "sm": {
         "value": {
           "x": "0",
