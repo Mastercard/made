@@ -2659,7 +2659,7 @@
             }
           }
         },
-        "neutral-strong": {
+        "neutral-strong-mode-light": {
           "value": "{color.background.feedback.neutral.strong.default-mode-light}",
           "type": "color"
         },
@@ -5565,7 +5565,7 @@
             }
           }
         },
-        "neutral-strong": {
+        "neutral-strong-mode-light": {
           "value": "{color.background.feedback.neutral.strong.default-mode-light}",
           "type": "color"
         },
@@ -6212,7 +6212,7 @@
             "value": "{color.border.default-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
@@ -6224,7 +6224,7 @@
             "value": "{color.border.neutral-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.neutral-mode-dark}",
             "type": "color"
           }
@@ -6235,7 +6235,7 @@
           "value": "{color.border.none}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.none}",
           "type": "color"
         }
@@ -6245,7 +6245,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
@@ -6255,7 +6255,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
@@ -6266,7 +6266,7 @@
             "value": "{color.border.brand-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
@@ -6276,7 +6276,7 @@
             "value": "{color.border.brand-mode-light}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
@@ -6288,7 +6288,7 @@
             "value": "{color.icon.brand-mode-light}",
             "type": "color"
           },
-          "background-active-mode-mode-dark": {
+          "background-active-mode-dark": {
             "value": "{color.icon.brand-mode-dark}",
             "type": "color"
           }
@@ -6300,7 +6300,7 @@
             "value": "{color.border.brand-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
@@ -6311,7 +6311,7 @@
               "value": "{color.background.surface.default-mode-light}",
               "type": "color"
             },
-            "background-selected-mode-mode-dark": {
+            "background-selected-mode-dark": {
               "value": "{color.background.surface.default-mode-dark}",
               "type": "color"
             }
@@ -6323,7 +6323,7 @@
               "value": "{color.border.brand-mode-light}",
               "type": "color"
             },
-            "background-selected-mode-mode-dark": {
+            "background-selected-mode-dark": {
               "value": "{color.border.brand-mode-dark}",
               "type": "color"
             }
@@ -6335,7 +6335,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
@@ -6346,7 +6346,7 @@
             "value": "{color.border.default-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
@@ -6357,7 +6357,7 @@
           "value": "{color.border.none}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.none}",
           "type": "color"
         },
@@ -6366,7 +6366,7 @@
             "value": "{color.background.brand.primary.default-mode-light}",
             "type": "color"
           },
-          "background-selected-mode-mode-dark": {
+          "background-selected-mode-dark": {
             "value": "{color.background.brand.primary.default-mode-dark}",
             "type": "color"
           }
@@ -6377,7 +6377,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
@@ -6387,7 +6387,7 @@
           "value": "{color.border.none}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.none}",
           "type": "color"
         }
@@ -6398,7 +6398,7 @@
             "value": "{color.background.surface.default-mode-light}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.background.surface.default-mode-dark}",
             "type": "color"
           }
@@ -6408,7 +6408,7 @@
             "value": "{color.neutral.400}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.neutral.400}",
             "type": "color"
           }
@@ -6420,7 +6420,7 @@
             "value": "{color.border.default-mode-light}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
@@ -6430,7 +6430,7 @@
             "value": "{color.border.brand-mode-light}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
@@ -6441,7 +6441,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         },
@@ -6449,7 +6449,7 @@
           "value": "{color.background.surface.default-mode-light}",
           "type": "color"
         },
-        "background-mode-mode-dark": {
+        "background-mode-dark": {
           "value": "{color.background.surface.default-mode-dark}",
           "type": "color"
         }
@@ -7067,7 +7067,7 @@
             }
           }
         },
-        "neutral-strong": {
+        "neutral-strong-mode-light": {
           "value": "{color.background.feedback.neutral.strong.default-mode-light}",
           "type": "color"
         },
@@ -7714,7 +7714,7 @@
             "value": "{color.border.default-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
@@ -7726,7 +7726,7 @@
             "value": "{color.border.neutral-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.neutral-mode-dark}",
             "type": "color"
           }
@@ -7737,7 +7737,7 @@
           "value": "{color.border.none}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.none}",
           "type": "color"
         }
@@ -7747,7 +7747,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
@@ -7757,7 +7757,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
@@ -7768,7 +7768,7 @@
             "value": "{color.border.brand-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
@@ -7778,7 +7778,7 @@
             "value": "{color.border.brand-mode-light}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
@@ -7790,7 +7790,7 @@
             "value": "{color.icon.brand-mode-light}",
             "type": "color"
           },
-          "background-active-mode-mode-dark": {
+          "background-active-mode-dark": {
             "value": "{color.icon.brand-mode-dark}",
             "type": "color"
           }
@@ -7802,7 +7802,7 @@
             "value": "{color.border.brand-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
@@ -7813,7 +7813,7 @@
               "value": "{color.background.surface.default-mode-light}",
               "type": "color"
             },
-            "background-selected-mode-mode-dark": {
+            "background-selected-mode-dark": {
               "value": "{color.background.surface.default-mode-dark}",
               "type": "color"
             }
@@ -7825,7 +7825,7 @@
               "value": "{color.border.brand-mode-light}",
               "type": "color"
             },
-            "background-selected-mode-mode-dark": {
+            "background-selected-mode-dark": {
               "value": "{color.border.brand-mode-dark}",
               "type": "color"
             }
@@ -7837,7 +7837,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
@@ -7848,7 +7848,7 @@
             "value": "{color.border.default-mode-light}",
             "type": "color"
           },
-          "border-color-mode-mode-dark": {
+          "border-color-mode-dark": {
             "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
@@ -7859,7 +7859,7 @@
           "value": "{color.border.none}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.none}",
           "type": "color"
         },
@@ -7868,7 +7868,7 @@
             "value": "{color.background.brand.primary.default-mode-light}",
             "type": "color"
           },
-          "background-selected-mode-mode-dark": {
+          "background-selected-mode-dark": {
             "value": "{color.background.brand.primary.default-mode-dark}",
             "type": "color"
           }
@@ -7879,7 +7879,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
@@ -7889,7 +7889,7 @@
           "value": "{color.border.none}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.none}",
           "type": "color"
         }
@@ -7900,7 +7900,7 @@
             "value": "{color.background.surface.default-mode-light}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.background.surface.default-mode-dark}",
             "type": "color"
           }
@@ -7910,7 +7910,7 @@
             "value": "{color.neutral.400}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.neutral.400}",
             "type": "color"
           }
@@ -7922,7 +7922,7 @@
             "value": "{color.border.default-mode-light}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
@@ -7932,7 +7932,7 @@
             "value": "{color.border.brand-mode-light}",
             "type": "color"
           },
-          "background-mode-mode-dark": {
+          "background-mode-dark": {
             "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
@@ -7943,7 +7943,7 @@
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "border-color-mode-mode-dark": {
+        "border-color-mode-dark": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         },
@@ -7951,7 +7951,7 @@
           "value": "{color.background.surface.default-mode-light}",
           "type": "color"
         },
-        "background-mode-mode-dark": {
+        "background-mode-dark": {
           "value": "{color.background.surface.default-mode-dark}",
           "type": "color"
         }
@@ -8312,7 +8312,7 @@
           "type": "color"
         },
         "neutral-strong": {
-          "value": "{color.border.neutral-strong}",
+          "value": "{color.border.neutral-strong-mode-light}",
           "type": "color"
         }
       },
@@ -9953,7 +9953,6 @@
         "color.border.bold-dark": "c4264d14f1683c3f5ca9297432b1466dc6f3270a",
         "color.border.strong-dark": "5119afc14e800aff120024f77ab6ba558f05a864",
         "color.border.neutral-dark": "a512451803621d60ca49b8baba3f411610f65fa3",
-        "color.border.neutral-strong": "292ab7b3c018038dbc7058a300ba968385f07e9c",
         "color.border.neutral-strong-dark": "07affee7dfbc600cbceeee946d506865557d593c",
         "color.border.focused-dark": "fab4feebf7df5f9885ecfb288c1b3c5dcdd66940",
         "color.border.disabled-dark": "98e0613d08b9406a8c0da9945f77cd62de8799e5",
@@ -10121,7 +10120,8 @@
         "color.link.neutral.visited-mode-light": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.shadow.primary-mode-light": "5a228bbe7282f81eb2f565963377dc9fb2709b16",
         "color.shadow.secondary-mode-light": "46d88eb93bc5c85bc8c2a4d4895d5b1abc23fe5c",
-        "color.shadow.tertiary-mode-light": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58"
+        "color.shadow.tertiary-mode-light": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58",
+        "color.border.neutral-strong-mode-light": "292ab7b3c018038dbc7058a300ba968385f07e9c"
       },
       "group": "02 theme"
     },
@@ -10210,7 +10210,6 @@
         "color.border.bold-dark": "c4264d14f1683c3f5ca9297432b1466dc6f3270a",
         "color.border.strong-dark": "5119afc14e800aff120024f77ab6ba558f05a864",
         "color.border.neutral-dark": "a512451803621d60ca49b8baba3f411610f65fa3",
-        "color.border.neutral-strong": "292ab7b3c018038dbc7058a300ba968385f07e9c",
         "color.border.neutral-strong-dark": "07affee7dfbc600cbceeee946d506865557d593c",
         "color.border.focused-dark": "fab4feebf7df5f9885ecfb288c1b3c5dcdd66940",
         "color.border.disabled-dark": "98e0613d08b9406a8c0da9945f77cd62de8799e5",
@@ -10378,7 +10377,8 @@
         "color.link.neutral.visited-mode-light": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.shadow.primary-mode-light": "5a228bbe7282f81eb2f565963377dc9fb2709b16",
         "color.shadow.secondary-mode-light": "46d88eb93bc5c85bc8c2a4d4895d5b1abc23fe5c",
-        "color.shadow.tertiary-mode-light": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58"
+        "color.shadow.tertiary-mode-light": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58",
+        "color.border.neutral-strong-mode-light": "292ab7b3c018038dbc7058a300ba968385f07e9c"
       },
       "group": "02 theme"
     },
@@ -10456,7 +10456,6 @@
         "color.border.bold-dark": "c4264d14f1683c3f5ca9297432b1466dc6f3270a",
         "color.border.strong-dark": "5119afc14e800aff120024f77ab6ba558f05a864",
         "color.border.neutral-dark": "a512451803621d60ca49b8baba3f411610f65fa3",
-        "color.border.neutral-strong": "292ab7b3c018038dbc7058a300ba968385f07e9c",
         "color.border.neutral-strong-dark": "07affee7dfbc600cbceeee946d506865557d593c",
         "color.border.focused-dark": "fab4feebf7df5f9885ecfb288c1b3c5dcdd66940",
         "color.border.disabled-dark": "98e0613d08b9406a8c0da9945f77cd62de8799e5",
@@ -10624,7 +10623,8 @@
         "color.link.neutral.visited-mode-light": "506368751154fdbab781c0917e73b8a76de9c564",
         "color.shadow.primary-mode-light": "5a228bbe7282f81eb2f565963377dc9fb2709b16",
         "color.shadow.secondary-mode-light": "46d88eb93bc5c85bc8c2a4d4895d5b1abc23fe5c",
-        "color.shadow.tertiary-mode-light": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58"
+        "color.shadow.tertiary-mode-light": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58",
+        "color.border.neutral-strong-mode-light": "292ab7b3c018038dbc7058a300ba968385f07e9c"
       },
       "group": "02 theme"
     },
@@ -10643,7 +10643,6 @@
       },
       "group": "03 mode",
       "$figmaVariableReferences": {
-        "color.border.neutral-strong": "d13d0777da8de3a026115ed3799b5a96c94fb9d6",
         "color.box-shadow.primary": "77668108d717dd3e1b469b37e4597274411d9026",
         "color.box-shadow.secondary": "bb0a9455389657701a15f43fabb705ff9c828515",
         "color.box-shadow.tertiary": "b7fdb14f73a5ca01a45718b4b7aa595b4a1f7eb6",
@@ -10756,7 +10755,8 @@
         "color.link.neutral.default-mode-light": "63104cfabec5b10ef5ea8e715f234f0fe37cd66b",
         "color.link.neutral.hover-mode-light": "1fb341954d198cb12b539843c4030c23ae552ccc",
         "color.link.neutral.active-mode-light": "f0ecac4df878797f23a9ba7294f0cbcaa7566be5",
-        "color.link.neutral.visited-mode-light": "61a75e9a4c65e1e2f20254ff8ddf5dd5b771cca3"
+        "color.link.neutral.visited-mode-light": "61a75e9a4c65e1e2f20254ff8ddf5dd5b771cca3",
+        "color.border.neutral-strong-mode-light": "d13d0777da8de3a026115ed3799b5a96c94fb9d6"
       },
       "$figmaCollectionId": "VariableCollectionId:1:736",
       "$figmaModeId": "1:20"
@@ -10776,7 +10776,6 @@
       },
       "group": "03 mode",
       "$figmaVariableReferences": {
-        "color.border.neutral-strong": "d13d0777da8de3a026115ed3799b5a96c94fb9d6",
         "color.box-shadow.primary": "77668108d717dd3e1b469b37e4597274411d9026",
         "color.box-shadow.secondary": "bb0a9455389657701a15f43fabb705ff9c828515",
         "color.box-shadow.tertiary": "b7fdb14f73a5ca01a45718b4b7aa595b4a1f7eb6",
@@ -10889,7 +10888,8 @@
         "color.link.neutral.default-mode-light": "63104cfabec5b10ef5ea8e715f234f0fe37cd66b",
         "color.link.neutral.hover-mode-light": "1fb341954d198cb12b539843c4030c23ae552ccc",
         "color.link.neutral.active-mode-light": "f0ecac4df878797f23a9ba7294f0cbcaa7566be5",
-        "color.link.neutral.visited-mode-light": "61a75e9a4c65e1e2f20254ff8ddf5dd5b771cca3"
+        "color.link.neutral.visited-mode-light": "61a75e9a4c65e1e2f20254ff8ddf5dd5b771cca3",
+        "color.border.neutral-strong-mode-light": "d13d0777da8de3a026115ed3799b5a96c94fb9d6"
       },
       "$figmaCollectionId": "VariableCollectionId:1:736",
       "$figmaModeId": "1:21"
