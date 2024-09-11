@@ -7906,6 +7906,164 @@
           "type": "color"
         }
       }
+    },
+    "component": {
+      "accordion": {
+        "contained": {
+          "border-color": {
+            "value": "{color.border.default-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "alert": {
+        "default": {
+          "border-color": {
+            "value": "{color.border.neutral-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "modal": {
+        "border-color": {
+          "value": "{color.border.none}",
+          "type": "color"
+        }
+      },
+      "card": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        }
+      },
+      "menu": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        }
+      },
+      "range": {
+        "thumb": {
+          "border-color": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          }
+        },
+        "track-fill": {
+          "background": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "rating": {
+        "star": {
+          "background-active": {
+            "value": "{color.icon.brand-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "tabs": {
+        "default": {
+          "border-color": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          }
+        },
+        "contained": {
+          "item": {
+            "background-selected": {
+              "value": "{color.background.surface.default-mode-light}",
+              "type": "color"
+            }
+          }
+        },
+        "minimal": {
+          "item": {
+            "background-selected": {
+              "value": "{color.border.brand-mode-light}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "tag": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        }
+      },
+      "stepper": {
+        "item": {
+          "border-color": {
+            "value": "{color.border.default-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "date-picker": {
+        "border-color": {
+          "value": "{color.border.none}",
+          "type": "color"
+        },
+        "day": {
+          "background-selected": {
+            "value": "{color.background.brand.primary.default-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "drawer": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        }
+      },
+      "sheet": {
+        "border-color": {
+          "value": "{color.border.none}",
+          "type": "color"
+        }
+      },
+      "scrollbar": {
+        "track": {
+          "background": {
+            "value": "{color.background.surface.default-mode-light}",
+            "type": "color"
+          }
+        },
+        "thumb": {
+          "background": {
+            "value": "{color.neutral.400}",
+            "type": "color"
+          }
+        }
+      },
+      "loader": {
+        "track": {
+          "background": {
+            "value": "{color.border.default-mode-light}",
+            "type": "color"
+          }
+        },
+        "progress": {
+          "background": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "form-control": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        },
+        "background": {
+          "value": "{color.background.surface.default-mode-light}",
+          "type": "color"
+        }
+      }
     }
   },
   "mode/dark": {
@@ -8445,6 +8603,164 @@
         },
         "tertiary": {
           "value": "{color.shadow.tertiary-mode-dark}",
+          "type": "color"
+        }
+      }
+    },
+    "component": {
+      "accordion": {
+        "contained": {
+          "border-color": {
+            "value": "{color.border.default-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "alert": {
+        "default": {
+          "border-color": {
+            "value": "{color.border.neutral-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "modal": {
+        "border-color": {
+          "value": "{color.border.none}",
+          "type": "color"
+        }
+      },
+      "card": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        }
+      },
+      "menu": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        }
+      },
+      "range": {
+        "thumb": {
+          "border-color": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          }
+        },
+        "track-fill": {
+          "background": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "rating": {
+        "star": {
+          "background-active": {
+            "value": "{color.icon.brand-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "tabs": {
+        "default": {
+          "border-color": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          }
+        },
+        "contained": {
+          "item": {
+            "background-selected": {
+              "value": "{color.background.surface.default-mode-light}",
+              "type": "color"
+            }
+          }
+        },
+        "minimal": {
+          "item": {
+            "background-selected": {
+              "value": "{color.border.brand-mode-light}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "tag": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        }
+      },
+      "stepper": {
+        "item": {
+          "border-color": {
+            "value": "{color.border.default-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "date-picker": {
+        "border-color": {
+          "value": "{color.border.none}",
+          "type": "color"
+        },
+        "day": {
+          "background-selected": {
+            "value": "{color.background.brand.primary.default-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "drawer": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        }
+      },
+      "sheet": {
+        "border-color": {
+          "value": "{color.border.none}",
+          "type": "color"
+        }
+      },
+      "scrollbar": {
+        "track": {
+          "background": {
+            "value": "{color.background.surface.default-mode-light}",
+            "type": "color"
+          }
+        },
+        "thumb": {
+          "background": {
+            "value": "{color.neutral.400}",
+            "type": "color"
+          }
+        }
+      },
+      "loader": {
+        "track": {
+          "background": {
+            "value": "{color.border.default-mode-light}",
+            "type": "color"
+          }
+        },
+        "progress": {
+          "background": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          }
+        }
+      },
+      "form-control": {
+        "border-color": {
+          "value": "{color.border.default-mode-light}",
+          "type": "color"
+        },
+        "background": {
+          "value": "{color.background.surface.default-mode-light}",
           "type": "color"
         }
       }
