@@ -7369,62 +7369,62 @@
   "mode/light": {
     "color": {
       "brand": {
-        "primary-mode-light": {
+        "primary": {
           "value": "{color.brand.primary-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "secondary-mode-light": {
+        "secondary": {
           "value": "{color.brand.secondary-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         }
       },
       "background": {
-        "default-mode-light": {
+        "default": {
           "value": "{color.background.default-mode-light}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
-        "disabled-mode-light": {
+        "disabled": {
           "value": "{color.background.disabled-mode-light}",
           "type": "color"
         },
-        "backdrop-mode-light": {
+        "backdrop": {
           "value": "{color.background.backdrop-mode-light}",
           "type": "color",
           "description": "Background on overlay used with modals\t"
         },
         "surface": {
-          "default-mode-light": {
+          "default": {
             "value": "{color.background.surface.default-mode-light}",
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
-          "secondary-mode-light": {
+          "secondary": {
             "value": "{color.background.surface.secondary-mode-light}",
             "type": "color"
           },
-          "hover-mode-light": {
+          "hover": {
             "value": "{color.background.surface.hover-mode-light}",
             "type": "color",
             "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
-          "transparent-mode-light": {
+          "transparent": {
             "value": "{color.background.surface.transparent-mode-light}",
             "type": "color"
           },
-          "selected-mode-light": {
+          "selected": {
             "value": "{color.background.surface.selected-mode-light}",
             "type": "color",
             "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
-          "selected-hover-mode-light": {
+          "selected-hover": {
             "value": "{color.background.surface.selected-hover-mode-light}",
             "type": "color",
             "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           },
-          "inverse-mode-light": {
+          "inverse": {
             "value": "{color.background.surface.inverse-mode-light}",
             "type": "color",
             "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
@@ -7432,31 +7432,31 @@
         },
         "brand": {
           "primary": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.brand.primary.default-mode-light}",
               "type": "color",
               "parent": "Semantic/Light"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.brand.primary.hover-mode-light}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.brand.primary.active-mode-light}",
               "type": "color"
             }
           },
           "secondary": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.brand.secondary-mode-light}",
               "type": "color",
               "parent": "Semantic/Light"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.brand.primary.hover-mode-light}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.brand.primary.active-mode-light}",
               "type": "color"
             }
@@ -7464,58 +7464,58 @@
         },
         "feedback": {
           "danger": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.danger.default-mode-light}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.danger.hover-mode-light}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.danger.active-mode-light}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.danger.strong.default-mode-light}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.danger.strong.hover-mode-light}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.danger.strong.active-mode-light}",
                 "type": "color"
               }
             }
           },
           "warning": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.warning.default-mode-light}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.warning.hover-mode-light}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.warning.active-mode-light}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.warning.strong.default-mode-light}",
                 "type": "color",
                 "description": "color.background.warning.bold"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.warning.strong.hover-mode-light}",
                 "type": "color",
                 "description": "color.background.warning.bold.hover"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.warning.strong.active-mode-light}",
                 "type": "color",
                 "description": "color.background.warning.bold.active"
@@ -7523,112 +7523,112 @@
             }
           },
           "success": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.success.default-mode-light}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.success.hover-mode-light}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.success.active-mode-light}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.success.strong.default-mode-light}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.success.strong.hover-mode-light}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.success.strong.active-mode-light}",
                 "type": "color"
               }
             }
           },
           "discovery": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.discovery.default-mode-light}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.discovery.hover-mode-light}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.discovery.active-mode-light}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.discovery.strong.default-mode-light}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.discovery.strong.default-mode-light}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.discovery.strong.active-mode-light}",
                 "type": "color"
               }
             }
           },
           "information": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.information.default-mode-light}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.information.hover-mode-light}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.information.active-mode-light}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.information.strong.default-mode-light}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.information.strong.hover-mode-light}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.information.strong.active-mode-light}",
                 "type": "color"
               }
             }
           },
           "neutral": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.neutral.default-mode-light}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.neutral.hover-mode-light}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.neutral.active-mode-light}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.neutral.strong.default-mode-light}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.neutral.strong.hover-mode-light}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.neutral.strong.active-mode-light}",
                 "type": "color"
               }
@@ -7636,86 +7636,86 @@
           }
         },
         "input": {
-          "default-mode-light": {
+          "default": {
             "value": "{color.background.input.default-mode-light}",
             "type": "color"
           }
         }
       },
       "border": {
-        "brand-mode-light": {
+        "brand": {
           "value": "{color.border.brand-mode-light}",
           "type": "color"
         },
-        "default-mode-light": {
+        "default": {
           "value": "{color.border.default-mode-light}",
           "type": "color"
         },
-        "bold-mode-light": {
+        "bold": {
           "value": "{color.border.bold-mode-light}",
           "type": "color"
         },
-        "strong-mode-light": {
+        "strong": {
           "value": "{color.border.strong-mode-light}",
           "type": "color"
         },
-        "neutral-mode-light": {
+        "neutral": {
           "value": "{color.border.neutral-mode-light}",
           "type": "color"
         },
-        "focused-mode-light": {
+        "focused": {
           "value": "{color.border.focused-mode-light}",
           "type": "color"
         },
-        "disabled-mode-light": {
+        "disabled": {
           "value": "{color.border.disabled-mode-light}",
           "type": "color"
         },
-        "input-mode-light": {
+        "input": {
           "value": "{color.border.input-mode-light}",
           "type": "color"
         },
-        "success-mode-light": {
+        "success": {
           "value": "{color.border.success-mode-light}",
           "type": "color"
         },
-        "success-strong-mode-light": {
+        "success-strong": {
           "value": "{color.border.success-strong-mode-light}",
           "type": "color"
         },
-        "danger-mode-light": {
+        "danger": {
           "value": "{color.border.danger-mode-light}",
           "type": "color"
         },
-        "danger-strong-mode-light": {
+        "danger-strong": {
           "value": "{color.border.danger-strong-mode-light}",
           "type": "color"
         },
-        "warning-mode-light": {
+        "warning": {
           "value": "{color.border.warning-mode-light}",
           "type": "color"
         },
-        "warning-strong-mode-light": {
+        "warning-strong": {
           "value": "{color.border.warning-strong-mode-light}",
           "type": "color"
         },
-        "information-mode-light": {
+        "information": {
           "value": "{color.border.information-mode-light}",
           "type": "color"
         },
-        "information-strong-mode-light": {
+        "information-strong": {
           "value": "{color.border.information-strong-mode-light}",
           "type": "color"
         },
-        "discovery-mode-light": {
+        "discovery": {
           "value": "{color.border.discovery-mode-light}",
           "type": "color"
         },
-        "discovery-strong-mode-light": {
+        "discovery-strong": {
           "value": "{color.border.discovery-strong-mode-light}",
           "type": "color"
         },
-        "inverse-mode-light": {
+        "inverse": {
           "value": "{color.border.inverse-mode-light}",
           "type": "color"
         },
@@ -7725,168 +7725,168 @@
         }
       },
       "icon": {
-        "brand-mode-light": {
+        "brand": {
           "value": "{color.icon.brand-mode-light}",
           "type": "color"
         },
-        "primary-mode-light": {
+        "primary": {
           "value": "{color.icon.primary-mode-light}",
           "type": "color"
         },
-        "secondary-mode-light": {
+        "secondary": {
           "value": "{color.icon.secondary-mode-light}",
           "type": "color"
         },
-        "inverse-mode-light": {
+        "inverse": {
           "value": "{color.icon.inverse-mode-light}",
           "type": "color"
         },
-        "disabled-mode-light": {
+        "disabled": {
           "value": "{color.icon.disabled-mode-light}",
           "type": "color"
         },
-        "helper-mode-light": {
+        "helper": {
           "value": "{color.icon.helper-mode-light}",
           "type": "color"
         },
-        "neutral-mode-light": {
+        "neutral": {
           "value": "{color.icon.neutral-mode-light}",
           "type": "color"
         },
-        "on-color-mode-light": {
+        "on-color": {
           "value": "{color.icon.on-color-mode-light}",
           "type": "color"
         },
-        "success-mode-light": {
+        "success": {
           "value": "{color.icon.success-mode-light}",
           "type": "color"
         },
-        "danger-mode-light": {
+        "danger": {
           "value": "{color.icon.danger-mode-light}",
           "type": "color",
           "description": "color.icon.danger"
         },
-        "warning-mode-light": {
+        "warning": {
           "value": "{color.icon.warning-mode-light}",
           "type": "color",
           "description": "color.icon.warning"
         },
-        "information-mode-light": {
+        "information": {
           "value": "{color.icon.information-mode-light}",
           "type": "color"
         },
-        "discovery-mode-light": {
+        "discovery": {
           "value": "{color.icon.discovery-mode-light}",
           "type": "color"
         }
       },
       "text": {
-        "brand-mode-light": {
+        "brand": {
           "value": "{color.text.brand-mode-light}",
           "type": "color",
           "description": "Brand color. For use on primary links."
         },
-        "primary-mode-light": {
+        "primary": {
           "value": "{color.text.primary-mode-light}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
-        "secondary-mode-light": {
+        "secondary": {
           "value": "{color.text.secondary-mode-light}",
           "type": "color",
           "description": "Secondary text;\nInput labels"
         },
-        "inverse-mode-light": {
+        "inverse": {
           "value": "{color.text.inverse-mode-light}",
           "type": "color",
           "description": "Inverse text color"
         },
-        "disabled-mode-light": {
+        "disabled": {
           "value": "{color.text.disabled-mode-light}",
           "type": "color"
         },
-        "placeholder-mode-light": {
+        "placeholder": {
           "value": "{color.text.placeholder-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "helper-mode-light": {
+        "helper": {
           "value": "{color.text.helper-mode-light}",
           "type": "color",
           "description": "Tertiary text;\nHelp text"
         },
-        "neutral-mode-light": {
+        "neutral": {
           "value": "{color.text.neutral-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "selection-bg-mode-light": {
+        "selection-bg": {
           "value": "{color.text.selection-bg-mode-light}",
           "type": "color",
           "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
-        "on-color-mode-light": {
+        "on-color": {
           "value": "{color.text.on-color-mode-light}",
           "type": "color",
           "description": "Text on interactive colors;\nText on button colors"
         },
-        "success-mode-light": {
+        "success": {
           "value": "{color.text.success-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "danger-mode-light": {
+        "danger": {
           "value": "{color.text.danger-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "warning-mode-light": {
+        "warning": {
           "value": "{color.text.warning-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "information-mode-light": {
+        "information": {
           "value": "{color.text.information-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "discovery-mode-light": {
+        "discovery": {
           "value": "{color.text.discovery-mode-light}",
           "type": "color",
           "parent": "Semantic/Light"
         }
       },
       "link": {
-        "default-mode-light": {
+        "default": {
           "value": "{color.link.default-mode-light}",
           "type": "color"
         },
-        "hover-mode-light": {
+        "hover": {
           "value": "{color.link.hover-mode-light}",
           "type": "color"
         },
-        "active-mode-light": {
+        "active": {
           "value": "{color.link.active-mode-light}",
           "type": "color"
         },
-        "visited-mode-light": {
+        "visited": {
           "value": "{color.link.visited-mode-light}",
           "type": "color"
         },
         "neutral": {
-          "default-mode-light": {
+          "default": {
             "value": "{color.link.neutral.default-mode-light}",
             "type": "color"
           },
-          "hover-mode-light": {
+          "hover": {
             "value": "{color.link.neutral.hover-mode-light}",
             "type": "color"
           },
-          "active-mode-light": {
+          "active": {
             "value": "{color.link.neutral.active-mode-light}",
             "type": "color"
           },
-          "visited-mode-light": {
+          "visited": {
             "value": "{color.link.neutral.visited-mode-light}",
             "type": "color"
           }
@@ -7911,62 +7911,62 @@
   "mode/dark": {
     "color": {
       "brand": {
-        "primary-mode-light": {
+        "primary": {
           "value": "{color.brand.primary-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "secondary-mode-light": {
+        "secondary": {
           "value": "{color.brand.secondary-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         }
       },
       "background": {
-        "default-mode-light": {
+        "default": {
           "value": "{color.background.default-mode-dark}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
-        "disabled-mode-light": {
+        "disabled": {
           "value": "{color.background.disabled-mode-dark}",
           "type": "color"
         },
-        "backdrop-mode-light": {
+        "backdrop": {
           "value": "{color.background.backdrop-mode-dark}",
           "type": "color",
           "description": "Background on overlay used with modals\t"
         },
         "surface": {
-          "default-mode-light": {
+          "default": {
             "value": "{color.background.surface.default-mode-dark}",
             "type": "color",
             "description": "Default application surface color. Use this for e.g. card backgrounds."
           },
-          "secondary-mode-light": {
+          "secondary": {
             "value": "{color.background.surface.secondary-mode-dark}",
             "type": "color"
           },
-          "hover-mode-light": {
+          "hover": {
             "value": "{color.background.surface.hover-mode-dark}",
             "type": "color",
             "description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
-          "transparent-mode-light": {
+          "transparent": {
             "value": "{color.background.surface.transparent-mode-dark}",
             "type": "color"
           },
-          "selected-mode-light": {
+          "selected": {
             "value": "{color.background.surface.selected-mode-dark}",
             "type": "color",
             "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
-          "selected-hover-mode-light": {
+          "selected-hover": {
             "value": "{color.background.surface.selected-hover-mode-dark}",
             "type": "color",
             "description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           },
-          "inverse-mode-light": {
+          "inverse": {
             "value": "{color.background.surface.inverse-mode-dark}",
             "type": "color",
             "description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
@@ -7974,31 +7974,31 @@
         },
         "brand": {
           "primary": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.brand.primary.default-mode-dark}",
               "type": "color",
               "parent": "Semantic/Light"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.brand.primary.hover-mode-dark}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.brand.primary.active-mode-dark}",
               "type": "color"
             }
           },
           "secondary": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.brand.secondary-mode-dark}",
               "type": "color",
               "parent": "Semantic/Light"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.brand.primary.hover-mode-dark}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.brand.primary.active-mode-dark}",
               "type": "color"
             }
@@ -8006,58 +8006,58 @@
         },
         "feedback": {
           "danger": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.danger.default-mode-dark}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.danger.hover-mode-dark}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.danger.active-mode-dark}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.danger.strong.default-mode-dark}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.danger.strong.hover-mode-dark}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.danger.strong.active-mode-dark}",
                 "type": "color"
               }
             }
           },
           "warning": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.warning.default-mode-dark}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.warning.hover-mode-dark}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.warning.active-mode-dark}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.warning.strong.default-mode-dark}",
                 "type": "color",
                 "description": "color.background.warning.bold"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.warning.strong.hover-mode-dark}",
                 "type": "color",
                 "description": "color.background.warning.bold.hover"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.warning.strong.active-mode-dark}",
                 "type": "color",
                 "description": "color.background.warning.bold.active"
@@ -8065,112 +8065,112 @@
             }
           },
           "success": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.success.default-mode-dark}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.success.hover-mode-dark}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.success.active-mode-dark}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.success.strong.default-mode-dark}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.success.strong.hover-mode-dark}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.success.strong.active-mode-dark}",
                 "type": "color"
               }
             }
           },
           "discovery": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.discovery.default-mode-dark}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.discovery.hover-mode-dark}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.discovery.active-mode-dark}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.discovery.strong.default-mode-dark}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.discovery.strong.default-mode-dark}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.discovery.strong.active-mode-dark}",
                 "type": "color"
               }
             }
           },
           "information": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.information.default-mode-dark}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.information.hover-mode-dark}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.information.active-mode-dark}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.information.strong.default-mode-dark}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.information.strong.hover-mode-dark}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.information.strong.active-mode-dark}",
                 "type": "color"
               }
             }
           },
           "neutral": {
-            "default-mode-light": {
+            "default": {
               "value": "{color.background.feedback.neutral.default-mode-dark}",
               "type": "color"
             },
-            "hover-mode-light": {
+            "hover": {
               "value": "{color.background.feedback.neutral.hover-mode-dark}",
               "type": "color"
             },
-            "active-mode-light": {
+            "active": {
               "value": "{color.background.feedback.neutral.active-mode-dark}",
               "type": "color"
             },
             "strong": {
-              "default-mode-light": {
+              "default": {
                 "value": "{color.background.feedback.neutral.strong.default-mode-dark}",
                 "type": "color"
               },
-              "hover-mode-light": {
+              "hover": {
                 "value": "{color.background.feedback.neutral.strong.hover-mode-dark}",
                 "type": "color"
               },
-              "active-mode-light": {
+              "active": {
                 "value": "{color.background.feedback.neutral.strong.active-mode-dark}",
                 "type": "color"
               }
@@ -8178,86 +8178,86 @@
           }
         },
         "input": {
-          "default-mode-light": {
+          "default": {
             "value": "{color.background.input.default-mode-dark}",
             "type": "color"
           }
         }
       },
       "border": {
-        "brand-mode-light": {
+        "brand": {
           "value": "{color.border.brand-mode-dark}",
           "type": "color"
         },
-        "default-mode-light": {
+        "default": {
           "value": "{color.border.default-mode-dark}",
           "type": "color"
         },
-        "bold-mode-light": {
+        "bold": {
           "value": "{color.border.bold-mode-dark}",
           "type": "color"
         },
-        "strong-mode-light": {
+        "strong": {
           "value": "{color.border.strong-mode-dark}",
           "type": "color"
         },
-        "neutral-mode-light": {
+        "neutral": {
           "value": "{color.border.neutral-mode-dark}",
           "type": "color"
         },
-        "focused-mode-light": {
+        "focused": {
           "value": "{color.border.focused-mode-dark}",
           "type": "color"
         },
-        "disabled-mode-light": {
+        "disabled": {
           "value": "{color.border.disabled-mode-dark}",
           "type": "color"
         },
-        "input-mode-light": {
+        "input": {
           "value": "{color.border.input-mode-dark}",
           "type": "color"
         },
-        "success-mode-light": {
+        "success": {
           "value": "{color.border.success-mode-dark}",
           "type": "color"
         },
-        "success-strong-mode-light": {
+        "success-strong": {
           "value": "{color.border.success-strong-mode-dark}",
           "type": "color"
         },
-        "danger-mode-light": {
+        "danger": {
           "value": "{color.border.danger-mode-dark}",
           "type": "color"
         },
-        "danger-strong-mode-light": {
+        "danger-strong": {
           "value": "{color.border.danger-strong-mode-dark}",
           "type": "color"
         },
-        "warning-mode-light": {
+        "warning": {
           "value": "{color.border.warning-mode-dark}",
           "type": "color"
         },
-        "warning-strong-mode-light": {
+        "warning-strong": {
           "value": "{color.border.warning-strong-mode-dark}",
           "type": "color"
         },
-        "information-mode-light": {
+        "information": {
           "value": "{color.border.information-mode-dark}",
           "type": "color"
         },
-        "information-strong-mode-light": {
+        "information-strong": {
           "value": "{color.border.information-strong-mode-dark}",
           "type": "color"
         },
-        "discovery-mode-light": {
+        "discovery": {
           "value": "{color.border.discovery-mode-dark}",
           "type": "color"
         },
-        "discovery-strong-mode-light": {
+        "discovery-strong": {
           "value": "{color.border.discovery-strong-mode-dark}",
           "type": "color"
         },
-        "inverse-mode-light": {
+        "inverse": {
           "value": "{color.border.inverse-mode-dark}",
           "type": "color"
         },
@@ -8267,168 +8267,168 @@
         }
       },
       "icon": {
-        "brand-mode-light": {
+        "brand": {
           "value": "{color.icon.brand-mode-dark}",
           "type": "color"
         },
-        "primary-mode-light": {
+        "primary": {
           "value": "{color.icon.primary-mode-dark}",
           "type": "color"
         },
-        "secondary-mode-light": {
+        "secondary": {
           "value": "{color.icon.secondary-mode-dark}",
           "type": "color"
         },
-        "inverse-mode-light": {
+        "inverse": {
           "value": "{color.icon.inverse-mode-dark}",
           "type": "color"
         },
-        "disabled-mode-light": {
+        "disabled": {
           "value": "{color.icon.disabled-mode-dark}",
           "type": "color"
         },
-        "helper-mode-light": {
+        "helper": {
           "value": "{color.icon.helper-mode-dark}",
           "type": "color"
         },
-        "neutral-mode-light": {
+        "neutral": {
           "value": "{color.icon.neutral-mode-dark}",
           "type": "color"
         },
-        "on-color-mode-light": {
+        "on-color": {
           "value": "{color.icon.on-color-mode-dark}",
           "type": "color"
         },
-        "success-mode-light": {
+        "success": {
           "value": "{color.icon.success-mode-dark}",
           "type": "color"
         },
-        "danger-mode-light": {
+        "danger": {
           "value": "{color.icon.danger-mode-dark}",
           "type": "color",
           "description": "color.icon.danger"
         },
-        "warning-mode-light": {
+        "warning": {
           "value": "{color.icon.warning-mode-dark}",
           "type": "color",
           "description": "color.icon.warning"
         },
-        "information-mode-light": {
+        "information": {
           "value": "{color.icon.information-mode-dark}",
           "type": "color"
         },
-        "discovery-mode-light": {
+        "discovery": {
           "value": "{color.icon.discovery-mode-dark}",
           "type": "color"
         }
       },
       "text": {
-        "brand-mode-light": {
+        "brand": {
           "value": "{color.text.brand-mode-dark}",
           "type": "color",
           "description": "Brand color. For use on primary links."
         },
-        "primary-mode-light": {
+        "primary": {
           "value": "{color.text.primary-mode-dark}",
           "type": "color",
           "description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
-        "secondary-mode-light": {
+        "secondary": {
           "value": "{color.text.secondary-mode-dark}",
           "type": "color",
           "description": "Secondary text;\nInput labels"
         },
-        "inverse-mode-light": {
+        "inverse": {
           "value": "{color.text.inverse-mode-dark}",
           "type": "color",
           "description": "Inverse text color"
         },
-        "disabled-mode-light": {
+        "disabled": {
           "value": "{color.text.disabled-mode-dark}",
           "type": "color"
         },
-        "placeholder-mode-light": {
+        "placeholder": {
           "value": "{color.text.placeholder-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "helper-mode-light": {
+        "helper": {
           "value": "{color.text.helper-mode-dark}",
           "type": "color",
           "description": "Tertiary text;\nHelp text"
         },
-        "neutral-mode-light": {
+        "neutral": {
           "value": "{color.text.neutral-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "selection-bg-mode-light": {
+        "selection-bg": {
           "value": "{color.text.selection-bg-mode-dark}",
           "type": "color",
           "description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
-        "on-color-mode-light": {
+        "on-color": {
           "value": "{color.text.on-color-mode-dark}",
           "type": "color",
           "description": "Text on interactive colors;\nText on button colors"
         },
-        "success-mode-light": {
+        "success": {
           "value": "{color.text.success-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "danger-mode-light": {
+        "danger": {
           "value": "{color.text.danger-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "warning-mode-light": {
+        "warning": {
           "value": "{color.text.warning-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "information-mode-light": {
+        "information": {
           "value": "{color.text.information-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         },
-        "discovery-mode-light": {
+        "discovery": {
           "value": "{color.text.discovery-mode-dark}",
           "type": "color",
           "parent": "Semantic/Light"
         }
       },
       "link": {
-        "default-mode-light": {
+        "default": {
           "value": "{color.link.default-mode-dark}",
           "type": "color"
         },
-        "hover-mode-light": {
+        "hover": {
           "value": "{color.link.hover-mode-dark}",
           "type": "color"
         },
-        "active-mode-light": {
+        "active": {
           "value": "{color.link.active-mode-dark}",
           "type": "color"
         },
-        "visited-mode-light": {
+        "visited": {
           "value": "{color.link.visited-mode-dark}",
           "type": "color"
         },
         "neutral": {
-          "default-mode-light": {
+          "default": {
             "value": "{color.link.neutral.default-mode-dark}",
             "type": "color"
           },
-          "hover-mode-light": {
+          "hover": {
             "value": "{color.link.neutral.hover-mode-dark}",
             "type": "color"
           },
-          "active-mode-light": {
+          "active": {
             "value": "{color.link.neutral.active-mode-dark}",
             "type": "color"
           },
-          "visited-mode-light": {
+          "visited": {
             "value": "{color.link.neutral.visited-mode-dark}",
             "type": "color"
           }
@@ -9219,7 +9219,7 @@
     },
     {
       "id": "b6376c94688da77605570efa499cb3a437b2305c",
-      "name": "Mastercard B2B",
+      "name": "Mastercard",
       "$figmaStyleReferences": {
         "heading.h1": "S:66aa7de1f9383ceff240f52285aef3eae77b43a8,",
         "heading.h2": "S:a166ca7d585f82ee886483c176f5529a84d91500,",
@@ -9240,250 +9240,6 @@
       },
       "$figmaCollectionId": "VariableCollectionId:1:735",
       "$figmaModeId": "1:17",
-      "$figmaVariableReferences": {
-        "color.brand.primary-dark": "45d50b588a406ee1f4aec0f149aabd4fdb4101f9",
-        "color.brand.secondary-dark": "52e3cc8b54f45217f813315434344d5f838bb029",
-        "color.background.default-dark": "9caa9e6363e6b7013597fa25dd128ae4e89908cf",
-        "color.background.disabled-dark": "16c6fd592d8598b6049e6d05aea07c8c239a8b6b",
-        "color.background.backdrop-dark": "0ab55fec566fa7d4b0a9ce55d3665b9777062f26",
-        "color.background.surface.default-dark": "b48e86cab3f7dc0078affccb45e951594cfa3107",
-        "color.background.surface.secondary-dark": "6cce6c981880bd1a0b641745e182deeb719d0cdb",
-        "color.background.surface.secondary-hover-dark": "d7fe9d6dfc3911c1c827d3954cef725b025d19e5",
-        "color.background.surface.hover-dark": "362dc2a60e34a8e340ab9b7a8eb91553a4c461ba",
-        "color.background.surface.transparent-dark": "c2a6a4da3d86a898696e142307e419ceb36c5666",
-        "color.background.surface.selected-dark": "353bdcb59ec627318ec62d500cab856caef55395",
-        "color.background.surface.selected-hover-dark": "6ebf82a6b099a143bf6181307ff3ff793e8bffa2",
-        "color.background.surface.inverse-dark": "302a565aabe1926916e380b5cf45ae87f91da376",
-        "color.background.brand.primary.default-dark": "80b19a613b6bfee87c1303eea62bef4b57b23826",
-        "color.background.brand.primary.hover-dark": "20b0275ab74550eab3f7c3d77bcbca6574d5f805",
-        "color.background.brand.primary.active-dark": "d6c3a9dc66c45f92abd102796e21c2b4f2cce419",
-        "color.background.brand.secondary.default-dark": "422ea61d9a2c259c0c3a4c66d9c82f001b6c6f7d",
-        "color.background.brand.secondary.hover-dark": "fed9a390d82ec27c3153f56c18e031a7ab0ec415",
-        "color.background.brand.secondary.active-dark": "1fed3c6b7fa049df5eb7cf905a48864521b3f00a",
-        "color.background.feedback.danger.default-dark": "21156f60fcf06fed86ca07f3dfced549b67aab64",
-        "color.background.feedback.danger.hover-dark": "3bbcffe36863442418baf6d8278c6f31a03e9f4f",
-        "color.background.feedback.danger.active-dark": "36b538c5bd419b3ba470b4603dd87336777ef997",
-        "color.background.feedback.danger.strong.default-dark": "e16ac9febc51ed344082addb20d1d2bec34a4aa1",
-        "color.background.feedback.danger.strong.hover-dark": "34d682e4aa958b50db868d9291eac175fe73e9ac",
-        "color.background.feedback.danger.strong.active-dark": "13f9b9c25c30d3ac695143bef18fed4e176ad6ca",
-        "color.background.feedback.warning.default-dark": "b08f5057414568a7b0bbc2f0872f3483ee98dfbe",
-        "color.background.feedback.warning.hover-dark": "6773f55e75263ae88579b3739fb6090aae1a991f",
-        "color.background.feedback.warning.active-dark": "565bfff866af30837163af12f9dcc6398e2ac532",
-        "color.background.feedback.warning.strong.default-dark": "c559e4c6a5aa4dbcbdaddff5dd4ec8697e31948c",
-        "color.background.feedback.warning.strong.hover-dark": "3520233ae58ce4e02928011aa8979171806e1aa5",
-        "color.background.feedback.warning.strong.active-dark": "d96380b8b96e40b45e54da124ef579285a860649",
-        "color.background.feedback.success.default-dark": "341ad809b1d3d7a93d4a6ade718d34844aaf7d37",
-        "color.background.feedback.success.hover-dark": "b3d70c39f673d23aa030728556613991732e68bc",
-        "color.background.feedback.success.active-dark": "695c8d2d36094733c37e8838976d7185212c8cbb",
-        "color.background.feedback.success.strong.default-dark": "95087a71278e80d36c81f3a2b1a1e2990be8b0b8",
-        "color.background.feedback.success.strong.hover-dark": "e312644654c5ef40d370dc4d23d7ecec88f0791a",
-        "color.background.feedback.success.strong.active-dark": "b1b1ef5a665b7b88e52cf9513b4ae6a5037ab118",
-        "color.background.feedback.discovery.default-dark": "da681bd27476400e1c99739bfc71664823c5dee0",
-        "color.background.feedback.discovery.hover-dark": "65fc8e85450b498ad7b9c8236b4346d17d4ffe3c",
-        "color.background.feedback.discovery.active-dark": "aba9937ad3d1c78f686901e91bdf611a33daad4c",
-        "color.background.feedback.discovery.strong.default-dark": "7a6ad32ae7f4a9ff0105050d94a2032be89b54f3",
-        "color.background.feedback.discovery.strong.hover-dark": "2215925b71a4a4f9394effa7af7a38afdda1d053",
-        "color.background.feedback.discovery.strong.active-dark": "1a955bf12563880c93a59fa97f08480f244bfa5d",
-        "color.background.feedback.information.default-dark": "256777b02aefcd5d1d7c2949d29c3e4d492ac25e",
-        "color.background.feedback.information.hover-dark": "e80fafaf489b54a1e82cbc0f54b32e4408766651",
-        "color.background.feedback.information.active-dark": "16cd573fb506681896290e1f000e41caacc1caeb",
-        "color.background.feedback.information.strong.default-dark": "86408d6ac200e5fb8da1ae8d846b4d96e8050546",
-        "color.background.feedback.information.strong.hover-dark": "6932e9113818df708d7c1822175efbcb75454168",
-        "color.background.feedback.information.strong.active-dark": "707e103c09c267d64f9da6b8fcec6e8508650895",
-        "color.background.feedback.neutral.default-dark": "8b4989e8da5cd5c27f57047059e2994570ab95e9",
-        "color.background.feedback.neutral.hover-dark": "cc17dbbd9f663a3e083032722c0eebcfc2773a22",
-        "color.background.feedback.neutral.active-dark": "42337a2a6b266ece9d4cc140bdf06f8d0f19d1e5",
-        "color.background.feedback.neutral.strong.default-dark": "f9d9c2c2cdd578cb8e65d57173bda739d8f07456",
-        "color.background.feedback.neutral.strong.hover-dark": "94e0f5352393a273f3cadf1d11b86527132083dd",
-        "color.background.feedback.neutral.strong.active-dark": "35c9630af0ce06f9f97eb9b84984f98e95fdef02",
-        "color.background.input.default-dark": "905f99cf73b22a2d281b87725bf85713331fb92d",
-        "color.border.brand-dark": "c6083aa28c0cc764b2fe0afd4395a4a22245fd6a",
-        "color.border.default-dark": "7a2e77aa94b8445cc6379cedfdf40041c5f4b3dc",
-        "color.border.bold-dark": "c4264d14f1683c3f5ca9297432b1466dc6f3270a",
-        "color.border.strong-dark": "5119afc14e800aff120024f77ab6ba558f05a864",
-        "color.border.neutral-dark": "a512451803621d60ca49b8baba3f411610f65fa3",
-        "color.border.neutral-strong": "292ab7b3c018038dbc7058a300ba968385f07e9c",
-        "color.border.neutral-strong-dark": "07affee7dfbc600cbceeee946d506865557d593c",
-        "color.border.focused-dark": "fab4feebf7df5f9885ecfb288c1b3c5dcdd66940",
-        "color.border.disabled-dark": "98e0613d08b9406a8c0da9945f77cd62de8799e5",
-        "color.border.input-dark": "2ff72cd7f1254dbcf9d16d1e168ca18258be4bde",
-        "color.border.success-dark": "707e305c7538cf46d3d2444463e5ca566616a32b",
-        "color.border.success-strong-dark": "ad41c3a32aeda89de1774c352ffb268c1fd07f60",
-        "color.border.danger-dark": "49d2c552085b54dfc409a1c3eea57b733a740233",
-        "color.border.danger-strong-dark": "dcb938d9eeb6b52cc6db6214e8d989a25b84230c",
-        "color.border.warning-dark": "d2fe9a4e7bde20e0967dbda3c927ed76634c418d",
-        "color.border.warning-strong-dark": "716c0c7706692384598a6fd9bdd2496168e16431",
-        "color.border.information-dark": "8f7636ff655b43436e36f9b9a947fc241c84487c",
-        "color.border.information-strong-dark": "de5aafbd3dfadcf09645c0b28bf49ea2ddfa83d1",
-        "color.border.discovery-dark": "c91c7df67a98b8f72db5754d2e9da62d1d3e6ae3",
-        "color.border.discovery-strong-dark": "8c2b82746e63980e692d5a5f32cf3b4bb50b5b31",
-        "color.border.inverse-dark": "1d148277277a624d24bbd0bd8c4e486d1b0b2d13",
-        "color.icon.brand-dark": "eace7d825f2fe39fb36b55b99a33d39177578467",
-        "color.icon.primary-dark": "90a0037a5e0a5b6761e748566acaeea374784f6a",
-        "color.icon.secondary-dark": "686c15ad28c8a46abb6f3a86244971a54f4dd323",
-        "color.icon.inverse-dark": "efecb600c1c54d1b84fa83b45e59c975e62a3c0c",
-        "color.icon.disabled-dark": "de6ba3852a014fafd60faf971d3987c7748b5208",
-        "color.icon.helper-dark": "ee15feba8b75c1f78e1da4460a4cae8be1750c1c",
-        "color.icon.neutral-dark": "10a665272ee34f364b6d33faaec52d81493b3058",
-        "color.icon.on-color-dark": "6054318d20f75d33d331f154d4d76c0bbf78d4d1",
-        "color.icon.success-dark": "4434f84c91cebc364d0381dce23bfc2458b47159",
-        "color.icon.danger-dark": "3eedfb57ba51b62bc9104b235f7bf190ca43ffde",
-        "color.icon.warning-dark": "3729d1a23f06622a322cf0b3404d297ec773aff9",
-        "color.icon.information-dark": "6fbae289af5461563cc67ebe74fa8eedec825860",
-        "color.icon.discovery-dark": "82f4a3b53bf260a66a15ec7410d8621f907dc22c",
-        "color.text.brand-dark": "f8b09c077d4a7d797515d6f591b7d7cfca5cf074",
-        "color.text.primary-dark": "b777f5c79e8b92c619ab76f96cca66b7783b97fe",
-        "color.text.secondary-dark": "324795dd76a3d4df5abd6877b53c2a103d6f4b12",
-        "color.text.inverse-dark": "cc5fd4715d9ee0db3c5ae45cca9bda286fccb928",
-        "color.text.disabled-dark": "3377854b971e23e3f09413d49cf1da393026149c",
-        "color.text.placeholder-dark": "f63000f1a36755aaee3e3021ad684387f94d812f",
-        "color.text.helper-dark": "fe7f9173cc85473f147c95bf37f6c1ae7b9fbe6b",
-        "color.text.neutral-dark": "f5bf2eda73f651a6bb09d620d708f181015d4c84",
-        "color.text.selection-bg-dark": "5b77171f399d2015382ce68eb4fe12c8c8ce71cb",
-        "color.text.on-color-dark": "04208f5aec8b73fbe4216c72e61acbd42b215564",
-        "color.text.success-dark": "9af3d6693cd2920df7809e071257fdb551f44fa6",
-        "color.text.danger-dark": "1b0753f4d476dfea569bab7b5c3606c6e5af3c8a",
-        "color.text.warning-dark": "341a6e4e4aa43f51950b1cb67517fb05d079f3ee",
-        "color.text.information-dark": "046a0ebad6381e1a510ea2391835e9c7083ace49",
-        "color.text.discovery-dark": "d9ff71d0f111df386d5ede99b5c62aa87c28ae1f",
-        "color.link.default-dark": "514fc1583dfad46037811d9567bdb6753e32fa69",
-        "color.link.hover-dark": "2691d33099ce7ba740843d793ec359f74eb3b2e3",
-        "color.link.active-dark": "4a7643286594f5868fc86b7f502f9b09830eaacc",
-        "color.link.visited-dark": "3d9690ef51b2719b17d6ff368c1d94b4e111dd86",
-        "color.link.neutral.default-dark": "8957e3d798bb8ceb67535e9582a78871bbba3565",
-        "color.link.neutral.hover-dark": "5183fa3e8e1f1659d240fcbe7b568772acbc5c94",
-        "color.link.neutral.active-dark": "f8e62ee605e061ff6742f86bd0bec73778eb9a97",
-        "color.link.neutral.visited-dark": "a84b1edc3eb94e4b9eb3acdf44bd43e0e571a5cb",
-        "color.shadow.primary-dark": "321a3b5cd8a10690055fdd14756925aa5a9fc41f",
-        "color.shadow.secondary-dark": "7523538fb8a5f1d22bd2372b5965fec74f25ae02",
-        "color.shadow.tertiary-dark": "b03fbc166567228074e24517ce137c7de637a00a",
-        "color.brand.primary-mode-light": "78b675ef8aee0ee79275f5e0dd8777c5ffd690be",
-        "color.brand.secondary-mode-light": "f61fb9639a3cc2bdb10f1e957e2a69307cec2074",
-        "color.background.default-mode-light": "e75ccb38767a1946e26e32893d15c7ee252692e4",
-        "color.background.disabled-mode-light": "ef3e28b06d0dbd80c5d5ffa8c1acac06cf8ca887",
-        "color.background.backdrop-mode-light": "fbacb66c1d0125f59bda8ef52175ab60224c6ead",
-        "color.background.surface.default-mode-light": "4f4ec5bb72576897d05c308bc4f7785550552fb2",
-        "color.background.surface.secondary-mode-light": "24015d0fb3b9614482234e586ef3cca877abbf50",
-        "color.background.surface.secondary-hover-mode-light": "c42891f065a6e43e1925af6b9e276e2b6262cdc0",
-        "color.background.surface.hover-mode-light": "9464154b7a076cc52f10367a981146bf5b4c1012",
-        "color.background.surface.transparent-mode-light": "df3ae7f8b300482d566e562981f89d48d864199c",
-        "color.background.surface.selected-mode-light": "4c1f5c5a56cbdaf6987fb126db1c2361fc94aa3b",
-        "color.background.surface.selected-hover-mode-light": "15d88b0aae3ac0ce1604cde3c5460943035bd3a8",
-        "color.background.surface.inverse-mode-light": "d99bd97cce15d5abddee929f061ac8db4445af61",
-        "color.background.brand.primary.default-mode-light": "cdd5fc24ddbe21ce2ca4f34aafbdc8b9b0383171",
-        "color.background.brand.primary.hover-mode-light": "0893274fd3f4d349f6ad81341841bef27571d1cf",
-        "color.background.brand.primary.active-mode-light": "3179c806894188466005669fa950144f265e74a8",
-        "color.background.brand.secondary.default-mode-light": "0b260e6891df17cfbd4adbc7a14558a10e35b85f",
-        "color.background.brand.secondary.hover-mode-light": "3d0fbb255144c1d545de220fb6cc56199462936a",
-        "color.background.brand.secondary.active-mode-light": "ff69a22bf70710c59166882903189339dc500cd9",
-        "color.background.feedback.danger.default-mode-light": "1dfbb35ddcdc697008e5fa4e8b284b3dfabc24fc",
-        "color.background.feedback.danger.hover-mode-light": "e51e9bfdf57f2859654df33ff971178e5da08e08",
-        "color.background.feedback.danger.active-mode-light": "9b9eab1cf90aaae8683775940f5c3238d1582e7f",
-        "color.background.feedback.danger.strong.default-mode-light": "cf4fe5484870ccb09ed7f519d9ab56a5735c42e0",
-        "color.background.feedback.danger.strong.hover-mode-light": "c1b30230faa57264861862d71f7c2488b7ef1db3",
-        "color.background.feedback.danger.strong.active-mode-light": "18254ff161fc25faeebc239dfab7c14b75af952c",
-        "color.background.feedback.warning.default-mode-light": "9e9c308bbf0a3a2373f482cba30d91719f3ace8c",
-        "color.background.feedback.warning.hover-mode-light": "83ae63f761c45c15dd9a02b08089e82285315a9e",
-        "color.background.feedback.warning.active-mode-light": "c6a54c96573223daef4f22449856e5a5d9ea5fe2",
-        "color.background.feedback.warning.strong.default-mode-light": "070342274b1588fdc20e870f9bd84db0f371de05",
-        "color.background.feedback.warning.strong.hover-mode-light": "cd07bf120462958dbe82ffcf66ddfecbe9f24374",
-        "color.background.feedback.warning.strong.active-mode-light": "fb4fdd62fe8296e4e6b46df68c8889d865a8df20",
-        "color.background.feedback.success.default-mode-light": "3a7996e6d2b96f3160ddc2f90a55ab5324f465d4",
-        "color.background.feedback.success.hover-mode-light": "f51e54a4b24a80d68b53fce1c6edfcc0ebc58e59",
-        "color.background.feedback.success.active-mode-light": "c02289bc3010a52ddd1b2327e073837e3db757a8",
-        "color.background.feedback.success.strong.default-mode-light": "238928f304990f9cf399f03c30eba143dc6cd848",
-        "color.background.feedback.success.strong.hover-mode-light": "ed754ac22b5b94ac3fb0365c1eb6c9484bf122ea",
-        "color.background.feedback.success.strong.active-mode-light": "f41a6f0e01717d3bade84aa86200c0e70cea2df9",
-        "color.background.feedback.discovery.default-mode-light": "ca52fd4b26bb7fe726a7109a438ecf6a21b1e521",
-        "color.background.feedback.discovery.hover-mode-light": "b5ab47adb4e61a329d6f7971551dfd81ad98e40f",
-        "color.background.feedback.discovery.active-mode-light": "3afe0c395b069c5b35bd6f6315186585cd0a0ca6",
-        "color.background.feedback.discovery.strong.default-mode-light": "28840451cdab115bde803e0b94f12583b4e91637",
-        "color.background.feedback.discovery.strong.hover-mode-light": "5005f058df2ff0a047e6fc00e34146ea07321217",
-        "color.background.feedback.discovery.strong.active-mode-light": "f2519060d40ba54684536398bbd2416a70b63401",
-        "color.background.feedback.information.default-mode-light": "8502f998e8af497c8d8f1bacb1a43551ebdcb36a",
-        "color.background.feedback.information.hover-mode-light": "b55e2882b290aa571c9a889cffacf177fd3c1283",
-        "color.background.feedback.information.active-mode-light": "ed4f2f4f21d4c9485dd68bb680877fca268b7c43",
-        "color.background.feedback.information.strong.default-mode-light": "71ab8f67fd8e61dec02b3a13f501275a1c5ea567",
-        "color.background.feedback.information.strong.hover-mode-light": "9c6fcd91ec66e8042badfc69abb8900cb918652b",
-        "color.background.feedback.information.strong.active-mode-light": "bdcecf375c10a0930c9f21eff7f55442717485ce",
-        "color.background.feedback.neutral.default-mode-light": "a4063716efcbcf36794179a71c2d9fba6beffe6f",
-        "color.background.feedback.neutral.hover-mode-light": "5e76bc0426796b976a9d777980be3ec3e46fbf9b",
-        "color.background.feedback.neutral.active-mode-light": "05a191b85542eb2dd5f9cf219862a736c30fbddc",
-        "color.background.feedback.neutral.strong.default-mode-light": "7ccbeaf7b1165acd8db569130a996841974c020a",
-        "color.background.feedback.neutral.strong.hover-mode-light": "0aff6bceb82d208886d6c8a8c184dd46938b1bc8",
-        "color.background.feedback.neutral.strong.active-mode-light": "6819986a8ea9a934cc3b15e0fe4c66ab756d5b84",
-        "color.background.input.default-mode-light": "b1e99500927d65a210aba1ac4a5ad7b90f2a97c9",
-        "color.border.brand-mode-light": "789ba67c28b94cab1371ea707ed56f71032c770a",
-        "color.border.default-mode-light": "c8c54f2d533fb3b3f3ad5e6bf8209973255a3abd",
-        "color.border.bold-mode-light": "38e5363ba2e559cc11dd9338c976582da2f1e599",
-        "color.border.strong-mode-light": "61e6ed450d407beb056c9c74c3f7f50ee3095cc9",
-        "color.border.neutral-mode-light": "31fe366cb8c46b4552b50c1ce852721f38c8bfa0",
-        "color.border.focused-mode-light": "f6f7800c68b94e7939715f8ffdf1bf87c86af5ff",
-        "color.border.disabled-mode-light": "712df28e1e5d3bfca9b54c076eb93097d19bfa10",
-        "color.border.input-mode-light": "4f462693a49d763723c88d27d28b0b4ad0808309",
-        "color.border.success-mode-light": "1f74cc329517497d1df5428fa86abf20fa7ee969",
-        "color.border.success-strong-mode-light": "b5e625409c2d95c7eecfc3c9478bcb05ee77447e",
-        "color.border.danger-mode-light": "4a90203cf6d36089e5e23f68b302620d4cc9d540",
-        "color.border.danger-strong-mode-light": "7f0decd50acf0c34cc4798e2ca68f546f9022e9e",
-        "color.border.warning-mode-light": "811fa95f5d897a668b32f35f765b976170e1a1e6",
-        "color.border.warning-strong-mode-light": "ac4aa84e6b2822796a1a546a24f217ea3fc66ba6",
-        "color.border.information-mode-light": "d9143bf5415cac5c6732216cb08f5b0360077adb",
-        "color.border.information-strong-mode-light": "449180066904c074d49dcb8d23df8d9a59f7b548",
-        "color.border.discovery-mode-light": "b19074eaca67f5ba578a79a45bf0ae274528e587",
-        "color.border.discovery-strong-mode-light": "de6972b414ced8312cae352f98855ca144189d4d",
-        "color.border.inverse-mode-light": "51ac8400a5b5088181b76ad8766e9141d5ec5ca0",
-        "color.icon.brand-mode-light": "fd6578efe6762772edd2802d66642d15fecfd56c",
-        "color.icon.primary-mode-light": "771217ae3f26c85a5a24e9b48347b8bd01ec21f4",
-        "color.icon.secondary-mode-light": "f9262a60d346fefec82133109b98a019071bc37f",
-        "color.icon.inverse-mode-light": "0178ddc864ea7dd4b2b6c39c9e6f3bd0dcbbb4b4",
-        "color.icon.disabled-mode-light": "3a9ce8b6204962d147f7cc89ae30b74da771ee17",
-        "color.icon.helper-mode-light": "ddb788ea9dcac9cac88a624ce79ab50986aafca5",
-        "color.icon.neutral-mode-light": "01e29109cd11c79b07a2e3e8bb8dec9bbccc7bd9",
-        "color.icon.on-color-mode-light": "b981e557f6bab180f6fd5bb6613d53579aaa55d4",
-        "color.icon.success-mode-light": "dc772b7657b5f8b368f0554371997b34be68e176",
-        "color.icon.danger-mode-light": "f42d1d0293becd3d87c0b9b719cd34b07855136a",
-        "color.icon.warning-mode-light": "d9f200ca4364ab636c245a8e5b3249c563708c58",
-        "color.icon.information-mode-light": "169ed778a8f542f69c4076afb7f3bcba8043098e",
-        "color.icon.discovery-mode-light": "3b2d8a53d05a8766e11b914e0f059c0c87e88fef",
-        "color.text.brand-mode-light": "8b0258e77453c4709b86e8fef4b23dfc1ed9bf23",
-        "color.text.primary-mode-light": "57876f73ebb7e0e4488543379f08a92c2a6cfcac",
-        "color.text.secondary-mode-light": "cdfd0e292ffa3fa8dd4f2fff210da79caf073521",
-        "color.text.inverse-mode-light": "09fe88b37a9bbcba0980febfdddd8ad6dd1fa4df",
-        "color.text.disabled-mode-light": "22b5871b1074e89887a032a75216b517ed1ec8dc",
-        "color.text.placeholder-mode-light": "921689e580fc47eca20c404686359f2a756f91a3",
-        "color.text.helper-mode-light": "dec6a9d9fa60f3f8c21f2c95629cec4a265b9b43",
-        "color.text.neutral-mode-light": "66482c09bad5788401bd59c16aefe0807fa8bb11",
-        "color.text.selection-bg-mode-light": "93c7b8422c2fdc71742f3551ea005c14984e77f1",
-        "color.text.on-color-mode-light": "a208d033443eb6b6ff2f72dcc10c4589e0df0a36",
-        "color.text.success-mode-light": "7ecbcdc89586592351411182ae34ac994d36a5f4",
-        "color.text.danger-mode-light": "ed82a7d6bc9ae4b10a8f6fe615283f8c09cc7981",
-        "color.text.warning-mode-light": "570acb7e383d5855ff1d26834ed452da9d1d8bbc",
-        "color.text.information-mode-light": "7798c69832128cda11f3e7adc855ae9b946c477d",
-        "color.text.discovery-mode-light": "6c4ef5d3e1b192c0dd1d3eceb52f6c1c3d9c334f",
-        "color.link.default-mode-light": "d6ad522d56e6cddbb35a0f63642463df605d2077",
-        "color.link.hover-mode-light": "62f8748dc768609a762f111ee71e65fe2c6d3e35",
-        "color.link.visited-mode-light": "3cbdaae455e8604abc2196aeace7409aa5e6a75f",
-        "color.link.active-mode-light": "03bdc9e58bf239eb028e39dab7bc012f8635b93b",
-        "color.link.neutral.default-mode-light": "f635dc81a5809b1c0377a7e664e6d957e83e89cd",
-        "color.link.neutral.hover-mode-light": "a7fa5d755aedfe4a84b4f042023c68ca106b42f6",
-        "color.link.neutral.active-mode-light": "60e195c134d4e264663e0d294c660fa978780d9d",
-        "color.link.neutral.visited-mode-light": "506368751154fdbab781c0917e73b8a76de9c564",
-        "color.shadow.primary-mode-light": "5a228bbe7282f81eb2f565963377dc9fb2709b16",
-        "color.shadow.secondary-mode-light": "46d88eb93bc5c85bc8c2a4d4895d5b1abc23fe5c",
-        "color.shadow.tertiary-mode-light": "8b8c1acf4d30dc3947db1a34d6fde828502e4e58"
-      },
-      "group": "02 theme"
-    },
-    {
-      "id": "792fc6f975fbe42e78f53d04cf2558c2514b8aac",
-      "name": "Mastercard B2C",
-      "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "primitives/Unify": "source",
-        "primitives/Mastercard": "source"
-      },
-      "$figmaCollectionId": "VariableCollectionId:1:735",
-      "$figmaModeId": "1:18",
       "$figmaVariableReferences": {
         "color.brand.primary-dark": "45d50b588a406ee1f4aec0f149aabd4fdb4101f9",
         "color.brand.secondary-dark": "52e3cc8b54f45217f813315434344d5f838bb029",
