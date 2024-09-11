@@ -9203,7 +9203,7 @@
       "accordion": {
         "contained": {
           "border-color": {
-            "value": "{color.border.default-mode-light}",
+            "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
         }
@@ -9211,7 +9211,7 @@
       "alert": {
         "default": {
           "border-color": {
-            "value": "{color.border.neutral-mode-light}",
+            "value": "{color.border.neutral-mode-dark}",
             "type": "color"
           }
         }
@@ -9224,26 +9224,26 @@
       },
       "card": {
         "border-color": {
-          "value": "{color.border.default-mode-light}",
+          "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
       },
       "menu": {
         "border-color": {
-          "value": "{color.border.default-mode-light}",
+          "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
       },
       "range": {
         "thumb": {
           "border-color": {
-            "value": "{color.border.brand-mode-light}",
+            "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
         },
         "track-fill": {
           "background": {
-            "value": "{color.border.brand-mode-light}",
+            "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
         }
@@ -9251,7 +9251,7 @@
       "rating": {
         "star": {
           "background-active": {
-            "value": "{color.icon.brand-mode-light}",
+            "value": "{color.icon.brand-mode-dark}",
             "type": "color"
           }
         }
@@ -9259,14 +9259,14 @@
       "tabs": {
         "default": {
           "border-color": {
-            "value": "{color.border.brand-mode-light}",
+            "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
         },
         "contained": {
           "item": {
             "background-selected": {
-              "value": "{color.background.surface.default-mode-light}",
+              "value": "{color.background.surface.default-mode-dark}",
               "type": "color"
             }
           }
@@ -9274,7 +9274,7 @@
         "minimal": {
           "item": {
             "background-selected": {
-              "value": "{color.border.brand-mode-light}",
+              "value": "{color.border.brand-mode-dark}",
               "type": "color"
             }
           }
@@ -9282,14 +9282,14 @@
       },
       "tag": {
         "border-color": {
-          "value": "{color.border.default-mode-light}",
+          "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
       },
       "stepper": {
         "item": {
           "border-color": {
-            "value": "{color.border.default-mode-light}",
+            "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
         }
@@ -9301,14 +9301,14 @@
         },
         "day": {
           "background-selected": {
-            "value": "{color.background.brand.primary.default-mode-light}",
+            "value": "{color.background.brand.primary.default-mode-dark}",
             "type": "color"
           }
         }
       },
       "drawer": {
         "border-color": {
-          "value": "{color.border.default-mode-light}",
+          "value": "{color.border.default-mode-dark}",
           "type": "color"
         }
       },
@@ -9321,7 +9321,7 @@
       "scrollbar": {
         "track": {
           "background": {
-            "value": "{color.background.surface.default-mode-light}",
+            "value": "{color.background.surface.default-mode-dark}",
             "type": "color"
           }
         },
@@ -9335,24 +9335,24 @@
       "loader": {
         "track": {
           "background": {
-            "value": "{color.border.default-mode-light}",
+            "value": "{color.border.default-mode-dark}",
             "type": "color"
           }
         },
         "progress": {
           "background": {
-            "value": "{color.border.brand-mode-light}",
+            "value": "{color.border.brand-mode-dark}",
             "type": "color"
           }
         }
       },
       "form-control": {
         "border-color": {
-          "value": "{color.border.default-mode-light}",
+          "value": "{color.border.default-mode-dark}",
           "type": "color"
         },
         "background": {
-          "value": "{color.background.surface.default-mode-light}",
+          "value": "{color.background.surface.default-mode-dark}",
           "type": "color"
         }
       }
