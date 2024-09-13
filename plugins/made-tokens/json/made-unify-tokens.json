@@ -11160,17 +11160,7 @@
     {
       "id": "9e840655d452d623368bd78db8d006ce2ee331a9",
       "name": "Mastercard",
-      "$figmaStyleReferences": {
-        "heading.h1": "S:66aa7de1f9383ceff240f52285aef3eae77b43a8,",
-        "heading.h2": "S:a166ca7d585f82ee886483c176f5529a84d91500,",
-        "heading.h3": "S:b001fc9524622fb988350c4ed36fbc51e08f7174,",
-        "heading.h4": "S:686068cfb863ce69114113a83c07a0a618287612,",
-        "heading.h5": "S:69b8af631155a06a32fac648ee2362bb146b2c39,",
-        "heading.h6": "S:8cecaf1b76a30314b7a0add41bf3d498e609dcd1,",
-        "heading.display.h1": "S:36b3e18a7c4154954fc6f466071a020a582b4452,",
-        "heading.display.h2": "S:26d7e541b47274662024bfe876a4fe415668661c,",
-        "heading.display.h3": "S:cad54fb6e947d22ef39b3aa39b0f471c59d73a27,"
-      },
+      "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "primitives/Mastercard": "enabled",
         "primitives/Unify": "source"
