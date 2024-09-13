@@ -12681,7 +12681,6 @@
         "theme/Unify": "source",
         "theme/Mastercard": "source"
       },
-      "group": "mode",
       "$figmaVariableReferences": {
         "color.brand.primary": "596ad5492c885df10fd061414aac26a8f0b9c8da",
         "color.brand.secondary": "da589efe966a14a2688ddb24e56006b05e425987",
@@ -12822,7 +12821,8 @@
         "component.form-control.background": "9f7247d68cab35bd402202463b08bfd7d8f9f3bd"
       },
       "$figmaCollectionId": "VariableCollectionId:1:7",
-      "$figmaModeId": "1:7"
+      "$figmaModeId": "1:7",
+      "group": "mode"
     },
     {
       "id": "b179224df67aa697ceb2e53e4945d1ca1aaf04c3",
@@ -12837,7 +12837,6 @@
         "mode/dark": "enabled",
         "theme/Mastercard": "source"
       },
-      "group": "mode",
       "$figmaVariableReferences": {
         "color.brand.primary": "596ad5492c885df10fd061414aac26a8f0b9c8da",
         "color.brand.secondary": "da589efe966a14a2688ddb24e56006b05e425987",
@@ -12978,7 +12977,8 @@
         "component.form-control.background": "9f7247d68cab35bd402202463b08bfd7d8f9f3bd"
       },
       "$figmaCollectionId": "VariableCollectionId:1:7",
-      "$figmaModeId": "1:8"
+      "$figmaModeId": "1:8",
+      "group": "mode"
     }
   ],
   "$metadata": {
