@@ -1979,14 +1979,18 @@
   "primitives/Partnerbank": {
     "color": {
       "teal": {
-        "value": "#18A886",
-        "type": "color",
-        "description": "figma-only"
+        "01": {
+          "value": "#18A886",
+          "type": "color",
+          "description": "figma-only"
+        }
       },
       "turquoise": {
-        "value": "#2BAAB9",
-        "type": "color",
-        "description": "figma-only"
+        "01": {
+          "value": "#2BAAB9",
+          "type": "color",
+          "description": "figma-only"
+        }
       },
       "accent": {
         "01": {
@@ -7180,12 +7184,12 @@
     "color": {
       "brand": {
         "primary-mode-light": {
-          "value": "{color.teal}",
+          "value": "{color.teal.01}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "primary-mode-dark": {
-          "value": "{color.teal}",
+          "value": "{color.teal.01}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -7198,12 +7202,12 @@
           }
         },
         "secondary-mode-light": {
-          "value": "{color.turquoise}",
+          "value": "{color.turquoise.01}",
           "type": "color",
           "parent": "Semantic/Light"
         },
         "secondary-mode-dark": {
-          "value": "{color.turquoise}",
+          "value": "{color.turquoise.01}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -11253,8 +11257,6 @@
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
       "$figmaVariableReferences": {
-        "color.teal": "507012f15be20e12f295d1fa63f28671c7807c1e",
-        "color.turquoise": "c337747c35707ec7c5ab4d2315e397c0f8e6f262",
         "color.accent.01": "e68903890076ca0a4818dcaf30d9aadfac224225",
         "color.accent.02": "eabcc21603f52a30109170a9e02d8b78404e91b9",
         "color.error": "ec839f366a6d1530d2d14548e16152dacec3a8f0",
@@ -11264,7 +11266,9 @@
         "color.gray.04": "c5665f632a3820ed99cff8c3960f527418b1893d",
         "color.black": "a867bce95795acfe2f3331521fc096d75a170f68",
         "color.white.065": "4f99b0a35134d8ea88ae092a0f7265c0b7fce943",
-        "color.white.022": "9bb88951b5cc800211e26da80d92731e1bc0488c"
+        "color.white.022": "9bb88951b5cc800211e26da80d92731e1bc0488c",
+        "color.teal.01": "507012f15be20e12f295d1fa63f28671c7807c1e",
+        "color.turquoise.01": "c337747c35707ec7c5ab4d2315e397c0f8e6f262"
       },
       "group": "primit. - Partnerbank"
     },
