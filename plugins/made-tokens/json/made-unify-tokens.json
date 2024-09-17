@@ -2005,9 +2005,11 @@
         }
       },
       "error": {
-        "value": "#D7373C",
-        "type": "color",
-        "description": "figma-only"
+        "01": {
+          "value": "#D7373C",
+          "type": "color",
+          "description": "figma-only"
+        }
       },
       "gray": {
         "01": {
@@ -11259,7 +11261,6 @@
       "$figmaVariableReferences": {
         "color.accent.01": "e68903890076ca0a4818dcaf30d9aadfac224225",
         "color.accent.02": "eabcc21603f52a30109170a9e02d8b78404e91b9",
-        "color.error": "ec839f366a6d1530d2d14548e16152dacec3a8f0",
         "color.gray.01": "c2182cbe88a2c8e4955a9166ccdf10c94adf5e7f",
         "color.gray.02": "e13017239fd79b1cce0bd5f58155de35f6be9af3",
         "color.gray.03": "c1cf2ff3b01d90967b7cdb1fc770fd986324b21a",
@@ -11268,7 +11269,8 @@
         "color.white.065": "4f99b0a35134d8ea88ae092a0f7265c0b7fce943",
         "color.white.022": "9bb88951b5cc800211e26da80d92731e1bc0488c",
         "color.teal.01": "507012f15be20e12f295d1fa63f28671c7807c1e",
-        "color.turquoise.01": "c337747c35707ec7c5ab4d2315e397c0f8e6f262"
+        "color.turquoise.01": "c337747c35707ec7c5ab4d2315e397c0f8e6f262",
+        "color.error.01": "ec839f366a6d1530d2d14548e16152dacec3a8f0"
       },
       "group": "primit. - Partnerbank"
     },
