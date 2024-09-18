@@ -4025,12 +4025,20 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         },
         "contained": {
@@ -4101,12 +4109,20 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         },
         "default": {
