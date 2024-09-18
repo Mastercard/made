@@ -6367,12 +6367,20 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -6435,12 +6443,20 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -6493,12 +6509,20 @@
           "font-size": {
             "value": "{font-size.07}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "content": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -6645,6 +6669,10 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "contained": {
@@ -6687,6 +6715,10 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "minimal": {
@@ -6729,12 +6761,20 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         },
         "small": {
           "font-size": {
             "value": "{font-size.02}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -6777,12 +6817,20 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
           "font-size": {
             "value": "{font-size.02}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -6836,6 +6884,10 @@
             "value": "{font-size.02}",
             "type": "fontSizes"
           }
+        },
+        "font-weight": {
+          "value": "{font-weight.primary.regular}",
+          "type": "fontWeights"
         }
       },
       "drawer": {
@@ -6933,24 +6985,40 @@
           "font-size": {
             "value": "{font-size.02}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "md": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "lg": {
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         },
         "xl": {
           "font-size": {
             "value": "{font-size.08}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         }
       },
@@ -7000,6 +7068,10 @@
         "font-size": {
           "value": "{font-size.04}",
           "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{font-weight.primary.regular}",
+          "type": "fontWeights"
         }
       },
       "button": {
@@ -7023,6 +7095,10 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "small": {
@@ -7045,6 +7121,10 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "large": {
@@ -7067,6 +7147,10 @@
           "font-size": {
             "value": "{font-size.07}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "box-shadow": {
@@ -7083,12 +7167,20 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "large": {
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         }
       },
@@ -7110,6 +7202,10 @@
         "font-size": {
           "value": "{font-size.04}",
           "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{font-weight.primary.regular}",
+          "type": "fontWeights"
         }
       },
       "list-item": {
@@ -7128,6 +7224,10 @@
         "font-size": {
           "value": "{font-size.04}",
           "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{font-weight.primary.regular}",
+          "type": "fontWeights"
         }
       },
       "table": {
@@ -7148,6 +7248,10 @@
             "font-size": {
               "value": "{font-size.04}",
               "type": "fontSizes"
+            },
+            "font-weight": {
+              "value": "{font-weight.primary.medium}",
+              "type": "fontWeights"
             }
           },
           "data": {
@@ -7166,6 +7270,10 @@
             "font-size": {
               "value": "{font-size.04}",
               "type": "fontSizes"
+            },
+            "font-weight": {
+              "value": "{font-weight.primary.regular}",
+              "type": "fontWeights"
             }
           }
         },
@@ -7223,12 +7331,20 @@
           "font-size": {
             "value": "{size-space.2-5-x}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "large": {
           "font-size": {
             "value": "{size-space.3-5-x}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         }
       },
@@ -8589,12 +8705,20 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -8657,12 +8781,20 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -8715,12 +8847,20 @@
           "font-size": {
             "value": "{font-size.07}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "content": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -8867,6 +9007,10 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "contained": {
@@ -8909,6 +9053,10 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "minimal": {
@@ -8951,12 +9099,20 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         },
         "small": {
           "font-size": {
             "value": "{font-size.02}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -8999,12 +9155,20 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "subtitle": {
           "font-size": {
             "value": "{font-size.02}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         }
       },
@@ -9058,6 +9222,10 @@
             "value": "{font-size.02}",
             "type": "fontSizes"
           }
+        },
+        "font-weight": {
+          "value": "{font-weight.primary.regular}",
+          "type": "fontWeights"
         }
       },
       "drawer": {
@@ -9155,24 +9323,40 @@
           "font-size": {
             "value": "{font-size.02}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "md": {
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "lg": {
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
         },
         "xl": {
           "font-size": {
             "value": "{font-size.08}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         }
       },
@@ -9222,6 +9406,10 @@
         "font-size": {
           "value": "{font-size.04}",
           "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{font-weight.primary.regular}",
+          "type": "fontWeights"
         }
       },
       "button": {
@@ -9245,6 +9433,10 @@
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "small": {
@@ -9267,6 +9459,10 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "large": {
@@ -9289,6 +9485,10 @@
           "font-size": {
             "value": "{font-size.07}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "box-shadow": {
@@ -9305,12 +9505,20 @@
           "font-size": {
             "value": "{font-size.04}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "large": {
           "font-size": {
             "value": "{font-size.06}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         }
       },
@@ -9332,6 +9540,10 @@
         "font-size": {
           "value": "{font-size.04}",
           "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{font-weight.primary.regular}",
+          "type": "fontWeights"
         }
       },
       "list-item": {
@@ -9350,6 +9562,10 @@
         "font-size": {
           "value": "{font-size.04}",
           "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{font-weight.primary.regular}",
+          "type": "fontWeights"
         }
       },
       "table": {
@@ -9370,6 +9586,10 @@
             "font-size": {
               "value": "{font-size.04}",
               "type": "fontSizes"
+            },
+            "font-weight": {
+              "value": "{font-weight.primary.medium}",
+              "type": "fontWeights"
             }
           },
           "data": {
@@ -9388,6 +9608,10 @@
             "font-size": {
               "value": "{font-size.04}",
               "type": "fontSizes"
+            },
+            "font-weight": {
+              "value": "{font-weight.primary.regular}",
+              "type": "fontWeights"
             }
           }
         },
@@ -9445,12 +9669,20 @@
           "font-size": {
             "value": "{size-space.2-5-x}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         },
         "large": {
           "font-size": {
             "value": "{size-space.3-5-x}",
             "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.medium}",
+            "type": "fontWeights"
           }
         }
       },
