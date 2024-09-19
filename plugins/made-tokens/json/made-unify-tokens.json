@@ -7412,6 +7412,145 @@
           "type": "boxShadow"
         }
       }
+    },
+    "box-shadow": {
+      "none": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "global": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
+      },
+      "sm": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "{color.box-shadow.primary}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Small drop shadow"
+      },
+      "default": {
+        "value": [
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "3",
+            "spread": "0",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "-1",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Default drop shadow"
+      },
+      "md": {
+        "value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-1",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "-2",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Medium drop shadow"
+      },
+      "lg": {
+        "value": [
+          {
+            "x": "0",
+            "y": "10",
+            "blur": "15",
+            "spread": "-3",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-4",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Large drop shadow"
+      },
+      "xl": {
+        "value": [
+          {
+            "x": "0",
+            "y": "20",
+            "blur": "25",
+            "spread": "-5",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "10",
+            "spread": "-6",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Extra large drop shadow"
+      },
+      "2xl": {
+        "value": [
+          {
+            "x": "0",
+            "y": "25",
+            "blur": "50",
+            "spread": "-12",
+            "color": "{color.box-shadow.tertiary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Double xl drop shadow"
+      }
     }
   },
   "theme/Partnerbank": {
@@ -9749,6 +9888,145 @@
           "value": "{box-shadow.global}",
           "type": "boxShadow"
         }
+      }
+    },
+    "box-shadow": {
+      "none": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "global": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
+      },
+      "sm": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "{color.box-shadow.primary}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Small drop shadow"
+      },
+      "default": {
+        "value": [
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "3",
+            "spread": "0",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "-1",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Default drop shadow"
+      },
+      "md": {
+        "value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-1",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "-2",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Medium drop shadow"
+      },
+      "lg": {
+        "value": [
+          {
+            "x": "0",
+            "y": "10",
+            "blur": "15",
+            "spread": "-3",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-4",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Large drop shadow"
+      },
+      "xl": {
+        "value": [
+          {
+            "x": "0",
+            "y": "20",
+            "blur": "25",
+            "spread": "-5",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "10",
+            "spread": "-6",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Extra large drop shadow"
+      },
+      "2xl": {
+        "value": [
+          {
+            "x": "0",
+            "y": "25",
+            "blur": "50",
+            "spread": "-12",
+            "color": "{color.box-shadow.tertiary}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Double xl drop shadow"
       }
     }
   },
