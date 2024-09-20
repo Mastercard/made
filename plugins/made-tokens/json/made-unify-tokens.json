@@ -1330,10 +1330,6 @@
         "value": "{size-space.6-x}",
         "type": "borderRadius",
         "description": "Border Radius: 28px"
-      },
-      "circle": {
-        "value": "9999",
-        "type": "borderRadius"
       }
     },
     "line": {
@@ -11749,7 +11745,6 @@
         "border-radius.07": "750ef067f66d508ed84f804578756517f9f9b058",
         "border-radius.08": "8e351b63ffe38e75d690d9637f062a23144f8e68",
         "border-radius.09": "29d5c3811bd50b4da2c31efb64c2cc5815209cb2",
-        "border-radius.circle": "cc72c5b2f043c1888213669de4260b156ccc9d30",
         "line.height.rem-01": "d3ca887d69c3e4d39f988c11a805de1fe1b3a104",
         "line.height.rem-02": "c293bfa2e2a06b084ce1021b59e5454bba96f35a",
         "line.height.rem-03": "f5160919d97ef2ac882accc1eee77603516c44eb",
