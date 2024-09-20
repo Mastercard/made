@@ -6593,7 +6593,7 @@
             "type": "sizing"
           },
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "box-shadow": {
@@ -6617,7 +6617,7 @@
             "type": "sizing"
           },
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           }
         }
@@ -6952,7 +6952,7 @@
           }
         },
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         }
       },
@@ -7356,7 +7356,7 @@
       },
       "radio": {
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         },
         "box-shadow": {
@@ -7380,12 +7380,12 @@
       },
       "toggle": {
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         },
         "thumb": {
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "box-shadow": {
@@ -9070,7 +9070,7 @@
             "type": "sizing"
           },
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "box-shadow": {
@@ -9094,7 +9094,7 @@
             "type": "sizing"
           },
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           }
         }
@@ -9429,7 +9429,7 @@
           }
         },
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         }
       },
@@ -9833,7 +9833,7 @@
       },
       "radio": {
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         },
         "box-shadow": {
@@ -9857,12 +9857,12 @@
       },
       "toggle": {
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         },
         "thumb": {
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "box-shadow": {
