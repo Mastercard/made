@@ -5088,6 +5088,14 @@
           "type": "color"
         }
       }
+    },
+    "line": {
+      "height": {
+        "default": {
+          "value": "{line.height.1-5-x}",
+          "type": "lineHeights"
+        }
+      }
     }
   },
   "theme/Mastercard": {
