@@ -3992,17 +3992,17 @@
     },
     "font-family": {
       "primary": {
-        "value": "Geist",
+        "value": "Geist, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "secondary": {
-        "value": "Geist",
+        "value": "Geist, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "tertiary": {
-        "value": "Geist Mono",
+        "value": "Geist Mono, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       }
@@ -6355,17 +6355,17 @@
     },
     "font-family": {
       "primary": {
-        "value": "Mark Offc For MC",
+        "value": "Mark Offc For MC, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "secondary": {
-        "value": "MarkForMCNrw",
+        "value": "MarkForMCNrw, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "tertiary": {
-        "value": "Mark Offc For MC",
+        "value": "Mark Offc For MC, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       }
@@ -8948,17 +8948,17 @@
     },
     "font-family": {
       "primary": {
-        "value": "Mark Offc For MC",
+        "value": "Mark Offc For MC, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "secondary": {
-        "value": "MarkForMCNrw",
+        "value": "MarkForMCNrw, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       },
       "tertiary": {
-        "value": "Mark Offc For MC",
+        "value": "Mark Offc For MC, Inter",
         "type": "fontFamilies",
         "description": "figma-only"
       }
