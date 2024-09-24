@@ -3284,10 +3284,10 @@
           "type": "borderRadius"
         },
         "default": {
-          "value": "{border-radius.03}",
+          "value": "{border-radius.05}",
           "type": "borderRadius",
           "themeable": "Yes",
-          "description": "6px. Default border radius for UI components"
+          "description": "10px. Default border radius for UI components"
         },
         "small": {
           "value": "{size-space.0-5-x}",
