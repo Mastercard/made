@@ -4405,7 +4405,7 @@
             "type": "color"
           },
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "box-shadow": {
@@ -4433,7 +4433,7 @@
         },
         "track": {
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "height": {
@@ -4612,7 +4612,7 @@
       },
       "radio": {
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         },
         "box-shadow": {
@@ -4880,12 +4880,12 @@
       },
       "toggle": {
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         },
         "thumb": {
           "border-radius": {
-            "value": "{border-radius.circle}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "box-shadow": {
@@ -4954,7 +4954,7 @@
       },
       "scrollbar": {
         "border-radius": {
-          "value": "{border-radius.circle}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         },
         "track": {
