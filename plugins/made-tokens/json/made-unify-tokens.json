@@ -5212,6 +5212,11 @@
           "type": "lineHeights"
         }
       }
+    },
+    "brand": {
+      "value": "Unify",
+      "type": "other",
+      "description": "Figma-only token. Use it to toggle the visibility of brand-specific elements (e.g. a logo) pertaining to the selected variable mode of a brand theme."
     }
   },
   "theme/Mastercard": {
@@ -7787,6 +7792,11 @@
         "type": "boxShadow",
         "description": "Double xl drop shadow"
       }
+    },
+    "brand": {
+      "value": "Mastercard",
+      "type": "other",
+      "description": "Figma-only token. Use it to toggle the visibility of brand-specific elements (e.g. a logo) pertaining to the selected variable mode of a brand theme."
     }
   },
   "theme/Partnerbank": {
@@ -10380,6 +10390,11 @@
         "type": "boxShadow",
         "description": "Double xl drop shadow"
       }
+    },
+    "brand": {
+      "value": "Partnerbank",
+      "type": "other",
+      "description": "Figma-only token. Use it to toggle the visibility of brand-specific elements (e.g. a logo) pertaining to the selected variable mode of a brand theme."
     }
   },
   "mode/light": {
