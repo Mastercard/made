@@ -4618,7 +4618,7 @@
         "contained": {
           "item": {
             "box-shadow": {
-              "value": "{box-shadow.default}",
+              "value": "{box-shadow.global}",
               "type": "boxShadow"
             },
             "background-selected-mode-light": {
@@ -6848,7 +6848,7 @@
               "type": "spacing"
             },
             "box-shadow": {
-              "value": "{box-shadow.default}",
+              "value": "{box-shadow.global}",
               "type": "boxShadow"
             }
           },
@@ -9447,7 +9447,7 @@
               "type": "spacing"
             },
             "box-shadow": {
-              "value": "{box-shadow.default}",
+              "value": "{box-shadow.global}",
               "type": "boxShadow"
             }
           },
