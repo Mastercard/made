@@ -4647,12 +4647,12 @@
             "type": "spacing"
           },
           "border-radius": {
-            "value": "{border.radius.default}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "tab": {
             "border-radius": {
-              "value": "{border.radius.default}",
+              "value": "{border.radius.full}",
               "type": "borderRadius"
             }
           },
@@ -6857,12 +6857,12 @@
             "type": "spacing"
           },
           "border-radius": {
-            "value": "{border.radius.default}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "tab": {
             "border-radius": {
-              "value": "{border.radius.default}",
+              "value": "{border.radius.full}",
               "type": "borderRadius"
             }
           },
@@ -9456,12 +9456,12 @@
             "type": "spacing"
           },
           "border-radius": {
-            "value": "{border.radius.default}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "tab": {
             "border-radius": {
-              "value": "{border.radius.default}",
+              "value": "{border.radius.full}",
               "type": "borderRadius"
             }
           },
