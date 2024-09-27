@@ -4537,12 +4537,20 @@
       "pagination": {
         "item-active": {
           "border-radius": {
-            "value": "{border.radius.default}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "box-shadow": {
             "value": "{box-shadow.global}",
             "type": "boxShadow"
+          },
+          "background-mode-light": {
+            "value": "{color.background.brand.primary.default-mode-light}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.background.brand.primary.default-mode-dark}",
+            "type": "color"
           }
         },
         "gap": {
@@ -7409,12 +7417,20 @@
         },
         "item-active": {
           "border-radius": {
-            "value": "{border.radius.default}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           },
           "box-shadow": {
             "value": "{box-shadow.global}",
             "type": "boxShadow"
+          },
+          "background-mode-light": {
+            "value": "{color.background.brand.primary.default-mode-light}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.background.brand.primary.default-mode-dark}",
+            "type": "color"
           }
         },
         "font-size": {
@@ -10050,6 +10066,14 @@
           "box-shadow": {
             "value": "{box-shadow.global}",
             "type": "boxShadow"
+          },
+          "background-mode-light": {
+            "value": "{color.background.brand.primary.default-mode-light}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.background.brand.primary.default-mode-dark}",
+            "type": "color"
           }
         },
         "font-size": {
@@ -11133,6 +11157,14 @@
           "value": "{color.background.surface.default-mode-light}",
           "type": "color"
         }
+      },
+      "pagination": {
+        "item-active": {
+          "background": {
+            "value": "{component.pagination.item-active.background-mode-dark}",
+            "type": "color"
+          }
+        }
       }
     }
   },
@@ -11832,6 +11864,14 @@
         "background": {
           "value": "{color.background.surface.default-mode-dark}",
           "type": "color"
+        }
+      },
+      "pagination": {
+        "item-active": {
+          "background": {
+            "value": "{component.pagination.item-active.background-mode-dark}",
+            "type": "color"
+          }
         }
       }
     }
