@@ -7816,7 +7816,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "lighten",
-                "value": "0.25",
+                "value": "0.4",
                 "space": "lch"
               }
             }
@@ -7834,7 +7834,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "lighten",
-                "value": "0.25",
+                "value": "0.4",
                 "space": "lch"
               }
             }
@@ -7972,24 +7972,60 @@
               "parent": "Semantic/Light"
             },
             "default-mode-dark": {
-              "value": "{color.white}",
+              "value": "{color.brand.primary-mode-dark}",
               "type": "color"
             },
             "hover-mode-light": {
-              "value": "{color.orange.05}",
-              "type": "color"
+              "value": "{color.background.brand.primary.default-mode-light}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.15",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "hover-mode-dark": {
-              "value": "{color.neutral.100}",
-              "type": "color"
+              "value": "{color.brand.primary-mode-dark}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "0.15",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "active-mode-light": {
-              "value": "{color.orange.06}",
-              "type": "color"
+              "value": "{color.background.brand.primary.hover-mode-light}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.25",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "active-mode-dark": {
-              "value": "{color.neutral.200}",
-              "type": "color"
+              "value": "{color.brand.primary-mode-dark}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "0.25",
+                    "space": "lch"
+                  }
+                }
+              }
             }
           },
           "secondary": {
