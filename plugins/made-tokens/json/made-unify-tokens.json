@@ -5244,7 +5244,7 @@
       },
       "background": {
         "default-mode-light": {
-          "value": "{color.gray.001}",
+          "value": "{color.gray.01}",
           "type": "color",
           "description": "Default application background color. Should be set to either html or body element."
         },
@@ -5254,7 +5254,7 @@
           "description": "Default application background color. Should be set to either html or body element."
         },
         "disabled-mode-light": {
-          "value": "{color.gray.001}",
+          "value": "{color.gray.01}",
           "type": "color"
         },
         "disabled-mode-dark": {
@@ -5335,7 +5335,7 @@
             "type": "color"
           },
           "selected-mode-light": {
-            "value": "{color.gray.002}",
+            "value": "{color.gray.02}",
             "type": "color",
             "description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
@@ -5698,7 +5698,7 @@
               "type": "color"
             },
             "hover-mode-light": {
-              "value": "{color.gray.002}",
+              "value": "{color.gray.02}",
               "type": "color"
             },
             "hover-mode-dark": {
@@ -5764,7 +5764,7 @@
           "type": "color"
         },
         "default-mode-light": {
-          "value": "{color.gray.002}",
+          "value": "{color.gray.02}",
           "type": "color"
         },
         "default-mode-dark": {
@@ -5772,7 +5772,7 @@
           "type": "color"
         },
         "bold-mode-light": {
-          "value": "{color.gray.003}",
+          "value": "{color.gray.03}",
           "type": "color"
         },
         "bold-mode-dark": {
@@ -5780,7 +5780,7 @@
           "type": "color"
         },
         "strong-mode-light": {
-          "value": "{color.gray.004}",
+          "value": "{color.gray.04}",
           "type": "color"
         },
         "strong-mode-dark": {
@@ -5831,7 +5831,7 @@
           "type": "color"
         },
         "disabled-mode-light": {
-          "value": "{color.gray.001}",
+          "value": "{color.gray.01}",
           "type": "color"
         },
         "disabled-mode-dark": {
@@ -6099,7 +6099,7 @@
           "type": "color"
         },
         "placeholder-mode-light": {
-          "value": "{color.gray.004}",
+          "value": "{color.gray.04}",
           "type": "color",
           "parent": "Semantic/Light"
         },
