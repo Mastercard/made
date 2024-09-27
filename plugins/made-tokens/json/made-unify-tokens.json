@@ -11023,7 +11023,7 @@
       "pagination": {
         "item-active": {
           "background": {
-            "value": "{component.pagination.item-active.background-mode-dark}",
+            "value": "{component.pagination.item-active.background-mode-light}",
             "type": "color"
           }
         }
