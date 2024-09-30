@@ -4785,7 +4785,7 @@
         },
         "day-selected": {
           "border-radius": {
-            "value": "{border.radius.default}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           }
         },
@@ -6907,7 +6907,7 @@
         },
         "day-selected": {
           "border-radius": {
-            "value": "{border.radius.default}",
+            "value": "{border.radius.full}",
             "type": "borderRadius"
           }
         },
