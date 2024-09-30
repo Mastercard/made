@@ -2474,7 +2474,7 @@
           "type": "color"
         },
         "default-mode-light": {
-          "value": "{color.neutral.200}",
+          "value": "{color.neutral.400}",
           "type": "color"
         },
         "default-mode-dark": {
@@ -2482,7 +2482,7 @@
           "type": "color"
         },
         "bold-mode-light": {
-          "value": "{color.neutral.300}",
+          "value": "{color.neutral.700}",
           "type": "color"
         },
         "bold-mode-dark": {
@@ -2490,7 +2490,7 @@
           "type": "color"
         },
         "strong-mode-light": {
-          "value": "{color.neutral.400}",
+          "value": "{color.neutral.600}",
           "type": "color"
         },
         "strong-mode-dark": {
@@ -2548,7 +2548,7 @@
           "type": "color"
         },
         "input-mode-light": {
-          "value": "{color.neutral.200}",
+          "value": "{color.neutral.500}",
           "type": "color"
         },
         "input-mode-dark": {
