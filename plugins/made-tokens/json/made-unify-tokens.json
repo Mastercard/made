@@ -4126,6 +4126,12 @@
         "box-shadow": {
           "value": "{box-shadow.global}",
           "type": "boxShadow"
+        },
+        "outline": {
+          "border-width": {
+            "value": "{border-width.02}",
+            "type": "borderWidth"
+          }
         }
       },
       "modal": {
@@ -7236,6 +7242,12 @@
         "box-shadow": {
           "value": "{box-shadow.global}",
           "type": "boxShadow"
+        },
+        "outline": {
+          "border-width": {
+            "value": "{border-width.02}",
+            "type": "borderWidth"
+          }
         }
       },
       "link": {
@@ -9879,6 +9891,12 @@
         "box-shadow": {
           "value": "{box-shadow.global}",
           "type": "boxShadow"
+        },
+        "outline": {
+          "border-width": {
+            "value": "{border-width.02}",
+            "type": "borderWidth"
+          }
         }
       },
       "link": {
