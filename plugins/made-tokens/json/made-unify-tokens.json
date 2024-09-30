@@ -4791,6 +4791,18 @@
           "background-hover-mode-dark": {
             "value": "{color.background.brand.primary.hover-mode-dark}",
             "type": "color"
+          },
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
+          },
+          "line-height": {
+            "value": "142.3%",
+            "type": "lineHeights"
           }
         },
         "border-radius": {
@@ -4815,10 +4827,6 @@
           "value": "{size-space.4-x}",
           "type": "spacing"
         },
-        "font-size": {
-          "value": "{font-size.04}",
-          "type": "fontSizes"
-        },
         "weekday": {
           "font-size": {
             "value": "{font-size.02}",
@@ -4827,15 +4835,11 @@
           "line-height": {
             "value": "133.3%",
             "type": "lineHeights"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
-        },
-        "font-weight": {
-          "value": "{font-weight.primary.regular}",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "142.3%",
-          "type": "lineHeights"
         }
       },
       "file-upload": {
@@ -6906,6 +6910,18 @@
             "value": "{color.background.brand.primary.default-mode-dark}",
             "type": "color"
           },
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
+          },
+          "line-height": {
+            "value": "142.3%",
+            "type": "lineHeights"
+          },
           "background-hover-mode-light": {
             "value": "{color.background.brand.primary.hover-mode-light}",
             "type": "color"
@@ -6937,10 +6953,6 @@
           "value": "{box-shadow.sm}",
           "type": "boxShadow"
         },
-        "font-size": {
-          "value": "{font-size.04}",
-          "type": "fontSizes"
-        },
         "weekday": {
           "font-size": {
             "value": "{font-size.02}",
@@ -6949,15 +6961,11 @@
           "line-height": {
             "value": "133.3%",
             "type": "lineHeights"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
-        },
-        "font-weight": {
-          "value": "{font-weight.primary.regular}",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "142.3%",
-          "type": "lineHeights"
         }
       },
       "drawer": {
@@ -9563,6 +9571,18 @@
             "value": "{color.background.brand.primary.default-mode-dark}",
             "type": "color"
           },
+          "font-size": {
+            "value": "{font-size.04}",
+            "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
+          },
+          "line-height": {
+            "value": "142.3%",
+            "type": "lineHeights"
+          },
           "background-hover-mode-light": {
             "value": "{color.background.brand.primary.hover-mode-light}",
             "type": "color"
@@ -9594,10 +9614,6 @@
           "value": "{box-shadow.sm}",
           "type": "boxShadow"
         },
-        "font-size": {
-          "value": "{font-size.04}",
-          "type": "fontSizes"
-        },
         "weekday": {
           "font-size": {
             "value": "{font-size.02}",
@@ -9606,15 +9622,11 @@
           "line-height": {
             "value": "133.3%",
             "type": "lineHeights"
+          },
+          "font-weight": {
+            "value": "{font-weight.primary.regular}",
+            "type": "fontWeights"
           }
-        },
-        "font-weight": {
-          "value": "{font-weight.primary.regular}",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "142.3%",
-          "type": "lineHeights"
         }
       },
       "drawer": {
@@ -12648,9 +12660,7 @@
         "component.date-picker.padding-y": "269ae7378db8ce5538b923d568d42cce1ef42b4c",
         "component.date-picker.border-radius": "05af2505e660462c92f20502dcc105e5199cb1b5",
         "component.date-picker.day-selected.border-radius": "8cf43b8342addc7e9d4afb0fb67f62f6de23dba3",
-        "component.date-picker.font-size": "00b257f10b82ff17ed46f1a463d013269a7b1072",
         "component.date-picker.weekday.font-size": "4063a9f35ae5051260a41014c94674a6fa985478",
-        "component.date-picker.font-weight": "0b3c69d86cda08fd13a7ec276be6ea5f1af71b1d",
         "component.drawer.border-color-mode-light": "a5aabbdb7ca02cdfa5b3024a3ac7465febe86d97",
         "component.drawer.border-color-mode-dark": "c4572607400b338e328612b8544b003fa6694b2d",
         "component.drawer.border-radius": "c5b05b93079dafc96fe25d7754e5e67b726f896a",
@@ -12749,7 +12759,9 @@
         "component.toggle.border-radius": "6e7decdc51e2cd1ec206ba8955eaa409fce97fa1",
         "component.toggle.thumb.border-radius": "5f5a5794ed2c26c2485f6b323e36d03557986949",
         "component.tooltip.border-radius": "0e71836392d242ad73749c144ecb8d9f030459ab",
-        "brand.theme": "b2d9f9fb77f7d8b2f09936420e983a4b2b91c0e2"
+        "brand.theme": "b2d9f9fb77f7d8b2f09936420e983a4b2b91c0e2",
+        "component.date-picker.day.font-weight": "0b3c69d86cda08fd13a7ec276be6ea5f1af71b1d",
+        "component.date-picker.day.font-size": "00b257f10b82ff17ed46f1a463d013269a7b1072"
       },
       "group": "theme"
     },
@@ -13217,9 +13229,7 @@
         "component.date-picker.day-selected.border-radius": "8cf43b8342addc7e9d4afb0fb67f62f6de23dba3",
         "component.date-picker.padding-x": "3a94a61bbbc9b20cd008922f39d6fa2a2828b859",
         "component.date-picker.padding-y": "269ae7378db8ce5538b923d568d42cce1ef42b4c",
-        "component.date-picker.font-size": "00b257f10b82ff17ed46f1a463d013269a7b1072",
         "component.date-picker.weekday.font-size": "4063a9f35ae5051260a41014c94674a6fa985478",
-        "component.date-picker.font-weight": "0b3c69d86cda08fd13a7ec276be6ea5f1af71b1d",
         "component.file-upload.border-width": "b1284d2681492b261fcaaf3899525967169b69d9",
         "component.file-upload.border-radius": "06e795fd255da133a0acb041452fdf696c1152ed",
         "component.textarea.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
@@ -13262,7 +13272,9 @@
         "component.form-control.border-color-mode-dark": "3cde621898f50797b76f6b4e251fc52fd4e85a99",
         "component.form-control.background-mode-light": "a6a8d3266f66ce03eb8f9df29a3cdc4728b8a093",
         "component.form-control.background-mode-dark": "3521a7d8a362ce3c108b0d81b0768dc3668d27fe",
-        "brand.theme": "b2d9f9fb77f7d8b2f09936420e983a4b2b91c0e2"
+        "brand.theme": "b2d9f9fb77f7d8b2f09936420e983a4b2b91c0e2",
+        "component.date-picker.day.font-weight": "0b3c69d86cda08fd13a7ec276be6ea5f1af71b1d",
+        "component.date-picker.day.font-size": "00b257f10b82ff17ed46f1a463d013269a7b1072"
       },
       "group": "theme"
     },
@@ -13721,9 +13733,7 @@
         "component.date-picker.day-selected.border-radius": "8cf43b8342addc7e9d4afb0fb67f62f6de23dba3",
         "component.date-picker.padding-x": "3a94a61bbbc9b20cd008922f39d6fa2a2828b859",
         "component.date-picker.padding-y": "269ae7378db8ce5538b923d568d42cce1ef42b4c",
-        "component.date-picker.font-size": "00b257f10b82ff17ed46f1a463d013269a7b1072",
         "component.date-picker.weekday.font-size": "4063a9f35ae5051260a41014c94674a6fa985478",
-        "component.date-picker.font-weight": "0b3c69d86cda08fd13a7ec276be6ea5f1af71b1d",
         "component.file-upload.border-width": "b1284d2681492b261fcaaf3899525967169b69d9",
         "component.file-upload.border-radius": "06e795fd255da133a0acb041452fdf696c1152ed",
         "component.textarea.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
@@ -13766,7 +13776,9 @@
         "component.form-control.border-color-mode-dark": "3cde621898f50797b76f6b4e251fc52fd4e85a99",
         "component.form-control.background-mode-light": "a6a8d3266f66ce03eb8f9df29a3cdc4728b8a093",
         "component.form-control.background-mode-dark": "3521a7d8a362ce3c108b0d81b0768dc3668d27fe",
-        "brand.theme": "b2d9f9fb77f7d8b2f09936420e983a4b2b91c0e2"
+        "brand.theme": "b2d9f9fb77f7d8b2f09936420e983a4b2b91c0e2",
+        "component.date-picker.day.font-weight": "0b3c69d86cda08fd13a7ec276be6ea5f1af71b1d",
+        "component.date-picker.day.font-size": "00b257f10b82ff17ed46f1a463d013269a7b1072"
       },
       "group": "theme"
     },
