@@ -4149,7 +4149,7 @@
             "type": "spacing"
           },
           "padding-bottom": {
-            "value": "{size-space.4-x}",
+            "value": "{size-space.6-x}",
             "type": "spacing"
           },
           "padding-left": {
@@ -6487,7 +6487,7 @@
             "type": "spacing"
           },
           "padding-bottom": {
-            "value": "{size-space.4-x}",
+            "value": "{size-space.6-x}",
             "type": "spacing"
           },
           "padding-left": {
@@ -9130,7 +9130,7 @@
             "type": "spacing"
           },
           "padding-bottom": {
-            "value": "{size-space.4-x}",
+            "value": "{size-space.6-x}",
             "type": "spacing"
           },
           "padding-left": {
