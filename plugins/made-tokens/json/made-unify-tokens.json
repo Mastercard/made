@@ -4161,16 +4161,6 @@
             "type": "spacing"
           }
         },
-        "footer": {
-          "padding-top": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-bottom": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          }
-        },
         "border-radius": {
           "value": "{border.radius.default}",
           "type": "borderRadius"
@@ -4199,6 +4189,16 @@
           "line-height": {
             "value": "150%",
             "type": "lineHeights"
+          }
+        },
+        "footer": {
+          "padding-x": {
+            "value": "{size-space.6-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.6-x}",
+            "type": "spacing"
           }
         }
       },
@@ -6499,16 +6499,6 @@
             "type": "spacing"
           }
         },
-        "footer": {
-          "padding-top": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-bottom": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          }
-        },
         "border-radius": {
           "value": "{border.radius.default}",
           "type": "borderRadius"
@@ -6543,6 +6533,16 @@
           "line-height": {
             "value": "150%",
             "type": "lineHeights"
+          }
+        },
+        "footer": {
+          "padding-x": {
+            "value": "{size-space.6-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.6-x}",
+            "type": "spacing"
           }
         }
       },
@@ -9142,16 +9142,6 @@
             "type": "spacing"
           }
         },
-        "footer": {
-          "padding-top": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          },
-          "padding-bottom": {
-            "value": "{size-space.4-x}",
-            "type": "spacing"
-          }
-        },
         "border-radius": {
           "value": "{border.radius.default}",
           "type": "borderRadius"
@@ -9186,6 +9176,16 @@
           "line-height": {
             "value": "150%",
             "type": "lineHeights"
+          }
+        },
+        "footer": {
+          "padding-x": {
+            "value": "{size-space.6-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.6-x}",
+            "type": "spacing"
           }
         }
       },
@@ -12533,8 +12533,6 @@
         "component.modal.top-bar.padding-bottom": "247c1d96a51f39a2fa976b6b83b194c63cf67e2e",
         "component.modal.top-bar.padding-left": "c47312f4c8c16e4f8e07ef0894fd773a28e42733",
         "component.modal.top-bar.padding-right": "fb59c00f24ac17965d1a96c12c21d91a7386e3a1",
-        "component.modal.footer.padding-top": "2a0bb3f2bd46f44469f027a94d7573f7f087122c",
-        "component.modal.footer.padding-bottom": "f1fadcde567f76a1345c930f559145541ad75429",
         "component.modal.border-radius": "f52c4f696677e390604f4e46414841e824036051",
         "component.modal.title.font-size": "d2c6b95e32c2ac8c938ffedcf298ded462066f48",
         "component.modal.title.font-weight": "9605a117bdb24b797f875f992087143897af7bc1",
@@ -13069,8 +13067,6 @@
         "component.modal.top-bar.padding-bottom": "247c1d96a51f39a2fa976b6b83b194c63cf67e2e",
         "component.modal.top-bar.padding-left": "c47312f4c8c16e4f8e07ef0894fd773a28e42733",
         "component.modal.top-bar.padding-right": "fb59c00f24ac17965d1a96c12c21d91a7386e3a1",
-        "component.modal.footer.padding-top": "2a0bb3f2bd46f44469f027a94d7573f7f087122c",
-        "component.modal.footer.padding-bottom": "f1fadcde567f76a1345c930f559145541ad75429",
         "component.modal.border-radius": "f52c4f696677e390604f4e46414841e824036051",
         "component.modal.border-color-mode-light": "5650ea3a04a98c3cbdd331ac402cd6a5133bf2c0",
         "component.modal.border-color-mode-dark": "59f3585708b6a247b4efa83cd130152a5dfb2618",
@@ -13575,8 +13571,6 @@
         "component.modal.top-bar.padding-bottom": "247c1d96a51f39a2fa976b6b83b194c63cf67e2e",
         "component.modal.top-bar.padding-left": "c47312f4c8c16e4f8e07ef0894fd773a28e42733",
         "component.modal.top-bar.padding-right": "fb59c00f24ac17965d1a96c12c21d91a7386e3a1",
-        "component.modal.footer.padding-top": "2a0bb3f2bd46f44469f027a94d7573f7f087122c",
-        "component.modal.footer.padding-bottom": "f1fadcde567f76a1345c930f559145541ad75429",
         "component.modal.border-radius": "f52c4f696677e390604f4e46414841e824036051",
         "component.modal.border-color-mode-light": "5650ea3a04a98c3cbdd331ac402cd6a5133bf2c0",
         "component.modal.border-color-mode-dark": "59f3585708b6a247b4efa83cd130152a5dfb2618",
