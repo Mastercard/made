@@ -4189,7 +4189,7 @@
         },
         "content": {
           "font-size": {
-            "value": "{font-size.04}",
+            "value": "{font-size.06}",
             "type": "fontSizes"
           },
           "font-weight": {
@@ -6533,7 +6533,7 @@
         },
         "content": {
           "font-size": {
-            "value": "{font-size.04}",
+            "value": "{font-size.06}",
             "type": "fontSizes"
           },
           "font-weight": {
@@ -9176,7 +9176,7 @@
         },
         "content": {
           "font-size": {
-            "value": "{font-size.04}",
+            "value": "{font-size.06}",
             "type": "fontSizes"
           },
           "font-weight": {
