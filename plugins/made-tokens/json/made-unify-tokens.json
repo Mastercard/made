@@ -2478,7 +2478,7 @@
           "type": "color"
         },
         "default-mode-dark": {
-          "value": "{color.neutral.700}",
+          "value": "{color.neutral.600}",
           "type": "color"
         },
         "bold-mode-light": {
@@ -2495,16 +2495,7 @@
         },
         "strong-mode-dark": {
           "value": "{color.neutral.400}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.3",
-                "space": "lch"
-              }
-            }
-          }
+          "type": "color"
         },
         "neutral-mode-light": {
           "value": "{color.neutral.200}",
@@ -2552,7 +2543,7 @@
           "type": "color"
         },
         "input-mode-dark": {
-          "value": "{color.neutral.600}",
+          "value": "{color.neutral.500}",
           "type": "color"
         },
         "success-mode-light": {
