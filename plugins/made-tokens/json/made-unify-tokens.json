@@ -4666,17 +4666,19 @@
           "value": "{font-size.04}",
           "type": "fontSizes"
         },
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.2-x}",
-          "type": "spacing"
-        },
-        "gap": {
-          "value": "{size-space.2-x}",
-          "type": "spacing"
+        "default": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
         },
         "font-weight": {
           "value": "{font-weight.primary.regular}",
@@ -4685,6 +4687,50 @@
         "line-height": {
           "value": "142.3%",
           "type": "lineHeights"
+        },
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        },
+        "contained": {
+          "default": {
+            "padding-x": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.1-x}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{size-space.2-x}",
+              "type": "spacing"
+            }
+          },
+          "large": {
+            "padding-x": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{size-space.2-x}",
+              "type": "spacing"
+            }
+          }
         }
       },
       "tag": {
@@ -7614,18 +7660,6 @@
         }
       },
       "list-item": {
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.2-x}",
-          "type": "spacing"
-        },
-        "gap": {
-          "value": "{size-space.2-x}",
-          "type": "spacing"
-        },
         "font-size": {
           "value": "{font-size.04}",
           "type": "fontSizes"
@@ -7637,6 +7671,64 @@
         "line-height": {
           "value": "142.3%",
           "type": "lineHeights"
+        },
+        "default": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        },
+        "contained": {
+          "default": {
+            "padding-x": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.1-x}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{size-space.2-x}",
+              "type": "spacing"
+            }
+          },
+          "large": {
+            "padding-x": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{size-space.2-x}",
+              "type": "spacing"
+            }
+          }
         }
       },
       "table": {
@@ -10435,18 +10527,6 @@
         }
       },
       "list-item": {
-        "padding-x": {
-          "value": "{size-space.4-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.2-x}",
-          "type": "spacing"
-        },
-        "gap": {
-          "value": "{size-space.2-x}",
-          "type": "spacing"
-        },
         "font-size": {
           "value": "{font-size.04}",
           "type": "fontSizes"
@@ -10458,6 +10538,64 @@
         "line-height": {
           "value": "142.3%",
           "type": "lineHeights"
+        },
+        "default": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
+        },
+        "contained": {
+          "default": {
+            "padding-x": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.1-x}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{size-space.2-x}",
+              "type": "spacing"
+            }
+          },
+          "large": {
+            "padding-x": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "padding-y": {
+              "value": "{size-space.1-5-x}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{size-space.2-x}",
+              "type": "spacing"
+            }
+          }
         }
       },
       "table": {
@@ -13372,9 +13510,6 @@
         "component.pagination.item-active.background-mode-dark": "6741aa7637920f2a48c384239ae52d31ab8793d2",
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
-        "component.list-item.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
         "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
         "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
         "component.table.cell.header.padding-x": "8e668ec6e683ec87b45fc2b8ef83f6d275303d4e",
@@ -13433,7 +13568,10 @@
         "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
         "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
         "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009"
+        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
+        "component.list-item.default.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.list-item.default.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.list-item.default.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85"
       },
       "group": "theme"
     },
@@ -13862,9 +14000,6 @@
         "component.tabs.minimal.item.background-selected-mode-dark": "fab94512de647c0bd9e896e090e5c6d6db9a438e",
         "component.radio.border-radius": "0cec150f52493dff368ed8cd75cad0aaee23a84d",
         "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
         "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
         "component.tag.default.font-size": "e2c0f2469cb837709288a84673cebd2cca399635",
         "component.tag.default.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
@@ -13979,7 +14114,10 @@
         "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
         "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
         "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009"
+        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
+        "component.list-item.default.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.list-item.default.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.list-item.default.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85"
       },
       "group": "theme"
     },
@@ -14399,9 +14537,6 @@
         "component.tabs.minimal.item.background-selected-mode-dark": "fab94512de647c0bd9e896e090e5c6d6db9a438e",
         "component.radio.border-radius": "0cec150f52493dff368ed8cd75cad0aaee23a84d",
         "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
         "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
         "component.tag.default.font-size": "e2c0f2469cb837709288a84673cebd2cca399635",
         "component.tag.default.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
@@ -14516,7 +14651,10 @@
         "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
         "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
         "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009"
+        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
+        "component.list-item.default.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.list-item.default.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.list-item.default.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85"
       },
       "group": "theme"
     },
