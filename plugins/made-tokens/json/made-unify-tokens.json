@@ -11024,6 +11024,10 @@
           "background-selected": {
             "value": "{color.background.brand.primary.default-mode-light}",
             "type": "color"
+          },
+          "background-hover": {
+            "value": "{color.background.brand.primary.hover-mode-light}",
+            "type": "color"
           }
         }
       },
@@ -11731,6 +11735,10 @@
         "day": {
           "background-selected": {
             "value": "{color.background.brand.primary.default-mode-dark}",
+            "type": "color"
+          },
+          "background-hover": {
+            "value": "{color.background.brand.primary.hover-mode-dark}",
             "type": "color"
           }
         }
@@ -13957,7 +13965,8 @@
         "component.loader.progress.background": "5284ad6cc96623f9fd65029ef726f3361941ef16",
         "component.form-control.border-color": "a54148b52d57f5200e21bd79f67ec4128d18b3c9",
         "component.form-control.background": "0181e79b93dd7b05ed90c32f185f0f870984f245",
-        "component.pagination.item-active.background": "23c7f87c99accd41af0054688ba72baf5f4e1c11"
+        "component.pagination.item-active.background": "23c7f87c99accd41af0054688ba72baf5f4e1c11",
+        "component.date-picker.day.background-hover": "6438f8e0e1397905dc3ee70d1c32a8b6b57239c2"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:6",
@@ -14114,7 +14123,8 @@
         "component.loader.progress.background": "5284ad6cc96623f9fd65029ef726f3361941ef16",
         "component.form-control.border-color": "a54148b52d57f5200e21bd79f67ec4128d18b3c9",
         "component.form-control.background": "0181e79b93dd7b05ed90c32f185f0f870984f245",
-        "component.pagination.item-active.background": "23c7f87c99accd41af0054688ba72baf5f4e1c11"
+        "component.pagination.item-active.background": "23c7f87c99accd41af0054688ba72baf5f4e1c11",
+        "component.date-picker.day.background-hover": "6438f8e0e1397905dc3ee70d1c32a8b6b57239c2"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:7",
