@@ -5086,6 +5086,36 @@
           "value": "{color.background.surface.default-mode-dark}",
           "type": "color"
         }
+      },
+      "progress": {
+        "track": {
+          "background-mode-light": {
+            "value": "{color.neutral.300}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.border.default-mode-dark}",
+            "type": "color"
+          },
+          "border-radius": {
+            "value": "{border.radius.full}",
+            "type": "borderRadius"
+          }
+        },
+        "progress-bar": {
+          "background-mode-light": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.border.brand-mode-dark}",
+            "type": "color"
+          },
+          "border-radius": {
+            "value": "{border.radius.none}",
+            "type": "borderRadius"
+          }
+        }
       }
     },
     "line": {
@@ -7565,6 +7595,36 @@
         "box-shadow": {
           "value": "{box-shadow.global}",
           "type": "boxShadow"
+        }
+      },
+      "progress": {
+        "track": {
+          "background-mode-light": {
+            "value": "{color.border.default-mode-light}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.border.default-mode-dark}",
+            "type": "color"
+          },
+          "border-radius": {
+            "value": "{border.radius.full}",
+            "type": "borderRadius"
+          }
+        },
+        "progress-bar": {
+          "background-mode-light": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.border.brand-mode-dark}",
+            "type": "color"
+          },
+          "border-radius": {
+            "value": "{border.radius.none}",
+            "type": "borderRadius"
+          }
         }
       }
     },
@@ -10231,6 +10291,36 @@
           "value": "{box-shadow.global}",
           "type": "boxShadow"
         }
+      },
+      "progress": {
+        "track": {
+          "background-mode-light": {
+            "value": "{color.border.default-mode-light}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.border.default-mode-dark}",
+            "type": "color"
+          },
+          "border-radius": {
+            "value": "{border.radius.full}",
+            "type": "borderRadius"
+          }
+        },
+        "progress-bar": {
+          "background-mode-light": {
+            "value": "{color.border.brand-mode-light}",
+            "type": "color"
+          },
+          "background-mode-dark": {
+            "value": "{color.border.brand-mode-dark}",
+            "type": "color"
+          },
+          "border-radius": {
+            "value": "{border.radius.none}",
+            "type": "borderRadius"
+          }
+        }
       }
     },
     "box-shadow": {
@@ -11088,6 +11178,20 @@
             "type": "color"
           }
         }
+      },
+      "progress": {
+        "track": {
+          "background": {
+            "value": "{component.progress.track.background-mode-light}",
+            "type": "color"
+          }
+        },
+        "progress-bar": {
+          "background": {
+            "value": "{component.progress.progress-bar.background-mode-light}",
+            "type": "color"
+          }
+        }
       }
     }
   },
@@ -11797,6 +11901,20 @@
         "item-active": {
           "background": {
             "value": "{component.pagination.item-active.background-mode-dark}",
+            "type": "color"
+          }
+        }
+      },
+      "progress": {
+        "track": {
+          "background": {
+            "value": "{component.progress.track.background-mode-dark}",
+            "type": "color"
+          }
+        },
+        "progress-bar": {
+          "background": {
+            "value": "{component.progress.progress-bar.background-mode-dark}",
             "type": "color"
           }
         }
