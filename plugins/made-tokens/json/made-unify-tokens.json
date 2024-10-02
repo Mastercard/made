@@ -4196,6 +4196,10 @@
           "padding-y": {
             "value": "{size-space.6-x}",
             "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
           }
         }
       },
@@ -6551,6 +6555,10 @@
           },
           "padding-y": {
             "value": "{size-space.6-x}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.4-x}",
             "type": "spacing"
           }
         }
@@ -9212,6 +9220,10 @@
           },
           "padding-y": {
             "value": "{size-space.6-x}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{size-space.4-x}",
             "type": "spacing"
           }
         }
