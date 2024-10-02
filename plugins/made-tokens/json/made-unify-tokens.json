@@ -4954,13 +4954,25 @@
         }
       },
       "textarea": {
-        "padding-x": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
+        "default": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          }
         },
-        "padding-y": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          }
         }
       },
       "toggle": {
@@ -7668,13 +7680,25 @@
         }
       },
       "textarea": {
-        "padding-x": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
+        "default": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          }
         },
-        "padding-y": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          }
         }
       },
       "drawer-picker": {
@@ -10465,13 +10489,25 @@
         }
       },
       "textarea": {
-        "padding-x": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
+        "default": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          }
         },
-        "padding-y": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          }
         }
       },
       "drawer-picker": {
@@ -13318,8 +13354,6 @@
         "component.table.cell.data.font-size": "6c32cc4cad8265b88c94dae01d5aa3cd53066064",
         "component.table.cell.data.font-weight": "8ce8d531e856cab0d7cc24342a33445b12aeee9e",
         "component.table.border-radius": "8460ece4ca59b5d0783209fdb3ea18042861ffb8",
-        "component.textarea.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
-        "component.textarea.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
         "component.drawer-picker.padding-x": "cee89d16db31c7beeadf6a5c81c3b183daa4294f",
         "component.drawer-picker.padding-y": "8fe47bbad61e3168fcadfecc226c9929ac562fe5",
         "component.avatar.squared.border-radius": "0e7fb4c2e624799d5aec922eedabe253e8bd9a0e",
@@ -13361,7 +13395,9 @@
         "component.button.outline.hover.background-mode-light": "daf8d7da51121020bb8e2ef417e092a57395db0d",
         "component.button.outline.hover.background-mode-dark": "0ba4354fb7e146e3140cdc8957dda7d4d4827c77",
         "component.button.outline.active.background-mode-light": "a44a51c48135f1e8490e4465041c7005e3519b80",
-        "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c"
+        "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c",
+        "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
+        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f"
       },
       "group": "theme"
     },
@@ -13841,8 +13877,6 @@
         "component.date-picker.weekday.font-weight": "18778c8eda33ce80887c6c8691baa2b4d7d658c6",
         "component.file-upload.border-width": "b1284d2681492b261fcaaf3899525967169b69d9",
         "component.file-upload.border-radius": "06e795fd255da133a0acb041452fdf696c1152ed",
-        "component.textarea.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
-        "component.textarea.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
         "component.toggle.border-radius": "6e7decdc51e2cd1ec206ba8955eaa409fce97fa1",
         "component.toggle.thumb.border-radius": "5f5a5794ed2c26c2485f6b323e36d03557986949",
         "component.tooltip.border-radius": "0e71836392d242ad73749c144ecb8d9f030459ab",
@@ -13907,7 +13941,9 @@
         "component.button.outline.hover.background-mode-light": "daf8d7da51121020bb8e2ef417e092a57395db0d",
         "component.button.outline.hover.background-mode-dark": "0ba4354fb7e146e3140cdc8957dda7d4d4827c77",
         "component.button.outline.active.background-mode-light": "a44a51c48135f1e8490e4465041c7005e3519b80",
-        "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c"
+        "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c",
+        "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
+        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f"
       },
       "group": "theme"
     },
@@ -14378,8 +14414,6 @@
         "component.date-picker.weekday.font-weight": "18778c8eda33ce80887c6c8691baa2b4d7d658c6",
         "component.file-upload.border-width": "b1284d2681492b261fcaaf3899525967169b69d9",
         "component.file-upload.border-radius": "06e795fd255da133a0acb041452fdf696c1152ed",
-        "component.textarea.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
-        "component.textarea.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
         "component.toggle.border-radius": "6e7decdc51e2cd1ec206ba8955eaa409fce97fa1",
         "component.toggle.thumb.border-radius": "5f5a5794ed2c26c2485f6b323e36d03557986949",
         "component.tooltip.border-radius": "0e71836392d242ad73749c144ecb8d9f030459ab",
@@ -14444,7 +14478,9 @@
         "component.button.outline.hover.background-mode-light": "daf8d7da51121020bb8e2ef417e092a57395db0d",
         "component.button.outline.hover.background-mode-dark": "0ba4354fb7e146e3140cdc8957dda7d4d4827c77",
         "component.button.outline.active.background-mode-light": "a44a51c48135f1e8490e4465041c7005e3519b80",
-        "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c"
+        "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c",
+        "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
+        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f"
       },
       "group": "theme"
     },
