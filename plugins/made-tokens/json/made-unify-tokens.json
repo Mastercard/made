@@ -4122,6 +4122,108 @@
           "border-width": {
             "value": "{border-width.02}",
             "type": "borderWidth"
+          },
+          "default": {
+            "background-mode-light": {
+              "value": "{color.background.surface.transparent}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.surface.transparent}",
+              "type": "color"
+            },
+            "border-color-mode-light": {
+              "value": "{color.border.default-mode-light}",
+              "type": "color"
+            },
+            "border-color-mode-dark": {
+              "value": "{color.border.default-mode-dark}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background-mode-light": {
+              "value": "{color.background.surface.hover-mode-light}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.surface.hover-mode-dark}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background-mode-light": {
+              "value": "{color.background.surface.selected-mode-light}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.surface.selected-mode-dark}",
+              "type": "color"
+            }
+          }
+        },
+        "primary": {
+          "default": {
+            "background-mode-light": {
+              "value": "{color.background.brand.primary.default-mode-light}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.brand.primary.default-mode-dark}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background-mode-light": {
+              "value": "{color.background.brand.primary.hover-mode-light}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.brand.primary.hover-mode-dark}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background-mode-light": {
+              "value": "{color.background.brand.primary.active-mode-light}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.brand.primary.active-mode-dark}",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "background-mode-light": {
+              "value": "{color.background.surface.secondary-mode-light}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.surface.secondary-mode-dark}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background-mode-light": {
+              "value": "{color.background.surface.selected-mode-light}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.surface.selected-mode-dark}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background-mode-light": {
+              "value": "{color.background.surface.selected-hover-mode-light}",
+              "type": "color"
+            },
+            "background-mode-dark": {
+              "value": "{color.background.surface.selected-hover-mode-dark}",
+              "type": "color"
+            }
           }
         }
       },
