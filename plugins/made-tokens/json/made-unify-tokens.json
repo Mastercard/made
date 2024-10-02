@@ -5164,13 +5164,15 @@
         }
       },
       "form-control": {
-        "padding-x": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.2-5-x}",
-          "type": "spacing"
+        "default": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
         },
         "border-width": {
           "value": "{border-width.01}",
@@ -5199,6 +5201,16 @@
         "background-mode-dark": {
           "value": "{color.background.surface.default-mode-dark}",
           "type": "color"
+        },
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-5-x}",
+            "type": "spacing"
+          }
         }
       },
       "progress": {
@@ -7276,13 +7288,15 @@
           "value": "{color.background.surface.default-mode-dark}",
           "type": "color"
         },
-        "padding-x": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.2-5-x}",
-          "type": "spacing"
+        "default": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
         },
         "border-radius": {
           "value": "{border.radius.default}",
@@ -7295,6 +7309,16 @@
         "box-shadow": {
           "value": "{box-shadow.global}",
           "type": "boxShadow"
+        },
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-5-x}",
+            "type": "spacing"
+          }
         }
       },
       "breadcrumb": {
@@ -10085,13 +10109,15 @@
           "value": "{color.background.surface.default-mode-dark}",
           "type": "color"
         },
-        "padding-x": {
-          "value": "{size-space.3-x}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{size-space.2-5-x}",
-          "type": "spacing"
+        "default": {
+          "padding-x": {
+            "value": "{size-space.3-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-x}",
+            "type": "spacing"
+          }
         },
         "border-radius": {
           "value": "{border.radius.default}",
@@ -10104,6 +10130,16 @@
         "box-shadow": {
           "value": "{box-shadow.global}",
           "type": "boxShadow"
+        },
+        "large": {
+          "padding-x": {
+            "value": "{size-space.4-x}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{size-space.2-5-x}",
+            "type": "spacing"
+          }
         }
       },
       "breadcrumb": {
@@ -13301,8 +13337,6 @@
         "component.form-control.border-color-mode-dark": "2e6e979f4f6a4076746ba3a37df86fcc237417d7",
         "component.form-control.background-mode-light": "757a8d215b18ba66f7b147c2475050571921570e",
         "component.form-control.background-mode-dark": "2cb9c3c740c27b44e5c0d7ac0e7b224ccdedc4e1",
-        "component.form-control.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
         "component.form-control.border-radius": "6b0d92a106c72ab1fc55b4da0d3212b7457c6266",
         "component.form-control.border-width": "8e7165ce83b51e8d8c5804e9648256b1a925110d",
         "component.breadcrumb.gap": "d3a6447d7c6f3f0568ebc2acb644e9c5e90eb360",
@@ -13397,7 +13431,9 @@
         "component.button.outline.active.background-mode-light": "a44a51c48135f1e8490e4465041c7005e3519b80",
         "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c",
         "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
-        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f"
+        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
+        "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
+        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009"
       },
       "group": "theme"
     },
@@ -13907,8 +13943,6 @@
         "component.loader.xl.font-weight": "51113dd5b0e111f5a1a7e1a8f40e8083e296d3e9",
         "component.drawer-picker.padding-x": "cee89d16db31c7beeadf6a5c81c3b183daa4294f",
         "component.drawer-picker.padding-y": "8fe47bbad61e3168fcadfecc226c9929ac562fe5",
-        "component.form-control.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
         "component.form-control.border-width": "8e7165ce83b51e8d8c5804e9648256b1a925110d",
         "component.form-control.border-radius": "6b0d92a106c72ab1fc55b4da0d3212b7457c6266",
         "component.form-control.border-color-mode-light": "3074027f7d2f82fdd8c1e7d10f8a69694ffc7728",
@@ -13943,7 +13977,9 @@
         "component.button.outline.active.background-mode-light": "a44a51c48135f1e8490e4465041c7005e3519b80",
         "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c",
         "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
-        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f"
+        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
+        "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
+        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009"
       },
       "group": "theme"
     },
@@ -14444,8 +14480,6 @@
         "component.loader.xl.font-weight": "51113dd5b0e111f5a1a7e1a8f40e8083e296d3e9",
         "component.drawer-picker.padding-x": "cee89d16db31c7beeadf6a5c81c3b183daa4294f",
         "component.drawer-picker.padding-y": "8fe47bbad61e3168fcadfecc226c9929ac562fe5",
-        "component.form-control.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
         "component.form-control.border-width": "8e7165ce83b51e8d8c5804e9648256b1a925110d",
         "component.form-control.border-radius": "6b0d92a106c72ab1fc55b4da0d3212b7457c6266",
         "component.form-control.border-color-mode-light": "3074027f7d2f82fdd8c1e7d10f8a69694ffc7728",
@@ -14480,7 +14514,9 @@
         "component.button.outline.active.background-mode-light": "a44a51c48135f1e8490e4465041c7005e3519b80",
         "component.button.outline.active.background-mode-dark": "ad7dac02fa187ab2733f5d172af08b3ec86f192c",
         "component.textarea.default.padding-x": "42bb30661b3def3dbda34543a731cd88f3ce073f",
-        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f"
+        "component.textarea.default.padding-y": "865cb72b70ea6864b5e05747a2420af42e8fd50f",
+        "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
+        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009"
       },
       "group": "theme"
     },
