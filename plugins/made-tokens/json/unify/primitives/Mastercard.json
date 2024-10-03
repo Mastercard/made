@@ -1,0 +1,418 @@
+{
+  "color": {
+    "gold": {
+      "01": {
+        "$type": "color",
+        "$value": "#FCE8CC",
+        "$description": "Gold color 1"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#F9D199",
+        "$description": "Gold color 2"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#F7AD4C",
+        "$description": "Gold color 3"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#F38B00",
+        "$description": "Gold color 4"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#995600",
+        "$description": "Gold color 5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#583300",
+        "$description": "Gold color 6"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#301C00",
+        "$description": "Gold color 7"
+      }
+    },
+    "gray": {
+      "01": {
+        "$type": "color",
+        "$value": "#FCFBFA",
+        "$description": "Canvas color - Gray 1"
+      },
+      "01-25": {
+        "$type": "color",
+        "$value": "#FAF7F5",
+        "$description": "Canvas color - Gray 1.25"
+      },
+      "01-5": {
+        "$type": "color",
+        "$value": "#F3F0EE",
+        "$description": "Canvas color - Gray 1.5"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#E8E5E1",
+        "$description": "Canvas color - Gray 2"
+      },
+      "02-5": {
+        "$type": "color",
+        "$value": "#D1CDC7",
+        "$description": "Canvas color - Gray 2.5"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#B1ADA6",
+        "$description": "Gray tints and shades - Gray 3"
+      },
+      "03-5": {
+        "$type": "color",
+        "$value": "#96918B",
+        "$description": "Gray tints and shades - Gray 3.5"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#777470",
+        "$description": "Gray tints and shades - Gray 4"
+      },
+      "04-5": {
+        "$type": "color",
+        "$value": "#676561",
+        "$description": "Gray tints and shades - Gray 4.5"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#555250",
+        "$description": "Canvas color - Gray 5"
+      },
+      "05-5": {
+        "$type": "color",
+        "$value": "#444340",
+        "$description": "Gray tints and shades - Gray 5.5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#323231",
+        "$description": "Canvas color - Gray 6"
+      },
+      "06-5": {
+        "$type": "color",
+        "$value": "#222221",
+        "$description": "Gray tints and shades - Gray 6.5"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#141413",
+        "$description": "Canvas color - Gray 7"
+      }
+    },
+    "green": {
+      "01": {
+        "$type": "color",
+        "$value": "#E8F1D5",
+        "$description": "Green color 1"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#B6CD7E",
+        "$description": "Green color 2"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#87A740",
+        "$description": "Green color 3"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#628020",
+        "$description": "Green color 4"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#496019",
+        "$description": "Green color 5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#324113",
+        "$description": "Green color 6"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#1C2509",
+        "$description": "Green color 7"
+      }
+    },
+    "orange": {
+      "01": {
+        "$type": "color",
+        "$value": "#FFE1D1",
+        "$description": "Orange color 1"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#FFAB82",
+        "$description": "Orange color 2"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#F37338",
+        "$description": "Orange color 3"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#CF4500",
+        "$description": "Orange color 4"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#9A3A0A",
+        "$description": "Orange color 5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#662808",
+        "$description": "Orange color 6"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#331505",
+        "$description": "Orange color 7"
+      }
+    },
+    "red": {
+      "01": {
+        "$type": "color",
+        "$value": "#F8DDDE",
+        "$description": "Red color 1"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#F4A79F",
+        "$description": "Red color 2"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#E66F65",
+        "$description": "Red color 3"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#D7373C",
+        "$description": "Red color 4"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#A82226",
+        "$description": "Red color 5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#7E191C",
+        "$description": "Red color 6"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#541113",
+        "$description": "Red color 7"
+      }
+    },
+    "teal": {
+      "01": {
+        "$type": "color",
+        "$value": "#DCF5EF",
+        "$description": "Teal color 1"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#88D3BF",
+        "$description": "Teal color 2"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#4BAB94",
+        "$description": "Teal color 3"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#25836D",
+        "$description": "Teal color 4"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#266555",
+        "$description": "Teal color 5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#23473D",
+        "$description": "Teal color 6"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#1D2D27",
+        "$description": "Teal color 7"
+      }
+    },
+    "white": {
+      "themeable": "No",
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "White"
+    },
+    "yellow": {
+      "01": {
+        "$type": "color",
+        "$value": "#FFF4D1",
+        "$description": "Yellow color 1"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#FFE8A5",
+        "$description": "Yellow color 2"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#FFD863",
+        "$description": "Yellow color 3"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#FFC61E",
+        "$description": "Yellow color 4"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#B28C16",
+        "$description": "Yellow color 5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#664F0C",
+        "$description": "Yellow color 6"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#332805",
+        "$description": "Yellow color 7"
+      }
+    },
+    "green-success": {
+      "01": {
+        "$type": "color",
+        "$value": "#DFF7DF",
+        "$description": "Success Green 1"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#7CD87A",
+        "$description": "Success Green 2"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#35B132",
+        "$description": "Success Green 3"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#038A00",
+        "$description": "Success Green 4"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#097007",
+        "$description": "Success Green 5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#0B560A",
+        "$description": "Success Green 6"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#042604",
+        "$description": "Success Green 7"
+      }
+    },
+    "red-error": {
+      "01": {
+        "$type": "color",
+        "$value": "#FADEDE",
+        "$description": "Error Red 1"
+      },
+      "02": {
+        "$type": "color",
+        "$value": "#FF9898",
+        "$description": "Red error 2"
+      },
+      "03": {
+        "$type": "color",
+        "$value": "#FF5656",
+        "$description": "Red error 3"
+      },
+      "04": {
+        "$type": "color",
+        "$value": "#EE0000",
+        "$description": "Red error 4"
+      },
+      "05": {
+        "$type": "color",
+        "$value": "#B00606",
+        "$description": "Red error 5"
+      },
+      "06": {
+        "$type": "color",
+        "$value": "#710808",
+        "$description": "Red error 6"
+      },
+      "07": {
+        "$type": "color",
+        "$value": "#330505",
+        "$description": "Red error 7"
+      }
+    }
+  },
+  "time": {
+    "moderate": {
+      "01": {
+        "$type": "other",
+        "$value": "150ms",
+        "$description": "Micro-interactions, small expansion, short distance movements."
+      },
+      "02": {
+        "$type": "other",
+        "$value": "240ms",
+        "$description": "Expansion, system communication, toast."
+      },
+      "fast": {
+        "01": {
+          "themeable": "No",
+          "$type": "other",
+          "$value": "70ms",
+          "$description": "Micro-interactions such as button and toggle."
+        },
+        "02": {
+          "themeable": "No",
+          "$type": "other",
+          "$value": "110ms",
+          "$description": "Micro-interactions such as fade."
+        }
+      }
+    },
+    "slow": {
+      "01": {
+        "$type": "other",
+        "$value": "400ms",
+        "$description": "Large expansion, important system notifications."
+      },
+      "02": {
+        "$type": "other",
+        "$value": "700ms",
+        "$description": "Background dimming."
+      }
+    }
+  }
+}
