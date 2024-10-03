@@ -1,0 +1,12 @@
+{
+  "tokenSetOrder": [
+    "primitives/Unify",
+    "primitives/Mastercard",
+    "primitives/Partnerbank",
+    "theme/Unify",
+    "theme/Mastercard",
+    "theme/Partnerbank",
+    "mode/light",
+    "mode/dark"
+  ]
+}
