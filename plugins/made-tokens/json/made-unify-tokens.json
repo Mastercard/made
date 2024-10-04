@@ -2475,7 +2475,7 @@
         },
         "default-mode-light": {
           "$type": "color",
-          "$value": "{color.neutral.400}"
+          "$value": "{color.neutral.200}"
         },
         "default-mode-dark": {
           "$type": "color",
@@ -2483,7 +2483,7 @@
         },
         "bold-mode-light": {
           "$type": "color",
-          "$value": "{color.neutral.700}"
+          "$value": "{color.neutral.600}"
         },
         "bold-mode-dark": {
           "$type": "color",
@@ -2491,7 +2491,7 @@
         },
         "strong-mode-light": {
           "$type": "color",
-          "$value": "{color.neutral.600}"
+          "$value": "{color.neutral.500}"
         },
         "strong-mode-dark": {
           "$type": "color",
@@ -2540,7 +2540,7 @@
         },
         "input-mode-light": {
           "$type": "color",
-          "$value": "{color.neutral.500}"
+          "$value": "{color.border.strong}"
         },
         "input-mode-dark": {
           "$type": "color",
@@ -5234,11 +5234,11 @@
         },
         "border-color-mode-light": {
           "$type": "color",
-          "$value": "{color.border.default-mode-light}"
+          "$value": "{color.border.input-mode-light}"
         },
         "border-color-mode-dark": {
           "$type": "color",
-          "$value": "{color.border.default-mode-dark}"
+          "$value": "{color.border.input-mode-dark}"
         },
         "background-mode-light": {
           "$type": "color",
