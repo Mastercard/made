@@ -11775,6 +11775,12 @@
           }
         }
       }
+    },
+    "color-scheme": {
+      "mode": {
+        "$type": "text",
+        "$value": "light"
+      }
     }
   },
   "mode/dark": {
@@ -12566,6 +12572,12 @@
             }
           }
         }
+      }
+    },
+    "color-scheme": {
+      "mode": {
+        "$type": "text",
+        "$value": "dark"
       }
     }
   },
