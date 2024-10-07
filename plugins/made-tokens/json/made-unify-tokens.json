@@ -2491,7 +2491,7 @@
         },
         "strong-mode-light": {
           "$type": "color",
-          "$value": "{color.neutral.500}"
+          "$value": "{color.neutral.400}"
         },
         "strong-mode-dark": {
           "$type": "color",
@@ -2540,7 +2540,7 @@
         },
         "input-mode-light": {
           "$type": "color",
-          "$value": "{color.border.strong}"
+          "$value": "{color.border.default-mode-light}"
         },
         "input-mode-dark": {
           "$type": "color",
