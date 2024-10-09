@@ -8466,7 +8466,7 @@
         },
         "secondary-mode-dark": {
           "$type": "color",
-          "$value": "{color.neutral.400}",
+          "$value": "{color.neutral.300}",
           "$description": "Secondary text;\nInput labels"
         },
         "inverse-mode-light": {
