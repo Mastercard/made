@@ -9801,7 +9801,7 @@
         "outline": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{border-width.02}"
+            "$value": "{border-width.01}"
           },
           "default": {
             "background-mode-light": {
