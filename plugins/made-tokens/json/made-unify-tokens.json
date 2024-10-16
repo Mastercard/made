@@ -9937,7 +9937,7 @@
           },
           "padding-right": {
             "$type": "spacing",
-            "$value": "{size-space.12-x}"
+            "$value": "{size-space.6-x}"
           }
         },
         "border-radius": {
