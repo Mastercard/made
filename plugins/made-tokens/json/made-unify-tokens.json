@@ -8836,7 +8836,7 @@
         },
         "full": {
           "$type": "borderRadius",
-          "$value": "9999"
+          "$value": "9999px"
         },
         "focus-offset": {
           "$type": "borderRadius",
