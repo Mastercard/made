@@ -2505,7 +2505,6 @@
         },
         "input": {
           "default-mode-light": {
-            "description": "",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-light}"
           },
@@ -2517,7 +2516,6 @@
       },
       "border": {
         "brand-mode-light": {
-          "description": "",
           "$type": "color",
           "$value": "{color.brand.primary-mode-light}"
         },
@@ -2584,7 +2582,6 @@
           "$value": "{color.white}"
         },
         "focused-mode-light": {
-          "description": "",
           "$type": "color",
           "$value": "{color.border.brand-mode-light}"
         },
@@ -3223,58 +3220,71 @@
       "accordion": {
         "contained": {
           "border-color-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-light}"
           },
           "border-color-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-dark}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.default}"
           },
           "border-width": {
+            "$componentLevelToken": "true",
             "$type": "borderWidth",
             "$value": "{border-width.01}"
           },
           "box-shadow": {
+            "$componentLevelToken": "true",
             "$type": "boxShadow",
             "$value": "{box-shadow.global}"
           }
         },
         "padding-x": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
         "padding-y": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
         "title": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.06}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "150%"
           }
         },
         "subtitle": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.04}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.9%"
           }
@@ -3283,82 +3293,100 @@
       "alert": {
         "default": {
           "border-color-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.neutral-mode-light}"
           },
           "border-color-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.neutral-mode-dark}"
           }
         },
         "banner": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           },
           "box-shadow": {
+            "$componentLevelToken": "true",
             "$type": "boxShadow",
             "$value": "{box-shadow.global}"
           }
         },
         "toast": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           },
           "box-shadow": {
+            "$componentLevelToken": "true",
             "$type": "boxShadow",
             "$value": "{box-shadow.md}"
           }
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "border-width": {
+          "$componentLevelToken": "true",
           "$type": "borderWidth",
           "$value": "{border-width.01}"
         },
         "title": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.06}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "150%"
           }
         },
         "subtitle": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.04}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.9%"
           }
@@ -3366,77 +3394,94 @@
       },
       "modal": {
         "border-color-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         },
         "border-color-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         },
         "top-bar": {
           "padding-top": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "padding-bottom": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "padding-left": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "padding-right": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.12-x}"
           }
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.lg}"
         },
         "title": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.07}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "125%"
           }
         },
         "content": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.06}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "150%"
           }
         },
         "footer": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           }
@@ -3444,52 +3489,64 @@
       },
       "card": {
         "border-color-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-light}"
         },
         "border-color-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         },
         "padding-x": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.0-x}"
         },
         "padding-y": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.0-x}"
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.sm}"
         }
       },
       "menu": {
         "border-color-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-light}"
         },
         "border-color-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         },
         "padding-x": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.0-x}"
         },
         "padding-y": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.2-x}"
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.md}"
         }
@@ -3497,46 +3554,56 @@
       "range": {
         "thumb": {
           "border-color-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-light}"
           },
           "border-color-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           },
           "width": {
+            "$componentLevelToken": "true",
             "$type": "sizing",
             "$value": "{size-space.6-x}"
           },
           "height": {
+            "$componentLevelToken": "true",
             "$type": "sizing",
             "$value": "{size-space.6-x}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.full}"
           },
           "box-shadow": {
+            "$componentLevelToken": "true",
             "$type": "boxShadow",
             "$value": "{box-shadow.default}"
           }
         },
         "track-fill": {
           "background-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-light}"
           },
           "background-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           }
         },
         "track": {
           "height": {
+            "$componentLevelToken": "true",
             "$type": "sizing",
             "$value": "{size-space.2-x}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.full}"
           }
@@ -3545,15 +3612,18 @@
       "rating": {
         "star": {
           "background-active-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.icon.brand-mode-light}"
           },
           "background-active-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.icon.brand-mode-dark}"
           }
         },
         "gap": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.0-5-x}"
         }
@@ -3561,36 +3631,44 @@
       "tabs": {
         "default": {
           "border-color-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-light}"
           },
           "border-color-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           },
           "item": {
             "padding-x": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.4-x}"
             },
             "padding-y": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.2-5-x}"
             },
             "border-width": {
+              "$componentLevelToken": "true",
               "$type": "borderWidth",
               "$value": "{size-space.0-5-x}"
             }
           },
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.06}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "150%"
           }
@@ -3598,49 +3676,60 @@
         "contained": {
           "item": {
             "background-selected-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.default-mode-light}"
             },
             "background-selected-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.default-mode-dark}"
             },
             "padding-x": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.3-x}"
             },
             "padding-y": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.2-x}"
             },
             "box-shadow": {
+              "$componentLevelToken": "true",
               "$type": "boxShadow",
               "$value": "{box-shadow.global}"
             }
           },
           "padding": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.1-x}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.full}"
           },
           "tab": {
             "border-radius": {
+              "$componentLevelToken": "true",
               "$type": "borderRadius",
               "$value": "{border.radius.full}"
             }
           },
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.04}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.3%"
           }
@@ -3648,10 +3737,12 @@
         "minimal": {
           "item": {
             "background-selected-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.border.brand-mode-light}"
             },
             "background-selected-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.border.brand-mode-dark}"
             }
@@ -3660,51 +3751,62 @@
       },
       "tag": {
         "border-color-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-light}"
         },
         "border-color-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         },
         "gap": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.1-x}"
         },
         "squared": {
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border-radius.02}"
           }
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
         "default": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.04}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.3%"
           }
         },
         "small": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.02}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "133.3%"
           }
@@ -3713,58 +3815,71 @@
       "stepper": {
         "item": {
           "border-color-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-light}"
           },
           "border-color-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-dark}"
           },
           "padding-top": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "padding-bottom": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "padding-left": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "padding-right": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.6-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           },
           "border-width": {
+            "$componentLevelToken": "true",
             "$type": "borderWidth",
             "$value": "{border-width.02}"
           }
         },
         "title": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.06}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "125%"
           }
         },
         "subtitle": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.02}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           }
@@ -3772,75 +3887,92 @@
       },
       "date-picker": {
         "border-color-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         },
         "border-color-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         },
         "day": {
           "background-selected-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.default-mode-light}"
           },
           "background-selected-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.default-mode-dark}"
           },
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.04}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.3%"
           },
           "background-hover-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.hover-mode-light}"
           },
           "background-hover-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.hover-mode-dark}"
           }
         },
         "padding-x": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
         "padding-y": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "day-selected": {
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.default}"
           }
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.sm}"
         },
         "weekday": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.02}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "133.3%"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           }
@@ -3848,44 +3980,54 @@
       },
       "drawer": {
         "border-color-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-light}"
         },
         "border-color-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
       },
       "sheet": {
         "border-color-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         },
         "border-color-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         },
         "padding-x": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.6-x}"
         },
         "padding-y": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.6-x}"
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.none}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
@@ -3893,25 +4035,30 @@
       "scrollbar": {
         "track": {
           "background-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-light}"
           },
           "background-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-dark}"
           }
         },
         "thumb": {
           "background-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.neutral.400}"
           },
           "background-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.neutral.400}"
           }
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.full}"
         }
@@ -3919,76 +4066,92 @@
       "loader": {
         "track": {
           "background-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-light}"
           },
           "background-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-dark}"
           }
         },
         "progress": {
           "background-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-light}"
           },
           "background-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           }
         },
         "sm": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.02}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "133.3%"
           }
         },
         "md": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.04}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.3%"
           }
         },
         "lg": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.06}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.regular}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "150%"
           }
         },
         "xl": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.08}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "125%"
           }
@@ -3996,49 +4159,60 @@
       },
       "form-control": {
         "border-color-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-light}"
         },
         "border-color-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         },
         "background-mode-light": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.background.surface.default-mode-light}"
         },
         "background-mode-dark": {
+          "$componentLevelToken": "true",
           "$type": "color",
           "$value": "{color.background.surface.default-mode-dark}"
         },
         "default": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.3-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           }
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "border-width": {
+          "$componentLevelToken": "true",
           "$type": "borderWidth",
           "$value": "{border-width.01}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
         "large": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-5-x}"
           }
@@ -4046,18 +4220,22 @@
       },
       "breadcrumb": {
         "gap": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.0-5-x}"
         },
         "font-size": {
+          "$componentLevelToken": "true",
           "$type": "fontSizes",
           "$value": "{font-size.04}"
         },
         "font-weight": {
+          "$componentLevelToken": "true",
           "$type": "fontWeights",
           "$value": "{font-weight.primary.regular}"
         },
         "line-height": {
+          "$componentLevelToken": "true",
           "$type": "lineHeights",
           "$value": "142.9%"
         }
@@ -4065,137 +4243,168 @@
       "button": {
         "default": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.full}"
           },
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.06}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "150%"
           }
         },
         "small": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.3-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.1-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.full}"
           },
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.04}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.9%"
           }
         },
         "large": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.7-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.3-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.full}"
           },
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.07}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "133.3%"
           }
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
         "outline": {
           "border-width": {
+            "$componentLevelToken": "true",
             "$type": "borderWidth",
             "$value": "{border-width.02}"
           },
           "default": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.transparent}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.transparent}"
             },
             "border-color-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.border.default-mode-light}"
             },
             "border-color-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.border.default-mode-dark}"
             }
           },
           "hover": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.hover-mode-light}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.hover-mode-dark}"
             }
           },
           "active": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-light}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-dark}"
             }
@@ -4204,30 +4413,36 @@
         "primary": {
           "default": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-light}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-dark}"
             }
           },
           "hover": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-light}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-dark}"
             }
           },
           "active": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-light}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-dark}"
             }
@@ -4236,30 +4451,36 @@
         "secondary": {
           "default": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.secondary-mode-light}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.secondary-mode-dark}"
             }
           },
           "hover": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-light}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-dark}"
             }
           },
           "active": {
             "background-mode-light": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-hover-mode-light}"
             },
             "background-mode-dark": {
+              "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-hover-mode-dark}"
             }
@@ -4268,33 +4489,40 @@
       },
       "link": {
         "gap": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.1-x}"
         },
         "default": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.04}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.3%"
           }
         },
         "large": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{font-size.06}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "150%"
           }
@@ -4302,77 +4530,94 @@
       },
       "pagination": {
         "gap": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.0-x}"
         },
         "item-active": {
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.default}"
           },
           "box-shadow": {
+            "$componentLevelToken": "true",
             "$type": "boxShadow",
             "$value": "{box-shadow.global}"
           },
           "background-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.default-mode-light}"
           },
           "background-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.default-mode-dark}"
           }
         },
         "font-size": {
+          "$componentLevelToken": "true",
           "$type": "fontSizes",
           "$value": "{font-size.04}"
         },
         "font-weight": {
+          "$componentLevelToken": "true",
           "$type": "fontWeights",
           "$value": "{font-weight.primary.regular}"
         },
         "line-height": {
+          "$componentLevelToken": "true",
           "$type": "lineHeights",
           "$value": "142.3%"
         }
       },
       "list-item": {
         "font-size": {
+          "$componentLevelToken": "true",
           "$type": "fontSizes",
           "$value": "{font-size.04}"
         },
         "font-weight": {
+          "$componentLevelToken": "true",
           "$type": "fontWeights",
           "$value": "{font-weight.primary.regular}"
         },
         "line-height": {
+          "$componentLevelToken": "true",
           "$type": "lineHeights",
           "$value": "142.3%"
         },
         "default": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           }
         },
         "large": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.3-x}"
           },
           "gap": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
           }
@@ -4380,28 +4625,34 @@
         "contained": {
           "default": {
             "padding-x": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.1-5-x}"
             },
             "padding-y": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.1-x}"
             },
             "gap": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.2-x}"
             }
           },
           "large": {
             "padding-x": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.1-5-x}"
             },
             "padding-y": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.1-5-x}"
             },
             "gap": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.2-x}"
             }
@@ -4412,62 +4663,76 @@
         "cell": {
           "header": {
             "padding-x": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.4-x}"
             },
             "padding-y": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.3-x}"
             },
             "border-width": {
+              "$componentLevelToken": "true",
               "$type": "borderWidth",
               "$value": "{border-width.02}"
             },
             "font-size": {
+              "$componentLevelToken": "true",
               "$type": "fontSizes",
               "$value": "{font-size.04}"
             },
             "font-weight": {
+              "$componentLevelToken": "true",
               "$type": "fontWeights",
               "$value": "{font-weight.primary.medium}"
             },
             "line-height": {
+              "$componentLevelToken": "true",
               "$type": "lineHeights",
               "$value": "150%"
             }
           },
           "data": {
             "padding-x": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.4-x}"
             },
             "padding-y": {
+              "$componentLevelToken": "true",
               "$type": "spacing",
               "$value": "{size-space.4-x}"
             },
             "border-width": {
+              "$componentLevelToken": "true",
               "$type": "borderWidth",
               "$value": "{border-width.01}"
             },
             "font-size": {
+              "$componentLevelToken": "true",
               "$type": "fontSizes",
               "$value": "{font-size.04}"
             },
             "font-weight": {
+              "$componentLevelToken": "true",
               "$type": "fontWeights",
               "$value": "{font-weight.primary.regular}"
             },
             "line-height": {
+              "$componentLevelToken": "true",
               "$type": "lineHeights",
               "$value": "150%"
             }
           }
         },
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.none}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
@@ -4475,20 +4740,24 @@
       "textarea": {
         "default": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.3-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.3-x}"
           }
         },
         "large": {
           "padding-x": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.4-x}"
           },
           "padding-y": {
+            "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.3-x}"
           }
@@ -4496,10 +4765,12 @@
       },
       "drawer-picker": {
         "padding-x": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.2-x}"
         },
         "padding-y": {
+          "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         }
@@ -4507,48 +4778,58 @@
       "avatar": {
         "squared": {
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.default}"
           }
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
       },
       "badge": {
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.full}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
         "default": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{size-space.2-5-x}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "120%"
           }
         },
         "large": {
           "font-size": {
+            "$componentLevelToken": "true",
             "$type": "fontSizes",
             "$value": "{size-space.3-5-x}"
           },
           "font-weight": {
+            "$componentLevelToken": "true",
             "$type": "fontWeights",
             "$value": "{font-weight.primary.medium}"
           },
           "line-height": {
+            "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "114.3%"
           }
@@ -4556,64 +4837,77 @@
       },
       "checkbox": {
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border-radius.01}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
       },
       "radio": {
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.full}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
       },
       "file-upload": {
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "border-width": {
+          "$componentLevelToken": "true",
           "$type": "borderWidth",
           "$value": "{border-width.01}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
       },
       "toggle": {
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.full}"
         },
         "thumb": {
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.full}"
           },
           "box-shadow": {
+            "$componentLevelToken": "true",
             "$type": "boxShadow",
             "$value": "{box-shadow.global}"
           }
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
       },
       "tooltip": {
         "border-radius": {
+          "$componentLevelToken": "true",
           "$type": "borderRadius",
           "$value": "{border.radius.default}"
         },
         "box-shadow": {
+          "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         }
@@ -4621,28 +4915,34 @@
       "progress": {
         "track": {
           "background-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-light}"
           },
           "background-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-dark}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.full}"
           }
         },
         "progress-bar": {
           "background-mode-light": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-light}"
           },
           "background-mode-dark": {
+            "$componentLevelToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           },
           "border-radius": {
+            "$componentLevelToken": "true",
             "$type": "borderRadius",
             "$value": "{border.radius.none}"
           }
