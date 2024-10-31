@@ -1932,7 +1932,6 @@
     "color": {
       "brand": {
         "primary-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.teal.001}"
         },
@@ -1950,7 +1949,6 @@
           "$value": "{color.teal.001}"
         },
         "secondary-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.turquoise.001}"
         },
@@ -2094,7 +2092,6 @@
         "brand": {
           "primary": {
             "default-mode-light": {
-              "parent": "Semantic/Light",
               "$type": "color",
               "$value": "{color.brand.primary-mode-light}"
             },
@@ -2157,7 +2154,6 @@
           },
           "secondary": {
             "default-mode-light": {
-              "parent": "Semantic/Light",
               "$type": "color",
               "$value": "{color.brand.secondary-mode-light}"
             },
@@ -2858,7 +2854,6 @@
           "$value": "{color.neutral.500}"
         },
         "placeholder-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.gray.004}"
         },
@@ -2877,7 +2872,6 @@
           "$description": "Tertiary text;\nHelp text"
         },
         "neutral-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.gray.06-5}"
         },
@@ -2924,7 +2918,6 @@
           "$description": "Text on interactive colors;\nText on button colors"
         },
         "success-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.background.feedback.success.strong.hover-mode-light}"
         },
@@ -2933,7 +2926,6 @@
           "$value": "{color.green.400}"
         },
         "danger-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.background.feedback.danger.strong.hover-mode-light}"
         },
@@ -2942,7 +2934,6 @@
           "$value": "{color.red.400}"
         },
         "warning-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.background.feedback.warning.strong.hover-mode-light}"
         },
@@ -2951,7 +2942,6 @@
           "$value": "{color.amber.400}"
         },
         "information-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.blue.800}"
         },
@@ -2960,7 +2950,6 @@
           "$value": "{color.blue.400}"
         },
         "discovery-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.purple.800}"
         },
