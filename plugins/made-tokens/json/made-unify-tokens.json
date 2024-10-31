@@ -11939,60 +11939,72 @@
       "brand": {
         "primary": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.primary-mode-dark}"
         },
         "secondary": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.secondary-mode-dark}"
         }
       },
       "background": {
         "default": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.default-mode-dark}",
           "$description": "Default application background color. Should be set to either html or body element."
         },
         "disabled": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.disabled-mode-dark}"
         },
         "backdrop": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.backdrop-mode-dark}",
           "$description": "Background on overlay used with modals\t"
         },
         "surface": {
           "default": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-dark}",
             "$description": "Default application surface color. Use this for e.g. card backgrounds."
           },
           "secondary": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.secondary-mode-dark}"
           },
           "hover": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.hover-mode-dark}",
             "$description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
           "transparent": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.transparent-mode-dark}"
           },
           "selected": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.selected-mode-dark}",
             "$description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
           },
           "selected-hover": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.selected-hover-mode-dark}",
             "$description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
           },
           "inverse": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.inverse-mode-dark}",
             "$description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
@@ -12002,14 +12014,17 @@
           "primary": {
             "default": {
               "parent": "Semantic/Light",
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-dark}"
             },
             "hover": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-dark}"
             },
             "active": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-dark}"
             }
@@ -12017,14 +12032,17 @@
           "secondary": {
             "default": {
               "parent": "Semantic/Light",
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.brand.secondary-mode-dark}"
             },
             "hover": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-dark}"
             },
             "active": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-dark}"
             }
@@ -12033,27 +12051,33 @@
         "feedback": {
           "danger": {
             "default": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.default-mode-dark}"
             },
             "hover": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.hover-mode-dark}"
             },
             "active": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.active-mode-dark}"
             },
             "strong": {
               "default": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.default-mode-dark}"
               },
               "hover": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.hover-mode-dark}"
               },
               "active": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.active-mode-dark}"
               }
@@ -12061,29 +12085,35 @@
           },
           "warning": {
             "default": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.default-mode-dark}"
             },
             "hover": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.hover-mode-dark}"
             },
             "active": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.active-mode-dark}"
             },
             "strong": {
               "default": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.default-mode-dark}",
                 "$description": "color.background.warning.bold"
               },
               "hover": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.hover-mode-dark}",
                 "$description": "color.background.warning.bold.hover"
               },
               "active": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.active-mode-dark}",
                 "$description": "color.background.warning.bold.active"
@@ -12092,27 +12122,33 @@
           },
           "success": {
             "default": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.default-mode-dark}"
             },
             "hover": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.hover-mode-dark}"
             },
             "active": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.active-mode-dark}"
             },
             "strong": {
               "default": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.default-mode-dark}"
               },
               "hover": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.hover-mode-dark}"
               },
               "active": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.active-mode-dark}"
               }
@@ -12120,27 +12156,33 @@
           },
           "discovery": {
             "default": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.default-mode-dark}"
             },
             "hover": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.hover-mode-dark}"
             },
             "active": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.active-mode-dark}"
             },
             "strong": {
               "default": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.default-mode-dark}"
               },
               "hover": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.default-mode-dark}"
               },
               "active": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.active-mode-dark}"
               }
@@ -12148,27 +12190,33 @@
           },
           "information": {
             "default": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.default-mode-dark}"
             },
             "hover": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.hover-mode-dark}"
             },
             "active": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.active-mode-dark}"
             },
             "strong": {
               "default": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.default-mode-dark}"
               },
               "hover": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.hover-mode-dark}"
               },
               "active": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.active-mode-dark}"
               }
@@ -12176,27 +12224,33 @@
           },
           "neutral": {
             "default": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.default-mode-dark}"
             },
             "hover": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.hover-mode-dark}"
             },
             "active": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.active-mode-dark}"
             },
             "strong": {
               "default": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.default-mode-dark}"
               },
               "hover": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.hover-mode-dark}"
               },
               "active": {
+                "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.active-mode-dark}"
               }
@@ -12205,6 +12259,7 @@
         },
         "input": {
           "default": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.input.default-mode-dark}"
           }
@@ -12212,249 +12267,305 @@
       },
       "border": {
         "brand": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.brand-mode-dark}"
         },
         "default": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         },
         "bold": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.bold-mode-dark}"
         },
         "strong": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.strong-mode-dark}"
         },
         "neutral": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.neutral-mode-dark}"
         },
         "focused": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.focused-mode-dark}"
         },
         "disabled": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.disabled-mode-dark}"
         },
         "input": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.input-mode-dark}"
         },
         "success": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.success-mode-dark}"
         },
         "success-strong": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.success-strong-mode-dark}"
         },
         "danger": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.danger-mode-dark}"
         },
         "danger-strong": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.danger-strong-mode-dark}"
         },
         "warning": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.warning-mode-dark}"
         },
         "warning-strong": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.warning-strong-mode-dark}"
         },
         "information": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.information-mode-dark}"
         },
         "information-strong": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.information-strong-mode-dark}"
         },
         "discovery": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.discovery-mode-dark}"
         },
         "discovery-strong": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.discovery-strong-mode-dark}"
         },
         "inverse": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.inverse-mode-dark}"
         },
         "neutral-strong": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.neutral-strong-mode-dark}"
         }
       },
       "icon": {
         "brand": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.brand-mode-dark}"
         },
         "primary": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.primary-mode-dark}"
         },
         "secondary": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.secondary-mode-dark}"
         },
         "inverse": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.inverse-mode-dark}"
         },
         "disabled": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.disabled-mode-dark}"
         },
         "helper": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.helper-mode-dark}"
         },
         "neutral": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.neutral-mode-dark}"
         },
         "on-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.on-color-mode-dark}"
         },
         "success": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.success-mode-dark}"
         },
         "danger": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.danger-mode-dark}",
           "$description": "color.icon.danger"
         },
         "warning": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.warning-mode-dark}",
           "$description": "color.icon.warning"
         },
         "information": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.information-mode-dark}"
         },
         "discovery": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.discovery-mode-dark}"
         }
       },
       "text": {
         "brand": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.brand-mode-dark}",
           "$description": "Brand color. For use on primary links."
         },
         "primary": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.primary-mode-dark}",
           "$description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
         },
         "secondary": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.secondary-mode-dark}",
           "$description": "Secondary text;\nInput labels"
         },
         "inverse": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.inverse-mode-dark}",
           "$description": "Inverse text color"
         },
         "disabled": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.disabled-mode-dark}"
         },
         "placeholder": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.placeholder-mode-dark}"
         },
         "helper": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.helper-mode-dark}",
           "$description": "Tertiary text;\nHelp text"
         },
         "neutral": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.neutral-mode-dark}"
         },
         "selection-bg": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.selection-bg-mode-dark}",
-          "$description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+          "$description": "{This is a WIP property and may not be used. The background color of a selected text https://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
         },
         "on-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.on-color-mode-dark}",
           "$description": "Text on interactive colors;\nText on button colors"
         },
         "success": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.success-mode-dark}"
         },
         "danger": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.danger-mode-dark}"
         },
         "warning": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.warning-mode-dark}"
         },
         "information": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.information-mode-dark}"
         },
         "discovery": {
           "parent": "Semantic/Light",
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.discovery-mode-dark}"
         }
       },
       "link": {
         "default": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.default-mode-dark}"
         },
         "hover": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.hover-mode-dark}"
         },
         "active": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.active-mode-dark}"
         },
         "visited": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.visited-mode-dark}"
         },
         "neutral": {
           "default": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.default-mode-dark}"
           },
           "hover": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.hover-mode-dark}"
           },
           "active": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.active-mode-dark}"
           },
           "visited": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.visited-mode-dark}"
           }
@@ -12462,14 +12573,17 @@
       },
       "box-shadow": {
         "primary": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.primary-mode-dark}"
         },
         "secondary": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.secondary-mode-dark}"
         },
         "tertiary": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.tertiary-mode-dark}"
         }
@@ -12479,6 +12593,7 @@
       "accordion": {
         "contained": {
           "border-color": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-dark}"
           }
@@ -12487,6 +12602,7 @@
       "alert": {
         "default": {
           "border-color": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.border.neutral-mode-dark}"
           }
@@ -12494,18 +12610,21 @@
       },
       "modal": {
         "border-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         }
       },
       "card": {
         "border-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         }
       },
       "menu": {
         "border-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         }
@@ -12513,12 +12632,14 @@
       "range": {
         "thumb": {
           "border-color": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           }
         },
         "track-fill": {
           "background": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           }
@@ -12527,6 +12648,7 @@
       "rating": {
         "star": {
           "background-active": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.icon.brand-mode-dark}"
           }
@@ -12535,6 +12657,7 @@
       "tabs": {
         "default": {
           "border-color": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           }
@@ -12542,6 +12665,7 @@
         "contained": {
           "item": {
             "background-selected": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.default-mode-dark}"
             }
@@ -12550,6 +12674,7 @@
         "minimal": {
           "item": {
             "background-selected": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.border.brand-mode-dark}"
             }
@@ -12558,6 +12683,7 @@
       },
       "tag": {
         "border-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         }
@@ -12565,6 +12691,7 @@
       "stepper": {
         "item": {
           "border-color": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-dark}"
           }
@@ -12572,15 +12699,18 @@
       },
       "date-picker": {
         "border-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         },
         "day": {
           "background-selected": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.default-mode-dark}"
           },
           "background-hover": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.hover-mode-dark}"
           }
@@ -12588,12 +12718,14 @@
       },
       "drawer": {
         "border-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         }
       },
       "sheet": {
         "border-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.none}"
         }
@@ -12601,12 +12733,14 @@
       "scrollbar": {
         "track": {
           "background": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-dark}"
           }
         },
         "thumb": {
           "background": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.neutral.400}"
           }
@@ -12615,12 +12749,14 @@
       "loader": {
         "track": {
           "background": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.border.default-mode-dark}"
           }
         },
         "progress": {
           "background": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.border.brand-mode-dark}"
           }
@@ -12628,10 +12764,12 @@
       },
       "form-control": {
         "border-color": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.input-mode-dark}"
         },
         "background": {
+          "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.surface.default-mode-dark}"
         }
@@ -12639,6 +12777,7 @@
       "pagination": {
         "item-active": {
           "background": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{component.pagination.item-active.background-mode-dark}"
           }
@@ -12647,12 +12786,14 @@
       "progress": {
         "track": {
           "background": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{component.progress.track.background-mode-dark}"
           }
         },
         "progress-bar": {
           "background": {
+            "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{component.progress.progress-bar.background-mode-dark}"
           }
@@ -12662,18 +12803,21 @@
         "primary": {
           "default": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-dark}"
             }
           },
           "hover": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-dark}"
             }
           },
           "active": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-dark}"
             }
@@ -12682,18 +12826,21 @@
         "secondary": {
           "default": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.secondary-mode-dark}"
             }
           },
           "hover": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-dark}"
             }
           },
           "active": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-hover-mode-dark}"
             }
@@ -12702,22 +12849,26 @@
         "outline": {
           "default": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.transparent}"
             },
             "border-color": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.border.default-mode-dark}"
             }
           },
           "hover": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.hover-mode-dark}"
             }
           },
           "active": {
             "background": {
+              "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-dark}"
             }
