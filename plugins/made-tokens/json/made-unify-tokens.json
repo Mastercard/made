@@ -5088,7 +5088,6 @@
     "color": {
       "brand": {
         "primary-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.orange.04}"
         },
@@ -5097,7 +5096,6 @@
           "$value": "{color.orange.03}"
         },
         "secondary-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.orange.04}"
         },
@@ -5232,7 +5230,6 @@
         "brand": {
           "primary": {
             "default-mode-light": {
-              "parent": "Semantic/Light",
               "$type": "color",
               "$value": "{color.brand.primary-mode-light}"
             },
@@ -5259,7 +5256,6 @@
           },
           "secondary": {
             "default-mode-light": {
-              "parent": "Semantic/Light",
               "$type": "color",
               "$value": "{color.brand.secondary-mode-light}"
             },
@@ -5960,7 +5956,6 @@
           "$value": "{color.neutral.500}"
         },
         "placeholder-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.gray.04}"
         },
@@ -5979,7 +5974,6 @@
           "$description": "Tertiary text;\nHelp text"
         },
         "neutral-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.gray.06-5}"
         },
@@ -6026,7 +6020,6 @@
           "$description": "Text on interactive colors;\nText on button colors"
         },
         "success-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.background.feedback.success.strong.hover-mode-light}"
         },
@@ -6035,7 +6028,6 @@
           "$value": "{color.green.400}"
         },
         "danger-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.background.feedback.danger.strong.hover-mode-light}"
         },
@@ -6044,7 +6036,6 @@
           "$value": "{color.red.400}"
         },
         "warning-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.background.feedback.warning.strong.hover-mode-light}"
         },
@@ -6053,7 +6044,6 @@
           "$value": "{color.amber.400}"
         },
         "information-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.blue.800}"
         },
@@ -6062,7 +6052,6 @@
           "$value": "{color.blue.400}"
         },
         "discovery-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.purple.800}"
         },
@@ -8201,22 +8190,18 @@
     "color": {
       "brand": {
         "primary-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.neutral.900}"
         },
         "primary-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.white}"
         },
         "secondary-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.neutral.900}"
         },
         "secondary-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.white}"
         }
@@ -8347,12 +8332,10 @@
         "brand": {
           "primary": {
             "default-mode-light": {
-              "parent": "Semantic/Light",
               "$type": "color",
               "$value": "{color.brand.primary-mode-light}"
             },
             "default-mode-dark": {
-              "parent": "Semantic/Light",
               "$type": "color",
               "$value": "{color.white}"
             },
@@ -8375,12 +8358,10 @@
           },
           "secondary": {
             "default-mode-light": {
-              "parent": "Semantic/Light",
               "$type": "color",
               "$value": "{color.brand.secondary-mode-light}"
             },
             "default-mode-dark": {
-              "parent": "Semantic/Light",
               "$type": "color",
               "$value": "{color.white}"
             },
@@ -9086,12 +9067,10 @@
           "$value": "{color.neutral.500}"
         },
         "placeholder-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.neutral.500}"
         },
         "placeholder-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.neutral.400}"
         },
@@ -9106,12 +9085,10 @@
           "$description": "Tertiary text;\nHelp text"
         },
         "neutral-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.neutral.800}"
         },
         "neutral-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.neutral.200}"
         },
@@ -9154,52 +9131,42 @@
           "$description": "Text on interactive colors;\nText on button colors"
         },
         "success-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.green.800}"
         },
         "success-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.green.400}"
         },
         "danger-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.red.700}"
         },
         "danger-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.red.400}"
         },
         "warning-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.yellow.700}"
         },
         "warning-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.amber.400}"
         },
         "information-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.blue.800}"
         },
         "information-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.blue.400}"
         },
         "discovery-mode-light": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.purple.800}"
         },
         "discovery-mode-dark": {
-          "parent": "Semantic/Light",
           "$type": "color",
           "$value": "{color.purple.400}"
         }
@@ -11881,13 +11848,11 @@
     "color": {
       "brand": {
         "primary": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.primary-mode-light}"
         },
         "secondary": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.secondary-mode-light}"
@@ -11956,7 +11921,6 @@
         "brand": {
           "primary": {
             "default": {
-              "parent": "Semantic/Light",
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-light}"
@@ -11974,7 +11938,6 @@
           },
           "secondary": {
             "default": {
-              "parent": "Semantic/Light",
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.brand.secondary-mode-light}"
@@ -12410,7 +12373,6 @@
           "$value": "{color.text.disabled-mode-light}"
         },
         "placeholder": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.placeholder-mode-light}"
@@ -12422,7 +12384,6 @@
           "$description": "Tertiary text;\nHelp text"
         },
         "neutral": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.neutral-mode-light}"
@@ -12440,31 +12401,26 @@
           "$description": "Text on interactive colors;\nText on button colors"
         },
         "success": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.success-mode-light}"
         },
         "danger": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.danger-mode-light}"
         },
         "warning": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.warning-mode-light}"
         },
         "information": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.information-mode-light}"
         },
         "discovery": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.discovery-mode-light}"
@@ -12830,13 +12786,11 @@
     "color": {
       "brand": {
         "primary": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.primary-mode-dark}"
         },
         "secondary": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.secondary-mode-dark}"
@@ -12905,7 +12859,6 @@
         "brand": {
           "primary": {
             "default": {
-              "parent": "Semantic/Light",
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-dark}"
@@ -12923,7 +12876,6 @@
           },
           "secondary": {
             "default": {
-              "parent": "Semantic/Light",
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.brand.secondary-mode-dark}"
@@ -13359,7 +13311,6 @@
           "$value": "{color.text.disabled-mode-dark}"
         },
         "placeholder": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.placeholder-mode-dark}"
@@ -13371,7 +13322,6 @@
           "$description": "Tertiary text;\nHelp text"
         },
         "neutral": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.neutral-mode-dark}"
@@ -13389,31 +13339,26 @@
           "$description": "Text on interactive colors;\nText on button colors"
         },
         "success": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.success-mode-dark}"
         },
         "danger": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.danger-mode-dark}"
         },
         "warning": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.warning-mode-dark}"
         },
         "information": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.information-mode-dark}"
         },
         "discovery": {
-          "parent": "Semantic/Light",
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.discovery-mode-dark}"
