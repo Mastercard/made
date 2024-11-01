@@ -1371,14 +1371,14 @@
     },
     "paragraph-spacing": {
       "01": {
+        "$figmaOnly": "true",
         "$type": "paragraphSpacing",
-        "$value": "0",
-        "$description": "figma-only"
+        "$value": "0"
       },
       "02": {
+        "$figmaOnly": "true",
         "$type": "paragraphSpacing",
-        "$value": "18",
-        "$description": "figma-only"
+        "$value": "18"
       }
     },
     "text-case": {
