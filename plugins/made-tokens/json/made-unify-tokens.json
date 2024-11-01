@@ -1839,62 +1839,52 @@
       "teal": {
         "001": {
           "$type": "color",
-          "$value": "#18A886",
-          "$description": "figma-only"
+          "$value": "#18A886"
         }
       },
       "turquoise": {
         "001": {
           "$type": "color",
-          "$value": "#2BAAB9",
-          "$description": "figma-only"
+          "$value": "#2BAAB9"
         }
       },
       "accent": {
         "001": {
           "$type": "color",
-          "$value": "#FB853C",
-          "$description": "figma-only"
+          "$value": "#FB853C"
         },
         "002": {
           "$type": "color",
-          "$value": "#79B252",
-          "$description": "figma-only"
+          "$value": "#79B252"
         }
       },
       "error": {
         "001": {
           "$type": "color",
-          "$value": "#D7373C",
-          "$description": "figma-only"
+          "$value": "#D7373C"
         }
       },
       "gray": {
         "001": {
           "$type": "color",
-          "$value": "#F8F8F8",
-          "$description": "figma-only"
+          "$value": "#F8F8F8"
         },
         "002": {
           "$type": "color",
-          "$value": "#F0F0F0",
-          "$description": "figma-only"
+          "$value": "#F0F0F0"
         },
         "003": {
           "$type": "color",
-          "$value": "#BCBCBC",
-          "$description": "figma-only"
+          "$value": "#BCBCBC"
         },
         "004": {
           "$type": "color",
-          "$value": "#686868",
-          "$description": "figma-only"
+          "$value": "#686868"
         }
       },
       "black": {
         "$type": "color",
-        "$value": "#282828",
-        "$description": "figma-only"
+        "$value": "#282828"
       },
       "white": {
         "065": {
@@ -1908,8 +1898,7 @@
             }
           },
           "$type": "color",
-          "$value": "#ffffff",
-          "$description": "figma-only"
+          "$value": "#ffffff"
         },
         "022": {
           "$extensions": {
@@ -1922,8 +1911,7 @@
             }
           },
           "$type": "color",
-          "$value": "#ffffff",
-          "$description": "figma-only"
+          "$value": "#ffffff"
         }
       }
     }
