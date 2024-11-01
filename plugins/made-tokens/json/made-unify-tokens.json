@@ -3098,18 +3098,15 @@
     "font-family": {
       "primary": {
         "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "figma-only"
+        "$value": "Mark Offc For MC, Inter"
       },
       "secondary": {
         "$type": "fontFamilies",
-        "$value": "MarkForMCNrw, Inter",
-        "$description": "figma-only"
+        "$value": "MarkForMCNrw, Inter"
       },
       "tertiary": {
         "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "figma-only"
+        "$value": "Mark Offc For MC, Inter"
       }
     },
     "border": {
