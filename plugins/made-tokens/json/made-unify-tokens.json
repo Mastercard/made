@@ -9398,8 +9398,7 @@
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "Figma-only design token."
+        }
       },
       "h2": {
         "$type": "typography",
@@ -9413,8 +9412,7 @@
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "Figma-only design token."
+        }
       },
       "h3": {
         "$type": "typography",
@@ -9428,8 +9426,7 @@
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "Figma-only design token."
+        }
       },
       "h4": {
         "$type": "typography",
@@ -9443,8 +9440,7 @@
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "Figma-only design token."
+        }
       },
       "h5": {
         "$type": "typography",
@@ -9458,8 +9454,7 @@
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "Figma-only design token."
+        }
       },
       "h6": {
         "$type": "typography",
@@ -9473,8 +9468,7 @@
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "Figma-only design token."
+        }
       },
       "display": {
         "h1": {
@@ -9489,8 +9483,7 @@
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "Figma-only design token."
+          }
         },
         "h2": {
           "$type": "typography",
@@ -9504,8 +9497,7 @@
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "Figma-only design token."
+          }
         },
         "h3": {
           "$type": "typography",
@@ -9519,8 +9511,7 @@
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "Figma-only design token."
+          }
         }
       }
     },
@@ -9551,8 +9542,7 @@
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.uppercase}",
           "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "Figma-only design token."
+        }
       }
     },
     "link": {
@@ -9569,8 +9559,7 @@
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.underline}"
-          },
-          "$description": "Figma-only design token."
+          }
         },
         "default": {
           "$type": "typography",
@@ -9584,8 +9573,7 @@
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "Figma-only design token."
+          }
         }
       },
       "small": {
@@ -9601,8 +9589,7 @@
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.underline}"
-          },
-          "$description": "Figma-only design token."
+          }
         },
         "default": {
           "$type": "typography",
@@ -9616,8 +9603,7 @@
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "Figma-only design token."
+          }
         }
       }
     },
@@ -10065,19 +10051,19 @@
     },
     "font-family": {
       "primary": {
+        "$figmaOnly": "true",
         "$type": "fontFamilies",
-        "$value": "Geist, Inter",
-        "$description": "figma-only"
+        "$value": "Geist, Inter"
       },
       "secondary": {
+        "$figmaOnly": "true",
         "$type": "fontFamilies",
-        "$value": "Geist, Inter",
-        "$description": "figma-only"
+        "$value": "Geist, Inter"
       },
       "tertiary": {
+        "$figmaOnly": "true",
         "$type": "fontFamilies",
-        "$value": "Geist Mono, Inter",
-        "$description": "figma-only"
+        "$value": "Geist Mono, Inter"
       }
     },
     "component": {
