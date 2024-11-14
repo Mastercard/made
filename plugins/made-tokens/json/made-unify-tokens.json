@@ -11397,7 +11397,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{border-radius.08}"
         },
         "day-selected": {
           "border-radius": {
