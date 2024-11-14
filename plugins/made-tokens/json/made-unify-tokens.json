@@ -11414,12 +11414,12 @@
         "padding-x": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.4-x}"
+          "$value": "{size-space.6-x}"
         },
         "padding-y": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.4-x}"
+          "$value": "{size-space.6-x}"
         },
         "weekday": {
           "font-size": {
