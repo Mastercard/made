@@ -10246,7 +10246,7 @@
         "gap": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-5-x}"
+          "$value": "{size-space.1-5-x}"
         },
         "font-size": {
           "$componentLevelToken": "true",
