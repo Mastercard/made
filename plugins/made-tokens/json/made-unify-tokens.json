@@ -11510,7 +11510,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{border-radius.06}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
