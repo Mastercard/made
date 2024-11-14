@@ -11527,7 +11527,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{size-space.8-x}"
         },
         "border-color-mode-light": {
           "$componentLevelToken": "true",
