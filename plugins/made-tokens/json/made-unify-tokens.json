@@ -11177,12 +11177,10 @@
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
         },
-        "squared": {
-          "border-radius": {
-            "$componentLevelToken": "true",
-            "$type": "borderRadius",
-            "$value": "{border-radius.02}"
-          }
+        "border-radius": {
+          "$componentLevelToken": "true",
+          "$type": "borderRadius",
+          "$value": "{border-radius.02}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
