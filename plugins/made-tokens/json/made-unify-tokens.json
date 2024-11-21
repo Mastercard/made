@@ -11180,7 +11180,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border-radius.02}"
+          "$value": "{border.radius.full}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
