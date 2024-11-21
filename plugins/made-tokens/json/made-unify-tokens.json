@@ -8696,6 +8696,86 @@
             "$type": "color",
             "$value": "{color.neutral.950}"
           }
+        },
+        "disabled": {
+          "button-mode-light": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.5",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.neutral.400}"
+          },
+          "toggle-mode-light": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.15",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.neutral.400}"
+          },
+          "form-input-mode-light": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.neutral.400}"
+          },
+          "form-input-mode-dark": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.neutral.400}"
+          },
+          "toggle-mode-dark": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.15",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.neutral.400}"
+          },
+          "button-mode-dark": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.5",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.neutral.400}"
+          }
         }
       },
       "border": {
@@ -12146,6 +12226,18 @@
             "$type": "color",
             "$value": "{color.background.input.default-mode-light}"
           }
+        },
+        "disabled-button": {
+          "$type": "color",
+          "$value": "{color.background.disabled.button-mode-light}"
+        },
+        "disabled-toggle": {
+          "$type": "color",
+          "$value": "{color.background.disabled.toggle-mode-light}"
+        },
+        "disabled-form-input": {
+          "$type": "color",
+          "$value": "{color.background.disabled.form-input-mode-light}"
         }
       },
       "border": {
@@ -13085,6 +13177,18 @@
             "$type": "color",
             "$value": "{color.background.input.default-mode-dark}"
           }
+        },
+        "disabled-button": {
+          "$type": "color",
+          "$value": "{color.background.disabled.button-mode-dark}"
+        },
+        "disabled-toggle": {
+          "$type": "color",
+          "$value": "{color.background.disabled.toggle-mode-dark}"
+        },
+        "disabled-form-input": {
+          "$type": "color",
+          "$value": "{color.background.disabled.form-input-mode-dark}"
         }
       },
       "border": {
