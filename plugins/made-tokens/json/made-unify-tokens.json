@@ -4393,6 +4393,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons default / resting state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons default / resting state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
             }
           },
           "hover": {
@@ -4405,6 +4425,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons hover state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons hover state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
             }
           },
           "active": {
@@ -4417,6 +4457,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons active state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons active state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
             }
           }
         },
@@ -4431,6 +4491,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.secondary-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
             }
           },
           "hover": {
@@ -4443,6 +4523,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a secondary buttons hover state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a secondary buttons hover state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
             }
           },
           "active": {
@@ -4455,6 +4555,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-hover-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a secondary buttons active state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a secondary buttons active state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
             }
           }
         }
@@ -7491,6 +7611,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons default / resting state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons default / resting state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
             }
           },
           "hover": {
@@ -7503,6 +7643,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons hover state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons hover state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
             }
           },
           "active": {
@@ -7515,6 +7675,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons active state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons active state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
             }
           }
         },
@@ -7523,36 +7703,96 @@
             "background-mode-light": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.secondary-mode-light}"
+              "$value": "{color.background.surface.transparent-mode-light}"
             },
             "background-mode-dark": {
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.secondary-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.border.brand-mode-light}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.border.brand-mode-dark}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.brand-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.brand-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
             }
           },
           "hover": {
             "background-mode-light": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-mode-light}"
+              "$value": "{color.background.surface.transparent-mode-light}"
             },
             "background-mode-dark": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-mode-dark}"
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-light}",
+              "$description": "Color of border on a secondary buttons hover state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-dark}",
+              "$description": "Color of border on a secondary buttons hover state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
             }
           },
           "active": {
             "background-mode-light": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-hover-mode-light}"
+              "$value": "{color.background.surface.transparent-mode-light}"
             },
             "background-mode-dark": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-hover-mode-dark}"
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.active-mode-light}",
+              "$description": "Color of border on a secondary buttons active state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.active-mode-dark}",
+              "$description": "Color of border on a secondary buttons active state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.active-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.active-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
             }
           }
         }
@@ -10435,12 +10675,33 @@
             "background-mode-light": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-light}"
+              "$value": "{color.background.brand.primary.default-mode-light}",
+              "$description": "Background color of primary buttons in their default / resting state. "
             },
             "background-mode-dark": {
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons default / resting state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons default / resting state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
             }
           },
           "hover": {
@@ -10453,6 +10714,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons hover state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons hover state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
             }
           },
           "active": {
@@ -10465,6 +10746,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a primary buttons active state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a primary buttons active state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.on-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
             }
           }
         },
@@ -10479,6 +10780,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.secondary-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
             }
           },
           "hover": {
@@ -10491,6 +10812,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a secondary buttons hover state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a secondary buttons hover state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
             }
           },
           "active": {
@@ -10503,6 +10844,26 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-hover-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}",
+              "$description": "Color of border on a secondary buttons active state. "
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}",
+              "$description": "Color of border on a secondary buttons active state. "
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
             }
           }
         }
@@ -12677,7 +13038,18 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-light}"
+              "$value": "{color.background.brand.primary.default-mode-light}",
+              "$description": "Background color of primary buttons in their default / resting state. "
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.default.border-color-mode-light}",
+              "$description": "Color of border on a primary buttons default / resting state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.default.text-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
             }
           },
           "hover": {
@@ -12685,6 +13057,16 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-light}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.hover.border-color-mode-light}",
+              "$description": "Color of border on a primary buttons hover state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.hover.text-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
             }
           },
           "active": {
@@ -12692,6 +13074,16 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-light}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.active.border-color-mode-light}",
+              "$description": "Color of border on a primary buttons active state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.active.text-color-mode-light}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
             }
           }
         },
@@ -12701,6 +13093,16 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.secondary-mode-light}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.default.border-color-mode-light}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.default.text-color-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
             }
           },
           "hover": {
@@ -12708,6 +13110,16 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-light}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.hover.border-color-mode-light}",
+              "$description": "Color of border on a secondary buttons hover state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.hover.text-color-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
             }
           },
           "active": {
@@ -12715,6 +13127,16 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-hover-mode-light}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.active.border-color-mode-light}",
+              "$description": "Color of border on a secondary buttons active state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.active.text-color-mode-light}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
             }
           }
         },
@@ -13611,52 +14033,6 @@
         }
       },
       "button": {
-        "primary": {
-          "default": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-dark}"
-            }
-          },
-          "hover": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}"
-            }
-          },
-          "active": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}"
-            }
-          }
-        },
-        "secondary": {
-          "default": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.secondary-mode-dark}"
-            }
-          },
-          "hover": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.selected-mode-dark}"
-            }
-          },
-          "active": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.selected-hover-mode-dark}"
-            }
-          }
-        },
         "outline": {
           "default": {
             "background": {
@@ -13682,6 +14058,118 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-dark}"
+            }
+          }
+        },
+        "primary": {
+          "default": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-dark}",
+              "$description": "Background color of primary buttons in their default / resting state. "
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.default.border-color-mode-dark}",
+              "$description": "Color of border on a primary buttons default / resting state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.default.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
+            }
+          },
+          "hover": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-dark}",
+              "$description": "Background color of primary buttons in their hover state. "
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.hover.border-color-mode-dark}",
+              "$description": "Color of border on a primary buttons hover state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.hover.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
+            }
+          },
+          "active": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.active-mode-dark}",
+              "$description": "Background color of primary buttons in their active state. "
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.active.border-color-mode-dark}",
+              "$description": "Color of border on a primary buttons active state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.primary.active.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.secondary-mode-dark}",
+              "$description": "Background color of secondary buttons in their default / resting state. "
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.default.border-color-mode-dark}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.default.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
+            }
+          },
+          "hover": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.selected-mode-dark}",
+              "$description": "Background color of secondary buttons in their hover state. "
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.hover.border-color-mode-dark}",
+              "$description": "Color of border on a secondary buttons hover state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.hover.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
+            }
+          },
+          "active": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.selected-hover-mode-dark}",
+              "$description": "Background color of secondary buttons in their active state. "
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.active.border-color-mode-dark}",
+              "$description": "Color of border on a secondary buttons active state. "
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.secondary.active.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
             }
           }
         }
