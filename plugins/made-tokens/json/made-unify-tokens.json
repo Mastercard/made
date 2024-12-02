@@ -14008,15 +14008,15 @@
           "$value": "{color.border.none}"
         },
         "day": {
-          "background-selected": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-dark}"
-          },
           "background-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{component.date-picker.day.background-hover-mode-dark}"
+          },
+          "background-selected": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{color.background.brand.primary.default-mode-dark}"
           },
           "background-selected-hover": {
             "$type": "color",
