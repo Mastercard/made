@@ -3897,12 +3897,32 @@
           "background-hover-mode-light": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-light}"
+            "$value": "{color.background.surface.hover-mode-light}"
           },
           "background-hover-mode-dark": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-dark}"
+            "$value": "{color.background.surface.hover-mode-dark}"
+          },
+          "background-in-range-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.surface.secondary-mode-light}",
+            "$description": "Background color of in-range day elements"
+          },
+          "background-in-range-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.surface.secondary-mode-dark}",
+            "$description": "Background color of in-range day elements"
+          },
+          "background-selected-hover-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.brand.primary.hover-mode-light}",
+            "$description": "Hover color for selected day elements in the date range calendar"
+          },
+          "background-selected-hover-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.brand.primary.hover-mode-dark}",
+            "$description": "Hover color for selected day elements in the date range calendar"
           }
         },
         "padding-x": {
@@ -7115,12 +7135,32 @@
           "background-hover-mode-light": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-light}"
+            "$value": "{color.background.surface.hover-mode-light}"
           },
           "background-hover-mode-dark": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-dark}"
+            "$value": "{color.background.surface.hover-mode-dark}"
+          },
+          "background-in-range-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.surface.secondary-mode-light}",
+            "$description": "Background color of in-range day elements"
+          },
+          "background-in-range-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.surface.secondary-mode-dark}",
+            "$description": "Background color of in-range day elements"
+          },
+          "background-selected-hover-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.brand.primary.hover-mode-light}",
+            "$description": "Hover color for selected day elements in the date range calendar"
+          },
+          "background-selected-hover-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.brand.primary.hover-mode-dark}",
+            "$description": "Hover color for selected day elements in the date range calendar"
           }
         },
         "padding-x": {
@@ -11723,15 +11763,29 @@
             "$type": "color",
             "$value": "{color.background.brand.primary.default-mode-dark}"
           },
-          "background-hover-mode-light": {
+          "background-selected-hover-mode-light": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-light}"
+            "$value": "{color.background.brand.primary.hover-mode-light}",
+            "$description": "Hover color for selected day elements in the date range calendar"
           },
-          "background-hover-mode-dark": {
+          "background-selected-hover-mode-dark": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-dark}"
+            "$value": "{color.background.brand.primary.hover-mode-dark}",
+            "$description": "Hover color for selected day elements in the date range calendar"
+          },
+          "background-in-range-mode-light": {
+            "$componentLevelToken": "true",
+            "$type": "color",
+            "$value": "{color.background.surface.secondary-mode-light}",
+            "$description": "Background color of in-range day elements"
+          },
+          "background-in-range-mode-dark": {
+            "$componentLevelToken": "true",
+            "$type": "color",
+            "$value": "{color.background.surface.secondary-mode-dark}",
+            "$description": "Background color of in-range day elements"
           },
           "font-size": {
             "$componentLevelToken": "true",
@@ -11747,6 +11801,14 @@
             "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "142.3%"
+          },
+          "background-hover-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.surface.hover-mode-light}"
+          },
+          "background-hover-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.surface.hover-mode-dark}"
           }
         },
         "border-radius": {
@@ -12937,15 +12999,24 @@
           "$value": "{color.border.none}"
         },
         "day": {
+          "background-hover": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.date-picker.day.background-hover-mode-light}"
+          },
           "background-selected": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.brand.primary.default-mode-light}"
           },
-          "background-hover": {
-            "$colorSchemeToken": "true",
+          "background-selected-hover": {
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-light}"
+            "$value": "{component.date-picker.day.background-selected-hover-mode-light}",
+            "$description": "Hover color for selected day elements in the date range calendar"
+          },
+          "background-in-range": {
+            "$type": "color",
+            "$value": "{component.date-picker.day.background-in-range-mode-light}"
           }
         }
       },
@@ -13945,7 +14016,16 @@
           "background-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-dark}"
+            "$value": "{component.date-picker.day.background-hover-mode-dark}"
+          },
+          "background-selected-hover": {
+            "$type": "color",
+            "$value": "{component.date-picker.day.background-selected-hover-mode-dark}",
+            "$description": "Hover color for selected day elements in the date range calendar"
+          },
+          "background-in-range": {
+            "$type": "color",
+            "$value": "{component.date-picker.day.background-in-range-mode-dark}"
           }
         }
       },
