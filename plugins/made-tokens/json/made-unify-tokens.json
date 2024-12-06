@@ -5304,7 +5304,7 @@
           },
           "hover-mode-light": {
             "$type": "color",
-            "$value": "{color.gray.01-5}",
+            "$value": "{color.gray.01-25}",
             "$description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
           },
           "hover-mode-dark": {
