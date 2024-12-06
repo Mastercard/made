@@ -7144,7 +7144,7 @@
           },
           "background-in-range-mode-light": {
             "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-light}",
+            "$value": "{color.orange.01}",
             "$description": "Background color of in-range day elements"
           },
           "background-in-range-mode-dark": {
