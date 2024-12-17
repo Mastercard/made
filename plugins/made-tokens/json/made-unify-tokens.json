@@ -5743,7 +5743,7 @@
         },
         "brand-mode-dark": {
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.orange.03}"
         },
         "default-mode-light": {
           "$type": "color",
