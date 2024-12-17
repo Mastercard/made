@@ -2505,7 +2505,7 @@
         },
         "brand-mode-dark": {
           "$type": "color",
-          "$value": "{color.brand.primary-mode-light}"
+          "$value": "{color.brand.primary-mode-dark}"
         },
         "default-mode-light": {
           "$type": "color",
@@ -2571,7 +2571,7 @@
         },
         "focused-mode-dark": {
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.brand.primary-mode-dark}"
         },
         "disabled-mode-light": {
           "$type": "color",
