@@ -2505,7 +2505,7 @@
         },
         "brand-mode-dark": {
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.brand.primary-mode-light}"
         },
         "default-mode-light": {
           "$type": "color",
@@ -6850,7 +6850,7 @@
           "border-color-mode-dark": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.border.brand-mode-dark}"
+            "$value": "{color.orange.03}"
           },
           "item": {
             "padding-x": {
@@ -6956,7 +6956,7 @@
             "background-selected-mode-dark": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.border.brand-mode-dark}"
+              "$value": "{color.orange.03}"
             }
           }
         }
@@ -14271,8 +14271,7 @@
       "selectedTokenSets": {
         "primitives/Unify": "enabled"
       },
-      "$figmaVariableReferences": {
-      },
+      "$figmaVariableReferences": {},
       "group": "primit. - Unify"
     },
     {
@@ -14283,8 +14282,7 @@
         "primitives/Mastercard": "enabled",
         "primitives/Unify": "source"
       },
-      "$figmaVariableReferences": {
-      },
+      "$figmaVariableReferences": {},
       "group": "primit. - Mastercard"
     },
     {
@@ -14295,50 +14293,43 @@
         "primitives/Partnerbank": "enabled",
         "primitives/Unify": "source"
       },
-      "$figmaVariableReferences": {
-      },
+      "$figmaVariableReferences": {},
       "group": "primit. - Partnerbank"
     },
     {
       "id": "4a552b046736c51da7f4a5e10cca693c63370944",
       "name": "Unify",
-      "$figmaStyleReferences": {
-      },
+      "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "primitives/Unify": "source",
         "theme/Unify": "enabled"
       },
-      "$figmaVariableReferences": {
-      },
+      "$figmaVariableReferences": {},
       "group": "theme"
     },
     {
       "id": "b6376c94688da77605570efa499cb3a437b2305c",
       "name": "Mastercard",
-      "$figmaStyleReferences": {
-      },
+      "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "primitives/Unify": "source",
         "primitives/Mastercard": "source",
         "theme/Mastercard": "enabled"
       },
-      "$figmaVariableReferences": {
-      },
+      "$figmaVariableReferences": {},
       "group": "theme"
     },
     {
       "id": "def36ffc6cb3eb49edffc41019d9db212dfd3308",
       "name": "Partnerbank",
-      "$figmaStyleReferences": {
-      },
+      "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "primitives/Unify": "source",
         "primitives/Partnerbank": "source",
         "theme/Partnerbank": "enabled",
         "primitives/Mastercard": "source"
       },
-      "$figmaVariableReferences": {
-      },
+      "$figmaVariableReferences": {},
       "group": "theme"
     },
     {
@@ -14354,8 +14345,7 @@
         "theme/Unify": "source",
         "theme/Mastercard": "source"
       },
-      "$figmaVariableReferences": {
-      },
+      "$figmaVariableReferences": {},
       "group": "mode"
     },
     {
@@ -14371,8 +14361,7 @@
         "mode/dark": "enabled",
         "theme/Mastercard": "source"
       },
-      "$figmaVariableReferences": {
-      },
+      "$figmaVariableReferences": {},
       "group": "mode"
     }
   ],
