@@ -4354,52 +4354,6 @@
             "$componentLevelToken": "true",
             "$type": "borderWidth",
             "$value": "{border-width.02}"
-          },
-          "default": {
-            "background-mode-light": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.transparent}"
-            },
-            "background-mode-dark": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.transparent}"
-            },
-            "border-color-mode-light": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.border.default-mode-light}"
-            },
-            "border-color-mode-dark": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.border.default-mode-dark}"
-            }
-          },
-          "hover": {
-            "background-mode-light": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.hover-mode-light}"
-            },
-            "background-mode-dark": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.hover-mode-dark}"
-            }
-          },
-          "active": {
-            "background-mode-light": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.selected-mode-light}"
-            },
-            "background-mode-dark": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.selected-mode-dark}"
-            }
           }
         },
         "primary": {
@@ -4595,6 +4549,94 @@
               "$type": "color",
               "$value": "{color.text.primary-mode-dark}",
               "$description": "Color of text and icon elements on a secondary buttons active state. "
+            }
+          }
+        },
+        "ghost": {
+          "default": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.transparent}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.transparent}"
+            },
+            "border-color-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}"
+            },
+            "border-color-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
+            }
+          },
+          "hover": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}"
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
+            }
+          },
+          "active": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.selected-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.selected-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}"
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
             }
           }
         }
@@ -7592,52 +7634,6 @@
             "$componentLevelToken": "true",
             "$type": "borderWidth",
             "$value": "{border-width.02}"
-          },
-          "default": {
-            "background-mode-light": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.transparent}"
-            },
-            "background-mode-dark": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.transparent}"
-            },
-            "border-color-mode-light": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.border.default-mode-light}"
-            },
-            "border-color-mode-dark": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.border.default-mode-dark}"
-            }
-          },
-          "hover": {
-            "background-mode-light": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.hover-mode-light}"
-            },
-            "background-mode-dark": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.hover-mode-dark}"
-            }
-          },
-          "active": {
-            "background-mode-light": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.selected-mode-light}"
-            },
-            "background-mode-dark": {
-              "$componentLevelToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.selected-mode-dark}"
-            }
           }
         },
         "primary": {
@@ -7833,6 +7829,94 @@
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-dark}",
               "$description": "Color of text and icon elements on a secondary buttons active state. "
+            }
+          }
+        },
+        "ghost": {
+          "default": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.transparent}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.transparent}"
+            },
+            "border-color-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}"
+            },
+            "border-color-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
+            }
+          },
+          "hover": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}"
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
+            }
+          },
+          "active": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.selected-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.selected-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}"
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
             }
           }
         }
@@ -10662,7 +10746,9 @@
             "$componentLevelToken": "true",
             "$type": "borderWidth",
             "$value": "{border-width.01}"
-          },
+          }
+        },
+        "ghost": {
           "default": {
             "background-mode-light": {
               "$componentLevelToken": "true",
@@ -10677,12 +10763,20 @@
             "border-color-mode-light": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.border.default-mode-light}"
+              "$value": "{color.background.surface.transparent-mode-light}"
             },
             "border-color-mode-dark": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.border.default-mode-dark}"
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
             }
           },
           "hover": {
@@ -10695,6 +10789,22 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.hover-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}"
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
             }
           },
           "active": {
@@ -10707,6 +10817,22 @@
               "$componentLevelToken": "true",
               "$type": "color",
               "$value": "{color.background.surface.selected-mode-dark}"
+            },
+            "border-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-light}"
+            },
+            "border-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.transparent-mode-dark}"
+            },
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
             }
           }
         },
@@ -13211,31 +13337,51 @@
             }
           }
         },
-        "outline": {
+        "ghost": {
           "default": {
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.transparent}"
+              "$value": "{component.button.ghost.default.background-mode-light}"
             },
             "border-color": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.border.default-mode-light}"
+              "$value": "{component.button.ghost.default.border-color-mode-light}"
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.default.text-color-mode-light}"
             }
           },
           "hover": {
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.hover-mode-light}"
+              "$value": "{component.button.ghost.hover.background-mode-light}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.hover.border-color-mode-light}"
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.hover.text-color-mode-light}"
             }
           },
           "active": {
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-mode-light}"
+              "$value": "{component.button.ghost.active.background-mode-light}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.default.border-color-mode-light}"
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.active.text-color-mode-light}"
             }
           }
         }
@@ -14113,34 +14259,6 @@
         }
       },
       "button": {
-        "outline": {
-          "default": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.transparent}"
-            },
-            "border-color": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.border.default-mode-dark}"
-            }
-          },
-          "hover": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.hover-mode-dark}"
-            }
-          },
-          "active": {
-            "background": {
-              "$colorSchemeToken": "true",
-              "$type": "color",
-              "$value": "{color.background.surface.selected-mode-dark}"
-            }
-          }
-        },
         "primary": {
           "default": {
             "background": {
@@ -14250,6 +14368,54 @@
               "$type": "color",
               "$value": "{component.button.secondary.active.text-color-mode-dark}",
               "$description": "Color of text and icon elements on a secondary buttons active state. "
+            }
+          }
+        },
+        "ghost": {
+          "default": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.button.ghost.default.background-mode-dark}"
+            },
+            "border-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.button.ghost.default.border-color-mode-dark}"
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.default.text-color-mode-dark}"
+            }
+          },
+          "hover": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.button.ghost.hover.background-mode-dark}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.hover.border-color-mode-dark}"
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.hover.text-color-mode-dark}"
+            }
+          },
+          "active": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.button.ghost.active.background-mode-dark}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.default.border-color-mode-dark}"
+            },
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.button.ghost.active.text-color-mode-dark}"
             }
           }
         }
