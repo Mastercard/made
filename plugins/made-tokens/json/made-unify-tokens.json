@@ -4969,6 +4969,10 @@
             "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "120%"
+          },
+          "padding-x": {
+            "$type": "spacing",
+            "$value": "{size-space.2-x}"
           }
         },
         "large": {
@@ -4986,6 +4990,10 @@
             "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "114.3%"
+          },
+          "padding-x": {
+            "$type": "spacing",
+            "$value": "{size-space.2-5-x}"
           }
         }
       },
@@ -8249,6 +8257,10 @@
             "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "120%"
+          },
+          "padding-x": {
+            "$type": "spacing",
+            "$value": "{size-space.2-x}"
           }
         },
         "large": {
@@ -8266,6 +8278,10 @@
             "$componentLevelToken": "true",
             "$type": "lineHeights",
             "$value": "114.3%"
+          },
+          "padding-x": {
+            "$type": "spacing",
+            "$value": "{size-space.2-5-x}"
           }
         }
       },
