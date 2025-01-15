@@ -5060,6 +5060,24 @@
           "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
+        },
+        "background": {
+          "off-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.feedback.neutral.hover-mode-light}"
+          },
+          "off-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.feedback.neutral.hover-mode-dark}"
+          },
+          "on-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.feedback.success.strong.default-mode-light}"
+          },
+          "on-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.feedback.success.strong.default-mode-dark}"
+          }
         }
       },
       "tooltip": {
@@ -8348,6 +8366,24 @@
           "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
+        },
+        "background": {
+          "off-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.feedback.neutral.hover-mode-light}"
+          },
+          "off-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.feedback.neutral.hover-mode-dark}"
+          },
+          "on-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.feedback.success.strong.default-mode-light}"
+          },
+          "on-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.feedback.success.strong.default-mode-dark}"
+          }
         }
       },
       "tooltip": {
@@ -12063,6 +12099,24 @@
           "$componentLevelToken": "true",
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
+        },
+        "background": {
+          "off-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.feedback.neutral.hover-mode-light}"
+          },
+          "off-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.feedback.neutral.hover-mode-dark}"
+          },
+          "on-mode-light": {
+            "$type": "color",
+            "$value": "{color.background.feedback.success.strong.default-mode-light}"
+          },
+          "on-mode-dark": {
+            "$type": "color",
+            "$value": "{color.background.feedback.success.strong.default-mode-dark}"
+          }
         }
       },
       "tooltip": {
@@ -13401,6 +13455,18 @@
             }
           }
         }
+      },
+      "toggle": {
+        "background": {
+          "off": {
+            "$type": "color",
+            "$value": "{component.toggle.background.off-mode-light}"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "{component.toggle.background.on-mode-light}"
+          }
+        }
       }
     },
     "color-scheme": {
@@ -14433,6 +14499,18 @@
               "$type": "color",
               "$value": "{component.button.ghost.active.text-color-mode-dark}"
             }
+          }
+        }
+      },
+      "toggle": {
+        "background": {
+          "off": {
+            "$type": "color",
+            "$value": "{component.toggle.background.off-mode-dark}"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "{component.toggle.background.on-mode-dark}"
           }
         }
       }
