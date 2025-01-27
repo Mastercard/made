@@ -6924,7 +6924,7 @@
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.0-x}"
+              "$value": "{size-space.4-x}"
             },
             "padding-y": {
               "$componentLevelToken": "true",
