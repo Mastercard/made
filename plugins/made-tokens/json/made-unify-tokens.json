@@ -3782,6 +3782,19 @@
             "$type": "lineHeights",
             "$value": "133.3%"
           }
+        },
+        "warning": {
+          "contrast-high": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.07}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.gray.07}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            }
+          }
         }
       },
       "stepper": {
@@ -4994,6 +5007,20 @@
           "padding-x": {
             "$type": "spacing",
             "$value": "{size-space.2-5-x}"
+          }
+        },
+        "warning": {
+          "contrast-high": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.07}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.gray.07}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            }
           }
         }
       },
@@ -7088,6 +7115,19 @@
             "$type": "lineHeights",
             "$value": "133.3%"
           }
+        },
+        "warning": {
+          "contrast-high": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.07}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.gray.07}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            }
+          }
         }
       },
       "stepper": {
@@ -8300,6 +8340,20 @@
           "padding-x": {
             "$type": "spacing",
             "$value": "{size-space.2-5-x}"
+          }
+        },
+        "warning": {
+          "contrast-high": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.07}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.gray.07}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            }
           }
         }
       },
@@ -11247,6 +11301,20 @@
             "$type": "spacing",
             "$value": "{size-space.2-5-x}"
           }
+        },
+        "warning": {
+          "contrast-high": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.neutral.900}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.neutral.900}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            }
+          }
         }
       },
       "card": {
@@ -11766,6 +11834,19 @@
           "$componentLevelToken": "true",
           "$type": "spacing",
           "$value": "{size-space.1-x}"
+        },
+        "warning": {
+          "contrast-high": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.neutral.900}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.neutral.900}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            }
+          }
         }
       },
       "table": {
@@ -13177,6 +13258,15 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-light}"
+        },
+        "warning": {
+          "contrast-high": {
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.tag.warning.contrast-high.text-color-mode-light}",
+              "$description": "Text color for Warning Tags in their High Contrast variant style. "
+            }
+          }
         }
       },
       "stepper": {
@@ -13465,6 +13555,17 @@
           "on": {
             "$type": "color",
             "$value": "{component.toggle.background.on-mode-light}"
+          }
+        }
+      },
+      "badge": {
+        "warning": {
+          "contrast-high": {
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.badge.warning.contrast-high.text-color-mode-light}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            }
           }
         }
       }
@@ -14218,6 +14319,15 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-dark}"
+        },
+        "warning": {
+          "contrast-high": {
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.tag.warning.contrast-high.text-color-mode-dark}",
+              "$description": "Text color for Warning Tags in their High Contrast variant style. "
+            }
+          }
         }
       },
       "stepper": {
@@ -14511,6 +14621,17 @@
           "on": {
             "$type": "color",
             "$value": "{component.toggle.background.on-mode-dark}"
+          }
+        }
+      },
+      "badge": {
+        "warning": {
+          "contrast-high": {
+            "text-color": {
+              "$type": "color",
+              "$value": "{component.badge.warning.contrast-high.text-color-mode-dark}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
+            }
           }
         }
       }
