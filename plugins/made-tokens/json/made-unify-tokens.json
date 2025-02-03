@@ -4093,7 +4093,7 @@
             "$value": "{color.border.brand-mode-dark}"
           }
         },
-        "sm": {
+        "small": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -4110,7 +4110,7 @@
             "$value": "133.3%"
           }
         },
-        "md": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -4127,7 +4127,7 @@
             "$value": "142.3%"
           }
         },
-        "lg": {
+        "large": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -4144,7 +4144,7 @@
             "$value": "150%"
           }
         },
-        "xl": {
+        "x-large": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -7426,7 +7426,7 @@
             "$value": "{color.border.brand-mode-dark}"
           }
         },
-        "sm": {
+        "small": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -7443,7 +7443,7 @@
             "$value": "133.3%"
           }
         },
-        "md": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -7460,7 +7460,7 @@
             "$value": "142.3%"
           }
         },
-        "lg": {
+        "large": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -7477,7 +7477,7 @@
             "$value": "150%"
           }
         },
-        "xl": {
+        "x-large": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -12322,7 +12322,7 @@
             "$value": "{color.border.brand-mode-dark}"
           }
         },
-        "sm": {
+        "small": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -12339,7 +12339,7 @@
             "$value": "133.3%"
           }
         },
-        "md": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -12356,7 +12356,7 @@
             "$value": "142.3%"
           }
         },
-        "lg": {
+        "large": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -12373,7 +12373,7 @@
             "$value": "150%"
           }
         },
-        "xl": {
+        "x-large": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
