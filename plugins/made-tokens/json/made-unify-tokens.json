@@ -3146,45 +3146,45 @@
     },
     "grid": {
       "gutters": {
-        "sm": {
+        "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}"
         },
-        "md": {
+        "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "lg": {
+        "large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "xl": {
+        "x-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "2xl": {
+        "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         }
       },
       "margin": {
-        "sm": {
+        "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}"
         },
-        "md": {
+        "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "lg": {
+        "large": {
           "$type": "spacing",
           "$value": "{size-space.8-x}"
         },
-        "xl": {
+        "x-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}"
         },
-        "2xl": {
+        "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}"
         }
@@ -6479,45 +6479,45 @@
     },
     "grid": {
       "gutters": {
-        "sm": {
+        "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}"
         },
-        "md": {
+        "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "lg": {
+        "large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "xl": {
+        "x-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "2xl": {
+        "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         }
       },
       "margin": {
-        "sm": {
+        "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}"
         },
-        "md": {
+        "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "lg": {
+        "large": {
           "$type": "spacing",
           "$value": "{size-space.8-x}"
         },
-        "xl": {
+        "x-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}"
         },
-        "2xl": {
+        "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}"
         }
@@ -9772,45 +9772,45 @@
     },
     "grid": {
       "gutters": {
-        "sm": {
+        "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}"
         },
-        "md": {
+        "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "lg": {
+        "large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "xl": {
+        "x-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "2xl": {
+        "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         }
       },
       "margin": {
-        "sm": {
+        "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}"
         },
-        "md": {
+        "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}"
         },
-        "lg": {
+        "large": {
           "$type": "spacing",
           "$value": "{size-space.8-x}"
         },
-        "xl": {
+        "x-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}"
         },
-        "2xl": {
+        "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}"
         }
