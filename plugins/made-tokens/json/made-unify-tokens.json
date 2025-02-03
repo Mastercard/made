@@ -3318,7 +3318,7 @@
           "box-shadow": {
             "$componentLevelToken": "true",
             "$type": "boxShadow",
-            "$value": "{box-shadow.md}"
+            "$value": "{box-shadow.medium}"
           }
         },
         "border-radius": {
@@ -3407,7 +3407,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.lg}"
+          "$value": "{box-shadow.large}"
         },
         "title": {
           "font-size": {
@@ -3490,7 +3490,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.sm}"
+          "$value": "{box-shadow.small}"
         }
       },
       "menu": {
@@ -3522,7 +3522,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.md}"
+          "$value": "{box-shadow.medium}"
         }
       },
       "range": {
@@ -3963,7 +3963,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.sm}"
+          "$value": "{box-shadow.small}"
         },
         "weekday": {
           "font-size": {
@@ -5180,7 +5180,7 @@
         },
         "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
       },
-      "sm": {
+      "small": {
         "$type": "boxShadow",
         "$value": {
           "x": "0",
@@ -5214,7 +5214,7 @@
         ],
         "$description": "Default drop shadow"
       },
-      "md": {
+      "medium": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -5236,7 +5236,7 @@
         ],
         "$description": "Medium drop shadow"
       },
-      "lg": {
+      "large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -5258,7 +5258,7 @@
         ],
         "$description": "Large drop shadow"
       },
-      "xl": {
+      "x-large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -5280,7 +5280,7 @@
         ],
         "$description": "Extra large drop shadow"
       },
-      "2xl": {
+      "xx-large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -6651,7 +6651,7 @@
           "box-shadow": {
             "$componentLevelToken": "true",
             "$type": "boxShadow",
-            "$value": "{box-shadow.md}"
+            "$value": "{box-shadow.medium}"
           }
         },
         "border-radius": {
@@ -6740,7 +6740,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.lg}"
+          "$value": "{box-shadow.large}"
         },
         "title": {
           "font-size": {
@@ -6823,7 +6823,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.sm}"
+          "$value": "{box-shadow.small}"
         }
       },
       "menu": {
@@ -6855,7 +6855,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.md}"
+          "$value": "{box-shadow.medium}"
         }
       },
       "range": {
@@ -7296,7 +7296,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.sm}"
+          "$value": "{box-shadow.small}"
         },
         "weekday": {
           "font-size": {
@@ -8513,7 +8513,7 @@
         },
         "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
       },
-      "sm": {
+      "small": {
         "$type": "boxShadow",
         "$value": {
           "x": "0",
@@ -8547,7 +8547,7 @@
         ],
         "$description": "Default drop shadow"
       },
-      "md": {
+      "medium": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -8569,7 +8569,7 @@
         ],
         "$description": "Medium drop shadow"
       },
-      "lg": {
+      "large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -8591,7 +8591,7 @@
         ],
         "$description": "Large drop shadow"
       },
-      "xl": {
+      "x-large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -8613,7 +8613,7 @@
         ],
         "$description": "Extra large drop shadow"
       },
-      "2xl": {
+      "xx-large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -10400,7 +10400,7 @@
         },
         "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
       },
-      "sm": {
+      "small": {
         "$type": "boxShadow",
         "$value": {
           "x": "0",
@@ -10434,7 +10434,7 @@
         ],
         "$description": "Default drop shadow"
       },
-      "md": {
+      "medium": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -10456,7 +10456,7 @@
         ],
         "$description": "Medium drop shadow"
       },
-      "lg": {
+      "large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -10478,7 +10478,7 @@
         ],
         "$description": "Large drop shadow"
       },
-      "xl": {
+      "x-large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -10500,7 +10500,7 @@
         ],
         "$description": "Extra large drop shadow"
       },
-      "2xl": {
+      "xx-large": {
         "$type": "boxShadow",
         "$value": [
           {
@@ -10638,7 +10638,7 @@
           "box-shadow": {
             "$componentLevelToken": "true",
             "$type": "boxShadow",
-            "$value": "{box-shadow.md}"
+            "$value": "{box-shadow.medium}"
           },
           "padding-x": {
             "$componentLevelToken": "true",
@@ -11198,7 +11198,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.lg}"
+          "$value": "{box-shadow.large}"
         },
         "content": {
           "font-size": {
@@ -11336,7 +11336,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.sm}"
+          "$value": "{box-shadow.small}"
         },
         "border-color-mode-light": {
           "$componentLevelToken": "true",
@@ -11353,7 +11353,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.md}"
+          "$value": "{box-shadow.medium}"
         },
         "border-color-mode-light": {
           "$componentLevelToken": "true",
@@ -12085,7 +12085,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.sm}"
+          "$value": "{box-shadow.small}"
         },
         "padding-x": {
           "$componentLevelToken": "true",
