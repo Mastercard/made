@@ -10206,7 +10206,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.secondary}",
-            "fontWeight": "{font-weight.secondary.regular}",
+            "fontWeight": "{font-weight.regular}",
             "lineHeight": "{line.height.rem-05}",
             "fontSize": "{font-size.06}",
             "letterSpacing": "{letter-spacing.01}",
@@ -10220,7 +10220,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.secondary}",
-            "fontWeight": "{font-weight.secondary.regular}",
+            "fontWeight": "{font-weight.regular}",
             "lineHeight": "{line.height.rem-04}",
             "fontSize": "{font-size.06}",
             "letterSpacing": "{letter-spacing.01}",
@@ -10234,7 +10234,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.secondary}",
-            "fontWeight": "{font-weight.secondary.regular}",
+            "fontWeight": "{font-weight.regular}",
             "lineHeight": "{line.height.rem-04}",
             "fontSize": "{font-size.04}",
             "letterSpacing": "{letter-spacing.01}",
