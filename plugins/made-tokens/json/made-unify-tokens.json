@@ -12578,7 +12578,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.selected-hover-mode-light}",
-            "$description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+            "$description": "The selected hover state color for the color.background.surface.default token. [🔎 surface; selected hover;]"
           },
           "inverse": {
             "$colorSchemeToken": "true",
