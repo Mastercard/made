@@ -12515,12 +12515,14 @@
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.brand.primary-mode-light}"
+          "$value": "{color.brand.primary-mode-light}",
+          "$description": "The primary brand color also used as the primary accent color. [🔎 brand; accent; primary;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.brand.secondary-mode-light}"
+          "$value": "{color.brand.secondary-mode-light}",
+          "$description": "The secondary brand color. If your color system has only one brand color, using this token is optional. [🔎 brand; accent; secondary;]"
         }
       },
       "background": {
@@ -12528,12 +12530,13 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.default-mode-light}",
-          "$description": "Default application background color. Should be set to either html or body element."
+          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [🔎 body; html; canvas; page; fill; solid;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.disabled-mode-light}"
+          "$value": "{color.background.disabled-mode-light}",
+          "$description": "The background color of the elements in a disabled state. [🔎 disabled; inactive; fill; solid;]"
         },
         "backdrop": {
           "$colorSchemeToken": "true",
