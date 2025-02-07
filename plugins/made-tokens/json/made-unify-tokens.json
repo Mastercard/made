@@ -12585,6 +12585,11 @@
             "$type": "color",
             "$value": "{color.background.surface.inverse-mode-light}",
             "$description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+          },
+          "secondary-hover": {
+            "$type": "color",
+            "$value": "{color.background.surface.secondary-hover-mode-light}",
+            "$description": "The hover state color for the color.background.surface.secondary token. [🔎 surface; secondary; hover;]"
           }
         },
         "brand": {
@@ -13646,6 +13651,10 @@
             "$type": "color",
             "$value": "{color.background.surface.inverse-mode-dark}",
             "$description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+          },
+          "secondary-hover": {
+            "$type": "color",
+            "$value": "{color.background.surface.secondary-hover-mode-dark}"
           }
         },
         "brand": {
