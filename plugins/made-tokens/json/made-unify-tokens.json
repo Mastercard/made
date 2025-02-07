@@ -12549,18 +12549,19 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-light}",
-            "$description": "Default application surface color. Use this for e.g. card backgrounds."
+            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [🔎 surface; default; primary;]"
           },
           "secondary": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-light}"
+            "$value": "{color.background.surface.secondary-mode-light}",
+            "$description": "The secondary surface color, typically applied to the backgrounds of content cards, sections, and similar components. [🔎 surface; secondary;]"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.hover-mode-light}",
-            "$description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
+            "$description": "The hover state color for the color.background.surface.default token. It should be used as the background color for the hover state of elements like dropdown list items, interactive cards, and more. [🔎 surface; hover;]"
           },
           "transparent": {
             "$colorSchemeToken": "true",
@@ -12571,7 +12572,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.selected-mode-light}",
-            "$description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
+            "$description": "The selected state color for the color.background.surface.default token. [🔎 surface; selected;]"
           },
           "selected-hover": {
             "$colorSchemeToken": "true",
