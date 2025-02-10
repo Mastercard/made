@@ -12996,6 +12996,11 @@
           "$type": "color",
           "$value": "{color.border.neutral-strong-mode-light}",
           "$description": "A stronger emphasis option of the color.border.neutral token. [🔎 border; outline; stroke; divider; separator; strong; dark; gray; grey;]"
+        },
+        "none": {
+          "$type": "color",
+          "$value": "rgba(255,255,255,0)",
+          "$description": "This token represents the absence of a border, ensuring no visible outline or separation is applied. It can be used to explicitly override default border styles or when a clean, borderless appearance is required. [🔎 borderless; transparent;]"
         }
       },
       "icon": {
@@ -14061,6 +14066,10 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.neutral-strong-mode-dark}"
+        },
+        "none": {
+          "$type": "color",
+          "$value": "rgba(0,0,0,0)"
         }
       },
       "icon": {
