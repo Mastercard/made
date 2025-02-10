@@ -5318,13 +5318,11 @@
       "background": {
         "default-mode-light": {
           "$type": "color",
-          "$value": "{color.gray.01-25}",
-          "$description": "Default application background color. Should be set to either html or body element."
+          "$value": "{color.gray.01-25}"
         },
         "default-mode-dark": {
           "$type": "color",
-          "$value": "#000000",
-          "$description": "Default application background color. Should be set to either html or body element."
+          "$value": "#000000"
         },
         "disabled-mode-light": {
           "$type": "color",
@@ -5345,8 +5343,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.gray.07}",
-          "$description": "Background on overlay used with modals\t"
+          "$value": "{color.gray.07}"
         },
         "backdrop-mode-dark": {
           "$extensions": {
@@ -5359,19 +5356,16 @@
             }
           },
           "$type": "color",
-          "$value": "{color.neutral.800}",
-          "$description": "Background on overlay used with modals\t"
+          "$value": "{color.neutral.800}"
         },
         "surface": {
           "default-mode-light": {
             "$type": "color",
-            "$value": "{color.white}",
-            "$description": "Default application surface color. Use this for e.g. card backgrounds."
+            "$value": "{color.white}"
           },
           "default-mode-dark": {
             "$type": "color",
-            "$value": "{color.gray.07}",
-            "$description": "Default application surface color. Use this for e.g. card backgrounds."
+            "$value": "{color.gray.07}"
           },
           "secondary-mode-light": {
             "$type": "color",
@@ -5391,13 +5385,11 @@
           },
           "hover-mode-light": {
             "$type": "color",
-            "$value": "{color.gray.01-25}",
-            "$description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
+            "$value": "{color.gray.01-25}"
           },
           "hover-mode-dark": {
             "$type": "color",
-            "$value": "{color.neutral.900}",
-            "$description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
+            "$value": "{color.neutral.900}"
           },
           "transparent-mode-light": {
             "$type": "color",
@@ -5409,33 +5401,27 @@
           },
           "selected-mode-light": {
             "$type": "color",
-            "$value": "{color.gray.01-5}",
-            "$description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
+            "$value": "{color.gray.01-5}"
           },
           "selected-mode-dark": {
             "$type": "color",
-            "$value": "{color.neutral.800}",
-            "$description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
+            "$value": "{color.neutral.800}"
           },
           "selected-hover-mode-light": {
             "$type": "color",
-            "$value": "{color.gray.02}",
-            "$description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+            "$value": "{color.gray.02}"
           },
           "selected-hover-mode-dark": {
             "$type": "color",
-            "$value": "{color.neutral.700}",
-            "$description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+            "$value": "{color.neutral.700}"
           },
           "inverse-mode-light": {
             "$type": "color",
-            "$value": "{color.gray.07}",
-            "$description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+            "$value": "{color.gray.07}"
           },
           "inverse-mode-dark": {
             "$type": "color",
-            "$value": "{color.white}",
-            "$description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+            "$value": "{color.white}"
           }
         },
         "brand": {
@@ -5573,33 +5559,27 @@
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.gold.05}",
-                "$description": "color.background.warning.bold"
+                "$value": "{color.gold.05}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.amber.300}",
-                "$description": "color.background.warning.bold"
+                "$value": "{color.amber.300}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.gold.06}",
-                "$description": "color.background.warning.bold.hover"
+                "$value": "{color.gold.06}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.amber.400}",
-                "$description": "color.background.warning.bold.hover"
+                "$value": "{color.amber.400}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.gold.07}",
-                "$description": "color.background.warning.bold.active"
+                "$value": "{color.gold.07}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.amber.500}",
-                "$description": "color.background.warning.bold.active"
+                "$value": "{color.amber.500}"
               }
             }
           },
@@ -6082,23 +6062,19 @@
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.background.feedback.danger.strong.hover-mode-light}",
-          "$description": "color.icon.danger"
+          "$value": "{color.background.feedback.danger.strong.hover-mode-light}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.300}",
-          "$description": "color.icon.danger"
+          "$value": "{color.red.300}"
         },
         "warning-mode-light": {
           "$type": "color",
-          "$value": "{color.background.feedback.warning.strong.default-mode-light}",
-          "$description": "color.icon.warning"
+          "$value": "{color.background.feedback.warning.strong.default-mode-light}"
         },
         "warning-mode-dark": {
           "$type": "color",
-          "$value": "{color.yellow.300}",
-          "$description": "color.icon.warning"
+          "$value": "{color.yellow.300}"
         },
         "information-mode-light": {
           "$type": "color",
@@ -6120,43 +6096,35 @@
       "text": {
         "brand-mode-light": {
           "$type": "color",
-          "$value": "{color.brand.primary-mode-light}",
-          "$description": "Brand color. For use on primary links."
+          "$value": "{color.brand.primary-mode-light}"
         },
         "brand-mode-dark": {
           "$type": "color",
-          "$value": "{color.white}",
-          "$description": "Brand color. For use on primary links."
+          "$value": "{color.white}"
         },
         "primary-mode-light": {
           "$type": "color",
-          "$value": "{color.gray.07}",
-          "$description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+          "$value": "{color.gray.07}"
         },
         "primary-mode-dark": {
           "$type": "color",
-          "$value": "{color.white}",
-          "$description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+          "$value": "{color.white}"
         },
         "secondary-mode-light": {
           "$type": "color",
-          "$value": "{color.gray.04-5}",
-          "$description": "Secondary text;\nInput labels"
+          "$value": "{color.gray.04-5}"
         },
         "secondary-mode-dark": {
           "$type": "color",
-          "$value": "{color.neutral.400}",
-          "$description": "Secondary text;\nInput labels"
+          "$value": "{color.neutral.400}"
         },
         "inverse-mode-light": {
           "$type": "color",
-          "$value": "{color.white}",
-          "$description": "Inverse text color"
+          "$value": "{color.white}"
         },
         "inverse-mode-dark": {
           "$type": "color",
-          "$value": "{color.neutral.900}",
-          "$description": "Inverse text color"
+          "$value": "{color.neutral.900}"
         },
         "disabled-mode-light": {
           "$type": "color",
@@ -6176,13 +6144,11 @@
         },
         "helper-mode-light": {
           "$type": "color",
-          "$value": "{color.gray.05}",
-          "$description": "Tertiary text;\nHelp text"
+          "$value": "{color.gray.05}"
         },
         "helper-mode-dark": {
           "$type": "color",
-          "$value": "{color.neutral.500}",
-          "$description": "Tertiary text;\nHelp text"
+          "$value": "{color.neutral.500}"
         },
         "neutral-mode-light": {
           "$type": "color",
@@ -6203,8 +6169,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.brand.primary-mode-light}",
-          "$description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+          "$value": "{color.brand.primary-mode-light}"
         },
         "selection-bg-mode-dark": {
           "$extensions": {
@@ -6217,18 +6182,15 @@
             }
           },
           "$type": "color",
-          "$value": "{color.brand.primary-mode-light}",
-          "$description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+          "$value": "{color.brand.primary-mode-light}"
         },
         "on-color-mode-light": {
           "$type": "color",
-          "$value": "{color.white}",
-          "$description": "Text on interactive colors;\nText on button colors"
+          "$value": "{color.white}"
         },
         "on-color-mode-dark": {
           "$type": "color",
-          "$value": "{color.neutral.900}",
-          "$description": "Text on interactive colors;\nText on button colors"
+          "$value": "{color.neutral.900}"
         },
         "success-mode-light": {
           "$type": "color",
@@ -6443,20 +6405,17 @@
         "default": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{border-radius.02}",
-          "$description": "6px. Default border radius for UI components"
+          "$value": "{border-radius.02}"
         },
         "small": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.0-5-x}",
-          "$description": "2px. Small border radius for UI components"
+          "$value": "{size-space.0-5-x}"
         },
         "large": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.2-x}",
-          "$description": "8px. Large border radius for UI components"
+          "$value": "{size-space.2-x}"
         },
         "full": {
           "$type": "borderRadius",
@@ -7116,8 +7075,7 @@
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.gray.07}",
-              "$description": "Text color for Warning badges in their High Contrast variant style. "
+              "$value": "{color.gray.07}"
             }
           }
         }
@@ -7244,23 +7202,19 @@
           },
           "background-in-range-mode-light": {
             "$type": "color",
-            "$value": "{color.orange.01}",
-            "$description": "Background color of in-range day elements"
+            "$value": "{color.orange.01}"
           },
           "background-in-range-mode-dark": {
             "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-dark}",
-            "$description": "Background color of in-range day elements"
+            "$value": "{color.background.surface.secondary-mode-dark}"
           },
           "background-selected-hover-mode-light": {
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-light}",
-            "$description": "Hover color for selected day elements in the date range calendar"
+            "$value": "{color.background.brand.primary.hover-mode-light}"
           },
           "background-selected-hover-mode-dark": {
             "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-dark}",
-            "$description": "Hover color for selected day elements in the date range calendar"
+            "$value": "{color.background.brand.primary.hover-mode-dark}"
           }
         },
         "padding-x": {
@@ -7708,23 +7662,19 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.background.surface.transparent-mode-light}",
-              "$description": "Color of border on a primary buttons default / resting state. "
+              "$value": "{color.background.surface.transparent-mode-light}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.background.surface.transparent-mode-dark}",
-              "$description": "Color of border on a primary buttons default / resting state. "
+              "$value": "{color.background.surface.transparent-mode-dark}"
             },
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.text.on-color-mode-light}",
-              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
+              "$value": "{color.text.on-color-mode-light}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.text.on-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
+              "$value": "{color.text.on-color-mode-dark}"
             }
           },
           "hover": {
@@ -7740,23 +7690,19 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.background.surface.transparent-mode-light}",
-              "$description": "Color of border on a primary buttons hover state. "
+              "$value": "{color.background.surface.transparent-mode-light}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.background.surface.transparent-mode-dark}",
-              "$description": "Color of border on a primary buttons hover state. "
+              "$value": "{color.background.surface.transparent-mode-dark}"
             },
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.text.on-color-mode-light}",
-              "$description": "Color of text and icon elements on a primary buttons hover state. "
+              "$value": "{color.text.on-color-mode-light}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.text.on-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons hover state. "
+              "$value": "{color.text.on-color-mode-dark}"
             }
           },
           "active": {
@@ -7772,23 +7718,19 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.background.surface.transparent-mode-light}",
-              "$description": "Color of border on a primary buttons active state. "
+              "$value": "{color.background.surface.transparent-mode-light}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.background.surface.transparent-mode-dark}",
-              "$description": "Color of border on a primary buttons active state. "
+              "$value": "{color.background.surface.transparent-mode-dark}"
             },
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.text.on-color-mode-light}",
-              "$description": "Color of text and icon elements on a primary buttons active state. "
+              "$value": "{color.text.on-color-mode-light}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.text.on-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons active state. "
+              "$value": "{color.text.on-color-mode-dark}"
             }
           }
         },
@@ -7806,23 +7748,19 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.border.brand-mode-light}",
-              "$description": "Color of border on a secondary buttons default / resting state. "
+              "$value": "{color.border.brand-mode-light}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.border.brand-mode-dark}",
-              "$description": "Color of border on a secondary buttons default / resting state. "
+              "$value": "{color.border.brand-mode-dark}"
             },
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.text.brand-mode-light}",
-              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
+              "$value": "{color.text.brand-mode-light}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.text.brand-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
+              "$value": "{color.text.brand-mode-dark}"
             }
           },
           "hover": {
@@ -7838,23 +7776,19 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-light}",
-              "$description": "Color of border on a secondary buttons hover state. "
+              "$value": "{color.background.brand.primary.hover-mode-light}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}",
-              "$description": "Color of border on a secondary buttons hover state. "
+              "$value": "{color.background.brand.primary.hover-mode-dark}"
             },
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-light}",
-              "$description": "Color of text and icon elements on a secondary buttons hover state. "
+              "$value": "{color.background.brand.primary.hover-mode-light}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons hover state. "
+              "$value": "{color.background.brand.primary.hover-mode-dark}"
             }
           },
           "active": {
@@ -7870,23 +7804,19 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-light}",
-              "$description": "Color of border on a secondary buttons active state. "
+              "$value": "{color.background.brand.primary.active-mode-light}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}",
-              "$description": "Color of border on a secondary buttons active state. "
+              "$value": "{color.background.brand.primary.active-mode-dark}"
             },
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-light}",
-              "$description": "Color of text and icon elements on a secondary buttons active state. "
+              "$value": "{color.background.brand.primary.active-mode-light}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons active state. "
+              "$value": "{color.background.brand.primary.active-mode-dark}"
             }
           }
         },
@@ -8338,13 +8268,11 @@
           "contrast-high": {
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.gray.07}",
-              "$description": "Text color for Warning badges in their High Contrast variant style. "
+              "$value": "{color.gray.07}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.gray.07}",
-              "$description": "Text color for Warning badges in their High Contrast variant style. "
+              "$value": "{color.gray.07}"
             }
           }
         }
