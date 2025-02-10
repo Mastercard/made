@@ -9886,7 +9886,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "For more web based experiences, consider using either the Md or Lg size. \n\nUse either Sm or Lg for long paragraphs that cater to long form reading."
+          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading."
         },
         "medium": {
           "$type": "typography",
@@ -9901,7 +9901,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "Md sizes are best suited to either Web or Product experiences where 1.5x is too spacious"
+          "$description": "Medium sizes are best suited to either Web or Product experiences where 1.5x is too spacious"
         },
         "small": {
           "$type": "typography",
@@ -9916,7 +9916,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "For more web based experiences, consider using either the Md or Lg size. \n\nUse either Sm or Lg for long paragraphs that cater to long form reading."
+          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading."
         }
       },
       "medium": {
@@ -10196,7 +10196,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly."
       },
       "small": {
         "$type": "boxShadow",
