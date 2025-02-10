@@ -4,202 +4,202 @@
       "0-x": {
         "$type": "dimension",
         "$value": "0px",
-        "$description": "0px"
+        "$description": "0px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;]"
       },
       "0-25-px": {
         "$type": "dimension",
         "$value": "1px",
-        "$description": "1px"
+        "$description": "1px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "0-5-x": {
         "$type": "dimension",
         "$value": "0.125rem",
-        "$description": "2px"
+        "$description": "2px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "1-x": {
         "$type": "dimension",
         "$value": "0.25rem",
-        "$description": "4px"
+        "$description": "4px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "1-5-x": {
         "$type": "dimension",
         "$value": "0.375rem",
-        "$description": "6px"
+        "$description": "6px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "2-x": {
         "$type": "dimension",
         "$value": "0.5rem",
-        "$description": "8px"
+        "$description": "8px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "2-5-x": {
         "$type": "dimension",
         "$value": "0.625rem",
-        "$description": "10px"
+        "$description": "10px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "3-x": {
         "$type": "dimension",
         "$value": "0.75rem",
-        "$description": "12px"
+        "$description": "12px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "3-5-x": {
         "$type": "dimension",
         "$value": "0.875rem",
-        "$description": "14px"
+        "$description": "14px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "4-x": {
         "$type": "dimension",
         "$value": "1rem",
-        "$description": "16px"
+        "$description": "16px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "5-x": {
         "$type": "dimension",
         "$value": "1.25rem",
-        "$description": "20px"
+        "$description": "20px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "6-x": {
         "$type": "dimension",
         "$value": "1.5rem",
-        "$description": "24px"
+        "$description": "24px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "7-x": {
         "$type": "dimension",
         "$value": "1.75rem",
-        "$description": "28px"
+        "$description": "28px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "8-x": {
         "$type": "dimension",
         "$value": "2rem",
-        "$description": "32px"
+        "$description": "32px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "9-x": {
         "$type": "dimension",
         "$value": "2.25rem",
-        "$description": "36px"
+        "$description": "36px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "10-x": {
         "$type": "dimension",
         "$value": "2.5rem",
-        "$description": "40px"
+        "$description": "40px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "11-x": {
         "$type": "dimension",
         "$value": "2.75rem",
-        "$description": "44px"
+        "$description": "44px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "12-x": {
         "$type": "dimension",
         "$value": "3rem",
-        "$description": "48px"
+        "$description": "48px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "13-x": {
         "$type": "dimension",
         "$value": "3.25rem",
-        "$description": "52px"
+        "$description": "52px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "14-x": {
         "$type": "dimension",
         "$value": "3.5rem",
-        "$description": "56px"
+        "$description": "56px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "15-x": {
         "$type": "dimension",
         "$value": "3.75rem",
-        "$description": "60px"
+        "$description": "60px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "16-x": {
         "$type": "dimension",
         "$value": "4rem",
-        "$description": "64px"
+        "$description": "64px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "17-x": {
         "$type": "dimension",
         "$value": "4.25rem",
-        "$description": "68px"
+        "$description": "68px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "18-x": {
         "$type": "dimension",
         "$value": "4.5rem",
-        "$description": "72px"
+        "$description": "72px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "19-x": {
         "$type": "dimension",
         "$value": "4.75rem",
-        "$description": "76px"
+        "$description": "76px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "20-x": {
         "$type": "dimension",
         "$value": "5rem",
-        "$description": "80px"
+        "$description": "80px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "24-x": {
         "$type": "dimension",
         "$value": "6rem",
-        "$description": "96px"
+        "$description": "96px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "28-x": {
         "$type": "dimension",
         "$value": "7rem",
-        "$description": "112px"
+        "$description": "112px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "32-x": {
         "$type": "dimension",
         "$value": "8rem",
-        "$description": "128px"
+        "$description": "128px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "36-x": {
         "$type": "dimension",
         "$value": "9rem",
-        "$description": "144px"
+        "$description": "144px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "40-x": {
         "$type": "dimension",
         "$value": "10rem",
-        "$description": "160px"
+        "$description": "160px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "44-x": {
         "$type": "dimension",
         "$value": "11rem",
-        "$description": "176px"
+        "$description": "176px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "48-x": {
         "$type": "dimension",
         "$value": "12rem",
-        "$description": "192px"
+        "$description": "192px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "52-x": {
         "$type": "dimension",
         "$value": "13rem",
-        "$description": "208px"
+        "$description": "208px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "56-x": {
         "$type": "dimension",
         "$value": "14rem",
-        "$description": "224px"
+        "$description": "224px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "60-x": {
         "$type": "dimension",
         "$value": "15rem",
-        "$description": "240px"
+        "$description": "240px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "64-x": {
         "$type": "dimension",
         "$value": "16rem",
-        "$description": "256px"
+        "$description": "256px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "72-x": {
         "$type": "dimension",
         "$value": "18rem",
-        "$description": "288px"
+        "$description": "288px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "80-x": {
         "$type": "dimension",
         "$value": "20rem",
-        "$description": "320px"
+        "$description": "320px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "96-x": {
         "$type": "dimension",
         "$value": "24rem",
-        "$description": "384px"
+        "$description": "384px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       }
     },
     "color": {
