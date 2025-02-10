@@ -3,7 +3,8 @@
     "size-space": {
       "0-x": {
         "$type": "dimension",
-        "$value": "0px"
+        "$value": "0px",
+        "$description": "0px"
       },
       "0-25-px": {
         "$type": "dimension",
@@ -1151,47 +1152,47 @@
       "01": {
         "$type": "borderRadius",
         "$value": "{size-space.0-5-x}",
-        "$description": "Border Radius: 2px"
+        "$description": "2px"
       },
       "02": {
         "$type": "borderRadius",
         "$value": "{size-space.1-x}",
-        "$description": "Border Radius: 4px"
+        "$description": "4px"
       },
       "03": {
         "$type": "borderRadius",
         "$value": "{size-space.1-5-x}",
-        "$description": "Border Radius: 6px"
+        "$description": "6px"
       },
       "04": {
         "$type": "borderRadius",
         "$value": "{size-space.2-x}",
-        "$description": "Border Radius: 8px"
+        "$description": "8px"
       },
       "05": {
         "$type": "borderRadius",
         "$value": "{size-space.2-5-x}",
-        "$description": "Border Radius: 12px"
+        "$description": "12px"
       },
       "06": {
         "$type": "borderRadius",
         "$value": "{size-space.3-x}",
-        "$description": "Border Radius: 16px"
+        "$description": "16px"
       },
       "07": {
         "$type": "borderRadius",
         "$value": "{size-space.4-x}",
-        "$description": "Border Radius: 20px"
+        "$description": "20px"
       },
       "08": {
         "$type": "borderRadius",
         "$value": "{size-space.5-x}",
-        "$description": "Border Radius: 24px"
+        "$description": "24px"
       },
       "09": {
         "$type": "borderRadius",
         "$value": "{size-space.6-x}",
-        "$description": "Border Radius: 28px"
+        "$description": "28px"
       }
     },
     "line": {
@@ -1212,47 +1213,47 @@
         "rem-01": {
           "$type": "lineHeights",
           "$value": "0.75rem",
-          "$description": "12px line height"
+          "$description": "12px"
         },
         "rem-02": {
           "$type": "lineHeights",
           "$value": "1rem",
-          "$description": "16px line height"
+          "$description": "16px"
         },
         "rem-03": {
           "$type": "lineHeights",
           "$value": "1.125rem",
-          "$description": "18px line height"
+          "$description": "18px"
         },
         "rem-04": {
           "$type": "lineHeights",
           "$value": "1.25rem",
-          "$description": "20px line height"
+          "$description": "20px"
         },
         "rem-05": {
           "$type": "lineHeights",
           "$value": "1.5rem",
-          "$description": "24px line height"
+          "$description": "24px"
         },
         "rem-06": {
           "$type": "lineHeights",
           "$value": "1.75rem",
-          "$description": "28px line height"
+          "$description": "28px"
         },
         "rem-07": {
           "$type": "lineHeights",
           "$value": "2rem",
-          "$description": "32px line height"
+          "$description": "32px"
         },
         "rem-08": {
           "$type": "lineHeights",
           "$value": "2.5rem",
-          "$description": "40px line height"
+          "$description": "40px"
         },
         "rem-09": {
           "$type": "lineHeights",
           "$value": "3rem",
-          "$description": "48px line height"
+          "$description": "48px"
         }
       }
     },
