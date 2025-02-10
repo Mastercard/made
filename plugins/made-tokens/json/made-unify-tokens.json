@@ -1167,47 +1167,47 @@
       "01": {
         "$type": "borderRadius",
         "$value": "{size-space.0-5-x}",
-        "$description": "2px"
+        "$description": "2px [🔎 border-radius; radii; corner-radius;]"
       },
       "02": {
         "$type": "borderRadius",
         "$value": "{size-space.1-x}",
-        "$description": "4px"
+        "$description": "4px [🔎 border-radius; radii; corner-radius;]"
       },
       "03": {
         "$type": "borderRadius",
         "$value": "{size-space.1-5-x}",
-        "$description": "6px"
+        "$description": "6px [🔎 border-radius; radii; corner-radius;]"
       },
       "04": {
         "$type": "borderRadius",
         "$value": "{size-space.2-x}",
-        "$description": "8px"
+        "$description": "8px [🔎 border-radius; radii; corner-radius;]"
       },
       "05": {
         "$type": "borderRadius",
         "$value": "{size-space.2-5-x}",
-        "$description": "12px"
+        "$description": "12px [🔎 border-radius; radii; corner-radius;]"
       },
       "06": {
         "$type": "borderRadius",
         "$value": "{size-space.3-x}",
-        "$description": "16px"
+        "$description": "16px [🔎 border-radius; radii; corner-radius;]"
       },
       "07": {
         "$type": "borderRadius",
         "$value": "{size-space.4-x}",
-        "$description": "20px"
+        "$description": "20px [🔎 border-radius; radii; corner-radius;]"
       },
       "08": {
         "$type": "borderRadius",
         "$value": "{size-space.5-x}",
-        "$description": "24px"
+        "$description": "24px [🔎 border-radius; radii; corner-radius;]"
       },
       "09": {
         "$type": "borderRadius",
         "$value": "{size-space.6-x}",
-        "$description": "28px"
+        "$description": "28px [🔎 border-radius; radii; corner-radius;]"
       }
     },
     "line": {
