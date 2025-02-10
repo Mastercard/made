@@ -10218,8 +10218,7 @@
           "spread": "0",
           "color": "{color.box-shadow.primary}",
           "type": "dropShadow"
-        },
-        "$description": "Small drop shadow"
+        }
       },
       "default": {
         "$type": "boxShadow",
@@ -10240,8 +10239,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "Default drop shadow"
+        ]
       },
       "medium": {
         "$type": "boxShadow",
@@ -10262,8 +10260,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "Medium drop shadow"
+        ]
       },
       "large": {
         "$type": "boxShadow",
@@ -10284,8 +10281,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "Large drop shadow"
+        ]
       },
       "x-large": {
         "$type": "boxShadow",
@@ -10306,8 +10302,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "Extra large drop shadow"
+        ]
       },
       "xx-large": {
         "$type": "boxShadow",
@@ -10320,8 +10315,7 @@
             "color": "{color.box-shadow.tertiary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "Double xl drop shadow"
+        ]
       }
     },
     "font-family": {
