@@ -12542,7 +12542,7 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.backdrop-mode-light}",
-          "$description": "Background on overlay used with modals\t"
+          "$description": "The background color for temporary overlays that can be applied to Unify surfaces for the purpose of making content on a surface less prominent. Typically used with Modals, Drawer and Sheet components. [🔎 overlay; backdrop; modal background; scrim]"
         },
         "surface": {
           "default": {
@@ -12566,7 +12566,8 @@
           "transparent": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.transparent-mode-light}"
+            "$value": "{color.background.surface.transparent-mode-light}",
+            "$description": "This token represents the absence of a surface background color, ensuring no background color is applied. It can be used to override the default or secondary surface background colors. [🔎 surface; transparent; none;]"
           },
           "selected": {
             "$colorSchemeToken": "true",
@@ -12584,7 +12585,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.inverse-mode-light}",
-            "$description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+            "$description": "An inverted variant of the default surface color, dark in light mode and light in dark mode. It is used as the background color for components such as tooltips. [🔎 surface; inverse; inverted;]"
           },
           "secondary-hover": {
             "$type": "color",
@@ -12597,34 +12598,40 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-light}"
+              "$value": "{color.background.brand.primary.default-mode-light}",
+              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [🔎 brand; accent; primary; default;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-light}"
+              "$value": "{color.background.brand.primary.hover-mode-light}",
+              "$description": "The hover state color for the color.background.brand.primary.default token. [🔎 brand; accent; primary; hover; mouse over; ]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-light}"
+              "$value": "{color.background.brand.primary.active-mode-light}",
+              "$description": "The active state color for the color.background.brand.primary.default token. [🔎 brand; accent; primary; active; ]"
             }
           },
           "secondary": {
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.brand.secondary-mode-light}"
+              "$value": "{color.brand.secondary-mode-light}",
+              "$description": "The secondary brand background color. It can be used as a complementary color to the primary brand background color. [🔎 brand; accent; secondary; default;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-light}"
+              "$value": "{color.background.brand.primary.hover-mode-light}",
+              "$description": "The hover state color for the color.background.brand.secondary.default token. [🔎 brand; accent; secondary; hover; mouse over;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-light}"
+              "$value": "{color.background.brand.primary.active-mode-light}",
+              "$description": "The active state color for the color.background.brand.secondary.default token. [🔎 brand; accent; secondary; active;]"
             }
           }
         },
