@@ -12908,27 +12908,32 @@
         "strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.strong-mode-light}"
+          "$value": "{color.border.strong-mode-light}",
+          "$description": "The color for prominent or heavily emphasized borders. Use this token for elements requiring standout borders to enhance accessibility or clarity. [🔎 border; outline; stroke; divider; separator; strong; higher contrast; gray; grey;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.neutral-mode-light}"
+          "$value": "{color.border.neutral-mode-light}",
+          "$description": "The color for borders that are subtle and non-intrusive, typically used for providing structure without drawing attention. It works well for secondary elements. [🔎 border; outline; stroke; divider; separator; neutral; gray; grey;]"
         },
         "focused": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.focused-mode-light}"
+          "$value": "{color.border.focused-mode-light}",
+          "$description": "The color of the stroke for elements in a focused state, such as form inputs or buttons. This token helps visually highlight and indicate to users which element is currently being interacted with, improving accessibility and user experience. [🔎 border; outline; stroke; focus;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.disabled-mode-light}"
+          "$value": "{color.border.disabled-mode-light}",
+          "$description": "The border color for elements in a disabled state, such as form fields that are disabled or inactive. [🔎 border; outline; stroke; disabled; inactive; non-interactive;]"
         },
         "input": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.input-mode-light}"
+          "$value": "{color.border.input-mode-light}",
+          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [🔎 border; outline; stroke; input; textarea; checkbox; radio;]"
         },
         "success": {
           "$colorSchemeToken": "true",
@@ -12983,12 +12988,14 @@
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.inverse-mode-light}"
+          "$value": "{color.border.inverse-mode-light}",
+          "$description": "The color for borders used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 border; outline; stroke; inverse; inverted;]"
         },
         "neutral-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.neutral-strong-mode-light}"
+          "$value": "{color.border.neutral-strong-mode-light}",
+          "$description": "A stronger emphasis option of the color.border.neutral token. [🔎 border; outline; stroke; divider; separator; strong; dark; gray; grey;]"
         }
       },
       "icon": {
