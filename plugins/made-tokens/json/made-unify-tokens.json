@@ -13693,8 +13693,7 @@
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.default-mode-dark}",
-          "$description": "Default application background color. Should be set to either html or body element."
+          "$value": "{color.background.default-mode-dark}"
         },
         "disabled": {
           "$colorSchemeToken": "true",
@@ -13704,15 +13703,13 @@
         "backdrop": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.backdrop-mode-dark}",
-          "$description": "Background on overlay used with modals\t"
+          "$value": "{color.background.backdrop-mode-dark}"
         },
         "surface": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.default-mode-dark}",
-            "$description": "Default application surface color. Use this for e.g. card backgrounds."
+            "$value": "{color.background.surface.default-mode-dark}"
           },
           "secondary": {
             "$colorSchemeToken": "true",
@@ -13722,8 +13719,7 @@
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.hover-mode-dark}",
-            "$description": "Bakcground color for hover state of surfaces. Example: dropdown items hover state background. "
+            "$value": "{color.background.surface.hover-mode-dark}"
           },
           "transparent": {
             "$colorSchemeToken": "true",
@@ -13733,20 +13729,17 @@
           "selected": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.selected-mode-dark}",
-            "$description": "Bakcground color for selected state of surfaces. Example: dropdown items selected state background. "
+            "$value": "{color.background.surface.selected-mode-dark}"
           },
           "selected-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.selected-hover-mode-dark}",
-            "$description": "Bakcground color for selected-hover state of surfaces. Example: dropdown items selected-hover state background. "
+            "$value": "{color.background.surface.selected-hover-mode-dark}"
           },
           "inverse": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.inverse-mode-dark}",
-            "$description": "Background color for containers that use an inverse bg color. (eg: Tooltips)"
+            "$value": "{color.background.surface.inverse-mode-dark}"
           },
           "secondary-hover": {
             "$type": "color",
@@ -13844,20 +13837,17 @@
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.default-mode-dark}",
-                "$description": "color.background.warning.bold"
+                "$value": "{color.background.feedback.warning.strong.default-mode-dark}"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.hover-mode-dark}",
-                "$description": "color.background.warning.bold.hover"
+                "$value": "{color.background.feedback.warning.strong.hover-mode-dark}"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.active-mode-dark}",
-                "$description": "color.background.warning.bold.active"
+                "$value": "{color.background.feedback.warning.strong.active-mode-dark}"
               }
             }
           },
@@ -14161,14 +14151,12 @@
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.danger-mode-dark}",
-          "$description": "color.icon.danger"
+          "$value": "{color.icon.danger-mode-dark}"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.warning-mode-dark}",
-          "$description": "color.icon.warning"
+          "$value": "{color.icon.warning-mode-dark}"
         },
         "information": {
           "$colorSchemeToken": "true",
@@ -14185,26 +14173,22 @@
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.brand-mode-dark}",
-          "$description": "Brand color. For use on primary links."
+          "$value": "{color.text.brand-mode-dark}"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.primary-mode-dark}",
-          "$description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+          "$value": "{color.text.primary-mode-dark}"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.secondary-mode-dark}",
-          "$description": "Secondary text;\nInput labels"
+          "$value": "{color.text.secondary-mode-dark}"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.inverse-mode-dark}",
-          "$description": "Inverse text color"
+          "$value": "{color.text.inverse-mode-dark}"
         },
         "disabled": {
           "$colorSchemeToken": "true",
@@ -14219,8 +14203,7 @@
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.helper-mode-dark}",
-          "$description": "Tertiary text;\nHelp text"
+          "$value": "{color.text.helper-mode-dark}"
         },
         "neutral": {
           "$colorSchemeToken": "true",
@@ -14230,14 +14213,12 @@
         "selection-bg": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.selection-bg-mode-dark}",
-          "$description": "{This is a WIP property and may not be used. The background color of a selected text https://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+          "$value": "{color.text.selection-bg-mode-dark}"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.on-color-mode-dark}",
-          "$description": "Text on interactive colors;\nText on button colors"
+          "$value": "{color.text.on-color-mode-dark}"
         },
         "success": {
           "$colorSchemeToken": "true",
@@ -14429,8 +14410,7 @@
           "contrast-high": {
             "text-color": {
               "$type": "color",
-              "$value": "{component.tag.warning.contrast-high.text-color-mode-dark}",
-              "$description": "Text color for Warning Tags in their High Contrast variant style. "
+              "$value": "{component.tag.warning.contrast-high.text-color-mode-dark}"
             }
           }
         }
@@ -14463,8 +14443,7 @@
           },
           "background-selected-hover": {
             "$type": "color",
-            "$value": "{component.date-picker.day.background-selected-hover-mode-dark}",
-            "$description": "Hover color for selected day elements in the date range calendar"
+            "$value": "{component.date-picker.day.background-selected-hover-mode-dark}"
           },
           "background-in-range": {
             "$type": "color",
@@ -14561,54 +14540,45 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-dark}",
-              "$description": "Background color of primary buttons in their default / resting state. "
+              "$value": "{color.background.brand.primary.default-mode-dark}"
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.default.border-color-mode-dark}",
-              "$description": "Color of border on a primary buttons default / resting state. "
+              "$value": "{component.button.primary.default.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.default.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
+              "$value": "{component.button.primary.default.text-color-mode-dark}"
             }
           },
           "hover": {
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}",
-              "$description": "Background color of primary buttons in their hover state. "
+              "$value": "{color.background.brand.primary.hover-mode-dark}"
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.hover.border-color-mode-dark}",
-              "$description": "Color of border on a primary buttons hover state. "
+              "$value": "{component.button.primary.hover.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.hover.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons hover state. "
+              "$value": "{component.button.primary.hover.text-color-mode-dark}"
             }
           },
           "active": {
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}",
-              "$description": "Background color of primary buttons in their active state. "
+              "$value": "{color.background.brand.primary.active-mode-dark}"
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.active.border-color-mode-dark}",
-              "$description": "Color of border on a primary buttons active state. "
+              "$value": "{component.button.primary.active.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.active.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons active state. "
+              "$value": "{component.button.primary.active.text-color-mode-dark}"
             }
           }
         },
@@ -14617,54 +14587,45 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.secondary-mode-dark}",
-              "$description": "Background color of secondary buttons in their default / resting state. "
+              "$value": "{color.background.surface.secondary-mode-dark}"
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.default.border-color-mode-dark}",
-              "$description": "Color of border on a secondary buttons default / resting state. "
+              "$value": "{component.button.secondary.default.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.default.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
+              "$value": "{component.button.secondary.default.text-color-mode-dark}"
             }
           },
           "hover": {
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-mode-dark}",
-              "$description": "Background color of secondary buttons in their hover state. "
+              "$value": "{color.background.surface.selected-mode-dark}"
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.hover.border-color-mode-dark}",
-              "$description": "Color of border on a secondary buttons hover state. "
+              "$value": "{component.button.secondary.hover.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.hover.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons hover state. "
+              "$value": "{component.button.secondary.hover.text-color-mode-dark}"
             }
           },
           "active": {
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-hover-mode-dark}",
-              "$description": "Background color of secondary buttons in their active state. "
+              "$value": "{color.background.surface.selected-hover-mode-dark}"
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.active.border-color-mode-dark}",
-              "$description": "Color of border on a secondary buttons active state. "
+              "$value": "{component.button.secondary.active.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.active.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons active state. "
+              "$value": "{component.button.secondary.active.text-color-mode-dark}"
             }
           }
         },
@@ -14734,8 +14695,7 @@
           "contrast-high": {
             "text-color": {
               "$type": "color",
-              "$value": "{component.badge.warning.contrast-high.text-color-mode-dark}",
-              "$description": "Text color for Warning badges in their High Contrast variant style. "
+              "$value": "{component.badge.warning.contrast-high.text-color-mode-dark}"
             }
           }
         }
