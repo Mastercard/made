@@ -12890,17 +12890,20 @@
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.brand-mode-light}"
+          "$value": "{color.border.brand-mode-light}",
+          "$description": "The border color that represents the brand’s primary color. [🔎 brand; accent; border; outline; stroke; divider; separator;]"
         },
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.default-mode-light}"
+          "$value": "{color.border.default-mode-light}",
+          "$description": "The default border color for such elements as containers, cards, sections, dividers, table cells, etc. [🔎 border; outline; stroke; divider; separator; default; subtle; outline; gray; grey;]"
         },
         "bold": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.bold-mode-light}"
+          "$value": "{color.border.bold-mode-light}",
+          "$description": "The color for the most prominent and highly emphasized borders. It is ideal for framing highly important content. Use this token sparingly to maintain visual balance and impact. [🔎 border; outline; stroke; divider; separator; bold; high contrast; gray; grey;]"
         },
         "strong": {
           "$colorSchemeToken": "true",
