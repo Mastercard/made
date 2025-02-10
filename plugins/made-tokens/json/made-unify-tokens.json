@@ -13017,69 +13017,80 @@
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.brand-mode-light}"
+          "$value": "{color.icon.brand-mode-light}",
+          "$description": "The color for icons that reflect the primary brand color. [🔎 icon; pictogram; svg; brand; accent;]"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.primary-mode-light}"
+          "$value": "{color.icon.primary-mode-light}",
+          "$description": "The default color for icons. [🔎 icon; pictogram; svg; primary;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.secondary-mode-light}"
+          "$value": "{color.icon.secondary-mode-light}",
+          "$description": "The secondary color for icons. [🔎 icon; pictogram; svg; secondary;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.inverse-mode-light}"
+          "$value": "{color.icon.inverse-mode-light}",
+          "$description": "The color for icons used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 icon; pictogram; svg; inverse;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.disabled-mode-light}"
+          "$value": "{color.icon.disabled-mode-light}",
+          "$description": "The disabled state color for icons. [🔎 icon; pictogram; svg; disabled; inactive;]"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.helper-mode-light}"
+          "$value": "{color.icon.helper-mode-light}",
+          "$description": "The color for monochrome helper-type icons. [🔎 icon; pictogram; svg; helper;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.neutral-mode-light}"
+          "$value": "{color.icon.neutral-mode-light}",
+          "$description": "The tertiary color for icons, intended for use on backgrounds of neutral variant components. [🔎 icon; pictogram; svg; neutral; tertiary;]"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.on-color-mode-light}"
+          "$value": "{color.icon.on-color-mode-light}",
+          "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [🔎 icon; pictogram; svg; inverse;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.success-mode-light}"
+          "$value": "{color.icon.success-mode-light}",
+          "$description": "The success state color for icons. [🔎 icon; pictogram; svg; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.danger-mode-light}",
-          "$description": "color.icon.danger"
+          "$description": "The danger or error state color for icons. [🔎 icon; pictogram; svg; danger; negative; error; destructive; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.warning-mode-light}",
-          "$description": "color.icon.warning"
+          "$description": "The warning state color for icons. [🔎 icon; pictogram; svg; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.information-mode-light}"
+          "$value": "{color.icon.information-mode-light}",
+          "$description": "The information type color for icons. [🔎 icon; pictogram; svg; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.discovery-mode-light}"
+          "$value": "{color.icon.discovery-mode-light}",
+          "$description": "The discovery type color for icons. [🔎 icon; pictogram; svg; discovery; feedback; purple;]"
         }
       },
       "text": {
