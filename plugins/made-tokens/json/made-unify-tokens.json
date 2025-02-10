@@ -3072,29 +3072,27 @@
         "default": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{border-radius.03}",
-          "$description": "6px. Default border radius for UI components"
+          "$value": "{border-radius.03}"
         },
         "small": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.0-5-x}",
-          "$description": "2px. Small border radius for UI components"
+          "$value": "{size-space.0-5-x}"
         },
         "large": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.2-x}",
-          "$description": "8px. Large border radius for UI components"
+          "$value": "{size-space.2-x}"
         },
         "full": {
           "$type": "borderRadius",
-          "$value": "9999"
+          "$value": "9999",
+          "$description": "Fully rounded border radius."
         },
         "focus-offset": {
           "$type": "borderRadius",
           "$value": "{border.radius.default} + {size-space.0-5-x}",
-          "$description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, buttons etc)"
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.)."
         }
       }
     },
@@ -6344,12 +6342,13 @@
         },
         "full": {
           "$type": "borderRadius",
-          "$value": "9999"
+          "$value": "9999",
+          "$description": "Fully rounded border radius."
         },
         "focus-offset": {
           "$type": "borderRadius",
           "$value": "{border.radius.default} + {size-space.0-5-x}",
-          "$description": "Border radius for focus borders that use an offset from their parent elements that use border-radius-default (Inputs, cards, buttons etc)"
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.)."
         }
       }
     },
@@ -9640,11 +9639,13 @@
         },
         "full": {
           "$type": "borderRadius",
-          "$value": "9999px"
+          "$value": "9999px",
+          "$description": "Fully rounded border radius."
         },
         "focus-offset": {
           "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0-5-x}"
+          "$value": "{border.radius.default} + {size-space.0-5-x}",
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.)."
         }
       }
     },
