@@ -13098,83 +13098,91 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.brand-mode-light}",
-          "$description": "Brand color. For use on primary links."
+          "$description": "The color for branded text, often used for interactive text. [🔎 text; copy; content; heading; header; body; brand; accent;]"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.primary-mode-light}",
-          "$description": "Primary text;\nBody copy;\nHeaders;\nHover text color for $text-secondary"
+          "$description": "The primary color for text, used for body copy, headers, and all non-interactive text. [🔎 text; copy; content; heading; header; body; primary; main;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.secondary-mode-light}",
-          "$description": "Secondary text;\nInput labels"
+          "$description": "The secondary color for text, used for non-interactive text. [🔎 text; copy; content; secondary;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.inverse-mode-light}",
-          "$description": "Inverse text color"
+          "$description": "The color for text used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 text; copy; content; inverse;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.disabled-mode-light}"
+          "$value": "{color.text.disabled-mode-light}",
+          "$description": "The color for disabled state text. [🔎 text; copy; content; disabled; inactive; read-only;]"
         },
         "placeholder": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.placeholder-mode-light}"
+          "$value": "{color.text.placeholder-mode-light}",
+          "$description": "The color for placeholder text, used in text input components. [🔎 text; placeholder; input;]"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.helper-mode-light}",
-          "$description": "Tertiary text;\nHelp text"
+          "$description": "The tertiary color for text, used for non-interactive text. [🔎 text; copy; content; helper; tertiary;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.neutral-mode-light}"
+          "$value": "{color.text.neutral-mode-light}",
+          "$description": "The quaternary color for text, used for non-interactive text. [🔎 text; copy; content; neutral; quaternary;]"
         },
         "selection-bg": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.selection-bg-mode-light}",
-          "$description": "{This is a WIP property and may not be used}\nThe background color of a selected text\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::selection"
+          "$description": "The background color applied to selected text. [🔎 selection background; highlighted text background;]"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.on-color-mode-light}",
-          "$description": "Text on interactive colors;\nText on button colors"
+          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [🔎 text; copy; content;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.success-mode-light}"
+          "$value": "{color.text.success-mode-light}",
+          "$description": "The success state color for text. [🔎 text; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.danger-mode-light}"
+          "$value": "{color.text.danger-mode-light}",
+          "$description": "The danger or error state color for text. [🔎 text; danger; negative; error; destructive; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.warning-mode-light}"
+          "$value": "{color.text.warning-mode-light}",
+          "$description": "The warning state color for text. [🔎 text; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.information-mode-light}"
+          "$value": "{color.text.information-mode-light}",
+          "$description": "The information type color for text. [🔎 text; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.discovery-mode-light}"
+          "$value": "{color.text.discovery-mode-light}",
+          "$description": "The discovery type color for text. [🔎 text; discovery; feedback; purple;]"
         }
       },
       "link": {
