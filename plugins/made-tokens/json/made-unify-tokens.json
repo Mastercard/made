@@ -12640,33 +12640,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.default-mode-light}"
+              "$value": "{color.background.feedback.danger.default-mode-light}",
+              "$description": "The default state of the background color that indicates an error or critical state. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.hover-mode-light}"
+              "$value": "{color.background.feedback.danger.hover-mode-light}",
+              "$description": "The hover state color for the color.background.feedback.danger.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.active-mode-light}"
+              "$value": "{color.background.feedback.danger.active-mode-light}",
+              "$description": "The active state color for the color.background.feedback.danger.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.default-mode-light}"
+                "$value": "{color.background.feedback.danger.strong.default-mode-light}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.danger.default token, used to indicate an error or critical state. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.hover-mode-light}"
+                "$value": "{color.background.feedback.danger.strong.hover-mode-light}",
+                "$description": "The hover state color for the color.background.feedback.danger.strong.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.active-mode-light}"
+                "$value": "{color.background.feedback.danger.strong.active-mode-light}",
+                "$description": "The active state color for the  color.background.feedback.danger.strong.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
               }
             }
           },
@@ -12674,36 +12680,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.default-mode-light}"
+              "$value": "{color.background.feedback.warning.default-mode-light}",
+              "$description": "The background color for the default state of elements indicating a warning or caution. [🔎 warning; attention; caution; alert; notification; yellow;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.hover-mode-light}"
+              "$value": "{color.background.feedback.warning.hover-mode-light}",
+              "$description": "The hover state color for the color.background.feedback.warning.default token. [🔎 warning; attention; caution; alert; notification; yellow;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.active-mode-light}"
+              "$value": "{color.background.feedback.warning.active-mode-light}",
+              "$description": "The active state color for the color.background.feedback.warning.default token. [🔎 warning; attention; caution; alert; notification; yellow;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.default-mode-light}",
-                "$description": "color.background.warning.bold"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.warning.default token, used to indicate a warning or caution. [🔎 warning; attention; caution; notice; alert; notification; yellow;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.hover-mode-light}",
-                "$description": "color.background.warning.bold.hover"
+                "$description": "The hover state color for the color.background.feedback.warning.strong.default token. [🔎 warning; attention; caution; notice; alert; notification; yellow;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.active-mode-light}",
-                "$description": "color.background.warning.bold.active"
+                "$description": "The active state color for the color.background.feedback.warning.strong.default token. [🔎 warning; attention; caution; notice; alert; notification; yellow;]"
               }
             }
           },
@@ -12711,33 +12720,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.default-mode-light}"
+              "$value": "{color.background.feedback.success.default-mode-light}",
+              "$description": "The background color for the default state of elements indicating a favorable outcome or a successfully completed action. [🔎 success; positive; completion; finish; alert; notification; green;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.hover-mode-light}"
+              "$value": "{color.background.feedback.success.hover-mode-light}",
+              "$description": "The hover state color for the color.background.feedback.success.default token. [🔎 success; positive; completion; finish; alert; notification; green;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.active-mode-light}"
+              "$value": "{color.background.feedback.success.active-mode-light}",
+              "$description": "The active state color for the  color.background.feedback.success.default token. [🔎 success; positive; completion; finish; alert; notification; green;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.default-mode-light}"
+                "$value": "{color.background.feedback.success.strong.default-mode-light}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.success.default token, used to indicate a favorable outcome or a successfully completed action. [🔎 success; positive; completion; finish; alert; notification; green;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.hover-mode-light}"
+                "$value": "{color.background.feedback.success.strong.hover-mode-light}",
+                "$description": "The hover state color for the color.background.feedback.success.strong token. [🔎 success; positive; completion; finish; alert; notification; green;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.active-mode-light}"
+                "$value": "{color.background.feedback.success.strong.active-mode-light}",
+                "$description": "The active state color for the  color.background.feedback.success.strong token. [🔎 success; positive; completion; finish; alert; notification; green;]"
               }
             }
           },
@@ -12745,33 +12760,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.default-mode-light}"
+              "$value": "{color.background.feedback.discovery.default-mode-light}",
+              "$description": "The background color for the default state of elements that indicate an additional concept that goes beyond the traditional semantics of success/warning/informational, such as new UI elements, new features etc. [🔎 discovery; learning; recommendation; new; positive; alert; notification; purple;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.hover-mode-light}"
+              "$value": "{color.background.feedback.discovery.hover-mode-light}",
+              "$description": "The hover state color for the color.background.feedback.discovery.default token. [🔎 discovery; positive; alert; notification; purple;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.active-mode-light}"
+              "$value": "{color.background.feedback.discovery.active-mode-light}",
+              "$description": "The active state color for the color.background.feedback.discovery.default token. [🔎 discovery; positive; alert; notification; purple;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.default-mode-light}"
+                "$value": "{color.background.feedback.discovery.strong.default-mode-light}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.discovery.default token, used to indicate a change or something new. [🔎 discovery; positive; alert; notification; purple;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.default-mode-light}"
+                "$value": "{color.background.feedback.discovery.strong.default-mode-light}",
+                "$description": "The hover state color for the color.background.feedback.discovery.strong.default token. [🔎 discovery; positive; alert; notification; purple;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.active-mode-light}"
+                "$value": "{color.background.feedback.discovery.strong.active-mode-light}",
+                "$description": "The active state color for the color.background.feedback.discovery.strong.default token. [🔎 discovery; positive; alert; notification; purple;]"
               }
             }
           },
@@ -12779,33 +12800,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.default-mode-light}"
+              "$value": "{color.background.feedback.information.default-mode-light}",
+              "$description": "The background color for the default state of elements indicating important information or something in progress. [🔎 information; positive; alert; notification; blue;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.hover-mode-light}"
+              "$value": "{color.background.feedback.information.hover-mode-light}",
+              "$description": "The hover state color for the color.background.feedback.information.default token. [🔎 information; positive; alert; notification; blue;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.active-mode-light}"
+              "$value": "{color.background.feedback.information.active-mode-light}",
+              "$description": "The active state color for the color.background.feedback.information.default token. [🔎 information; positive; alert; notification; blue;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.default-mode-light}"
+                "$value": "{color.background.feedback.information.strong.default-mode-light}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.information.strong.default token, used to indicate important information or something in progress. [🔎 information; positive; alert; notification; blue;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.hover-mode-light}"
+                "$value": "{color.background.feedback.information.strong.hover-mode-light}",
+                "$description": "The hover state color for the color.background.feedback.information.strong.default token. [🔎 information; positive; alert; notification; blue;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.active-mode-light}"
+                "$value": "{color.background.feedback.information.strong.active-mode-light}",
+                "$description": "The active state color for the color.background.feedback.information.strong.default token. [🔎 information; positive; alert; notification; blue;]"
               }
             }
           },
@@ -12813,33 +12840,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.default-mode-light}"
+              "$value": "{color.background.feedback.neutral.default-mode-light}",
+              "$description": "The background color for the default state of elements indicating neutral feedback. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.hover-mode-light}"
+              "$value": "{color.background.feedback.neutral.hover-mode-light}",
+              "$description": "The hover state color for the color.background.feedback.neutral.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.active-mode-light}"
+              "$value": "{color.background.feedback.neutral.active-mode-light}",
+              "$description": "The active state color for the color.background.feedback.neutral.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.default-mode-light}"
+                "$value": "{color.background.feedback.neutral.strong.default-mode-light}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.neutral.default token, used to indicate neutral feedback. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.hover-mode-light}"
+                "$value": "{color.background.feedback.neutral.strong.hover-mode-light}",
+                "$description": "The hover state color for the color.background.feedback.neutral.strong.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.active-mode-light}"
+                "$value": "{color.background.feedback.neutral.strong.active-mode-light}",
+                "$description": "The active state color for the color.background.feedback.neutral.strong.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               }
             }
           }
@@ -12848,7 +12881,8 @@
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.input.default-mode-light}"
+            "$value": "{color.background.input.default-mode-light}",
+            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [🔎 text input; field; textarea; dropdown; multiselect; combobox]"
           }
         }
       },
