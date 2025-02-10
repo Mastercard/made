@@ -13189,43 +13189,51 @@
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.default-mode-light}"
+          "$value": "{color.link.default-mode-light}",
+          "$description": "The primary color for the default state of links and interactive text. [🔎 text; link; href; cta text; interactive text; default; brand; accent;]"
         },
         "hover": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.hover-mode-light}"
+          "$value": "{color.link.hover-mode-light}",
+          "$description": "The hover state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; hover;]"
         },
         "active": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.active-mode-light}"
+          "$value": "{color.link.active-mode-light}",
+          "$description": "The active state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; active;]"
         },
         "visited": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.visited-mode-light}"
+          "$value": "{color.link.visited-mode-light}",
+          "$description": "The visited state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; visited;]"
         },
         "neutral": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.default-mode-light}"
+            "$value": "{color.link.neutral.default-mode-light}",
+            "$description": "The color for the default state of neutral-style links and interactive text. [🔎 text; link; href; cta text; interactive text; neutral;]"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.hover-mode-light}"
+            "$value": "{color.link.neutral.hover-mode-light}",
+            "$description": "The hover state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; hover;]"
           },
           "active": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.active-mode-light}"
+            "$value": "{color.link.neutral.active-mode-light}",
+            "$description": "The active state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; active;]"
           },
           "visited": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.visited-mode-light}"
+            "$value": "{color.link.neutral.visited-mode-light}",
+            "$description": "The visited state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; visited;]"
           }
         }
       },
@@ -13233,17 +13241,20 @@
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.primary-mode-light}"
+          "$value": "{color.shadow.primary-mode-light}",
+          "$description": "The default color for a box shadow. [🔎 box-shadow; drop-shadow; elevation; primary; default;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.secondary-mode-light}"
+          "$value": "{color.shadow.secondary-mode-light}",
+          "$description": "The stronger-emphasis color option of a box-shadow. [🔎 box-shadow; drop-shadow; elevation; secondary;]"
         },
         "tertiary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.tertiary-mode-light}"
+          "$value": "{color.shadow.tertiary-mode-light}",
+          "$description": "The strongest-emphasis color option of a box-shadow.  [🔎 box-shadow; drop-shadow; elevation; tertiary;]"
         }
       }
     },
