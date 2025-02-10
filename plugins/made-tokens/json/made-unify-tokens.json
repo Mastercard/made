@@ -1089,63 +1089,78 @@
     "opacity": {
       "0": {
         "$type": "opacity",
-        "$value": "0"
+        "$value": "0",
+        "$description": "0% [🔎 opacity; alpha; transparency;]"
       },
       "5": {
         "$type": "opacity",
-        "$value": "0.05"
+        "$value": "0.05",
+        "$description": "5% [🔎 opacity; alpha; transparency;]"
       },
       "10": {
         "$type": "opacity",
-        "$value": "0.1"
+        "$value": "0.1",
+        "$description": "10% [🔎 opacity; alpha; transparency;]"
       },
       "20": {
         "$type": "opacity",
-        "$value": "0.2"
+        "$value": "0.2",
+        "$description": "20% [🔎 opacity; alpha; transparency;]"
       },
       "25": {
         "$type": "opacity",
-        "$value": "0.25"
+        "$value": "0.25",
+        "$description": "25% [🔎 opacity; alpha; transparency;]"
       },
       "30": {
         "$type": "opacity",
-        "$value": "0.3"
+        "$value": "0.3",
+        "$description": "30% [🔎 opacity; alpha; transparency;]"
       },
       "40": {
         "$type": "opacity",
-        "$value": "0.4"
+        "$value": "0.4",
+        "$description": "40% [🔎 opacity; alpha; transparency;]"
       },
       "50": {
         "$type": "opacity",
-        "$value": "0.5"
+        "$value": "0.5",
+        "$description": "50% [🔎 opacity; alpha; transparency;]"
       },
       "60": {
         "$type": "opacity",
-        "$value": "0.6"
+        "$value": "0.6",
+        "$description": "60% [🔎 opacity; alpha; transparency;]"
       },
       "70": {
         "$type": "opacity",
-        "$value": "0.7"
+        "$value": "0.7",
+        "$description": "70% [🔎 opacity; alpha; transparency;]"
       },
       "75": {
         "$type": "opacity",
-        "$value": "0.75"
+        "$value": "0.75",
+        "$description": "75% [🔎 opacity; alpha; transparency;]"
       },
       "80": {
         "$type": "opacity",
-        "$value": "0.8"
+        "$value": "0.8",
+        "$description": "80% [🔎 opacity; alpha; transparency;]"
       },
       "90": {
         "$type": "opacity",
-        "$value": "0.9"
+        "$value": "0.9",
+        "$description": "90% [🔎 opacity; alpha; transparency;]"
       },
       "95": {
         "$type": "opacity",
-        "$value": "0.95"
+        "$value": "0.95",
+        "$description": "95% [🔎 opacity; alpha; transparency;]"
       },
       "100": {
         "$type": "opacity",
-        "$value": "1"
+        "$value": "1",
+        "$description": "100% [🔎 opacity; alpha; transparency;]"
       }
     },
     "border-radius": {
