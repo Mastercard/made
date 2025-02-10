@@ -12938,52 +12938,62 @@
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.success-mode-light}"
+          "$value": "{color.border.success-mode-light}",
+          "$description": "The color for borders that indicate a successful or positive state. Use it for components like alerts and badges or in areas where success should be communicated subtly with low contrast. [🔎 border; outline; stroke; success; positive; feedback; green;]"
         },
         "success-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.success-strong-mode-light}"
+          "$value": "{color.border.success-strong-mode-light}",
+          "$description": "The color for borders that indicate a successful or positive state, such as validated inputs or completed actions. Use it for form fields, status indicators, or other components where success needs to be clearly conveyed. [🔎 border; outline; stroke; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.danger-mode-light}"
+          "$value": "{color.border.danger-mode-light}",
+          "$description": "The color for borders that indicate an error, danger, invalid state, or destructive action. Use it for components like alerts and badges or in areas where errors should be communicated subtly with low contrast. [🔎 border; outline; stroke; danger; error; feedback; red;]"
         },
         "danger-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.danger-strong-mode-light}"
+          "$value": "{color.border.danger-strong-mode-light}",
+          "$description": "The color for borders that indicate an error or invalid state, or a destructive action, such as failed form validation or error messages. Use it for form fields, status indicators, or components where errors needs to be clearly conveyed. [🔎 border; outline; stroke; danger; error; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.warning-mode-light}"
+          "$value": "{color.border.warning-mode-light}",
+          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be communicated subtly with low contrast. [🔎 border; outline; stroke; warning; caution; feedback; yellow;]"
         },
         "warning-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.warning-strong-mode-light}"
+          "$value": "{color.border.warning-strong-mode-light}",
+          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be clearly conveyed. [🔎 border; outline; stroke; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.information-mode-light}"
+          "$value": "{color.border.information-mode-light}",
+          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information should be communicated subtly with low contrast. [🔎 border; outline; stroke; information; feedback; blue;]"
         },
         "information-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.information-strong-mode-light}"
+          "$value": "{color.border.information-strong-mode-light}",
+          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information need to be clearly conveyed. [🔎 border; outline; stroke; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.discovery-mode-light}"
+          "$value": "{color.border.discovery-mode-light}",
+          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information should be communicated subtly with low contrast. [🔎 border; outline; stroke; discovery; feedback; purple;]"
         },
         "discovery-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.discovery-strong-mode-light}"
+          "$value": "{color.border.discovery-strong-mode-light}",
+          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information need to be clearly conveyed. [🔎 border; outline; stroke; discovery; feedback; purple;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
