@@ -205,884 +205,1095 @@
     "color": {
       "white": {
         "$type": "color",
-        "$value": "#ffffff"
+        "$value": "#ffffff",
+        "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
       },
       "black": {
         "$type": "color",
-        "$value": "#000000"
+        "$value": "#000000",
+        "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
       },
       "gray": {
         "50": {
           "$type": "color",
-          "$value": "#f9fafb"
+          "$value": "#f9fafb",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#f3f4f6"
+          "$value": "#f3f4f6",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#e5e7eb"
+          "$value": "#e5e7eb",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#d1d5db"
+          "$value": "#d1d5db",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#9ca3af"
+          "$value": "#9ca3af",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#6b7280"
+          "$value": "#6b7280",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#4b5563"
+          "$value": "#4b5563",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#374151"
+          "$value": "#374151",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#1f2937"
+          "$value": "#1f2937",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#111827"
+          "$value": "#111827",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#030712"
+          "$value": "#030712",
+          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
         }
       },
       "neutral": {
         "50": {
           "$type": "color",
-          "$value": "#fafafa"
+          "$value": "#fafafa",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#f5f5f5"
+          "$value": "#f5f5f5",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#e5e5e5"
+          "$value": "#e5e5e5",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#d4d4d4"
+          "$value": "#d4d4d4",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#a3a3a3"
+          "$value": "#a3a3a3",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#737373"
+          "$value": "#737373",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#525252"
+          "$value": "#525252",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#404040"
+          "$value": "#404040",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#262626"
+          "$value": "#262626",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#171717"
+          "$value": "#171717",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#0a0a0a"
+          "$value": "#0a0a0a",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "red": {
         "50": {
           "$type": "color",
-          "$value": "#fef2f2"
+          "$value": "#fef2f2",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#fee2e2"
+          "$value": "#fee2e2",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#fecaca"
+          "$value": "#fecaca",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#fca5a5"
+          "$value": "#fca5a5",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#f87171"
+          "$value": "#f87171",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#ef4444"
+          "$value": "#ef4444",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#dc2626"
+          "$value": "#dc2626",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#b91c1c"
+          "$value": "#b91c1c",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#991b1b"
+          "$value": "#991b1b",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#7f1d1d"
+          "$value": "#7f1d1d",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#450a0a"
+          "$value": "#450a0a",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "orange": {
         "50": {
           "$type": "color",
-          "$value": "#fff7ed"
+          "$value": "#fff7ed",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#ffedd5"
+          "$value": "#ffedd5",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#fed7aa"
+          "$value": "#fed7aa",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#fdba74"
+          "$value": "#fdba74",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#fb923c"
+          "$value": "#fb923c",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#f97316"
+          "$value": "#f97316",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#ea580c"
+          "$value": "#ea580c",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#c2410c"
+          "$value": "#c2410c",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#9a3412"
+          "$value": "#9a3412",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#7c2d12"
+          "$value": "#7c2d12",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#431407"
+          "$value": "#431407",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "amber": {
         "50": {
           "$type": "color",
-          "$value": "#fffbeb"
+          "$value": "#fffbeb",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#fef3c7"
+          "$value": "#fef3c7",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#fde68a"
+          "$value": "#fde68a",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#fcd34d"
+          "$value": "#fcd34d",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#fbbf24"
+          "$value": "#fbbf24",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#f59e0b"
+          "$value": "#f59e0b",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#d97706"
+          "$value": "#d97706",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#b45309"
+          "$value": "#b45309",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#92400e"
+          "$value": "#92400e",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#78350f"
+          "$value": "#78350f",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#451a03"
+          "$value": "#451a03",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "yellow": {
         "50": {
           "$type": "color",
-          "$value": "#fefce8"
+          "$value": "#fefce8",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#fef9c3"
+          "$value": "#fef9c3",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#fef08a"
+          "$value": "#fef08a",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#fde047"
+          "$value": "#fde047",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#facc15"
+          "$value": "#facc15",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#eab308"
+          "$value": "#eab308",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#ca8a04"
+          "$value": "#ca8a04",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#a16207"
+          "$value": "#a16207",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#854d0e"
+          "$value": "#854d0e",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#713f12"
+          "$value": "#713f12",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#422006"
+          "$value": "#422006",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "lime": {
         "50": {
           "$type": "color",
-          "$value": "#f7fee7"
+          "$value": "#f7fee7",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#ecfccb"
+          "$value": "#ecfccb",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#d9f99d"
+          "$value": "#d9f99d",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#bef264"
+          "$value": "#bef264",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#a3e635"
+          "$value": "#a3e635",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#84cc16"
+          "$value": "#84cc16",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#65a30d"
+          "$value": "#65a30d",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#4d7c0f"
+          "$value": "#4d7c0f",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#3f6212"
+          "$value": "#3f6212",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#365314"
+          "$value": "#365314",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#1a2e05"
+          "$value": "#1a2e05",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "green": {
         "50": {
           "$type": "color",
-          "$value": "#f0fdf4"
+          "$value": "#f0fdf4",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#dcfce7"
+          "$value": "#dcfce7",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#bbf7d0"
+          "$value": "#bbf7d0",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#86efac"
+          "$value": "#86efac",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#4ade80"
+          "$value": "#4ade80",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#22c55e"
+          "$value": "#22c55e",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#16a34a"
+          "$value": "#16a34a",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#15803d"
+          "$value": "#15803d",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#166534"
+          "$value": "#166534",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#14532d"
+          "$value": "#14532d",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#052e16"
+          "$value": "#052e16",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "emerald": {
         "50": {
           "$type": "color",
-          "$value": "#ecfdf5"
+          "$value": "#ecfdf5",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#d1fae5"
+          "$value": "#d1fae5",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#a7f3d0"
+          "$value": "#a7f3d0",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#6ee7b7"
+          "$value": "#6ee7b7",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#34d399"
+          "$value": "#34d399",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#10b981"
+          "$value": "#10b981",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#059669"
+          "$value": "#059669",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#047857"
+          "$value": "#047857",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#065f46"
+          "$value": "#065f46",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#064e3b"
+          "$value": "#064e3b",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#022c22"
+          "$value": "#022c22",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "teal": {
         "50": {
           "$type": "color",
-          "$value": "#f0fdfa"
+          "$value": "#f0fdfa",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#ccfbf1"
+          "$value": "#ccfbf1",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#99f6e4"
+          "$value": "#99f6e4",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#5eead4"
+          "$value": "#5eead4",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#2dd4bf"
+          "$value": "#2dd4bf",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#14b8a6"
+          "$value": "#14b8a6",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#0d9488"
+          "$value": "#0d9488",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#0f766e"
+          "$value": "#0f766e",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#115e59"
+          "$value": "#115e59",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#134e4a"
+          "$value": "#134e4a",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#042f2e"
+          "$value": "#042f2e",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "cyan": {
         "50": {
           "$type": "color",
-          "$value": "#ecfeff"
+          "$value": "#ecfeff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#cffafe"
+          "$value": "#cffafe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#a5f3fc"
+          "$value": "#a5f3fc",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#67e8f9"
+          "$value": "#67e8f9",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#22d3ee"
+          "$value": "#22d3ee",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#06b6d4"
+          "$value": "#06b6d4",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#0891b2"
+          "$value": "#0891b2",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#0e7490"
+          "$value": "#0e7490",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#155e75"
+          "$value": "#155e75",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#164e63"
+          "$value": "#164e63",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#083344"
+          "$value": "#083344",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "sky": {
         "50": {
           "$type": "color",
-          "$value": "#f0f9ff"
+          "$value": "#f0f9ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#e0f2fe"
+          "$value": "#e0f2fe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#bae6fd"
+          "$value": "#bae6fd",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#7dd3fc"
+          "$value": "#7dd3fc",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#38bdf8"
+          "$value": "#38bdf8",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#0ea5e9"
+          "$value": "#0ea5e9",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#0284c7"
+          "$value": "#0284c7",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#0369a1"
+          "$value": "#0369a1",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#075985"
+          "$value": "#075985",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#0c4a6e"
+          "$value": "#0c4a6e",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#082f49"
+          "$value": "#082f49",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "blue": {
         "50": {
           "$type": "color",
-          "$value": "#eff6ff"
+          "$value": "#eff6ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#dbeafe"
+          "$value": "#dbeafe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#bfdbfe"
+          "$value": "#bfdbfe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#93c5fd"
+          "$value": "#93c5fd",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#60a5fa"
+          "$value": "#60a5fa",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#3b82f6"
+          "$value": "#3b82f6",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#2563eb"
+          "$value": "#2563eb",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#1d4ed8"
+          "$value": "#1d4ed8",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#1e40af"
+          "$value": "#1e40af",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#1e3a8a"
+          "$value": "#1e3a8a",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#172554"
+          "$value": "#172554",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "indigo": {
         "50": {
           "$type": "color",
-          "$value": "#eef2ff"
+          "$value": "#eef2ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#e0e7ff"
+          "$value": "#e0e7ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#c7d2fe"
+          "$value": "#c7d2fe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#a5b4fc"
+          "$value": "#a5b4fc",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#818cf8"
+          "$value": "#818cf8",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#6366f1"
+          "$value": "#6366f1",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#4f46e5"
+          "$value": "#4f46e5",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#4338ca"
+          "$value": "#4338ca",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#3730a3"
+          "$value": "#3730a3",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#312e81"
+          "$value": "#312e81",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#1e1b4b"
+          "$value": "#1e1b4b",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "violet": {
         "50": {
           "$type": "color",
-          "$value": "#f5f3ff"
+          "$value": "#f5f3ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#ede9fe"
+          "$value": "#ede9fe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#ddd6fe"
+          "$value": "#ddd6fe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#c4b5fd"
+          "$value": "#c4b5fd",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#a78bfa"
+          "$value": "#a78bfa",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#8b5cf6"
+          "$value": "#8b5cf6",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#7c3aed"
+          "$value": "#7c3aed",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#6d28d9"
+          "$value": "#6d28d9",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#5b21b6"
+          "$value": "#5b21b6",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#4c1d95"
+          "$value": "#4c1d95",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#2e1065"
+          "$value": "#2e1065",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "purple": {
         "50": {
           "$type": "color",
-          "$value": "#faf5ff"
+          "$value": "#faf5ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#f3e8ff"
+          "$value": "#f3e8ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#e9d5ff"
+          "$value": "#e9d5ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#d8b4fe"
+          "$value": "#d8b4fe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#c084fc"
+          "$value": "#c084fc",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#a855f7"
+          "$value": "#a855f7",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#9333ea"
+          "$value": "#9333ea",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#7e22ce"
+          "$value": "#7e22ce",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#6b21a8"
+          "$value": "#6b21a8",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#581c87"
+          "$value": "#581c87",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#3b0764"
+          "$value": "#3b0764",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "fuchsia": {
         "50": {
           "$type": "color",
-          "$value": "#fdf4ff"
+          "$value": "#fdf4ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#fae8ff"
+          "$value": "#fae8ff",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#f5d0fe"
+          "$value": "#f5d0fe",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#f0abfc"
+          "$value": "#f0abfc",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#e879f9"
+          "$value": "#e879f9",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#d946ef"
+          "$value": "#d946ef",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#c026d3"
+          "$value": "#c026d3",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#a21caf"
+          "$value": "#a21caf",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#86198f"
+          "$value": "#86198f",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#701a75"
+          "$value": "#701a75",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#4a044e"
+          "$value": "#4a044e",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "pink": {
         "50": {
           "$type": "color",
-          "$value": "#fdf2f8"
+          "$value": "#fdf2f8",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#fce7f3"
+          "$value": "#fce7f3",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#fbcfe8"
+          "$value": "#fbcfe8",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#f9a8d4"
+          "$value": "#f9a8d4",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#f472b6"
+          "$value": "#f472b6",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#ec4899"
+          "$value": "#ec4899",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#db2777"
+          "$value": "#db2777",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#be185d"
+          "$value": "#be185d",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#9d174d"
+          "$value": "#9d174d",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#831843"
+          "$value": "#831843",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#500724"
+          "$value": "#500724",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       },
       "rose": {
         "50": {
           "$type": "color",
-          "$value": "#fff1f2"
+          "$value": "#fff1f2",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
-          "$value": "#ffe4e6"
+          "$value": "#ffe4e6",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
-          "$value": "#fecdd3"
+          "$value": "#fecdd3",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
-          "$value": "#fda4af"
+          "$value": "#fda4af",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
-          "$value": "#fb7185"
+          "$value": "#fb7185",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
-          "$value": "#f43f5e"
+          "$value": "#f43f5e",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
-          "$value": "#e11d48"
+          "$value": "#e11d48",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
-          "$value": "#be123c"
+          "$value": "#be123c",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
-          "$value": "#9f1239"
+          "$value": "#9f1239",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
-          "$value": "#881337"
+          "$value": "#881337",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
-          "$value": "#4c0519"
+          "$value": "#4c0519",
+          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
         }
       }
     },
