@@ -4,202 +4,202 @@
       "0-x": {
         "$type": "dimension",
         "$value": "0px",
-        "$description": "0px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;]"
+        "$description": "0px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;]"
       },
       "0-25-px": {
         "$type": "dimension",
         "$value": "1px",
-        "$description": "1px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "1px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "0-5-x": {
         "$type": "dimension",
         "$value": "0.125rem",
-        "$description": "2px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "2px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "1-x": {
         "$type": "dimension",
         "$value": "0.25rem",
-        "$description": "4px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "4px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "1-5-x": {
         "$type": "dimension",
         "$value": "0.375rem",
-        "$description": "6px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "6px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "2-x": {
         "$type": "dimension",
         "$value": "0.5rem",
-        "$description": "8px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "8px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "2-5-x": {
         "$type": "dimension",
         "$value": "0.625rem",
-        "$description": "10px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "10px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "3-x": {
         "$type": "dimension",
         "$value": "0.75rem",
-        "$description": "12px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "12px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "3-5-x": {
         "$type": "dimension",
         "$value": "0.875rem",
-        "$description": "14px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "14px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "4-x": {
         "$type": "dimension",
         "$value": "1rem",
-        "$description": "16px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "16px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "5-x": {
         "$type": "dimension",
         "$value": "1.25rem",
-        "$description": "20px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "20px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "6-x": {
         "$type": "dimension",
         "$value": "1.5rem",
-        "$description": "24px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "24px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "7-x": {
         "$type": "dimension",
         "$value": "1.75rem",
-        "$description": "28px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "28px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "8-x": {
         "$type": "dimension",
         "$value": "2rem",
-        "$description": "32px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "32px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "9-x": {
         "$type": "dimension",
         "$value": "2.25rem",
-        "$description": "36px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "36px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "10-x": {
         "$type": "dimension",
         "$value": "2.5rem",
-        "$description": "40px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "40px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "11-x": {
         "$type": "dimension",
         "$value": "2.75rem",
-        "$description": "44px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "44px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "12-x": {
         "$type": "dimension",
         "$value": "3rem",
-        "$description": "48px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "48px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "13-x": {
         "$type": "dimension",
         "$value": "3.25rem",
-        "$description": "52px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "52px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "14-x": {
         "$type": "dimension",
         "$value": "3.5rem",
-        "$description": "56px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "56px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "15-x": {
         "$type": "dimension",
         "$value": "3.75rem",
-        "$description": "60px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "60px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "16-x": {
         "$type": "dimension",
         "$value": "4rem",
-        "$description": "64px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "64px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "17-x": {
         "$type": "dimension",
         "$value": "4.25rem",
-        "$description": "68px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "68px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "18-x": {
         "$type": "dimension",
         "$value": "4.5rem",
-        "$description": "72px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "72px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "19-x": {
         "$type": "dimension",
         "$value": "4.75rem",
-        "$description": "76px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "76px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "20-x": {
         "$type": "dimension",
         "$value": "5rem",
-        "$description": "80px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "80px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "24-x": {
         "$type": "dimension",
         "$value": "6rem",
-        "$description": "96px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "96px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "28-x": {
         "$type": "dimension",
         "$value": "7rem",
-        "$description": "112px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "112px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "32-x": {
         "$type": "dimension",
         "$value": "8rem",
-        "$description": "128px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "128px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "36-x": {
         "$type": "dimension",
         "$value": "9rem",
-        "$description": "144px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "144px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "40-x": {
         "$type": "dimension",
         "$value": "10rem",
-        "$description": "160px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "160px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "44-x": {
         "$type": "dimension",
         "$value": "11rem",
-        "$description": "176px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "176px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "48-x": {
         "$type": "dimension",
         "$value": "12rem",
-        "$description": "192px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "192px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "52-x": {
         "$type": "dimension",
         "$value": "13rem",
-        "$description": "208px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "208px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "56-x": {
         "$type": "dimension",
         "$value": "14rem",
-        "$description": "224px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "224px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "60-x": {
         "$type": "dimension",
         "$value": "15rem",
-        "$description": "240px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "240px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "64-x": {
         "$type": "dimension",
         "$value": "16rem",
-        "$description": "256px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "256px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "72-x": {
         "$type": "dimension",
         "$value": "18rem",
-        "$description": "288px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "288px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "80-x": {
         "$type": "dimension",
         "$value": "20rem",
-        "$description": "320px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "320px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       },
       "96-x": {
         "$type": "dimension",
         "$value": "24rem",
-        "$description": "384px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
+        "$description": "384px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects;"
       }
     },
     "color": {
@@ -1090,124 +1090,124 @@
       "0": {
         "$type": "opacity",
         "$value": "0",
-        "$description": "0% [🔎 opacity; alpha; transparency;]"
+        "$description": "0% [opacity; alpha; transparency;]"
       },
       "5": {
         "$type": "opacity",
         "$value": "0.05",
-        "$description": "5% [🔎 opacity; alpha; transparency;]"
+        "$description": "5% [opacity; alpha; transparency;]"
       },
       "10": {
         "$type": "opacity",
         "$value": "0.1",
-        "$description": "10% [🔎 opacity; alpha; transparency;]"
+        "$description": "10% [opacity; alpha; transparency;]"
       },
       "20": {
         "$type": "opacity",
         "$value": "0.2",
-        "$description": "20% [🔎 opacity; alpha; transparency;]"
+        "$description": "20% [opacity; alpha; transparency;]"
       },
       "25": {
         "$type": "opacity",
         "$value": "0.25",
-        "$description": "25% [🔎 opacity; alpha; transparency;]"
+        "$description": "25% [opacity; alpha; transparency;]"
       },
       "30": {
         "$type": "opacity",
         "$value": "0.3",
-        "$description": "30% [🔎 opacity; alpha; transparency;]"
+        "$description": "30% [opacity; alpha; transparency;]"
       },
       "40": {
         "$type": "opacity",
         "$value": "0.4",
-        "$description": "40% [🔎 opacity; alpha; transparency;]"
+        "$description": "40% [opacity; alpha; transparency;]"
       },
       "50": {
         "$type": "opacity",
         "$value": "0.5",
-        "$description": "50% [🔎 opacity; alpha; transparency;]"
+        "$description": "50% [opacity; alpha; transparency;]"
       },
       "60": {
         "$type": "opacity",
         "$value": "0.6",
-        "$description": "60% [🔎 opacity; alpha; transparency;]"
+        "$description": "60% [opacity; alpha; transparency;]"
       },
       "70": {
         "$type": "opacity",
         "$value": "0.7",
-        "$description": "70% [🔎 opacity; alpha; transparency;]"
+        "$description": "70% [opacity; alpha; transparency;]"
       },
       "75": {
         "$type": "opacity",
         "$value": "0.75",
-        "$description": "75% [🔎 opacity; alpha; transparency;]"
+        "$description": "75% [opacity; alpha; transparency;]"
       },
       "80": {
         "$type": "opacity",
         "$value": "0.8",
-        "$description": "80% [🔎 opacity; alpha; transparency;]"
+        "$description": "80% [opacity; alpha; transparency;]"
       },
       "90": {
         "$type": "opacity",
         "$value": "0.9",
-        "$description": "90% [🔎 opacity; alpha; transparency;]"
+        "$description": "90% [opacity; alpha; transparency;]"
       },
       "95": {
         "$type": "opacity",
         "$value": "0.95",
-        "$description": "95% [🔎 opacity; alpha; transparency;]"
+        "$description": "95% [opacity; alpha; transparency;]"
       },
       "100": {
         "$type": "opacity",
         "$value": "1",
-        "$description": "100% [🔎 opacity; alpha; transparency;]"
+        "$description": "100% [opacity; alpha; transparency;]"
       }
     },
     "border-radius": {
       "01": {
         "$type": "borderRadius",
         "$value": "{size-space.0-5-x}",
-        "$description": "2px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "2px [border-radius; radii; corner-radius;]"
       },
       "02": {
         "$type": "borderRadius",
         "$value": "{size-space.1-x}",
-        "$description": "4px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "4px [border-radius; radii; corner-radius;]"
       },
       "03": {
         "$type": "borderRadius",
         "$value": "{size-space.1-5-x}",
-        "$description": "6px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "6px [border-radius; radii; corner-radius;]"
       },
       "04": {
         "$type": "borderRadius",
         "$value": "{size-space.2-x}",
-        "$description": "8px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "8px [border-radius; radii; corner-radius;]"
       },
       "05": {
         "$type": "borderRadius",
         "$value": "{size-space.2-5-x}",
-        "$description": "12px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "12px [border-radius; radii; corner-radius;]"
       },
       "06": {
         "$type": "borderRadius",
         "$value": "{size-space.3-x}",
-        "$description": "16px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "16px [border-radius; radii; corner-radius;]"
       },
       "07": {
         "$type": "borderRadius",
         "$value": "{size-space.4-x}",
-        "$description": "20px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "20px [border-radius; radii; corner-radius;]"
       },
       "08": {
         "$type": "borderRadius",
         "$value": "{size-space.5-x}",
-        "$description": "24px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "24px [border-radius; radii; corner-radius;]"
       },
       "09": {
         "$type": "borderRadius",
         "$value": "{size-space.6-x}",
-        "$description": "28px [🔎 border-radius; radii; corner-radius;]"
+        "$description": "28px [border-radius; radii; corner-radius;]"
       }
     },
     "line": {
@@ -12300,13 +12300,13 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.primary-mode-light}",
-          "$description": "The primary brand color also used as the primary accent color. [🔎 brand; accent; primary;]"
+          "$description": "The primary brand color also used as the primary accent color. [brand; accent; primary;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.secondary-mode-light}",
-          "$description": "The secondary brand color. If your color system has only one brand color, using this token is optional. [🔎 brand; accent; secondary;]"
+          "$description": "The secondary brand color. If your color system has only one brand color, using this token is optional. [brand; accent; secondary;]"
         }
       },
       "background": {
@@ -12314,67 +12314,67 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.default-mode-light}",
-          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [🔎 body; html; canvas; page; fill; solid;]"
+          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [body; html; canvas; page; fill; solid;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.disabled-mode-light}",
-          "$description": "The background color of the elements in a disabled state. [🔎 disabled; inactive; fill; solid;]"
+          "$description": "The background color of the elements in a disabled state. [disabled; inactive; fill; solid;]"
         },
         "backdrop": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.backdrop-mode-light}",
-          "$description": "The background color for temporary overlays that can be applied to Unify surfaces for the purpose of making content on a surface less prominent. Typically used with Modals, Drawer and Sheet components. [🔎 overlay; backdrop; modal background; scrim]"
+          "$description": "The background color for temporary overlays that can be applied to Unify surfaces for the purpose of making content on a surface less prominent. Typically used with Modals, Drawer and Sheet components. [overlay; backdrop; modal background; scrim]"
         },
         "surface": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-light}",
-            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [🔎 surface; default; primary;]"
+            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [surface; default; primary;]"
           },
           "secondary": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.secondary-mode-light}",
-            "$description": "The secondary surface color, typically applied to the backgrounds of content cards, sections, and similar components. [🔎 surface; secondary;]"
+            "$description": "The secondary surface color, typically applied to the backgrounds of content cards, sections, and similar components. [surface; secondary;]"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.hover-mode-light}",
-            "$description": "The hover state color for the color.background.surface.default token. It should be used as the background color for the hover state of elements like dropdown list items, interactive cards, and more. [🔎 surface; hover;]"
+            "$description": "The hover state color for the color.background.surface.default token. It should be used as the background color for the hover state of elements like dropdown list items, interactive cards, and more. [surface; hover;]"
           },
           "transparent": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.transparent-mode-light}",
-            "$description": "This token represents the absence of a surface background color, ensuring no background color is applied. It can be used to override the default or secondary surface background colors. [🔎 surface; transparent; none;]"
+            "$description": "This token represents the absence of a surface background color, ensuring no background color is applied. It can be used to override the default or secondary surface background colors. [surface; transparent; none;]"
           },
           "selected": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.selected-mode-light}",
-            "$description": "The selected state color for the color.background.surface.default token. [🔎 surface; selected;]"
+            "$description": "The selected state color for the color.background.surface.default token. [surface; selected;]"
           },
           "selected-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.selected-hover-mode-light}",
-            "$description": "The selected hover state color for the color.background.surface.default token. [🔎 surface; selected hover;]"
+            "$description": "The selected hover state color for the color.background.surface.default token. [surface; selected hover;]"
           },
           "inverse": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.inverse-mode-light}",
-            "$description": "An inverted variant of the default surface color, dark in light mode and light in dark mode. It is used as the background color for components such as tooltips. [🔎 surface; inverse; inverted;]"
+            "$description": "An inverted variant of the default surface color, dark in light mode and light in dark mode. It is used as the background color for components such as tooltips. [surface; inverse; inverted;]"
           },
           "secondary-hover": {
             "$type": "color",
             "$value": "{color.background.surface.secondary-hover-mode-light}",
-            "$description": "The hover state color for the color.background.surface.secondary token. [🔎 surface; secondary; hover;]"
+            "$description": "The hover state color for the color.background.surface.secondary token. [surface; secondary; hover;]"
           }
         },
         "brand": {
@@ -12383,19 +12383,19 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-light}",
-              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [🔎 brand; accent; primary; default;]"
+              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [brand; accent; primary; default;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-light}",
-              "$description": "The hover state color for the color.background.brand.primary.default token. [🔎 brand; accent; primary; hover; mouse over; ]"
+              "$description": "The hover state color for the color.background.brand.primary.default token. [brand; accent; primary; hover; mouse over; ]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-light}",
-              "$description": "The active state color for the color.background.brand.primary.default token. [🔎 brand; accent; primary; active; ]"
+              "$description": "The active state color for the color.background.brand.primary.default token. [brand; accent; primary; active; ]"
             }
           },
           "secondary": {
@@ -12403,19 +12403,19 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.brand.secondary-mode-light}",
-              "$description": "The secondary brand background color. It can be used as a complementary color to the primary brand background color. [🔎 brand; accent; secondary; default;]"
+              "$description": "The secondary brand background color. It can be used as a complementary color to the primary brand background color. [brand; accent; secondary; default;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-light}",
-              "$description": "The hover state color for the color.background.brand.secondary.default token. [🔎 brand; accent; secondary; hover; mouse over;]"
+              "$description": "The hover state color for the color.background.brand.secondary.default token. [brand; accent; secondary; hover; mouse over;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-light}",
-              "$description": "The active state color for the color.background.brand.secondary.default token. [🔎 brand; accent; secondary; active;]"
+              "$description": "The active state color for the color.background.brand.secondary.default token. [brand; accent; secondary; active;]"
             }
           }
         },
@@ -12425,38 +12425,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.default-mode-light}",
-              "$description": "The default state of the background color that indicates an error or critical state. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
+              "$description": "The default state of the background color that indicates an error or critical state. [danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.danger.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
+              "$description": "The hover state color for the color.background.feedback.danger.default token. [danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.danger.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
+              "$description": "The active state color for the color.background.feedback.danger.default token. [danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.danger.default token, used to indicate an error or critical state. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.danger.default token, used to indicate an error or critical state. [danger; error; destructive; critical; negative; alert; notification; red;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.danger.strong.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
+                "$description": "The hover state color for the color.background.feedback.danger.strong.default token. [danger; error; destructive; critical; negative; alert; notification; red;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.active-mode-light}",
-                "$description": "The active state color for the  color.background.feedback.danger.strong.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red;]"
+                "$description": "The active state color for the  color.background.feedback.danger.strong.default token. [danger; error; destructive; critical; negative; alert; notification; red;]"
               }
             }
           },
@@ -12465,38 +12465,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.default-mode-light}",
-              "$description": "The background color for the default state of elements indicating a warning or caution. [🔎 warning; attention; caution; alert; notification; yellow;]"
+              "$description": "The background color for the default state of elements indicating a warning or caution. [warning; attention; caution; alert; notification; yellow;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.warning.default token. [🔎 warning; attention; caution; alert; notification; yellow;]"
+              "$description": "The hover state color for the color.background.feedback.warning.default token. [warning; attention; caution; alert; notification; yellow;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.warning.default token. [🔎 warning; attention; caution; alert; notification; yellow;]"
+              "$description": "The active state color for the color.background.feedback.warning.default token. [warning; attention; caution; alert; notification; yellow;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.warning.default token, used to indicate a warning or caution. [🔎 warning; attention; caution; notice; alert; notification; yellow;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.warning.default token, used to indicate a warning or caution. [warning; attention; caution; notice; alert; notification; yellow;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.warning.strong.default token. [🔎 warning; attention; caution; notice; alert; notification; yellow;]"
+                "$description": "The hover state color for the color.background.feedback.warning.strong.default token. [warning; attention; caution; notice; alert; notification; yellow;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.active-mode-light}",
-                "$description": "The active state color for the color.background.feedback.warning.strong.default token. [🔎 warning; attention; caution; notice; alert; notification; yellow;]"
+                "$description": "The active state color for the color.background.feedback.warning.strong.default token. [warning; attention; caution; notice; alert; notification; yellow;]"
               }
             }
           },
@@ -12505,38 +12505,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.default-mode-light}",
-              "$description": "The background color for the default state of elements indicating a favorable outcome or a successfully completed action. [🔎 success; positive; completion; finish; alert; notification; green;]"
+              "$description": "The background color for the default state of elements indicating a favorable outcome or a successfully completed action. [success; positive; completion; finish; alert; notification; green;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.success.default token. [🔎 success; positive; completion; finish; alert; notification; green;]"
+              "$description": "The hover state color for the color.background.feedback.success.default token. [success; positive; completion; finish; alert; notification; green;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.active-mode-light}",
-              "$description": "The active state color for the  color.background.feedback.success.default token. [🔎 success; positive; completion; finish; alert; notification; green;]"
+              "$description": "The active state color for the  color.background.feedback.success.default token. [success; positive; completion; finish; alert; notification; green;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.success.default token, used to indicate a favorable outcome or a successfully completed action. [🔎 success; positive; completion; finish; alert; notification; green;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.success.default token, used to indicate a favorable outcome or a successfully completed action. [success; positive; completion; finish; alert; notification; green;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.success.strong token. [🔎 success; positive; completion; finish; alert; notification; green;]"
+                "$description": "The hover state color for the color.background.feedback.success.strong token. [success; positive; completion; finish; alert; notification; green;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.active-mode-light}",
-                "$description": "The active state color for the  color.background.feedback.success.strong token. [🔎 success; positive; completion; finish; alert; notification; green;]"
+                "$description": "The active state color for the  color.background.feedback.success.strong token. [success; positive; completion; finish; alert; notification; green;]"
               }
             }
           },
@@ -12545,38 +12545,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.default-mode-light}",
-              "$description": "The background color for the default state of elements that indicate an additional concept that goes beyond the traditional semantics of success/warning/informational, such as new UI elements, new features etc. [🔎 discovery; learning; recommendation; new; positive; alert; notification; purple;]"
+              "$description": "The background color for the default state of elements that indicate an additional concept that goes beyond the traditional semantics of success/warning/informational, such as new UI elements, new features etc. [discovery; learning; recommendation; new; positive; alert; notification; purple;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.discovery.default token. [🔎 discovery; positive; alert; notification; purple;]"
+              "$description": "The hover state color for the color.background.feedback.discovery.default token. [discovery; positive; alert; notification; purple;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.discovery.default token. [🔎 discovery; positive; alert; notification; purple;]"
+              "$description": "The active state color for the color.background.feedback.discovery.default token. [discovery; positive; alert; notification; purple;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.discovery.default token, used to indicate a change or something new. [🔎 discovery; positive; alert; notification; purple;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.discovery.default token, used to indicate a change or something new. [discovery; positive; alert; notification; purple;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.default-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.discovery.strong.default token. [🔎 discovery; positive; alert; notification; purple;]"
+                "$description": "The hover state color for the color.background.feedback.discovery.strong.default token. [discovery; positive; alert; notification; purple;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.active-mode-light}",
-                "$description": "The active state color for the color.background.feedback.discovery.strong.default token. [🔎 discovery; positive; alert; notification; purple;]"
+                "$description": "The active state color for the color.background.feedback.discovery.strong.default token. [discovery; positive; alert; notification; purple;]"
               }
             }
           },
@@ -12585,38 +12585,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.default-mode-light}",
-              "$description": "The background color for the default state of elements indicating important information or something in progress. [🔎 information; positive; alert; notification; blue;]"
+              "$description": "The background color for the default state of elements indicating important information or something in progress. [information; positive; alert; notification; blue;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.information.default token. [🔎 information; positive; alert; notification; blue;]"
+              "$description": "The hover state color for the color.background.feedback.information.default token. [information; positive; alert; notification; blue;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.information.default token. [🔎 information; positive; alert; notification; blue;]"
+              "$description": "The active state color for the color.background.feedback.information.default token. [information; positive; alert; notification; blue;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.information.strong.default token, used to indicate important information or something in progress. [🔎 information; positive; alert; notification; blue;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.information.strong.default token, used to indicate important information or something in progress. [information; positive; alert; notification; blue;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.information.strong.default token. [🔎 information; positive; alert; notification; blue;]"
+                "$description": "The hover state color for the color.background.feedback.information.strong.default token. [information; positive; alert; notification; blue;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.active-mode-light}",
-                "$description": "The active state color for the color.background.feedback.information.strong.default token. [🔎 information; positive; alert; notification; blue;]"
+                "$description": "The active state color for the color.background.feedback.information.strong.default token. [information; positive; alert; notification; blue;]"
               }
             }
           },
@@ -12625,38 +12625,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.default-mode-light}",
-              "$description": "The background color for the default state of elements indicating neutral feedback. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
+              "$description": "The background color for the default state of elements indicating neutral feedback. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.neutral.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
+              "$description": "The hover state color for the color.background.feedback.neutral.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.neutral.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
+              "$description": "The active state color for the color.background.feedback.neutral.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.neutral.default token, used to indicate neutral feedback. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.neutral.default token, used to indicate neutral feedback. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.neutral.strong.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
+                "$description": "The hover state color for the color.background.feedback.neutral.strong.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.active-mode-light}",
-                "$description": "The active state color for the color.background.feedback.neutral.strong.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
+                "$description": "The active state color for the color.background.feedback.neutral.strong.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               }
             }
           }
@@ -12666,7 +12666,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.input.default-mode-light}",
-            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [🔎 text input; field; textarea; dropdown; multiselect; combobox]"
+            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [text input; field; textarea; dropdown; multiselect; combobox]"
           }
         }
       },
@@ -12675,126 +12675,126 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.brand-mode-light}",
-          "$description": "The border color that represents the brand’s primary color. [🔎 brand; accent; border; outline; stroke; divider; separator;]"
+          "$description": "The border color that represents the brand’s primary color. [brand; accent; border; outline; stroke; divider; separator;]"
         },
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-light}",
-          "$description": "The default border color for such elements as containers, cards, sections, dividers, table cells, etc. [🔎 border; outline; stroke; divider; separator; default; subtle; outline; gray; grey;]"
+          "$description": "The default border color for such elements as containers, cards, sections, dividers, table cells, etc. [border; outline; stroke; divider; separator; default; subtle; outline; gray; grey;]"
         },
         "bold": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.bold-mode-light}",
-          "$description": "The color for the most prominent and highly emphasized borders. It is ideal for framing highly important content. Use this token sparingly to maintain visual balance and impact. [🔎 border; outline; stroke; divider; separator; bold; high contrast; gray; grey;]"
+          "$description": "The color for the most prominent and highly emphasized borders. It is ideal for framing highly important content. Use this token sparingly to maintain visual balance and impact. [border; outline; stroke; divider; separator; bold; high contrast; gray; grey;]"
         },
         "strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.strong-mode-light}",
-          "$description": "The color for prominent or heavily emphasized borders. Use this token for elements requiring standout borders to enhance accessibility or clarity. [🔎 border; outline; stroke; divider; separator; strong; higher contrast; gray; grey;]"
+          "$description": "The color for prominent or heavily emphasized borders. Use this token for elements requiring standout borders to enhance accessibility or clarity. [border; outline; stroke; divider; separator; strong; higher contrast; gray; grey;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.neutral-mode-light}",
-          "$description": "The color for borders that are subtle and non-intrusive, typically used for providing structure without drawing attention. It works well for secondary elements. [🔎 border; outline; stroke; divider; separator; neutral; gray; grey;]"
+          "$description": "The color for borders that are subtle and non-intrusive, typically used for providing structure without drawing attention. It works well for secondary elements. [border; outline; stroke; divider; separator; neutral; gray; grey;]"
         },
         "focused": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.focused-mode-light}",
-          "$description": "The color of the stroke for elements in a focused state, such as form inputs or buttons. This token helps visually highlight and indicate to users which element is currently being interacted with, improving accessibility and user experience. [🔎 border; outline; stroke; focus;]"
+          "$description": "The color of the stroke for elements in a focused state, such as form inputs or buttons. This token helps visually highlight and indicate to users which element is currently being interacted with, improving accessibility and user experience. [border; outline; stroke; focus;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.disabled-mode-light}",
-          "$description": "The border color for elements in a disabled state, such as form fields that are disabled or inactive. [🔎 border; outline; stroke; disabled; inactive; non-interactive;]"
+          "$description": "The border color for elements in a disabled state, such as form fields that are disabled or inactive. [border; outline; stroke; disabled; inactive; non-interactive;]"
         },
         "input": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.input-mode-light}",
-          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [🔎 border; outline; stroke; input; textarea; checkbox; radio;]"
+          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [border; outline; stroke; input; textarea; checkbox; radio;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.success-mode-light}",
-          "$description": "The color for borders that indicate a successful or positive state. Use it for components like alerts and badges or in areas where success should be communicated subtly with low contrast. [🔎 border; outline; stroke; success; positive; feedback; green;]"
+          "$description": "The color for borders that indicate a successful or positive state. Use it for components like alerts and badges or in areas where success should be communicated subtly with low contrast. [border; outline; stroke; success; positive; feedback; green;]"
         },
         "success-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.success-strong-mode-light}",
-          "$description": "The color for borders that indicate a successful or positive state, such as validated inputs or completed actions. Use it for form fields, status indicators, or other components where success needs to be clearly conveyed. [🔎 border; outline; stroke; success; positive; feedback; green;]"
+          "$description": "The color for borders that indicate a successful or positive state, such as validated inputs or completed actions. Use it for form fields, status indicators, or other components where success needs to be clearly conveyed. [border; outline; stroke; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.danger-mode-light}",
-          "$description": "The color for borders that indicate an error, danger, invalid state, or destructive action. Use it for components like alerts and badges or in areas where errors should be communicated subtly with low contrast. [🔎 border; outline; stroke; danger; error; feedback; red;]"
+          "$description": "The color for borders that indicate an error, danger, invalid state, or destructive action. Use it for components like alerts and badges or in areas where errors should be communicated subtly with low contrast. [border; outline; stroke; danger; error; feedback; red;]"
         },
         "danger-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.danger-strong-mode-light}",
-          "$description": "The color for borders that indicate an error or invalid state, or a destructive action, such as failed form validation or error messages. Use it for form fields, status indicators, or components where errors needs to be clearly conveyed. [🔎 border; outline; stroke; danger; error; feedback; red;]"
+          "$description": "The color for borders that indicate an error or invalid state, or a destructive action, such as failed form validation or error messages. Use it for form fields, status indicators, or components where errors needs to be clearly conveyed. [border; outline; stroke; danger; error; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.warning-mode-light}",
-          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be communicated subtly with low contrast. [🔎 border; outline; stroke; warning; caution; feedback; yellow;]"
+          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be communicated subtly with low contrast. [border; outline; stroke; warning; caution; feedback; yellow;]"
         },
         "warning-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.warning-strong-mode-light}",
-          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be clearly conveyed. [🔎 border; outline; stroke; warning; caution; feedback; yellow;]"
+          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be clearly conveyed. [border; outline; stroke; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.information-mode-light}",
-          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information should be communicated subtly with low contrast. [🔎 border; outline; stroke; information; feedback; blue;]"
+          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information should be communicated subtly with low contrast. [border; outline; stroke; information; feedback; blue;]"
         },
         "information-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.information-strong-mode-light}",
-          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information need to be clearly conveyed. [🔎 border; outline; stroke; information; feedback; blue;]"
+          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information need to be clearly conveyed. [border; outline; stroke; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.discovery-mode-light}",
-          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information should be communicated subtly with low contrast. [🔎 border; outline; stroke; discovery; feedback; purple;]"
+          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information should be communicated subtly with low contrast. [border; outline; stroke; discovery; feedback; purple;]"
         },
         "discovery-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.discovery-strong-mode-light}",
-          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information need to be clearly conveyed. [🔎 border; outline; stroke; discovery; feedback; purple;]"
+          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information need to be clearly conveyed. [border; outline; stroke; discovery; feedback; purple;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.inverse-mode-light}",
-          "$description": "The color for borders used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 border; outline; stroke; inverse; inverted;]"
+          "$description": "The color for borders used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [border; outline; stroke; inverse; inverted;]"
         },
         "neutral-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.neutral-strong-mode-light}",
-          "$description": "A stronger emphasis option of the color.border.neutral token. [🔎 border; outline; stroke; divider; separator; strong; dark; gray; grey;]"
+          "$description": "A stronger emphasis option of the color.border.neutral token. [border; outline; stroke; divider; separator; strong; dark; gray; grey;]"
         },
         "none": {
           "$type": "color",
           "$value": "rgba(255,255,255,0)",
-          "$description": "This token represents the absence of a border, ensuring no visible outline or separation is applied. It can be used to explicitly override default border styles or when a clean, borderless appearance is required. [🔎 borderless; transparent;]"
+          "$description": "This token represents the absence of a border, ensuring no visible outline or separation is applied. It can be used to explicitly override default border styles or when a clean, borderless appearance is required. [borderless; transparent;]"
         }
       },
       "icon": {
@@ -12802,79 +12802,79 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.brand-mode-light}",
-          "$description": "The color for icons that reflect the primary brand color. [🔎 icon; pictogram; svg; brand; accent;]"
+          "$description": "The color for icons that reflect the primary brand color. [icon; pictogram; svg; brand; accent;]"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.primary-mode-light}",
-          "$description": "The default color for icons. [🔎 icon; pictogram; svg; primary;]"
+          "$description": "The default color for icons. [icon; pictogram; svg; primary;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.secondary-mode-light}",
-          "$description": "The secondary color for icons. [🔎 icon; pictogram; svg; secondary;]"
+          "$description": "The secondary color for icons. [icon; pictogram; svg; secondary;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.inverse-mode-light}",
-          "$description": "The color for icons used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 icon; pictogram; svg; inverse;]"
+          "$description": "The color for icons used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.disabled-mode-light}",
-          "$description": "The disabled state color for icons. [🔎 icon; pictogram; svg; disabled; inactive;]"
+          "$description": "The disabled state color for icons. [icon; pictogram; svg; disabled; inactive;]"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.helper-mode-light}",
-          "$description": "The color for monochrome helper-type icons. [🔎 icon; pictogram; svg; helper;]"
+          "$description": "The color for monochrome helper-type icons. [icon; pictogram; svg; helper;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.neutral-mode-light}",
-          "$description": "The tertiary color for icons, intended for use on backgrounds of neutral variant components. [🔎 icon; pictogram; svg; neutral; tertiary;]"
+          "$description": "The tertiary color for icons, intended for use on backgrounds of neutral variant components. [icon; pictogram; svg; neutral; tertiary;]"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.on-color-mode-light}",
-          "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [🔎 icon; pictogram; svg; inverse;]"
+          "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.success-mode-light}",
-          "$description": "The success state color for icons. [🔎 icon; pictogram; svg; success; positive; feedback; green;]"
+          "$description": "The success state color for icons. [icon; pictogram; svg; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.danger-mode-light}",
-          "$description": "The danger or error state color for icons. [🔎 icon; pictogram; svg; danger; negative; error; destructive; feedback; red;]"
+          "$description": "The danger or error state color for icons. [icon; pictogram; svg; danger; negative; error; destructive; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.warning-mode-light}",
-          "$description": "The warning state color for icons. [🔎 icon; pictogram; svg; warning; caution; feedback; yellow;]"
+          "$description": "The warning state color for icons. [icon; pictogram; svg; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.information-mode-light}",
-          "$description": "The information type color for icons. [🔎 icon; pictogram; svg; information; feedback; blue;]"
+          "$description": "The information type color for icons. [icon; pictogram; svg; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.discovery-mode-light}",
-          "$description": "The discovery type color for icons. [🔎 icon; pictogram; svg; discovery; feedback; purple;]"
+          "$description": "The discovery type color for icons. [icon; pictogram; svg; discovery; feedback; purple;]"
         }
       },
       "text": {
@@ -12882,91 +12882,91 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.brand-mode-light}",
-          "$description": "The color for branded text, often used for interactive text. [🔎 text; copy; content; heading; header; body; brand; accent;]"
+          "$description": "The color for branded text, often used for interactive text. [text; copy; content; heading; header; body; brand; accent;]"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.primary-mode-light}",
-          "$description": "The primary color for text, used for body copy, headers, and all non-interactive text. [🔎 text; copy; content; heading; header; body; primary; main;]"
+          "$description": "The primary color for text, used for body copy, headers, and all non-interactive text. [text; copy; content; heading; header; body; primary; main;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.secondary-mode-light}",
-          "$description": "The secondary color for text, used for non-interactive text. [🔎 text; copy; content; secondary;]"
+          "$description": "The secondary color for text, used for non-interactive text. [text; copy; content; secondary;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.inverse-mode-light}",
-          "$description": "The color for text used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 text; copy; content; inverse;]"
+          "$description": "The color for text used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; inverse;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.disabled-mode-light}",
-          "$description": "The color for disabled state text. [🔎 text; copy; content; disabled; inactive; read-only;]"
+          "$description": "The color for disabled state text. [text; copy; content; disabled; inactive; read-only;]"
         },
         "placeholder": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.placeholder-mode-light}",
-          "$description": "The color for placeholder text, used in text input components. [🔎 text; placeholder; input;]"
+          "$description": "The color for placeholder text, used in text input components. [text; placeholder; input;]"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.helper-mode-light}",
-          "$description": "The tertiary color for text, used for non-interactive text. [🔎 text; copy; content; helper; tertiary;]"
+          "$description": "The tertiary color for text, used for non-interactive text. [text; copy; content; helper; tertiary;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.neutral-mode-light}",
-          "$description": "The quaternary color for text, used for non-interactive text. [🔎 text; copy; content; neutral; quaternary;]"
+          "$description": "The quaternary color for text, used for non-interactive text. [text; copy; content; neutral; quaternary;]"
         },
         "selection-bg": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.selection-bg-mode-light}",
-          "$description": "The background color applied to selected text. [🔎 selection background; highlighted text background;]"
+          "$description": "The background color applied to selected text. [selection background; highlighted text background;]"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.on-color-mode-light}",
-          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [🔎 text; copy; content;]"
+          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [text; copy; content;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.success-mode-light}",
-          "$description": "The success state color for text. [🔎 text; success; positive; feedback; green;]"
+          "$description": "The success state color for text. [text; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.danger-mode-light}",
-          "$description": "The danger or error state color for text. [🔎 text; danger; negative; error; destructive; feedback; red;]"
+          "$description": "The danger or error state color for text. [text; danger; negative; error; destructive; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.warning-mode-light}",
-          "$description": "The warning state color for text. [🔎 text; warning; caution; feedback; yellow;]"
+          "$description": "The warning state color for text. [text; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.information-mode-light}",
-          "$description": "The information type color for text. [🔎 text; information; feedback; blue;]"
+          "$description": "The information type color for text. [text; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.discovery-mode-light}",
-          "$description": "The discovery type color for text. [🔎 text; discovery; feedback; purple;]"
+          "$description": "The discovery type color for text. [text; discovery; feedback; purple;]"
         }
       },
       "link": {
@@ -12974,50 +12974,50 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.default-mode-light}",
-          "$description": "The primary color for the default state of links and interactive text. [🔎 text; link; href; cta text; interactive text; default; brand; accent;]"
+          "$description": "The primary color for the default state of links and interactive text. [text; link; href; cta text; interactive text; default; brand; accent;]"
         },
         "hover": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.hover-mode-light}",
-          "$description": "The hover state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; hover;]"
+          "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover;]"
         },
         "active": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.active-mode-light}",
-          "$description": "The active state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; active;]"
+          "$description": "The active state color for the color.link.default token. [text; link; href; cta text; interactive text; active;]"
         },
         "visited": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.visited-mode-light}",
-          "$description": "The visited state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; visited;]"
+          "$description": "The visited state color for the color.link.default token. [text; link; href; cta text; interactive text; visited;]"
         },
         "neutral": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.default-mode-light}",
-            "$description": "The color for the default state of neutral-style links and interactive text. [🔎 text; link; href; cta text; interactive text; neutral;]"
+            "$description": "The color for the default state of neutral-style links and interactive text. [text; link; href; cta text; interactive text; neutral;]"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.hover-mode-light}",
-            "$description": "The hover state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; hover;]"
+            "$description": "The hover state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; hover;]"
           },
           "active": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.active-mode-light}",
-            "$description": "The active state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; active;]"
+            "$description": "The active state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; active;]"
           },
           "visited": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.visited-mode-light}",
-            "$description": "The visited state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; visited;]"
+            "$description": "The visited state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; visited;]"
           }
         }
       },
@@ -13026,19 +13026,19 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.primary-mode-light}",
-          "$description": "The default color for a box shadow. [🔎 box-shadow; drop-shadow; elevation; primary; default;]"
+          "$description": "The default color for a box shadow. [box-shadow; drop-shadow; elevation; primary; default;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.secondary-mode-light}",
-          "$description": "The stronger-emphasis color option of a box-shadow. [🔎 box-shadow; drop-shadow; elevation; secondary;]"
+          "$description": "The stronger-emphasis color option of a box-shadow. [box-shadow; drop-shadow; elevation; secondary;]"
         },
         "tertiary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.tertiary-mode-light}",
-          "$description": "The strongest-emphasis color option of a box-shadow.  [🔎 box-shadow; drop-shadow; elevation; tertiary;]"
+          "$description": "The strongest-emphasis color option of a box-shadow.  [box-shadow; drop-shadow; elevation; tertiary;]"
         }
       }
     },
@@ -13465,69 +13465,82 @@
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.brand.primary-mode-dark}"
+          "$value": "{color.brand.primary-mode-dark}",
+          "$description": "The primary brand color also used as the primary accent color. [brand; accent; primary;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.brand.secondary-mode-dark}"
+          "$value": "{color.brand.secondary-mode-dark}",
+          "$description": "The secondary brand color. If your color system has only one brand color, using this token is optional. [brand; accent; secondary;]"
         }
       },
       "background": {
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.default-mode-dark}"
+          "$value": "{color.background.default-mode-dark}",
+          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [body; html; canvas; page; fill; solid;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.disabled-mode-dark}"
+          "$value": "{color.background.disabled-mode-dark}",
+          "$description": "The background color of the elements in a disabled state. [disabled; inactive; fill; solid;]"
         },
         "backdrop": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.backdrop-mode-dark}"
+          "$value": "{color.background.backdrop-mode-dark}",
+          "$description": "The background color for temporary overlays that can be applied to Unify surfaces for the purpose of making content on a surface less prominent. Typically used with Modals, Drawer and Sheet components. [overlay; backdrop; modal background; scrim]"
         },
         "surface": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.default-mode-dark}"
+            "$value": "{color.background.surface.default-mode-dark}",
+            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [surface; default; primary;]"
           },
           "secondary": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-dark}"
+            "$value": "{color.background.surface.secondary-mode-dark}",
+            "$description": "The secondary surface color, typically applied to the backgrounds of content cards, sections, and similar components. [surface; secondary;]"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.hover-mode-dark}"
+            "$value": "{color.background.surface.hover-mode-dark}",
+            "$description": "The hover state color for the color.background.surface.default token. It should be used as the background color for the hover state of elements like dropdown list items, interactive cards, and more. [surface; hover;]"
           },
           "transparent": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.transparent-mode-dark}"
+            "$value": "{color.background.surface.transparent-mode-dark}",
+            "$description": "This token represents the absence of a surface background color, ensuring no background color is applied. It can be used to override the default or secondary surface background colors. [surface; transparent; none;]"
           },
           "selected": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.selected-mode-dark}"
+            "$value": "{color.background.surface.selected-mode-dark}",
+            "$description": "The selected state color for the color.background.surface.default token. [surface; selected;]"
           },
           "selected-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.selected-hover-mode-dark}"
+            "$value": "{color.background.surface.selected-hover-mode-dark}",
+            "$description": "The selected hover state color for the color.background.surface.default token. [surface; selected hover;]"
           },
           "inverse": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.inverse-mode-dark}"
+            "$value": "{color.background.surface.inverse-mode-dark}",
+            "$description": "An inverted variant of the default surface color, dark in light mode and light in dark mode. It is used as the background color for components such as tooltips. [surface; inverse; inverted;]"
           },
           "secondary-hover": {
             "$type": "color",
-            "$value": "{color.background.surface.secondary-hover-mode-dark}"
+            "$value": "{color.background.surface.secondary-hover-mode-dark}",
+            "$description": "The hover state color for the color.background.surface.secondary token. [surface; secondary; hover;]"
           }
         },
         "brand": {
@@ -13535,34 +13548,40 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-dark}"
+              "$value": "{color.background.brand.primary.default-mode-dark}",
+              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [brand; accent; primary; default;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}"
+              "$value": "{color.background.brand.primary.hover-mode-dark}",
+              "$description": "The hover state color for the color.background.brand.primary.default token. [brand; accent; primary; hover; mouse over; ]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}"
+              "$value": "{color.background.brand.primary.active-mode-dark}",
+              "$description": "The active state color for the color.background.brand.primary.default token. [brand; accent; primary; active; ]"
             }
           },
           "secondary": {
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.brand.secondary-mode-dark}"
+              "$value": "{color.brand.secondary-mode-dark}",
+              "$description": "The secondary brand background color. It can be used as a complementary color to the primary brand background color. [brand; accent; secondary; default;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}"
+              "$value": "{color.background.brand.primary.hover-mode-dark}",
+              "$description": "The hover state color for the color.background.brand.secondary.default token. [brand; accent; secondary; hover; mouse over;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}"
+              "$value": "{color.background.brand.primary.active-mode-dark}",
+              "$description": "The active state color for the color.background.brand.secondary.default token. [brand; accent; secondary; active;]"
             }
           }
         },
@@ -13571,33 +13590,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.default-mode-dark}"
+              "$value": "{color.background.feedback.danger.default-mode-dark}",
+              "$description": "The default state of the background color that indicates an error or critical state. [danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.hover-mode-dark}"
+              "$value": "{color.background.feedback.danger.hover-mode-dark}",
+              "$description": "The hover state color for the color.background.feedback.danger.default token. [danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.active-mode-dark}"
+              "$value": "{color.background.feedback.danger.active-mode-dark}",
+              "$description": "The active state color for the color.background.feedback.danger.default token. [danger; error; destructive; critical; negative; alert; notification; red;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.default-mode-dark}"
+                "$value": "{color.background.feedback.danger.strong.default-mode-dark}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.danger.default token, used to indicate an error or critical state. [danger; error; destructive; critical; negative; alert; notification; red;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.hover-mode-dark}"
+                "$value": "{color.background.feedback.danger.strong.hover-mode-dark}",
+                "$description": "The hover state color for the color.background.feedback.danger.strong.default token. [danger; error; destructive; critical; negative; alert; notification; red;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.active-mode-dark}"
+                "$value": "{color.background.feedback.danger.strong.active-mode-dark}",
+                "$description": "The active state color for the  color.background.feedback.danger.strong.default token. [danger; error; destructive; critical; negative; alert; notification; red;]"
               }
             }
           },
@@ -13605,33 +13630,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.default-mode-dark}"
+              "$value": "{color.background.feedback.warning.default-mode-dark}",
+              "$description": "The background color for the default state of elements indicating a warning or caution. [warning; attention; caution; alert; notification; yellow;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.hover-mode-dark}"
+              "$value": "{color.background.feedback.warning.hover-mode-dark}",
+              "$description": "The hover state color for the color.background.feedback.warning.default token. [warning; attention; caution; alert; notification; yellow;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.active-mode-dark}"
+              "$value": "{color.background.feedback.warning.active-mode-dark}",
+              "$description": "The active state color for the color.background.feedback.warning.default token. [warning; attention; caution; alert; notification; yellow;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.default-mode-dark}"
+                "$value": "{color.background.feedback.warning.strong.default-mode-dark}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.warning.default token, used to indicate a warning or caution. [warning; attention; caution; notice; alert; notification; yellow;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.hover-mode-dark}"
+                "$value": "{color.background.feedback.warning.strong.hover-mode-dark}",
+                "$description": "The hover state color for the color.background.feedback.warning.strong.default token. [warning; attention; caution; notice; alert; notification; yellow;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.active-mode-dark}"
+                "$value": "{color.background.feedback.warning.strong.active-mode-dark}",
+                "$description": "The active state color for the color.background.feedback.warning.strong.default token. [warning; attention; caution; notice; alert; notification; yellow;]"
               }
             }
           },
@@ -13639,33 +13670,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.default-mode-dark}"
+              "$value": "{color.background.feedback.success.default-mode-dark}",
+              "$description": "The background color for the default state of elements indicating a favorable outcome or a successfully completed action. [success; positive; completion; finish; alert; notification; green;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.hover-mode-dark}"
+              "$value": "{color.background.feedback.success.hover-mode-dark}",
+              "$description": "The hover state color for the color.background.feedback.success.default token. [success; positive; completion; finish; alert; notification; green;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.active-mode-dark}"
+              "$value": "{color.background.feedback.success.active-mode-dark}",
+              "$description": "The active state color for the  color.background.feedback.success.default token. [success; positive; completion; finish; alert; notification; green;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.default-mode-dark}"
+                "$value": "{color.background.feedback.success.strong.default-mode-dark}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.success.default token, used to indicate a favorable outcome or a successfully completed action. [success; positive; completion; finish; alert; notification; green;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.hover-mode-dark}"
+                "$value": "{color.background.feedback.success.strong.hover-mode-dark}",
+                "$description": "The hover state color for the color.background.feedback.success.strong token. [success; positive; completion; finish; alert; notification; green;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.active-mode-dark}"
+                "$value": "{color.background.feedback.success.strong.active-mode-dark}",
+                "$description": "The active state color for the  color.background.feedback.success.strong token. [success; positive; completion; finish; alert; notification; green;]"
               }
             }
           },
@@ -13673,33 +13710,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.default-mode-dark}"
+              "$value": "{color.background.feedback.discovery.default-mode-dark}",
+              "$description": "The background color for the default state of elements that indicate an additional concept that goes beyond the traditional semantics of success/warning/informational, such as new UI elements, new features etc. [discovery; learning; recommendation; new; positive; alert; notification; purple;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.hover-mode-dark}"
+              "$value": "{color.background.feedback.discovery.hover-mode-dark}",
+              "$description": "The hover state color for the color.background.feedback.discovery.default token. [discovery; positive; alert; notification; purple;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.active-mode-dark}"
+              "$value": "{color.background.feedback.discovery.active-mode-dark}",
+              "$description": "The active state color for the color.background.feedback.discovery.default token. [discovery; positive; alert; notification; purple;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.default-mode-dark}"
+                "$value": "{color.background.feedback.discovery.strong.default-mode-dark}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.discovery.default token, used to indicate a change or something new. [discovery; positive; alert; notification; purple;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.default-mode-dark}"
+                "$value": "{color.background.feedback.discovery.strong.default-mode-dark}",
+                "$description": "The hover state color for the color.background.feedback.discovery.strong.default token. [discovery; positive; alert; notification; purple;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.active-mode-dark}"
+                "$value": "{color.background.feedback.discovery.strong.active-mode-dark}",
+                "$description": "The active state color for the color.background.feedback.discovery.strong.default token. [discovery; positive; alert; notification; purple;]"
               }
             }
           },
@@ -13707,33 +13750,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.default-mode-dark}"
+              "$value": "{color.background.feedback.information.default-mode-dark}",
+              "$description": "The background color for the default state of elements indicating important information or something in progress. [information; positive; alert; notification; blue;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.hover-mode-dark}"
+              "$value": "{color.background.feedback.information.hover-mode-dark}",
+              "$description": "The hover state color for the color.background.feedback.information.default token. [information; positive; alert; notification; blue;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.active-mode-dark}"
+              "$value": "{color.background.feedback.information.active-mode-dark}",
+              "$description": "The active state color for the color.background.feedback.information.default token. [information; positive; alert; notification; blue;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.default-mode-dark}"
+                "$value": "{color.background.feedback.information.strong.default-mode-dark}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.information.strong.default token, used to indicate important information or something in progress. [information; positive; alert; notification; blue;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.hover-mode-dark}"
+                "$value": "{color.background.feedback.information.strong.hover-mode-dark}",
+                "$description": "The hover state color for the color.background.feedback.information.strong.default token. [information; positive; alert; notification; blue;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.active-mode-dark}"
+                "$value": "{color.background.feedback.information.strong.active-mode-dark}",
+                "$description": "The active state color for the color.background.feedback.information.strong.default token. [information; positive; alert; notification; blue;]"
               }
             }
           },
@@ -13741,33 +13790,39 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.default-mode-dark}"
+              "$value": "{color.background.feedback.neutral.default-mode-dark}",
+              "$description": "The background color for the default state of elements indicating neutral feedback. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.hover-mode-dark}"
+              "$value": "{color.background.feedback.neutral.hover-mode-dark}",
+              "$description": "The hover state color for the color.background.feedback.neutral.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.active-mode-dark}"
+              "$value": "{color.background.feedback.neutral.active-mode-dark}",
+              "$description": "The active state color for the color.background.feedback.neutral.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.default-mode-dark}"
+                "$value": "{color.background.feedback.neutral.strong.default-mode-dark}",
+                "$description": "A stronger-emphasis variant of the color.background.feedback.neutral.default token, used to indicate neutral feedback. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.hover-mode-dark}"
+                "$value": "{color.background.feedback.neutral.strong.hover-mode-dark}",
+                "$description": "The hover state color for the color.background.feedback.neutral.strong.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.active-mode-dark}"
+                "$value": "{color.background.feedback.neutral.strong.active-mode-dark}",
+                "$description": "The active state color for the color.background.feedback.neutral.strong.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
               }
             }
           }
@@ -13776,7 +13831,8 @@
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.input.default-mode-dark}"
+            "$value": "{color.background.input.default-mode-dark}",
+            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [text input; field; textarea; dropdown; multiselect; combobox]"
           }
         }
       },
@@ -13784,293 +13840,350 @@
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.brand-mode-dark}"
+          "$value": "{color.border.brand-mode-dark}",
+          "$description": "The border color that represents the brand’s primary color. [brand; accent; border; outline; stroke; divider; separator;]"
         },
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.default-mode-dark}"
+          "$value": "{color.border.default-mode-dark}",
+          "$description": "The default border color for such elements as containers, cards, sections, dividers, table cells, etc. [border; outline; stroke; divider; separator; default; subtle; outline; gray; grey;]"
         },
         "bold": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.bold-mode-dark}"
+          "$value": "{color.border.bold-mode-dark}",
+          "$description": "The color for the most prominent and highly emphasized borders. It is ideal for framing highly important content. Use this token sparingly to maintain visual balance and impact. [border; outline; stroke; divider; separator; bold; high contrast; gray; grey;]"
         },
         "strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.strong-mode-dark}"
+          "$value": "{color.border.strong-mode-dark}",
+          "$description": "The color for prominent or heavily emphasized borders. Use this token for elements requiring standout borders to enhance accessibility or clarity. [border; outline; stroke; divider; separator; strong; higher contrast; gray; grey;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.neutral-mode-dark}"
+          "$value": "{color.border.neutral-mode-dark}",
+          "$description": "The color for borders that are subtle and non-intrusive, typically used for providing structure without drawing attention. It works well for secondary elements. [border; outline; stroke; divider; separator; neutral; gray; grey;]"
         },
         "focused": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.focused-mode-dark}"
+          "$value": "{color.border.focused-mode-dark}",
+          "$description": "The color of the stroke for elements in a focused state, such as form inputs or buttons. This token helps visually highlight and indicate to users which element is currently being interacted with, improving accessibility and user experience. [border; outline; stroke; focus;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.disabled-mode-dark}"
+          "$value": "{color.border.disabled-mode-dark}",
+          "$description": "The border color for elements in a disabled state, such as form fields that are disabled or inactive. [border; outline; stroke; disabled; inactive; non-interactive;]"
         },
         "input": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.input-mode-dark}"
+          "$value": "{color.border.input-mode-dark}",
+          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [border; outline; stroke; input; textarea; checkbox; radio;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.success-mode-dark}"
+          "$value": "{color.border.success-mode-dark}",
+          "$description": "The color for borders that indicate a successful or positive state. Use it for components like alerts and badges or in areas where success should be communicated subtly with low contrast. [border; outline; stroke; success; positive; feedback; green;]"
         },
         "success-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.success-strong-mode-dark}"
+          "$value": "{color.border.success-strong-mode-dark}",
+          "$description": "The color for borders that indicate a successful or positive state, such as validated inputs or completed actions. Use it for form fields, status indicators, or other components where success needs to be clearly conveyed. [border; outline; stroke; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.danger-mode-dark}"
+          "$value": "{color.border.danger-mode-dark}",
+          "$description": "The color for borders that indicate an error, danger, invalid state, or destructive action. Use it for components like alerts and badges or in areas where errors should be communicated subtly with low contrast. [border; outline; stroke; danger; error; feedback; red;]"
         },
         "danger-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.danger-strong-mode-dark}"
+          "$value": "{color.border.danger-strong-mode-dark}",
+          "$description": "The color for borders that indicate an error or invalid state, or a destructive action, such as failed form validation or error messages. Use it for form fields, status indicators, or components where errors needs to be clearly conveyed. [border; outline; stroke; danger; error; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.warning-mode-dark}"
+          "$value": "{color.border.warning-mode-dark}",
+          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be communicated subtly with low contrast. [border; outline; stroke; warning; caution; feedback; yellow;]"
         },
         "warning-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.warning-strong-mode-dark}"
+          "$value": "{color.border.warning-strong-mode-dark}",
+          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be clearly conveyed. [border; outline; stroke; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.information-mode-dark}"
+          "$value": "{color.border.information-mode-dark}",
+          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information should be communicated subtly with low contrast. [border; outline; stroke; information; feedback; blue;]"
         },
         "information-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.information-strong-mode-dark}"
+          "$value": "{color.border.information-strong-mode-dark}",
+          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information need to be clearly conveyed. [border; outline; stroke; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.discovery-mode-dark}"
+          "$value": "{color.border.discovery-mode-dark}",
+          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information should be communicated subtly with low contrast. [border; outline; stroke; discovery; feedback; purple;]"
         },
         "discovery-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.discovery-strong-mode-dark}"
+          "$value": "{color.border.discovery-strong-mode-dark}",
+          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information need to be clearly conveyed. [border; outline; stroke; discovery; feedback; purple;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.inverse-mode-dark}"
+          "$value": "{color.border.inverse-mode-dark}",
+          "$description": "The color for borders used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [border; outline; stroke; inverse; inverted;]"
         },
         "neutral-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.neutral-strong-mode-dark}"
+          "$value": "{color.border.neutral-strong-mode-dark}",
+          "$description": "A stronger emphasis option of the color.border.neutral token. [border; outline; stroke; divider; separator; strong; dark; gray; grey;]"
         },
         "none": {
           "$type": "color",
-          "$value": "rgba(0,0,0,0)"
+          "$value": "rgba(0,0,0,0)",
+          "$description": "This token represents the absence of a border, ensuring no visible outline or separation is applied. It can be used to explicitly override default border styles or when a clean, borderless appearance is required. [borderless; transparent;]"
         }
       },
       "icon": {
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.brand-mode-dark}"
+          "$value": "{color.icon.brand-mode-dark}",
+          "$description": "The color for icons that reflect the primary brand color. [icon; pictogram; svg; brand; accent;]"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.primary-mode-dark}"
+          "$value": "{color.icon.primary-mode-dark}",
+          "$description": "The default color for icons. [icon; pictogram; svg; primary;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.secondary-mode-dark}"
+          "$value": "{color.icon.secondary-mode-dark}",
+          "$description": "The secondary color for icons. [icon; pictogram; svg; secondary;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.inverse-mode-dark}"
+          "$value": "{color.icon.inverse-mode-dark}",
+          "$description": "The color for icons used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.disabled-mode-dark}"
+          "$value": "{color.icon.disabled-mode-dark}",
+          "$description": "The disabled state color for icons. [icon; pictogram; svg; disabled; inactive;]"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.helper-mode-dark}"
+          "$value": "{color.icon.helper-mode-dark}",
+          "$description": "The color for monochrome helper-type icons. [icon; pictogram; svg; helper;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.neutral-mode-dark}"
+          "$value": "{color.icon.neutral-mode-dark}",
+          "$description": "The tertiary color for icons, intended for use on backgrounds of neutral variant components. [icon; pictogram; svg; neutral; tertiary;]"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.on-color-mode-dark}"
+          "$value": "{color.icon.on-color-mode-dark}",
+          "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.success-mode-dark}"
+          "$value": "{color.icon.success-mode-dark}",
+          "$description": "The success state color for icons. [icon; pictogram; svg; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.danger-mode-dark}"
+          "$value": "{color.icon.danger-mode-dark}",
+          "$description": "The danger or error state color for icons. [icon; pictogram; svg; danger; negative; error; destructive; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.warning-mode-dark}"
+          "$value": "{color.icon.warning-mode-dark}",
+          "$description": "The warning state color for icons. [icon; pictogram; svg; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.information-mode-dark}"
+          "$value": "{color.icon.information-mode-dark}",
+          "$description": "The information type color for icons. [icon; pictogram; svg; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.discovery-mode-dark}"
+          "$value": "{color.icon.discovery-mode-dark}",
+          "$description": "The discovery type color for icons. [icon; pictogram; svg; discovery; feedback; purple;]"
         }
       },
       "text": {
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.brand-mode-dark}"
+          "$value": "{color.text.brand-mode-dark}",
+          "$description": "The color for branded text, often used for interactive text. [text; copy; content; heading; header; body; brand; accent;]"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.primary-mode-dark}"
+          "$value": "{color.text.primary-mode-dark}",
+          "$description": "The primary color for text, used for body copy, headers, and all non-interactive text. [text; copy; content; heading; header; body; primary; main;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.secondary-mode-dark}"
+          "$value": "{color.text.secondary-mode-dark}",
+          "$description": "The secondary color for text, used for non-interactive text. [text; copy; content; secondary;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.inverse-mode-dark}"
+          "$value": "{color.text.inverse-mode-dark}",
+          "$description": "The color for text used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; inverse;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.disabled-mode-dark}"
+          "$value": "{color.text.disabled-mode-dark}",
+          "$description": "The color for disabled state text. [text; copy; content; disabled; inactive; read-only;]"
         },
         "placeholder": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.placeholder-mode-dark}"
+          "$value": "{color.text.placeholder-mode-dark}",
+          "$description": "The color for placeholder text, used in text input components. [text; placeholder; input;]"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.helper-mode-dark}"
+          "$value": "{color.text.helper-mode-dark}",
+          "$description": "The tertiary color for text, used for non-interactive text. [text; copy; content; helper; tertiary;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.neutral-mode-dark}"
+          "$value": "{color.text.neutral-mode-dark}",
+          "$description": "The quaternary color for text, used for non-interactive text. [text; copy; content; neutral; quaternary;]"
         },
         "selection-bg": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.selection-bg-mode-dark}"
+          "$value": "{color.text.selection-bg-mode-dark}",
+          "$description": "The background color applied to selected text. [selection background; highlighted text background;]"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.on-color-mode-dark}"
+          "$value": "{color.text.on-color-mode-dark}",
+          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [text; copy; content;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.success-mode-dark}"
+          "$value": "{color.text.success-mode-dark}",
+          "$description": "The success state color for text. [text; success; positive; feedback; green;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.danger-mode-dark}"
+          "$value": "{color.text.danger-mode-dark}",
+          "$description": "The danger or error state color for text. [text; danger; negative; error; destructive; feedback; red;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.warning-mode-dark}"
+          "$value": "{color.text.warning-mode-dark}",
+          "$description": "The warning state color for text. [text; warning; caution; feedback; yellow;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.information-mode-dark}"
+          "$value": "{color.text.information-mode-dark}",
+          "$description": "The information type color for text. [text; information; feedback; blue;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.discovery-mode-dark}"
+          "$value": "{color.text.discovery-mode-dark}",
+          "$description": "The discovery type color for text. [text; discovery; feedback; purple;]"
         }
       },
       "link": {
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.default-mode-dark}"
+          "$value": "{color.link.default-mode-dark}",
+          "$description": "The primary color for the default state of links and interactive text. [text; link; href; cta text; interactive text; default; brand; accent;]"
         },
         "hover": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.hover-mode-dark}"
+          "$value": "{color.link.hover-mode-dark}",
+          "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover;]"
         },
         "active": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.active-mode-dark}"
+          "$value": "{color.link.active-mode-dark}",
+          "$description": "The active state color for the color.link.default token. [text; link; href; cta text; interactive text; active;]"
         },
         "visited": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.visited-mode-dark}"
+          "$value": "{color.link.visited-mode-dark}",
+          "$description": "The visited state color for the color.link.default token. [text; link; href; cta text; interactive text; visited;]"
         },
         "neutral": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.default-mode-dark}"
+            "$value": "{color.link.neutral.default-mode-dark}",
+            "$description": "The color for the default state of neutral-style links and interactive text. [text; link; href; cta text; interactive text; neutral;]"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.hover-mode-dark}"
+            "$value": "{color.link.neutral.hover-mode-dark}",
+            "$description": "The hover state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; hover;]"
           },
           "active": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.active-mode-dark}"
+            "$value": "{color.link.neutral.active-mode-dark}",
+            "$description": "The active state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; active;]"
           },
           "visited": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.visited-mode-dark}"
+            "$value": "{color.link.neutral.visited-mode-dark}",
+            "$description": "The visited state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; visited;]"
           }
         }
       },
@@ -14078,17 +14191,20 @@
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.primary-mode-dark}"
+          "$value": "{color.shadow.primary-mode-dark}",
+          "$description": "The default color for a box shadow. [box-shadow; drop-shadow; elevation; primary; default;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.secondary-mode-dark}"
+          "$value": "{color.shadow.secondary-mode-dark}",
+          "$description": "The stronger-emphasis color option of a box-shadow. [box-shadow; drop-shadow; elevation; secondary;]"
         },
         "tertiary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.tertiary-mode-dark}"
+          "$value": "{color.shadow.tertiary-mode-dark}",
+          "$description": "The strongest-emphasis color option of a box-shadow.  [box-shadow; drop-shadow; elevation; tertiary;]"
         }
       }
     },
@@ -14194,7 +14310,8 @@
           "contrast-high": {
             "text-color": {
               "$type": "color",
-              "$value": "{component.tag.warning.contrast-high.text-color-mode-dark}"
+              "$value": "{component.tag.warning.contrast-high.text-color-mode-dark}",
+              "$description": "Text color for Warning Tags in their High Contrast variant style. "
             }
           }
         }
@@ -14227,7 +14344,8 @@
           },
           "background-selected-hover": {
             "$type": "color",
-            "$value": "{component.date-picker.day.background-selected-hover-mode-dark}"
+            "$value": "{component.date-picker.day.background-selected-hover-mode-dark}",
+            "$description": "Hover color for selected day elements in the date range calendar"
           },
           "background-in-range": {
             "$type": "color",
@@ -14324,15 +14442,18 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-dark}"
+              "$value": "{color.background.brand.primary.default-mode-dark}",
+              "$description": "Background color of primary buttons in their default / resting state. "
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.default.border-color-mode-dark}"
+              "$value": "{component.button.primary.default.border-color-mode-dark}",
+              "$description": "Color of border on a primary buttons default / resting state. "
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.default.text-color-mode-dark}"
+              "$value": "{component.button.primary.default.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
             }
           },
           "hover": {
@@ -14343,11 +14464,13 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.hover.border-color-mode-dark}"
+              "$value": "{component.button.primary.hover.border-color-mode-dark}",
+              "$description": "Color of border on a primary buttons hover state. "
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.hover.text-color-mode-dark}"
+              "$value": "{component.button.primary.hover.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons hover state. "
             }
           },
           "active": {
@@ -14358,11 +14481,13 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.active.border-color-mode-dark}"
+              "$value": "{component.button.primary.active.border-color-mode-dark}",
+              "$description": "Color of border on a primary buttons active state. "
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.active.text-color-mode-dark}"
+              "$value": "{component.button.primary.active.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a primary buttons active state. "
             }
           }
         },
@@ -14375,11 +14500,13 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.default.border-color-mode-dark}"
+              "$value": "{component.button.secondary.default.border-color-mode-dark}",
+              "$description": "Color of border on a secondary buttons default / resting state. "
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.default.text-color-mode-dark}"
+              "$value": "{component.button.secondary.default.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
             }
           },
           "hover": {
@@ -14390,11 +14517,13 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.hover.border-color-mode-dark}"
+              "$value": "{component.button.secondary.hover.border-color-mode-dark}",
+              "$description": "Color of border on a secondary buttons hover state. "
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.hover.text-color-mode-dark}"
+              "$value": "{component.button.secondary.hover.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons hover state. "
             }
           },
           "active": {
@@ -14405,11 +14534,13 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.active.border-color-mode-dark}"
+              "$value": "{component.button.secondary.active.border-color-mode-dark}",
+              "$description": "Color of border on a secondary buttons active state. "
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.active.text-color-mode-dark}"
+              "$value": "{component.button.secondary.active.text-color-mode-dark}",
+              "$description": "Color of text and icon elements on a secondary buttons active state. "
             }
           }
         },
@@ -14479,7 +14610,8 @@
           "contrast-high": {
             "text-color": {
               "$type": "color",
-              "$value": "{component.badge.warning.contrast-high.text-color-mode-dark}"
+              "$value": "{component.badge.warning.contrast-high.text-color-mode-dark}",
+              "$description": "Text color for Warning badges in their High Contrast variant style. "
             }
           }
         }
