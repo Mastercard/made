@@ -4,1296 +4,1296 @@
       "0-x": {
         "$type": "dimension",
         "$value": "0px",
-        "$description": "0px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "0px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "0-25-px": {
         "$type": "dimension",
         "$value": "1px",
-        "$description": "1px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "1px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "0-5-x": {
         "$type": "dimension",
         "$value": "0.125rem",
-        "$description": "2px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "2px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "1-x": {
         "$type": "dimension",
         "$value": "0.25rem",
-        "$description": "4px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "4px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "1-5-x": {
         "$type": "dimension",
         "$value": "0.375rem",
-        "$description": "6px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "6px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "2-x": {
         "$type": "dimension",
         "$value": "0.5rem",
-        "$description": "8px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "8px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "2-5-x": {
         "$type": "dimension",
         "$value": "0.625rem",
-        "$description": "10px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "10px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "3-x": {
         "$type": "dimension",
         "$value": "0.75rem",
-        "$description": "12px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "12px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "3-5-x": {
         "$type": "dimension",
         "$value": "0.875rem",
-        "$description": "14px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "14px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "4-x": {
         "$type": "dimension",
         "$value": "1rem",
-        "$description": "16px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "16px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "5-x": {
         "$type": "dimension",
         "$value": "1.25rem",
-        "$description": "20px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "20px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "6-x": {
         "$type": "dimension",
         "$value": "1.5rem",
-        "$description": "24px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "24px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "7-x": {
         "$type": "dimension",
         "$value": "1.75rem",
-        "$description": "28px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "28px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "8-x": {
         "$type": "dimension",
         "$value": "2rem",
-        "$description": "32px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "32px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "9-x": {
         "$type": "dimension",
         "$value": "2.25rem",
-        "$description": "36px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "36px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "10-x": {
         "$type": "dimension",
         "$value": "2.5rem",
-        "$description": "40px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "40px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "11-x": {
         "$type": "dimension",
         "$value": "2.75rem",
-        "$description": "44px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "44px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "12-x": {
         "$type": "dimension",
         "$value": "3rem",
-        "$description": "48px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "48px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "13-x": {
         "$type": "dimension",
         "$value": "3.25rem",
-        "$description": "52px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "52px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "14-x": {
         "$type": "dimension",
         "$value": "3.5rem",
-        "$description": "56px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "56px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "15-x": {
         "$type": "dimension",
         "$value": "3.75rem",
-        "$description": "60px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "60px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "16-x": {
         "$type": "dimension",
         "$value": "4rem",
-        "$description": "64px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "64px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "17-x": {
         "$type": "dimension",
         "$value": "4.25rem",
-        "$description": "68px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "68px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "18-x": {
         "$type": "dimension",
         "$value": "4.5rem",
-        "$description": "72px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "72px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "19-x": {
         "$type": "dimension",
         "$value": "4.75rem",
-        "$description": "76px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "76px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "20-x": {
         "$type": "dimension",
         "$value": "5rem",
-        "$description": "80px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "80px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "24-x": {
         "$type": "dimension",
         "$value": "6rem",
-        "$description": "96px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "96px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "28-x": {
         "$type": "dimension",
         "$value": "7rem",
-        "$description": "112px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "112px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "32-x": {
         "$type": "dimension",
         "$value": "8rem",
-        "$description": "128px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "128px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "36-x": {
         "$type": "dimension",
         "$value": "9rem",
-        "$description": "144px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "144px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "40-x": {
         "$type": "dimension",
         "$value": "10rem",
-        "$description": "160px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "160px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "44-x": {
         "$type": "dimension",
         "$value": "11rem",
-        "$description": "176px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "176px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "48-x": {
         "$type": "dimension",
         "$value": "12rem",
-        "$description": "192px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "192px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "52-x": {
         "$type": "dimension",
         "$value": "13rem",
-        "$description": "208px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "208px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "56-x": {
         "$type": "dimension",
         "$value": "14rem",
-        "$description": "224px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "224px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "60-x": {
         "$type": "dimension",
         "$value": "15rem",
-        "$description": "240px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "240px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "64-x": {
         "$type": "dimension",
         "$value": "16rem",
-        "$description": "256px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "256px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "72-x": {
         "$type": "dimension",
         "$value": "18rem",
-        "$description": "288px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "288px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "80-x": {
         "$type": "dimension",
         "$value": "20rem",
-        "$description": "320px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "320px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
       "96-x": {
         "$type": "dimension",
         "$value": "24rem",
-        "$description": "384px [🔎 width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
+        "$description": "384px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       }
     },
     "color": {
       "white": {
         "$type": "color",
         "$value": "#ffffff",
-        "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+        "$description": "[color; colour; hue; primitive; base; global; core;]"
       },
       "black": {
         "$type": "color",
         "$value": "#000000",
-        "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+        "$description": "[color; colour; hue; primitive; base; global; core;]"
       },
       "gray": {
         "50": {
           "$type": "color",
           "$value": "#f9fafb",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#f3f4f6",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#e5e7eb",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#d1d5db",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#9ca3af",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#6b7280",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#4b5563",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#374151",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#1f2937",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#111827",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#030712",
-          "$description": "[🔎 grey; color; colour; hue; primitive; base; global; core;]"
+          "$description": "[grey; color; colour; hue; primitive; base; global; core;]"
         }
       },
       "neutral": {
         "50": {
           "$type": "color",
           "$value": "#fafafa",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#f5f5f5",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#e5e5e5",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#d4d4d4",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#a3a3a3",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#737373",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#525252",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#404040",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#262626",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#171717",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#0a0a0a",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "red": {
         "50": {
           "$type": "color",
           "$value": "#fef2f2",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#fee2e2",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#fecaca",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#fca5a5",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#f87171",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#ef4444",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#dc2626",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#b91c1c",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#991b1b",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#7f1d1d",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#450a0a",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "orange": {
         "50": {
           "$type": "color",
           "$value": "#fff7ed",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#ffedd5",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#fed7aa",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#fdba74",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#fb923c",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#f97316",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#ea580c",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#c2410c",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#9a3412",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#7c2d12",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#431407",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "amber": {
         "50": {
           "$type": "color",
           "$value": "#fffbeb",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#fef3c7",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#fde68a",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#fcd34d",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#fbbf24",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#f59e0b",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#d97706",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#b45309",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#92400e",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#78350f",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#451a03",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "yellow": {
         "50": {
           "$type": "color",
           "$value": "#fefce8",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#fef9c3",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#fef08a",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#fde047",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#facc15",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#eab308",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#ca8a04",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#a16207",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#854d0e",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#713f12",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#422006",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "lime": {
         "50": {
           "$type": "color",
           "$value": "#f7fee7",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#ecfccb",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#d9f99d",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#bef264",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#a3e635",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#84cc16",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#65a30d",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#4d7c0f",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#3f6212",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#365314",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#1a2e05",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "green": {
         "50": {
           "$type": "color",
           "$value": "#f0fdf4",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#dcfce7",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#bbf7d0",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#86efac",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#4ade80",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#22c55e",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#16a34a",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#15803d",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#166534",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#14532d",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#052e16",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "emerald": {
         "50": {
           "$type": "color",
           "$value": "#ecfdf5",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#d1fae5",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#a7f3d0",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#6ee7b7",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#34d399",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#10b981",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#059669",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#047857",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#065f46",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#064e3b",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#022c22",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "teal": {
         "50": {
           "$type": "color",
           "$value": "#f0fdfa",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#ccfbf1",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#99f6e4",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#5eead4",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#2dd4bf",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#14b8a6",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#0d9488",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#0f766e",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#115e59",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#134e4a",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#042f2e",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "cyan": {
         "50": {
           "$type": "color",
           "$value": "#ecfeff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#cffafe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#a5f3fc",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#67e8f9",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#22d3ee",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#06b6d4",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#0891b2",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#0e7490",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#155e75",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#164e63",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#083344",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "sky": {
         "50": {
           "$type": "color",
           "$value": "#f0f9ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#e0f2fe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#bae6fd",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#7dd3fc",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#38bdf8",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#0ea5e9",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#0284c7",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#0369a1",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#075985",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#0c4a6e",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#082f49",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "blue": {
         "50": {
           "$type": "color",
           "$value": "#eff6ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#dbeafe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#bfdbfe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#93c5fd",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#60a5fa",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#3b82f6",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#2563eb",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#1d4ed8",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#1e40af",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#1e3a8a",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#172554",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "indigo": {
         "50": {
           "$type": "color",
           "$value": "#eef2ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#e0e7ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#c7d2fe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#a5b4fc",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#818cf8",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#6366f1",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#4f46e5",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#4338ca",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#3730a3",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#312e81",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#1e1b4b",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "violet": {
         "50": {
           "$type": "color",
           "$value": "#f5f3ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#ede9fe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#ddd6fe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#c4b5fd",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#a78bfa",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#8b5cf6",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#7c3aed",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#6d28d9",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#5b21b6",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#4c1d95",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#2e1065",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "purple": {
         "50": {
           "$type": "color",
           "$value": "#faf5ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#f3e8ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#e9d5ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#d8b4fe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#c084fc",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#a855f7",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#9333ea",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#7e22ce",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#6b21a8",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#581c87",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#3b0764",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "fuchsia": {
         "50": {
           "$type": "color",
           "$value": "#fdf4ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#fae8ff",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#f5d0fe",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#f0abfc",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#e879f9",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#d946ef",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#c026d3",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#a21caf",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#86198f",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#701a75",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#4a044e",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "pink": {
         "50": {
           "$type": "color",
           "$value": "#fdf2f8",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#fce7f3",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#fbcfe8",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#f9a8d4",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#f472b6",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#ec4899",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#db2777",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#be185d",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#9d174d",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#831843",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#500724",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       },
       "rose": {
         "50": {
           "$type": "color",
           "$value": "#fff1f2",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "100": {
           "$type": "color",
           "$value": "#ffe4e6",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "200": {
           "$type": "color",
           "$value": "#fecdd3",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "300": {
           "$type": "color",
           "$value": "#fda4af",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "400": {
           "$type": "color",
           "$value": "#fb7185",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "500": {
           "$type": "color",
           "$value": "#f43f5e",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "600": {
           "$type": "color",
           "$value": "#e11d48",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "700": {
           "$type": "color",
           "$value": "#be123c",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "800": {
           "$type": "color",
           "$value": "#9f1239",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "900": {
           "$type": "color",
           "$value": "#881337",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         },
         "950": {
           "$type": "color",
           "$value": "#4c0519",
-          "$description": "[🔎 color; colour; hue; primitive; base; global; core;]"
+          "$description": "[color; colour; hue; primitive; base; global; core;]"
         }
       }
     },
@@ -1301,124 +1301,124 @@
       "0": {
         "$type": "opacity",
         "$value": "0",
-        "$description": "0% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "0% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "5": {
         "$type": "opacity",
         "$value": "0.05",
-        "$description": "5% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "5% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "10": {
         "$type": "opacity",
         "$value": "0.1",
-        "$description": "10% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "10% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "20": {
         "$type": "opacity",
         "$value": "0.2",
-        "$description": "20% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "20% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "25": {
         "$type": "opacity",
         "$value": "0.25",
-        "$description": "25% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "25% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "30": {
         "$type": "opacity",
         "$value": "0.3",
-        "$description": "30% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "30% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "40": {
         "$type": "opacity",
         "$value": "0.4",
-        "$description": "40% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "40% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "50": {
         "$type": "opacity",
         "$value": "0.5",
-        "$description": "50% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "50% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "60": {
         "$type": "opacity",
         "$value": "0.6",
-        "$description": "60% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "60% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "70": {
         "$type": "opacity",
         "$value": "0.7",
-        "$description": "70% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "70% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "75": {
         "$type": "opacity",
         "$value": "0.75",
-        "$description": "75% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "75% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "80": {
         "$type": "opacity",
         "$value": "0.8",
-        "$description": "80% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "80% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "90": {
         "$type": "opacity",
         "$value": "0.9",
-        "$description": "90% [🔎 opacity; alpha; transparency;]"
+        "$description": "90% [opacity; alpha; transparency;]"
       },
       "95": {
         "$type": "opacity",
         "$value": "0.95",
-        "$description": "95% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "95% [opacity; alpha; transparency; primitive; base; global; core;]"
       },
       "100": {
         "$type": "opacity",
         "$value": "1",
-        "$description": "100% [🔎 opacity; alpha; transparency; primitive; base; global; core;]"
+        "$description": "100% [opacity; alpha; transparency; primitive; base; global; core;]"
       }
     },
     "border-radius": {
       "01": {
         "$type": "borderRadius",
         "$value": "{size-space.0-5-x}",
-        "$description": "2px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "2px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "02": {
         "$type": "borderRadius",
         "$value": "{size-space.1-x}",
-        "$description": "4px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "4px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "03": {
         "$type": "borderRadius",
         "$value": "{size-space.1-5-x}",
-        "$description": "6px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "6px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "04": {
         "$type": "borderRadius",
         "$value": "{size-space.2-x}",
-        "$description": "8px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "8px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "05": {
         "$type": "borderRadius",
         "$value": "{size-space.2-5-x}",
-        "$description": "12px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "12px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "06": {
         "$type": "borderRadius",
         "$value": "{size-space.3-x}",
-        "$description": "16px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "16px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "07": {
         "$type": "borderRadius",
         "$value": "{size-space.4-x}",
-        "$description": "20px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "20px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "08": {
         "$type": "borderRadius",
         "$value": "{size-space.5-x}",
-        "$description": "24px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "24px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "09": {
         "$type": "borderRadius",
         "$value": "{size-space.6-x}",
-        "$description": "28px [🔎 border-radius; radii; corner-radius; primitive; base; global; core;]"
+        "$description": "28px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       }
     },
     "line": {
@@ -1426,62 +1426,62 @@
         "1-x": {
           "$type": "lineHeights",
           "$value": "100%",
-          "$description": "[🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "[leading; line-height; typography; primitive; base; global; core;]"
         },
         "1-25-x": {
           "$type": "lineHeights",
           "$value": "125%",
-          "$description": "[🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "[leading; line-height; typography; primitive; base; global; core;]"
         },
         "1-5-x": {
           "$type": "lineHeights",
           "$value": "150%",
-          "$description": "[🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "[leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-01": {
           "$type": "lineHeights",
           "$value": "0.75rem",
-          "$description": "12px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "12px [leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-02": {
           "$type": "lineHeights",
           "$value": "1rem",
-          "$description": "16px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "16px [leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-03": {
           "$type": "lineHeights",
           "$value": "1.125rem",
-          "$description": "18px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "18px [leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-04": {
           "$type": "lineHeights",
           "$value": "1.25rem",
-          "$description": "20px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "20px [leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-05": {
           "$type": "lineHeights",
           "$value": "1.5rem",
-          "$description": "24px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "24px [leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-06": {
           "$type": "lineHeights",
           "$value": "1.75rem",
-          "$description": "28px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "28px [leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-07": {
           "$type": "lineHeights",
           "$value": "2rem",
-          "$description": "32px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "32px [leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-08": {
           "$type": "lineHeights",
           "$value": "2.5rem",
-          "$description": "40px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "40px [leading; line-height; typography; primitive; base; global; core;]"
         },
         "rem-09": {
           "$type": "lineHeights",
           "$value": "3rem",
-          "$description": "48px [🔎 leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "48px [leading; line-height; typography; primitive; base; global; core;]"
         }
       }
     },
@@ -1489,111 +1489,111 @@
       "light": {
         "$type": "fontWeights",
         "$value": "Light",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       },
       "regular": {
         "$type": "fontWeights",
         "$value": "Regular",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       },
       "medium": {
         "$type": "fontWeights",
         "$value": "Medium",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       },
       "bold": {
         "$type": "fontWeights",
         "$value": "Bold",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       }
     },
     "font-size": {
       "10": {
         "$type": "fontSizes",
         "$value": "1.75rem",
-        "$description": "28px [🔎 typography; primitive; base; global; core;]"
+        "$description": "28px [typography; primitive; base; global; core;]"
       },
       "11": {
         "$type": "fontSizes",
         "$value": "2rem",
-        "$description": "32px [🔎 typography; primitive; base; global; core;]"
+        "$description": "32px [typography; primitive; base; global; core;]"
       },
       "12": {
         "$type": "fontSizes",
         "$value": "2.25rem",
-        "$description": "36px [🔎 typography; primitive; base; global; core;]"
+        "$description": "36px [typography; primitive; base; global; core;]"
       },
       "13": {
         "$type": "fontSizes",
         "$value": "3rem",
-        "$description": "48px [🔎 typography; primitive; base; global; core;]"
+        "$description": "48px [typography; primitive; base; global; core;]"
       },
       "14": {
         "$type": "fontSizes",
         "$value": "3.75rem",
-        "$description": "60px [🔎 typography; primitive; base; global; core;]"
+        "$description": "60px [typography; primitive; base; global; core;]"
       },
       "15": {
         "$type": "fontSizes",
         "$value": "5rem",
-        "$description": "80px [🔎 typography; primitive; base; global; core;]"
+        "$description": "80px [typography; primitive; base; global; core;]"
       },
       "01": {
         "$type": "fontSizes",
         "$value": "0.5625rem",
-        "$description": "9px [🔎 typography; primitive; base; global; core;]"
+        "$description": "9px [typography; primitive; base; global; core;]"
       },
       "02": {
         "$type": "fontSizes",
         "$value": "0.75rem",
-        "$description": "12px [🔎 typography; primitive; base; global; core;]"
+        "$description": "12px [typography; primitive; base; global; core;]"
       },
       "03": {
         "$type": "fontSizes",
         "$value": "0.8125rem",
-        "$description": "13px [🔎 typography; primitive; base; global; core;]"
+        "$description": "13px [typography; primitive; base; global; core;]"
       },
       "04": {
         "$type": "fontSizes",
         "$value": "0.875rem",
-        "$description": "14px [🔎 typography; primitive; base; global; core;]"
+        "$description": "14px [typography; primitive; base; global; core;]"
       },
       "05": {
         "$type": "fontSizes",
         "$value": "0.9375rem",
-        "$description": "15px [🔎 typography; primitive; base; global; core;]"
+        "$description": "15px [typography; primitive; base; global; core;]"
       },
       "06": {
         "$type": "fontSizes",
         "$value": "1rem",
-        "$description": "16px [🔎 typography; primitive; base; global; core;]"
+        "$description": "16px [typography; primitive; base; global; core;]"
       },
       "07": {
         "$type": "fontSizes",
         "$value": "1.125rem",
-        "$description": "18px [🔎 typography; primitive; base; global; core;]"
+        "$description": "18px [typography; primitive; base; global; core;]"
       },
       "08": {
         "$type": "fontSizes",
         "$value": "1.25rem",
-        "$description": "20px [🔎 typography; primitive; base; global; core;]"
+        "$description": "20px [typography; primitive; base; global; core;]"
       },
       "09": {
         "$type": "fontSizes",
         "$value": "1.5rem",
-        "$description": "24px [🔎 typography; primitive; base; global; core;]"
+        "$description": "24px [typography; primitive; base; global; core;]"
       }
     },
     "letter-spacing": {
       "01": {
         "$type": "letterSpacing",
         "$value": "0",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       },
       "02": {
         "$type": "letterSpacing",
         "$value": "1.8",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       }
     },
     "paragraph-spacing": {
@@ -1601,54 +1601,54 @@
         "$figmaOnly": "true",
         "$type": "paragraphSpacing",
         "$value": "0",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       },
       "02": {
         "$figmaOnly": "true",
         "$type": "paragraphSpacing",
         "$value": "18",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       }
     },
     "text-case": {
       "none": {
         "$type": "textCase",
         "$value": "none",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       },
       "uppercase": {
         "$type": "textCase",
         "$value": "uppercase",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       }
     },
     "text-decoration": {
       "none": {
         "$type": "textDecoration",
         "$value": "none",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       },
       "underline": {
         "$type": "textDecoration",
         "$value": "underline",
-        "$description": "[🔎 typography; primitive; base; global; core;]"
+        "$description": "[typography; primitive; base; global; core;]"
       }
     },
     "border-width": {
       "none": {
         "$type": "borderWidth",
         "$value": "0",
-        "$description": "[🔎 primitive; base; global; core;]"
+        "$description": "[primitive; base; global; core;]"
       },
       "01": {
         "$type": "borderWidth",
         "$value": "1px",
-        "$description": "[🔎 primitive; base; global; core;]"
+        "$description": "[primitive; base; global; core;]"
       },
       "02": {
         "$type": "borderWidth",
         "$value": "2px",
-        "$description": "[🔎 primitive; base; global; core;]"
+        "$description": "[primitive; base; global; core;]"
       }
     }
   },
@@ -12581,13 +12581,13 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.primary-mode-light}",
-          "$description": "The primary brand color also used as the primary accent color. [🔎 brand; accent; primary; semantic; role; decision; alias;]"
+          "$description": "The primary brand color also used as the primary accent color. [brand; accent; primary; semantic; role; decision; alias;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.brand.secondary-mode-light}",
-          "$description": "The secondary brand color. If your color system has only one brand color, using this token is optional. [🔎 brand; accent; secondary; semantic; role; decision; alias;]"
+          "$description": "The secondary brand color. If your color system has only one brand color, using this token is optional. [brand; accent; secondary; semantic; role; decision; alias;]"
         }
       },
       "background": {
@@ -12595,67 +12595,67 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.default-mode-light}",
-          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [🔎 body; html; canvas; page; fill; solid; semantic; role; decision; alias;]"
+          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [body; html; canvas; page; fill; solid; semantic; role; decision; alias;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.disabled-mode-light}",
-          "$description": "The background color of the elements in a disabled state. [🔎 disabled; inactive; fill; solid; semantic; role; decision; alias;]"
+          "$description": "The background color of the elements in a disabled state. [disabled; inactive; fill; solid; semantic; role; decision; alias;]"
         },
         "backdrop": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.backdrop-mode-light}",
-          "$description": "The background color for temporary overlays that can be applied to Unify surfaces for the purpose of making content on a surface less prominent. Typically used with Modals, Drawer and Sheet components. [🔎 overlay; backdrop; modal background; scrim; semantic; role; decision; alias;]"
+          "$description": "The background color for temporary overlays that can be applied to Unify surfaces for the purpose of making content on a surface less prominent. Typically used with Modals, Drawer and Sheet components. [overlay; backdrop; modal background; scrim; semantic; role; decision; alias;]"
         },
         "surface": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-light}",
-            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [🔎 surface; default; primary; semantic; role; decision; alias;]"
+            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [surface; default; primary; semantic; role; decision; alias;]"
           },
           "secondary": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.secondary-mode-light}",
-            "$description": "The secondary surface color, typically applied to the backgrounds of content cards, sections, and similar components. [🔎 surface; secondary; semantic; role; decision; alias;]"
+            "$description": "The secondary surface color, typically applied to the backgrounds of content cards, sections, and similar components. [surface; secondary; semantic; role; decision; alias;]"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.hover-mode-light}",
-            "$description": "The hover state color for the color.background.surface.default token. It should be used as the background color for the hover state of elements like dropdown list items, interactive cards, and more. [🔎 surface; hover; semantic; role; decision; alias;]"
+            "$description": "The hover state color for the color.background.surface.default token. It should be used as the background color for the hover state of elements like dropdown list items, interactive cards, and more. [surface; hover; semantic; role; decision; alias;]"
           },
           "transparent": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.transparent-mode-light}",
-            "$description": "This token represents the absence of a surface background color, ensuring no background color is applied. It can be used to override the default or secondary surface background colors. [🔎 surface; transparent; none; semantic; role; decision; alias;]"
+            "$description": "This token represents the absence of a surface background color, ensuring no background color is applied. It can be used to override the default or secondary surface background colors. [surface; transparent; none; semantic; role; decision; alias;]"
           },
           "selected": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.selected-mode-light}",
-            "$description": "The selected state color for the color.background.surface.default token. [🔎 surface; selected; semantic; role; decision; alias;]"
+            "$description": "The selected state color for the color.background.surface.default token. [surface; selected; semantic; role; decision; alias;]"
           },
           "selected-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.selected-hover-mode-light}",
-            "$description": "The selected hover state color for the color.background.surface.default token. [🔎 surface; selected hover; semantic; role; decision; alias;]"
+            "$description": "The selected hover state color for the color.background.surface.default token. [surface; selected hover; semantic; role; decision; alias;]"
           },
           "inverse": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.inverse-mode-light}",
-            "$description": "An inverted variant of the default surface color, dark in light mode and light in dark mode. It is used as the background color for components such as tooltips. [🔎 surface; inverse; inverted; semantic; role; decision; alias;]"
+            "$description": "An inverted variant of the default surface color, dark in light mode and light in dark mode. It is used as the background color for components such as tooltips. [surface; inverse; inverted; semantic; role; decision; alias;]"
           },
           "secondary-hover": {
             "$type": "color",
             "$value": "{color.background.surface.secondary-hover-mode-light}",
-            "$description": "The hover state color for the color.background.surface.secondary token. [🔎 surface; secondary; hover; semantic; role; decision; alias;]"
+            "$description": "The hover state color for the color.background.surface.secondary token. [surface; secondary; hover; semantic; role; decision; alias;]"
           }
         },
         "brand": {
@@ -12664,19 +12664,19 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-light}",
-              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [🔎 brand; accent; primary; default; semantic; role; decision; alias;]"
+              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [brand; accent; primary; default; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-light}",
-              "$description": "The hover state color for the color.background.brand.primary.default token. [🔎 brand; accent; primary; hover; mouse over; semantic; role; decision; alias;]"
+              "$description": "The hover state color for the color.background.brand.primary.default token. [brand; accent; primary; hover; mouse over; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-light}",
-              "$description": "The active state color for the color.background.brand.primary.default token. [🔎 brand; accent; primary; active; semantic; role; decision; alias;]"
+              "$description": "The active state color for the color.background.brand.primary.default token. [brand; accent; primary; active; semantic; role; decision; alias;]"
             }
           },
           "secondary": {
@@ -12684,19 +12684,19 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.brand.secondary-mode-light}",
-              "$description": "The secondary brand background color. It can be used as a complementary color to the primary brand background color. [🔎 brand; accent; secondary; default; semantic; role; decision; alias;]"
+              "$description": "The secondary brand background color. It can be used as a complementary color to the primary brand background color. [brand; accent; secondary; default; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.hover-mode-light}",
-              "$description": "The hover state color for the color.background.brand.secondary.default token. [🔎 brand; accent; secondary; hover; mouse over; semantic; role; decision; alias;]"
+              "$description": "The hover state color for the color.background.brand.secondary.default token. [brand; accent; secondary; hover; mouse over; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.active-mode-light}",
-              "$description": "The active state color for the color.background.brand.secondary.default token. [🔎 brand; accent; secondary; active; semantic; role; decision; alias;]"
+              "$description": "The active state color for the color.background.brand.secondary.default token. [brand; accent; secondary; active; semantic; role; decision; alias;]"
             }
           }
         },
@@ -12706,38 +12706,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.default-mode-light}",
-              "$description": "The default state of the background color that indicates an error or critical state. [🔎 danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+              "$description": "The default state of the background color that indicates an error or critical state. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.danger.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+              "$description": "The hover state color for the color.background.feedback.danger.default token. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.danger.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.danger.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+              "$description": "The active state color for the color.background.feedback.danger.default token. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.danger.default token, used to indicate an error or critical state. [🔎 danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.danger.default token, used to indicate an error or critical state. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.danger.strong.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+                "$description": "The hover state color for the color.background.feedback.danger.strong.default token. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.danger.strong.active-mode-light}",
-                "$description": "The active state color for the  color.background.feedback.danger.strong.default token. [🔎 danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+                "$description": "The active state color for the  color.background.feedback.danger.strong.default token. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
               }
             }
           },
@@ -12746,38 +12746,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.default-mode-light}",
-              "$description": "The background color for the default state of elements indicating a warning or caution. [🔎 warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
+              "$description": "The background color for the default state of elements indicating a warning or caution. [warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.warning.default token. [🔎 warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
+              "$description": "The hover state color for the color.background.feedback.warning.default token. [warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.warning.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.warning.default token. [🔎 warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
+              "$description": "The active state color for the color.background.feedback.warning.default token. [warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.warning.default token, used to indicate a warning or caution. [🔎 warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.warning.default token, used to indicate a warning or caution. [warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.warning.strong.default token. [🔎 warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
+                "$description": "The hover state color for the color.background.feedback.warning.strong.default token. [warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.warning.strong.active-mode-light}",
-                "$description": "The active state color for the color.background.feedback.warning.strong.default token. [🔎 warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
+                "$description": "The active state color for the color.background.feedback.warning.strong.default token. [warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
               }
             }
           },
@@ -12786,38 +12786,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.default-mode-light}",
-              "$description": "The background color for the default state of elements indicating a favorable outcome or a successfully completed action. [🔎 success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+              "$description": "The background color for the default state of elements indicating a favorable outcome or a successfully completed action. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.success.default token. [🔎 success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+              "$description": "The hover state color for the color.background.feedback.success.default token. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.success.active-mode-light}",
-              "$description": "The active state color for the  color.background.feedback.success.default token. [🔎 success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+              "$description": "The active state color for the  color.background.feedback.success.default token. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.success.default token, used to indicate a favorable outcome or a successfully completed action. [🔎 success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.success.default token, used to indicate a favorable outcome or a successfully completed action. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.success.strong token. [🔎 success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+                "$description": "The hover state color for the color.background.feedback.success.strong token. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.success.strong.active-mode-light}",
-                "$description": "The active state color for the  color.background.feedback.success.strong token. [🔎 success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+                "$description": "The active state color for the  color.background.feedback.success.strong token. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
               }
             }
           },
@@ -12826,38 +12826,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.default-mode-light}",
-              "$description": "The background color for the default state of elements that indicate an additional concept that goes beyond the traditional semantics of success/warning/informational, such as new UI elements, new features etc. [🔎 discovery; learning; recommendation; new; positive; alert; notification; purple; semantic; role; decision; alias;]"
+              "$description": "The background color for the default state of elements that indicate an additional concept that goes beyond the traditional semantics of success/warning/informational, such as new UI elements, new features etc. [discovery; learning; recommendation; new; positive; alert; notification; purple; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.discovery.default token. [🔎 discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+              "$description": "The hover state color for the color.background.feedback.discovery.default token. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.discovery.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.discovery.default token. [🔎 discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+              "$description": "The active state color for the color.background.feedback.discovery.default token. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.discovery.default token, used to indicate a change or something new. [🔎 discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.discovery.default token, used to indicate a change or something new. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.default-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.discovery.strong.default token. [🔎 discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+                "$description": "The hover state color for the color.background.feedback.discovery.strong.default token. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.discovery.strong.active-mode-light}",
-                "$description": "The active state color for the color.background.feedback.discovery.strong.default token. [🔎 discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+                "$description": "The active state color for the color.background.feedback.discovery.strong.default token. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
               }
             }
           },
@@ -12866,38 +12866,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.default-mode-light}",
-              "$description": "The background color for the default state of elements indicating important information or something in progress. [🔎 information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+              "$description": "The background color for the default state of elements indicating important information or something in progress. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.information.default token. [🔎 information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+              "$description": "The hover state color for the color.background.feedback.information.default token. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.information.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.information.default token. [🔎 information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+              "$description": "The active state color for the color.background.feedback.information.default token. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.information.strong.default token, used to indicate important information or something in progress. [🔎 information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.information.strong.default token, used to indicate important information or something in progress. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.information.strong.default token. [🔎 information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+                "$description": "The hover state color for the color.background.feedback.information.strong.default token. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.information.strong.active-mode-light}",
-                "$description": "The active state color for the color.background.feedback.information.strong.default token. [🔎 information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+                "$description": "The active state color for the color.background.feedback.information.strong.default token. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
               }
             }
           },
@@ -12906,38 +12906,38 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.default-mode-light}",
-              "$description": "The background color for the default state of elements indicating neutral feedback. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
+              "$description": "The background color for the default state of elements indicating neutral feedback. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.hover-mode-light}",
-              "$description": "The hover state color for the color.background.feedback.neutral.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+              "$description": "The hover state color for the color.background.feedback.neutral.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.feedback.neutral.active-mode-light}",
-              "$description": "The active state color for the color.background.feedback.neutral.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+              "$description": "The active state color for the color.background.feedback.neutral.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.default-mode-light}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.neutral.default token, used to indicate neutral feedback. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+                "$description": "A stronger-emphasis variant of the color.background.feedback.neutral.default token, used to indicate neutral feedback. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.hover-mode-light}",
-                "$description": "The hover state color for the color.background.feedback.neutral.strong.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+                "$description": "The hover state color for the color.background.feedback.neutral.strong.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
                 "$value": "{color.background.feedback.neutral.strong.active-mode-light}",
-                "$description": "The active state color for the color.background.feedback.neutral.strong.default token. [🔎 neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+                "$description": "The active state color for the color.background.feedback.neutral.strong.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
               }
             }
           }
@@ -12947,7 +12947,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.input.default-mode-light}",
-            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [🔎 text input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
+            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [text input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
           }
         }
       },
@@ -12956,126 +12956,126 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.brand-mode-light}",
-          "$description": "The border color that represents the brand’s primary color. [🔎 brand; accent; border; outline; stroke; divider; separator; semantic; role; decision; alias;]"
+          "$description": "The border color that represents the brand’s primary color. [brand; accent; border; outline; stroke; divider; separator; semantic; role; decision; alias;]"
         },
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.default-mode-light}",
-          "$description": "The default border color for such elements as containers, cards, sections, dividers, table cells, etc. [🔎 border; outline; stroke; divider; separator; default; subtle; outline; gray; grey; semantic; role; decision; alias;]"
+          "$description": "The default border color for such elements as containers, cards, sections, dividers, table cells, etc. [border; outline; stroke; divider; separator; default; subtle; outline; gray; grey; semantic; role; decision; alias;]"
         },
         "bold": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.bold-mode-light}",
-          "$description": "The color for the most prominent and highly emphasized borders. It is ideal for framing highly important content. Use this token sparingly to maintain visual balance and impact. [🔎 border; outline; stroke; divider; separator; bold; high contrast; gray; grey; semantic; role; decision; alias;]"
+          "$description": "The color for the most prominent and highly emphasized borders. It is ideal for framing highly important content. Use this token sparingly to maintain visual balance and impact. [border; outline; stroke; divider; separator; bold; high contrast; gray; grey; semantic; role; decision; alias;]"
         },
         "strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.strong-mode-light}",
-          "$description": "The color for prominent or heavily emphasized borders. Use this token for elements requiring standout borders to enhance accessibility or clarity. [🔎 border; outline; stroke; divider; separator; strong; higher contrast; gray; grey; semantic; role; decision; alias;]"
+          "$description": "The color for prominent or heavily emphasized borders. Use this token for elements requiring standout borders to enhance accessibility or clarity. [border; outline; stroke; divider; separator; strong; higher contrast; gray; grey; semantic; role; decision; alias;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.neutral-mode-light}",
-          "$description": "The color for borders that are subtle and non-intrusive, typically used for providing structure without drawing attention. It works well for secondary elements. [🔎 border; outline; stroke; divider; separator; neutral; gray; grey; semantic; role; decision; alias;]"
+          "$description": "The color for borders that are subtle and non-intrusive, typically used for providing structure without drawing attention. It works well for secondary elements. [border; outline; stroke; divider; separator; neutral; gray; grey; semantic; role; decision; alias;]"
         },
         "focused": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.focused-mode-light}",
-          "$description": "The color of the stroke for elements in a focused state, such as form inputs or buttons. This token helps visually highlight and indicate to users which element is currently being interacted with, improving accessibility and user experience. [🔎 border; outline; stroke; focus; semantic; role; decision; alias;]"
+          "$description": "The color of the stroke for elements in a focused state, such as form inputs or buttons. This token helps visually highlight and indicate to users which element is currently being interacted with, improving accessibility and user experience. [border; outline; stroke; focus; semantic; role; decision; alias;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.disabled-mode-light}",
-          "$description": "The border color for elements in a disabled state, such as form fields that are disabled or inactive. [🔎 border; outline; stroke; disabled; inactive; non-interactive; semantic; role; decision; alias;]"
+          "$description": "The border color for elements in a disabled state, such as form fields that are disabled or inactive. [border; outline; stroke; disabled; inactive; non-interactive; semantic; role; decision; alias;]"
         },
         "input": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.input-mode-light}",
-          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [🔎 border; outline; stroke; input; textarea; checkbox; radio; semantic; role; decision; alias;]"
+          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [border; outline; stroke; input; textarea; checkbox; radio; semantic; role; decision; alias;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.success-mode-light}",
-          "$description": "The color for borders that indicate a successful or positive state. Use it for components like alerts and badges or in areas where success should be communicated subtly with low contrast. [🔎 border; outline; stroke; success; positive; feedback; green; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate a successful or positive state. Use it for components like alerts and badges or in areas where success should be communicated subtly with low contrast. [border; outline; stroke; success; positive; feedback; green; semantic; role; decision; alias;]"
         },
         "success-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.success-strong-mode-light}",
-          "$description": "The color for borders that indicate a successful or positive state, such as validated inputs or completed actions. Use it for form fields, status indicators, or other components where success needs to be clearly conveyed. [🔎 border; outline; stroke; success; positive; feedback; green; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate a successful or positive state, such as validated inputs or completed actions. Use it for form fields, status indicators, or other components where success needs to be clearly conveyed. [border; outline; stroke; success; positive; feedback; green; semantic; role; decision; alias;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.danger-mode-light}",
-          "$description": "The color for borders that indicate an error, danger, invalid state, or destructive action. Use it for components like alerts and badges or in areas where errors should be communicated subtly with low contrast. [🔎 border; outline; stroke; danger; error; feedback; red; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate an error, danger, invalid state, or destructive action. Use it for components like alerts and badges or in areas where errors should be communicated subtly with low contrast. [border; outline; stroke; danger; error; feedback; red; semantic; role; decision; alias;]"
         },
         "danger-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.danger-strong-mode-light}",
-          "$description": "The color for borders that indicate an error or invalid state, or a destructive action, such as failed form validation or error messages. Use it for form fields, status indicators, or components where errors needs to be clearly conveyed. [🔎 border; outline; stroke; danger; error; feedback; red; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate an error or invalid state, or a destructive action, such as failed form validation or error messages. Use it for form fields, status indicators, or components where errors needs to be clearly conveyed. [border; outline; stroke; danger; error; feedback; red; semantic; role; decision; alias;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.warning-mode-light}",
-          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be communicated subtly with low contrast. [🔎 border; outline; stroke; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be communicated subtly with low contrast. [border; outline; stroke; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
         },
         "warning-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.warning-strong-mode-light}",
-          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be clearly conveyed. [🔎 border; outline; stroke; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be clearly conveyed. [border; outline; stroke; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.information-mode-light}",
-          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information should be communicated subtly with low contrast. [🔎 border; outline; stroke; information; feedback; blue; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information should be communicated subtly with low contrast. [border; outline; stroke; information; feedback; blue; semantic; role; decision; alias;]"
         },
         "information-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.information-strong-mode-light}",
-          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information need to be clearly conveyed. [🔎 border; outline; stroke; information; feedback; blue; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information need to be clearly conveyed. [border; outline; stroke; information; feedback; blue; semantic; role; decision; alias;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.discovery-mode-light}",
-          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information should be communicated subtly with low contrast. [🔎 border; outline; stroke; discovery; feedback; purple; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information should be communicated subtly with low contrast. [border; outline; stroke; discovery; feedback; purple; semantic; role; decision; alias;]"
         },
         "discovery-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.discovery-strong-mode-light}",
-          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information need to be clearly conveyed. [🔎 border; outline; stroke; discovery; feedback; purple; semantic; role; decision; alias;]"
+          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information need to be clearly conveyed. [border; outline; stroke; discovery; feedback; purple; semantic; role; decision; alias;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.inverse-mode-light}",
-          "$description": "The color for borders used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 border; outline; stroke; inverse; inverted; semantic; role; decision; alias;]"
+          "$description": "The color for borders used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [border; outline; stroke; inverse; inverted; semantic; role; decision; alias;]"
         },
         "neutral-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.neutral-strong-mode-light}",
-          "$description": "A stronger emphasis option of the color.border.neutral token. [🔎 border; outline; stroke; divider; separator; strong; dark; gray; grey; semantic; role; decision; alias;]"
+          "$description": "A stronger emphasis option of the color.border.neutral token. [border; outline; stroke; divider; separator; strong; dark; gray; grey; semantic; role; decision; alias;]"
         },
         "none": {
           "$type": "color",
           "$value": "rgba(255,255,255,0)",
-          "$description": "This token represents the absence of a border, ensuring no visible outline or separation is applied. It can be used to explicitly override default border styles or when a clean, borderless appearance is required. [🔎 borderless; transparent; semantic; role; decision; alias;]"
+          "$description": "This token represents the absence of a border, ensuring no visible outline or separation is applied. It can be used to explicitly override default border styles or when a clean, borderless appearance is required. [borderless; transparent; semantic; role; decision; alias;]"
         }
       },
       "icon": {
@@ -13083,79 +13083,79 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.brand-mode-light}",
-          "$description": "The color for icons that reflect the primary brand color. [🔎 icon; pictogram; svg; brand; accent; semantic; role; decision; alias;]"
+          "$description": "The color for icons that reflect the primary brand color. [icon; pictogram; svg; brand; accent; semantic; role; decision; alias;]"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.primary-mode-light}",
-          "$description": "The default color for icons. [🔎 icon; pictogram; svg; primary; semantic; role; decision; alias;]"
+          "$description": "The default color for icons. [icon; pictogram; svg; primary; semantic; role; decision; alias;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.secondary-mode-light}",
-          "$description": "The secondary color for icons. [🔎 icon; pictogram; svg; secondary; semantic; role; decision; alias;]"
+          "$description": "The secondary color for icons. [icon; pictogram; svg; secondary; semantic; role; decision; alias;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.inverse-mode-light}",
-          "$description": "The color for icons used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 icon; pictogram; svg; inverse; semantic; role; decision; alias;]"
+          "$description": "The color for icons used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse; semantic; role; decision; alias;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.disabled-mode-light}",
-          "$description": "The disabled state color for icons. [🔎 icon; pictogram; svg; disabled; inactive; semantic; role; decision; alias;]"
+          "$description": "The disabled state color for icons. [icon; pictogram; svg; disabled; inactive; semantic; role; decision; alias;]"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.helper-mode-light}",
-          "$description": "The color for monochrome helper-type icons. [🔎 icon; pictogram; svg; helper; semantic; role; decision; alias;]"
+          "$description": "The color for monochrome helper-type icons. [icon; pictogram; svg; helper; semantic; role; decision; alias;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.neutral-mode-light}",
-          "$description": "The tertiary color for icons, intended for use on backgrounds of neutral variant components. [🔎 icon; pictogram; svg; neutral; tertiary; semantic; role; decision; alias;]"
+          "$description": "The tertiary color for icons, intended for use on backgrounds of neutral variant components. [icon; pictogram; svg; neutral; tertiary; semantic; role; decision; alias;]"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.on-color-mode-light}",
-          "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [🔎 icon; pictogram; svg; inverse; semantic; role; decision; alias;]"
+          "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse; semantic; role; decision; alias;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.success-mode-light}",
-          "$description": "The success state color for icons. [🔎 icon; pictogram; svg; success; positive; feedback; green; semantic; role; decision; alias;]"
+          "$description": "The success state color for icons. [icon; pictogram; svg; success; positive; feedback; green; semantic; role; decision; alias;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.danger-mode-light}",
-          "$description": "The danger or error state color for icons. [🔎 icon; pictogram; svg; danger; negative; error; destructive; feedback; red; semantic; role; decision; alias;]"
+          "$description": "The danger or error state color for icons. [icon; pictogram; svg; danger; negative; error; destructive; feedback; red; semantic; role; decision; alias;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.warning-mode-light}",
-          "$description": "The warning state color for icons. [🔎 icon; pictogram; svg; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
+          "$description": "The warning state color for icons. [icon; pictogram; svg; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.information-mode-light}",
-          "$description": "The information type color for icons. [🔎 icon; pictogram; svg; information; feedback; blue; semantic; role; decision; alias;]"
+          "$description": "The information type color for icons. [icon; pictogram; svg; information; feedback; blue; semantic; role; decision; alias;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.icon.discovery-mode-light}",
-          "$description": "The discovery type color for icons. [🔎 icon; pictogram; svg; discovery; feedback; purple; semantic; role; decision; alias;]"
+          "$description": "The discovery type color for icons. [icon; pictogram; svg; discovery; feedback; purple; semantic; role; decision; alias;]"
         }
       },
       "text": {
@@ -13163,91 +13163,91 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.brand-mode-light}",
-          "$description": "The color for branded text, often used for interactive text. [🔎 text; copy; content; heading; header; body; brand; accent; semantic; role; decision; alias;]"
+          "$description": "The color for branded text, often used for interactive text. [text; copy; content; heading; header; body; brand; accent; semantic; role; decision; alias;]"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.primary-mode-light}",
-          "$description": "The primary color for text, used for body copy, headers, and all non-interactive text. [🔎 text; copy; content; heading; header; body; primary; main; semantic; role; decision; alias;]"
+          "$description": "The primary color for text, used for body copy, headers, and all non-interactive text. [text; copy; content; heading; header; body; primary; main; semantic; role; decision; alias;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.secondary-mode-light}",
-          "$description": "The secondary color for text, used for non-interactive text. [🔎 text; copy; content; secondary; semantic; role; decision; alias;]"
+          "$description": "The secondary color for text, used for non-interactive text. [text; copy; content; secondary; semantic; role; decision; alias;]"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.inverse-mode-light}",
-          "$description": "The color for text used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [🔎 text; copy; content; inverse; semantic; role; decision; alias;]"
+          "$description": "The color for text used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; inverse; semantic; role; decision; alias;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.disabled-mode-light}",
-          "$description": "The color for disabled state text. [🔎 text; copy; content; disabled; inactive; read-only; semantic; role; decision; alias;]"
+          "$description": "The color for disabled state text. [text; copy; content; disabled; inactive; read-only; semantic; role; decision; alias;]"
         },
         "placeholder": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.placeholder-mode-light}",
-          "$description": "The color for placeholder text, used in text input components. [🔎 text; placeholder; input; semantic; role; decision; alias;]"
+          "$description": "The color for placeholder text, used in text input components. [text; placeholder; input; semantic; role; decision; alias;]"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.helper-mode-light}",
-          "$description": "The tertiary color for text, used for non-interactive text. [🔎 text; copy; content; helper; tertiary; semantic; role; decision; alias;]"
+          "$description": "The tertiary color for text, used for non-interactive text. [text; copy; content; helper; tertiary; semantic; role; decision; alias;]"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.neutral-mode-light}",
-          "$description": "The quaternary color for text, used for non-interactive text. [🔎 text; copy; content; neutral; quaternary; semantic; role; decision; alias;]"
+          "$description": "The quaternary color for text, used for non-interactive text. [text; copy; content; neutral; quaternary; semantic; role; decision; alias;]"
         },
         "selection-bg": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.selection-bg-mode-light}",
-          "$description": "The background color applied to selected text. [🔎 selection background; highlighted text background; semantic; role; decision; alias;]"
+          "$description": "The background color applied to selected text. [selection background; highlighted text background; semantic; role; decision; alias;]"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.on-color-mode-light}",
-          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [🔎 text; copy; content; semantic; role; decision; alias;]"
+          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; semantic; role; decision; alias;]"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.success-mode-light}",
-          "$description": "The success state color for text. [🔎 text; success; positive; feedback; green; semantic; role; decision; alias;]"
+          "$description": "The success state color for text. [text; success; positive; feedback; green; semantic; role; decision; alias;]"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.danger-mode-light}",
-          "$description": "The danger or error state color for text. [🔎 text; danger; negative; error; destructive; feedback; red; semantic; role; decision; alias;]"
+          "$description": "The danger or error state color for text. [text; danger; negative; error; destructive; feedback; red; semantic; role; decision; alias;]"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.warning-mode-light}",
-          "$description": "The warning state color for text. [🔎 text; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
+          "$description": "The warning state color for text. [text; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.information-mode-light}",
-          "$description": "The information type color for text. [🔎 text; information; feedback; blue; semantic; role; decision; alias;]"
+          "$description": "The information type color for text. [text; information; feedback; blue; semantic; role; decision; alias;]"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.discovery-mode-light}",
-          "$description": "The discovery type color for text. [🔎 text; discovery; feedback; purple; semantic; role; decision; alias;]"
+          "$description": "The discovery type color for text. [text; discovery; feedback; purple; semantic; role; decision; alias;]"
         }
       },
       "link": {
@@ -13255,50 +13255,50 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.default-mode-light}",
-          "$description": "The primary color for the default state of links and interactive text. [🔎 text; link; href; cta text; interactive text; default; brand; accent; semantic; role; decision; alias;]"
+          "$description": "The primary color for the default state of links and interactive text. [text; link; href; cta text; interactive text; default; brand; accent; semantic; role; decision; alias;]"
         },
         "hover": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.hover-mode-light}",
-          "$description": "The hover state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
+          "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
         },
         "active": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.active-mode-light}",
-          "$description": "The active state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
+          "$description": "The active state color for the color.link.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
         },
         "visited": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.link.visited-mode-light}",
-          "$description": "The visited state color for the color.link.default token. [🔎 text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
+          "$description": "The visited state color for the color.link.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
         },
         "neutral": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.default-mode-light}",
-            "$description": "The color for the default state of neutral-style links and interactive text. [🔎 text; link; href; cta text; interactive text; neutral; semantic; role; decision; alias;]"
+            "$description": "The color for the default state of neutral-style links and interactive text. [text; link; href; cta text; interactive text; neutral; semantic; role; decision; alias;]"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.hover-mode-light}",
-            "$description": "The hover state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
+            "$description": "The hover state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
           },
           "active": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.active-mode-light}",
-            "$description": "The active state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
+            "$description": "The active state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
           },
           "visited": {
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.link.neutral.visited-mode-light}",
-            "$description": "The visited state color for the color.link.neutral.default token. [🔎 text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
+            "$description": "The visited state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
           }
         }
       },
@@ -13307,19 +13307,19 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.primary-mode-light}",
-          "$description": "The default color for a box shadow. [🔎 box-shadow; drop-shadow; elevation; primary; default; semantic; role; decision; alias;]"
+          "$description": "The default color for a box shadow. [box-shadow; drop-shadow; elevation; primary; default; semantic; role; decision; alias;]"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.secondary-mode-light}",
-          "$description": "The stronger-emphasis color option of a box-shadow. [🔎 box-shadow; drop-shadow; elevation; secondary; semantic; role; decision; alias;]"
+          "$description": "The stronger-emphasis color option of a box-shadow. [box-shadow; drop-shadow; elevation; secondary; semantic; role; decision; alias;]"
         },
         "tertiary": {
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.shadow.tertiary-mode-light}",
-          "$description": "The strongest-emphasis color option of a box-shadow.  [🔎 box-shadow; drop-shadow; elevation; tertiary; semantic; role; decision; alias;]"
+          "$description": "The strongest-emphasis color option of a box-shadow.  [box-shadow; drop-shadow; elevation; tertiary; semantic; role; decision; alias;]"
         }
       }
     },
