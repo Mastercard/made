@@ -3296,54 +3296,47 @@
     "font-family": {
       "primary": {
         "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$value": "Mark Offc For MC, Inter"
       },
       "secondary": {
         "$type": "fontFamilies",
-        "$value": "MarkForMCNrw, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$value": "MarkForMCNrw, Inter"
       },
       "tertiary": {
         "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$value": "Mark Offc For MC, Inter"
       }
     },
     "border": {
       "radius": {
         "none": {
           "$type": "borderRadius",
-          "$value": "0",
-          "$description": "[semantic; role; decision; alias;]"
+          "$value": "0"
         },
         "default": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{border-radius.03}",
-          "$description": "[semantic; role; decision; alias;]"
+          "$value": "{border-radius.03}"
         },
         "small": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.0-5-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$value": "{size-space.0-5-x}"
         },
         "large": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.2-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$value": "{size-space.2-x}"
         },
         "full": {
           "$type": "borderRadius",
           "$value": "9999",
-          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
+          "$description": "Fully rounded border radius."
         },
         "focus-offset": {
           "$type": "borderRadius",
           "$value": "{border.radius.default} + {size-space.0-5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.)."
         }
       }
     },
@@ -3351,55 +3344,45 @@
       "gutters": {
         "small": {
           "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$value": "{size-space.2-x}"
         },
         "medium": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         },
         "large": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         },
         "x-large": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         },
         "xx-large": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         }
       },
       "margin": {
         "small": {
           "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$value": "{size-space.2-x}"
         },
         "medium": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         },
         "large": {
           "$type": "spacing",
-          "$value": "{size-space.8-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$value": "{size-space.8-x}"
         },
         "x-large": {
           "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
+          "$value": "{size-space.10-x}"
         },
         "xx-large": {
           "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+          "$value": "{size-space.10-x}"
         }
       }
     },
@@ -5348,8 +5331,7 @@
           "spread": "0",
           "color": "{color.border.none}",
           "type": "dropShadow"
-        },
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        }
       },
       "global": {
         "$type": "boxShadow",
@@ -5361,7 +5343,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
       },
       "small": {
         "$type": "boxShadow",
@@ -5372,8 +5354,7 @@
           "spread": "0",
           "color": "{color.box-shadow.primary}",
           "type": "dropShadow"
-        },
-        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        }
       },
       "default": {
         "$type": "boxShadow",
@@ -5394,8 +5375,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       },
       "medium": {
         "$type": "boxShadow",
@@ -5416,8 +5396,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       },
       "large": {
         "$type": "boxShadow",
@@ -5438,8 +5417,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       },
       "x-large": {
         "$type": "boxShadow",
@@ -5460,8 +5438,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       },
       "xx-large": {
         "$type": "boxShadow",
@@ -5474,8 +5451,7 @@
             "color": "{color.box-shadow.tertiary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       }
     },
     "brand": {
@@ -6576,54 +6552,47 @@
     "font-family": {
       "primary": {
         "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$value": "Mark Offc For MC, Inter"
       },
       "secondary": {
         "$type": "fontFamilies",
-        "$value": "MarkForMCNrw, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$value": "MarkForMCNrw, Inter"
       },
       "tertiary": {
         "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$value": "Mark Offc For MC, Inter"
       }
     },
     "border": {
       "radius": {
         "none": {
           "$type": "borderRadius",
-          "$value": "0",
-          "$description": "[semantic; role; decision; alias;]"
+          "$value": "0"
         },
         "default": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{border-radius.02}",
-          "$description": "[semantic; role; decision; alias;]"
+          "$value": "{border-radius.02}"
         },
         "small": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.0-5-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$value": "{size-space.0-5-x}"
         },
         "large": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.2-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$value": "{size-space.2-x}"
         },
         "full": {
           "$type": "borderRadius",
           "$value": "9999",
-          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
+          "$description": "Fully rounded border radius."
         },
         "focus-offset": {
           "$type": "borderRadius",
           "$value": "{border.radius.default} + {size-space.0-5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.)."
         }
       }
     },
@@ -6631,55 +6600,45 @@
       "gutters": {
         "small": {
           "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$value": "{size-space.2-x}"
         },
         "medium": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         },
         "large": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         },
         "x-large": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         },
         "xx-large": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         }
       },
       "margin": {
         "small": {
           "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$value": "{size-space.2-x}"
         },
         "medium": {
           "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
+          "$value": "{size-space.4-x}"
         },
         "large": {
           "$type": "spacing",
-          "$value": "{size-space.8-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$value": "{size-space.8-x}"
         },
         "x-large": {
           "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
+          "$value": "{size-space.10-x}"
         },
         "xx-large": {
           "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+          "$value": "{size-space.10-x}"
         }
       }
     },
@@ -8628,8 +8587,7 @@
           "spread": "0",
           "color": "{color.border.none}",
           "type": "dropShadow"
-        },
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        }
       },
       "global": {
         "$type": "boxShadow",
@@ -8641,7 +8599,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. "
       },
       "small": {
         "$type": "boxShadow",
@@ -8652,8 +8610,7 @@
           "spread": "0",
           "color": "{color.box-shadow.primary}",
           "type": "dropShadow"
-        },
-        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        }
       },
       "default": {
         "$type": "boxShadow",
@@ -8674,8 +8631,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       },
       "medium": {
         "$type": "boxShadow",
@@ -8696,8 +8652,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       },
       "large": {
         "$type": "boxShadow",
@@ -8718,8 +8673,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       },
       "x-large": {
         "$type": "boxShadow",
@@ -8740,8 +8694,7 @@
             "color": "{color.box-shadow.secondary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       },
       "xx-large": {
         "$type": "boxShadow",
@@ -8754,8 +8707,7 @@
             "color": "{color.box-shadow.tertiary}",
             "type": "dropShadow"
           }
-        ],
-        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        ]
       }
     },
     "brand": {
@@ -9867,54 +9819,54 @@
         "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$description": "[🔎 sm; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
+          "$description": "[🔎 md; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$description": "[🔎 lg; semantic; role; decision; alias;]"
         },
         "x-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
+          "$description": "[🔎 xl; semantic; role; decision; alias;]"
         },
         "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+          "$description": "[🔎 xxl; 2xl; semantic; role; decision; alias;]"
         }
       },
       "margin": {
         "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$description": "[🔎 sm; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
+          "$description": "[🔎 md; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "spacing",
           "$value": "{size-space.8-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$description": "[🔎 lg; semantic; role; decision; alias;]"
         },
         "x-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
+          "$description": "[🔎 xl; semantic; role; decision; alias;]"
         },
         "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+          "$description": "[🔎 xxl; 2xl; semantic; role; decision; alias;]"
         }
       }
     },
@@ -9923,32 +9875,32 @@
         "none": {
           "$type": "borderRadius",
           "$value": "0",
-          "$description": "[semantic; role; decision; alias;]"
+          "$description": "[🔎 semantic; role; decision; alias;]"
         },
         "default": {
           "$type": "borderRadius",
           "$value": "{border-radius.05}",
-          "$description": "[semantic; role; decision; alias;]"
+          "$description": "[🔎 semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "borderRadius",
           "$value": "{size-space.0-5-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
+          "$description": "[🔎 sm; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "borderRadius",
           "$value": "{border-radius.08}",
-          "$description": "[lg; semantic; role; decision; alias;]"
+          "$description": "[🔎 lg; semantic; role; decision; alias;]"
         },
         "full": {
           "$type": "borderRadius",
           "$value": "9999px",
-          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
+          "$description": "Fully rounded border radius. [🔎 semantic; role; decision; alias;]"
         },
         "focus-offset": {
           "$type": "borderRadius",
           "$value": "{border.radius.default} + {size-space.0-5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [🔎 semantic; role; decision; alias;]"
         }
       }
     },
@@ -9966,7 +9918,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
       },
       "h2": {
         "$type": "typography",
@@ -9981,7 +9933,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
       },
       "h3": {
         "$type": "typography",
@@ -9996,7 +9948,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
       },
       "h4": {
         "$type": "typography",
@@ -10011,7 +9963,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
       },
       "h5": {
         "$type": "typography",
@@ -10026,7 +9978,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
       },
       "h6": {
         "$type": "typography",
@@ -10041,7 +9993,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
       },
       "display": {
         "h1": {
@@ -10057,7 +10009,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "h2": {
           "$type": "typography",
@@ -10072,7 +10024,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "h3": {
           "$type": "typography",
@@ -10087,7 +10039,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10105,7 +10057,7 @@
           "textCase": "{text-case.uppercase}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
       },
       "large": {
         "$type": "typography",
@@ -10120,7 +10072,7 @@
           "textCase": "{text-case.uppercase}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
       }
     },
     "link": {
@@ -10138,7 +10090,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.underline}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "default": {
           "$type": "typography",
@@ -10153,7 +10105,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       },
       "small": {
@@ -10170,7 +10122,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.underline}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "default": {
           "$type": "typography",
@@ -10185,7 +10137,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10204,7 +10156,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
+          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "typography",
@@ -10219,7 +10171,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "Medium sizes are best suited to either Web or Product experiences where 1.5x is too spacious. [typography; text style; semantic; role; decision; alias;]"
+          "$description": "Medium sizes are best suited to either Web or Product experiences where 1.5x is too spacious. [🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10234,7 +10186,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
+          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [🔎 typography; text style; semantic; role; decision; alias;]"
         }
       },
       "medium": {
@@ -10251,7 +10203,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "typography",
@@ -10266,7 +10218,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10281,7 +10233,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       },
       "regular": {
@@ -10298,7 +10250,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "typography",
@@ -10313,7 +10265,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10328,7 +10280,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       },
       "secondary": {
@@ -10345,7 +10297,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "typography",
@@ -10360,7 +10312,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10375,7 +10327,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10394,7 +10346,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10409,7 +10361,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       },
       "medium": {
@@ -10426,7 +10378,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10441,7 +10393,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       },
       "regular": {
@@ -10458,7 +10410,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10473,7 +10425,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       },
       "secondary": {
@@ -10490,7 +10442,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10505,7 +10457,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
+          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10520,7 +10472,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "global": {
         "$type": "boxShadow",
@@ -10532,7 +10484,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "small": {
         "$type": "boxShadow",
@@ -10544,7 +10496,7 @@
           "color": "{color.box-shadow.primary}",
           "type": "dropShadow"
         },
-        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[🔎 sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "default": {
         "$type": "boxShadow",
@@ -10566,7 +10518,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "medium": {
         "$type": "boxShadow",
@@ -10588,7 +10540,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[🔎 md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "large": {
         "$type": "boxShadow",
@@ -10610,7 +10562,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[🔎 lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "x-large": {
         "$type": "boxShadow",
@@ -10632,7 +10584,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[🔎 xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "xx-large": {
         "$type": "boxShadow",
@@ -10646,7 +10598,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[🔎 xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     },
     "font-family": {
@@ -10654,19 +10606,19 @@
         "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
       },
       "secondary": {
         "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
       },
       "tertiary": {
         "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist Mono, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
       }
     },
     "component": {
@@ -13794,82 +13746,69 @@
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.brand.primary-mode-dark}",
-          "$description": "The primary brand color also used as the primary accent color. [brand; accent; primary; semantic; role; decision; alias;]"
+          "$value": "{color.brand.primary-mode-dark}"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.brand.secondary-mode-dark}",
-          "$description": "The secondary brand color. If your color system has only one brand color, using this token is optional. [brand; accent; secondary; semantic; role; decision; alias;]"
+          "$value": "{color.brand.secondary-mode-dark}"
         }
       },
       "background": {
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.default-mode-dark}",
-          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [body; html; canvas; page; fill; solid; semantic; role; decision; alias;]"
+          "$value": "{color.background.default-mode-dark}"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.disabled-mode-dark}",
-          "$description": "The background color of the elements in a disabled state. [disabled; inactive; fill; solid; semantic; role; decision; alias;]"
+          "$value": "{color.background.disabled-mode-dark}"
         },
         "backdrop": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.background.backdrop-mode-dark}",
-          "$description": "The background color for temporary overlays that can be applied to Unify surfaces for the purpose of making content on a surface less prominent. Typically used with Modals, Drawer and Sheet components. [overlay; backdrop; modal background; scrim; semantic; role; decision; alias;]"
+          "$value": "{color.background.backdrop-mode-dark}"
         },
         "surface": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.default-mode-dark}",
-            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [surface; default; primary; semantic; role; decision; alias;]"
+            "$value": "{color.background.surface.default-mode-dark}"
           },
           "secondary": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-dark}",
-            "$description": "The secondary surface color, typically applied to the backgrounds of content cards, sections, and similar components. [surface; secondary; semantic; role; decision; alias;]"
+            "$value": "{color.background.surface.secondary-mode-dark}"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.hover-mode-dark}",
-            "$description": "The hover state color for the color.background.surface.default token. It should be used as the background color for the hover state of elements like dropdown list items, interactive cards, and more. [surface; hover; semantic; role; decision; alias;]"
+            "$value": "{color.background.surface.hover-mode-dark}"
           },
           "transparent": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.transparent-mode-dark}",
-            "$description": "This token represents the absence of a surface background color, ensuring no background color is applied. It can be used to override the default or secondary surface background colors. [surface; transparent; none; semantic; role; decision; alias;]"
+            "$value": "{color.background.surface.transparent-mode-dark}"
           },
           "selected": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.selected-mode-dark}",
-            "$description": "The selected state color for the color.background.surface.default token. [surface; selected; semantic; role; decision; alias;]"
+            "$value": "{color.background.surface.selected-mode-dark}"
           },
           "selected-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.selected-hover-mode-dark}",
-            "$description": "The selected hover state color for the color.background.surface.default token. [surface; selected hover; semantic; role; decision; alias;]"
+            "$value": "{color.background.surface.selected-hover-mode-dark}"
           },
           "inverse": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.surface.inverse-mode-dark}",
-            "$description": "An inverted variant of the default surface color, dark in light mode and light in dark mode. It is used as the background color for components such as tooltips. [surface; inverse; inverted; semantic; role; decision; alias;]"
+            "$value": "{color.background.surface.inverse-mode-dark}"
           },
           "secondary-hover": {
             "$type": "color",
-            "$value": "{color.background.surface.secondary-hover-mode-dark}",
-            "$description": "The hover state color for the color.background.surface.secondary token. [surface; secondary; hover; semantic; role; decision; alias;]"
+            "$value": "{color.background.surface.secondary-hover-mode-dark}"
           }
         },
         "brand": {
@@ -13877,40 +13816,34 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-dark}",
-              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [brand; accent; primary; default; semantic; role; decision; alias;]"
+              "$value": "{color.background.brand.primary.default-mode-dark}"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}",
-              "$description": "The hover state color for the color.background.brand.primary.default token. [brand; accent; primary; hover; mouse over; semantic; role; decision; alias;]"
+              "$value": "{color.background.brand.primary.hover-mode-dark}"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}",
-              "$description": "The active state color for the color.background.brand.primary.default token. [brand; accent; primary; active; semantic; role; decision; alias;]"
+              "$value": "{color.background.brand.primary.active-mode-dark}"
             }
           },
           "secondary": {
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.brand.secondary-mode-dark}",
-              "$description": "The secondary brand background color. It can be used as a complementary color to the primary brand background color. [brand; accent; secondary; default; semantic; role; decision; alias;]"
+              "$value": "{color.brand.secondary-mode-dark}"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}",
-              "$description": "The hover state color for the color.background.brand.secondary.default token. [brand; accent; secondary; hover; mouse over; semantic; role; decision; alias;]"
+              "$value": "{color.background.brand.primary.hover-mode-dark}"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}",
-              "$description": "The active state color for the color.background.brand.secondary.default token. [brand; accent; secondary; active; semantic; role; decision; alias;]"
+              "$value": "{color.background.brand.primary.active-mode-dark}"
             }
           }
         },
@@ -13919,39 +13852,33 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.default-mode-dark}",
-              "$description": "The default state of the background color that indicates an error or critical state. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.danger.default-mode-dark}"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.hover-mode-dark}",
-              "$description": "The hover state color for the color.background.feedback.danger.default token. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.danger.hover-mode-dark}"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.danger.active-mode-dark}",
-              "$description": "The active state color for the color.background.feedback.danger.default token. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.danger.active-mode-dark}"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.default-mode-dark}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.danger.default token, used to indicate an error or critical state. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.danger.strong.default-mode-dark}"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.hover-mode-dark}",
-                "$description": "The hover state color for the color.background.feedback.danger.strong.default token. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.danger.strong.hover-mode-dark}"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.danger.strong.active-mode-dark}",
-                "$description": "The active state color for the  color.background.feedback.danger.strong.default token. [danger; error; destructive; critical; negative; alert; notification; red; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.danger.strong.active-mode-dark}"
               }
             }
           },
@@ -13959,39 +13886,33 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.default-mode-dark}",
-              "$description": "The background color for the default state of elements indicating a warning or caution. [warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.warning.default-mode-dark}"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.hover-mode-dark}",
-              "$description": "The hover state color for the color.background.feedback.warning.default token. [warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.warning.hover-mode-dark}"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.warning.active-mode-dark}",
-              "$description": "The active state color for the color.background.feedback.warning.default token. [warning; attention; caution; alert; notification; yellow; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.warning.active-mode-dark}"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.default-mode-dark}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.warning.default token, used to indicate a warning or caution. [warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.warning.strong.default-mode-dark}"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.hover-mode-dark}",
-                "$description": "The hover state color for the color.background.feedback.warning.strong.default token. [warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.warning.strong.hover-mode-dark}"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.warning.strong.active-mode-dark}",
-                "$description": "The active state color for the color.background.feedback.warning.strong.default token. [warning; attention; caution; notice; alert; notification; yellow; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.warning.strong.active-mode-dark}"
               }
             }
           },
@@ -13999,39 +13920,33 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.default-mode-dark}",
-              "$description": "The background color for the default state of elements indicating a favorable outcome or a successfully completed action. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.success.default-mode-dark}"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.hover-mode-dark}",
-              "$description": "The hover state color for the color.background.feedback.success.default token. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.success.hover-mode-dark}"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.success.active-mode-dark}",
-              "$description": "The active state color for the  color.background.feedback.success.default token. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.success.active-mode-dark}"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.default-mode-dark}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.success.default token, used to indicate a favorable outcome or a successfully completed action. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.success.strong.default-mode-dark}"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.hover-mode-dark}",
-                "$description": "The hover state color for the color.background.feedback.success.strong token. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.success.strong.hover-mode-dark}"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.success.strong.active-mode-dark}",
-                "$description": "The active state color for the  color.background.feedback.success.strong token. [success; positive; completion; finish; alert; notification; green; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.success.strong.active-mode-dark}"
               }
             }
           },
@@ -14039,39 +13954,33 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.default-mode-dark}",
-              "$description": "The background color for the default state of elements that indicate an additional concept that goes beyond the traditional semantics of success/warning/informational, such as new UI elements, new features etc. [discovery; learning; recommendation; new; positive; alert; notification; purple; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.discovery.default-mode-dark}"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.hover-mode-dark}",
-              "$description": "The hover state color for the color.background.feedback.discovery.default token. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.discovery.hover-mode-dark}"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.discovery.active-mode-dark}",
-              "$description": "The active state color for the color.background.feedback.discovery.default token. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.discovery.active-mode-dark}"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.default-mode-dark}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.discovery.default token, used to indicate a change or something new. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.discovery.strong.default-mode-dark}"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.default-mode-dark}",
-                "$description": "The hover state color for the color.background.feedback.discovery.strong.default token. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.discovery.strong.default-mode-dark}"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.discovery.strong.active-mode-dark}",
-                "$description": "The active state color for the color.background.feedback.discovery.strong.default token. [discovery; positive; alert; notification; purple; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.discovery.strong.active-mode-dark}"
               }
             }
           },
@@ -14079,39 +13988,33 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.default-mode-dark}",
-              "$description": "The background color for the default state of elements indicating important information or something in progress. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.information.default-mode-dark}"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.hover-mode-dark}",
-              "$description": "The hover state color for the color.background.feedback.information.default token. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.information.hover-mode-dark}"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.information.active-mode-dark}",
-              "$description": "The active state color for the color.background.feedback.information.default token. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.information.active-mode-dark}"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.default-mode-dark}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.information.strong.default token, used to indicate important information or something in progress. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.information.strong.default-mode-dark}"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.hover-mode-dark}",
-                "$description": "The hover state color for the color.background.feedback.information.strong.default token. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.information.strong.hover-mode-dark}"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.information.strong.active-mode-dark}",
-                "$description": "The active state color for the color.background.feedback.information.strong.default token. [information; positive; alert; notification; blue; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.information.strong.active-mode-dark}"
               }
             }
           },
@@ -14119,39 +14022,33 @@
             "default": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.default-mode-dark}",
-              "$description": "The background color for the default state of elements indicating neutral feedback. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey;]"
+              "$value": "{color.background.feedback.neutral.default-mode-dark}"
             },
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.hover-mode-dark}",
-              "$description": "The hover state color for the color.background.feedback.neutral.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.neutral.hover-mode-dark}"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.feedback.neutral.active-mode-dark}",
-              "$description": "The active state color for the color.background.feedback.neutral.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+              "$value": "{color.background.feedback.neutral.active-mode-dark}"
             },
             "strong": {
               "default": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.default-mode-dark}",
-                "$description": "A stronger-emphasis variant of the color.background.feedback.neutral.default token, used to indicate neutral feedback. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.neutral.strong.default-mode-dark}"
               },
               "hover": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.hover-mode-dark}",
-                "$description": "The hover state color for the color.background.feedback.neutral.strong.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.neutral.strong.hover-mode-dark}"
               },
               "active": {
                 "$colorSchemeToken": "true",
                 "$type": "color",
-                "$value": "{color.background.feedback.neutral.strong.active-mode-dark}",
-                "$description": "The active state color for the color.background.feedback.neutral.strong.default token. [neutral; subtle; muted; monochrome; positive; alert; notification; gray; grey; semantic; role; decision; alias;]"
+                "$value": "{color.background.feedback.neutral.strong.active-mode-dark}"
               }
             }
           }
@@ -14160,8 +14057,7 @@
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.background.input.default-mode-dark}",
-            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [text input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
+            "$value": "{color.background.input.default-mode-dark}"
           }
         }
       },
@@ -14169,350 +14065,293 @@
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.brand-mode-dark}",
-          "$description": "The border color that represents the brand’s primary color. [brand; accent; border; outline; stroke; divider; separator; semantic; role; decision; alias;]"
+          "$value": "{color.border.brand-mode-dark}"
         },
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.default-mode-dark}",
-          "$description": "The default border color for such elements as containers, cards, sections, dividers, table cells, etc. [border; outline; stroke; divider; separator; default; subtle; outline; gray; grey; semantic; role; decision; alias;]"
+          "$value": "{color.border.default-mode-dark}"
         },
         "bold": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.bold-mode-dark}",
-          "$description": "The color for the most prominent and highly emphasized borders. It is ideal for framing highly important content. Use this token sparingly to maintain visual balance and impact. [border; outline; stroke; divider; separator; bold; high contrast; gray; grey; semantic; role; decision; alias;]"
+          "$value": "{color.border.bold-mode-dark}"
         },
         "strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.strong-mode-dark}",
-          "$description": "The color for prominent or heavily emphasized borders. Use this token for elements requiring standout borders to enhance accessibility or clarity. [border; outline; stroke; divider; separator; strong; higher contrast; gray; grey; semantic; role; decision; alias;]"
+          "$value": "{color.border.strong-mode-dark}"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.neutral-mode-dark}",
-          "$description": "The color for borders that are subtle and non-intrusive, typically used for providing structure without drawing attention. It works well for secondary elements. [border; outline; stroke; divider; separator; neutral; gray; grey; semantic; role; decision; alias;]"
+          "$value": "{color.border.neutral-mode-dark}"
         },
         "focused": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.focused-mode-dark}",
-          "$description": "The color of the stroke for elements in a focused state, such as form inputs or buttons. This token helps visually highlight and indicate to users which element is currently being interacted with, improving accessibility and user experience. [border; outline; stroke; focus; semantic; role; decision; alias;]"
+          "$value": "{color.border.focused-mode-dark}"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.disabled-mode-dark}",
-          "$description": "The border color for elements in a disabled state, such as form fields that are disabled or inactive. [border; outline; stroke; disabled; inactive; non-interactive; semantic; role; decision; alias;]"
+          "$value": "{color.border.disabled-mode-dark}"
         },
         "input": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.input-mode-dark}",
-          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [border; outline; stroke; input; textarea; checkbox; radio; semantic; role; decision; alias;]"
+          "$value": "{color.border.input-mode-dark}"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.success-mode-dark}",
-          "$description": "The color for borders that indicate a successful or positive state. Use it for components like alerts and badges or in areas where success should be communicated subtly with low contrast. [border; outline; stroke; success; positive; feedback; green; semantic; role; decision; alias;]"
+          "$value": "{color.border.success-mode-dark}"
         },
         "success-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.success-strong-mode-dark}",
-          "$description": "The color for borders that indicate a successful or positive state, such as validated inputs or completed actions. Use it for form fields, status indicators, or other components where success needs to be clearly conveyed. [border; outline; stroke; success; positive; feedback; green; semantic; role; decision; alias;]"
+          "$value": "{color.border.success-strong-mode-dark}"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.danger-mode-dark}",
-          "$description": "The color for borders that indicate an error, danger, invalid state, or destructive action. Use it for components like alerts and badges or in areas where errors should be communicated subtly with low contrast. [border; outline; stroke; danger; error; feedback; red; semantic; role; decision; alias;]"
+          "$value": "{color.border.danger-mode-dark}"
         },
         "danger-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.danger-strong-mode-dark}",
-          "$description": "The color for borders that indicate an error or invalid state, or a destructive action, such as failed form validation or error messages. Use it for form fields, status indicators, or components where errors needs to be clearly conveyed. [border; outline; stroke; danger; error; feedback; red; semantic; role; decision; alias;]"
+          "$value": "{color.border.danger-strong-mode-dark}"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.warning-mode-dark}",
-          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be communicated subtly with low contrast. [border; outline; stroke; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
+          "$value": "{color.border.warning-mode-dark}"
         },
         "warning-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.warning-strong-mode-dark}",
-          "$description": "The color for borders that indicate a warning or caution. Use it for components like alerts and badges or in areas where warnings need to be clearly conveyed. [border; outline; stroke; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
+          "$value": "{color.border.warning-strong-mode-dark}"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.information-mode-dark}",
-          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information should be communicated subtly with low contrast. [border; outline; stroke; information; feedback; blue; semantic; role; decision; alias;]"
+          "$value": "{color.border.information-mode-dark}"
         },
         "information-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.information-strong-mode-dark}",
-          "$description": "The color for borders that indicate information, something in progress, or a non-destructive action. Use it for components like alerts and badges or in areas where information need to be clearly conveyed. [border; outline; stroke; information; feedback; blue; semantic; role; decision; alias;]"
+          "$value": "{color.border.information-strong-mode-dark}"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.discovery-mode-dark}",
-          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information should be communicated subtly with low contrast. [border; outline; stroke; discovery; feedback; purple; semantic; role; decision; alias;]"
+          "$value": "{color.border.discovery-mode-dark}"
         },
         "discovery-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.discovery-strong-mode-dark}",
-          "$description": "The color for borders that indicate change or something new. Use it for components like alerts and badges or in areas where new information need to be clearly conveyed. [border; outline; stroke; discovery; feedback; purple; semantic; role; decision; alias;]"
+          "$value": "{color.border.discovery-strong-mode-dark}"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.inverse-mode-dark}",
-          "$description": "The color for borders used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [border; outline; stroke; inverse; inverted; semantic; role; decision; alias;]"
+          "$value": "{color.border.inverse-mode-dark}"
         },
         "neutral-strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.neutral-strong-mode-dark}",
-          "$description": "A stronger emphasis option of the color.border.neutral token. [border; outline; stroke; divider; separator; strong; dark; gray; grey; semantic; role; decision; alias;]"
+          "$value": "{color.border.neutral-strong-mode-dark}"
         },
         "none": {
           "$type": "color",
-          "$value": "rgba(0,0,0,0)",
-          "$description": "This token represents the absence of a border, ensuring no visible outline or separation is applied. It can be used to explicitly override default border styles or when a clean, borderless appearance is required. [borderless; transparent; semantic; role; decision; alias;]"
+          "$value": "rgba(0,0,0,0)"
         }
       },
       "icon": {
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.brand-mode-dark}",
-          "$description": "The color for icons that reflect the primary brand color. [icon; pictogram; svg; brand; accent; semantic; role; decision; alias;]"
+          "$value": "{color.icon.brand-mode-dark}"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.primary-mode-dark}",
-          "$description": "The default color for icons. [icon; pictogram; svg; primary; semantic; role; decision; alias;]"
+          "$value": "{color.icon.primary-mode-dark}"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.secondary-mode-dark}",
-          "$description": "The secondary color for icons. [icon; pictogram; svg; secondary; semantic; role; decision; alias;]"
+          "$value": "{color.icon.secondary-mode-dark}"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.inverse-mode-dark}",
-          "$description": "The color for icons used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse; semantic; role; decision; alias;]"
+          "$value": "{color.icon.inverse-mode-dark}"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.disabled-mode-dark}",
-          "$description": "The disabled state color for icons. [icon; pictogram; svg; disabled; inactive; semantic; role; decision; alias;]"
+          "$value": "{color.icon.disabled-mode-dark}"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.helper-mode-dark}",
-          "$description": "The color for monochrome helper-type icons. [icon; pictogram; svg; helper; semantic; role; decision; alias;]"
+          "$value": "{color.icon.helper-mode-dark}"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.neutral-mode-dark}",
-          "$description": "The tertiary color for icons, intended for use on backgrounds of neutral variant components. [icon; pictogram; svg; neutral; tertiary; semantic; role; decision; alias;]"
+          "$value": "{color.icon.neutral-mode-dark}"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.on-color-mode-dark}",
-          "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse; semantic; role; decision; alias;]"
+          "$value": "{color.icon.on-color-mode-dark}"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.success-mode-dark}",
-          "$description": "The success state color for icons. [icon; pictogram; svg; success; positive; feedback; green; semantic; role; decision; alias;]"
+          "$value": "{color.icon.success-mode-dark}"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.danger-mode-dark}",
-          "$description": "The danger or error state color for icons. [icon; pictogram; svg; danger; negative; error; destructive; feedback; red; semantic; role; decision; alias;]"
+          "$value": "{color.icon.danger-mode-dark}"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.warning-mode-dark}",
-          "$description": "The warning state color for icons. [icon; pictogram; svg; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
+          "$value": "{color.icon.warning-mode-dark}"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.information-mode-dark}",
-          "$description": "The information type color for icons. [icon; pictogram; svg; information; feedback; blue; semantic; role; decision; alias;]"
+          "$value": "{color.icon.information-mode-dark}"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.icon.discovery-mode-dark}",
-          "$description": "The discovery type color for icons. [icon; pictogram; svg; discovery; feedback; purple; semantic; role; decision; alias;]"
+          "$value": "{color.icon.discovery-mode-dark}"
         }
       },
       "text": {
         "brand": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.brand-mode-dark}",
-          "$description": "The color for branded text, often used for interactive text. [text; copy; content; heading; header; body; brand; accent; semantic; role; decision; alias;]"
+          "$value": "{color.text.brand-mode-dark}"
         },
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.primary-mode-dark}",
-          "$description": "The primary color for text, used for body copy, headers, and all non-interactive text. [text; copy; content; heading; header; body; primary; main; semantic; role; decision; alias;]"
+          "$value": "{color.text.primary-mode-dark}"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.secondary-mode-dark}",
-          "$description": "The secondary color for text, used for non-interactive text. [text; copy; content; secondary; semantic; role; decision; alias;]"
+          "$value": "{color.text.secondary-mode-dark}"
         },
         "inverse": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.inverse-mode-dark}",
-          "$description": "The color for text used on dark or inverted backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; inverse; semantic; role; decision; alias;]"
+          "$value": "{color.text.inverse-mode-dark}"
         },
         "disabled": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.disabled-mode-dark}",
-          "$description": "The color for disabled state text. [text; copy; content; disabled; inactive; read-only; semantic; role; decision; alias;]"
+          "$value": "{color.text.disabled-mode-dark}"
         },
         "placeholder": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.placeholder-mode-dark}",
-          "$description": "The color for placeholder text, used in text input components. [text; placeholder; input; semantic; role; decision; alias;]"
+          "$value": "{color.text.placeholder-mode-dark}"
         },
         "helper": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.helper-mode-dark}",
-          "$description": "The tertiary color for text, used for non-interactive text. [text; copy; content; helper; tertiary; semantic; role; decision; alias;]"
+          "$value": "{color.text.helper-mode-dark}"
         },
         "neutral": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.neutral-mode-dark}",
-          "$description": "The quaternary color for text, used for non-interactive text. [text; copy; content; neutral; quaternary; semantic; role; decision; alias;]"
+          "$value": "{color.text.neutral-mode-dark}"
         },
         "selection-bg": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.selection-bg-mode-dark}",
-          "$description": "The background color applied to selected text. [selection background; highlighted text background; semantic; role; decision; alias;]"
+          "$value": "{color.text.selection-bg-mode-dark}"
         },
         "on-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.on-color-mode-dark}",
-          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; semantic; role; decision; alias;]"
+          "$value": "{color.text.on-color-mode-dark}"
         },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.success-mode-dark}",
-          "$description": "The success state color for text. [text; success; positive; feedback; green; semantic; role; decision; alias;]"
+          "$value": "{color.text.success-mode-dark}"
         },
         "danger": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.danger-mode-dark}",
-          "$description": "The danger or error state color for text. [text; danger; negative; error; destructive; feedback; red; semantic; role; decision; alias;]"
+          "$value": "{color.text.danger-mode-dark}"
         },
         "warning": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.warning-mode-dark}",
-          "$description": "The warning state color for text. [text; warning; caution; feedback; yellow; semantic; role; decision; alias;]"
+          "$value": "{color.text.warning-mode-dark}"
         },
         "information": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.information-mode-dark}",
-          "$description": "The information type color for text. [text; information; feedback; blue; semantic; role; decision; alias;]"
+          "$value": "{color.text.information-mode-dark}"
         },
         "discovery": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.text.discovery-mode-dark}",
-          "$description": "The discovery type color for text. [text; discovery; feedback; purple; semantic; role; decision; alias;]"
+          "$value": "{color.text.discovery-mode-dark}"
         }
       },
       "link": {
         "default": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.default-mode-dark}",
-          "$description": "The primary color for the default state of links and interactive text. [text; link; href; cta text; interactive text; default; brand; accent; semantic; role; decision; alias;]"
+          "$value": "{color.link.default-mode-dark}"
         },
         "hover": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.hover-mode-dark}",
-          "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
+          "$value": "{color.link.hover-mode-dark}"
         },
         "active": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.active-mode-dark}",
-          "$description": "The active state color for the color.link.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
+          "$value": "{color.link.active-mode-dark}"
         },
         "visited": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.link.visited-mode-dark}",
-          "$description": "The visited state color for the color.link.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
+          "$value": "{color.link.visited-mode-dark}"
         },
         "neutral": {
           "default": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.default-mode-dark}",
-            "$description": "The color for the default state of neutral-style links and interactive text. [text; link; href; cta text; interactive text; neutral; semantic; role; decision; alias;]"
+            "$value": "{color.link.neutral.default-mode-dark}"
           },
           "hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.hover-mode-dark}",
-            "$description": "The hover state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
+            "$value": "{color.link.neutral.hover-mode-dark}"
           },
           "active": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.active-mode-dark}",
-            "$description": "The active state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
+            "$value": "{color.link.neutral.active-mode-dark}"
           },
           "visited": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.link.neutral.visited-mode-dark}",
-            "$description": "The visited state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
+            "$value": "{color.link.neutral.visited-mode-dark}"
           }
         }
       },
@@ -14520,20 +14359,17 @@
         "primary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.primary-mode-dark}",
-          "$description": "The default color for a box shadow. [box-shadow; drop-shadow; elevation; primary; default; semantic; role; decision; alias;]"
+          "$value": "{color.shadow.primary-mode-dark}"
         },
         "secondary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.secondary-mode-dark}",
-          "$description": "The stronger-emphasis color option of a box-shadow. [box-shadow; drop-shadow; elevation; secondary; semantic; role; decision; alias;]"
+          "$value": "{color.shadow.secondary-mode-dark}"
         },
         "tertiary": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.tertiary-mode-dark}",
-          "$description": "The strongest-emphasis color option of a box-shadow.  [box-shadow; drop-shadow; elevation; tertiary; semantic; role; decision; alias;]"
+          "$value": "{color.shadow.tertiary-mode-dark}"
         }
       }
     },
@@ -14639,8 +14475,7 @@
           "contrast-high": {
             "text-color": {
               "$type": "color",
-              "$value": "{component.tag.warning.contrast-high.text-color-mode-dark}",
-              "$description": "Text color for Warning Tags in their High Contrast variant style. "
+              "$value": "{component.tag.warning.contrast-high.text-color-mode-dark}"
             }
           }
         }
@@ -14673,8 +14508,7 @@
           },
           "background-selected-hover": {
             "$type": "color",
-            "$value": "{component.date-picker.day.background-selected-hover-mode-dark}",
-            "$description": "Hover color for selected day elements in the date range calendar"
+            "$value": "{component.date-picker.day.background-selected-hover-mode-dark}"
           },
           "background-in-range": {
             "$type": "color",
@@ -14771,18 +14605,15 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-dark}",
-              "$description": "Background color of primary buttons in their default / resting state. "
+              "$value": "{color.background.brand.primary.default-mode-dark}"
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.default.border-color-mode-dark}",
-              "$description": "Color of border on a primary buttons default / resting state. "
+              "$value": "{component.button.primary.default.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.default.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons default / resting state. "
+              "$value": "{component.button.primary.default.text-color-mode-dark}"
             }
           },
           "hover": {
@@ -14793,13 +14624,11 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.hover.border-color-mode-dark}",
-              "$description": "Color of border on a primary buttons hover state. "
+              "$value": "{component.button.primary.hover.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.hover.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons hover state. "
+              "$value": "{component.button.primary.hover.text-color-mode-dark}"
             }
           },
           "active": {
@@ -14810,13 +14639,11 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.primary.active.border-color-mode-dark}",
-              "$description": "Color of border on a primary buttons active state. "
+              "$value": "{component.button.primary.active.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.primary.active.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a primary buttons active state. "
+              "$value": "{component.button.primary.active.text-color-mode-dark}"
             }
           }
         },
@@ -14829,13 +14656,11 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.default.border-color-mode-dark}",
-              "$description": "Color of border on a secondary buttons default / resting state. "
+              "$value": "{component.button.secondary.default.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.default.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons default / resting state. "
+              "$value": "{component.button.secondary.default.text-color-mode-dark}"
             }
           },
           "hover": {
@@ -14846,13 +14671,11 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.hover.border-color-mode-dark}",
-              "$description": "Color of border on a secondary buttons hover state. "
+              "$value": "{component.button.secondary.hover.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.hover.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons hover state. "
+              "$value": "{component.button.secondary.hover.text-color-mode-dark}"
             }
           },
           "active": {
@@ -14863,13 +14686,11 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.active.border-color-mode-dark}",
-              "$description": "Color of border on a secondary buttons active state. "
+              "$value": "{component.button.secondary.active.border-color-mode-dark}"
             },
             "text-color": {
               "$type": "color",
-              "$value": "{component.button.secondary.active.text-color-mode-dark}",
-              "$description": "Color of text and icon elements on a secondary buttons active state. "
+              "$value": "{component.button.secondary.active.text-color-mode-dark}"
             }
           }
         },
@@ -14939,8 +14760,7 @@
           "contrast-high": {
             "text-color": {
               "$type": "color",
-              "$value": "{component.badge.warning.contrast-high.text-color-mode-dark}",
-              "$description": "Text color for Warning badges in their High Contrast variant style. "
+              "$value": "{component.badge.warning.contrast-high.text-color-mode-dark}"
             }
           }
         }
