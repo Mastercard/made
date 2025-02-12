@@ -3297,17 +3297,17 @@
       "primary": {
         "$type": "fontFamilies",
         "$value": "Mark Offc For MC, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       },
       "secondary": {
         "$type": "fontFamilies",
         "$value": "MarkForMCNrw, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       },
       "tertiary": {
         "$type": "fontFamilies",
         "$value": "Mark Offc For MC, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       }
     },
     "border": {
@@ -3315,35 +3315,35 @@
         "none": {
           "$type": "borderRadius",
           "$value": "0",
-          "$description": "[🔎 semantic; role; decision; alias;]"
+          "$description": "[semantic; role; decision; alias;]"
         },
         "default": {
           "themeable": "Yes",
           "$type": "borderRadius",
           "$value": "{border-radius.03}",
-          "$description": "[🔎 semantic; role; decision; alias;]"
+          "$description": "[semantic; role; decision; alias;]"
         },
         "small": {
           "themeable": "Yes",
           "$type": "borderRadius",
           "$value": "{size-space.0-5-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "large": {
           "themeable": "Yes",
           "$type": "borderRadius",
           "$value": "{size-space.2-x}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "full": {
           "$type": "borderRadius",
           "$value": "9999",
-          "$description": "Fully rounded border radius. [🔎 semantic; role; decision; alias;]"
+          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
         },
         "focus-offset": {
           "$type": "borderRadius",
           "$value": "{border.radius.default} + {size-space.0-5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [🔎 semantic; role; decision; alias;]"
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
     },
@@ -3352,54 +3352,54 @@
         "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 md; semantic; role; decision; alias;]"
+          "$description": "[md; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "x-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 xl; semantic; role; decision; alias;]"
+          "$description": "[xl; semantic; role; decision; alias;]"
         },
         "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 xxl; 2xl; semantic; role; decision; alias;]"
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
       },
       "margin": {
         "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 md; semantic; role; decision; alias;]"
+          "$description": "[md; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "spacing",
           "$value": "{size-space.8-x}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "x-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}",
-          "$description": "[🔎 xl; semantic; role; decision; alias;]"
+          "$description": "[xl; semantic; role; decision; alias;]"
         },
         "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}",
-          "$description": "[🔎 xxl; 2xl; semantic; role; decision; alias;]"
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
       }
     },
@@ -5349,7 +5349,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "[🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "global": {
         "$type": "boxShadow",
@@ -5361,7 +5361,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "small": {
         "$type": "boxShadow",
@@ -5373,7 +5373,7 @@
           "color": "{color.box-shadow.primary}",
           "type": "dropShadow"
         },
-        "$description": "[🔎 sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "default": {
         "$type": "boxShadow",
@@ -5395,7 +5395,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "medium": {
         "$type": "boxShadow",
@@ -5417,7 +5417,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "large": {
         "$type": "boxShadow",
@@ -5439,7 +5439,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "x-large": {
         "$type": "boxShadow",
@@ -5461,7 +5461,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "xx-large": {
         "$type": "boxShadow",
@@ -5475,7 +5475,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     },
     "brand": {
@@ -6577,17 +6577,17 @@
       "primary": {
         "$type": "fontFamilies",
         "$value": "Mark Offc For MC, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       },
       "secondary": {
         "$type": "fontFamilies",
         "$value": "MarkForMCNrw, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       },
       "tertiary": {
         "$type": "fontFamilies",
         "$value": "Mark Offc For MC, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       }
     },
     "border": {
@@ -6595,35 +6595,35 @@
         "none": {
           "$type": "borderRadius",
           "$value": "0",
-          "$description": "[🔎 semantic; role; decision; alias;]"
+          "$description": "[semantic; role; decision; alias;]"
         },
         "default": {
           "themeable": "Yes",
           "$type": "borderRadius",
           "$value": "{border-radius.02}",
-          "$description": "[🔎 semantic; role; decision; alias;]"
+          "$description": "[semantic; role; decision; alias;]"
         },
         "small": {
           "themeable": "Yes",
           "$type": "borderRadius",
           "$value": "{size-space.0-5-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "large": {
           "themeable": "Yes",
           "$type": "borderRadius",
           "$value": "{size-space.2-x}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "full": {
           "$type": "borderRadius",
           "$value": "9999",
-          "$description": "Fully rounded border radius. [🔎 semantic; role; decision; alias;]"
+          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
         },
         "focus-offset": {
           "$type": "borderRadius",
           "$value": "{border.radius.default} + {size-space.0-5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [🔎 semantic; role; decision; alias;]"
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
     },
@@ -6632,54 +6632,54 @@
         "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 md; semantic; role; decision; alias;]"
+          "$description": "[md; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "x-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 xl; semantic; role; decision; alias;]"
+          "$description": "[xl; semantic; role; decision; alias;]"
         },
         "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 xxl; 2xl; semantic; role; decision; alias;]"
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
       },
       "margin": {
         "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 md; semantic; role; decision; alias;]"
+          "$description": "[md; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "spacing",
           "$value": "{size-space.8-x}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "x-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}",
-          "$description": "[🔎 xl; semantic; role; decision; alias;]"
+          "$description": "[xl; semantic; role; decision; alias;]"
         },
         "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}",
-          "$description": "[🔎 xxl; 2xl; semantic; role; decision; alias;]"
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
       }
     },
@@ -8629,7 +8629,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "[🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "global": {
         "$type": "boxShadow",
@@ -8641,7 +8641,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "small": {
         "$type": "boxShadow",
@@ -8653,7 +8653,7 @@
           "color": "{color.box-shadow.primary}",
           "type": "dropShadow"
         },
-        "$description": "[🔎 sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "default": {
         "$type": "boxShadow",
@@ -8675,7 +8675,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "medium": {
         "$type": "boxShadow",
@@ -8697,7 +8697,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "large": {
         "$type": "boxShadow",
@@ -8719,7 +8719,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "x-large": {
         "$type": "boxShadow",
@@ -8741,7 +8741,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "xx-large": {
         "$type": "boxShadow",
@@ -8755,7 +8755,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     },
     "brand": {
@@ -9867,54 +9867,54 @@
         "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 md; semantic; role; decision; alias;]"
+          "$description": "[md; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "x-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 xl; semantic; role; decision; alias;]"
+          "$description": "[xl; semantic; role; decision; alias;]"
         },
         "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 xxl; 2xl; semantic; role; decision; alias;]"
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
       },
       "margin": {
         "small": {
           "$type": "spacing",
           "$value": "{size-space.2-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "spacing",
           "$value": "{size-space.4-x}",
-          "$description": "[🔎 md; semantic; role; decision; alias;]"
+          "$description": "[md; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "spacing",
           "$value": "{size-space.8-x}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "x-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}",
-          "$description": "[🔎 xl; semantic; role; decision; alias;]"
+          "$description": "[xl; semantic; role; decision; alias;]"
         },
         "xx-large": {
           "$type": "spacing",
           "$value": "{size-space.10-x}",
-          "$description": "[🔎 xxl; 2xl; semantic; role; decision; alias;]"
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
       }
     },
@@ -9923,32 +9923,32 @@
         "none": {
           "$type": "borderRadius",
           "$value": "0",
-          "$description": "[🔎 semantic; role; decision; alias;]"
+          "$description": "[semantic; role; decision; alias;]"
         },
         "default": {
           "$type": "borderRadius",
           "$value": "{border-radius.05}",
-          "$description": "[🔎 semantic; role; decision; alias;]"
+          "$description": "[semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "borderRadius",
           "$value": "{size-space.0-5-x}",
-          "$description": "[🔎 sm; semantic; role; decision; alias;]"
+          "$description": "[sm; semantic; role; decision; alias;]"
         },
         "large": {
           "$type": "borderRadius",
           "$value": "{border-radius.08}",
-          "$description": "[🔎 lg; semantic; role; decision; alias;]"
+          "$description": "[lg; semantic; role; decision; alias;]"
         },
         "full": {
           "$type": "borderRadius",
           "$value": "9999px",
-          "$description": "Fully rounded border radius. [🔎 semantic; role; decision; alias;]"
+          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
         },
         "focus-offset": {
           "$type": "borderRadius",
           "$value": "{border.radius.default} + {size-space.0-5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [🔎 semantic; role; decision; alias;]"
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
     },
@@ -9966,7 +9966,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
       },
       "h2": {
         "$type": "typography",
@@ -9981,7 +9981,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
       },
       "h3": {
         "$type": "typography",
@@ -9996,7 +9996,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
       },
       "h4": {
         "$type": "typography",
@@ -10011,7 +10011,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
       },
       "h5": {
         "$type": "typography",
@@ -10026,7 +10026,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
       },
       "h6": {
         "$type": "typography",
@@ -10041,7 +10041,7 @@
           "textCase": "{text-case.none}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
       },
       "display": {
         "h1": {
@@ -10057,7 +10057,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "h2": {
           "$type": "typography",
@@ -10072,7 +10072,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "h3": {
           "$type": "typography",
@@ -10087,7 +10087,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10105,7 +10105,7 @@
           "textCase": "{text-case.uppercase}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
       },
       "large": {
         "$type": "typography",
@@ -10120,7 +10120,7 @@
           "textCase": "{text-case.uppercase}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
       }
     },
     "link": {
@@ -10138,7 +10138,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.underline}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "default": {
           "$type": "typography",
@@ -10153,7 +10153,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       },
       "small": {
@@ -10170,7 +10170,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.underline}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "default": {
           "$type": "typography",
@@ -10185,7 +10185,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10204,7 +10204,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "typography",
@@ -10219,7 +10219,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "Medium sizes are best suited to either Web or Product experiences where 1.5x is too spacious. [🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "Medium sizes are best suited to either Web or Product experiences where 1.5x is too spacious. [typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10234,7 +10234,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
         }
       },
       "medium": {
@@ -10251,7 +10251,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "typography",
@@ -10266,7 +10266,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10281,7 +10281,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       },
       "regular": {
@@ -10298,7 +10298,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "typography",
@@ -10313,7 +10313,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10328,7 +10328,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       },
       "secondary": {
@@ -10345,7 +10345,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
           "$type": "typography",
@@ -10360,7 +10360,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10375,7 +10375,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10394,7 +10394,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10409,7 +10409,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       },
       "medium": {
@@ -10426,7 +10426,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10441,7 +10441,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       },
       "regular": {
@@ -10458,7 +10458,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10473,7 +10473,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       },
       "secondary": {
@@ -10490,7 +10490,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
           "$type": "typography",
@@ -10505,7 +10505,7 @@
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
           },
-          "$description": "[🔎 typography; text style; semantic; role; decision; alias;]"
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10520,7 +10520,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "[🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "global": {
         "$type": "boxShadow",
@@ -10532,7 +10532,7 @@
           "color": "{color.border.none}",
           "type": "dropShadow"
         },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "small": {
         "$type": "boxShadow",
@@ -10544,7 +10544,7 @@
           "color": "{color.box-shadow.primary}",
           "type": "dropShadow"
         },
-        "$description": "[🔎 sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "default": {
         "$type": "boxShadow",
@@ -10566,7 +10566,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "medium": {
         "$type": "boxShadow",
@@ -10588,7 +10588,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "large": {
         "$type": "boxShadow",
@@ -10610,7 +10610,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "x-large": {
         "$type": "boxShadow",
@@ -10632,7 +10632,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "xx-large": {
         "$type": "boxShadow",
@@ -10646,7 +10646,7 @@
             "type": "dropShadow"
           }
         ],
-        "$description": "[🔎 xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     },
     "font-family": {
@@ -10654,19 +10654,19 @@
         "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       },
       "secondary": {
         "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       },
       "tertiary": {
         "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist Mono, Inter",
-        "$description": "[🔎 typography; font face; semantic; role; decision; alias;]"
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
       }
     },
     "component": {
