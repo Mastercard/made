@@ -1511,89 +1511,89 @@
       "10": {
         "$type": "fontSizes",
         "$value": "1.75rem",
-        "$description": "28px [typography; primitive; base; global; core;]"
+        "$description": "28px [text; typography; primitive; base; global; core;]"
       },
       "11": {
         "$type": "fontSizes",
         "$value": "2rem",
-        "$description": "32px [typography; primitive; base; global; core;]"
+        "$description": "32px [text; typography; primitive; base; global; core;]"
       },
       "12": {
         "$type": "fontSizes",
         "$value": "2.25rem",
-        "$description": "36px [typography; primitive; base; global; core;]"
+        "$description": "36px [text; typography; primitive; base; global; core;]"
       },
       "13": {
         "$type": "fontSizes",
         "$value": "3rem",
-        "$description": "48px [typography; primitive; base; global; core;]"
+        "$description": "48px [text; typography; primitive; base; global; core;]"
       },
       "14": {
         "$type": "fontSizes",
         "$value": "3.75rem",
-        "$description": "60px [typography; primitive; base; global; core;]"
+        "$description": "60px [text; typography; primitive; base; global; core;]"
       },
       "15": {
         "$type": "fontSizes",
         "$value": "5rem",
-        "$description": "80px [typography; primitive; base; global; core;]"
+        "$description": "80px [text; typography; primitive; base; global; core;]"
       },
       "01": {
         "$type": "fontSizes",
         "$value": "0.5625rem",
-        "$description": "9px [typography; primitive; base; global; core;]"
+        "$description": "9px [text; typography; primitive; base; global; core;]"
       },
       "02": {
         "$type": "fontSizes",
         "$value": "0.75rem",
-        "$description": "12px [typography; primitive; base; global; core;]"
+        "$description": "12px [text; typography; primitive; base; global; core;]"
       },
       "03": {
         "$type": "fontSizes",
         "$value": "0.8125rem",
-        "$description": "13px [typography; primitive; base; global; core;]"
+        "$description": "13px [text; typography; primitive; base; global; core;]"
       },
       "04": {
         "$type": "fontSizes",
         "$value": "0.875rem",
-        "$description": "14px [typography; primitive; base; global; core;]"
+        "$description": "14px [text; typography; primitive; base; global; core;]"
       },
       "05": {
         "$type": "fontSizes",
         "$value": "0.9375rem",
-        "$description": "15px [typography; primitive; base; global; core;]"
+        "$description": "15px [text; typography; primitive; base; global; core;]"
       },
       "06": {
         "$type": "fontSizes",
         "$value": "1rem",
-        "$description": "16px [typography; primitive; base; global; core;]"
+        "$description": "16px [text; typography; primitive; base; global; core;]"
       },
       "07": {
         "$type": "fontSizes",
         "$value": "1.125rem",
-        "$description": "18px [typography; primitive; base; global; core;]"
+        "$description": "18px [text; typography; primitive; base; global; core;]"
       },
       "08": {
         "$type": "fontSizes",
         "$value": "1.25rem",
-        "$description": "20px [typography; primitive; base; global; core;]"
+        "$description": "20px [text; typography; primitive; base; global; core;]"
       },
       "09": {
         "$type": "fontSizes",
         "$value": "1.5rem",
-        "$description": "24px [typography; primitive; base; global; core;]"
+        "$description": "24px [text; typography; primitive; base; global; core;]"
       }
     },
     "letter-spacing": {
       "01": {
         "$type": "letterSpacing",
         "$value": "0",
-        "$description": "[typography; primitive; base; global; core;]"
+        "$description": "[text; typography; primitive; base; global; core;]"
       },
       "02": {
         "$type": "letterSpacing",
         "$value": "1.8",
-        "$description": "[typography; primitive; base; global; core;]"
+        "$description": "[text; typography; primitive; base; global; core;]"
       }
     },
     "paragraph-spacing": {
@@ -1601,37 +1601,37 @@
         "$figmaOnly": "true",
         "$type": "paragraphSpacing",
         "$value": "0",
-        "$description": "[typography; primitive; base; global; core;]"
+        "$description": "[text; typography; primitive; base; global; core;]"
       },
       "02": {
         "$figmaOnly": "true",
         "$type": "paragraphSpacing",
         "$value": "18",
-        "$description": "[typography; primitive; base; global; core;]"
+        "$description": "[text; typography; primitive; base; global; core;]"
       }
     },
     "text-case": {
       "none": {
         "$type": "textCase",
         "$value": "none",
-        "$description": "[typography; primitive; base; global; core;]"
+        "$description": "[text; typography; primitive; base; global; core;]"
       },
       "uppercase": {
         "$type": "textCase",
         "$value": "uppercase",
-        "$description": "[typography; primitive; base; global; core;]"
+        "$description": "[text; typography; primitive; base; global; core;]"
       }
     },
     "text-decoration": {
       "none": {
         "$type": "textDecoration",
         "$value": "none",
-        "$description": "[typography; primitive; base; global; core;]"
+        "$description": "[text; typography; primitive; base; global; core;]"
       },
       "underline": {
         "$type": "textDecoration",
         "$value": "underline",
-        "$description": "[typography; primitive; base; global; core;]"
+        "$description": "[text; typography; primitive; base; global; core;]"
       }
     },
     "border-width": {
