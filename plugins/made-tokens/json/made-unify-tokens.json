@@ -1426,62 +1426,62 @@
         "1-x": {
           "$type": "lineHeights",
           "$value": "100%",
-          "$description": "[leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "[leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "1-25-x": {
           "$type": "lineHeights",
           "$value": "125%",
-          "$description": "[leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "[leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "1-5-x": {
           "$type": "lineHeights",
           "$value": "150%",
-          "$description": "[leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "[leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-01": {
           "$type": "lineHeights",
           "$value": "0.75rem",
-          "$description": "12px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "12px [leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-02": {
           "$type": "lineHeights",
           "$value": "1rem",
-          "$description": "16px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "16px [leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-03": {
           "$type": "lineHeights",
           "$value": "1.125rem",
-          "$description": "18px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "18px [leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-04": {
           "$type": "lineHeights",
           "$value": "1.25rem",
-          "$description": "20px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "20px [leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-05": {
           "$type": "lineHeights",
           "$value": "1.5rem",
-          "$description": "24px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "24px [leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-06": {
           "$type": "lineHeights",
           "$value": "1.75rem",
-          "$description": "28px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "28px [leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-07": {
           "$type": "lineHeights",
           "$value": "2rem",
-          "$description": "32px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "32px [leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-08": {
           "$type": "lineHeights",
           "$value": "2.5rem",
-          "$description": "40px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "40px [leading; line-height; text; typography; primitive; base; global; core;]"
         },
         "rem-09": {
           "$type": "lineHeights",
           "$value": "3rem",
-          "$description": "48px [leading; line-height; typography; primitive; base; global; core;]"
+          "$description": "48px [leading; line-height; text; typography; primitive; base; global; core;]"
         }
       }
     },
