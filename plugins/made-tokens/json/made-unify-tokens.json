@@ -12610,7 +12610,8 @@
       "height": {
         "default": {
           "$type": "lineHeights",
-          "$value": "{line.height.1-5-x}"
+          "$value": "{line.height.1-5-x}",
+          "$description": "[leading; line-height; text; typography; semantic; role; decision; alias;]"
         }
       }
     },
