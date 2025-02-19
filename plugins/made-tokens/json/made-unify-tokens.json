@@ -12996,7 +12996,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.input.default-mode-light}",
-            "$description": "The background color for the default state of input components, such as form fields, dropdowns, multiselect, and combobox. [input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
+            "$description": "The background color for the default state of input components, such as form fields, dropdowns, multiselect, and combobox. [input; field; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
           }
         }
       },
@@ -14162,7 +14162,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.input.default-mode-dark}",
-            "$description": "The background color for the default state of input components, such as form fields, dropdowns, multiselect, and combobox. [input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
+            "$description": "The background color for the default state of input components, such as form fields, dropdowns, multiselect, and combobox. [input; field; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
           }
         }
       },
