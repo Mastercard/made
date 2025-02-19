@@ -12644,7 +12644,7 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.default-mode-light}",
-          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [body; html; canvas; page; fill; solid; semantic; role; decision; alias;]"
+          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components or content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [body; html; canvas; page; fill; solid; semantic; role; decision; alias;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
@@ -12663,7 +12663,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-light}",
-            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [surface; default; primary; semantic; role; decision; alias;]"
+            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements and other components. [surface; default; primary; semantic; role; decision; alias;]"
           },
           "secondary": {
             "$colorSchemeToken": "true",
@@ -12713,7 +12713,7 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-light}",
-              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [brand; accent; primary; default; semantic; role; decision; alias;]"
+              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. [brand; accent; primary; default; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
@@ -12996,7 +12996,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.input.default-mode-light}",
-            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [text input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
+            "$description": "The background color for the default state of input components, such as form fields, dropdowns, multiselect, and combobox. [input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
           }
         }
       },
@@ -13047,7 +13047,7 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.input-mode-light}",
-          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [border; outline; stroke; input; textarea; checkbox; radio; semantic; role; decision; alias;]"
+          "$description": "The border color for the form UI elements, such as form fields, checkboxes, radio buttons, etc. [border; outline; stroke; input; checkbox; radio; semantic; role; decision; alias;]"
         },
         "success": {
           "$colorSchemeToken": "true",
@@ -13810,7 +13810,7 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.background.default-mode-dark}",
-          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components, icons, or text content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [body; html; canvas; page; fill; solid; semantic; role; decision; alias;]"
+          "$description": "The default background color of the page, typically applied to the html or body element. This token should only be used as empty space surrounding/behind content or regions in Mastercard applications. We do not recommend placing components or content directly on background.default as they may not provide sufficient contrast in light theme (use the surface colors instead). [body; html; canvas; page; fill; solid; semantic; role; decision; alias;]"
         },
         "disabled": {
           "$colorSchemeToken": "true",
@@ -13829,7 +13829,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.surface.default-mode-dark}",
-            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements such as text, iconography and other components. [surface; default; primary; semantic; role; decision; alias;]"
+            "$description": "The background color of any surface elements in the UI. Typically applied to Containers, Sections, Content Cards, or any other container/component that contains UI elements and other components. [surface; default; primary; semantic; role; decision; alias;]"
           },
           "secondary": {
             "$colorSchemeToken": "true",
@@ -13879,7 +13879,7 @@
               "$colorSchemeToken": "true",
               "$type": "color",
               "$value": "{color.background.brand.primary.default-mode-dark}",
-              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. It should not be applied to text or icons. [brand; accent; primary; default; semantic; role; decision; alias;]"
+              "$description": "The background color for elements that reinforce the brand. This color can be used as the background for sections, buttons, and other interactive elements. [brand; accent; primary; default; semantic; role; decision; alias;]"
             },
             "hover": {
               "$colorSchemeToken": "true",
@@ -14162,7 +14162,7 @@
             "$colorSchemeToken": "true",
             "$type": "color",
             "$value": "{color.background.input.default-mode-dark}",
-            "$description": "The background color for the default state of input components, such as text fields, text areas, dropdowns, multiselect, and combobox. [text input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
+            "$description": "The background color for the default state of input components, such as form fields, dropdowns, multiselect, and combobox. [input; field; textarea; dropdown; multiselect; combobox; semantic; role; decision; alias;]"
           }
         }
       },
@@ -14213,7 +14213,7 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.border.input-mode-dark}",
-          "$description": "The border color for the form UI elements, such as text fields textareas, checkboxes, radio buttons, etc. [border; outline; stroke; input; textarea; checkbox; radio; semantic; role; decision; alias;]"
+          "$description": "The border color for the form UI elements, such as form fields, checkboxes, radio buttons, etc. [border; outline; stroke; input; checkbox; radio; semantic; role; decision; alias;]"
         },
         "success": {
           "$colorSchemeToken": "true",
