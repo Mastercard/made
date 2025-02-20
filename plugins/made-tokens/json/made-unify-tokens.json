@@ -4427,7 +4427,7 @@
           "padding-y": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.2-5-x}"
+            "$value": "{size-space.3-x}"
           }
         }
       },
@@ -7753,7 +7753,7 @@
           "padding-y": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.2-5-x}"
+            "$value": "{size-space.3-x}"
           }
         }
       },
@@ -11833,7 +11833,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.04}"
+            "$value": "{font-size.06}"
           },
           "padding": {
             "$componentLevelToken": "true",
@@ -11860,7 +11860,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "150%"
           }
         },
         "minimal": {
@@ -12657,7 +12657,7 @@
           "padding-y": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.2-5-x}"
+            "$value": "{size-space.3-x}"
           }
         }
       },
