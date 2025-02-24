@@ -5534,6 +5534,16 @@
       "h6": {
         "$type": "letterSpacing",
         "$value": "{font-size.h6} * 0"
+      },
+      "eyebrow": {
+        "small": {
+          "$type": "letterSpacing",
+          "$value": "{font-size.02} * 0.15"
+        },
+        "large": {
+          "$type": "letterSpacing",
+          "$value": "{font-size.06} * 0.15"
+        }
       }
     },
     "font-size": {
@@ -8956,6 +8966,16 @@
       "h6": {
         "$type": "letterSpacing",
         "$value": "{font-size.h6} * 0"
+      },
+      "eyebrow": {
+        "small": {
+          "$type": "letterSpacing",
+          "$value": "{font-size.02} * 0.15"
+        },
+        "large": {
+          "$type": "letterSpacing",
+          "$value": "{font-size.06} * 0.15"
+        }
       }
     },
     "font-size": {
@@ -10256,10 +10276,10 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line.height.1-25-x}",
-          "fontSize": "{font-size.10}",
-          "letterSpacing": "{letter-spacing.default}",
+          "fontWeight": "{font-weight.h2}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h2}",
+          "letterSpacing": "{letter-spacing.h2}",
           "paragraphSpacing": "{paragraph-spacing.01}",
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
@@ -10271,10 +10291,10 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line.height.1-25-x}",
-          "fontSize": "{font-size.09}",
-          "letterSpacing": "{letter-spacing.default}",
+          "fontWeight": "{font-weight.h3}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h3}",
+          "letterSpacing": "{letter-spacing.h3}",
           "paragraphSpacing": "{paragraph-spacing.01}",
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
@@ -10286,10 +10306,10 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.medium}",
-          "lineHeight": "{line.height.1-25-x}",
-          "fontSize": "{font-size.08}",
-          "letterSpacing": "{letter-spacing.default}",
+          "fontWeight": "{font-weight.h4}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h4}",
+          "letterSpacing": "{letter-spacing.h4}",
           "paragraphSpacing": "{paragraph-spacing.01}",
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
@@ -10301,10 +10321,10 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.medium}",
-          "lineHeight": "{line.height.1-25-x}",
-          "fontSize": "{font-size.07}",
-          "letterSpacing": "{letter-spacing.default}",
+          "fontWeight": "{font-weight.h5}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h5}",
+          "letterSpacing": "{letter-spacing.h5}",
           "paragraphSpacing": "{paragraph-spacing.01}",
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
@@ -10316,10 +10336,10 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.medium}",
-          "lineHeight": "{line.height.1-25-x}",
-          "fontSize": "{font-size.06}",
-          "letterSpacing": "{letter-spacing.default}",
+          "fontWeight": "{font-weight.h6}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h6}",
+          "letterSpacing": "{letter-spacing.h6}",
           "paragraphSpacing": "{paragraph-spacing.01}",
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
@@ -10332,10 +10352,10 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.1-25-x}",
+            "fontWeight": "{font-weight.h1}",
+            "lineHeight": "{line.height.heading}",
             "fontSize": "{font-size.15}",
-            "letterSpacing": "{letter-spacing.default}",
+            "letterSpacing": "{font-size.15} * -0.02",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
@@ -10347,11 +10367,11 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.1-25-x}",
+            "fontWeight": "{font-weight.h1}",
+            "lineHeight": "{line.height.heading}",
             "fontSize": "{font-size.14}",
             "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphSpacing": "{font-size.14} * -0.02",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
             "textDecoration": "{text-decoration.none}"
@@ -10362,10 +10382,10 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.1-25-x}",
+            "fontWeight": "{font-weight.h1}",
+            "lineHeight": "{line.height.heading}",
             "fontSize": "{font-size.13}",
-            "letterSpacing": "{letter-spacing.default}",
+            "letterSpacing": "{font-size.13} * -0.02",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
@@ -10380,10 +10400,10 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line.height.1-25-x}",
+          "fontWeight": "{font-weight.eyebrow}",
+          "lineHeight": "{line.height.heading}",
           "fontSize": "{font-size.02}",
-          "letterSpacing": "{letter-spacing.wider}",
+          "letterSpacing": "{letter-spacing.eyebrow.small}",
           "paragraphSpacing": "{paragraph-spacing.01}",
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.uppercase}",
@@ -10395,10 +10415,10 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line.height.1-25-x}",
+          "fontWeight": "{font-weight.eyebrow}",
+          "lineHeight": "{line.height.heading}",
           "fontSize": "{font-size.06}",
-          "letterSpacing": "{letter-spacing.wider}",
+          "letterSpacing": "{letter-spacing.eyebrow.large}",
           "paragraphSpacing": "{paragraph-spacing.01}",
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.uppercase}",
@@ -12960,6 +12980,16 @@
       "h6": {
         "$type": "letterSpacing",
         "$value": "{font-size.h6} * 0"
+      },
+      "eyebrow": {
+        "small": {
+          "$type": "letterSpacing",
+          "$value": "{font-size.02} * 0.15"
+        },
+        "large": {
+          "$type": "letterSpacing",
+          "$value": "{font-size.06} * 0.15"
+        }
       }
     },
     "font-size": {
