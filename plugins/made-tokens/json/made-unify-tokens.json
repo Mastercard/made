@@ -5510,6 +5510,30 @@
         "$type": "letterSpacing",
         "$value": "-4%",
         "$description": "A letter spacing that is tighter than the tight letter spacing"
+      },
+      "h1": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h1} * -0.02"
+      },
+      "h2": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h2} * -0.02"
+      },
+      "h3": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h3} * -0.02"
+      },
+      "h4": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h4} * -0.02"
+      },
+      "h5": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h5} * -0.02"
+      },
+      "h6": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h6} * 0"
       }
     },
     "font-size": {
@@ -5529,6 +5553,78 @@
           "$value": "{font-size.07}",
           "$description": "Semantic font size for text that is larger than regular body or <p> text. "
         }
+      },
+      "h1": {
+        "$type": "fontSizes",
+        "$value": "{font-size.11}"
+      },
+      "h5": {
+        "$type": "fontSizes",
+        "$value": "{font-size.07}"
+      },
+      "h6": {
+        "$type": "fontSizes",
+        "$value": "{font-size.06}"
+      },
+      "h2": {
+        "$type": "fontSizes",
+        "$value": "{font-size.10}"
+      },
+      "h3": {
+        "$type": "fontSizes",
+        "$value": "{font-size.09}"
+      },
+      "h4": {
+        "$type": "fontSizes",
+        "$value": "{font-size.08}"
+      }
+    },
+    "line": {
+      "height": {
+        "default": {
+          "$type": "lineHeights",
+          "$value": "{line.height.1-5-x}",
+          "$description": "[leading; line-height; text; typography; semantic; role; decision; alias;]"
+        },
+        "heading": {
+          "$type": "lineHeights",
+          "$value": "{line.height.1-25-x}",
+          "$description": "[leading; line-height; text; typography; semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "font-weight": {
+      "h1": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h2": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h3": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h4": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "h5": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "h6": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "eyebrow": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "link": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
       }
     }
   },
@@ -8836,6 +8932,30 @@
         "$type": "letterSpacing",
         "$value": "-4%",
         "$description": "A letter spacing that is tighter than the tight letter spacing"
+      },
+      "h1": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h1} * -0.02"
+      },
+      "h2": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h2} * -0.02"
+      },
+      "h3": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h3} * -0.02"
+      },
+      "h4": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h4} * -0.02"
+      },
+      "h5": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h5} * -0.02"
+      },
+      "h6": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h6} * 0"
       }
     },
     "font-size": {
@@ -8855,6 +8975,78 @@
           "$value": "{font-size.07}",
           "$description": "Semantic font size for text that is larger than regular body or <p> text. "
         }
+      },
+      "h1": {
+        "$type": "fontSizes",
+        "$value": "{font-size.11}"
+      },
+      "h5": {
+        "$type": "fontSizes",
+        "$value": "{font-size.07}"
+      },
+      "h6": {
+        "$type": "fontSizes",
+        "$value": "{font-size.06}"
+      },
+      "h2": {
+        "$type": "fontSizes",
+        "$value": "{font-size.10}"
+      },
+      "h3": {
+        "$type": "fontSizes",
+        "$value": "{font-size.09}"
+      },
+      "h4": {
+        "$type": "fontSizes",
+        "$value": "{font-size.08}"
+      }
+    },
+    "line": {
+      "height": {
+        "default": {
+          "$type": "lineHeights",
+          "$value": "{line.height.1-5-x}",
+          "$description": "[leading; line-height; text; typography; semantic; role; decision; alias;]"
+        },
+        "heading": {
+          "$type": "lineHeights",
+          "$value": "{line.height.1-25-x}",
+          "$description": "[leading; line-height; text; typography; semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "font-weight": {
+      "h1": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h2": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h3": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h4": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "h5": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "h6": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "eyebrow": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "link": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
       }
     }
   },
@@ -10049,10 +10241,10 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line.height.1-25-x}",
-          "fontSize": "{font-size.11}",
-          "letterSpacing": "{letter-spacing.default}",
+          "fontWeight": "{font-weight.h1}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h1}",
+          "letterSpacing": "{letter-spacing.h1}",
           "paragraphSpacing": "{paragraph-spacing.01}",
           "paragraphIndent": "{size-space.0-x}",
           "textCase": "{text-case.none}",
@@ -12704,6 +12896,11 @@
           "$type": "lineHeights",
           "$value": "{line.height.1-5-x}",
           "$description": "[leading; line-height; text; typography; semantic; role; decision; alias;]"
+        },
+        "heading": {
+          "$type": "lineHeights",
+          "$value": "{line.height.1-25-x}",
+          "$description": "[leading; line-height; text; typography; semantic; role; decision; alias;]"
         }
       }
     },
@@ -12739,6 +12936,30 @@
         "$type": "letterSpacing",
         "$value": "15%",
         "$description": "A letter spacing that is more than the wide letter spacing"
+      },
+      "h1": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h1} * -0.02"
+      },
+      "h2": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h2} * -0.02"
+      },
+      "h3": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h3} * -0.02"
+      },
+      "h4": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h4} * -0.02"
+      },
+      "h5": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h5} * -0.02"
+      },
+      "h6": {
+        "$type": "letterSpacing",
+        "$value": "{font-size.h6} * 0"
       }
     },
     "font-size": {
@@ -12758,6 +12979,64 @@
           "$value": "{font-size.07}",
           "$description": "Semantic font size for text that is larger than regular body or <p> text. "
         }
+      },
+      "h1": {
+        "$type": "fontSizes",
+        "$value": "{font-size.11}"
+      },
+      "h2": {
+        "$type": "fontSizes",
+        "$value": "{font-size.10}"
+      },
+      "h3": {
+        "$type": "fontSizes",
+        "$value": "{font-size.09}"
+      },
+      "h4": {
+        "$type": "fontSizes",
+        "$value": "{font-size.08}"
+      },
+      "h5": {
+        "$type": "fontSizes",
+        "$value": "{font-size.07}"
+      },
+      "h6": {
+        "$type": "fontSizes",
+        "$value": "{font-size.06}"
+      }
+    },
+    "font-weight": {
+      "h1": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h2": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h3": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "h4": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "h5": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "h6": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
+      },
+      "eyebrow": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.bold}"
+      },
+      "link": {
+        "$type": "fontWeights",
+        "$value": "{font-weight.medium}"
       }
     }
   },
