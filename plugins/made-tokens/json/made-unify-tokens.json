@@ -9038,15 +9038,15 @@
     "font-weight": {
       "h1": {
         "$type": "fontWeights",
-        "$value": "{font-weight.bold}"
+        "$value": "{font-weight.medium}"
       },
       "h2": {
         "$type": "fontWeights",
-        "$value": "{font-weight.bold}"
+        "$value": "{font-weight.medium}"
       },
       "h3": {
         "$type": "fontWeights",
-        "$value": "{font-weight.bold}"
+        "$value": "{font-weight.medium}"
       },
       "h4": {
         "$type": "fontWeights",
@@ -12959,23 +12959,23 @@
       },
       "h1": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h1} * -0.02"
+        "$value": "{font-size.h1} * 0"
       },
       "h2": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h2} * -0.02"
+        "$value": "{font-size.h2} * 0"
       },
       "h3": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h3} * -0.02"
+        "$value": "{font-size.h3} * 0"
       },
       "h4": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h4} * -0.02"
+        "$value": "{font-size.h4} * 0"
       },
       "h5": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h5} * -0.02"
+        "$value": "{font-size.h5} * 0"
       },
       "h6": {
         "$type": "letterSpacing",
