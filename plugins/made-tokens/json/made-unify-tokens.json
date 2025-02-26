@@ -3643,7 +3643,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.04}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -3847,7 +3847,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.04}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -5550,15 +5550,20 @@
       "body": {
         "small": {
           "$type": "fontSizes",
+          "$value": "{font-size.02}",
+          "$description": "Semantic font size for small body text. "
+        },
+        "default": {
+          "$type": "fontSizes",
           "$value": "{font-size.04}",
           "$description": "Semantic font size for smaller text that regular body or <p> text. "
         },
-        "medium": {
+        "large": {
           "$type": "fontSizes",
           "$value": "{font-size.06}",
           "$description": "Semantic font size for regular body or <p> text. "
         },
-        "large": {
+        "x-large": {
           "$type": "fontSizes",
           "$value": "{font-size.07}",
           "$description": "Semantic font size for text that is larger than regular body or <p> text. "
@@ -5567,14 +5572,6 @@
       "h1": {
         "$type": "fontSizes",
         "$value": "{font-size.11}"
-      },
-      "h5": {
-        "$type": "fontSizes",
-        "$value": "{font-size.07}"
-      },
-      "h6": {
-        "$type": "fontSizes",
-        "$value": "{font-size.06}"
       },
       "h2": {
         "$type": "fontSizes",
@@ -5587,6 +5584,14 @@
       "h4": {
         "$type": "fontSizes",
         "$value": "{font-size.08}"
+      },
+      "h5": {
+        "$type": "fontSizes",
+        "$value": "{font-size.07}"
+      },
+      "h6": {
+        "$type": "fontSizes",
+        "$value": "{font-size.06}"
       }
     },
     "line": {
@@ -7075,7 +7080,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.04}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -7279,7 +7284,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.04}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -8982,15 +8987,20 @@
       "body": {
         "small": {
           "$type": "fontSizes",
+          "$value": "{font-size.02}",
+          "$description": "Semantic font size for small body text. "
+        },
+        "default": {
+          "$type": "fontSizes",
           "$value": "{font-size.04}",
           "$description": "Semantic font size for smaller text that regular body or <p> text. "
         },
-        "medium": {
+        "large": {
           "$type": "fontSizes",
           "$value": "{font-size.06}",
           "$description": "Semantic font size for regular body or <p> text. "
         },
-        "large": {
+        "x-large": {
           "$type": "fontSizes",
           "$value": "{font-size.07}",
           "$description": "Semantic font size for text that is larger than regular body or <p> text. "
@@ -8999,14 +9009,6 @@
       "h1": {
         "$type": "fontSizes",
         "$value": "{font-size.11}"
-      },
-      "h5": {
-        "$type": "fontSizes",
-        "$value": "{font-size.07}"
-      },
-      "h6": {
-        "$type": "fontSizes",
-        "$value": "{font-size.06}"
       },
       "h2": {
         "$type": "fontSizes",
@@ -9019,6 +9021,14 @@
       "h4": {
         "$type": "fontSizes",
         "$value": "{font-size.08}"
+      },
+      "h5": {
+        "$type": "fontSizes",
+        "$value": "{font-size.07}"
+      },
+      "h6": {
+        "$type": "fontSizes",
+        "$value": "{font-size.06}"
       }
     },
     "line": {
@@ -10355,7 +10365,7 @@
             "fontWeight": "{font-weight.h1}",
             "lineHeight": "{line.height.heading}",
             "fontSize": "{font-size.15}",
-            "letterSpacing": "{font-size.15} * -0.02",
+            "letterSpacing": "{letter-spacing.h1}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
@@ -10370,7 +10380,7 @@
             "fontWeight": "{font-weight.h1}",
             "lineHeight": "{line.height.heading}",
             "fontSize": "{font-size.14}",
-            "letterSpacing": "{letter-spacing.default}",
+            "letterSpacing": "{letter-spacing.h1}",
             "paragraphSpacing": "{font-size.14} * -0.02",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
@@ -10385,7 +10395,7 @@
             "fontWeight": "{font-weight.h1}",
             "lineHeight": "{line.height.heading}",
             "fontSize": "{font-size.13}",
-            "letterSpacing": "{font-size.13} * -0.02",
+            "letterSpacing": "{letter-spacing.h1}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
@@ -10428,19 +10438,19 @@
       }
     },
     "link": {
-      "medium": {
+      "large": {
         "hover": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
             "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.medium}",
+            "fontSize": "{font-size.body.large}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.02}",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.underline}"
+            "textDecoration": "{text-decoration.none}"
           },
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
@@ -10450,29 +10460,29 @@
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
             "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.medium}",
+            "fontSize": "{font-size.body.large}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
+            "textDecoration": "{text-decoration.underline}"
           },
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       },
-      "small": {
+      "default": {
         "hover": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
             "lineHeight": "{line.height.rem-04}",
-            "fontSize": "{font-size.body.small}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.02}",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.underline}"
+            "textDecoration": "{text-decoration.none}"
           },
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
@@ -10482,12 +10492,12 @@
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
             "lineHeight": "{line.height.rem-04}",
-            "fontSize": "{font-size.body.small}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.02}",
             "paragraphIndent": "{size-space.0-x}",
             "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
+            "textDecoration": "{text-decoration.underline}"
           },
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
@@ -10500,7 +10510,7 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.rem-06}",
+            "lineHeight": "{line.height.rem-05}",
             "fontSize": "{font-size.body.large}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
@@ -10515,8 +10525,8 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.medium}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10530,7 +10540,7 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.rem-04}",
+            "lineHeight": "{line.height.rem-02}",
             "fontSize": "{font-size.body.small}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
@@ -10547,7 +10557,7 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-06}",
+            "lineHeight": "{line.height.rem-05}",
             "fontSize": "{font-size.body.large}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
@@ -10562,8 +10572,8 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.medium}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10577,7 +10587,7 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-04}",
+            "lineHeight": "{line.height.rem-02}",
             "fontSize": "{font-size.body.small}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
@@ -10594,7 +10604,7 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-06}",
+            "lineHeight": "{line.height.rem-05}",
             "fontSize": "{font-size.body.large}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
@@ -10609,8 +10619,8 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.medium}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10624,7 +10634,7 @@
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-04}",
+            "lineHeight": "{line.height.rem-02}",
             "fontSize": "{font-size.body.small}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
@@ -10641,7 +10651,7 @@
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-06}",
+            "lineHeight": "{line.height.rem-05}",
             "fontSize": "{font-size.body.large}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
@@ -10656,8 +10666,8 @@
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.medium}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10671,7 +10681,7 @@
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-04}",
+            "lineHeight": "{line.height.rem-02}",
             "fontSize": "{font-size.body.small}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
@@ -10691,7 +10701,7 @@
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
             "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.04}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10706,7 +10716,7 @@
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
             "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.02}",
+            "fontSize": "{font-size.body.small}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10723,7 +10733,7 @@
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
             "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.04}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10738,7 +10748,7 @@
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
             "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.02}",
+            "fontSize": "{font-size.body.small}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10755,7 +10765,7 @@
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
             "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.04}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10770,7 +10780,7 @@
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
             "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.02}",
+            "fontSize": "{font-size.body.small}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10787,7 +10797,7 @@
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
             "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.04}",
+            "fontSize": "{font-size.body.default}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -10802,7 +10812,7 @@
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
             "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.02}",
+            "fontSize": "{font-size.body.small}",
             "letterSpacing": "{letter-spacing.default}",
             "paragraphSpacing": "{paragraph-spacing.01}",
             "paragraphIndent": "{size-space.0-x}",
@@ -11620,7 +11630,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.04}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -11991,7 +12001,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.04}"
           },
           "border-color-mode-light": {
             "$componentLevelToken": "true",
@@ -12045,7 +12055,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.04}"
           },
           "padding": {
             "$componentLevelToken": "true",
@@ -12996,18 +13006,23 @@
       "body": {
         "small": {
           "$type": "fontSizes",
-          "$value": "{font-size.04}",
-          "$description": "Semantic font size for smaller text that regular body or <p> text. "
+          "$value": "{font-size.02}",
+          "$description": "Semantic font size for small body text. "
         },
-        "medium": {
+        "default": {
           "$type": "fontSizes",
-          "$value": "{font-size.06}",
-          "$description": "Semantic font size for regular body or <p> text. "
+          "$value": "{font-size.04}",
+          "$description": "Semantic font size for default body or <p> text. "
         },
         "large": {
           "$type": "fontSizes",
+          "$value": "{font-size.06}",
+          "$description": "Semantic font size for large text. "
+        },
+        "x-large": {
+          "$type": "fontSizes",
           "$value": "{font-size.07}",
-          "$description": "Semantic font size for text that is larger than regular body or <p> text. "
+          "$description": "Semantic font size for text that is extra large"
         }
       },
       "h1": {
