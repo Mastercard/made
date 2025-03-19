@@ -4570,12 +4570,10 @@
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
-        "outline": {
-          "border-width": {
-            "$componentLevelToken": "true",
-            "$type": "borderWidth",
-            "$value": "{border-width.02}"
-          }
+        "border-width": {
+          "$componentLevelToken": "true",
+          "$type": "borderWidth",
+          "$value": "{border-width.02}"
         },
         "primary": {
           "default": {
@@ -5640,6 +5638,119 @@
       "link": {
         "$type": "fontWeights",
         "$value": "{font-weight.medium}"
+      }
+    },
+    "motion": {
+      "easing": {
+        "standard": {
+          "ease": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.5,
+              0,
+              0.15,
+              1
+            ],
+            "$description": "Our standard easing value. Its the closest easing curve to the default CSS ease. We use this for button transitions, Tab transitions, Toggles, Sheets and Multi-step processes."
+          },
+          "ease-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0,
+              0,
+              0.58,
+              1
+            ],
+            "$description": "Our curve used for ease-out animations. Its the closest easing curve to the default CSS ease-out"
+          },
+          "ease-in": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.42,
+              0,
+              1,
+              1
+            ],
+            "$description": "Our curve used for ease-in animations."
+          },
+          "ease-in-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.42,
+              0,
+              0.58,
+              1
+            ],
+            "$description": "Our curve used for ease-in-out animations."
+          }
+        },
+        "emphasised": {
+          "ease-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.32,
+              0.72,
+              0,
+              1
+            ],
+            "$description": "Our emphasised curve used for ease-out animations. We use this anmiation for Accordions, Checbox, Radio, Tooltip, Toast enter animations, Modal and Drawer animations."
+          },
+          "ease-in": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.64,
+              0,
+              0.78,
+              0
+            ],
+            "$description": "Our emphasised curve used for ease-in animations. This is used as the exit animation for Toast alerts."
+          },
+          "ease-in-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "$description": "Our emphasised curve used for ease-in-out animations."
+          }
+        },
+        "linear": {
+          "$type": "cubicBezier",
+          "$value": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "duration": {
+        "shortest": {
+          "$type": "duration",
+          "$value": "50ms"
+        },
+        "short": {
+          "$type": "duration",
+          "$value": "150ms"
+        },
+        "medium": {
+          "$type": "duration",
+          "$value": "200ms"
+        },
+        "default": {
+          "$type": "duration",
+          "$value": "300ms"
+        },
+        "long": {
+          "$type": "duration",
+          "$value": "400ms"
+        },
+        "longest": {
+          "$type": "duration",
+          "$value": "500ms"
+        }
       }
     }
   },
@@ -8007,12 +8118,10 @@
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
-        "outline": {
-          "border-width": {
-            "$componentLevelToken": "true",
-            "$type": "borderWidth",
-            "$value": "{border-width.02}"
-          }
+        "border-width": {
+          "$componentLevelToken": "true",
+          "$type": "borderWidth",
+          "$value": "{border-width.02}"
         },
         "primary": {
           "default": {
@@ -9077,6 +9186,119 @@
       "link": {
         "$type": "fontWeights",
         "$value": "{font-weight.medium}"
+      }
+    },
+    "motion": {
+      "easing": {
+        "standard": {
+          "ease": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.5,
+              0,
+              0.15,
+              1
+            ],
+            "$description": "Our standard easing value. Its the closest easing curve to the default CSS ease. We use this for button transitions, Tab transitions, Toggles, Sheets and Multi-step processes."
+          },
+          "ease-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0,
+              0,
+              0.58,
+              1
+            ],
+            "$description": "Our curve used for ease-out animations. Its the closest easing curve to the default CSS ease-out"
+          },
+          "ease-in": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.42,
+              0,
+              1,
+              1
+            ],
+            "$description": "Our curve used for ease-in animations."
+          },
+          "ease-in-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.42,
+              0,
+              0.58,
+              1
+            ],
+            "$description": "Our curve used for ease-in-out animations."
+          }
+        },
+        "emphasised": {
+          "ease-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.32,
+              0.72,
+              0,
+              1
+            ],
+            "$description": "Our emphasised curve used for ease-out animations. We use this anmiation for Accordions, Checbox, Radio, Tooltip, Toast enter animations, Modal and Drawer animations."
+          },
+          "ease-in": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.64,
+              0,
+              0.78,
+              0
+            ],
+            "$description": "Our emphasised curve used for ease-in animations. This is used as the exit animation for Toast alerts."
+          },
+          "ease-in-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "$description": "Our emphasised curve used for ease-in-out animations."
+          }
+        },
+        "linear": {
+          "$type": "cubicBezier",
+          "$value": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "duration": {
+        "shortest": {
+          "$type": "duration",
+          "$value": "50ms"
+        },
+        "short": {
+          "$type": "duration",
+          "$value": "150ms"
+        },
+        "medium": {
+          "$type": "duration",
+          "$value": "200ms"
+        },
+        "default": {
+          "$type": "duration",
+          "$value": "300ms"
+        },
+        "long": {
+          "$type": "duration",
+          "$value": "400ms"
+        },
+        "longest": {
+          "$type": "duration",
+          "$value": "500ms"
+        }
       }
     }
   },
@@ -11298,12 +11520,10 @@
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
-        "outline": {
-          "border-width": {
-            "$componentLevelToken": "true",
-            "$type": "borderWidth",
-            "$value": "{border-width.01}"
-          }
+        "border-width": {
+          "$componentLevelToken": "true",
+          "$type": "borderWidth",
+          "$value": "{border-width.01}"
         },
         "ghost": {
           "default": {
@@ -13082,6 +13302,119 @@
       "link": {
         "$type": "fontWeights",
         "$value": "{font-weight.medium}"
+      }
+    },
+    "motion": {
+      "easing": {
+        "standard": {
+          "ease": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.5,
+              0,
+              0.15,
+              1
+            ],
+            "$description": "Our standard easing value. Its the closest easing curve to the default CSS ease. We use this for button transitions, Tab transitions, Toggles, Sheets and Multi-step processes."
+          },
+          "ease-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0,
+              0,
+              0.58,
+              1
+            ],
+            "$description": "Our curve used for ease-out animations. Its the closest easing curve to the default CSS ease-out"
+          },
+          "ease-in": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.42,
+              0,
+              1,
+              1
+            ],
+            "$description": "Our curve used for ease-in animations."
+          },
+          "ease-in-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.42,
+              0,
+              0.58,
+              1
+            ],
+            "$description": "Our curve used for ease-in-out animations."
+          }
+        },
+        "emphasised": {
+          "ease-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.32,
+              0.72,
+              0,
+              1
+            ],
+            "$description": "Our emphasised curve used for ease-out animations. We use this anmiation for Accordions, Checbox, Radio, Tooltip, Toast enter animations, Modal and Drawer animations."
+          },
+          "ease-in": {
+            "$type": "cubicBezier",
+            "$value": [
+              0.64,
+              0,
+              0.78,
+              0
+            ],
+            "$description": "Our emphasised curve used for ease-in animations. This is used as the exit animation for Toast alerts."
+          },
+          "ease-in-out": {
+            "$type": "cubicBezier",
+            "$value": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "$description": "Our emphasised curve used for ease-in-out animations."
+          }
+        },
+        "linear": {
+          "$type": "cubicBezier",
+          "$value": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "duration": {
+        "shortest": {
+          "$type": "duration",
+          "$value": "50ms"
+        },
+        "short": {
+          "$type": "duration",
+          "$value": "150ms"
+        },
+        "medium": {
+          "$type": "duration",
+          "$value": "200ms"
+        },
+        "default": {
+          "$type": "duration",
+          "$value": "300ms"
+        },
+        "long": {
+          "$type": "duration",
+          "$value": "400ms"
+        },
+        "longest": {
+          "$type": "duration",
+          "$value": "500ms"
+        }
       }
     }
   },
