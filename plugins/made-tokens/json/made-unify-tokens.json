@@ -11523,7 +11523,7 @@
         "border-width": {
           "$componentLevelToken": "true",
           "$type": "borderWidth",
-          "$value": "{border-width.01}"
+          "$value": "{border-width.02}"
         },
         "ghost": {
           "default": {
