@@ -4846,7 +4846,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.04}"
+            "$value": "{font-size.body.default}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -4863,7 +4863,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.body.large}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -8394,7 +8394,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.04}"
+            "$value": "{font-size.body.default}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -8411,7 +8411,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.06}"
+            "$value": "{font-size.body.large}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
