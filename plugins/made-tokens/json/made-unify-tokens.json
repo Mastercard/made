@@ -1650,6 +1650,63 @@
         "$value": "2px",
         "$description": "[primitive; base; global; core;]"
       }
+    },
+    "z-index": {
+      "1": {
+        "$type": "other",
+        "$value": "1",
+        "$description": "Z-index token that equals 1"
+      },
+      "100": {
+        "$type": "other",
+        "$value": "100",
+        "$description": "Z-index token that equals 100"
+      },
+      "200": {
+        "$type": "other",
+        "$value": "200",
+        "$description": "Z-index token that equals 200"
+      },
+      "300": {
+        "$type": "other",
+        "$value": "300",
+        "$description": "Z-index token that equals 300"
+      },
+      "400": {
+        "$type": "other",
+        "$value": "400",
+        "$description": "Z-index token that equals 400"
+      },
+      "500": {
+        "$type": "other",
+        "$value": "500",
+        "$description": "Z-index token that equals 500"
+      },
+      "600": {
+        "$type": "other",
+        "$value": "600",
+        "$description": "Z-index token that equals 600"
+      },
+      "700": {
+        "$type": "other",
+        "$value": "700",
+        "$description": "Z-index token that equals 700"
+      },
+      "800": {
+        "$type": "other",
+        "$value": "800",
+        "$description": "Z-index token that equals 800"
+      },
+      "900": {
+        "$type": "other",
+        "$value": "900",
+        "$description": "Z-index token that equals 900"
+      },
+      "sub-9999": {
+        "$type": "other",
+        "$value": "-9999",
+        "$description": "Z-index token that equals -9999"
+      }
     }
   },
   "primitives/Mastercard": {
@@ -2068,6 +2125,63 @@
           "$description": "Background dimming."
         }
       }
+    },
+    "z-index": {
+      "1": {
+        "$type": "other",
+        "$value": "1",
+        "$description": "Z-index token that equals 1"
+      },
+      "100": {
+        "$type": "other",
+        "$value": "100",
+        "$description": "Z-index token that equals 100"
+      },
+      "200": {
+        "$type": "other",
+        "$value": "200",
+        "$description": "Z-index token that equals 200"
+      },
+      "300": {
+        "$type": "other",
+        "$value": "300",
+        "$description": "Z-index token that equals 300"
+      },
+      "400": {
+        "$type": "other",
+        "$value": "400",
+        "$description": "Z-index token that equals 400"
+      },
+      "500": {
+        "$type": "other",
+        "$value": "500",
+        "$description": "Z-index token that equals 500"
+      },
+      "600": {
+        "$type": "other",
+        "$value": "600",
+        "$description": "Z-index token that equals 600"
+      },
+      "700": {
+        "$type": "other",
+        "$value": "700",
+        "$description": "Z-index token that equals 700"
+      },
+      "800": {
+        "$type": "other",
+        "$value": "800",
+        "$description": "Z-index token that equals 800"
+      },
+      "900": {
+        "$type": "other",
+        "$value": "900",
+        "$description": "Z-index token that equals 900"
+      },
+      "sub-9999": {
+        "$type": "other",
+        "$value": "-9999",
+        "$description": "Z-index token that equals -9999"
+      }
     }
   },
   "primitives/Partnerbank": {
@@ -2149,6 +2263,63 @@
           "$type": "color",
           "$value": "#ffffff"
         }
+      }
+    },
+    "z-index": {
+      "1": {
+        "$type": "other",
+        "$value": "1",
+        "$description": "Z-index token that equals 1"
+      },
+      "100": {
+        "$type": "other",
+        "$value": "100",
+        "$description": "Z-index token that equals 100"
+      },
+      "200": {
+        "$type": "other",
+        "$value": "200",
+        "$description": "Z-index token that equals 200"
+      },
+      "300": {
+        "$type": "other",
+        "$value": "300",
+        "$description": "Z-index token that equals 300"
+      },
+      "400": {
+        "$type": "other",
+        "$value": "400",
+        "$description": "Z-index token that equals 400"
+      },
+      "500": {
+        "$type": "other",
+        "$value": "500",
+        "$description": "Z-index token that equals 500"
+      },
+      "600": {
+        "$type": "other",
+        "$value": "600",
+        "$description": "Z-index token that equals 600"
+      },
+      "700": {
+        "$type": "other",
+        "$value": "700",
+        "$description": "Z-index token that equals 700"
+      },
+      "800": {
+        "$type": "other",
+        "$value": "800",
+        "$description": "Z-index token that equals 800"
+      },
+      "900": {
+        "$type": "other",
+        "$value": "900",
+        "$description": "Z-index token that equals 900"
+      },
+      "sub-9999": {
+        "$type": "other",
+        "$value": "-9999",
+        "$description": "Z-index token that equals -9999"
       }
     }
   },
@@ -5752,6 +5923,28 @@
           "$value": "500ms"
         }
       }
+    },
+    "z-index": {
+      "dropdown": {
+        "$type": "other",
+        "$value": "{z-index.100}",
+        "$description": "Used to set the z order layering of dropdown elements such as overflow menu, date picker.."
+      },
+      "backdrop": {
+        "$type": "other",
+        "$value": "{z-index.200}",
+        "$description": "Used to set the z order layering of backdrop.\t"
+      },
+      "modal": {
+        "$type": "other",
+        "$value": "{z-index.800}",
+        "$description": "Used to set the z order layering of modal dialogs. "
+      },
+      "alert-toast": {
+        "$type": "other",
+        "$value": "{z-index.800}",
+        "$description": "Used to set the z order layering of alert toasts.\t"
+      }
     }
   },
   "theme/Mastercard": {
@@ -9299,6 +9492,28 @@
           "$type": "duration",
           "$value": "500ms"
         }
+      }
+    },
+    "z-index": {
+      "dropdown": {
+        "$type": "other",
+        "$value": "{z-index.100}",
+        "$description": "Used to set the z order layering of dropdown elements such as overflow menu, date picker.."
+      },
+      "backdrop": {
+        "$type": "other",
+        "$value": "{z-index.200}",
+        "$description": "Used to set the z order layering of backdrop.\t"
+      },
+      "modal": {
+        "$type": "other",
+        "$value": "{z-index.800}",
+        "$description": "Used to set the z order layering of modal dialogs. "
+      },
+      "alert-toast": {
+        "$type": "other",
+        "$value": "{z-index.800}",
+        "$description": "Used to set the z order layering of alert toasts.\t"
       }
     }
   },
@@ -13415,6 +13630,28 @@
           "$type": "duration",
           "$value": "500ms"
         }
+      }
+    },
+    "z-index": {
+      "dropdown": {
+        "$type": "other",
+        "$value": "{z-index.100}",
+        "$description": "Used to set the z order layering of dropdown elements such as overflow menu, date picker.."
+      },
+      "backdrop": {
+        "$type": "other",
+        "$value": "{z-index.200}",
+        "$description": "Used to set the z order layering of backdrop.\t"
+      },
+      "modal": {
+        "$type": "other",
+        "$value": "{z-index.800}",
+        "$description": "Used to set the z order layering of modal dialogs. "
+      },
+      "alert-toast": {
+        "$type": "other",
+        "$value": "{z-index.800}",
+        "$description": "Used to set the z order layering of alert toasts.\t"
       }
     }
   },
