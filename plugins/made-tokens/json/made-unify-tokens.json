@@ -1598,13 +1598,11 @@
     },
     "paragraph-spacing": {
       "01": {
-        "$figmaOnly": "true",
         "$type": "paragraphSpacing",
         "$value": "0",
         "$description": "[text; typography; primitive; base; global; core;]"
       },
       "02": {
-        "$figmaOnly": "true",
         "$type": "paragraphSpacing",
         "$value": "18",
         "$description": "[text; typography; primitive; base; global; core;]"
@@ -10431,6 +10429,7 @@
       "medium": {
         "hover": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10446,6 +10445,7 @@
         },
         "default": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10463,6 +10463,7 @@
       "small": {
         "hover": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10478,6 +10479,7 @@
         },
         "default": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10496,6 +10498,7 @@
     "body": {
       "bold": {
         "large": {
+          "$figmaOnly": "true",
           "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
@@ -10512,6 +10515,7 @@
         },
         "medium": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
@@ -10527,6 +10531,7 @@
         },
         "small": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
@@ -10544,6 +10549,7 @@
       "medium": {
         "large": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10559,6 +10565,7 @@
         },
         "medium": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10574,6 +10581,7 @@
         },
         "small": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10591,6 +10599,7 @@
       "regular": {
         "large": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
@@ -10621,6 +10630,7 @@
         },
         "small": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
@@ -10638,6 +10648,7 @@
       "secondary": {
         "large": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -10653,6 +10664,7 @@
         },
         "medium": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -10668,6 +10680,7 @@
         },
         "small": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -10687,6 +10700,7 @@
       "bold": {
         "medium": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
@@ -10702,6 +10716,7 @@
         },
         "small": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
@@ -10719,6 +10734,7 @@
       "medium": {
         "medium": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10734,6 +10750,7 @@
         },
         "small": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10751,6 +10768,7 @@
       "regular": {
         "medium": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
@@ -10766,6 +10784,7 @@
         },
         "small": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
@@ -10783,6 +10802,7 @@
       "secondary": {
         "medium": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -10798,6 +10818,7 @@
         },
         "small": {
           "$type": "typography",
+          "$figmaOnly": "true",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -10955,19 +10976,16 @@
     },
     "font-family": {
       "primary": {
-        "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist, Inter",
         "$description": "[typography; font face; semantic; role; decision; alias;]"
       },
       "secondary": {
-        "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist, Inter",
         "$description": "[typography; font face; semantic; role; decision; alias;]"
       },
       "tertiary": {
-        "$figmaOnly": "true",
         "$type": "fontFamilies",
         "$value": "Geist Mono, Inter",
         "$description": "[typography; font face; semantic; role; decision; alias;]"
