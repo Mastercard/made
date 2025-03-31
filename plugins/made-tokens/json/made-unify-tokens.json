@@ -5478,7 +5478,6 @@
     },
     "brand": {
       "theme": {
-        "$figmaOnly": "true",
         "$type": "text",
         "$value": "Partnerbank"
       }
@@ -8910,7 +8909,6 @@
     },
     "brand": {
       "theme": {
-        "$figmaOnly": "true",
         "$type": "text",
         "$value": "Mastercard"
       }
@@ -12944,7 +12942,6 @@
     },
     "brand": {
       "theme": {
-        "$figmaOnly": "true",
         "$type": "text",
         "$value": "Unify"
       }
@@ -14248,7 +14245,6 @@
     },
     "color-scheme": {
       "mode": {
-        "$figmaOnly": "true",
         "$type": "text",
         "$value": "light"
       }
@@ -15414,7 +15410,6 @@
     },
     "color-scheme": {
       "mode": {
-        "$figmaOnly": "true",
         "$type": "text",
         "$value": "dark"
       }
