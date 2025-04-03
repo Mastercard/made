@@ -4606,20 +4606,35 @@
           "$type": "spacing",
           "$value": "{size-space.0-5-x}"
         },
-        "font-size": {
-          "$componentLevelToken": "true",
-          "$type": "fontSizes",
-          "$value": "{font-size.04}"
+        "default": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.04}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          }
         },
         "font-weight": {
           "$componentLevelToken": "true",
           "$type": "fontWeights",
           "$value": "{font-weight.regular}"
         },
-        "line-height": {
-          "$componentLevelToken": "true",
-          "$type": "lineHeights",
-          "$value": "142.9%"
+        "small": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.02}",
+            "$description": "Font-size token for breadcrumb text of default size. "
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          }
         }
       },
       "button": {
@@ -5814,40 +5829,40 @@
           "ease": {
             "$type": "cubicBezier",
             "$value": [
-              0.5,
-              0,
-              0.15,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our standard easing value. Its the closest easing curve to the default CSS ease. We use this for button transitions, Tab transitions, Toggles, Sheets and Multi-step processes."
           },
           "ease-out": {
             "$type": "cubicBezier",
             "$value": [
-              0,
-              0,
-              0.58,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-out animations. Its the closest easing curve to the default CSS ease-out"
           },
           "ease-in": {
             "$type": "cubicBezier",
             "$value": [
-              0.42,
-              0,
-              1,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-in animations."
           },
           "ease-in-out": {
             "$type": "cubicBezier",
             "$value": [
-              0.42,
-              0,
-              0.58,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-in-out animations."
           }
@@ -5856,30 +5871,30 @@
           "ease-out": {
             "$type": "cubicBezier",
             "$value": [
-              0.32,
-              0.72,
-              0,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-out animations. We use this anmiation for Accordions, Checbox, Radio, Tooltip, Toast enter animations, Modal and Drawer animations."
           },
           "ease-in": {
             "$type": "cubicBezier",
             "$value": [
-              0.64,
-              0,
-              0.78,
-              0
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-in animations. This is used as the exit animation for Toast alerts."
           },
           "ease-in-out": {
             "$type": "cubicBezier",
             "$value": [
-              1,
-              0,
-              0,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-in-out animations."
           }
@@ -5887,10 +5902,10 @@
         "linear": {
           "$type": "cubicBezier",
           "$value": [
-            0,
-            0,
-            1,
-            1
+            {},
+            {},
+            {},
+            {}
           ]
         }
       },
@@ -8175,20 +8190,35 @@
           "$type": "spacing",
           "$value": "{size-space.0-5-x}"
         },
-        "font-size": {
-          "$componentLevelToken": "true",
-          "$type": "fontSizes",
-          "$value": "{font-size.04}"
+        "default": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.04}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          }
         },
         "font-weight": {
           "$componentLevelToken": "true",
           "$type": "fontWeights",
           "$value": "{font-weight.regular}"
         },
-        "line-height": {
-          "$componentLevelToken": "true",
-          "$type": "lineHeights",
-          "$value": "142.9%"
+        "small": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.02}",
+            "$description": "Font-size token for breadcrumb text of default size. "
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          }
         }
       },
       "button": {
@@ -9383,40 +9413,40 @@
           "ease": {
             "$type": "cubicBezier",
             "$value": [
-              0.5,
-              0,
-              0.15,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our standard easing value. Its the closest easing curve to the default CSS ease. We use this for button transitions, Tab transitions, Toggles, Sheets and Multi-step processes."
           },
           "ease-out": {
             "$type": "cubicBezier",
             "$value": [
-              0,
-              0,
-              0.58,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-out animations. Its the closest easing curve to the default CSS ease-out"
           },
           "ease-in": {
             "$type": "cubicBezier",
             "$value": [
-              0.42,
-              0,
-              1,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-in animations."
           },
           "ease-in-out": {
             "$type": "cubicBezier",
             "$value": [
-              0.42,
-              0,
-              0.58,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-in-out animations."
           }
@@ -9425,30 +9455,30 @@
           "ease-out": {
             "$type": "cubicBezier",
             "$value": [
-              0.32,
-              0.72,
-              0,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-out animations. We use this anmiation for Accordions, Checbox, Radio, Tooltip, Toast enter animations, Modal and Drawer animations."
           },
           "ease-in": {
             "$type": "cubicBezier",
             "$value": [
-              0.64,
-              0,
-              0.78,
-              0
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-in animations. This is used as the exit animation for Toast alerts."
           },
           "ease-in-out": {
             "$type": "cubicBezier",
             "$value": [
-              1,
-              0,
-              0,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-in-out animations."
           }
@@ -9456,10 +9486,10 @@
         "linear": {
           "$type": "cubicBezier",
           "$value": [
-            0,
-            0,
-            1,
-            1
+            {},
+            {},
+            {},
+            {}
           ]
         }
       },
@@ -10873,8 +10903,8 @@
     "link": {
       "large": {
         "hover": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10889,8 +10919,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "default": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10907,8 +10937,8 @@
       },
       "default": {
         "hover": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10923,8 +10953,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "default": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -10959,8 +10989,8 @@
           "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
@@ -10975,8 +11005,8 @@
           "$description": "Medium sizes are best suited to either Web or Product experiences where 1.5x is too spacious. [typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
@@ -10993,8 +11023,8 @@
       },
       "medium": {
         "large": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -11009,8 +11039,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -11025,8 +11055,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -11043,8 +11073,8 @@
       },
       "regular": {
         "large": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
@@ -11074,8 +11104,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
@@ -11092,8 +11122,8 @@
       },
       "secondary": {
         "large": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -11108,8 +11138,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "medium": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -11124,8 +11154,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -11144,8 +11174,8 @@
     "label": {
       "bold": {
         "medium": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
@@ -11160,8 +11190,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.bold}",
@@ -11178,8 +11208,8 @@
       },
       "medium": {
         "medium": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -11194,8 +11224,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.medium}",
@@ -11212,8 +11242,8 @@
       },
       "regular": {
         "medium": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
@@ -11228,8 +11258,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.primary}",
             "fontWeight": "{font-weight.regular}",
@@ -11246,8 +11276,8 @@
       },
       "secondary": {
         "medium": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -11262,8 +11292,8 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         },
         "small": {
-          "$type": "typography",
           "$figmaOnly": "true",
+          "$type": "typography",
           "$value": {
             "fontFamily": "{font-family.secondary}",
             "fontWeight": "{font-weight.regular}",
@@ -11618,20 +11648,36 @@
           "$type": "spacing",
           "$value": "{size-space.1-5-x}"
         },
-        "font-size": {
-          "$componentLevelToken": "true",
-          "$type": "fontSizes",
-          "$value": "{font-size.04}"
+        "default": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.04}",
+            "$description": "Font-size token for breadcrumb text of default size. "
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          }
         },
         "font-weight": {
           "$componentLevelToken": "true",
           "$type": "fontWeights",
           "$value": "{font-weight.regular}"
         },
-        "line-height": {
-          "$componentLevelToken": "true",
-          "$type": "lineHeights",
-          "$value": "142.9%"
+        "small": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.02}",
+            "$description": "Font-size token for breadcrumb text of default size. "
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-02}"
+          }
         }
       },
       "button": {
@@ -11669,7 +11715,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "small": {
@@ -11706,7 +11752,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.9%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -11743,7 +11789,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "box-shadow": {
@@ -12032,7 +12078,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "top-bar": {
@@ -12081,7 +12127,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{font-size.04}"
+            "$value": "{font-size.body.default}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -12091,7 +12137,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.default}"
           }
         },
         "footer": {
@@ -12141,7 +12187,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{size-space.2-5-x}"
+            "$value": "0.625rem"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -12151,7 +12197,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "120%"
+            "$value": "{line.height.rem-01}"
           },
           "padding-x": {
             "$type": "spacing",
@@ -12162,7 +12208,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{size-space.3-5-x}"
+            "$value": "{font-size.04}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -12172,7 +12218,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "114.3%"
+            "$value": "{line.height.rem-02}"
           },
           "padding-x": {
             "$type": "spacing",
@@ -12334,7 +12380,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -12351,7 +12397,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         }
       },
@@ -12408,7 +12454,7 @@
         "line-height": {
           "$componentLevelToken": "true",
           "$type": "lineHeights",
-          "$value": "142.3%"
+          "$value": "{line.height.rem-04}"
         }
       },
       "rating": {
@@ -12472,7 +12518,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "contained": {
@@ -12533,7 +12579,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "minimal": {
@@ -12594,7 +12640,7 @@
         "line-height": {
           "$componentLevelToken": "true",
           "$type": "lineHeights",
-          "$value": "142.3%"
+          "$value": "{line.height.rem-04}"
         },
         "large": {
           "padding-x": {
@@ -12665,7 +12711,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "small": {
@@ -12682,7 +12728,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-02}"
           }
         },
         "border-color-mode-light": {
@@ -12754,7 +12800,7 @@
             "line-height": {
               "$componentLevelToken": "true",
               "$type": "lineHeights",
-              "$value": "150%"
+              "$value": "{line.height.rem-04}"
             }
           },
           "data": {
@@ -12786,7 +12832,7 @@
             "line-height": {
               "$componentLevelToken": "true",
               "$type": "lineHeights",
-              "$value": "150%"
+              "$value": "{line.height.rem-04}"
             }
           }
         },
@@ -12858,7 +12904,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "subtitle": {
@@ -12929,7 +12975,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           },
           "background-hover-mode-light": {
             "$type": "color",
@@ -12976,7 +13022,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-02}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -13206,7 +13252,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-02}"
           }
         },
         "medium": {
@@ -13223,7 +13269,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -13235,12 +13281,12 @@
           "font-weight": {
             "$componentLevelToken": "true",
             "$type": "fontWeights",
-            "$value": "{font-weight.regular}"
+            "$value": "{font-weight.medium}"
           },
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "x-large": {
@@ -13257,7 +13303,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-06}"
           }
         }
       },
@@ -13540,40 +13586,40 @@
           "ease": {
             "$type": "cubicBezier",
             "$value": [
-              0.5,
-              0,
-              0.15,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our standard easing value. Its the closest easing curve to the default CSS ease. We use this for button transitions, Tab transitions, Toggles, Sheets and Multi-step processes."
           },
           "ease-out": {
             "$type": "cubicBezier",
             "$value": [
-              0,
-              0,
-              0.58,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-out animations. Its the closest easing curve to the default CSS ease-out"
           },
           "ease-in": {
             "$type": "cubicBezier",
             "$value": [
-              0.42,
-              0,
-              1,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-in animations."
           },
           "ease-in-out": {
             "$type": "cubicBezier",
             "$value": [
-              0.42,
-              0,
-              0.58,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our curve used for ease-in-out animations."
           }
@@ -13582,30 +13628,30 @@
           "ease-out": {
             "$type": "cubicBezier",
             "$value": [
-              0.32,
-              0.72,
-              0,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-out animations. We use this anmiation for Accordions, Checbox, Radio, Tooltip, Toast enter animations, Modal and Drawer animations."
           },
           "ease-in": {
             "$type": "cubicBezier",
             "$value": [
-              0.64,
-              0,
-              0.78,
-              0
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-in animations. This is used as the exit animation for Toast alerts."
           },
           "ease-in-out": {
             "$type": "cubicBezier",
             "$value": [
-              1,
-              0,
-              0,
-              1
+              {},
+              {},
+              {},
+              {}
             ],
             "$description": "Our emphasised curve used for ease-in-out animations."
           }
@@ -13613,10 +13659,10 @@
         "linear": {
           "$type": "cubicBezier",
           "$value": [
-            0,
-            0,
-            1,
-            1
+            {},
+            {},
+            {},
+            {}
           ]
         }
       },
@@ -16914,7 +16960,6 @@
         "component.form-control.large.padding-x": "8bafb3d62274164e83986f2c47b05e0b0acc9d76",
         "component.form-control.large.padding-y": "d786c734f488f695ff078ec37da1f8f26b0012d8",
         "component.breadcrumb.gap": "d3a6447d7c6f3f0568ebc2acb644e9c5e90eb360",
-        "component.breadcrumb.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
         "component.breadcrumb.font-weight": "ebe28d71dc5c7e081b7030acb9ca2bb694c89b91",
         "component.button.default.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
         "component.button.default.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
@@ -17087,7 +17132,8 @@
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
         "color.border.strongest-mode-light": "828044e14878ead2a54d1d272ef10fcc17cd6ede",
-        "color.border.strongest-mode-dark": "4715d117f4c0cca8f430a11cbc15e053c424a423"
+        "color.border.strongest-mode-dark": "4715d117f4c0cca8f430a11cbc15e053c424a423",
+        "component.breadcrumb.default.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -17540,7 +17586,6 @@
         "component.form-control.large.padding-x": "8bafb3d62274164e83986f2c47b05e0b0acc9d76",
         "component.form-control.large.padding-y": "d786c734f488f695ff078ec37da1f8f26b0012d8",
         "component.breadcrumb.gap": "d3a6447d7c6f3f0568ebc2acb644e9c5e90eb360",
-        "component.breadcrumb.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
         "component.breadcrumb.font-weight": "ebe28d71dc5c7e081b7030acb9ca2bb694c89b91",
         "component.button.default.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
         "component.button.default.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
@@ -17711,7 +17756,8 @@
         "font-weight.h5": "ed0afe03fe16bf5cbd8b40f00b57c62d24119fde",
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
-        "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7"
+        "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
+        "component.breadcrumb.default.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -18165,7 +18211,6 @@
         "component.form-control.large.padding-x": "8bafb3d62274164e83986f2c47b05e0b0acc9d76",
         "component.form-control.large.padding-y": "d786c734f488f695ff078ec37da1f8f26b0012d8",
         "component.breadcrumb.gap": "d3a6447d7c6f3f0568ebc2acb644e9c5e90eb360",
-        "component.breadcrumb.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
         "component.breadcrumb.font-weight": "ebe28d71dc5c7e081b7030acb9ca2bb694c89b91",
         "component.button.default.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
         "component.button.default.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
@@ -18336,7 +18381,8 @@
         "font-weight.h5": "ed0afe03fe16bf5cbd8b40f00b57c62d24119fde",
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
-        "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7"
+        "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
+        "component.breadcrumb.default.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
