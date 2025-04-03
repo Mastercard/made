@@ -3625,7 +3625,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "subtitle": {
@@ -3642,7 +3642,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.9%"
+            "$value": "{line.height.rem-04}"
           }
         }
       },
@@ -3727,7 +3727,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "subtitle": {
@@ -3744,7 +3744,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.9%"
+            "$value": "{line.height.rem-04}"
           }
         }
       },
@@ -3805,7 +3805,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "content": {
@@ -3822,7 +3822,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.default}"
           }
         },
         "footer": {
@@ -4026,7 +4026,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "contained": {
@@ -4087,7 +4087,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "minimal": {
@@ -4145,7 +4145,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "small": {
@@ -4162,7 +4162,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "warning": {
@@ -4235,7 +4235,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "subtitle": {
@@ -4286,7 +4286,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           },
           "background-hover-mode-light": {
             "$componentLevelToken": "true",
@@ -4351,7 +4351,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-02}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -4484,7 +4484,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-02}"
           }
         },
         "medium": {
@@ -4501,7 +4501,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -4518,7 +4518,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "x-large": {
@@ -4535,7 +4535,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-06}"
           }
         }
       },
@@ -4633,7 +4633,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "{line.height.rem-04}"
+            "$value": "{line.height.rem-02}"
           }
         }
       },
@@ -4672,7 +4672,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "small": {
@@ -4709,7 +4709,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.9%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -4746,7 +4746,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "box-shadow": {
@@ -5040,7 +5040,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -5057,7 +5057,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         }
       },
@@ -5102,7 +5102,7 @@
         "line-height": {
           "$componentLevelToken": "true",
           "$type": "lineHeights",
-          "$value": "142.3%"
+          "$value": "{line.height.rem-04}"
         }
       },
       "list-item": {
@@ -5119,7 +5119,7 @@
         "line-height": {
           "$componentLevelToken": "true",
           "$type": "lineHeights",
-          "$value": "142.3%"
+          "$value": "{line.height.rem-04}"
         },
         "default": {
           "padding-x": {
@@ -5223,7 +5223,7 @@
             "line-height": {
               "$componentLevelToken": "true",
               "$type": "lineHeights",
-              "$value": "150%"
+              "$value": "{line.height.rem-04}"
             }
           },
           "data": {
@@ -5255,7 +5255,7 @@
             "line-height": {
               "$componentLevelToken": "true",
               "$type": "lineHeights",
-              "$value": "150%"
+              "$value": "{line.height.rem-04}"
             }
           }
         },
@@ -5347,7 +5347,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "120%"
+            "$value": "{line.height.rem-01}"
           },
           "padding-x": {
             "$type": "spacing",
@@ -5368,7 +5368,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "114.3%"
+            "$value": "{line.height.rem-02}"
           },
           "padding-x": {
             "$type": "spacing",
@@ -7209,7 +7209,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "subtitle": {
@@ -7226,7 +7226,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.9%"
+            "$value": "{line.height.rem-04}"
           }
         }
       },
@@ -7311,7 +7311,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "subtitle": {
@@ -7328,7 +7328,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.9%"
+            "$value": "{line.height.rem-04}"
           }
         }
       },
@@ -7389,7 +7389,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "content": {
@@ -7406,7 +7406,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.default}"
           }
         },
         "footer": {
@@ -7610,7 +7610,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "contained": {
@@ -7671,7 +7671,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "minimal": {
@@ -7729,7 +7729,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "small": {
@@ -7746,7 +7746,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-02}"
           }
         },
         "warning": {
@@ -7819,7 +7819,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "subtitle": {
@@ -7870,7 +7870,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           },
           "background-hover-mode-light": {
             "$componentLevelToken": "true",
@@ -7935,7 +7935,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-02}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -8068,7 +8068,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-02}"
           }
         },
         "medium": {
@@ -8085,7 +8085,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -8102,7 +8102,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "x-large": {
@@ -8119,7 +8119,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "{line.height.rem-06}"
           }
         }
       },
@@ -8217,7 +8217,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "{line.height.rem-04}"
+            "$value": "{line.height.rem-02}"
           }
         }
       },
@@ -8256,7 +8256,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "small": {
@@ -8293,7 +8293,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.9%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -8330,7 +8330,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "133.3%"
+            "$value": "{line.height.rem-05}"
           }
         },
         "box-shadow": {
@@ -8624,7 +8624,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "142.3%"
+            "$value": "{line.height.rem-04}"
           }
         },
         "large": {
@@ -8641,7 +8641,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "{line.height.rem-05}"
           }
         }
       },
@@ -8686,7 +8686,7 @@
         "line-height": {
           "$componentLevelToken": "true",
           "$type": "lineHeights",
-          "$value": "142.3%"
+          "$value": "{line.height.rem-04}"
         }
       },
       "list-item": {
@@ -8703,7 +8703,7 @@
         "line-height": {
           "$componentLevelToken": "true",
           "$type": "lineHeights",
-          "$value": "142.3%"
+          "$value": "{line.height.rem-04}"
         },
         "default": {
           "padding-x": {
@@ -8807,7 +8807,7 @@
             "line-height": {
               "$componentLevelToken": "true",
               "$type": "lineHeights",
-              "$value": "150%"
+              "$value": "{line.height.rem-04}"
             }
           },
           "data": {
@@ -8839,7 +8839,7 @@
             "line-height": {
               "$componentLevelToken": "true",
               "$type": "lineHeights",
-              "$value": "150%"
+              "$value": "{line.height.rem-04}"
             }
           }
         },
@@ -8931,7 +8931,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "120%"
+            "$value": "{line.height.rem-01}"
           },
           "padding-x": {
             "$type": "spacing",
@@ -8952,7 +8952,7 @@
           "line-height": {
             "$componentLevelToken": "true",
             "$type": "lineHeights",
-            "$value": "114.3%"
+            "$value": "{line.height.rem-02}"
           },
           "padding-x": {
             "$type": "spacing",
