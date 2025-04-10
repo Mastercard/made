@@ -2084,46 +2084,6 @@
         }
       }
     },
-    "time": {
-      "moderate": {
-        "01": {
-          "$type": "other",
-          "$value": "150ms",
-          "$description": "Micro-interactions, small expansion, short distance movements."
-        },
-        "02": {
-          "$type": "other",
-          "$value": "240ms",
-          "$description": "Expansion, system communication, toast."
-        },
-        "fast": {
-          "01": {
-            "themeable": "No",
-            "$type": "other",
-            "$value": "70ms",
-            "$description": "Micro-interactions such as button and toggle."
-          },
-          "02": {
-            "themeable": "No",
-            "$type": "other",
-            "$value": "110ms",
-            "$description": "Micro-interactions such as fade."
-          }
-        }
-      },
-      "slow": {
-        "01": {
-          "$type": "other",
-          "$value": "400ms",
-          "$description": "Large expansion, important system notifications."
-        },
-        "02": {
-          "$type": "other",
-          "$value": "700ms",
-          "$description": "Background dimming."
-        }
-      }
-    },
     "z-index": {
       "1": {
         "$type": "other",
