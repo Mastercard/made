@@ -6,12 +6,12 @@
         "$value": "0px",
         "$description": "0px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
-      "0-25-px": {
+      "0point25-px": {
         "$type": "dimension",
         "$value": "1px",
         "$description": "1px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
-      "0-5-x": {
+      "0point5-x": {
         "$type": "dimension",
         "$value": "0.125rem",
         "$description": "2px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
@@ -21,7 +21,7 @@
         "$value": "0.25rem",
         "$description": "4px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
-      "1-5-x": {
+      "1point5-x": {
         "$type": "dimension",
         "$value": "0.375rem",
         "$description": "6px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
@@ -31,7 +31,7 @@
         "$value": "0.5rem",
         "$description": "8px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
-      "2-5-x": {
+      "2point5-x": {
         "$type": "dimension",
         "$value": "0.625rem",
         "$description": "10px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
@@ -41,7 +41,7 @@
         "$value": "0.75rem",
         "$description": "12px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
-      "3-5-x": {
+      "3point5-x": {
         "$type": "dimension",
         "$value": "0.875rem",
         "$description": "14px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
@@ -1377,7 +1377,7 @@
     "border-radius": {
       "01": {
         "$type": "borderRadius",
-        "$value": "{size-space.0-5-x}",
+        "$value": "{size-space.0point5-x}",
         "$description": "2px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "02": {
@@ -1387,7 +1387,7 @@
       },
       "03": {
         "$type": "borderRadius",
-        "$value": "{size-space.1-5-x}",
+        "$value": "{size-space.1point5-x}",
         "$description": "6px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "04": {
@@ -1397,7 +1397,7 @@
       },
       "05": {
         "$type": "borderRadius",
-        "$value": "{size-space.2-5-x}",
+        "$value": "{size-space.2point5-x}",
         "$description": "12px [border-radius; radii; corner-radius; primitive; base; global; core;]"
       },
       "06": {
@@ -3455,7 +3455,7 @@
         "small": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.0-5-x}",
+          "$value": "{size-space.0point5-x}",
           "$description": "[sm; semantic; role; decision; alias;]"
         },
         "large": {
@@ -3471,7 +3471,7 @@
         },
         "focus-offset": {
           "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0-5-x}",
+          "$value": "{border.radius.default} + {size-space.0point5-x}",
           "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
@@ -3941,7 +3941,7 @@
         "gap": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-5-x}"
+          "$value": "{size-space.0point5-x}"
         }
       },
       "tabs": {
@@ -3965,12 +3965,12 @@
             "padding-y": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.2-5-x}"
+              "$value": "{size-space.2point5-x}"
             },
             "border-width": {
               "$componentLevelToken": "true",
               "$type": "borderWidth",
-              "$value": "{size-space.0-5-x}"
+              "$value": "{size-space.0point5-x}"
             }
           },
           "font-size": {
@@ -4564,7 +4564,7 @@
         "gap": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-5-x}"
+          "$value": "{size-space.0point5-x}"
         },
         "default": {
           "font-size": {
@@ -5120,7 +5120,7 @@
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "padding-y": {
               "$componentLevelToken": "true",
@@ -5137,12 +5137,12 @@
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "padding-y": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "gap": {
               "$componentLevelToken": "true",
@@ -5297,7 +5297,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{size-space.2-5-x}"
+            "$value": "{size-space.2point5-x}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -5318,7 +5318,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{size-space.3-5-x}"
+            "$value": "{size-space.3point5-x}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -5332,7 +5332,7 @@
           },
           "padding-x": {
             "$type": "spacing",
-            "$value": "{size-space.2-5-x}"
+            "$value": "{size-space.2point5-x}"
           }
         },
         "warning": {
@@ -7039,7 +7039,7 @@
         "small": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.0-5-x}",
+          "$value": "{size-space.0point5-x}",
           "$description": "[sm; semantic; role; decision; alias;]"
         },
         "large": {
@@ -7055,7 +7055,7 @@
         },
         "focus-offset": {
           "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0-5-x}",
+          "$value": "{border.radius.default} + {size-space.0point5-x}",
           "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
@@ -7525,7 +7525,7 @@
         "gap": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-5-x}"
+          "$value": "{size-space.0point5-x}"
         }
       },
       "tabs": {
@@ -8148,7 +8148,7 @@
         "gap": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-5-x}"
+          "$value": "{size-space.0point5-x}"
         },
         "default": {
           "font-size": {
@@ -8704,7 +8704,7 @@
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "padding-y": {
               "$componentLevelToken": "true",
@@ -8721,12 +8721,12 @@
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "padding-y": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "gap": {
               "$componentLevelToken": "true",
@@ -8881,7 +8881,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{size-space.2-5-x}"
+            "$value": "{size-space.2point5-x}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -8902,7 +8902,7 @@
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
-            "$value": "{size-space.3-5-x}"
+            "$value": "{size-space.3point5-x}"
           },
           "font-weight": {
             "$componentLevelToken": "true",
@@ -8916,7 +8916,7 @@
           },
           "padding-x": {
             "$type": "spacing",
-            "$value": "{size-space.2-5-x}"
+            "$value": "{size-space.2point5-x}"
           }
         },
         "warning": {
@@ -10669,7 +10669,7 @@
         },
         "small": {
           "$type": "borderRadius",
-          "$value": "{size-space.0-5-x}",
+          "$value": "{size-space.0point5-x}",
           "$description": "[sm; semantic; role; decision; alias;]"
         },
         "large": {
@@ -10684,7 +10684,7 @@
         },
         "focus-offset": {
           "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0-5-x}",
+          "$value": "{border.radius.default} + {size-space.0point5-x}",
           "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
@@ -11606,7 +11606,7 @@
         "gap": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.1-5-x}"
+          "$value": "{size-space.1point5-x}"
         },
         "default": {
           "font-size": {
@@ -12182,7 +12182,7 @@
           },
           "padding-x": {
             "$type": "spacing",
-            "$value": "{size-space.2-5-x}"
+            "$value": "{size-space.2point5-x}"
           }
         },
         "warning": {
@@ -12421,7 +12421,7 @@
         "gap": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-5-x}"
+          "$value": "{size-space.0point5-x}"
         },
         "star": {
           "background-active-mode-light": {
@@ -12447,12 +12447,12 @@
             "padding-y": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.2-5-x}"
+              "$value": "{size-space.2point5-x}"
             },
             "border-width": {
               "$componentLevelToken": "true",
               "$type": "borderWidth",
-              "$value": "{size-space.0-5-x}"
+              "$value": "{size-space.0point5-x}"
             }
           },
           "font-size": {
@@ -12624,7 +12624,7 @@
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "padding-y": {
               "$componentLevelToken": "true",
@@ -12641,12 +12641,12 @@
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "padding-y": {
               "$componentLevelToken": "true",
               "$type": "spacing",
-              "$value": "{size-space.1-5-x}"
+              "$value": "{size-space.1point5-x}"
             },
             "gap": {
               "$componentLevelToken": "true",
@@ -16018,14 +16018,9 @@
         "color.white": "7289fc3bba3fce716cb0327ed5152e356a126e29",
         "color.black": "2c857bd6baa950c3683bd2acffc292d3542d0d49",
         "size-space.0-x": "c6b19950e91c6e7689af991ab8fc3f28d1d2c240",
-        "size-space.0-25-px": "25afaccc24451f13af6c173086ccc6c9dfe162aa",
-        "size-space.0-5-x": "7d2f08e94d7b009e4dbf94a4b363810714af7b3e",
         "size-space.1-x": "daf092c4c4edb057822ded10629dc935b582d75b",
-        "size-space.1-5-x": "b22f5e552ff587b81b1a8731b5f4e26610833e1b",
         "size-space.2-x": "416db93169577c7733538b767077c84afe87c8eb",
-        "size-space.2-5-x": "51fb9cb3f6f70fc45554ea025284aa2dd998a4a5",
         "size-space.3-x": "eacdf0b1df86341f4dae260bdc588baabfc0a7f7",
-        "size-space.3-5-x": "8cad000bf458abbca74a2ba074b2320e623fa589",
         "size-space.4-x": "ee13831c01a425e26781c4615030a5a6d978d2eb",
         "size-space.5-x": "983378c9ea6474704fd535b3295545a018c594e9",
         "size-space.6-x": "ec440eee8b2372fc78cd3c8a0d78e9a1ea360598",
@@ -16324,7 +16319,12 @@
         "paragraph-spacing.02": "3cb2792e34c7de4369e02847a1abbed81326aed6",
         "border-width.none": "915ae1712c1b7f2da889859b56619bde8efcd84e",
         "border-width.01": "3bb3b121ccff012904e8985f4281e10c6e24b186",
-        "border-width.02": "7634d38589cd99403f723bd1f4f4408d540396e0"
+        "border-width.02": "7634d38589cd99403f723bd1f4f4408d540396e0",
+        "size-space.0point25-px": "25afaccc24451f13af6c173086ccc6c9dfe162aa",
+        "size-space.0point5-x": "7d2f08e94d7b009e4dbf94a4b363810714af7b3e",
+        "size-space.1point5-x": "b22f5e552ff587b81b1a8731b5f4e26610833e1b",
+        "size-space.2point5-x": "51fb9cb3f6f70fc45554ea025284aa2dd998a4a5",
+        "size-space.3point5-x": "8cad000bf458abbca74a2ba074b2320e623fa589"
       },
       "$figmaCollectionId": "VariableCollectionId:1:2",
       "$figmaModeId": "1:0",
