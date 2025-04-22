@@ -6,7 +6,7 @@
         "$value": "0px",
         "$description": "0px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
       },
-      "0point25-px": {
+      "0point25-x": {
         "$type": "dimension",
         "$value": "1px",
         "$description": "1px [width; height; margin; padding; sizing; spacing; dimension; border-radius; border-width; absolute position location; x; y; background blur effects; primitive; base; global; core;]"
@@ -16320,11 +16320,11 @@
         "border-width.none": "915ae1712c1b7f2da889859b56619bde8efcd84e",
         "border-width.01": "3bb3b121ccff012904e8985f4281e10c6e24b186",
         "border-width.02": "7634d38589cd99403f723bd1f4f4408d540396e0",
-        "size-space.0point25-px": "25afaccc24451f13af6c173086ccc6c9dfe162aa",
         "size-space.0point5-x": "7d2f08e94d7b009e4dbf94a4b363810714af7b3e",
         "size-space.1point5-x": "b22f5e552ff587b81b1a8731b5f4e26610833e1b",
         "size-space.2point5-x": "51fb9cb3f6f70fc45554ea025284aa2dd998a4a5",
-        "size-space.3point5-x": "8cad000bf458abbca74a2ba074b2320e623fa589"
+        "size-space.3point5-x": "8cad000bf458abbca74a2ba074b2320e623fa589",
+        "size-space.0point25-x": "25afaccc24451f13af6c173086ccc6c9dfe162aa"
       },
       "$figmaCollectionId": "VariableCollectionId:1:2",
       "$figmaModeId": "1:0",
