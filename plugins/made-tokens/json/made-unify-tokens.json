@@ -3817,12 +3817,12 @@
         "padding-x": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-x}"
+          "$value": "{size-space.5-x}"
         },
         "padding-y": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-x}"
+          "$value": "{size-space.5-x}"
         },
         "border-radius": {
           "$componentLevelToken": "true",
@@ -7401,12 +7401,12 @@
         "padding-x": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-x}"
+          "$value": "{size-space.5-x}"
         },
         "padding-y": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-x}"
+          "$value": "{size-space.5-x}"
         },
         "border-radius": {
           "$componentLevelToken": "true",
@@ -12207,12 +12207,12 @@
         "padding-x": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-x}"
+          "$value": "{size-space.5-x}"
         },
         "padding-y": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-x}"
+          "$value": "{size-space.5-x}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
