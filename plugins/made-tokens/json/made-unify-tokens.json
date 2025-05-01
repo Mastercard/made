@@ -3271,6 +3271,16 @@
         "discovery-mode-dark": {
           "$type": "color",
           "$value": "{color.purple.400}"
+        },
+        "fixed-mode-light": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly. Its primary use is for text colors on cards that use images as backgrounds."
+        },
+        "fixed-mode-dark": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly. Its primary use is for text colors on cards that use images as backgrounds."
         }
       },
       "link": {
@@ -6855,6 +6865,16 @@
         "discovery-mode-dark": {
           "$type": "color",
           "$value": "{color.purple.400}"
+        },
+        "fixed-mode-light": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly. Its primary use is for text colors on cards that use images as backgrounds."
+        },
+        "fixed-mode-dark": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly. Its primary use is for text colors on cards that use images as backgrounds."
         }
       },
       "link": {
@@ -10404,6 +10424,16 @@
         "on-color-mode-light": {
           "$type": "color",
           "$value": "{color.white}"
+        },
+        "fixed-mode-light": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly. Its primary use is for text colors on cards that use images as backgrounds."
+        },
+        "fixed-mode-dark": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly. Its primary use is for text colors on cards that use images as backgrounds."
         },
         "on-color-mode-dark": {
           "$type": "color",
@@ -14321,6 +14351,12 @@
           "$value": "{color.text.on-color-mode-light}",
           "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; semantic; role; decision; alias;]"
         },
+        "fixed": {
+          "$colorSchemeToken": "true",
+          "$type": "color",
+          "$value": "{color.text.fixed-mode-light}",
+          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; semantic; role; decision; alias;]"
+        },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
@@ -15484,6 +15520,12 @@
           "$colorSchemeToken": "true",
           "$type": "color",
           "$value": "{color.text.on-color-mode-dark}",
+          "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; semantic; role; decision; alias;]"
+        },
+        "fixed": {
+          "$colorSchemeToken": "true",
+          "$type": "color",
+          "$value": "{color.text.fixed-mode-dark}",
           "$description": "The color for text used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [text; copy; content; semantic; role; decision; alias;]"
         },
         "success": {
