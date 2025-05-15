@@ -3131,6 +3131,16 @@
         "discovery-mode-dark": {
           "$type": "color",
           "$value": "{color.purple.300}"
+        },
+        "fixed-mode-light": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly."
+        },
+        "fixed-mode-dark": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly."
         }
       },
       "text": {
@@ -6725,6 +6735,16 @@
         "discovery-mode-dark": {
           "$type": "color",
           "$value": "{color.purple.300}"
+        },
+        "fixed-mode-light": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly."
+        },
+        "fixed-mode-dark": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly."
         }
       },
       "text": {
@@ -10319,6 +10339,16 @@
         "discovery-mode-dark": {
           "$type": "color",
           "$value": "{color.purple.300}"
+        },
+        "fixed-mode-light": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly."
+        },
+        "fixed-mode-dark": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly."
         }
       },
       "text": {
@@ -14259,6 +14289,11 @@
           "$value": "{color.icon.on-color-mode-light}",
           "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse; semantic; role; decision; alias;]"
         },
+        "fixed": {
+          "$colorSchemeToken": "true",
+          "$type": "color",
+          "$value": "{color.icon.fixed-mode-light}"
+        },
         "success": {
           "$colorSchemeToken": "true",
           "$type": "color",
@@ -15429,6 +15464,10 @@
           "$type": "color",
           "$value": "{color.icon.on-color-mode-dark}",
           "$description": "The color for icons used on brand, interactive, or strong feedback color backgrounds, ensuring sufficient contrast for visibility. [icon; pictogram; svg; inverse; semantic; role; decision; alias;]"
+        },
+        "fixed": {
+          "$type": "color",
+          "$value": "{color.icon.fixed-mode-dark}"
         },
         "success": {
           "$colorSchemeToken": "true",
