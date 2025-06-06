@@ -14883,7 +14883,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-light}",
+              "$value": "{component.button.primary.default.background-mode-light}",
               "$description": "Background color of primary buttons in their default / resting state. "
             },
             "border-color": {
@@ -14901,7 +14901,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-light}"
+              "$value": "{component.button.primary.hover.background-mode-light}"
             },
             "border-color": {
               "$type": "color",
@@ -14918,7 +14918,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-light}"
+              "$value": "{component.button.primary.active.background-mode-light}"
             },
             "border-color": {
               "$type": "color",
@@ -14937,7 +14937,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.secondary-mode-light}"
+              "$value": "{component.button.secondary.default.background-mode-light}"
             },
             "border-color": {
               "$type": "color",
@@ -14954,7 +14954,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-mode-light}"
+              "$value": "{component.button.secondary.hover.background-mode-light}"
             },
             "border-color": {
               "$type": "color",
@@ -14971,7 +14971,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-hover-mode-light}"
+              "$value": "{component.button.secondary.active.background-mode-light}"
             },
             "border-color": {
               "$type": "color",
@@ -16058,7 +16058,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.default-mode-dark}",
+              "$value": "{component.button.primary.default.background-mode-dark}",
               "$description": "Background color of primary buttons in their default / resting state. "
             },
             "border-color": {
@@ -16076,7 +16076,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}"
+              "$value": "{component.button.primary.hover.background-mode-dark}"
             },
             "border-color": {
               "$type": "color",
@@ -16093,7 +16093,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}"
+              "$value": "{component.button.primary.active.background-mode-dark}"
             },
             "border-color": {
               "$type": "color",
@@ -16112,7 +16112,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.secondary-mode-dark}"
+              "$value": "{component.button.secondary.default.background-mode-dark}"
             },
             "border-color": {
               "$type": "color",
@@ -16129,7 +16129,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-mode-dark}"
+              "$value": "{component.button.secondary.hover.background-mode-dark}"
             },
             "border-color": {
               "$type": "color",
@@ -16146,7 +16146,7 @@
             "background": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.selected-hover-mode-dark}"
+              "$value": "{component.button.secondary.active.background-mode-dark}"
             },
             "border-color": {
               "$type": "color",
