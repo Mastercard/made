@@ -7483,7 +7483,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{border.radius.large}"
         },
         "border-width": {
           "$componentLevelToken": "true",
@@ -7648,7 +7648,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{border.radius.large}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
@@ -7680,7 +7680,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{border.radius.large}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
@@ -8117,7 +8117,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{border.radius.large}"
         },
         "day-selected": {
           "border-radius": {
@@ -8163,7 +8163,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{size-space.8-x}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
