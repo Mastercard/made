@@ -7262,7 +7262,7 @@
         "default": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{border-radius.02}",
+          "$value": "{border-radius.05}",
           "$description": "[semantic; role; decision; alias;]"
         },
         "small": {
@@ -7274,7 +7274,7 @@
         "large": {
           "themeable": "Yes",
           "$type": "borderRadius",
-          "$value": "{size-space.2-x}",
+          "$value": "{border-radius.08}",
           "$description": "[lg; semantic; role; decision; alias;]"
         },
         "full": {
