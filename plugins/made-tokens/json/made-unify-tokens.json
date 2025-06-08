@@ -8431,7 +8431,7 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.8-x}"
+            "$value": "{size-space.6-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
@@ -8472,7 +8472,7 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.6-x}"
+            "$value": "{size-space.4-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
@@ -11943,7 +11943,7 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.4-x}"
+            "$value": "{size-space.5-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
@@ -11984,7 +11984,7 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.3-x}"
+            "$value": "{size-space.3point5-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
@@ -12025,7 +12025,7 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.7-x}"
+            "$value": "{size-space.8-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
