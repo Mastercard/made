@@ -6177,11 +6177,11 @@
         },
         "disabled-mode-light": {
           "$type": "color",
-          "$value": "{color.Gray.200}"
+          "$value": "{color.Gray.300}"
         },
         "disabled-mode-dark": {
           "$type": "color",
-          "$value": "{color.Gray.1200}"
+          "$value": "{color.Gray.1400}"
         },
         "backdrop-mode-light": {
           "$extensions": {
