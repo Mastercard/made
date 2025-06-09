@@ -6260,7 +6260,7 @@
           },
           "selected-hover-mode-light": {
             "$type": "color",
-            "$value": "{color.Gray.1400}"
+            "$value": "{color.Gray.500}"
           },
           "selected-hover-mode-dark": {
             "$type": "color",
