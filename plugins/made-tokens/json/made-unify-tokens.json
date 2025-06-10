@@ -8656,7 +8656,7 @@
             "background-mode-dark": {
               "$componentLevelToken": "true",
               "$type": "color",
-              "$value": "{color.background.surface.secondary-mode-dark}"
+              "$value": "{color.background.surface.transparent-mode-dark}"
             },
             "border-color-mode-light": {
               "$type": "color",
