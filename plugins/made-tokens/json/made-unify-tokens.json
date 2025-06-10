@@ -6899,7 +6899,7 @@
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.Red.300}"
+          "$value": "{color.text.danger-mode-dark}"
         },
         "warning-mode-light": {
           "$type": "color",
