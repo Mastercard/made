@@ -11732,7 +11732,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.accordion.title.font-size} * -0.02"
+            "$value": "{component.accordion.title.font-size} * 0"
           }
         },
         "subtitle": {
@@ -11848,7 +11848,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.alert.title.font-size} * -0.02"
+            "$value": "{component.alert.title.font-size} * 0"
           }
         },
         "subtitle": {
@@ -11963,7 +11963,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.button.default.font-size} * -0.02"
+            "$value": "{component.button.default.font-size} * 0"
           }
         },
         "small": {
@@ -12004,7 +12004,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.button.small.font-size} * -0.02"
+            "$value": "{component.button.small.font-size} * 0"
           }
         },
         "large": {
@@ -12045,7 +12045,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.button.large.font-size} * -0.02"
+            "$value": "{component.button.large.font-size} * 0"
           }
         },
         "box-shadow": {
@@ -12461,7 +12461,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.badge.default.font-size} * -0.02"
+            "$value": "{component.badge.default.font-size} * 0"
           }
         },
         "large": {
@@ -12486,7 +12486,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.badge.large.font-size} * -0.02"
+            "$value": "{component.badge.large.font-size} * 0"
           }
         },
         "warning": {
@@ -12786,7 +12786,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.tabs.default.font-size} * -0.02"
+            "$value": "{component.tabs.default.font-size} * 0"
           }
         },
         "contained": {
@@ -12851,7 +12851,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.tabs.contained.font-size} * -0.02"
+            "$value": "{component.tabs.contained.font-size} * 0"
           }
         },
         "minimal": {
