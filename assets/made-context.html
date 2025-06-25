@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADE - Contextual Information for AI Agents</title>
+    <!-- Design tokens for B2B theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-design-tokens/dist/2.3.0/web/themes/b2b/tokens.css">
+    <!-- Global styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-css/dist/3.0.0/src/02-generic/globals.css">
+    <!-- Typography styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-css/dist/3.0.0/src/03-elements/typography.css">
+    <!-- Component styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-css/dist/3.0.0/src/04-components/components.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mastercard/made@main/packages/made-css/dist/3.0.0/src/05-utilities/utilities.css">
+</head>
+<body class="made-u-padding-4-x made-u-background-color-neutral-01">
+
+<header class="made-u-margin-bottom-6-x">
+    <nav class="made-c-breadcrumb made-u-margin-bottom-4-x">
+        <ol class="made-c-breadcrumb__list">
+            <li class="made-c-breadcrumb__item">
+                <a href="#" class="made-c-breadcrumb__link--home">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="made-c-breadcrumb__icon">
+                        <title>home</title>
+                        <path d="M3 11v11h6v-8h6v8h6V11h1v12h-8v-8h-4v8H2V11h1zm9-9.784l7 5.086V3h1v4.028l3.25 2.362-.587.808L12 2.452 1.337 10.198.75 9.39 12 1.216z" fill="currentColor" />
+                    </svg>
+                </a>
+            </li>
+            <li class="made-c-breadcrumb__item">
+                <a href="#" class="made-c-breadcrumb__link">Page level 1</a>
+            </li>
+            <li class="made-c-breadcrumb__item">
+                <a href="#" class="made-c-breadcrumb__link">Page level 2</a>
+            </li>
+            <li class="made-c-breadcrumb__item made-c-breadcrumb__item--active">Current page</li>
+        </ol>
+    </nav>
+    <h1 class="made-u-h1 made-u-margin-bottom-2-x">MADE - Contextual Information for AI Agents</h1>
+    <p class="made-u-text-style-italic made-u-margin-bottom-4-x">
+        This HTML document demonstrates the use of various MADE components, styled using MADE CSS classes and variables for a consistent and modern design.
+    </p>
+</header>
+
+<main>
+    <section class="made-u-margin-bottom-6-x">
+        <h2 class="made-u-h2 made-u-margin-bottom-2-x">Buttons</h2>
+        <div class="made-u-flex made-u-flex-gap-4-x">
+            <button type="button" class="made-c-button made-c-button--primary">Primary</button>
+            <button type="button" class="made-c-button made-c-button--secondary">Secondary</button>
+            <button type="button" class="made-c-button made-c-button--ghost">Ghost</button>
+        </div>
+    </section>
+
+    <section class="made-u-margin-bottom-6-x">
+        <h2 class="made-u-h2 made-u-margin-bottom-2-x">Form Elements</h2>
+        <div class="made-u-flex made-u-flex-column made-u-flex-gap-4-x">
+            <div class="made-c-form__element">
+                <label for="text-input" class="made-c-form__label">Text Input</label>
+                <input type="text" id="text-input" class="made-c-text-input" placeholder="Enter text">
+            </div>
+            <div class="made-c-form__element">
+                <label for="select" class="made-c-form__label">Dropdown</label>
+                <select id="select" class="made-c-select">
+                    <option value="" disabled selected>Choose an option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                </select>
+            </div>
+            <div class="made-c-form__element">
+                <label for="range-slider" class="made-c-form__label">Range Slider</label>
+                <input type="range" id="range-slider" class="made-c-range-slider__range" min="0" max="100">
+            </div>
+        </div>
+    </section>
+
+    <section class="made-u-margin-bottom-6-x">
+        <h2 class="made-u-h2 made-u-margin-bottom-2-x">Radio Button</h2>
+        <div class="made-c-form__element">
+            <input class="made-c-radio" name="radio-01" type="radio" id="radio-group-1-1" value="1" />
+            <label class="made-c-radio__label" for="radio-group-1-1">
+                Option 1
+            </label>
+        </div>
+        <div class="made-c-form__element">
+            <input class="made-c-radio" name="radio-02" type="radio" id="radio-group-1-2" value="1" checked aria-disabled="true" disabled/>
+            <label class="made-c-radio__label" for="radio-group-1-2">
+                Option 1
+            </label>
+        </div>
+    </section>
+
+<ul class="made-c-action-bar">
+    <li class="made-c-action-bar__item">
+      <a href="" role="button" tabindex="0">
+        Item
+      </a>
+    </li>
+    <li class="made-c-action-bar__item">
+      <a href="" role="button" tabindex="0">
+        Item
+      </a>
+    </li>
+    <li class="made-c-action-bar__item">
+      <a href="" role="button" tabindex="0">
+        Item
+      </a>
+    </li>
+  </ul>
+
+    <section class="made-u-margin-bottom-6-x">
+        <h2 class="made-u-h2 made-u-margin-bottom-2-x">Notifications</h2>
+        <div class="made-c-notification made-c-notification--success made-u-margin-bottom-4-x">
+            <div class="made-c-notification__content">
+                <p class="made-c-notification__title">Success Notification</p>
+                <p class="made-c-notification__subtitle">This is a success message.</p>
+            </div>
+        </div>
+        <div class="made-c-notification made-c-notification--error">
+            <div class="made-c-notification__content">
+                <p class="made-c-notification__title">Error Notification</p>
+                <p class="made-c-notification__subtitle">This is an error message.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="made-u-h2 made-u-margin-bottom-2-x">Typography</h2>
+        <p class="made-u-text-weight-bold">Bold Text</p>
+        <p class="made-u-text-style-italic">Italic Text</p>
+        <p class="made-u-text-decoration-underline">Underlined Text</p>
+    </section>
+</main>
+
+<footer class="made-c-footer made-u-margin-top-6-x">
+    <div class="made-l-grid">
+        <div class="made-l-grid__row">
+            <div class="made-l-grid__item">
+                <p>&copy; 1995-YYYY Mastercard</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
