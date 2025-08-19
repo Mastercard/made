@@ -9519,11 +9519,11 @@
       "eyebrow": {
         "small": {
           "$type": "letterSpacing",
-          "$value": "{font-size.02} * 0.15"
+          "$value": "{font-size.02} * 0.4"
         },
         "large": {
           "$type": "letterSpacing",
-          "$value": "{font-size.06} * 0.15"
+          "$value": "{font-size.06} * 0.04"
         }
       }
     },
@@ -13737,23 +13737,23 @@
       },
       "h1": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h1} * 0"
+        "$value": "{font-size.h1} * -0.03"
       },
       "h2": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h2} * 0"
+        "$value": "{font-size.h2} * -0.03"
       },
       "h3": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h3} * 0"
+        "$value": "{font-size.h3} * -0.03"
       },
       "h4": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h4} * 0"
+        "$value": "{font-size.h4} * -0.03"
       },
       "h5": {
         "$type": "letterSpacing",
-        "$value": "{font-size.h5} * 0"
+        "$value": "{font-size.h5} * -0.03"
       },
       "h6": {
         "$type": "letterSpacing",
@@ -13821,15 +13821,15 @@
     "font-weight": {
       "h1": {
         "$type": "fontWeights",
-        "$value": "{font-weight.bold}"
+        "$value": "{font-weight.medium}"
       },
       "h2": {
         "$type": "fontWeights",
-        "$value": "{font-weight.bold}"
+        "$value": "{font-weight.medium}"
       },
       "h3": {
         "$type": "fontWeights",
-        "$value": "{font-weight.bold}"
+        "$value": "{font-weight.medium}"
       },
       "h4": {
         "$type": "fontWeights",
