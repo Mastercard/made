@@ -4710,12 +4710,12 @@
         "background-mode-light": {
           "$componentLevelToken": "true",
           "$type": "color",
-          "$value": "{color.background.surface.default-mode-light}"
+          "$value": "{color.background.input.default-mode-light}"
         },
         "background-mode-dark": {
           "$componentLevelToken": "true",
           "$type": "color",
-          "$value": "{color.background.surface.default-mode-dark}"
+          "$value": "{color.background.input.default-mode-dark}"
         },
         "default": {
           "padding-x": {
@@ -8333,12 +8333,12 @@
         "background-mode-light": {
           "$componentLevelToken": "true",
           "$type": "color",
-          "$value": "{color.background.surface.default-mode-light}"
+          "$value": "{color.background.input.default-mode-light}"
         },
         "background-mode-dark": {
           "$componentLevelToken": "true",
           "$type": "color",
-          "$value": "{color.background.surface.default-mode-dark}"
+          "$value": "{color.background.input.default-mode-dark}"
         },
         "default": {
           "padding-x": {
@@ -13632,12 +13632,12 @@
         "background-mode-light": {
           "$componentLevelToken": "true",
           "$type": "color",
-          "$value": "{color.background.surface.default-mode-light}"
+          "$value": "{color.background.input.default-mode-light}"
         },
         "background-mode-dark": {
           "$componentLevelToken": "true",
           "$type": "color",
-          "$value": "{color.background.surface.default-mode-dark}"
+          "$value": "{color.background.input.default-mode-dark}"
         },
         "large": {
           "padding-x": {
