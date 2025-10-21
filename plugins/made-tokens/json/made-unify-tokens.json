@@ -10665,7 +10665,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.brand.primary-mode-light}"
+          "$value": "{color.brand.primary-mode-dark}"
         },
         "on-color-mode-light": {
           "$type": "color",
