@@ -3089,7 +3089,7 @@
         },
         "input-mode-light": {
           "$type": "color",
-          "$value": "{color.border.default-mode-light}"
+          "$value": "{color.neutral.600}"
         },
         "input-mode-dark": {
           "$type": "color",
@@ -4288,7 +4288,7 @@
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -4717,7 +4717,7 @@
           "$type": "color",
           "$value": "{color.background.input.default-mode-dark}"
         },
-        "default": {
+        "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -4763,7 +4763,7 @@
           "$type": "spacing",
           "$value": "{size-space.0point5-x}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -4795,7 +4795,7 @@
         }
       },
       "button": {
-        "default": {
+        "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -4833,7 +4833,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.button.default.font-size} * -0.02"
+            "$value": "{component.button.medium.font-size} * -0.02"
           }
         },
         "small": {
@@ -5195,7 +5195,7 @@
           "$type": "spacing",
           "$value": "{size-space.1-x}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -5290,7 +5290,7 @@
           "$type": "lineHeights",
           "$value": "{line.height.rem-04}"
         },
-        "default": {
+        "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -5325,7 +5325,7 @@
           }
         },
         "contained": {
-          "default": {
+          "medium": {
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
@@ -5502,7 +5502,7 @@
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -5524,7 +5524,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.badge.default.font-size} * -0.02"
+            "$value": "{component.badge.medium.font-size} * -0.02"
           }
         },
         "large": {
@@ -6672,7 +6672,7 @@
         },
         "strong-mode-light": {
           "$type": "color",
-          "$value": "{color.gray.600}"
+          "$value": "{color.gray.1000}"
         },
         "strong-mode-dark": {
           "$type": "color",
@@ -7911,7 +7911,7 @@
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -8340,7 +8340,7 @@
           "$type": "color",
           "$value": "{color.background.input.default-mode-dark}"
         },
-        "default": {
+        "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -8386,7 +8386,7 @@
           "$type": "spacing",
           "$value": "{size-space.0point5-x}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -8418,7 +8418,7 @@
         }
       },
       "button": {
-        "default": {
+        "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -8456,7 +8456,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.button.default.font-size} * -0.02"
+            "$value": "{component.button.medium.font-size} * -0.02"
           }
         },
         "small": {
@@ -8818,7 +8818,7 @@
           "$type": "spacing",
           "$value": "{size-space.1-x}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -8913,7 +8913,7 @@
           "$type": "lineHeights",
           "$value": "{line.height.rem-04}"
         },
-        "default": {
+        "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -8948,7 +8948,7 @@
           }
         },
         "contained": {
-          "default": {
+          "medium": {
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
@@ -9125,7 +9125,7 @@
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -9147,7 +9147,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.badge.default.font-size} * -0.02"
+            "$value": "{component.badge.medium.font-size} * -0.02"
           }
         },
         "large": {
@@ -10343,7 +10343,7 @@
         },
         "input-mode-light": {
           "$type": "color",
-          "$value": "{color.border.default-mode-light}"
+          "$value": "{color.neutral.500}"
         },
         "input-mode-dark": {
           "$type": "color",
@@ -11171,7 +11171,7 @@
           "$description": "[typography; text style; semantic; role; decision; alias;]"
         }
       },
-      "default": {
+      "medium": {
         "hover": {
           "$figmaOnly": "true",
           "$type": "typography",
@@ -11892,7 +11892,7 @@
           "$type": "spacing",
           "$value": "{size-space.1point5-x}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -11925,7 +11925,7 @@
         }
       },
       "button": {
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -11963,7 +11963,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.button.default.font-size} * 0"
+            "$value": "{component.button.medium.font-size} * 0"
           }
         },
         "small": {
@@ -12439,7 +12439,7 @@
           "$type": "boxShadow",
           "$value": "{box-shadow.global}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -12461,7 +12461,7 @@
           },
           "letter-spacing": {
             "$type": "letterSpacing",
-            "$value": "{component.badge.default.font-size} * 0"
+            "$value": "{component.badge.medium.font-size} * 0"
           }
         },
         "large": {
@@ -12630,7 +12630,7 @@
           "$type": "spacing",
           "$value": "{size-space.1-x}"
         },
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -12887,7 +12887,7 @@
           "$type": "fontSizes",
           "$value": "{font-size.04}"
         },
-        "default": {
+        "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -12932,7 +12932,7 @@
           }
         },
         "contained": {
-          "default": {
+          "medium": {
             "padding-x": {
               "$componentLevelToken": "true",
               "$type": "spacing",
@@ -12969,7 +12969,7 @@
         }
       },
       "tag": {
-        "default": {
+        "medium": {
           "font-size": {
             "$componentLevelToken": "true",
             "$type": "fontSizes",
@@ -13592,7 +13592,7 @@
         }
       },
       "form-control": {
-        "default": {
+        "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -17223,9 +17223,6 @@
         "component.tag.border-color-mode-dark": "fa705ce69cb35097807dbf71c6613610940742c2",
         "component.tag.gap": "0320e3df01253dacb84e42bb018018dfe2e7a7ef",
         "component.tag.border-radius": "ccb4ffdbc90ab2b2c3e6bc465bf14b340894ef49",
-        "component.tag.default.font-size": "e2c0f2469cb837709288a84673cebd2cca399635",
-        "component.tag.default.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
-        "component.tag.default.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
         "component.tag.small.font-size": "ecbb003983e6567d24d7b3faf675163c2d9ee3bc",
         "component.tag.small.font-weight": "ca0f7efd2694f449af7a910cf18316f3257dcbf1",
         "component.tag.small.line-height": "72381402ba3f42a40fa4d43bcd7c4ee492c31197",
@@ -17297,26 +17294,14 @@
         "component.form-control.border-color-mode-dark": "b5ea739897c8aad3ff75f85033e20a47fc456553",
         "component.form-control.background-mode-light": "1fb8cae41b3c0e61f90b3e781cfacacb9ec6300f",
         "component.form-control.background-mode-dark": "800896b55af2f0b1a278a507fa92de5c07ea3c5a",
-        "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
         "component.form-control.border-radius": "6b0d92a106c72ab1fc55b4da0d3212b7457c6266",
         "component.form-control.border-width": "8e7165ce83b51e8d8c5804e9648256b1a925110d",
         "component.form-control.large.padding-x": "8bafb3d62274164e83986f2c47b05e0b0acc9d76",
         "component.form-control.large.padding-y": "d786c734f488f695ff078ec37da1f8f26b0012d8",
         "component.breadcrumb.gap": "d3a6447d7c6f3f0568ebc2acb644e9c5e90eb360",
-        "component.breadcrumb.default.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
-        "component.breadcrumb.default.line-height": "bc4c5a5a333b1b1777d3c34c53c6ea4be968998a",
         "component.breadcrumb.font-weight": "ebe28d71dc5c7e081b7030acb9ca2bb694c89b91",
         "component.breadcrumb.small.font-size": "1d3f58b03031f1d0b24f579b0e29610a83514a66",
         "component.breadcrumb.small.line-height": "ca289dccc19bd8df71309b4e2faf8fd4870c716a",
-        "component.button.default.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
-        "component.button.default.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
-        "component.button.default.gap": "de4b1c720189dd475daa8a4d5755735f404075e0",
-        "component.button.default.border-radius": "c52e28e249e8d4d0bd80bd72cc3677863c53e9d5",
-        "component.button.default.font-size": "5d440be82a8a5b0109d933e8fe38aebcc74b081a",
-        "component.button.default.font-weight": "0cad9682dc7a7fc19bd73a7ed24a04e2d6d2f2f8",
-        "component.button.default.line-height": "a88edb52bf9527fe551fa429fa44b06afc71fa2f",
-        "component.button.default.letter-spacing": "4964e969fc68d15f7bb87b79dcaaa0435b4f152e",
         "component.button.small.padding-x": "8a25934cb6e4fa04f6976d8ba0110e3abbab3ee0",
         "component.button.small.padding-y": "d1c0fb8d6e03751e875f0d10c8ccc84685d87d7f",
         "component.button.small.gap": "79c238f9ca40f23b0d8973f4f795a4f348fbf1e3",
@@ -17389,9 +17374,6 @@
         "component.button.ghost.active.text-color-mode-light": "ec37bc7cfea0b26b89e4cdf0f88bbe4d0a91704e",
         "component.button.ghost.active.text-color-mode-dark": "abb2f5e2be831def04e9aff0c6e0e4c8cdaf0165",
         "component.link.gap": "2f4aebf8a67caad17e502b4b4ccd401c7da000e7",
-        "component.link.default.font-size": "1e23a668a65237daecf4b89b0d9c762ec05a899e",
-        "component.link.default.font-weight": "23db3912f6a2ff5f7112c1cb564601e54e22f3f5",
-        "component.link.default.line-height": "e13b7a7382d5221c3bd4bd4531a3b38475e528ce",
         "component.link.large.font-size": "73a10906c67fce96354e5c997b407c1c4648b774",
         "component.link.large.font-weight": "5854e0c49109128ece1f63e002459c42c18029cc",
         "component.link.large.line-height": "665f3e7985e72dbea0a715f200dc49423e1cf553",
@@ -17405,15 +17387,9 @@
         "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
         "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
         "component.list-item.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.list-item.default.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.default.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.default.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.list-item.contained.default.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.list-item.contained.default.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.list-item.contained.default.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
         "component.list-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
         "component.list-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
         "component.list-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
@@ -17438,11 +17414,6 @@
         "component.drawer-picker.padding-y": "8fe47bbad61e3168fcadfecc226c9929ac562fe5",
         "component.avatar.squared.border-radius": "0e7fb4c2e624799d5aec922eedabe253e8bd9a0e",
         "component.badge.border-radius": "a9ba5919f6061ae46caeec19821dbac7fe6b94dc",
-        "component.badge.default.font-size": "04d6ca0a30a22259d455f52a0a2d7e533a674bcc",
-        "component.badge.default.font-weight": "b92741b28822eee779425c8610b188a8c93550fe",
-        "component.badge.default.line-height": "7fa9d15041a651b77ddbdb594b1e00045467502f",
-        "component.badge.default.padding-x": "2db67eb4e1fda61e77e8b087036fe7cc3ca0455b",
-        "component.badge.default.letter-spacing": "c88b18fd96f8aba66fe1dcf16ee8ba67411d81da",
         "component.badge.large.font-size": "9085a27f41cea8904ca57bf6bd0b566729bff297",
         "component.badge.large.font-weight": "03f33bce084ff2a6b8f19966a36cb03b92c6fe6b",
         "component.badge.large.line-height": "c1ca41a8490e6c2b4f3ccf0e3a447bed2ba08b4b",
@@ -17494,7 +17465,36 @@
         "font-weight.h5": "ed0afe03fe16bf5cbd8b40f00b57c62d24119fde",
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
-        "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7"
+        "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
+        "component.button.medium.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
+        "component.button.medium.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
+        "component.button.medium.gap": "de4b1c720189dd475daa8a4d5755735f404075e0",
+        "component.button.medium.border-radius": "c52e28e249e8d4d0bd80bd72cc3677863c53e9d5",
+        "component.button.medium.font-weight": "0cad9682dc7a7fc19bd73a7ed24a04e2d6d2f2f8",
+        "component.button.medium.line-height": "a88edb52bf9527fe551fa429fa44b06afc71fa2f",
+        "component.button.medium.font-size": "5d440be82a8a5b0109d933e8fe38aebcc74b081a",
+        "component.button.medium.letter-spacing": "4964e969fc68d15f7bb87b79dcaaa0435b4f152e",
+        "component.badge.medium.padding-x": "2db67eb4e1fda61e77e8b087036fe7cc3ca0455b",
+        "component.badge.medium.font-weight": "b92741b28822eee779425c8610b188a8c93550fe",
+        "component.badge.medium.line-height": "7fa9d15041a651b77ddbdb594b1e00045467502f",
+        "component.badge.medium.font-size": "04d6ca0a30a22259d455f52a0a2d7e533a674bcc",
+        "component.badge.medium.letter-spacing": "c88b18fd96f8aba66fe1dcf16ee8ba67411d81da",
+        "component.breadcrumb.medium.line-height": "bc4c5a5a333b1b1777d3c34c53c6ea4be968998a",
+        "component.breadcrumb.medium.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
+        "component.form-control.medium.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
+        "component.form-control.medium.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
+        "component.link.medium.font-weight": "23db3912f6a2ff5f7112c1cb564601e54e22f3f5",
+        "component.link.medium.line-height": "e13b7a7382d5221c3bd4bd4531a3b38475e528ce",
+        "component.link.medium.font-size": "1e23a668a65237daecf4b89b0d9c762ec05a899e",
+        "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
+        "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
+        "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
+        "component.tag.medium.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
+        "component.tag.medium.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
+        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -17517,8 +17517,6 @@
         "eyebrow.large": "S:fe89e8b366e5685a0ef0b8d225857c5e262a5fd0,",
         "link.large.hover": "S:42291079363d2d7d8f7709e0ba046474db3f0d7c,",
         "link.large.default": "S:e3877739eca27a9b949623ff292a9b13d4c6d974,",
-        "link.default.hover": "S:aab199bbb445346fe26a67e38920e23ff2ea9ea2,",
-        "link.default.default": "S:987c072bf14624dbe745420f85f45561251f66fe,",
         "body.bold.large": "S:8f6e0c88f1aea3cf91fdce23892e37b13fc19a5a,",
         "body.bold.medium": "S:b1c68eb5531a36ae9c9ba7504cd2129ce5d5bb6a,",
         "body.bold.small": "S:908ecf8e36e3436778c2e5da790221d51663fc7e,",
@@ -17570,7 +17568,9 @@
         "box-shadow.medium": "S:8a7fae7c45de26e9740be68eefa97cb83053f7a4,",
         "box-shadow.large": "S:887c0cd8a6c84ce78c16a552a46155f2d4d0e095,",
         "box-shadow.x-large": "S:51e2187a58821e234eab54ced4de362f8cce7276,",
-        "box-shadow.xx-large": "S:2763d2912469c170e80282e7812742480c575ea8,"
+        "box-shadow.xx-large": "S:2763d2912469c170e80282e7812742480c575ea8,",
+        "link.medium.hover": "S:aab199bbb445346fe26a67e38920e23ff2ea9ea2,",
+        "link.medium.default": "S:987c072bf14624dbe745420f85f45561251f66fe,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -17922,9 +17922,6 @@
         "component.tag.border-color-mode-dark": "fa705ce69cb35097807dbf71c6613610940742c2",
         "component.tag.gap": "0320e3df01253dacb84e42bb018018dfe2e7a7ef",
         "component.tag.border-radius": "ccb4ffdbc90ab2b2c3e6bc465bf14b340894ef49",
-        "component.tag.default.font-size": "e2c0f2469cb837709288a84673cebd2cca399635",
-        "component.tag.default.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
-        "component.tag.default.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
         "component.tag.small.font-size": "ecbb003983e6567d24d7b3faf675163c2d9ee3bc",
         "component.tag.small.font-weight": "ca0f7efd2694f449af7a910cf18316f3257dcbf1",
         "component.tag.small.line-height": "72381402ba3f42a40fa4d43bcd7c4ee492c31197",
@@ -17996,26 +17993,14 @@
         "component.form-control.border-color-mode-dark": "b5ea739897c8aad3ff75f85033e20a47fc456553",
         "component.form-control.background-mode-light": "1fb8cae41b3c0e61f90b3e781cfacacb9ec6300f",
         "component.form-control.background-mode-dark": "800896b55af2f0b1a278a507fa92de5c07ea3c5a",
-        "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
         "component.form-control.border-radius": "6b0d92a106c72ab1fc55b4da0d3212b7457c6266",
         "component.form-control.border-width": "8e7165ce83b51e8d8c5804e9648256b1a925110d",
         "component.form-control.large.padding-x": "8bafb3d62274164e83986f2c47b05e0b0acc9d76",
         "component.form-control.large.padding-y": "d786c734f488f695ff078ec37da1f8f26b0012d8",
         "component.breadcrumb.gap": "d3a6447d7c6f3f0568ebc2acb644e9c5e90eb360",
-        "component.breadcrumb.default.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
-        "component.breadcrumb.default.line-height": "bc4c5a5a333b1b1777d3c34c53c6ea4be968998a",
         "component.breadcrumb.font-weight": "ebe28d71dc5c7e081b7030acb9ca2bb694c89b91",
         "component.breadcrumb.small.font-size": "1d3f58b03031f1d0b24f579b0e29610a83514a66",
         "component.breadcrumb.small.line-height": "ca289dccc19bd8df71309b4e2faf8fd4870c716a",
-        "component.button.default.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
-        "component.button.default.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
-        "component.button.default.gap": "de4b1c720189dd475daa8a4d5755735f404075e0",
-        "component.button.default.border-radius": "c52e28e249e8d4d0bd80bd72cc3677863c53e9d5",
-        "component.button.default.font-size": "5d440be82a8a5b0109d933e8fe38aebcc74b081a",
-        "component.button.default.font-weight": "0cad9682dc7a7fc19bd73a7ed24a04e2d6d2f2f8",
-        "component.button.default.line-height": "a88edb52bf9527fe551fa429fa44b06afc71fa2f",
-        "component.button.default.letter-spacing": "4964e969fc68d15f7bb87b79dcaaa0435b4f152e",
         "component.button.small.padding-x": "8a25934cb6e4fa04f6976d8ba0110e3abbab3ee0",
         "component.button.small.padding-y": "d1c0fb8d6e03751e875f0d10c8ccc84685d87d7f",
         "component.button.small.gap": "79c238f9ca40f23b0d8973f4f795a4f348fbf1e3",
@@ -18088,9 +18073,6 @@
         "component.button.ghost.active.text-color-mode-light": "ec37bc7cfea0b26b89e4cdf0f88bbe4d0a91704e",
         "component.button.ghost.active.text-color-mode-dark": "abb2f5e2be831def04e9aff0c6e0e4c8cdaf0165",
         "component.link.gap": "2f4aebf8a67caad17e502b4b4ccd401c7da000e7",
-        "component.link.default.font-size": "1e23a668a65237daecf4b89b0d9c762ec05a899e",
-        "component.link.default.font-weight": "23db3912f6a2ff5f7112c1cb564601e54e22f3f5",
-        "component.link.default.line-height": "e13b7a7382d5221c3bd4bd4531a3b38475e528ce",
         "component.link.large.font-size": "73a10906c67fce96354e5c997b407c1c4648b774",
         "component.link.large.font-weight": "5854e0c49109128ece1f63e002459c42c18029cc",
         "component.link.large.line-height": "665f3e7985e72dbea0a715f200dc49423e1cf553",
@@ -18104,15 +18086,9 @@
         "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
         "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
         "component.list-item.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.list-item.default.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.default.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.default.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.list-item.contained.default.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.list-item.contained.default.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.list-item.contained.default.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
         "component.list-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
         "component.list-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
         "component.list-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
@@ -18137,11 +18113,6 @@
         "component.drawer-picker.padding-y": "8fe47bbad61e3168fcadfecc226c9929ac562fe5",
         "component.avatar.squared.border-radius": "0e7fb4c2e624799d5aec922eedabe253e8bd9a0e",
         "component.badge.border-radius": "a9ba5919f6061ae46caeec19821dbac7fe6b94dc",
-        "component.badge.default.font-size": "04d6ca0a30a22259d455f52a0a2d7e533a674bcc",
-        "component.badge.default.font-weight": "b92741b28822eee779425c8610b188a8c93550fe",
-        "component.badge.default.line-height": "7fa9d15041a651b77ddbdb594b1e00045467502f",
-        "component.badge.default.padding-x": "2db67eb4e1fda61e77e8b087036fe7cc3ca0455b",
-        "component.badge.default.letter-spacing": "c88b18fd96f8aba66fe1dcf16ee8ba67411d81da",
         "component.badge.large.font-size": "9085a27f41cea8904ca57bf6bd0b566729bff297",
         "component.badge.large.font-weight": "03f33bce084ff2a6b8f19966a36cb03b92c6fe6b",
         "component.badge.large.line-height": "c1ca41a8490e6c2b4f3ccf0e3a447bed2ba08b4b",
@@ -18195,7 +18166,36 @@
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
         "color.border.strongest-mode-light": "22db82051b0eda422c6f46b7953c562089694bf6",
-        "color.border.strongest-mode-dark": "8d8b2b07eabfb766c5366bbebec1be2cf174411c"
+        "color.border.strongest-mode-dark": "8d8b2b07eabfb766c5366bbebec1be2cf174411c",
+        "component.button.medium.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
+        "component.button.medium.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
+        "component.button.medium.gap": "de4b1c720189dd475daa8a4d5755735f404075e0",
+        "component.button.medium.border-radius": "c52e28e249e8d4d0bd80bd72cc3677863c53e9d5",
+        "component.button.medium.font-weight": "0cad9682dc7a7fc19bd73a7ed24a04e2d6d2f2f8",
+        "component.button.medium.line-height": "a88edb52bf9527fe551fa429fa44b06afc71fa2f",
+        "component.button.medium.font-size": "5d440be82a8a5b0109d933e8fe38aebcc74b081a",
+        "component.button.medium.letter-spacing": "4964e969fc68d15f7bb87b79dcaaa0435b4f152e",
+        "component.badge.medium.padding-x": "2db67eb4e1fda61e77e8b087036fe7cc3ca0455b",
+        "component.badge.medium.font-weight": "b92741b28822eee779425c8610b188a8c93550fe",
+        "component.badge.medium.line-height": "7fa9d15041a651b77ddbdb594b1e00045467502f",
+        "component.badge.medium.font-size": "04d6ca0a30a22259d455f52a0a2d7e533a674bcc",
+        "component.badge.medium.letter-spacing": "c88b18fd96f8aba66fe1dcf16ee8ba67411d81da",
+        "component.breadcrumb.medium.line-height": "bc4c5a5a333b1b1777d3c34c53c6ea4be968998a",
+        "component.breadcrumb.medium.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
+        "component.form-control.medium.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
+        "component.form-control.medium.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
+        "component.link.medium.font-weight": "23db3912f6a2ff5f7112c1cb564601e54e22f3f5",
+        "component.link.medium.line-height": "e13b7a7382d5221c3bd4bd4531a3b38475e528ce",
+        "component.link.medium.font-size": "1e23a668a65237daecf4b89b0d9c762ec05a899e",
+        "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
+        "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
+        "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
+        "component.tag.medium.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
+        "component.tag.medium.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
+        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -18592,9 +18592,6 @@
         "component.tag.border-color-mode-dark": "fa705ce69cb35097807dbf71c6613610940742c2",
         "component.tag.gap": "0320e3df01253dacb84e42bb018018dfe2e7a7ef",
         "component.tag.border-radius": "ccb4ffdbc90ab2b2c3e6bc465bf14b340894ef49",
-        "component.tag.default.font-size": "e2c0f2469cb837709288a84673cebd2cca399635",
-        "component.tag.default.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
-        "component.tag.default.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
         "component.tag.small.font-size": "ecbb003983e6567d24d7b3faf675163c2d9ee3bc",
         "component.tag.small.font-weight": "ca0f7efd2694f449af7a910cf18316f3257dcbf1",
         "component.tag.small.line-height": "72381402ba3f42a40fa4d43bcd7c4ee492c31197",
@@ -18666,26 +18663,14 @@
         "component.form-control.border-color-mode-dark": "b5ea739897c8aad3ff75f85033e20a47fc456553",
         "component.form-control.background-mode-light": "1fb8cae41b3c0e61f90b3e781cfacacb9ec6300f",
         "component.form-control.background-mode-dark": "800896b55af2f0b1a278a507fa92de5c07ea3c5a",
-        "component.form-control.default.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
-        "component.form-control.default.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
         "component.form-control.border-radius": "6b0d92a106c72ab1fc55b4da0d3212b7457c6266",
         "component.form-control.border-width": "8e7165ce83b51e8d8c5804e9648256b1a925110d",
         "component.form-control.large.padding-x": "8bafb3d62274164e83986f2c47b05e0b0acc9d76",
         "component.form-control.large.padding-y": "d786c734f488f695ff078ec37da1f8f26b0012d8",
         "component.breadcrumb.gap": "d3a6447d7c6f3f0568ebc2acb644e9c5e90eb360",
-        "component.breadcrumb.default.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
-        "component.breadcrumb.default.line-height": "bc4c5a5a333b1b1777d3c34c53c6ea4be968998a",
         "component.breadcrumb.font-weight": "ebe28d71dc5c7e081b7030acb9ca2bb694c89b91",
         "component.breadcrumb.small.font-size": "1d3f58b03031f1d0b24f579b0e29610a83514a66",
         "component.breadcrumb.small.line-height": "ca289dccc19bd8df71309b4e2faf8fd4870c716a",
-        "component.button.default.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
-        "component.button.default.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
-        "component.button.default.gap": "de4b1c720189dd475daa8a4d5755735f404075e0",
-        "component.button.default.border-radius": "c52e28e249e8d4d0bd80bd72cc3677863c53e9d5",
-        "component.button.default.font-size": "5d440be82a8a5b0109d933e8fe38aebcc74b081a",
-        "component.button.default.font-weight": "0cad9682dc7a7fc19bd73a7ed24a04e2d6d2f2f8",
-        "component.button.default.line-height": "a88edb52bf9527fe551fa429fa44b06afc71fa2f",
-        "component.button.default.letter-spacing": "4964e969fc68d15f7bb87b79dcaaa0435b4f152e",
         "component.button.small.padding-x": "8a25934cb6e4fa04f6976d8ba0110e3abbab3ee0",
         "component.button.small.padding-y": "d1c0fb8d6e03751e875f0d10c8ccc84685d87d7f",
         "component.button.small.gap": "79c238f9ca40f23b0d8973f4f795a4f348fbf1e3",
@@ -18758,9 +18743,6 @@
         "component.button.ghost.active.text-color-mode-light": "ec37bc7cfea0b26b89e4cdf0f88bbe4d0a91704e",
         "component.button.ghost.active.text-color-mode-dark": "abb2f5e2be831def04e9aff0c6e0e4c8cdaf0165",
         "component.link.gap": "2f4aebf8a67caad17e502b4b4ccd401c7da000e7",
-        "component.link.default.font-size": "1e23a668a65237daecf4b89b0d9c762ec05a899e",
-        "component.link.default.font-weight": "23db3912f6a2ff5f7112c1cb564601e54e22f3f5",
-        "component.link.default.line-height": "e13b7a7382d5221c3bd4bd4531a3b38475e528ce",
         "component.link.large.font-size": "73a10906c67fce96354e5c997b407c1c4648b774",
         "component.link.large.font-weight": "5854e0c49109128ece1f63e002459c42c18029cc",
         "component.link.large.line-height": "665f3e7985e72dbea0a715f200dc49423e1cf553",
@@ -18774,15 +18756,9 @@
         "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
         "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
         "component.list-item.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.list-item.default.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.default.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.default.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.list-item.contained.default.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.list-item.contained.default.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.list-item.contained.default.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
         "component.list-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
         "component.list-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
         "component.list-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
@@ -18807,11 +18783,6 @@
         "component.drawer-picker.padding-y": "8fe47bbad61e3168fcadfecc226c9929ac562fe5",
         "component.avatar.squared.border-radius": "0e7fb4c2e624799d5aec922eedabe253e8bd9a0e",
         "component.badge.border-radius": "a9ba5919f6061ae46caeec19821dbac7fe6b94dc",
-        "component.badge.default.font-size": "04d6ca0a30a22259d455f52a0a2d7e533a674bcc",
-        "component.badge.default.font-weight": "b92741b28822eee779425c8610b188a8c93550fe",
-        "component.badge.default.line-height": "7fa9d15041a651b77ddbdb594b1e00045467502f",
-        "component.badge.default.padding-x": "2db67eb4e1fda61e77e8b087036fe7cc3ca0455b",
-        "component.badge.default.letter-spacing": "c88b18fd96f8aba66fe1dcf16ee8ba67411d81da",
         "component.badge.large.font-size": "9085a27f41cea8904ca57bf6bd0b566729bff297",
         "component.badge.large.font-weight": "03f33bce084ff2a6b8f19966a36cb03b92c6fe6b",
         "component.badge.large.line-height": "c1ca41a8490e6c2b4f3ccf0e3a447bed2ba08b4b",
@@ -18863,7 +18834,36 @@
         "font-weight.h5": "ed0afe03fe16bf5cbd8b40f00b57c62d24119fde",
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
-        "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7"
+        "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
+        "component.button.medium.padding-x": "23903b885039a6c63675fedf9faafe6a9d8b4fda",
+        "component.button.medium.padding-y": "9393ec7577c88d514dddad89983bd90c9bbce7e8",
+        "component.button.medium.gap": "de4b1c720189dd475daa8a4d5755735f404075e0",
+        "component.button.medium.border-radius": "c52e28e249e8d4d0bd80bd72cc3677863c53e9d5",
+        "component.button.medium.font-weight": "0cad9682dc7a7fc19bd73a7ed24a04e2d6d2f2f8",
+        "component.button.medium.line-height": "a88edb52bf9527fe551fa429fa44b06afc71fa2f",
+        "component.button.medium.font-size": "5d440be82a8a5b0109d933e8fe38aebcc74b081a",
+        "component.button.medium.letter-spacing": "4964e969fc68d15f7bb87b79dcaaa0435b4f152e",
+        "component.badge.medium.padding-x": "2db67eb4e1fda61e77e8b087036fe7cc3ca0455b",
+        "component.badge.medium.font-weight": "b92741b28822eee779425c8610b188a8c93550fe",
+        "component.badge.medium.line-height": "7fa9d15041a651b77ddbdb594b1e00045467502f",
+        "component.badge.medium.font-size": "04d6ca0a30a22259d455f52a0a2d7e533a674bcc",
+        "component.badge.medium.letter-spacing": "c88b18fd96f8aba66fe1dcf16ee8ba67411d81da",
+        "component.breadcrumb.medium.line-height": "bc4c5a5a333b1b1777d3c34c53c6ea4be968998a",
+        "component.breadcrumb.medium.font-size": "7141a4c829900033c233ec9fa84edb3efb8a2e16",
+        "component.form-control.medium.padding-x": "f312114c81db6f447bb0fde51ab5aeb7c2f9c0db",
+        "component.form-control.medium.padding-y": "01921826ba21c08fe513f8cb4a534d6eda198009",
+        "component.link.medium.font-weight": "23db3912f6a2ff5f7112c1cb564601e54e22f3f5",
+        "component.link.medium.line-height": "e13b7a7382d5221c3bd4bd4531a3b38475e528ce",
+        "component.link.medium.font-size": "1e23a668a65237daecf4b89b0d9c762ec05a899e",
+        "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
+        "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
+        "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
+        "component.tag.medium.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
+        "component.tag.medium.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
+        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
