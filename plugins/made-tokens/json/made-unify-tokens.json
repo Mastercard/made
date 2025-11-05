@@ -5632,11 +5632,11 @@
         "background": {
           "off-mode-light": {
             "$type": "color",
-            "$value": "{color.background.feedback.neutral.hover-mode-light}"
+            "$value": "{color.border.input-mode-light}"
           },
           "off-mode-dark": {
             "$type": "color",
-            "$value": "{color.background.feedback.neutral.hover-mode-dark}"
+            "$value": "{color.border.input-mode-dark}"
           },
           "on-mode-light": {
             "$type": "color",
@@ -9215,11 +9215,11 @@
         "background": {
           "off-mode-light": {
             "$type": "color",
-            "$value": "{color.background.feedback.neutral.hover-mode-light}"
+            "$value": "{color.border.input-mode-light}"
           },
           "off-mode-dark": {
             "$type": "color",
-            "$value": "{color.background.feedback.neutral.hover-mode-dark}"
+            "$value": "{color.border.input-mode-dark}"
           },
           "on-mode-light": {
             "$type": "color",
@@ -13292,11 +13292,11 @@
         "background": {
           "off-mode-light": {
             "$type": "color",
-            "$value": "{color.background.feedback.neutral.hover-mode-light}"
+            "$value": "{color.border.input-mode-light}"
           },
           "off-mode-dark": {
             "$type": "color",
-            "$value": "{color.background.feedback.neutral.hover-mode-dark}"
+            "$value": "{color.border.input-mode-dark}"
           },
           "on-mode-light": {
             "$type": "color",
