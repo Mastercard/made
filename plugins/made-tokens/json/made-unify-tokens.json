@@ -13983,13 +13983,13 @@
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-light}",
+              "$value": "{color.background.brand.secondary.active-mode-light}",
               "$description": "The hover state color for the color.background.brand.secondary.default token. [brand; accent; secondary; hover; mouse over; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-light}",
+              "$value": "{color.background.brand.secondary.active-mode-light}",
               "$description": "The active state color for the color.background.brand.secondary.default token. [brand; accent; secondary; active; semantic; role; decision; alias;]"
             }
           }
@@ -15159,13 +15159,13 @@
             "hover": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.hover-mode-dark}",
+              "$value": "{color.background.brand.secondary.hover-mode-dark}",
               "$description": "The hover state color for the color.background.brand.secondary.default token. [brand; accent; secondary; hover; mouse over; semantic; role; decision; alias;]"
             },
             "active": {
               "$colorSchemeToken": "true",
               "$type": "color",
-              "$value": "{color.background.brand.primary.active-mode-dark}",
+              "$value": "{color.background.brand.secondary.active-mode-dark}",
               "$description": "The active state color for the color.background.brand.secondary.default token. [brand; accent; secondary; active; semantic; role; decision; alias;]"
             }
           }
