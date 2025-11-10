@@ -4365,15 +4365,17 @@
           "$value": "{color.border.none}"
         },
         "day": {
-          "background-selected-mode-light": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-light}"
-          },
-          "background-selected-mode-dark": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-dark}"
+          "selected": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-dark}"
+            }
           },
           "font-size": {
             "$componentLevelToken": "true",
@@ -4390,31 +4392,37 @@
             "$type": "lineHeights",
             "$value": "{line.height.rem-04}"
           },
-          "background-hover-mode-light": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.surface.hover-mode-light}"
+          "hover": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-dark}"
+            }
           },
-          "background-hover-mode-dark": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.surface.hover-mode-dark}"
+          "in-range": {
+            "background-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.secondary-mode-light}"
+            },
+            "background-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.secondary-mode-dark}"
+            }
           },
-          "background-in-range-mode-light": {
-            "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-light}"
-          },
-          "background-in-range-mode-dark": {
-            "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-dark}"
-          },
-          "background-selected-hover-mode-light": {
-            "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-light}"
-          },
-          "background-selected-hover-mode-dark": {
-            "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-dark}"
+          "selected-hover": {
+            "background-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-light}"
+            },
+            "background-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-dark}"
+            }
           }
         },
         "padding-x": {
@@ -7962,15 +7970,17 @@
           "$value": "{color.border.none}"
         },
         "day": {
-          "background-selected-mode-light": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-light}"
-          },
-          "background-selected-mode-dark": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-dark}"
+          "selected": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-dark}"
+            }
           },
           "font-size": {
             "$componentLevelToken": "true",
@@ -7987,31 +7997,37 @@
             "$type": "lineHeights",
             "$value": "{line.height.rem-04}"
           },
-          "background-hover-mode-light": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.surface.hover-mode-light}"
+          "hover": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-dark}"
+            }
           },
-          "background-hover-mode-dark": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.surface.hover-mode-dark}"
+          "in-range": {
+            "background-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.secondary-mode-light}"
+            },
+            "background-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.secondary-mode-dark}"
+            }
           },
-          "background-in-range-mode-light": {
-            "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-light}"
-          },
-          "background-in-range-mode-dark": {
-            "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-dark}"
-          },
-          "background-selected-hover-mode-light": {
-            "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-light}"
-          },
-          "background-selected-hover-mode-dark": {
-            "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-dark}"
+          "selected-hover": {
+            "background-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-light}"
+            },
+            "background-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-dark}"
+            }
           }
         },
         "padding-x": {
@@ -12339,35 +12355,41 @@
           "$value": "{color.border.none}"
         },
         "day": {
-          "background-selected-mode-light": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-light}"
+          "selected": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-dark}"
+            }
           },
-          "background-selected-mode-dark": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-dark}"
+          "selected-hover": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.hover-mode-dark}"
+            }
           },
-          "background-selected-hover-mode-light": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-light}"
-          },
-          "background-selected-hover-mode-dark": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.hover-mode-dark}"
-          },
-          "background-in-range-mode-light": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-light}"
-          },
-          "background-in-range-mode-dark": {
-            "$componentLevelToken": "true",
-            "$type": "color",
-            "$value": "{color.background.surface.secondary-mode-dark}"
+          "in-range": {
+            "background-mode-light": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.secondary-mode-light}"
+            },
+            "background-mode-dark": {
+              "$componentLevelToken": "true",
+              "$type": "color",
+              "$value": "{color.background.surface.secondary-mode-dark}"
+            }
           },
           "font-size": {
             "$componentLevelToken": "true",
@@ -12384,13 +12406,15 @@
             "$type": "lineHeights",
             "$value": "{line.height.rem-04}"
           },
-          "background-hover-mode-light": {
-            "$type": "color",
-            "$value": "{color.background.surface.hover-mode-light}"
-          },
-          "background-hover-mode-dark": {
-            "$type": "color",
-            "$value": "{color.background.surface.hover-mode-dark}"
+          "hover": {
+            "background-mode-light": {
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-light}"
+            },
+            "background-mode-dark": {
+              "$type": "color",
+              "$value": "{color.background.surface.hover-mode-dark}"
+            }
           }
         },
         "border-radius": {
@@ -14813,7 +14837,7 @@
           "background-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{component.date-picker.day.background-hover-mode-light}"
+            "$value": "{component.date-picker.day.hover.background-mode-light}"
           },
           "background-selected": {
             "$colorSchemeToken": "true",
@@ -14822,12 +14846,12 @@
           },
           "background-selected-hover": {
             "$type": "color",
-            "$value": "{component.date-picker.day.background-selected-hover-mode-light}",
+            "$value": "{component.date-picker.day.selected-hover.background-mode-light}",
             "$description": "Hover color for selected day elements in the date range calendar"
           },
           "background-in-range": {
             "$type": "color",
-            "$value": "{component.date-picker.day.background-in-range-mode-light}"
+            "$value": "{component.date-picker.day.in-range.background-mode-light}"
           }
         }
       },
@@ -16004,7 +16028,7 @@
           "background-hover": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{component.date-picker.day.background-hover-mode-dark}"
+            "$value": "{component.date-picker.day.hover.background-mode-dark}"
           },
           "background-selected": {
             "$colorSchemeToken": "true",
@@ -16013,12 +16037,12 @@
           },
           "background-selected-hover": {
             "$type": "color",
-            "$value": "{component.date-picker.day.background-selected-hover-mode-dark}",
+            "$value": "{component.date-picker.day.selected-hover.background-mode-dark}",
             "$description": "Hover color for selected day elements in the date range calendar"
           },
           "background-in-range": {
             "$type": "color",
-            "$value": "{component.date-picker.day.background-in-range-mode-dark}"
+            "$value": "{component.date-picker.day.in-range.background-mode-dark}"
           }
         }
       },
@@ -17181,17 +17205,9 @@
         "component.stepper.subtitle.font-weight": "fd55f75319ce725aed4c386ef40d5da649d60532",
         "component.date-picker.border-color-mode-light": "3977bd3fd58730290eaeb020172f3beaadf4e5bc",
         "component.date-picker.border-color-mode-dark": "c5afd302e5695a761100ec7e0bd3e4760680a343",
-        "component.date-picker.day.background-selected-mode-light": "e80d1395598360aac6cd1f3678d10340ddd14d3b",
-        "component.date-picker.day.background-selected-mode-dark": "65a75a7c14e3673d7568e3dd0216f9ed95d7fb23",
         "component.date-picker.day.font-size": "549f0b264acbc0c9dd14a73fb611785d9bfd76ed",
         "component.date-picker.day.font-weight": "c5ae32e15a18a12e59d3f387d9998aeb74612b5e",
         "component.date-picker.day.line-height": "89baa7bbcd34d713244bb53506b50cb8fdf7fff4",
-        "component.date-picker.day.background-hover-mode-light": "367ab1016a1267f35dbe5aa39196ddf093c054b4",
-        "component.date-picker.day.background-hover-mode-dark": "dbe2eb0f70399120c2306acbf8a368c22da9f4ff",
-        "component.date-picker.day.background-in-range-mode-light": "6078f17753e557f7c8bacb3976c5d50764d5d5b1",
-        "component.date-picker.day.background-in-range-mode-dark": "dd90bf189defa89b1e0500a7bb1cbf6120f6c078",
-        "component.date-picker.day.background-selected-hover-mode-light": "28cddc9893bc5433aa45659ced03eb66a2dd83fc",
-        "component.date-picker.day.background-selected-hover-mode-dark": "df5284c522789f4e2169c022532f7780c5f47be4",
         "component.date-picker.padding-x": "3a94a61bbbc9b20cd008922f39d6fa2a2828b859",
         "component.date-picker.padding-y": "269ae7378db8ce5538b923d568d42cce1ef42b4c",
         "component.date-picker.border-radius": "05af2505e660462c92f20502dcc105e5199cb1b5",
@@ -17448,7 +17464,15 @@
         "component.link.neutral.active.text-color-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
         "component.link.neutral.active.text-color-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
         "component.link.neutral.visited.text-color-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
-        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d"
+        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d",
+        "component.date-picker.day.selected.background-mode-light": "e80d1395598360aac6cd1f3678d10340ddd14d3b",
+        "component.date-picker.day.selected.background-mode-dark": "65a75a7c14e3673d7568e3dd0216f9ed95d7fb23",
+        "component.date-picker.day.hover.background-mode-light": "367ab1016a1267f35dbe5aa39196ddf093c054b4",
+        "component.date-picker.day.hover.background-mode-dark": "dbe2eb0f70399120c2306acbf8a368c22da9f4ff",
+        "component.date-picker.day.selected-hover.background-mode-light": "28cddc9893bc5433aa45659ced03eb66a2dd83fc",
+        "component.date-picker.day.selected-hover.background-mode-dark": "df5284c522789f4e2169c022532f7780c5f47be4",
+        "component.date-picker.day.in-range.background-mode-light": "6078f17753e557f7c8bacb3976c5d50764d5d5b1",
+        "component.date-picker.day.in-range.background-mode-dark": "dd90bf189defa89b1e0500a7bb1cbf6120f6c078"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -17880,17 +17904,9 @@
         "component.stepper.subtitle.font-weight": "fd55f75319ce725aed4c386ef40d5da649d60532",
         "component.date-picker.border-color-mode-light": "3977bd3fd58730290eaeb020172f3beaadf4e5bc",
         "component.date-picker.border-color-mode-dark": "c5afd302e5695a761100ec7e0bd3e4760680a343",
-        "component.date-picker.day.background-selected-mode-light": "e80d1395598360aac6cd1f3678d10340ddd14d3b",
-        "component.date-picker.day.background-selected-mode-dark": "65a75a7c14e3673d7568e3dd0216f9ed95d7fb23",
         "component.date-picker.day.font-size": "549f0b264acbc0c9dd14a73fb611785d9bfd76ed",
         "component.date-picker.day.font-weight": "c5ae32e15a18a12e59d3f387d9998aeb74612b5e",
         "component.date-picker.day.line-height": "89baa7bbcd34d713244bb53506b50cb8fdf7fff4",
-        "component.date-picker.day.background-hover-mode-light": "367ab1016a1267f35dbe5aa39196ddf093c054b4",
-        "component.date-picker.day.background-hover-mode-dark": "dbe2eb0f70399120c2306acbf8a368c22da9f4ff",
-        "component.date-picker.day.background-in-range-mode-light": "6078f17753e557f7c8bacb3976c5d50764d5d5b1",
-        "component.date-picker.day.background-in-range-mode-dark": "dd90bf189defa89b1e0500a7bb1cbf6120f6c078",
-        "component.date-picker.day.background-selected-hover-mode-light": "28cddc9893bc5433aa45659ced03eb66a2dd83fc",
-        "component.date-picker.day.background-selected-hover-mode-dark": "df5284c522789f4e2169c022532f7780c5f47be4",
         "component.date-picker.padding-x": "3a94a61bbbc9b20cd008922f39d6fa2a2828b859",
         "component.date-picker.padding-y": "269ae7378db8ce5538b923d568d42cce1ef42b4c",
         "component.date-picker.border-radius": "05af2505e660462c92f20502dcc105e5199cb1b5",
@@ -18149,7 +18165,15 @@
         "component.link.neutral.active.text-color-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
         "component.link.neutral.active.text-color-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
         "component.link.neutral.visited.text-color-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
-        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d"
+        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d",
+        "component.date-picker.day.selected.background-mode-light": "e80d1395598360aac6cd1f3678d10340ddd14d3b",
+        "component.date-picker.day.selected.background-mode-dark": "65a75a7c14e3673d7568e3dd0216f9ed95d7fb23",
+        "component.date-picker.day.hover.background-mode-light": "367ab1016a1267f35dbe5aa39196ddf093c054b4",
+        "component.date-picker.day.hover.background-mode-dark": "dbe2eb0f70399120c2306acbf8a368c22da9f4ff",
+        "component.date-picker.day.selected-hover.background-mode-light": "28cddc9893bc5433aa45659ced03eb66a2dd83fc",
+        "component.date-picker.day.selected-hover.background-mode-dark": "df5284c522789f4e2169c022532f7780c5f47be4",
+        "component.date-picker.day.in-range.background-mode-light": "6078f17753e557f7c8bacb3976c5d50764d5d5b1",
+        "component.date-picker.day.in-range.background-mode-dark": "dd90bf189defa89b1e0500a7bb1cbf6120f6c078"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -18550,17 +18574,9 @@
         "component.stepper.subtitle.font-weight": "fd55f75319ce725aed4c386ef40d5da649d60532",
         "component.date-picker.border-color-mode-light": "3977bd3fd58730290eaeb020172f3beaadf4e5bc",
         "component.date-picker.border-color-mode-dark": "c5afd302e5695a761100ec7e0bd3e4760680a343",
-        "component.date-picker.day.background-selected-mode-light": "e80d1395598360aac6cd1f3678d10340ddd14d3b",
-        "component.date-picker.day.background-selected-mode-dark": "65a75a7c14e3673d7568e3dd0216f9ed95d7fb23",
         "component.date-picker.day.font-size": "549f0b264acbc0c9dd14a73fb611785d9bfd76ed",
         "component.date-picker.day.font-weight": "c5ae32e15a18a12e59d3f387d9998aeb74612b5e",
         "component.date-picker.day.line-height": "89baa7bbcd34d713244bb53506b50cb8fdf7fff4",
-        "component.date-picker.day.background-hover-mode-light": "367ab1016a1267f35dbe5aa39196ddf093c054b4",
-        "component.date-picker.day.background-hover-mode-dark": "dbe2eb0f70399120c2306acbf8a368c22da9f4ff",
-        "component.date-picker.day.background-in-range-mode-light": "6078f17753e557f7c8bacb3976c5d50764d5d5b1",
-        "component.date-picker.day.background-in-range-mode-dark": "dd90bf189defa89b1e0500a7bb1cbf6120f6c078",
-        "component.date-picker.day.background-selected-hover-mode-light": "28cddc9893bc5433aa45659ced03eb66a2dd83fc",
-        "component.date-picker.day.background-selected-hover-mode-dark": "df5284c522789f4e2169c022532f7780c5f47be4",
         "component.date-picker.padding-x": "3a94a61bbbc9b20cd008922f39d6fa2a2828b859",
         "component.date-picker.padding-y": "269ae7378db8ce5538b923d568d42cce1ef42b4c",
         "component.date-picker.border-radius": "05af2505e660462c92f20502dcc105e5199cb1b5",
@@ -18817,7 +18833,15 @@
         "component.link.neutral.active.text-color-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
         "component.link.neutral.active.text-color-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
         "component.link.neutral.visited.text-color-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
-        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d"
+        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d",
+        "component.date-picker.day.selected.background-mode-light": "e80d1395598360aac6cd1f3678d10340ddd14d3b",
+        "component.date-picker.day.selected.background-mode-dark": "65a75a7c14e3673d7568e3dd0216f9ed95d7fb23",
+        "component.date-picker.day.hover.background-mode-light": "367ab1016a1267f35dbe5aa39196ddf093c054b4",
+        "component.date-picker.day.hover.background-mode-dark": "dbe2eb0f70399120c2306acbf8a368c22da9f4ff",
+        "component.date-picker.day.selected-hover.background-mode-light": "28cddc9893bc5433aa45659ced03eb66a2dd83fc",
+        "component.date-picker.day.selected-hover.background-mode-dark": "df5284c522789f4e2169c022532f7780c5f47be4",
+        "component.date-picker.day.in-range.background-mode-light": "6078f17753e557f7c8bacb3976c5d50764d5d5b1",
+        "component.date-picker.day.in-range.background-mode-dark": "dd90bf189defa89b1e0500a7bb1cbf6120f6c078"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
