@@ -3454,74 +3454,6 @@
           "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly. Its primary use is for text colors on cards that use images as backgrounds."
         }
       },
-      "link": {
-        "default-mode-light": {
-          "$type": "color",
-          "$value": "{color.text.brand-mode-light}"
-        },
-        "default-mode-dark": {
-          "$type": "color",
-          "$value": "{color.white}"
-        },
-        "hover-mode-light": {
-          "$type": "color",
-          "$value": "{color.orange.700}"
-        },
-        "hover-mode-dark": {
-          "$type": "color",
-          "$value": "{color.neutral.100}"
-        },
-        "active-mode-light": {
-          "$type": "color",
-          "$value": "{color.orange.800}"
-        },
-        "active-mode-dark": {
-          "$type": "color",
-          "$value": "{color.neutral.300}"
-        },
-        "visited-mode-light": {
-          "$type": "color",
-          "$value": "{color.teal.700}"
-        },
-        "visited-mode-dark": {
-          "$type": "color",
-          "$value": "{color.violet.400}"
-        },
-        "neutral": {
-          "default-mode-light": {
-            "$type": "color",
-            "$value": "{color.gray.1600}"
-          },
-          "default-mode-dark": {
-            "$type": "color",
-            "$value": "{color.white}"
-          },
-          "hover-mode-light": {
-            "$type": "color",
-            "$value": "{color.gray.1400}"
-          },
-          "hover-mode-dark": {
-            "$type": "color",
-            "$value": "{color.neutral.100}"
-          },
-          "active-mode-light": {
-            "$type": "color",
-            "$value": "{color.gray.1800}"
-          },
-          "active-mode-dark": {
-            "$type": "color",
-            "$value": "{color.neutral.300}"
-          },
-          "visited-mode-light": {
-            "$type": "color",
-            "$value": "{color.link.visited-mode-light}"
-          },
-          "visited-mode-dark": {
-            "$type": "color",
-            "$value": "{color.violet.400}"
-          }
-        }
-      },
       "shadow": {
         "primary-mode-light": {
           "$extensions": {
@@ -3603,117 +3535,130 @@
         }
       }
     },
-    "font-family": {
-      "primary": {
-        "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      },
-      "secondary": {
-        "$type": "fontFamilies",
-        "$value": "MarkForMCNrw, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      },
-      "tertiary": {
-        "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      }
-    },
-    "border": {
-      "radius": {
-        "none": {
-          "$type": "borderRadius",
-          "$value": "0",
-          "$description": "[semantic; role; decision; alias;]"
-        },
-        "default": {
-          "themeable": "Yes",
-          "$type": "borderRadius",
-          "$value": "{border-radius.03}",
-          "$description": "[semantic; role; decision; alias;]"
-        },
-        "small": {
-          "themeable": "Yes",
-          "$type": "borderRadius",
-          "$value": "{size-space.0point5-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "themeable": "Yes",
-          "$type": "borderRadius",
-          "$value": "{size-space.2-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "full": {
-          "$type": "borderRadius",
-          "$value": "9999",
-          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
-        },
-        "focus-offset": {
-          "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0point5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
-        }
-      }
-    },
-    "grid": {
-      "gutters": {
-        "small": {
-          "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "x-large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
-        },
-        "xx-large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
-        }
-      },
-      "margin": {
-        "small": {
-          "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "$type": "spacing",
-          "$value": "{size-space.8-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "x-large": {
-          "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
-        },
-        "xx-large": {
-          "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
-        }
-      }
-    },
     "component": {
+      "link": {
+        "default": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.text.brand-mode-light}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.white}"
+          }
+        },
+        "hover": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.orange.700}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.neutral.100}"
+          }
+        },
+        "active": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.orange.800}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.neutral.300}"
+          }
+        },
+        "visited": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.teal.700}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.violet.400}"
+          }
+        },
+        "neutral": {
+          "default": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.1600}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.white}"
+            }
+          },
+          "hover": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.1400}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.neutral.100}"
+            }
+          },
+          "active": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.1800}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.neutral.300}"
+            }
+          },
+          "visited": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{component.link.visited.text-color-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.violet.400}"
+            }
+          }
+        },
+        "gap": {
+          "$componentLevelToken": "true",
+          "$type": "spacing",
+          "$value": "{size-space.1-x}"
+        },
+        "medium": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.body.default}"
+          },
+          "font-weight": {
+            "$componentLevelToken": "true",
+            "$type": "fontWeights",
+            "$value": "{font-weight.medium}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          }
+        },
+        "large": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.body.large}"
+          },
+          "font-weight": {
+            "$componentLevelToken": "true",
+            "$type": "fontWeights",
+            "$value": "{font-weight.medium}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-05}"
+          }
+        }
+      },
       "accordion": {
         "contained": {
           "border-color-mode-light": {
@@ -5189,47 +5134,6 @@
           }
         }
       },
-      "link": {
-        "gap": {
-          "$componentLevelToken": "true",
-          "$type": "spacing",
-          "$value": "{size-space.1-x}"
-        },
-        "medium": {
-          "font-size": {
-            "$componentLevelToken": "true",
-            "$type": "fontSizes",
-            "$value": "{font-size.body.default}"
-          },
-          "font-weight": {
-            "$componentLevelToken": "true",
-            "$type": "fontWeights",
-            "$value": "{font-weight.medium}"
-          },
-          "line-height": {
-            "$componentLevelToken": "true",
-            "$type": "lineHeights",
-            "$value": "{line.height.rem-04}"
-          }
-        },
-        "large": {
-          "font-size": {
-            "$componentLevelToken": "true",
-            "$type": "fontSizes",
-            "$value": "{font-size.body.large}"
-          },
-          "font-weight": {
-            "$componentLevelToken": "true",
-            "$type": "fontWeights",
-            "$value": "{font-weight.medium}"
-          },
-          "line-height": {
-            "$componentLevelToken": "true",
-            "$type": "lineHeights",
-            "$value": "{line.height.rem-05}"
-          }
-        }
-      },
       "pagination": {
         "gap": {
           "$componentLevelToken": "true",
@@ -5694,6 +5598,116 @@
             "$type": "borderRadius",
             "$value": "{border.radius.none}"
           }
+        }
+      }
+    },
+    "font-family": {
+      "primary": {
+        "$type": "fontFamilies",
+        "$value": "Mark Offc For MC, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      },
+      "secondary": {
+        "$type": "fontFamilies",
+        "$value": "MarkForMCNrw, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      },
+      "tertiary": {
+        "$type": "fontFamilies",
+        "$value": "Mark Offc For MC, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      }
+    },
+    "border": {
+      "radius": {
+        "none": {
+          "$type": "borderRadius",
+          "$value": "0",
+          "$description": "[semantic; role; decision; alias;]"
+        },
+        "default": {
+          "themeable": "Yes",
+          "$type": "borderRadius",
+          "$value": "{border-radius.03}",
+          "$description": "[semantic; role; decision; alias;]"
+        },
+        "small": {
+          "themeable": "Yes",
+          "$type": "borderRadius",
+          "$value": "{size-space.0point5-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "themeable": "Yes",
+          "$type": "borderRadius",
+          "$value": "{size-space.2-x}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "full": {
+          "$type": "borderRadius",
+          "$value": "9999",
+          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
+        },
+        "focus-offset": {
+          "$type": "borderRadius",
+          "$value": "{border.radius.default} + {size-space.0point5-x}",
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "grid": {
+      "gutters": {
+        "small": {
+          "$type": "spacing",
+          "$value": "{size-space.2-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[md; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "x-large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[xl; semantic; role; decision; alias;]"
+        },
+        "xx-large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+        }
+      },
+      "margin": {
+        "small": {
+          "$type": "spacing",
+          "$value": "{size-space.2-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[md; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "$type": "spacing",
+          "$value": "{size-space.8-x}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "x-large": {
+          "$type": "spacing",
+          "$value": "{size-space.10-x}",
+          "$description": "[xl; semantic; role; decision; alias;]"
+        },
+        "xx-large": {
+          "$type": "spacing",
+          "$value": "{size-space.10-x}",
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
       }
     },
@@ -7037,74 +7051,6 @@
           "$description": "A persistent color that does not change across different modes (light and dark). Use this token sparingly. Its primary use is for text colors on cards that use images as backgrounds."
         }
       },
-      "link": {
-        "default-mode-light": {
-          "$type": "color",
-          "$value": "{color.text.brand-mode-light}"
-        },
-        "default-mode-dark": {
-          "$type": "color",
-          "$value": "{color.text.brand-mode-dark}"
-        },
-        "hover-mode-light": {
-          "$type": "color",
-          "$value": "{color.gray.1600}"
-        },
-        "hover-mode-dark": {
-          "$type": "color",
-          "$value": "{color.gray.200}"
-        },
-        "active-mode-light": {
-          "$type": "color",
-          "$value": "{color.gray.1400}"
-        },
-        "active-mode-dark": {
-          "$type": "color",
-          "$value": "{color.gray.400}"
-        },
-        "visited-mode-light": {
-          "$type": "color",
-          "$value": "{color.text.discovery-mode-light}"
-        },
-        "visited-mode-dark": {
-          "$type": "color",
-          "$value": "{color.text.discovery-mode-dark}"
-        },
-        "neutral": {
-          "default-mode-light": {
-            "$type": "color",
-            "$value": "{color.text.primary-mode-light}"
-          },
-          "default-mode-dark": {
-            "$type": "color",
-            "$value": "{color.text.primary-mode-dark}"
-          },
-          "hover-mode-light": {
-            "$type": "color",
-            "$value": "{color.gray.1600}"
-          },
-          "hover-mode-dark": {
-            "$type": "color",
-            "$value": "{color.gray.200}"
-          },
-          "active-mode-light": {
-            "$type": "color",
-            "$value": "{color.gray.1400}"
-          },
-          "active-mode-dark": {
-            "$type": "color",
-            "$value": "{color.gray.400}"
-          },
-          "visited-mode-light": {
-            "$type": "color",
-            "$value": "{color.text.discovery-mode-light}"
-          },
-          "visited-mode-dark": {
-            "$type": "color",
-            "$value": "{color.text.discovery-mode-dark}"
-          }
-        }
-      },
       "shadow": {
         "primary-mode-light": {
           "$extensions": {
@@ -7186,117 +7132,130 @@
         }
       }
     },
-    "font-family": {
-      "primary": {
-        "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      },
-      "secondary": {
-        "$type": "fontFamilies",
-        "$value": "MarkForMCNrw, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      },
-      "tertiary": {
-        "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      }
-    },
-    "border": {
-      "radius": {
-        "none": {
-          "$type": "borderRadius",
-          "$value": "0",
-          "$description": "[semantic; role; decision; alias;]"
-        },
-        "default": {
-          "themeable": "Yes",
-          "$type": "borderRadius",
-          "$value": "{border-radius.05}",
-          "$description": "[semantic; role; decision; alias;]"
-        },
-        "small": {
-          "themeable": "Yes",
-          "$type": "borderRadius",
-          "$value": "{size-space.0point5-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "themeable": "Yes",
-          "$type": "borderRadius",
-          "$value": "{border-radius.08}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "full": {
-          "$type": "borderRadius",
-          "$value": "9999",
-          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
-        },
-        "focus-offset": {
-          "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0point5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
-        }
-      }
-    },
-    "grid": {
-      "gutters": {
-        "small": {
-          "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "x-large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
-        },
-        "xx-large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
-        }
-      },
-      "margin": {
-        "small": {
-          "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "$type": "spacing",
-          "$value": "{size-space.8-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "x-large": {
-          "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
-        },
-        "xx-large": {
-          "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
-        }
-      }
-    },
     "component": {
+      "link": {
+        "default": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.text.brand-mode-light}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.text.brand-mode-dark}"
+          }
+        },
+        "hover": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.gray.1600}"
+          },
+          "text-mode-dark": {
+            "$type": "color",
+            "$value": "{color.gray.200}"
+          }
+        },
+        "active": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.gray.1400}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.gray.400}"
+          }
+        },
+        "visited": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.text.discovery-mode-light}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.text.discovery-mode-dark}"
+          }
+        },
+        "neutral": {
+          "default": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-dark}"
+            }
+          },
+          "hover": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.1600}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.gray.200}"
+            }
+          },
+          "active": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.gray.1400}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.gray.400}"
+            }
+          },
+          "visited": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.discovery-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.text.discovery-mode-dark}"
+            }
+          }
+        },
+        "gap": {
+          "$componentLevelToken": "true",
+          "$type": "spacing",
+          "$value": "{size-space.1-x}"
+        },
+        "medium": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.body.default}"
+          },
+          "font-weight": {
+            "$componentLevelToken": "true",
+            "$type": "fontWeights",
+            "$value": "{font-weight.medium}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          }
+        },
+        "large": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.body.large}"
+          },
+          "font-weight": {
+            "$componentLevelToken": "true",
+            "$type": "fontWeights",
+            "$value": "{font-weight.medium}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-05}"
+          }
+        }
+      },
       "accordion": {
         "contained": {
           "border-color-mode-light": {
@@ -8772,47 +8731,6 @@
           }
         }
       },
-      "link": {
-        "gap": {
-          "$componentLevelToken": "true",
-          "$type": "spacing",
-          "$value": "{size-space.1-x}"
-        },
-        "medium": {
-          "font-size": {
-            "$componentLevelToken": "true",
-            "$type": "fontSizes",
-            "$value": "{font-size.body.default}"
-          },
-          "font-weight": {
-            "$componentLevelToken": "true",
-            "$type": "fontWeights",
-            "$value": "{font-weight.medium}"
-          },
-          "line-height": {
-            "$componentLevelToken": "true",
-            "$type": "lineHeights",
-            "$value": "{line.height.rem-04}"
-          }
-        },
-        "large": {
-          "font-size": {
-            "$componentLevelToken": "true",
-            "$type": "fontSizes",
-            "$value": "{font-size.body.large}"
-          },
-          "font-weight": {
-            "$componentLevelToken": "true",
-            "$type": "fontWeights",
-            "$value": "{font-weight.medium}"
-          },
-          "line-height": {
-            "$componentLevelToken": "true",
-            "$type": "lineHeights",
-            "$value": "{line.height.rem-05}"
-          }
-        }
-      },
       "pagination": {
         "gap": {
           "$componentLevelToken": "true",
@@ -9277,6 +9195,116 @@
             "$type": "borderRadius",
             "$value": "{border.radius.none}"
           }
+        }
+      }
+    },
+    "font-family": {
+      "primary": {
+        "$type": "fontFamilies",
+        "$value": "Mark Offc For MC, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      },
+      "secondary": {
+        "$type": "fontFamilies",
+        "$value": "MarkForMCNrw, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      },
+      "tertiary": {
+        "$type": "fontFamilies",
+        "$value": "Mark Offc For MC, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      }
+    },
+    "border": {
+      "radius": {
+        "none": {
+          "$type": "borderRadius",
+          "$value": "0",
+          "$description": "[semantic; role; decision; alias;]"
+        },
+        "default": {
+          "themeable": "Yes",
+          "$type": "borderRadius",
+          "$value": "{border-radius.05}",
+          "$description": "[semantic; role; decision; alias;]"
+        },
+        "small": {
+          "themeable": "Yes",
+          "$type": "borderRadius",
+          "$value": "{size-space.0point5-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "themeable": "Yes",
+          "$type": "borderRadius",
+          "$value": "{border-radius.08}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "full": {
+          "$type": "borderRadius",
+          "$value": "9999",
+          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
+        },
+        "focus-offset": {
+          "$type": "borderRadius",
+          "$value": "{border.radius.default} + {size-space.0point5-x}",
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "grid": {
+      "gutters": {
+        "small": {
+          "$type": "spacing",
+          "$value": "{size-space.2-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[md; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "x-large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[xl; semantic; role; decision; alias;]"
+        },
+        "xx-large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+        }
+      },
+      "margin": {
+        "small": {
+          "$type": "spacing",
+          "$value": "{size-space.2-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[md; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "$type": "spacing",
+          "$value": "{size-space.8-x}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "x-large": {
+          "$type": "spacing",
+          "$value": "{size-space.10-x}",
+          "$description": "[xl; semantic; role; decision; alias;]"
+        },
+        "xx-large": {
+          "$type": "spacing",
+          "$value": "{size-space.10-x}",
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
       }
     },
@@ -10646,74 +10674,6 @@
           "$value": "{color.purple.400}"
         }
       },
-      "link": {
-        "default-mode-light": {
-          "$type": "color",
-          "$value": "{color.text.brand-mode-light}"
-        },
-        "default-mode-dark": {
-          "$type": "color",
-          "$value": "{color.white}"
-        },
-        "hover-mode-light": {
-          "$type": "color",
-          "$value": "{color.neutral.600}"
-        },
-        "hover-mode-dark": {
-          "$type": "color",
-          "$value": "{color.neutral.100}"
-        },
-        "active-mode-light": {
-          "$type": "color",
-          "$value": "{color.neutral.950}"
-        },
-        "active-mode-dark": {
-          "$type": "color",
-          "$value": "{color.neutral.300}"
-        },
-        "visited-mode-light": {
-          "$type": "color",
-          "$value": "{color.text.discovery-mode-light}"
-        },
-        "visited-mode-dark": {
-          "$type": "color",
-          "$value": "{color.violet.400}"
-        },
-        "neutral": {
-          "default-mode-light": {
-            "$type": "color",
-            "$value": "{color.text.primary-mode-light}"
-          },
-          "default-mode-dark": {
-            "$type": "color",
-            "$value": "{color.white}"
-          },
-          "hover-mode-light": {
-            "$type": "color",
-            "$value": "{color.neutral.600}"
-          },
-          "hover-mode-dark": {
-            "$type": "color",
-            "$value": "{color.neutral.100}"
-          },
-          "active-mode-light": {
-            "$type": "color",
-            "$value": "{color.neutral.950}"
-          },
-          "active-mode-dark": {
-            "$type": "color",
-            "$value": "{color.neutral.300}"
-          },
-          "visited-mode-light": {
-            "$type": "color",
-            "$value": "{color.link.visited-mode-light}"
-          },
-          "visited-mode-dark": {
-            "$type": "color",
-            "$value": "{color.violet.400}"
-          }
-        }
-      },
       "shadow": {
         "primary-mode-light": {
           "$extensions": {
@@ -10795,834 +10755,130 @@
         }
       }
     },
-    "grid": {
-      "gutters": {
-        "small": {
-          "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "x-large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
-        },
-        "xx-large": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
-        }
-      },
-      "margin": {
-        "small": {
-          "$type": "spacing",
-          "$value": "{size-space.2-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$type": "spacing",
-          "$value": "{size-space.4-x}",
-          "$description": "[md; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "$type": "spacing",
-          "$value": "{size-space.8-x}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "x-large": {
-          "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xl; semantic; role; decision; alias;]"
-        },
-        "xx-large": {
-          "$type": "spacing",
-          "$value": "{size-space.10-x}",
-          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
-        }
-      }
-    },
-    "border": {
-      "radius": {
-        "none": {
-          "$type": "borderRadius",
-          "$value": "0",
-          "$description": "[semantic; role; decision; alias;]"
-        },
-        "default": {
-          "$type": "borderRadius",
-          "$value": "{border-radius.05}",
-          "$description": "[semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$type": "borderRadius",
-          "$value": "{size-space.0point5-x}",
-          "$description": "[sm; semantic; role; decision; alias;]"
-        },
-        "large": {
-          "$type": "borderRadius",
-          "$value": "{border-radius.08}",
-          "$description": "[lg; semantic; role; decision; alias;]"
-        },
-        "full": {
-          "$type": "borderRadius",
-          "$value": "9999px",
-          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
-        },
-        "focus-offset": {
-          "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0point5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
-        }
-      }
-    },
-    "heading": {
-      "h1": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.h1}",
-          "lineHeight": "{line.height.heading}",
-          "fontSize": "{font-size.h1}",
-          "letterSpacing": "{letter-spacing.h1}",
-          "paragraphSpacing": "{paragraph-spacing.01}",
-          "paragraphIndent": "{size-space.0-x}",
-          "textCase": "{text-case.none}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
-      },
-      "h2": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.h2}",
-          "lineHeight": "{line.height.heading}",
-          "fontSize": "{font-size.h2}",
-          "letterSpacing": "{letter-spacing.h2}",
-          "paragraphSpacing": "{paragraph-spacing.01}",
-          "paragraphIndent": "{size-space.0-x}",
-          "textCase": "{text-case.none}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
-      },
-      "h3": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.h3}",
-          "lineHeight": "{line.height.heading}",
-          "fontSize": "{font-size.h3}",
-          "letterSpacing": "{letter-spacing.h3}",
-          "paragraphSpacing": "{paragraph-spacing.01}",
-          "paragraphIndent": "{size-space.0-x}",
-          "textCase": "{text-case.none}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
-      },
-      "h4": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.h4}",
-          "lineHeight": "{line.height.heading}",
-          "fontSize": "{font-size.h4}",
-          "letterSpacing": "{letter-spacing.h4}",
-          "paragraphSpacing": "{paragraph-spacing.01}",
-          "paragraphIndent": "{size-space.0-x}",
-          "textCase": "{text-case.none}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
-      },
-      "h5": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.h5}",
-          "lineHeight": "{line.height.heading}",
-          "fontSize": "{font-size.h5}",
-          "letterSpacing": "{letter-spacing.h5}",
-          "paragraphSpacing": "{paragraph-spacing.01}",
-          "paragraphIndent": "{size-space.0-x}",
-          "textCase": "{text-case.none}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
-      },
-      "h6": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.h6}",
-          "lineHeight": "{line.height.heading}",
-          "fontSize": "{font-size.h6}",
-          "letterSpacing": "{letter-spacing.h6}",
-          "paragraphSpacing": "{paragraph-spacing.01}",
-          "paragraphIndent": "{size-space.0-x}",
-          "textCase": "{text-case.none}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
-      },
-      "display": {
-        "h1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.h1}",
-            "lineHeight": "{line.height.heading}",
-            "fontSize": "{font-size.15}",
-            "letterSpacing": "{letter-spacing.h1}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "h2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.h1}",
-            "lineHeight": "{line.height.heading}",
-            "fontSize": "{font-size.14}",
-            "letterSpacing": "{letter-spacing.h1}",
-            "paragraphSpacing": "{font-size.14} * -0.02",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "h3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.h1}",
-            "lineHeight": "{line.height.heading}",
-            "fontSize": "{font-size.13}",
-            "letterSpacing": "{letter-spacing.h1}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      }
-    },
-    "eyebrow": {
-      "small": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.eyebrow}",
-          "lineHeight": "{line.height.heading}",
-          "fontSize": "{font-size.02}",
-          "letterSpacing": "{letter-spacing.eyebrow.small}",
-          "paragraphSpacing": "{paragraph-spacing.01}",
-          "paragraphIndent": "{size-space.0-x}",
-          "textCase": "{text-case.uppercase}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
-      },
-      "large": {
-        "$type": "typography",
-        "$value": {
-          "fontFamily": "{font-family.primary}",
-          "fontWeight": "{font-weight.eyebrow}",
-          "lineHeight": "{line.height.heading}",
-          "fontSize": "{font-size.06}",
-          "letterSpacing": "{letter-spacing.eyebrow.large}",
-          "paragraphSpacing": "{paragraph-spacing.01}",
-          "paragraphIndent": "{size-space.0-x}",
-          "textCase": "{text-case.uppercase}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "$description": "[typography; text style; semantic; role; decision; alias;]"
-      }
-    },
-    "link": {
-      "large": {
-        "hover": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.large}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.02}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "default": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.large}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.underline}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      },
-      "medium": {
-        "hover": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-04}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.02}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "default": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-04}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.02}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.underline}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      }
-    },
-    "body": {
-      "bold": {
-        "large": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.large}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.rem-04}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "Medium sizes are best suited to either Web or Product experiences where 1.5x is too spacious. [typography; text style; semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.small}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
-        }
-      },
-      "medium": {
-        "large": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.large}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-04}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.small}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      },
-      "regular": {
-        "large": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.large}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-04}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.small}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      },
-      "secondary": {
-        "large": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.secondary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-05}",
-            "fontSize": "{font-size.body.large}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "medium": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.secondary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-04}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.secondary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.small}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      }
-    },
-    "label": {
-      "bold": {
-        "medium": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.bold}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.small}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      },
-      "medium": {
-        "medium": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.medium}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.small}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      },
-      "regular": {
-        "medium": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.primary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.small}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      },
-      "secondary": {
-        "medium": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.secondary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.default}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        },
-        "small": {
-          "$figmaOnly": "true",
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{font-family.secondary}",
-            "fontWeight": "{font-weight.regular}",
-            "lineHeight": "{line.height.rem-02}",
-            "fontSize": "{font-size.body.small}",
-            "letterSpacing": "{letter-spacing.default}",
-            "paragraphSpacing": "{paragraph-spacing.01}",
-            "paragraphIndent": "{size-space.0-x}",
-            "textCase": "{text-case.none}",
-            "textDecoration": "{text-decoration.none}"
-          },
-          "$description": "[typography; text style; semantic; role; decision; alias;]"
-        }
-      }
-    },
-    "box-shadow": {
-      "none": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "global": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "small": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "0",
-          "color": "{color.box-shadow.primary}",
-          "type": "dropShadow"
-        },
-        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "default": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "3",
-            "spread": "0",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "2",
-            "spread": "-1",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "medium": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-1",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "-2",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "10",
-            "blur": "15",
-            "spread": "-3",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-4",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "x-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "20",
-            "blur": "25",
-            "spread": "-5",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "8",
-            "blur": "10",
-            "spread": "-6",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "xx-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "25",
-            "blur": "50",
-            "spread": "-12",
-            "color": "{color.box-shadow.tertiary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      }
-    },
-    "font-family": {
-      "primary": {
-        "$type": "fontFamilies",
-        "$value": "Geist, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      },
-      "secondary": {
-        "$type": "fontFamilies",
-        "$value": "Geist, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      },
-      "tertiary": {
-        "$type": "fontFamilies",
-        "$value": "Geist Mono, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
-      }
-    },
     "component": {
+      "link": {
+        "default": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.text.brand-mode-light}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.white}"
+          }
+        },
+        "hover": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.neutral.600}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.neutral.100}"
+          }
+        },
+        "active": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.neutral.950}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.neutral.300}"
+          }
+        },
+        "visited": {
+          "text-color-mode-light": {
+            "$type": "color",
+            "$value": "{color.text.discovery-mode-light}"
+          },
+          "text-color-mode-dark": {
+            "$type": "color",
+            "$value": "{color.violet.400}"
+          }
+        },
+        "neutral": {
+          "default": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.text.primary-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.white}"
+            }
+          },
+          "hover": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.neutral.600}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.neutral.100}"
+            }
+          },
+          "active": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{color.neutral.950}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.neutral.300}"
+            }
+          },
+          "visited": {
+            "text-color-mode-light": {
+              "$type": "color",
+              "$value": "{component.link.visited.text-color-mode-light}"
+            },
+            "text-color-mode-dark": {
+              "$type": "color",
+              "$value": "{color.violet.400}"
+            }
+          }
+        },
+        "gap": {
+          "$componentLevelToken": "true",
+          "$type": "spacing",
+          "$value": "{size-space.1-x}"
+        },
+        "medium": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.body.default}"
+          },
+          "font-weight": {
+            "$componentLevelToken": "true",
+            "$type": "fontWeights",
+            "$value": "{font-weight.medium}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          }
+        },
+        "large": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.body.large}"
+          },
+          "font-weight": {
+            "$componentLevelToken": "true",
+            "$type": "fontWeights",
+            "$value": "{font-weight.medium}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-05}"
+          }
+        }
+      },
       "accordion": {
         "padding-x": {
           "$componentLevelToken": "true",
@@ -12541,47 +11797,6 @@
             "$componentLevelToken": "true",
             "$type": "sizing",
             "$value": "{size-space.2-x}"
-          }
-        }
-      },
-      "link": {
-        "gap": {
-          "$componentLevelToken": "true",
-          "$type": "spacing",
-          "$value": "{size-space.1-x}"
-        },
-        "medium": {
-          "font-size": {
-            "$componentLevelToken": "true",
-            "$type": "fontSizes",
-            "$value": "{font-size.body.default}"
-          },
-          "font-weight": {
-            "$componentLevelToken": "true",
-            "$type": "fontWeights",
-            "$value": "{font-weight.medium}"
-          },
-          "line-height": {
-            "$componentLevelToken": "true",
-            "$type": "lineHeights",
-            "$value": "{line.height.rem-04}"
-          }
-        },
-        "large": {
-          "font-size": {
-            "$componentLevelToken": "true",
-            "$type": "fontSizes",
-            "$value": "{font-size.body.large}"
-          },
-          "font-weight": {
-            "$componentLevelToken": "true",
-            "$type": "fontWeights",
-            "$value": "{font-weight.medium}"
-          },
-          "line-height": {
-            "$componentLevelToken": "true",
-            "$type": "lineHeights",
-            "$value": "{line.height.rem-05}"
           }
         }
       },
@@ -13609,6 +12824,833 @@
         }
       }
     },
+    "grid": {
+      "gutters": {
+        "small": {
+          "$type": "spacing",
+          "$value": "{size-space.2-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[md; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "x-large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[xl; semantic; role; decision; alias;]"
+        },
+        "xx-large": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+        }
+      },
+      "margin": {
+        "small": {
+          "$type": "spacing",
+          "$value": "{size-space.2-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$type": "spacing",
+          "$value": "{size-space.4-x}",
+          "$description": "[md; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "$type": "spacing",
+          "$value": "{size-space.8-x}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "x-large": {
+          "$type": "spacing",
+          "$value": "{size-space.10-x}",
+          "$description": "[xl; semantic; role; decision; alias;]"
+        },
+        "xx-large": {
+          "$type": "spacing",
+          "$value": "{size-space.10-x}",
+          "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "border": {
+      "radius": {
+        "none": {
+          "$type": "borderRadius",
+          "$value": "0",
+          "$description": "[semantic; role; decision; alias;]"
+        },
+        "default": {
+          "$type": "borderRadius",
+          "$value": "{border-radius.05}",
+          "$description": "[semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$type": "borderRadius",
+          "$value": "{size-space.0point5-x}",
+          "$description": "[sm; semantic; role; decision; alias;]"
+        },
+        "large": {
+          "$type": "borderRadius",
+          "$value": "{border-radius.08}",
+          "$description": "[lg; semantic; role; decision; alias;]"
+        },
+        "full": {
+          "$type": "borderRadius",
+          "$value": "9999px",
+          "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
+        },
+        "focus-offset": {
+          "$type": "borderRadius",
+          "$value": "{border.radius.default} + {size-space.0point5-x}",
+          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.h1}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h1}",
+          "letterSpacing": "{letter-spacing.h1}",
+          "paragraphSpacing": "{paragraph-spacing.01}",
+          "paragraphIndent": "{size-space.0-x}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
+      },
+      "h2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.h2}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h2}",
+          "letterSpacing": "{letter-spacing.h2}",
+          "paragraphSpacing": "{paragraph-spacing.01}",
+          "paragraphIndent": "{size-space.0-x}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
+      },
+      "h3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.h3}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h3}",
+          "letterSpacing": "{letter-spacing.h3}",
+          "paragraphSpacing": "{paragraph-spacing.01}",
+          "paragraphIndent": "{size-space.0-x}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
+      },
+      "h4": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.h4}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h4}",
+          "letterSpacing": "{letter-spacing.h4}",
+          "paragraphSpacing": "{paragraph-spacing.01}",
+          "paragraphIndent": "{size-space.0-x}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
+      },
+      "h5": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.h5}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h5}",
+          "letterSpacing": "{letter-spacing.h5}",
+          "paragraphSpacing": "{paragraph-spacing.01}",
+          "paragraphIndent": "{size-space.0-x}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
+      },
+      "h6": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.h6}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.h6}",
+          "letterSpacing": "{letter-spacing.h6}",
+          "paragraphSpacing": "{paragraph-spacing.01}",
+          "paragraphIndent": "{size-space.0-x}",
+          "textCase": "{text-case.none}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
+      },
+      "display": {
+        "h1": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.h1}",
+            "lineHeight": "{line.height.heading}",
+            "fontSize": "{font-size.15}",
+            "letterSpacing": "{letter-spacing.h1}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "h2": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.h1}",
+            "lineHeight": "{line.height.heading}",
+            "fontSize": "{font-size.14}",
+            "letterSpacing": "{letter-spacing.h1}",
+            "paragraphSpacing": "{font-size.14} * -0.02",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "h3": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.h1}",
+            "lineHeight": "{line.height.heading}",
+            "fontSize": "{font-size.13}",
+            "letterSpacing": "{letter-spacing.h1}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "eyebrow": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.eyebrow}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.02}",
+          "letterSpacing": "{letter-spacing.eyebrow.small}",
+          "paragraphSpacing": "{paragraph-spacing.01}",
+          "paragraphIndent": "{size-space.0-x}",
+          "textCase": "{text-case.uppercase}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font-family.primary}",
+          "fontWeight": "{font-weight.eyebrow}",
+          "lineHeight": "{line.height.heading}",
+          "fontSize": "{font-size.06}",
+          "letterSpacing": "{letter-spacing.eyebrow.large}",
+          "paragraphSpacing": "{paragraph-spacing.01}",
+          "paragraphIndent": "{size-space.0-x}",
+          "textCase": "{text-case.uppercase}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "[typography; text style; semantic; role; decision; alias;]"
+      }
+    },
+    "link": {
+      "large": {
+        "hover": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-05}",
+            "fontSize": "{font-size.body.large}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.02}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "default": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-05}",
+            "fontSize": "{font-size.body.large}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.underline}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      },
+      "medium": {
+        "hover": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.02}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "default": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.02}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.underline}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "body": {
+      "bold": {
+        "large": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.bold}",
+            "lineHeight": "{line.height.rem-05}",
+            "fontSize": "{font-size.body.large}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.bold}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "Medium sizes are best suited to either Web or Product experiences where 1.5x is too spacious. [typography; text style; semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.bold}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.small}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "For more web based experiences, consider using either the Medium or Large size. Use either Small or Large for long paragraphs that cater to long form reading. [typography; text style; semantic; role; decision; alias;]"
+        }
+      },
+      "medium": {
+        "large": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-05}",
+            "fontSize": "{font-size.body.large}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.small}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      },
+      "regular": {
+        "large": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-05}",
+            "fontSize": "{font-size.body.large}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.small}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      },
+      "secondary": {
+        "large": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.secondary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-05}",
+            "fontSize": "{font-size.body.large}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "medium": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.secondary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-04}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.secondary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.small}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "label": {
+      "bold": {
+        "medium": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.bold}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.bold}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.small}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      },
+      "medium": {
+        "medium": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.medium}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.small}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      },
+      "regular": {
+        "medium": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.primary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.small}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      },
+      "secondary": {
+        "medium": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.secondary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.default}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        },
+        "small": {
+          "$figmaOnly": "true",
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font-family.secondary}",
+            "fontWeight": "{font-weight.regular}",
+            "lineHeight": "{line.height.rem-02}",
+            "fontSize": "{font-size.body.small}",
+            "letterSpacing": "{letter-spacing.default}",
+            "paragraphSpacing": "{paragraph-spacing.01}",
+            "paragraphIndent": "{size-space.0-x}",
+            "textCase": "{text-case.none}",
+            "textDecoration": "{text-decoration.none}"
+          },
+          "$description": "[typography; text style; semantic; role; decision; alias;]"
+        }
+      }
+    },
+    "box-shadow": {
+      "none": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "global": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "small": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "{color.box-shadow.primary}",
+          "type": "dropShadow"
+        },
+        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "default": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "3",
+            "spread": "0",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "-1",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "medium": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-1",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "-2",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "10",
+            "blur": "15",
+            "spread": "-3",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-4",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "x-large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "20",
+            "blur": "25",
+            "spread": "-5",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "10",
+            "spread": "-6",
+            "color": "{color.box-shadow.secondary}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "xx-large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "25",
+            "blur": "50",
+            "spread": "-12",
+            "color": "{color.box-shadow.tertiary}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      }
+    },
+    "font-family": {
+      "primary": {
+        "$type": "fontFamilies",
+        "$value": "Geist, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      },
+      "secondary": {
+        "$type": "fontFamilies",
+        "$value": "Geist, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      },
+      "tertiary": {
+        "$type": "fontFamilies",
+        "$value": "Geist Mono, Inter",
+        "$description": "[typography; font face; semantic; role; decision; alias;]"
+      }
+    },
     "line": {
       "height": {
         "default": {
@@ -14555,58 +14597,6 @@
           "$description": "The discovery type color for text. [text; discovery; feedback; purple; semantic; role; decision; alias;]"
         }
       },
-      "link": {
-        "default": {
-          "$colorSchemeToken": "true",
-          "$type": "color",
-          "$value": "{color.link.default-mode-light}",
-          "$description": "The primary color for the default state of links and interactive text. [text; link; href; cta text; interactive text; default; brand; accent; semantic; role; decision; alias;]"
-        },
-        "hover": {
-          "$colorSchemeToken": "true",
-          "$type": "color",
-          "$value": "{color.link.hover-mode-light}",
-          "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
-        },
-        "active": {
-          "$colorSchemeToken": "true",
-          "$type": "color",
-          "$value": "{color.link.active-mode-light}",
-          "$description": "The active state color for the color.link.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
-        },
-        "visited": {
-          "$colorSchemeToken": "true",
-          "$type": "color",
-          "$value": "{color.link.visited-mode-light}",
-          "$description": "The visited state color for the color.link.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
-        },
-        "neutral": {
-          "default": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.link.neutral.default-mode-light}",
-            "$description": "The color for the default state of neutral-style links and interactive text. [text; link; href; cta text; interactive text; neutral; semantic; role; decision; alias;]"
-          },
-          "hover": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.link.neutral.hover-mode-light}",
-            "$description": "The hover state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
-          },
-          "active": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.link.neutral.active-mode-light}",
-            "$description": "The active state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
-          },
-          "visited": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.link.neutral.visited-mode-light}",
-            "$description": "The visited state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
-          }
-        }
-      },
       "box-shadow": {
         "primary": {
           "$colorSchemeToken": "true",
@@ -14629,6 +14619,74 @@
       }
     },
     "component": {
+      "link": {
+        "default": {
+          "text-color": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.link.default.text-color-mode-light}",
+            "$description": "The primary color for the default state of links and interactive text. [text; link; href; cta text; interactive text; default; brand; accent; semantic; role; decision; alias;]"
+          }
+        },
+        "hover": {
+          "text-color": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.link.hover.text-color-mode-light}",
+            "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
+          }
+        },
+        "active": {
+          "text-color": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.link.active.text-color-mode-light}",
+            "$description": "The active state color for the color.link.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
+          }
+        },
+        "visited": {
+          "text-color": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.link.visited.text-color-mode-light}",
+            "$description": "The visited state color for the color.link.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
+          }
+        },
+        "neutral": {
+          "default": {
+            "text-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.link.neutral.default.text-color-mode-light}",
+              "$description": "The color for the default state of neutral-style links and interactive text. [text; link; href; cta text; interactive text; neutral; semantic; role; decision; alias;]"
+            }
+          },
+          "hover": {
+            "text-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.link.neutral.hover.text-color-mode-light}",
+              "$description": "The hover state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
+            }
+          },
+          "visited": {
+            "text-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.link.neutral.visited.text-color-mode-light}",
+              "$description": "The visited state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
+            }
+          },
+          "active": {
+            "text-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.link.neutral.active.text-color-mode-light}",
+              "$description": "The active state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
+            }
+          }
+        }
+      },
       "accordion": {
         "contained": {
           "border-color": {
@@ -15730,58 +15788,6 @@
           "$description": "The discovery type color for text. [text; discovery; feedback; purple; semantic; role; decision; alias;]"
         }
       },
-      "link": {
-        "default": {
-          "$colorSchemeToken": "true",
-          "$type": "color",
-          "$value": "{color.link.default-mode-dark}",
-          "$description": "The primary color for the default state of links and interactive text. [text; link; href; cta text; interactive text; default; brand; accent; semantic; role; decision; alias;]"
-        },
-        "hover": {
-          "$colorSchemeToken": "true",
-          "$type": "color",
-          "$value": "{color.link.hover-mode-dark}",
-          "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
-        },
-        "active": {
-          "$colorSchemeToken": "true",
-          "$type": "color",
-          "$value": "{color.link.active-mode-dark}",
-          "$description": "The active state color for the color.link.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
-        },
-        "visited": {
-          "$colorSchemeToken": "true",
-          "$type": "color",
-          "$value": "{color.link.visited-mode-dark}",
-          "$description": "The visited state color for the color.link.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
-        },
-        "neutral": {
-          "default": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.link.neutral.default-mode-dark}",
-            "$description": "The color for the default state of neutral-style links and interactive text. [text; link; href; cta text; interactive text; neutral; semantic; role; decision; alias;]"
-          },
-          "hover": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.link.neutral.hover-mode-dark}",
-            "$description": "The hover state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
-          },
-          "active": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.link.neutral.active-mode-dark}",
-            "$description": "The active state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
-          },
-          "visited": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.link.neutral.visited-mode-dark}",
-            "$description": "The visited state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
-          }
-        }
-      },
       "box-shadow": {
         "primary": {
           "$colorSchemeToken": "true",
@@ -15804,6 +15810,74 @@
       }
     },
     "component": {
+      "link": {
+        "default": {
+          "text-color": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.link.default.text-color-mode-dark}",
+            "$description": "The primary color for the default state of links and interactive text. [text; link; href; cta text; interactive text; default; brand; accent; semantic; role; decision; alias;]"
+          }
+        },
+        "hover": {
+          "text-color": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.link.hover.text-mode-dark}",
+            "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
+          }
+        },
+        "active": {
+          "text-color": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.link.active.text-color-mode-dark}",
+            "$description": "The active state color for the color.link.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
+          }
+        },
+        "visited": {
+          "text-color": {
+            "$colorSchemeToken": "true",
+            "$type": "color",
+            "$value": "{component.link.visited.text-color-mode-dark}",
+            "$description": "The visited state color for the color.link.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
+          }
+        },
+        "neutral": {
+          "hover": {
+            "text-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.link.neutral.hover.text-color-mode-dark}",
+              "$description": "The hover state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
+            }
+          },
+          "default": {
+            "text-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.link.neutral.default.text-color-mode-dark}",
+              "$description": "The color for the default state of neutral-style links and interactive text. [text; link; href; cta text; interactive text; neutral; semantic; role; decision; alias;]"
+            }
+          },
+          "active": {
+            "text-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.link.neutral.active.text-color-mode-dark}",
+              "$description": "The active state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; active; semantic; role; decision; alias;]"
+            }
+          },
+          "visited": {
+            "text-color": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.link.neutral.visited.text-color-mode-dark}",
+              "$description": "The visited state color for the color.link.neutral.default token. [text; link; href; cta text; interactive text; visited; semantic; role; decision; alias;]"
+            }
+          }
+        }
+      },
       "accordion": {
         "contained": {
           "border-color": {
@@ -16969,22 +17043,6 @@
         "color.text.discovery-mode-dark": "0efc330b1a1d9e28cf35e567326f90ec23e0f76c",
         "color.text.fixed-mode-light": "018f118ecccd63020a586c61778178cb528f6b11",
         "color.text.fixed-mode-dark": "026f0b5946805e2759ba41e3a497630864296991",
-        "color.link.default-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
-        "color.link.default-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
-        "color.link.hover-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
-        "color.link.hover-mode-dark": "6d2c0c9f9a104c3aec9927ef68a63d2fb1c13ed1",
-        "color.link.active-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
-        "color.link.active-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
-        "color.link.visited-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
-        "color.link.visited-mode-dark": "9e0ecbfc16886919bbbcb94dae83f0dd5fdb09a3",
-        "color.link.neutral.default-mode-light": "5f228d9b3602d6837b67713b94b6a347f157b9ff",
-        "color.link.neutral.default-mode-dark": "87cf07c5c8e0c0bb70664f65d29ae8823e722030",
-        "color.link.neutral.hover-mode-light": "37945d6160fdff96fcdbf43d5245cc3470b05f5e",
-        "color.link.neutral.hover-mode-dark": "d5af4fa99b18cce6f0cf3d20dd84d90093e1d2fd",
-        "color.link.neutral.active-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
-        "color.link.neutral.active-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
-        "color.link.neutral.visited-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
-        "color.link.neutral.visited-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d",
         "color.shadow.primary-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
         "color.shadow.primary-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
         "color.shadow.secondary-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
@@ -17374,7 +17432,23 @@
         "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
         "component.tag.medium.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
         "component.tag.medium.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
-        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635"
+        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635",
+        "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
+        "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
+        "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
+        "component.link.hover.text-mode-dark": "6d2c0c9f9a104c3aec9927ef68a63d2fb1c13ed1",
+        "component.link.active.text-color-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
+        "component.link.active.text-color-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
+        "component.link.visited.text-color-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
+        "component.link.visited.text-color-mode-dark": "9e0ecbfc16886919bbbcb94dae83f0dd5fdb09a3",
+        "component.link.neutral.default.text-color-mode-light": "5f228d9b3602d6837b67713b94b6a347f157b9ff",
+        "component.link.neutral.default.text-color-mode-dark": "87cf07c5c8e0c0bb70664f65d29ae8823e722030",
+        "component.link.neutral.hover.text-color-mode-light": "37945d6160fdff96fcdbf43d5245cc3470b05f5e",
+        "component.link.neutral.hover.text-color-mode-dark": "d5af4fa99b18cce6f0cf3d20dd84d90093e1d2fd",
+        "component.link.neutral.active.text-color-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
+        "component.link.neutral.active.text-color-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
+        "component.link.neutral.visited.text-color-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
+        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -17668,22 +17742,6 @@
         "color.text.discovery-mode-dark": "0efc330b1a1d9e28cf35e567326f90ec23e0f76c",
         "color.text.fixed-mode-light": "018f118ecccd63020a586c61778178cb528f6b11",
         "color.text.fixed-mode-dark": "026f0b5946805e2759ba41e3a497630864296991",
-        "color.link.default-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
-        "color.link.default-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
-        "color.link.hover-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
-        "color.link.hover-mode-dark": "6d2c0c9f9a104c3aec9927ef68a63d2fb1c13ed1",
-        "color.link.active-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
-        "color.link.active-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
-        "color.link.visited-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
-        "color.link.visited-mode-dark": "9e0ecbfc16886919bbbcb94dae83f0dd5fdb09a3",
-        "color.link.neutral.default-mode-light": "5f228d9b3602d6837b67713b94b6a347f157b9ff",
-        "color.link.neutral.default-mode-dark": "87cf07c5c8e0c0bb70664f65d29ae8823e722030",
-        "color.link.neutral.hover-mode-light": "37945d6160fdff96fcdbf43d5245cc3470b05f5e",
-        "color.link.neutral.hover-mode-dark": "d5af4fa99b18cce6f0cf3d20dd84d90093e1d2fd",
-        "color.link.neutral.active-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
-        "color.link.neutral.active-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
-        "color.link.neutral.visited-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
-        "color.link.neutral.visited-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d",
         "color.shadow.primary-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
         "color.shadow.primary-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
         "color.shadow.secondary-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
@@ -18075,7 +18133,23 @@
         "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
         "component.tag.medium.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
         "component.tag.medium.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
-        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635"
+        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635",
+        "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
+        "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
+        "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
+        "component.link.hover.text-mode-dark": "6d2c0c9f9a104c3aec9927ef68a63d2fb1c13ed1",
+        "component.link.active.text-color-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
+        "component.link.active.text-color-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
+        "component.link.visited.text-color-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
+        "component.link.visited.text-color-mode-dark": "9e0ecbfc16886919bbbcb94dae83f0dd5fdb09a3",
+        "component.link.neutral.default.text-color-mode-light": "5f228d9b3602d6837b67713b94b6a347f157b9ff",
+        "component.link.neutral.default.text-color-mode-dark": "87cf07c5c8e0c0bb70664f65d29ae8823e722030",
+        "component.link.neutral.hover.text-color-mode-light": "37945d6160fdff96fcdbf43d5245cc3470b05f5e",
+        "component.link.neutral.hover.text-color-mode-dark": "d5af4fa99b18cce6f0cf3d20dd84d90093e1d2fd",
+        "component.link.neutral.active.text-color-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
+        "component.link.neutral.active.text-color-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
+        "component.link.neutral.visited.text-color-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
+        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -18338,22 +18412,6 @@
         "color.text.discovery-mode-dark": "0efc330b1a1d9e28cf35e567326f90ec23e0f76c",
         "color.text.fixed-mode-light": "018f118ecccd63020a586c61778178cb528f6b11",
         "color.text.fixed-mode-dark": "026f0b5946805e2759ba41e3a497630864296991",
-        "color.link.default-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
-        "color.link.default-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
-        "color.link.hover-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
-        "color.link.hover-mode-dark": "6d2c0c9f9a104c3aec9927ef68a63d2fb1c13ed1",
-        "color.link.active-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
-        "color.link.active-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
-        "color.link.visited-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
-        "color.link.visited-mode-dark": "9e0ecbfc16886919bbbcb94dae83f0dd5fdb09a3",
-        "color.link.neutral.default-mode-light": "5f228d9b3602d6837b67713b94b6a347f157b9ff",
-        "color.link.neutral.default-mode-dark": "87cf07c5c8e0c0bb70664f65d29ae8823e722030",
-        "color.link.neutral.hover-mode-light": "37945d6160fdff96fcdbf43d5245cc3470b05f5e",
-        "color.link.neutral.hover-mode-dark": "d5af4fa99b18cce6f0cf3d20dd84d90093e1d2fd",
-        "color.link.neutral.active-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
-        "color.link.neutral.active-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
-        "color.link.neutral.visited-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
-        "color.link.neutral.visited-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d",
         "color.shadow.primary-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
         "color.shadow.primary-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
         "color.shadow.secondary-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
@@ -18743,7 +18801,23 @@
         "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
         "component.tag.medium.font-weight": "ef8f9d04649c4422a8869d685825113a56324973",
         "component.tag.medium.line-height": "a18aac9c79f368f5900e10722927d8cd4cf39e15",
-        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635"
+        "component.tag.medium.font-size": "e2c0f2469cb837709288a84673cebd2cca399635",
+        "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
+        "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
+        "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
+        "component.link.hover.text-mode-dark": "6d2c0c9f9a104c3aec9927ef68a63d2fb1c13ed1",
+        "component.link.active.text-color-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
+        "component.link.active.text-color-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
+        "component.link.visited.text-color-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
+        "component.link.visited.text-color-mode-dark": "9e0ecbfc16886919bbbcb94dae83f0dd5fdb09a3",
+        "component.link.neutral.default.text-color-mode-light": "5f228d9b3602d6837b67713b94b6a347f157b9ff",
+        "component.link.neutral.default.text-color-mode-dark": "87cf07c5c8e0c0bb70664f65d29ae8823e722030",
+        "component.link.neutral.hover.text-color-mode-light": "37945d6160fdff96fcdbf43d5245cc3470b05f5e",
+        "component.link.neutral.hover.text-color-mode-dark": "d5af4fa99b18cce6f0cf3d20dd84d90093e1d2fd",
+        "component.link.neutral.active.text-color-mode-light": "dbb359d14a83aba2dde1c98cade8a371a2720a06",
+        "component.link.neutral.active.text-color-mode-dark": "3046013882ea3d3b482a6aad906ef2a26e814d8e",
+        "component.link.neutral.visited.text-color-mode-light": "36e76a7e97f558782004a66732fb122662750f23",
+        "component.link.neutral.visited.text-color-mode-dark": "d2511cf2a11a779125a62dd7a050b3f0ffbc5e8d"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
@@ -18870,14 +18944,6 @@
         "color.text.warning": "ea3d5df8fc630abd39c90a2fbff31210906c9e3e",
         "color.text.information": "ec2315f0d45628104a6b122e7d070ed06b4c6af8",
         "color.text.discovery": "d381b95e00b2109e7c0e4485009800db696cea0c",
-        "color.link.default": "d7327041aa95574aaaa0e390c3657a77a2021b2f",
-        "color.link.hover": "f88d75205b96aca75f81c7f61a7c642971f7d46a",
-        "color.link.active": "9f4f862c966427fb0d8f3c25873ad758b16ffa2a",
-        "color.link.visited": "0bb5e3d327af0f7a8116f06a7e6333020849ca72",
-        "color.link.neutral.default": "ae464c354876578757a075c5e4b3623e03fbe7f3",
-        "color.link.neutral.hover": "e2c051fac0b06751807d4fbb91eaed9350434056",
-        "color.link.neutral.active": "f48edd8f10c3e3a21b47f8e51c75c19d00b8186d",
-        "color.link.neutral.visited": "5950033e28b6fb2a1995bd574b35adc64a96b86c",
         "color.box-shadow.primary": "4ed199349a4a1b8a40309841a86cb2b295636b06",
         "color.box-shadow.secondary": "2e2b782c836a4d8ecb67a0f1059c577d4cb67ab8",
         "color.box-shadow.tertiary": "a1a17a1123a79510c150e87406753ac65e82a046",
@@ -18941,7 +19007,15 @@
         "component.toggle.background.off": "935f5742dfd2d5335e104d3f430228bff115361f",
         "component.toggle.background.on": "545b56300cbb12ea87512cbb997b6c58c25eae6a",
         "component.badge.warning.contrast-high.text-color": "6e9e042f3b52efb1513048d45d7ffcd2412c31ac",
-        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09"
+        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09",
+        "component.link.default.text-color": "d7327041aa95574aaaa0e390c3657a77a2021b2f",
+        "component.link.hover.text-color": "f88d75205b96aca75f81c7f61a7c642971f7d46a",
+        "component.link.active.text-color": "9f4f862c966427fb0d8f3c25873ad758b16ffa2a",
+        "component.link.visited.text-color": "0bb5e3d327af0f7a8116f06a7e6333020849ca72",
+        "component.link.neutral.default.text-color": "ae464c354876578757a075c5e4b3623e03fbe7f3",
+        "component.link.neutral.hover.text-color": "e2c051fac0b06751807d4fbb91eaed9350434056",
+        "component.link.neutral.active.text-color": "f48edd8f10c3e3a21b47f8e51c75c19d00b8186d",
+        "component.link.neutral.visited.text-color": "5950033e28b6fb2a1995bd574b35adc64a96b86c"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:6",
@@ -19068,14 +19142,6 @@
         "color.text.warning": "ea3d5df8fc630abd39c90a2fbff31210906c9e3e",
         "color.text.information": "ec2315f0d45628104a6b122e7d070ed06b4c6af8",
         "color.text.discovery": "d381b95e00b2109e7c0e4485009800db696cea0c",
-        "color.link.default": "d7327041aa95574aaaa0e390c3657a77a2021b2f",
-        "color.link.hover": "f88d75205b96aca75f81c7f61a7c642971f7d46a",
-        "color.link.active": "9f4f862c966427fb0d8f3c25873ad758b16ffa2a",
-        "color.link.visited": "0bb5e3d327af0f7a8116f06a7e6333020849ca72",
-        "color.link.neutral.default": "ae464c354876578757a075c5e4b3623e03fbe7f3",
-        "color.link.neutral.hover": "e2c051fac0b06751807d4fbb91eaed9350434056",
-        "color.link.neutral.active": "f48edd8f10c3e3a21b47f8e51c75c19d00b8186d",
-        "color.link.neutral.visited": "5950033e28b6fb2a1995bd574b35adc64a96b86c",
         "color.box-shadow.primary": "4ed199349a4a1b8a40309841a86cb2b295636b06",
         "color.box-shadow.secondary": "2e2b782c836a4d8ecb67a0f1059c577d4cb67ab8",
         "color.box-shadow.tertiary": "a1a17a1123a79510c150e87406753ac65e82a046",
@@ -19139,7 +19205,15 @@
         "component.toggle.background.off": "935f5742dfd2d5335e104d3f430228bff115361f",
         "component.toggle.background.on": "545b56300cbb12ea87512cbb997b6c58c25eae6a",
         "component.badge.warning.contrast-high.text-color": "6e9e042f3b52efb1513048d45d7ffcd2412c31ac",
-        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09"
+        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09",
+        "component.link.default.text-color": "d7327041aa95574aaaa0e390c3657a77a2021b2f",
+        "component.link.hover.text-color": "f88d75205b96aca75f81c7f61a7c642971f7d46a",
+        "component.link.active.text-color": "9f4f862c966427fb0d8f3c25873ad758b16ffa2a",
+        "component.link.visited.text-color": "0bb5e3d327af0f7a8116f06a7e6333020849ca72",
+        "component.link.neutral.default.text-color": "ae464c354876578757a075c5e4b3623e03fbe7f3",
+        "component.link.neutral.hover.text-color": "e2c051fac0b06751807d4fbb91eaed9350434056",
+        "component.link.neutral.active.text-color": "f48edd8f10c3e3a21b47f8e51c75c19d00b8186d",
+        "component.link.neutral.visited.text-color": "5950033e28b6fb2a1995bd574b35adc64a96b86c"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:7",
