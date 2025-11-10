@@ -14834,24 +14834,32 @@
           "$value": "{color.border.none}"
         },
         "day": {
-          "background-hover": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{component.date-picker.day.hover.background-mode-light}"
+          "hover": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.date-picker.day.hover.background-mode-light}"
+            }
           },
-          "background-selected": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-light}"
+          "selected": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-light}"
+            }
           },
-          "background-selected-hover": {
-            "$type": "color",
-            "$value": "{component.date-picker.day.selected-hover.background-mode-light}",
-            "$description": "Hover color for selected day elements in the date range calendar"
+          "selected-hover": {
+            "background": {
+              "$type": "color",
+              "$value": "{component.date-picker.day.selected-hover.background-mode-light}",
+              "$description": "Hover color for selected day elements in the date range calendar"
+            }
           },
-          "background-in-range": {
-            "$type": "color",
-            "$value": "{component.date-picker.day.in-range.background-mode-light}"
+          "in-range": {
+            "background": {
+              "$type": "color",
+              "$value": "{component.date-picker.day.in-range.background-mode-light}"
+            }
           }
         }
       },
@@ -16025,24 +16033,32 @@
           "$value": "{color.border.none}"
         },
         "day": {
-          "background-hover": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{component.date-picker.day.hover.background-mode-dark}"
+          "hover": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{component.date-picker.day.hover.background-mode-dark}"
+            }
           },
-          "background-selected": {
-            "$colorSchemeToken": "true",
-            "$type": "color",
-            "$value": "{color.background.brand.primary.default-mode-dark}"
+          "selected": {
+            "background": {
+              "$colorSchemeToken": "true",
+              "$type": "color",
+              "$value": "{color.background.brand.primary.default-mode-dark}"
+            }
           },
-          "background-selected-hover": {
-            "$type": "color",
-            "$value": "{component.date-picker.day.selected-hover.background-mode-dark}",
-            "$description": "Hover color for selected day elements in the date range calendar"
+          "selected-hover": {
+            "background": {
+              "$type": "color",
+              "$value": "{component.date-picker.day.selected-hover.background-mode-dark}",
+              "$description": "Hover color for selected day elements in the date range calendar"
+            }
           },
-          "background-in-range": {
-            "$type": "color",
-            "$value": "{component.date-picker.day.in-range.background-mode-dark}"
+          "in-range": {
+            "background": {
+              "$type": "color",
+              "$value": "{component.date-picker.day.in-range.background-mode-dark}"
+            }
           }
         }
       },
@@ -18986,10 +19002,6 @@
         "component.tag.warning.contrast-high.text-color": "ba20156018dfc55f864f92ad8ebcc6f3f4c43334",
         "component.stepper.item.border-color": "43df5e76ee898b7f75f384bbfc0b7d43e5f54234",
         "component.date-picker.border-color": "3ddf6d5e512a93bd70a2e9a9ed1c8e4ef95b5651",
-        "component.date-picker.day.background-hover": "6438f8e0e1397905dc3ee70d1c32a8b6b57239c2",
-        "component.date-picker.day.background-selected": "95c693e2e303b450d63eaa7c6a471007831f8e42",
-        "component.date-picker.day.background-selected-hover": "66a14f699421e2a98e324f9dd531444b47c1aec4",
-        "component.date-picker.day.background-in-range": "8372248ce6ba26235dec6d18690c70b5ef65906d",
         "component.drawer.border-color": "bbfe2dc6e1bc3d948b6cf4f77a07e8407dbd2ec7",
         "component.sheet.border-color": "4fcb704f8d1619fe6c396a1c0f307a7b1678a370",
         "component.scrollbar.track.background": "2b77fc31173e07b97655538c4ade90a444a8fb9c",
@@ -19039,7 +19051,11 @@
         "component.link.neutral.default.text-color": "ae464c354876578757a075c5e4b3623e03fbe7f3",
         "component.link.neutral.hover.text-color": "e2c051fac0b06751807d4fbb91eaed9350434056",
         "component.link.neutral.active.text-color": "f48edd8f10c3e3a21b47f8e51c75c19d00b8186d",
-        "component.link.neutral.visited.text-color": "5950033e28b6fb2a1995bd574b35adc64a96b86c"
+        "component.link.neutral.visited.text-color": "5950033e28b6fb2a1995bd574b35adc64a96b86c",
+        "component.date-picker.day.hover.background": "6438f8e0e1397905dc3ee70d1c32a8b6b57239c2",
+        "component.date-picker.day.selected.background": "95c693e2e303b450d63eaa7c6a471007831f8e42",
+        "component.date-picker.day.selected-hover.background": "66a14f699421e2a98e324f9dd531444b47c1aec4",
+        "component.date-picker.day.in-range.background": "8372248ce6ba26235dec6d18690c70b5ef65906d"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:6",
@@ -19184,10 +19200,6 @@
         "component.tag.warning.contrast-high.text-color": "ba20156018dfc55f864f92ad8ebcc6f3f4c43334",
         "component.stepper.item.border-color": "43df5e76ee898b7f75f384bbfc0b7d43e5f54234",
         "component.date-picker.border-color": "3ddf6d5e512a93bd70a2e9a9ed1c8e4ef95b5651",
-        "component.date-picker.day.background-hover": "6438f8e0e1397905dc3ee70d1c32a8b6b57239c2",
-        "component.date-picker.day.background-selected": "95c693e2e303b450d63eaa7c6a471007831f8e42",
-        "component.date-picker.day.background-selected-hover": "66a14f699421e2a98e324f9dd531444b47c1aec4",
-        "component.date-picker.day.background-in-range": "8372248ce6ba26235dec6d18690c70b5ef65906d",
         "component.drawer.border-color": "bbfe2dc6e1bc3d948b6cf4f77a07e8407dbd2ec7",
         "component.sheet.border-color": "4fcb704f8d1619fe6c396a1c0f307a7b1678a370",
         "component.scrollbar.track.background": "2b77fc31173e07b97655538c4ade90a444a8fb9c",
@@ -19237,7 +19249,11 @@
         "component.link.neutral.default.text-color": "ae464c354876578757a075c5e4b3623e03fbe7f3",
         "component.link.neutral.hover.text-color": "e2c051fac0b06751807d4fbb91eaed9350434056",
         "component.link.neutral.active.text-color": "f48edd8f10c3e3a21b47f8e51c75c19d00b8186d",
-        "component.link.neutral.visited.text-color": "5950033e28b6fb2a1995bd574b35adc64a96b86c"
+        "component.link.neutral.visited.text-color": "5950033e28b6fb2a1995bd574b35adc64a96b86c",
+        "component.date-picker.day.hover.background": "6438f8e0e1397905dc3ee70d1c32a8b6b57239c2",
+        "component.date-picker.day.selected.background": "95c693e2e303b450d63eaa7c6a471007831f8e42",
+        "component.date-picker.day.selected-hover.background": "66a14f699421e2a98e324f9dd531444b47c1aec4",
+        "component.date-picker.day.in-range.background": "8372248ce6ba26235dec6d18690c70b5ef65906d"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:7",
