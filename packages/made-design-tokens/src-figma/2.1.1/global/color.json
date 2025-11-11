@@ -1,0 +1,418 @@
+{
+  "color": {
+    "accent": {
+      "01": {
+        "dark": {
+          "comment": "Accent color 1 - Dark",
+          "themeable": "No",
+          "type": "color",
+          "value": "#852D01"
+        },
+        "darker": {
+          "comment": "Accent color 1 - Darker",
+          "themeable": "No",
+          "type": "color",
+          "value": "#331505"
+        },
+        "default": {
+          "comment": "Accent color 1",
+          "themeable": "No",
+          "type": "color",
+          "value": "#CF4500"
+        },
+        "light": {
+          "comment": "Accent color 1- Light",
+          "themeable": "No",
+          "type": "color",
+          "value": "#D0805B"
+        }
+      },
+      "02": {
+        "comment": "Accent color 2",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F37338"
+      },
+      "03": {
+        "comment": "Accent color 3",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F38B00"
+      },
+      "04": {
+        "comment": "Accent color 4",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FFC61E"
+      },
+      "05": {
+        "comment": "Accent color 5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#628020"
+      },
+      "06": {
+        "comment": "Accent color 6",
+        "themeable": "No",
+        "type": "color",
+        "value": "#25836D"
+      },
+      "07": {
+        "comment": "Accent color 7",
+        "themeable": "No",
+        "type": "color",
+        "value": "#D7373C"
+      }
+    },
+    "gold": {
+      "01": {
+        "comment": "Gold color 1",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FCE8CC"
+      },
+      "02": {
+        "comment": "Gold color 2",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F9D199"
+      },
+      "03": {
+        "comment": "Gold color 3",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F7AD4C"
+      },
+      "04": {
+        "comment": "Gold color 4",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F38B00"
+      },
+      "05": {
+        "comment": "Gold color 5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#995600"
+      },
+      "06": {
+        "comment": "Gold color 6",
+        "themeable": "No",
+        "type": "color",
+        "value": "#583300"
+      },
+      "07": {
+        "comment": "Gold color 7",
+        "themeable": "No",
+        "type": "color",
+        "value": "#301C00"
+      }
+    },
+    "gray": {
+      "01": {
+        "comment": "Canvas color - Gray 1",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FCFBFA"
+      },
+      "01-25": {
+        "comment": "Canvas color - Gray 1.25",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FAF7F5"
+      },
+      "01-5": {
+        "comment": "Canvas color - Gray 1.5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F3F0EE"
+      },
+      "02": {
+        "comment": "Canvas color - Gray 2",
+        "themeable": "No",
+        "type": "color",
+        "value": "#E8E5E1"
+      },
+      "03": {
+        "comment": "Gray tints and shades - Gray 3",
+        "themeable": "No",
+        "type": "color",
+        "value": "#B1ADA6"
+      },
+      "03-5": {
+        "comment": "Gray tints and shades - Gray 3.5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#96918B"
+      },
+      "04": {
+        "comment": "Gray tints and shades - Gray 4",
+        "themeable": "No",
+        "type": "color",
+        "value": "#777470"
+      },
+      "04-5": {
+        "comment": "Gray tints and shades - Gray 4.5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#676561"
+      },
+      "05": {
+        "comment": "Canvas color - Gray 5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#555250"
+      },
+      "05-5": {
+        "comment": "Gray tints and shades - Gray 5.5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#444340"
+      },
+      "06": {
+        "comment": "Canvas color - Gray 6",
+        "themeable": "No",
+        "type": "color",
+        "value": "#323231"
+      },
+      "06-5": {
+        "comment": "Gray tints and shades - Gray 6.5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#222221"
+      },
+      "07": {
+        "comment": "Canvas color - Gray 7",
+        "themeable": "No",
+        "type": "color",
+        "value": "#141413"
+      }
+    },
+    "green": {
+      "01": {
+        "comment": "Green color 1",
+        "themeable": "No",
+        "type": "color",
+        "value": "#E8F1D5"
+      },
+      "02": {
+        "comment": "Green color 2",
+        "themeable": "No",
+        "type": "color",
+        "value": "#B6CD7E"
+      },
+      "03": {
+        "comment": "Green color 3",
+        "themeable": "No",
+        "type": "color",
+        "value": "#87A740"
+      },
+      "04": {
+        "comment": "Green color 4",
+        "themeable": "No",
+        "type": "color",
+        "value": "#628020"
+      },
+      "05": {
+        "comment": "Green color 5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#496019"
+      },
+      "06": {
+        "comment": "Green color 6",
+        "themeable": "No",
+        "type": "color",
+        "value": "#324113"
+      },
+      "07": {
+        "comment": "Green color 7",
+        "themeable": "No",
+        "type": "color",
+        "value": "#1C2509"
+      }
+    },
+    "orange": {
+      "01": {
+        "comment": "Orange color 1",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FFE1D1"
+      },
+      "02": {
+        "comment": "Orange color 2",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FFAB82"
+      },
+      "03": {
+        "comment": "Orange color 3",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F37338"
+      },
+      "04": {
+        "comment": "Orange color 4",
+        "themeable": "No",
+        "type": "color",
+        "value": "#CF4500"
+      },
+      "05": {
+        "comment": "Orange color 5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#9A3A0A"
+      },
+      "06": {
+        "comment": "Orange color 6",
+        "themeable": "No",
+        "type": "color",
+        "value": "#662808"
+      },
+      "07": {
+        "comment": "Orange color 7",
+        "themeable": "No",
+        "type": "color",
+        "value": "#331505"
+      }
+    },
+    "red": {
+      "01": {
+        "comment": "Red color 1",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F8DDDE"
+      },
+      "02": {
+        "comment": "Red color 2",
+        "themeable": "No",
+        "type": "color",
+        "value": "#F4A79F"
+      },
+      "03": {
+        "comment": "Red color 3",
+        "themeable": "No",
+        "type": "color",
+        "value": "#E66F65"
+      },
+      "04": {
+        "comment": "Red color 4",
+        "themeable": "No",
+        "type": "color",
+        "value": "#D7373C"
+      },
+      "05": {
+        "comment": "Red color 5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#A82226"
+      },
+      "06": {
+        "comment": "Red color 6",
+        "themeable": "No",
+        "type": "color",
+        "value": "#7E191C"
+      },
+      "07": {
+        "comment": "Red color 7",
+        "themeable": "No",
+        "type": "color",
+        "value": "#541113"
+      }
+    },
+    "teal": {
+      "01": {
+        "comment": "Teal color 1",
+        "themeable": "No",
+        "type": "color",
+        "value": "#DCF5EF"
+      },
+      "02": {
+        "comment": "Teal color 2",
+        "themeable": "No",
+        "type": "color",
+        "value": "#88D3BF"
+      },
+      "03": {
+        "comment": "Teal color 3",
+        "themeable": "No",
+        "type": "color",
+        "value": "#4BAB94"
+      },
+      "04": {
+        "comment": "Teal color 4",
+        "themeable": "No",
+        "type": "color",
+        "value": "#25836D"
+      },
+      "05": {
+        "comment": "Teal color 5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#266555"
+      },
+      "06": {
+        "comment": "Teal color 6",
+        "themeable": "No",
+        "type": "color",
+        "value": "#23473D"
+      },
+      "07": {
+        "comment": "Teal color 7",
+        "themeable": "No",
+        "type": "color",
+        "value": "#1D2D27"
+      }
+    },
+    "white": {
+      "comment": "White",
+      "themeable": "No",
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "yellow": {
+      "01": {
+        "comment": "Yellow color 1",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FFF4D1"
+      },
+      "02": {
+        "comment": "Yellow color 2",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FFE8A5"
+      },
+      "03": {
+        "comment": "Yellow color 3",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FFD863"
+      },
+      "04": {
+        "comment": "Yellow color 4",
+        "themeable": "No",
+        "type": "color",
+        "value": "#FFC61E"
+      },
+      "05": {
+        "comment": "Yellow color 5",
+        "themeable": "No",
+        "type": "color",
+        "value": "#B28C16"
+      },
+      "06": {
+        "comment": "Yellow color 6",
+        "themeable": "No",
+        "type": "color",
+        "value": "#664F0C"
+      },
+      "07": {
+        "comment": "Yellow color 7",
+        "themeable": "No",
+        "type": "color",
+        "value": "#332805"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "border": {
+    "radius": {
+      "small": {
+        "comment": "Small border radius for UI components",
+        "value": "{border.radius.01.value}",
+        "themeable": "Yes",
+        "type": "borderRadius"
+      },
+      "default": {
+        "comment": "Default border radius for UI components",
+        "value": "{border.radius.02.value}",
+        "themeable": "Yes",
+        "type": "borderRadius"
+      },
+      "large": {
+        "comment": "Large border radius for UI components",
+        "value": "{border.radius.04.value}",
+        "themeable": "Yes",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "button": {
+    "border-radius": {
+      "comment": "Button Border Radius",
+      "value": "{border.radius.07.value}",
+      "themeable": "Yes",
+      "type": "borderRadius"
+    }
+  },
+  "pill": {
+    "border-radius": {
+      "comment": "Pill Border Radius",
+      "value": "{border.radius.05.value}",
+      "themeable": "Yes",
+      "type": "borderRadius"
+    }
+  }
+}

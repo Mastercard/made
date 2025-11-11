@@ -1,0 +1,44 @@
+{
+  "grid": {
+    "gutters": {
+      "lg": {
+        "comment": "Gutter size on large breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "value": "{space.4-x.value}"
+      },
+      "md": {
+        "comment": "Gutter size on medium breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "value": "{space.4-x.value}"
+      },
+      "sm": {
+        "comment": "Grid gutter size on small breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "value": "{space.2-x.value}"
+      }
+    },
+    "margin": {
+      "lg": {
+        "comment": "Margin size on large breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "value": "{space.4-x.value}"
+      },
+      "md": {
+        "comment": "Margin size on medium breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "value": "{space.4-x.value}"
+      },
+      "sm": {
+        "comment": "Margin size on small breakpoint.",
+        "themeable": "Yes",
+        "type": "spacing",
+        "value": "{space.2-x.value}"
+      }
+    }
+  }
+}

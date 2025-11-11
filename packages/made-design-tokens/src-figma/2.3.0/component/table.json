@@ -1,0 +1,14 @@
+{
+  "table": {
+    "color": {
+      "border": {
+        "resize": {
+          "value": "{color.gray.04.value}",
+          "type": "color",
+          "comment": "Color for the resize element in Data Table columns",
+          "themeable": "Yes"
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,16 @@
 import React, { useState } from "react";
+import { useRef } from "react";
 import PropTypes from "prop-types";
 
 export const Tour = () => {
   const [showTour, setshowTour] = useState(false);
 
-  let tourVisible = () => setshowTour(true);
+  const btnRef = useRef();
+
+  let tourVisible = () => {
+    btnRef.current.focus();
+    setshowTour(true);
+  }
   let closeTour = () => setshowTour(false);
 
   return (
@@ -13,6 +19,7 @@ export const Tour = () => {
         className="made-c-button made-c-button--primary"
         type="button"
         onClick={tourVisible}
+        ref={btnRef}
       >
         Open Tour
       </button>
@@ -21,18 +28,18 @@ export const Tour = () => {
           showTour ? "made-c-modal--visible made-c-tour--visible" : ""
         }`}
       >
-        <div class="made-c-tour made-c-tooltip made-c-tooltip--bottom made-u-width-50--md made-u-width-25--lg">
+        <div class="made-c-tour made-c-tooltip made-c-tooltip--bottom made-u-width--md-50 made-u-width--lg-25">
           <div class="made-c-tour__header">
             <button
               type="button"
               onClick={closeTour}
-              class="made-c-button--close"
+              class="made-c-button-close"
             >
               <svg
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                className="made-c-button__icon--close"
+                className="made-c-button-close__icon"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <title>close</title>

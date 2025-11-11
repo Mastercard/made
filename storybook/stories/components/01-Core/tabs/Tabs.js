@@ -12,6 +12,7 @@ export const Tabs = ({ tabs, content }) => {
                                 <a
                                     href=""
                                     id={index}
+                                    tabIndex="0"
                                     className={
                                         index == 0
                                             ? "made-c-tabs__link made-c-tabs__link--active"

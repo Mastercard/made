@@ -378,6 +378,84 @@ Design tokens specific to form elements.
   </table>
 </Story>
 
+### Checkbox Colors
+
+Design tokens specific to the checkbox component.
+
+<Story name="Checkbox">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.checkbox).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
+### Table Colors
+
+Design tokens specific to the table component.
+
+<Story name="Table">
+  <table className="made-c-table made-s-table">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Role</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {Object.entries(data.color.table).map(([id, token], index) => {
+        return (
+          <tr key={index}>
+            <td>
+              <code>{token.name}</code>
+              <small> Themeable: {token.themeable} </small>
+            </td>
+            <td>{token.comment}</td>
+            <td>
+              <div
+                className="made-s-color-block"
+                style={{
+                  background: `${[token.value]}`,
+                  borderColor: `${[token.value]}`,
+                }}
+              ></div>
+              <code>{token.original}</code>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Story>
+
 ### Data Visualization Colors
 
 Design tokens for data visualizations colors.

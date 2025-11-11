@@ -38,6 +38,9 @@ The recommended method for most circumstances is to use the label element and an
       isValid: {
         name: "Valid",
       },
+       isBranded: {
+        name: "Branded",
+      },
       validationText: {
         name: "Validation Text",
       },
@@ -47,6 +50,7 @@ The recommended method for most circumstances is to use the label element and an
       state: "unchecked",
       isDisabled: false,
       isValid: true,
+      isBranded: true,
       validationText: "Validation",
     }}
     parameters={{
@@ -56,6 +60,61 @@ The recommended method for most circumstances is to use the label element and an
 <div class="made-c-form__element">
   <input class="made-c-checkbox" name="checkbox-01" type="checkbox" id="checkbox-group-1-1" value="1" />
   <label class="made-c-checkbox__label" for="checkbox-group-1-1">
+    Option 1
+  </label>
+</div>`,
+        },
+      },
+    }}
+  >
+    >{checkbox.bind({})}
+  </Story>
+</Canvas>
+
+## Neutral
+
+<Canvas>
+  <Story
+    name="Neutral"
+    argTypes={{
+      label: {
+        name: "Label",
+      },
+      state: {
+        name: "State",
+        control: {
+          type: "radio",
+          options: ["unchecked", "checked", "indeterminate"],
+        },
+      },
+      isDisabled: {
+        name: "Disabled",
+      },
+      isValid: {
+        name: "Valid",
+      },
+       isBranded: {
+        name: "isBranded",
+      },
+      validationText: {
+        name: "Validation Text",
+      },
+    }}
+    args={{
+      label: "Option 1",
+      state: "unchecked",
+      isDisabled: false,
+      isValid: true,
+       isBranded: false,
+      validationText: "Validation",
+    }}
+    parameters={{
+      docs: {
+        source: {
+          code: `
+<div class="made-c-form__element">
+  <input class="made-c-checkbox" name="checkbox-01" type="checkbox" id="checkbox-group-1-1" value="1" />
+  <label class="made-c-checkbox__label made-c-checkbox__label--neutral" for="checkbox-group-1-1">
     Option 1
   </label>
 </div>`,
@@ -85,6 +144,9 @@ Add the disabled boolean attribute on an input to give it a grayed out appearanc
           options: ["unchecked", "checked", "indeterminate"],
         },
       },
+      isBranded: {
+        name: "Branded",
+      },
       isDisabled: {
         name: "Disabled",
       },
@@ -94,6 +156,7 @@ Add the disabled boolean attribute on an input to give it a grayed out appearanc
       state: "unchecked",
       isDisabled: true,
       isValid: true,
+      isBranded: true,
     }}
     parameters={{
       controls: {
@@ -138,11 +201,15 @@ Add an error message using the `made-c-form__validation--error` class.
       validationText: {
         name: "Validation Text",
       },
+       isBranded: {
+        name: "Branded",
+      },
     }}
     args={{
       label: "Option 1",
       state: "unchecked",
       isDisabled: false,
+      isBranded: true,
       validationText: "Validation",
     }}
     parameters={{
@@ -191,6 +258,9 @@ Add the `made-c-checkbox--indeterminate` on an input to give an indeterminate St
       isValid: {
         name: "Valid",
       },
+       isBranded: {
+        name: "Branded",
+      },
       validationText: {
         name: "Validation Text",
       },
@@ -200,6 +270,7 @@ Add the `made-c-checkbox--indeterminate` on an input to give an indeterminate St
       state: "indeterminate",
       isDisabled: false,
       isValid: true,
+      isBranded: true,
       validationText: "Validation",
     }}
     parameters={{
@@ -262,6 +333,9 @@ The checkbox group is aligned vertically by default.
       isValid: {
         name: "Valid",
       },
+       isBranded: {
+        name: "Branded",
+      },
       validationText: {
         name: "Validation Text",
       },
@@ -271,6 +345,7 @@ The checkbox group is aligned vertically by default.
       options: ["Option 1", "Option 2", "Option 3"],
       isVertical: true,
       isValid: true,
+      isBranded: true,
       validationText: "Validation",
     }}
     parameters={{
@@ -362,6 +437,9 @@ Add the `made-c-checkbox-group--horizontal` class to align a checkbox group hori
       isValid: {
         name: "Valid",
       },
+       isBranded: {
+        name: "Branded",
+      },
       validationText: {
         name: "Validation Text",
       },
@@ -371,6 +449,7 @@ Add the `made-c-checkbox-group--horizontal` class to align a checkbox group hori
       options: ["Option 1", "Option 2", "Option 3"],
       isVertical: false,
       isValid: true,
+      isBranded: true,
       validationText: "Validation",
     }}
     parameters={{
@@ -453,6 +532,9 @@ Add the `made-c-checkbox-group--error` class to the checkbox group to display er
       isValid: {
         name: "Valid",
       },
+       isBranded: {
+        name: "Branded",
+      },
       validationText: {
         name: "Validation Text",
       },
@@ -462,6 +544,7 @@ Add the `made-c-checkbox-group--error` class to the checkbox group to display er
       options: ["Option 1", "Option 2", "Option 3"],
       isVertical: true,
       isValid: false,
+      isBranded: true,
       validationText: "Validation",
     }}
     parameters={{

@@ -31,7 +31,7 @@ export const FooterMega = ({
                         )}
                         <p class="made-c-footer__title">{titleText}</p>
                         {isNavigationLink && (
-                            <a href="#" class="made-c-footer__link">
+                            <a href="#" class="made-c-footer__link" tabIndex="0">
                                 <svg
                                     class="made-u-margin-right-4-x"
                                     width="24"
@@ -69,6 +69,7 @@ export const FooterMega = ({
                                                     <a
                                                         class="made-c-footer__link--navigation"
                                                         href="#"
+                                                        tabIndex="0"
                                                     >
                                                         {label}
                                                     </a>

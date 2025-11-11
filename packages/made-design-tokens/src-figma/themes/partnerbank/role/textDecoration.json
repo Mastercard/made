@@ -1,0 +1,16 @@
+{
+  "textDecoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "opacity": {
+    "0": {
+      "value": "0",
+      "type": "opacity",
+      "comment": "Gives 0% opacity to an element (Hides an element).",
+      "themeable": "No"
+    },
+    "15": {
+      "value": "0.15",
+      "type": "opacity",
+      "comment": "Gives 15% opacity to an element.",
+      "themeable": "No"
+    },
+    "25": {
+      "value": "0.25",
+      "type": "opacity",
+      "comment": "Gives 25% opacity to an element.",
+      "themeable": "No"
+    },
+    "50": {
+      "value": "0.5",
+      "type": "opacity",
+      "comment": "Gives 50% opacity to an element.",
+      "themeable": "No"
+    },
+    "75": {
+      "value": "0.75",
+      "type": "opacity",
+      "comment": "Gives 75% opacity to an element.",
+      "themeable": "No"
+    },
+    "100": {
+      "value": "1",
+      "type": "opacity",
+      "comment": "Gives 100% opacity to an element.",
+      "themeable": "No"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "forms": {
+    "color": {
+      "background": {
+        "default": {
+          "comment": "Default background color for forms.",
+          "themeable": "Yes",
+          "type": "color",
+          "value": "{color.background.default.value}"
+        }
+      },
+      "border": {
+        "default": {
+          "comment": "Default border color for forms.",
+          "themeable": "Yes",
+          "type": "color",
+          "value": "{color.gray.05.value}"
+        }
+      }
+    }
+  }
+}

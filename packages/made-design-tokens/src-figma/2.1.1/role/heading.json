@@ -1,0 +1,150 @@
+{
+  "heading": {
+    "h1": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.10}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
+        "lineHeight": "{lineHeights.1}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
+        "lineHeight": "{lineHeights.2}",
+        "fontSize": "{fontSize.8}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
+        "lineHeight": "{lineHeights.3}",
+        "fontSize": "{fontSize.7}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "h5": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-1}",
+        "lineHeight": "{lineHeights.4}",
+        "fontSize": "{fontSize.6}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "h6": {
+      "value": {
+        "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+        "fontWeight": "{fontWeights.mark-offc-for-mc-2}",
+        "lineHeight": "{lineHeights.5}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "display": {
+      "h1": {
+        "value": {
+          "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+          "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
+          "lineHeight": "{lineHeights.6}",
+          "fontSize": "{fontSize.13}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      },
+      "h2": {
+        "value": {
+          "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+          "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
+          "lineHeight": "{lineHeights.7}",
+          "fontSize": "{fontSize.12}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      },
+      "h3": {
+        "value": {
+          "fontFamily": "{fontFamilies.mark-offc-for-mc}",
+          "fontWeight": "{fontWeights.mark-offc-for-mc-0}",
+          "lineHeight": "{lineHeights.8}",
+          "fontSize": "{fontSize.11}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "comment": "Figma-only design token.",
+        "figmaOnly": true
+      }
+    }
+  }
+}

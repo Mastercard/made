@@ -1,0 +1,12 @@
+{
+  "link": {
+    "color": {
+      "default": {
+        "comment": "Text color for link",
+        "themeable": "Yes",
+        "type": "color",
+        "value": "{color.action.primary.default.value}"
+      }
+    }
+  }
+}

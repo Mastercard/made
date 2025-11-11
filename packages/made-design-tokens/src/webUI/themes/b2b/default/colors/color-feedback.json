@@ -1,0 +1,48 @@
+{
+  "color": {
+    "feedback": {
+      "error": {
+        "comment": "Color for error state",
+        "value": "#EE0000",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "success": {
+        "comment": "Color for success or positive state",
+        "value": "#038A00",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "information": {
+        "comment": "Color for neutral or optional state",
+        "value": "{color.yellow.04.value}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "warning": {
+        "comment": "Color for warning state",
+        "value": "{color.gold.04.value}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "error-light": {
+        "comment": "Color for light variant of error state",
+        "value": "{color.red-error.01}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "success-light": {
+        "comment": "Color for light variant of success or positive state",
+        "value": "{color.green-success.01}",
+        "themeable": "Yes",
+        "type": "color"
+      },
+      "information-light": {
+        "comment": "Color for light variant of neutral or optional state",
+        "value": "{color.yellow.01.value}",
+        "themeable": "Yes",
+        "type": "color"
+      }
+    }
+  }
+}

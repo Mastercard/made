@@ -1,0 +1,46 @@
+{
+  "fontWeights": {
+    "mark-offc-for-mc-0": {
+      "value": "Light",
+      "type": "fontWeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "mark-offc-for-mc-1": {
+      "value": "Regular",
+      "type": "fontWeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "mark-offc-for-mc-2": {
+      "value": "Medium",
+      "type": "fontWeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "mark-offc-for-mc-3": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "markformcnrw-4": {
+      "value": "Regular",
+      "type": "fontWeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "markformcnrw-5": {
+      "value": "Medium",
+      "type": "fontWeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    },
+    "markformcnrw-6": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "comment": "Figma-only design token.",
+      "figmaOnly": true
+    }
+  }
+}

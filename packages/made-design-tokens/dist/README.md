@@ -28,7 +28,7 @@ With your design decisions extracted from a specific code base into a tech agnos
 **Consistent & Maintainable**  
 When everyone’s working from a single source of truth, we can collaborate and share knowledge in a quicker, simpler way.
 With role-based design tokens in place, designers and developers we can apply consistent design decisions across products.
-Everything is maintainable, easy to update and is future proof. If we ever decide to do a refreshed design later or create a new theme,
+Everything is maintainable, easy to update and is future proof. If we ever decide to do a refreshed design later or create a new theme,
 since the token system is in place we just change the values in the token values.
 
 **Saving time and resources**  
@@ -42,7 +42,7 @@ Designers reference the design tokens in the design and developers can reference
 Developers no longer have to reference hard coded values, improving documentation and the design handover process.
 
 **Tech Agnostic**  
-We store design tokens in a platform agnostic format and can transform our design tokens to scale across multiple platforms and languages like CSS or JSON for web, XML for Android, Swift for iOS. This means we can ensure brand consistency throughout any targeted platform.
+We store design tokens in a platform agnostic format and can transform our design tokens to scale across multiple platforms and languages like CSS or JSON for web, XML for Android, Swift for iOS. This means we can ensure brand consistency throughout any targeted platform.
 
 **Powerful theming**  
 Since everything is dynamic, using our new design tokens system, teams can theme their application in a matter of minutes. No more slow, manual updates.
@@ -56,8 +56,8 @@ See our [Getting started guide](https://made.mastercard.com/storybook-css/?path=
 
 ### How do I use tokens?
 
-All design decisions can be abstracted into tokens and design tokens come pre-baked into the Made. CSS component source code.
-For example, in the Made. button component we have tokens for color, border-radius, size, spacing, font size, font families and  line-height.
+All design decisions can be abstracted into tokens and design tokens come pre-baked into the Made. CSS component source code.
+For example, in the Made. button component we have tokens for color, border-radius, size, spacing, font size, font families and  line-height.
 
 <img
   src="https://made.mastercard.com/images/hero-design-tokens@2x.jpg"
@@ -112,8 +112,8 @@ Everything is maintainable, easy to update and is future proof. If we ever decid
 
 If a project requires you to use a different tech stack from the above, no problem!
 We store design tokens in a platform agnostic format(JSON) and use an open source design token generator [Style Dictionary](https://amzn.github.io/style-dictionary/#/)
-to transform our design tokens to scale across multiple platforms and languages like CSS or JSON for web, XML for Android, Swift for iOS.   
-This means we can ensure brand consistency throughout any targeted platform.
+to transform our design tokens to scale across multiple platforms and languages like CSS or JSON for web, XML for Android, Swift for iOS.   
+This means we can ensure brand consistency throughout any targeted platform.
 
 Currently, Made. provides design tokens in the formats below for Web. Tokens can be imported and referenced as shown below:
 
@@ -172,8 +172,6 @@ Made is always evolving – thanks to you. Every time you share local patterns, 
 If you're interested, definitely check out our Contributing Guide! 👀
 
 
-
 ## 🧹Changelog
 Check out our Changelog for the latest updates and releases.
-
 

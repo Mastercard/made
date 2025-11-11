@@ -1,0 +1,56 @@
+{
+  "color": {
+    "action": {
+      "background": {
+        "selected-light": {
+          "comment": "Light background color for selected actions.",
+          "value": "{color.accent.01.light.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-selected",
+          "themeable": "No",
+          "type": "color"
+        },
+        "hover-light": {
+          "comment": "Background color for hover state of UI Elements such as tables, dropdowns...",
+          "value": "{color.gray.01-5.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-hover",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-default": {
+          "comment": "Background color for on state of UI Elements such as toggle",
+          "value": "{color.brand.success.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-on",
+          "themeable": "No",
+          "type": "color"
+        },
+        "off-default": {
+          "comment": "Background color for off state of UI Elements such as toggle",
+          "value": "{color.gray.03-5.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-off",
+          "themeable": "No",
+          "type": "color"
+        },
+        "on-disabled": {
+          "comment": "Background color for on state of UI Elements such as toggle",
+          "value": "#D1DABE",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-disabled",
+          "themeable": "No",
+          "type": "color"
+        },
+        "off-disabled": {
+          "comment": "Background color for off state of UI Elements such as toggle",
+          "value": "{color.gray.02.value}",
+          "deprecated": true,
+          "deprecated_comment": "made-color-action-background-disabled",
+          "themeable": "No",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

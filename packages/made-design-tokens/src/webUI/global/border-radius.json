@@ -1,0 +1,66 @@
+{
+  "border": {
+    "radius": {
+      "01": {
+        "comment": "Border Radius: 2px",
+        "value": "2px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "02": {
+        "comment": "Border Radius: 4px",
+        "value": "4px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "03": {
+        "comment": "Border Radius: 6px",
+        "value": "6px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "04": {
+        "comment": "Border Radius: 8px",
+        "value": "8px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "05": {
+        "comment": "Border Radius: 12px",
+        "value": "12px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "06": {
+        "comment": "Border Radius: 16px",
+        "value": "16px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "07": {
+        "comment": "Border Radius: 20px",
+        "value": "20px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "08": {
+        "comment": "Border Radius: 24px",
+        "value": "24px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "09": {
+        "comment": "Border Radius: 28px",
+        "value": "28px",
+        "themeable": "No",
+        "type": "borderRadius"
+      },
+      "circle": {
+        "comment": "Border Radius: 50%",
+        "value": "50%",
+        "themeable": "No",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "footer": {
+    "color": {
+      "text": "#f8fffd",
+      "background": "#4d6260"
+    }
+  },
+  "header": {
+    "color": {
+      "text": "#f8fffd",
+      "background": "#4d6260"
+    }
+  },
+  "pill": {
+    "color": {
+      "background": {
+        "default": "#e1e5e8",
+        "hover": "#c7d0d1"
+      }
+    },
+    "border-radius": "12px"
+  },
+  "search": {
+    "color": {
+      "background": "#f5f8fa"
+    },
+    "action": {
+      "color": {
+        "background": {
+          "default": "#f5f8fa",
+          "hover": "#edf1f2"
+        }
+      }
+    }
+  },
+  "shadow": {
+    "default": "0 2px 10px 0 rgba(20,20,19,0.20)"
+  },
+  "border": {
+    "radius": {
+      "default": "4px",
+      "large": "8px",
+      "small": "2px"
+    }
+  },
+  "color": {
+    "action": {
+      "background": {
+        "hover": "#f5f8fa",
+        "selected": "#edf1f2",
+        "selected-hover": "#e1e5e8"
+      },
+      "border": {
+        "focus": "#4bab94",
+        "focus-on-dark": "#f8fffd"
+      },
+      "disabled": "#a5b0ae",
+      "disabled-button": "#b1ada6",
+      "disabled-toggle": "#b1ada6",
+      "disabled-text-input": "#b1ada6",
+      "on-dark": {
+        "active": "#a5b0ae",
+        "default": "#dcf5ef",
+        "hover": "#e1e5e8"
+      },
+      "primary": {
+        "active": "#23473d",
+        "default": "#4bab94",
+        "hover": "#266555"
+      },
+      "secondary": {
+        "active": "#23473d",
+        "default": "#4bab94",
+        "hover": "#266555"
+      },
+      "text": {
+        "on-dark": "#4d6260",
+        "on-disabled": "#ffffff",
+        "on-hover": "#4d6260",
+        "on-selected": "#4d6260",
+        "on-selected-hover": "#4d6260"
+      }
+    },
+    "background": {
+      "default": "#f8fffd",
+      "gray-lightest": "#edf1f2",
+      "01": "#f5f8fa",
+      "02": "#e1e5e8",
+      "inverse": "#4d6260"
+    },
+    "border": {
+      "default": {
+        "on-dark": "#96c6c1",
+        "on-light": "#e1e5e8"
+      }
+    },
+    "brand": {
+      "on-primary": "#ffffff",
+      "on-secondary": "#ffffff",
+      "primary": "#4bab94",
+      "secondary": "#4bab94"
+    },
+    "feedback": {
+      "error": "#ff33b4",
+      "error-light": "#fadef4",
+      "information": "#ffeb1f",
+      "information-light": "#fff4d1",
+      "success": "#008a60",
+      "success-light": "#dff7df",
+      "warning": "#f38b00"
+    },
+    "text": {
+      "default": {
+        "on-dark": "#ffffff",
+        "on-light": "#4d6260"
+      },
+      "helper": "#96c6c1",
+      "inverse": "#f8fffd"
+    }
+  },
+  "font": {
+    "body": {
+      "family": {
+        "bold": "serif, Arial",
+        "default": "serif, Arial",
+        "narrow": "serif, Arial"
+      },
+      "size": {
+        "default": "0.875rem",
+        "large": "1rem",
+        "small": "0.75rem"
+      },
+      "weight": {
+        "bold": "700",
+        "default": "400"
+      }
+    },
+    "family": {
+      "eyebrow": "serif, Arial",
+      "heading": "serif, Arial"
+    },
+    "heading": {
+      "size": {
+        "display": {
+          "01": "5rem",
+          "02": "3rem",
+          "03": "2rem"
+        },
+        "eyebrow": {
+          "01": "0.75rem",
+          "02": "1rem"
+        },
+        "level": {
+          "01": "2rem",
+          "02": "1.75rem",
+          "03": "1.5rem",
+          "04": "1.25rem",
+          "05": "1.125rem",
+          "06": "1rem"
+        }
+      }
+    }
+  },
+  "letter": {
+    "spacing": {
+      "default": "normal",
+      "eyebrow": "1.8px"
+    }
+  },
+  "line": {
+    "height": {
+      "default": "1.5",
+      "heading": "1.25",
+      "single": "1"
+    }
+  },
+  "backdrop": {
+    "color": {
+      "background": "rgba(20,20,19,0.7)"
+    }
+  },
+  "button": {
+    "border-radius": "2px"
+  },
+  "forms": {
+    "color": {
+      "background": {
+        "default": "#f8fffd"
+      },
+      "border": {
+        "default": "#96c6c1"
+      }
+    }
+  },
+  "grid": {
+    "gutters": {
+      "lg": "1rem",
+      "md": "1rem",
+      "sm": "0.5rem"
+    },
+    "margin": {
+      "lg": "1rem",
+      "md": "1rem",
+      "sm": "0.5rem"
+    }
+  },
+  "link": {
+    "color": {
+      "default": "#4bab94",
+      "on-dark": "#dcf5ef"
+    }
+  },
+  "scrollbar": {
+    "color": {
+      "background": "#a5b0ae"
+    }
+  }
+}

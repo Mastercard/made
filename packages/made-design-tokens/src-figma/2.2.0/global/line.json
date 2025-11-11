@@ -1,0 +1,42 @@
+{
+  "line": {
+    "height": {
+      "1-25-x": {
+        "value": "1.25",
+        "type": "lineHeights",
+        "comment": "Headings use a 1.25× multiplier",
+        "themeable": "No"
+      },
+      "1-5-x": {
+        "value": "1.5",
+        "type": "lineHeights",
+        "comment": "To ensure readability, Body uses a 1.5× multiplier",
+        "themeable": "No"
+      },
+      "1-x": {
+        "value": "1",
+        "type": "lineHeights",
+        "comment": "Line height for single line text elements displayed in components",
+        "themeable": "No"
+      },
+      "default": {
+        "value": "1.5",
+        "type": "lineHeights",
+        "comment": "Default line height.",
+        "themeable": "Yes"
+      },
+      "heading": {
+        "value": "1.25",
+        "type": "lineHeights",
+        "comment": "Headings line-height",
+        "themeable": "Yes"
+      },
+      "single": {
+        "value": "1",
+        "type": "lineHeights",
+        "comment": "Line height for single line text elements displayed in components",
+        "themeable": "Yes"
+      }
+    }
+  }
+}

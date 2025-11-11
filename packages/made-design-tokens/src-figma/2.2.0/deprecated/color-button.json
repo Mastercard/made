@@ -1,0 +1,468 @@
+{
+  "link": {
+    "color": {
+      "disabled": {
+        "comment": "Text color for link :disabled state",
+        "deprecated": true,
+        "deprecated_comment": "made-color-action-text-disabled",
+        "value": "rgba(207,69,0,0.50)"
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "text": {
+        "primary": {
+          "on-light": {
+            "comment": "Text color for primary button on light background",
+            "value": "{color.action.text.on-primary.value}",
+            "deprecated": true,
+            "deprecated_comment": "made-color-action-text-on-primary",
+            "themeable": "No",
+            "type": "color"
+          },
+          "on-dark": {
+            "comment": "Text color for primary button on a dark background",
+            "deprecated": true,
+            "deprecated_comment": "made-color-action-text-on-dark",
+            "value": "{color.action.text.on-dark.value}",
+            "themeable": "No",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "default": {
+            "on-light": {
+              "comment": "Text color for secondary buttons",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-secondary-default",
+              "value": "{color.action.secondary.default.value}",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Text color for secondary buttons on a dark background",
+              "value": "{color.action.on-dark.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-on-dark-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "on-light": {
+              "comment": "Text color for secondary button hover action",
+              "value": "{color.action.secondary.hover.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-secondary-hover",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Text color for secondary button hover action on a dark background",
+              "value": "{color.action.on-dark.hover.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-on-dark-hover",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "active": {
+            "on-light": {
+              "comment": "Text color for secondary button active action",
+              "value": "{color.action.secondary.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-secondary-active",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Text color for secondary button active action on a dark background",
+              "value": "{color.action.on-dark.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-on-dark-active",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "on-light": {
+              "comment": "Text color for secondary button disabled state",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-disabled",
+              "value": "{color.accent.01.light.value}",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Text color for secondary button disabled action on a dark background",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-disabled",
+              "value": "{color.action.disabled.value}",
+              "themeable": "No",
+              "type": "color"
+            }
+          }
+        },
+        "ghost": {
+          "default": {
+            "on-light": {
+              "comment": "Text color for default ghost buttons",
+              "value": "{color.action.text.primary.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-primary-default",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Text color for default ghost buttons on a dark background",
+              "value": "{color.action.text.on-dark-default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-action-text-on-dark-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "active": {
+            "on-light": {
+              "comment": "Text color for default ghost buttons active action",
+              "value": "{color.action.text.primary.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-primary-active",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Text color for default ghost buttons active action on a dark background",
+              "value": "{color.action.text.on-dark-active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-on-dark-active",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "on-light": {
+              "comment": "Text color for default ghost buttons disabled state",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-disabled",
+              "value": "{color.gray.04.value}",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Text color for default ghost buttons disabled state on a dark background",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-text-disabled",
+              "value": "{color.gray.04.value}",
+              "themeable": "No",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "border": {
+        "primary": {
+          "default": {
+            "on-light": {
+              "comment": "Border color for primary button",
+              "value": "{color.action.primary.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-primary-default",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Border color for primary button on a dark background",
+              "value": "{color.action.on-dark.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-on-dark-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "on-light": {
+              "comment": "Border color for primary button hover action",
+              "value": "{color.action.primary.hover.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-primary-hover",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Border color for primary button hover action on a dark background",
+              "value": "{color.action.on-dark.hover.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-on-dark-hover",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "active": {
+            "on-light": {
+              "comment": "Border color for primary button active action",
+              "value": "{color.action.primary.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-primary-active",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Border color for primary button active action on a dark background",
+              "value": "{color.action.on-dark.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-on-dark-active",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "on-light": {
+              "comment": "Border color for primary button disabled state",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-disabled",
+              "value": "{color.accent.01.light.value}",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Border color for primary button disabled state on a dark background",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-disabled",
+              "value": "#FFFFFF",
+              "themeable": "No",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "on-light": {
+              "comment": "Border color for secondary button",
+              "value": "{color.action.secondary.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-secondary-default",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Border color for secondary button on a dark background",
+              "value": "{color.action.on-dark.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-on-dark-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "on-light": {
+              "comment": "Border color for secondary button hover action",
+              "value": "{color.action.secondary.hover.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-secondary-hover",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Border color for secondary button hover action on a dark background",
+              "value": "{color.action.on-dark.hover.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-on-dark-hover",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "active": {
+            "on-light": {
+              "comment": "Border color for secondary button active action",
+              "value": "{color.action.secondary.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-secondary-active",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Border color for secondary button active action on a dark background",
+              "value": "{color.action.on-dark.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-on-dark-active",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "on-light": {
+              "comment": "Border color for secondary button disabled state",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-disabled",
+              "value": "{color.accent.01.light.value}",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Border color for secondary button disabled state on a dark background",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-border-disabled",
+              "value": "{color.gray.03.value}",
+              "themeable": "No",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "background": {
+        "primary": {
+          "default": {
+            "on-light": {
+              "comment": "Background color for primary button",
+              "value": "{color.action.primary.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-primary-default",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Background color for primary button on a dark background",
+              "value": "{color.action.on-dark.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-on-dark-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "on-light": {
+              "comment": "Background color for primary hover state",
+              "value": "{color.action.primary.hover.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-primary-hover",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Background color for primary hover state on a dark background",
+              "value": "{color.action.on-dark.hover.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-on-dark-hover",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "active": {
+            "on-light": {
+              "comment": "Background color for primary button active state",
+              "value": "{color.action.primary.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-primary-hover",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Background color for primary active state on a dark background",
+              "value": "{color.action.on-dark.active.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-on-dark-active",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "on-light": {
+              "comment": "Background color for primary button disabled state",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-disabled",
+              "value": "{color.accent.01.light.value}",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Background color for primary button disabled state on a dark background",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-disabled",
+              "value": "#FFFFFF",
+              "themeable": "No",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "on-light": {
+              "comment": "Background color for secondary button",
+              "value": "{color.background.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-secondary-default",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Background color for secondary button on a dark background",
+              "value": "{color.background.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-secondary-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "on-light": {
+              "comment": "Background color for hover state of secondary button",
+              "value": "{color.background.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-secondary-default",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Background color for hover state of secondary button on a dark background",
+              "value": "{color.background.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-secondary-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          },
+          "active": {
+            "on-light": {
+              "comment": "Background color for active state of secondary button",
+              "value": "{color.background.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-secondary-default",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Background color for active state of secondary button on a dark background",
+              "value": "{color.background.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-action-background-secondary-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          }
+        },
+        "ghost": {
+          "default": {
+            "on-light": {
+              "comment": "Background color for default ghost buttons",
+              "value": "{color.background.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-background-default",
+              "themeable": "No",
+              "type": "color"
+            },
+            "on-dark": {
+              "comment": "Background color for default ghost buttons on a dark background",
+              "value": "{color.background.default.value}",
+              "deprecated": true,
+              "deprecated_comment": "made-color-background-default",
+              "themeable": "No",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}

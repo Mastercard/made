@@ -1,0 +1,55 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Hello/What's New/Made CSS 3.0.0" />
+
+# Made 2024 Q1 release
+
+### CSS/HTML Updates
+
+**System Icons**  
+System icons have been added into UI components. 
+
+**Grid**  
+Grid is now more flexible with 100% width.  To add a max width add a new class next to the grid container.
+
+```
+<div class="made-l-grid made-l-grid--width">... </div>
+```
+
+Add a max-width to that class in the CSS.
+
+```
+.made-l-grid--width {
+    max-width: 1400px
+}
+```
+
+**Button** 
+* <a onClick={linkTo("actions-button--button-with-icon-only")}>New Button variant for icon only.</a> 
+*  <a onClick={linkTo("actions-button--button-with-icons")}>Icons</a> and loading indicators are now supported to the left and right of the button. 
+*  <a onClick={linkTo("actions-button--loading-state")}>Loading state</a> for buttons.
+
+**Checkbox**  
+New styles for <a onClick={linkTo("forms-checkbox--default-story")}>checkbox</a> and new variant for  <a onClick={linkTo("forms-checkbox--neutral")}>unbranded</a> checkboxes.
+
+**Forms**  
+Updated styles for form validation and validation icons.
+
+**Toggle**  
+New design of <a onClick={linkTo("forms-toggle--default-story")}>Toggle</a> component.
+
+****
+
+### New Design Tokens
+
+**Checkbox tokens**  
+See the new <a onClick={linkTo("design-tokens-color--checkbox")}>Checkbox tokens</a> for a list of new tokens.
+
+
+**Placeholder token**  
+See the new <a onClick={linkTo("design-tokens-color--text")}>placeholder token</a> for a list of new tokens.
+
+
+**Table token**  
+See the new <a onClick={linkTo("design-tokens-color--table")}>table token</a> for a list of new tokens.

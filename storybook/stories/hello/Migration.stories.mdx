@@ -1,0 +1,73 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Hello/Migration" parameters={{}} />
+
+# Migrating to Made
+
+## All At Once or Incremental?
+
+Teams adopt systems at different rates. New products are easy: use the system as a foundation to achieve complete adoption from the start. For existing products, it's more complicated.
+
+### All At Once
+Some choose to stop everything, throw out the old, implement the new, and get back to work in a limited number of sprints. This big bang approach occurs because teams see immediate value (yes!), are forced to (sigh…), or want to just do it and move on.
+
+### Incremental Approach
+
+Some teams want to minimize breaking changes for their consuming teams, therefore some teams may wish to migrate to Made incrementally as a first step and to plan a release with breaking changes at a later date. 
+
+## Options in Adopting Made CSS
+
+### All At Once
+
+1. Add CSS as a dependency to their project and import it into the stylesheet. 
+
+2. Review component documentation and code examples in Storybook. e.g. Button
+
+3. Replace current CSS classes and restructure HTML where necessary on existing components.
+
+### Incremental 
+
+Adopt Made CSS elements gradually e.g. typography, grid, utility classes or components to extend existing library/app. 
+
+## Options in Adopting Made Design Tokens
+
+### Incremental 
+
+Some teams e.g. D&S have existing design tokens and variables. Removing these variables may cause a breaking change for their consuming teams, therefore some teams may wish to map current design tokens/variables to Made Design Tokens e.g. D&S/Made Token Mapping as a first step to plan a release with breaking changes.
+
+If teams don't want to change current HTML structure or CSS class names they can import design tokens and replace current variables in CSS code.
+
+### All At Once
+
+Replace existing variables with Made Design Tokens and follow steps as outlined for a new project.
+
+Replace reference to current variables to Made Design Tokens in styles. Tip - use Made Storybook to help decipher which tokens to use e.g. inspect the button component to inspect what tokens are used. 
+
+If no token is available from Made Reach out to the Made team and we will advise if we need to create a new token or does the team create a local variable/domain-specific token
+
+## Releases/Semantic Versioning
+
+Made uses SemVer—semantic versioning—on our components. The three types of versions are:
+
+- Major versions contain breaking changes.
+
+- Minor versions add new features or deprecate existing features without breaking changes.
+
+- Patch versions fix defects or optimize existing features without breaking changes.
+
+Version numbers are presented Major.Minor.Patch, for example, 3.2.1.
+
+Major versions are reserved for breaking changes and may require products to refactor their implementation of Made. Major versions will always include documentation on the breaking changes, to assist teams when upgrading. 
+
+- Design Tokens - Renaming or removing a token.  
+
+- CSS - Any changes to style that trigger a layout change in an MDS user's product, such as: 
+    - Changes to box-model properties, including padding, margin, width, height, display, box-sizing, position, top/right/bottom/left.
+    - Changes to font attributes that cause text to wrap where it previously didn't wrap, including increased font-size, font-weight, or letter-spacing. 
+    - Changes to the structure of component CSS that affect specificity or scope of styles
+    - Removing or renaming a class.
+    - Change structure of HTML.
+- Icons -  Renaming or removing an icon.
+- Fonts  - Renaming or removing a font.

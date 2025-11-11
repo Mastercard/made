@@ -1,0 +1,12 @@
+{
+  "header": {
+    "color": {
+      "background": {
+        "comment": "Background color for header component",
+        "themeable": "Yes",
+        "type": "color",
+        "value": "{color.gray.07.value}"
+      }
+    }
+  }
+}

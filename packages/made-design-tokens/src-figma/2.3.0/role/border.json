@@ -1,0 +1,24 @@
+{
+  "border": {
+    "radius": {
+      "default": {
+        "value": "{border.radius.02.value}",
+        "type": "borderRadius",
+        "comment": "Default border radius for UI components",
+        "themeable": "Yes"
+      },
+      "large": {
+        "value": "{border.radius.04.value}",
+        "type": "borderRadius",
+        "comment": "Large border radius for UI components",
+        "themeable": "Yes"
+      },
+      "small": {
+        "value": "{border.radius.01.value}",
+        "type": "borderRadius",
+        "comment": "Small border radius for UI components",
+        "themeable": "Yes"
+      }
+    }
+  }
+}

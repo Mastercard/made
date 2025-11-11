@@ -1,0 +1,1440 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import { linkTo } from "@storybook/addon-links";
+
+<Meta title="Hello/What's New/Made CSS 1.2.0" />
+
+# Made CSS 1.2.0 & Made Design Tokens 2.1.1
+
+Made. July release for design tokens and CSS includes:
+
+- <a onClick={linkTo("design-tokens-theming--color")}>Themeable tokens</a> that allow
+  teams to re-theme applications in a matter of minutes.
+- Additional <a onClick={linkTo("utility-classes-accessibility--accessibility")}>utility classes</a> to give developers more flexibility to modify and extend existing components.
+- Feature requests from discussions, issues and improvements highlighted by the Made. community.
+
+## Theming 🎨
+
+The Made. Framework is evolving our design tokens to scale across products by support theming and white-labelling.
+
+We have flagged 40 color, 25 typography, 5 border radius and 6 grid spacing themeable tokens that will cascade to other design tokens rather than teams having to change each token separately.
+This allows teams to re-theme applications in a matter of minutes.
+You may want to change only a small number of tokens to re-theme primary colours, typography or border radius or you might need to change more of the these tokens to create a dark theme for example.
+
+In the process of defining these tokens we have created consistent patterns for disabled, hover and selected interactive states,
+replaced the 46 button tokens to 12 action colours and added additional tokens for secondary brand colours that will cascade to
+secondary buttons for example.
+
+We have added design tokens that will allow teams to re-theme
+all font families and font weights for headings. We have added border radius tokens to theme the border radius of UI components across your application,
+re-theming from round to square buttons, cards, pills, form elements.
+
+See the new <a onClick={linkTo("design-tokens-theming--color")}>Design Tokens Theming</a> Guide for more details on theming.
+
+### Interactive states
+
+In the previous versions of the Made. B2B library there were a number of styles for disabled states, hover and selected styles depending on context.
+Made. has defined styles for the states below that should be applied consistently across components in order to increase usability.
+
+#### Disabled states
+
+** Tokens **  
+There is now one "themeable" token `made-color-action-disabled` for disabled color that will cascade to other disabled tokens (borders, background and text disabled tokens) and will require only one change when creating a new theme.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-disabled</code>
+        <small>Global color for disabled state</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#B1ADA6",
+            borderColor: "#B1ADA6",
+          }}
+        ></div>
+        <code>COLOR GRAY 03</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-disabled</code>
+        <small>Text color on top of disabled state color</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFFFFF",
+            borderColor: "#FFFFFF",
+          }}
+        ></div>
+        <code>WHITE</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-background-disabled</code>
+        <small>
+          Color for disabled state of UI Elements such as tables, dropdowns...
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#B1ADA6",
+            borderColor: "#B1ADA6",
+          }}
+        ></div>
+        <code>COLOR GRAY 03</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Deprecated Token Name</th>
+      <th>New Token Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-link-color-disabled</code>
+      </td>
+      <td>
+        <code>made-color-action-text-disabled</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-background-off-disabled</code>
+      </td>
+      <td>
+        <code>made-color-action-background-disabled</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-background-on-disabled</code>
+      </td>
+      <td>
+        <code>made-color-action-background-disabled</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-forms-color-background-disabled</code>
+      </td>
+      <td>
+        <code>made-color-action-background-disabled</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-forms-color-border-disabled</code>
+      </td>
+      <td>
+        <code>made-color-action-border-disabled</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+** Style **  
+Default disabled states are most commonly styled by a decrease in opacity with no hover state change and not-allowed cursor applied. Refer to each individual component for the accurate disabled state.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Default disabled style</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Button</td>
+      <td> 50% opacity</td>
+      <td>
+        <a onClick={linkTo("actions-button--disabled-states")}>See Example</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Toggle</td>
+      <td>25% opacity</td>
+      <td>
+        <a onClick={linkTo("forms-toggle--disabled-off")}>See Example</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Text Input</td>
+      <td>15% opacity</td>
+      <td>
+        <a onClick={linkTo("forms-text-input--disabled-state")}>See Example</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>none</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cursor</td>
+      <td>Not allowed</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+#### Hover states
+
+We have consolidated all hover states across components to use one background token `made-color-action-background-hover`.
+This will require only one change when creating a new theme.
+
+To change the color of the text on the hover state e.g. for a dark theme use the `made-color-action-text-on-hover` token.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-background-hover</code>
+        <small>
+          Background color for hover state of UI Elements such as tables,
+          dropdowns...
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FAF7F5",
+            borderColor: "#FAF7F5",
+          }}
+        ></div>
+        <code>COLOR GRAY 01.25</code>
+      </td>
+      <td>
+        <a onClick={linkTo("popover-overflow-menu--default-story")}>
+          See Example
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-hover</code>
+        <small>Text color on top of hover state of UI Elements</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#141413",
+            borderColor: "#141413",
+          }}
+        ></div>
+        <code>COLOR TEXT DEFAULT ON-LIGHT</code>
+      </td>
+      <td>
+        <a onClick={linkTo("popover-overflow-menu--default-story")}>
+          See Example
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Deprecated Token Name</th>
+      <th>New Token Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-background-hover-light</code>
+      </td>
+      <td>
+        <code>made-color-action-background-hover</code>
+        <small>
+          Color for hover state of UI Elements such as tables, dropdowns...
+        </small>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Selected states
+
+We have consolidated all hover states across components to use one background token `made-color-action-background-selected`.
+This will require only one change when creating a new theme.
+
+To change the color of the text on the hover state e.g. for a dark theme use the `made-color-action-text-on-selected` token.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-background-selected</code>
+        <small>
+          Color for selected state of UI Elements such as tables, dropdowns..
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#f3f0ee",
+            borderColor: "#f3f0ee",
+          }}
+        ></div>
+        <code>COLOR GRAY 01-5</code>
+      </td>
+      <td>
+        <a onClick={linkTo("forms-select--multi-select")}>See Example</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-selected</code>
+        <small>Text color on top of selected state of UI Elements</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#141413",
+            borderColor: "#141413",
+          }}
+        ></div>
+        <code>COLOR TEXT DEFAULT ON-LIGHT</code>
+      </td>
+      <td>
+        <a onClick={linkTo("content-data-display-table--data-table")}>
+          See Example
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Deprecated Token Name</th>
+      <th>New Token Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-selected-light</code>
+      </td>
+      <td>
+        <code>made-color-action-text-on-selected</code>
+        <small>Text color on top of selected state of UI Elements</small>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-background-selected-light</code>
+      </td>
+      <td>
+        <code>made-color-action-background-selected</code>
+        <small>
+          Color for selected state of UI Elements such as tables, dropdowns...
+        </small>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Selected and hover states
+
+We have consolidated all hover states across components to use one background token `made-color-action-background-selected-hover`.
+This will require only one change when creating a new theme.
+
+To change the color of the text on the hover state e.g. for a dark theme use the `made-color-action-text-on-selected-hover` token.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-background-selected-hover</code>
+        <small>
+          Color for selected state of UI Elements such as tables, dropdowns..
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#e8e5e1",
+            borderColor: "#e8e5e1",
+          }}
+        ></div>
+        <code>COLOR GRAY 02</code>
+      </td>
+      <td>
+        <a onClick={linkTo("forms-select--multi-select")}>See Example</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-selected-hover</code>
+        <small>
+          Text color on top of selected and hover state of UI Elements
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#141413",
+            borderColor: "#141413",
+          }}
+        ></div>
+        <code>COLOR TEXT DEFAULT ON-LIGHT</code>
+      </td>
+      <td>
+        <a onClick={linkTo("content-data-display-table--data-table")}>
+          See Example
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Brand Secondary colors
+
+We have added tokens for brand secondary colors for themes that support secondary colors.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-brand-secondary</code>
+        <small>The secondary color of your brand</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#cf4500",
+            borderColor: "#cf4500",
+          }}
+        ></div>
+        <code>COLOR ORANGE 04</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-brand-on-secondary</code>
+        <small>The text color on your secondary brand color</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#FFFFFF",
+            borderColor: "#FFFFFF",
+          }}
+        ></div>
+        <code>#FFFFFF</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Action Colors
+
+To streamline the theming process and reduce the amount of changes teams need to make to design token values we have introduced 12 new action tokens that are "themeable" and will cascade to other action tokens.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-action-primary-default</code>
+        <small>Color of primary interactive color e.g. buttons</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#cf4500",
+            borderColor: "#cf4500",
+          }}
+        ></div>
+        <code>COLOR BRAND PRIMARY</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-primary-hover</code>
+        <small>Color of primary interactive color on hover e.g. buttons</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#852d01",
+            borderColor: "#852d01",
+          }}
+        ></div>
+        <code>COLOR ORANGE 05</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-primary-active</code>
+        <small>Color of primary interactive color on active e.g. buttons</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#331505",
+            borderColor: "#331505",
+          }}
+        ></div>
+        <code>COLOR ORANGE 07</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-secondary-default</code>
+        <small>
+          Color of secondary interactive color e.g. secondary buttons
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#cf4500",
+            borderColor: "#cf4500",
+          }}
+        ></div>
+        <code>COLOR BRAND SECONDARY</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-secondary-hover</code>
+        <small>
+          Color of secondary interactive color on hover e.g. secondary buttons
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#852d01",
+            borderColor: "#852d01",
+          }}
+        ></div>
+        <code>COLOR ACTION PRIMARY HOVER</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-secondary-active</code>
+        <small>
+          Color of secondary interactive color on active e.g. secondary button
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#331505",
+            borderColor: "#331505",
+          }}
+        ></div>
+        <code>COLOR ACTION PRIMARY ACTIVE</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-on-dark-default</code>
+        <small>
+          Color of interactive color on dark background e.g. buttons
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#ffffff",
+            borderColor: "#ffffff",
+          }}
+        ></div>
+        <code>#FFFFFF</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-on-dark-hover</code>
+        <small>
+          Text color of secondary interactive color on dark background e.g.
+          buttons
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#e8e5e1",
+            borderColor: "#e8e5e1",
+          }}
+        ></div>
+        <code>COLOR GRAY 02</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-on-dark-active</code>
+        <small>
+          Text color of secondary interactive color on dark background e.g.
+          buttons
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#b1ada6",
+            borderColor: "#b1ada6",
+          }}
+        ></div>
+        <code>COLOR GRAY 03</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-dark</code>
+        <small>
+          Text color on top of interactive color on a dark background
+        </small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#141413",
+            borderColor: "#141413",
+          }}
+        ></div>
+        <code>COLOR GRAY 07</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-primary</code>
+        <small>Text color on top of primary interactive color</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#ffffff",
+            borderColor: "#ffffff",
+          }}
+        ></div>
+        <code>COLOR BRAND ON PRIMARY</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-action-text-on-secondary</code>
+        <small>Text color on top of secondary interactive color</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#ffffff",
+            borderColor: "#ffffff",
+          }}
+        ></div>
+        <code>COLOR BRAND ON SECONDARY</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+These tokens cascade to additional tokens for text, border and background properties e.g. `made-color-action-background-primary-default`, `made-color-action-border-secondary-default`
+
+The addition and consistency of these tokens mean that button tokens are no longer required as the tokens above offer the flexibility to align with all interactive states and elements.
+Buttons tokens will remain in the design token package until product teams have the opportunity to update code.
+
+---
+
+### Typography
+
+There are new role based and component specific design tokens to allow more flexible theming for typography. Updating these tokens will update all headings for example but teams can also override these tokens individually if required.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-font-family-heading</code>
+        <small>Font family for headings (H1,H2 and display text)</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-family-heading)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>MarkOffcForMC-Light</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-family-eyebrow</code>
+        <small>Font family for headings (H1,H2 and display text)</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-family-eyebrow)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>MarkOffcForMC-Bold</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-line-height-single</code>
+        <small>
+          Line height for single line text elements displayed in components
+        </small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+            lineHeight: "var(--made-line-height-single)",
+          }}
+        >
+          ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890
+        </p>
+        <code>1</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-line-height-default</code>
+        <small>Default line height</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+            lineHeight: "var(--made-line-height-default)",
+          }}
+        >
+          ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890
+        </p>
+        <code>1.5</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-line-height-heading</code>
+        <small>Headings line-height</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+            lineHeight: "var(--made-line-height-heading)",
+          }}
+        >
+          ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890
+        </p>
+        <code>1.25</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-letter-spacing-eyebrow</code>
+        <small>Default letter spacing for all text</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "",
+            fontSize: "",
+            wordBreak: "break-all",
+            letterSpacing: "var(--made-letter-spacing-eyebrow)",
+          }}
+        >
+          ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890
+        </p>
+        <code>1.8px</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-weight-default</code>
+        <small>Normal font weight is used for body text and form inputs</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-weight-default)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>400</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-weight-light</code>
+        <small>Light font weight is used for headings</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-weight-light)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>100</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-weight-medium</code>
+        <small>Semi bold font weight is used for buttons</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-weight-medium)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>500</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-weight-bold</code>
+        <small>
+          Use bold sparingly for subtitles, eyebrows, emphasis, and dates
+        </small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-weight-bold)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>700</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-level-01</code>
+        <small>Font Family for Heading 1 (H1)</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-level-01)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-level-02</code>
+        <small>Font Family for Heading 2 (H2)</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-level-02)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-level-03</code>
+        <small>Font Family for Heading 3 (H3)</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-level-03)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-level-04</code>
+        <small>Font Family for Heading 4 (H4)</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-level-04)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-level-05</code>
+        <small>Font Family for Heading 5 (H5)</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-level-05)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-level-06</code>
+        <small>Font Family for Heading 6 (H6)</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-level-06)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-display-01</code>
+        <small>Font family for Display 01</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-display-01)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-display-02</code>
+        <small>Font family for Display 02</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-display-02)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-display-03</code>
+        <small>Font family for Display 03</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-display-03)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-eyebrow-01</code>
+        <small>Font family for small eyebrow text</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-eyebrow-01)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-font-heading-weight-eyebrow-02</code>
+        <small>Font family for large eyebrow text</small>
+      </td>
+      <td>
+        <p
+          style={{
+            fontFamily: "var(--made-font-body-family-default)",
+            fontWeight: "var(--made-font-heading-weight-eyebrow-02)",
+            fontSize: "",
+            wordBreak: "break-all",
+          }}
+        >
+          Aa
+        </p>
+        <code>FONT WEIGHT DEFAULT</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Border Radius
+
+We have added new role based and component specific design tokens to allow more flexible theming for border radius.
+
+New role based tokens `made-border-radius-small`, `made-border-radius-default`, `made-border-radius-large` allow us to modify multiple component styles e.g. `made-border-radius-default` will define the radius for Carousels,
+File Upload, Modal container, Notification and Overflow menu. Component specific tokens allow teams to theme buttons and pills.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>New Token Name</th>
+      <th>New Token Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-border-radius-small</code>
+        <small>Small border radius for UI components</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{ borderRadius: "2px" }}
+        ></div>
+        <code>2px</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-border-radius-default</code>
+        <small>Default border radius for UI components</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{ borderRadius: "4px" }}
+        ></div>
+        <code>4px</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-border-radius-large</code>
+        <small>Large border radius for UI components</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{ borderRadius: "6px" }}
+        ></div>
+        <code>6px</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-button-border-radius</code>
+        <small>Button Border Radius</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{ borderRadius: "20px" }}
+        ></div>
+        <code>20px</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-pill-border-radius</code>
+        <small>Pill Border Radius</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{ borderRadius: "12px" }}
+        ></div>
+        <code>12px</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### ⚠️ Deprecated Tokens
+
+In order to improve consistency across the library and reduce the number of tokens required to create a new theme we are <a onClick={linkTo("design-tokens-color--deprecated-tokens")}>deprecating these tokens</a>.
+
+The design token file size has been reduced from 44kb (422 tokens) to 33.9 KB (359 tokens) 💪.
+
+If you need to continue using these tokens, you can import a deprecated file in the format that you need e.g.
+
+```
+<link rel="stylesheet" href="[path-to-directory]/deprecated.css" />
+```
+
+---
+
+### Global colors
+
+We have added in additional global colors to use within a Mastercard application.
+
+Our core/global color palette contains our primitive color values used as a foundation for our role based tokens e.g. feedback colors
+
+<a onClick={linkTo("design-tokens-color--global")}>
+  See Global colors Documentation for more information.
+</a>
+
+---
+
+### Feedback colors Values
+
+We have updated the values for global error and success tokens to align with Mastercard branding guidelines.
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Token Name</th>
+      <th width="20">Old Token Value</th>
+      <th width="20">New Token Value</th>
+      <th>New Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-feedback-error</code>
+        <small>Color for error state</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#d7373c",
+            borderColor: "#d7373c",
+          }}
+        ></div>
+        <code>#D7373C</code>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#ee0000",
+            borderColor: "#ee0000",
+          }}
+        ></div>
+        <code>#EE0000</code>
+      </td>
+      <td>
+        <a onClick={linkTo("feedback-notification--success")}>See Example</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-feedback-success</code>
+        <small>Color for success or positive state</small>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#628020",
+            borderColor: "#628020",
+          }}
+        ></div>
+        <code>#628020</code>
+      </td>
+      <td>
+        <div
+          className="made-s-color-block"
+          style={{
+            background: "#038a00",
+            borderColor: "#038a00",
+          }}
+        ></div>
+        <code>#038a00</code>
+      </td>
+      <td>
+        <a onClick={linkTo("feedback-notification--error")}>See Example</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table className="made-c-table made-s-table">
+  <thead>
+    <tr>
+      <th>Deprecated Token Name</th>
+      <th>New Token Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>made-color-brand-error</code>
+      </td>
+      <td>
+        <code>made-color-feedback-error</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>made-color-brand-success</code>
+      </td>
+      <td>
+        <code>made-color-feedback-success</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Utility Classes 🧰
+
+Quickly build, extend and modify layouts and existing Made. components using new utility classes.
+
+- You can quickly build custom design with no need to modify the existing CSS.
+- Reuse classes over an over, adding consistency to your application.
+- Utility classes are self-descriptive, single-purpose classes that developers can easily scan and visualize the intention of that class.
+
+<a onClick={linkTo("utility-classes-accessibility--accessibility")}>
+  See the Utility Classes section to get started.
+</a>
+
+### Putting into Practice
+
+In the example below the Branding component has been extended to add a button. By using layout and spacing utility classes we can modify the
+component to create a custom design. 
+
+<Canvas>
+  <Story name="Utility Classes">
+    <div class="made-c-branding made-c-branding--dark made-u-justify-content-between">
+      <div class="made-u-display-flex made-u-align-content-center">
+        <img
+          src="https://cdn.jsdelivr.net/gh/Mastercard/made@develop/storybook/stories/assets/images/logo-small.svg"
+          alt="Mastercard logo"
+          width="52"
+          height="32"
+        />
+        <span class="made-c-branding__link made-u-text--on-dark">product</span>
+      </div>
+      <div>
+        <button
+          type="button"
+          class="made-c-button made-c-button--secondary-on-dark made-c-button--icon made-u-margin-right-2-x"
+        >
+          My Account
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            class="made-u-margin-left-2-x"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.61 9.497a.743.743 0 01.844-.33.742.742 0 01.546.722V23h7.261c.315.381.682.715 1.087 1H7V10.776l-5.168 8.459-.854-.521zM19.5 15c2.481 0 4.5 2.019 4.5 4.5S21.981 24 19.5 24a4.505 4.505 0 01-4.5-4.5c0-2.481 2.019-4.5 4.5-4.5zm0 1c-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5 3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5zm1.881 1.896l.707.708-3.104 3.103-2.072-2.072.707-.707 1.365 1.365 2.397-2.397zm-4.835-8.729a.743.743 0 01.844.329l2.779 4.549A5.473 5.473 0 0019.5 14c-.174 0-.345.01-.514.026L17 10.776v3.831a5.5 5.5 0 00-1 .654V9.889c0-.34.219-.63.546-.722zM12 0c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 1c-1.654 0-3 1.346-3 3s1.346 3 3 3 3-1.346 3-3-1.346-3-3-3z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </Story>
+</Canvas>
+
+---
+
+## Feature Requests 🤝
+
+Made is always evolving – thanks to you.
+We have included feature requests from teams like Forge, DAS, and Smart Data in this release.
+Based on your feedback we have added the following:
+
+- <a onClick={linkTo("utility-classes-flex--flex-direction-row")}>
+    Flex Classes
+  </a>
+  : Apply responsive flex utility classes to create various flex styles for controlling
+  layout of elements
+- <a onClick={linkTo("utility-classes-typography--font-style")}>Text Styling</a>:
+  Classes for common text styling to control styles, alignment, whitespace and wrapping
+- <a onClick={linkTo("foundations-grid--overview")}>Grid Offfset</a>: Move
+  columns to the right along the grid using offset column classes
+- <a onClick={linkTo("design-tokens-theming--color")}>
+    Technical documentation on how to create a new theme
+  </a>
+- Aria Disabled: Aria disabled attribute now styled the same as the disabled attribute
+
+Every time you share bug fixes, components, or documentation with us, you’re helping us to understand your needs.​
+
+​To contribute, add feature request or offer feedback to Made. see our <a onClick={linkTo("hello-contribute--page")}>Contribution guidelines</a> - We would love to hear from you!​
+
+​

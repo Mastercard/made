@@ -1,0 +1,99 @@
+{
+  "line": {
+    "height": {
+      "1-25-x": {
+        "value": "1.25",
+        "type": "lineHeights",
+        "comment": "Headings use a 1.25× multiplier",
+        "themeable": "No"
+      },
+      "1-5-x": {
+        "value": "1.5",
+        "type": "lineHeights",
+        "comment": "To ensure readability, Body uses a 1.5× multiplier",
+        "themeable": "No"
+      },
+      "1-x": {
+        "value": "1",
+        "type": "lineHeights",
+        "comment": "Line height for single line text elements displayed in components",
+        "themeable": "No"
+      },
+      "default": {
+        "value": "1.5",
+        "type": "lineHeights",
+        "comment": "Default line height.",
+        "themeable": "Yes"
+      },
+      "heading": {
+        "value": "1.25",
+        "type": "lineHeights",
+        "comment": "Headings line-height",
+        "themeable": "Yes"
+      },
+      "single": {
+        "value": "1",
+        "type": "lineHeights",
+        "comment": "Line height for single line text elements displayed in components",
+        "themeable": "Yes"
+      },
+      "rem": {
+        "01": {
+          "value": "0.75rem",
+          "type": "lineHeights",
+          "comment": "12px line height",
+          "figmaOnly": true
+        },
+        "02": {
+          "value": "1rem",
+          "type": "lineHeights",
+          "comment": "16px line height",
+          "figmaOnly": true
+        },
+        "03": {
+          "value": "1.125rem",
+          "type": "lineHeights",
+          "comment": "18px line height",
+          "figmaOnly": true
+        },
+        "04": {
+          "value": "1.25rem",
+          "type": "lineHeights",
+          "comment": "20px line height",
+          "figmaOnly": true
+        },
+        "05": {
+          "value": "1.5rem",
+          "type": "lineHeights",
+          "comment": "24px line height",
+          "figmaOnly": true
+        },
+        "06": {
+          "value": "1.75rem",
+          "type": "lineHeights",
+          "comment": "28px line height",
+          "figmaOnly": true
+        },
+        "07": {
+          "value": "2rem",
+          "type": "lineHeights",
+          "comment": "32px line height",
+          "figmaOnly": true
+        },
+        "08": {
+          "value": "2.5rem",
+          "type": "lineHeights",
+          "comment": "40px line height",
+          "figmaOnly": true
+        },
+        "09": {
+          "value": "3rem",
+          "type": "lineHeights",
+          "comment": "48px line height",
+          "figmaOnly": true
+        },
+        "value": "NaN"
+      }
+    }
+  }
+}
