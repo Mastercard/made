@@ -9227,8 +9227,8 @@
       },
       "tertiary": {
         "$type": "fontFamilies",
-        "$value": "Mark Offc For MC, Inter",
-        "$description": "[typography; font face; semantic; role; decision; alias;]"
+        "$value": "Menlo, JetBrains Mono",
+        "$description": "Tertiary fonts are mono fonts that are primarily used to represent code snippets and Coding & Development usage. [typography; font face; semantic; role; decision; alias;]"
       }
     },
     "border": {
