@@ -15855,7 +15855,7 @@
           "text-color": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{component.link.hover.text-mode-dark}",
+            "$value": "{component.link.hover.text-color-mode-dark}",
             "$description": "The hover state color for the color.link.default token. [text; link; href; cta text; interactive text; hover; semantic; role; decision; alias;]"
           }
         },
