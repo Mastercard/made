@@ -6161,7 +6161,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.7",
+                "value": "0.4",
                 "space": "lch"
               }
             }
@@ -6174,7 +6174,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.7",
+                "value": "0.4",
                 "space": "lch"
               }
             }
@@ -7477,7 +7477,7 @@
           "padding-right": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.12-x}"
+            "$value": "{size-space.6-x}"
           }
         },
         "border-radius": {
