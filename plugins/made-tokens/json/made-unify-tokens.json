@@ -7155,21 +7155,21 @@
         "hover": {
           "text-color-mode-light": {
             "$type": "color",
-            "$value": "{color.gray.1600}"
+            "$value": "{color.gray.1300}"
           },
           "text-mode-dark": {
             "$type": "color",
-            "$value": "{color.gray.200}"
+            "$value": "{color.gray.300}"
           }
         },
         "active": {
           "text-color-mode-light": {
             "$type": "color",
-            "$value": "{color.gray.1400}"
+            "$value": "{color.gray.1200}"
           },
           "text-color-mode-dark": {
             "$type": "color",
-            "$value": "{color.gray.400}"
+            "$value": "{color.gray.500}"
           }
         },
         "visited": {
@@ -7196,21 +7196,21 @@
           "hover": {
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.gray.1600}"
+              "$value": "{color.gray.1300}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.gray.200}"
+              "$value": "{color.gray.300}"
             }
           },
           "active": {
             "text-color-mode-light": {
               "$type": "color",
-              "$value": "{color.gray.1400}"
+              "$value": "{color.gray.1200}"
             },
             "text-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.gray.400}"
+              "$value": "{color.gray.500}"
             }
           },
           "visited": {
