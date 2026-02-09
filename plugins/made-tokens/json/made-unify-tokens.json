@@ -4190,6 +4190,16 @@
           "letter-spacing": {
             "$type": "letterSpacing",
             "$value": "{component.tabs.contained.font-size} * -0.02"
+          },
+          "background-mode-dark": {
+            "$type": "color",
+            "$value": "{color.gray.1500}",
+            "$description": "Background color of tabs component group in its contained style. "
+          },
+          "background-mode-light": {
+            "$type": "color",
+            "$value": "{color.gray.300}",
+            "$description": "Background color of tabs component group in its contained style. "
           }
         },
         "minimal": {
@@ -7795,6 +7805,16 @@
           "letter-spacing": {
             "$type": "letterSpacing",
             "$value": "{component.tabs.contained.font-size} * -0.02"
+          },
+          "background-mode-light": {
+            "$type": "color",
+            "$value": "{color.gray.300}",
+            "$description": "Background color of tabs component group in its contained style. "
+          },
+          "background-mode-dark": {
+            "$type": "color",
+            "$value": "{color.gray.1500}",
+            "$description": "Background color of tabs component group in its contained style. "
           }
         },
         "minimal": {
@@ -12003,6 +12023,16 @@
           "letter-spacing": {
             "$type": "letterSpacing",
             "$value": "{component.tabs.contained.font-size} * 0"
+          },
+          "background-mode-dark": {
+            "$type": "color",
+            "$value": "{color.gray.1500}",
+            "$description": "Background color of tabs component group in its contained style. "
+          },
+          "background-mode-light": {
+            "$type": "color",
+            "$value": "{color.neutral.200}",
+            "$description": "Background color of tabs component group in its contained style. "
           }
         },
         "minimal": {
@@ -14790,6 +14820,11 @@
               "$type": "color",
               "$value": "{color.background.surface.default-mode-light}"
             }
+          },
+          "background": {
+            "$type": "color",
+            "$value": "{component.tabs.contained.background-mode-light}",
+            "$description": "Background color of tabs component group in its contained style. "
           }
         },
         "minimal": {
@@ -15989,6 +16024,11 @@
               "$type": "color",
               "$value": "{color.background.surface.default-mode-dark}"
             }
+          },
+          "background": {
+            "$type": "color",
+            "$value": "{component.tabs.contained.background-mode-dark}",
+            "$description": "Background color of tabs component group in its contained style. "
           }
         },
         "minimal": {
