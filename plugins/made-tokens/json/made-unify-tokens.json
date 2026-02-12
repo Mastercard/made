@@ -12026,7 +12026,7 @@
           },
           "background-mode-dark": {
             "$type": "color",
-            "$value": "{color.gray.1500}",
+            "$value": "{color.neutral.800}",
             "$description": "Background color of tabs component group in its contained style. "
           },
           "background-mode-light": {
