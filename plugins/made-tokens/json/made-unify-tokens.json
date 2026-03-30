@@ -6184,13 +6184,13 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.4",
+                "value": "0.6",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.gray.1800}"
+          "$value": "{color.black}"
         },
         "surface": {
           "default-mode-light": {
@@ -6696,11 +6696,13 @@
         },
         "disabled-mode-light": {
           "$type": "color",
-          "$value": "{color.gray.100}"
+          "$value": "{color.gray.300}",
+          "$description": "Border color for elements in their disabled state"
         },
         "disabled-mode-dark": {
           "$type": "color",
-          "$value": "{color.gray.1600}"
+          "$value": "{color.gray.1400}",
+          "$description": "Border color for elements in their disabled state"
         },
         "input-mode-light": {
           "$type": "color",
@@ -7461,12 +7463,12 @@
         "border-color-mode-light": {
           "$componentLevelToken": "true",
           "$type": "color",
-          "$value": "{color.border.none}"
+          "$value": "{color.border.default-mode-light}"
         },
         "border-color-mode-dark": {
           "$componentLevelToken": "true",
           "$type": "color",
-          "$value": "{color.border.none}"
+          "$value": "{color.border.default-mode-dark}"
         },
         "top-bar": {
           "padding-top": {
@@ -7493,7 +7495,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.default}"
+          "$value": "{border.radius.large}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
@@ -9106,7 +9108,7 @@
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border-radius.01}"
+          "$value": "{border-radius.02}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
@@ -14763,7 +14765,7 @@
         "border-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.none}"
+          "$value": "{component.modal.border-color-mode-light}"
         }
       },
       "card": {
@@ -15967,7 +15969,7 @@
         "border-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.border.none}"
+          "$value": "{component.modal.border-color-mode-dark}"
         }
       },
       "card": {
