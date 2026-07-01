@@ -5589,7 +5589,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.global}"
+          "$value": "{box-shadow.x-large}"
         }
       },
       "progress": {
@@ -5737,110 +5737,6 @@
           "$value": "{size-space.10-x}",
           "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
-      }
-    },
-    "box-shadow": {
-      "none": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "global": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "small": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "0",
-          "color": "{color.box-shadow.subtle}",
-          "type": "dropShadow"
-        },
-        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "medium": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-1",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "-2",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "10",
-            "blur": "15",
-            "spread": "-3",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-4",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "x-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "20",
-            "blur": "25",
-            "spread": "-5",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "8",
-            "blur": "10",
-            "spread": "-6",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     },
     "brand": {
@@ -6099,6 +5995,86 @@
         "$type": "other",
         "$value": "{z-index.800}",
         "$description": "Used to set the z order layering of alert toasts.\t"
+      }
+    },
+    "box-shadow": {
+      "none": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "global": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "small": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "0",
+          "color": "{color.box-shadow.subtle}",
+          "type": "dropShadow"
+        },
+        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "medium": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "8",
+            "spread": "0",
+            "color": "{color.box-shadow.medium}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "16",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "x-large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "40",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     }
   },
@@ -12528,7 +12504,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.global}"
+          "$value": "{box-shadow.x-large}"
         }
       },
       "drawer": {
@@ -13490,110 +13466,6 @@
         }
       }
     },
-    "box-shadow": {
-      "none": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "global": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "small": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "0",
-          "color": "{color.box-shadow.subtle}",
-          "type": "dropShadow"
-        },
-        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "medium": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-1",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "-2",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "10",
-            "blur": "15",
-            "spread": "-3",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-4",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "x-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "20",
-            "blur": "25",
-            "spread": "-5",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "8",
-            "blur": "10",
-            "spread": "-6",
-            "color": "{color.box-shadow.medium}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      }
-    },
     "font-family": {
       "primary": {
         "$type": "fontFamilies",
@@ -13867,6 +13739,86 @@
         "$type": "other",
         "$value": "{z-index.800}",
         "$description": "Used to set the z order layering of alert toasts.\t"
+      }
+    },
+    "box-shadow": {
+      "none": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "global": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "small": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "0",
+          "color": "{color.box-shadow.subtle}",
+          "type": "dropShadow"
+        },
+        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "medium": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "8",
+            "spread": "0",
+            "color": "{color.box-shadow.medium}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "16",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "x-large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "40",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     }
   },
@@ -16777,36 +16729,36 @@
       "id": "b6376c94688da77605570efa499cb3a437b2305c",
       "name": "Mastercard",
       "$figmaStyleReferences": {
-        "component.accordion.contained.box-shadow": "S:9cae55b99449760103117a390e7caa225642886a,",
-        "component.alert.banner.box-shadow": "S:8a5d60d14223bfe5f9a7a7ffe07315b5c4711a16,",
-        "component.alert.toast.box-shadow": "S:6e62f96ffe0d542f7f20efb9bbad96c508d635eb,",
-        "component.modal.box-shadow": "S:1fb45e31b33fb16af1998b536a2bd651c1f8563b,",
-        "component.card.box-shadow": "S:307d940908fa80400f5bc955a8969a94a92a653d,",
-        "component.menu.box-shadow": "S:9b2b145a2766bbed7c06c2fc379531e9cd7187b6,",
-        "component.range.thumb.box-shadow": "S:68958ce7159db0b2942042e284368ae250d390f2,",
-        "component.tabs.contained.item.box-shadow": "S:973472e3931fa232ac2ae5794ffd6348396e2bb0,",
-        "component.tag.box-shadow": "S:5ddce5b64e56663e01916010a123a2dfbff884ab,",
-        "component.date-picker.box-shadow": "S:f5084bd3bbb0745349fc9909a6fb3431ab6ca3ce,",
-        "component.drawer.box-shadow": "S:cb977f130d88dcdaccd9e64a01292bf4e95c1137,",
-        "component.sheet.box-shadow": "S:03cbed8e434c930984f25957d1ef391be7845a08,",
-        "component.form-control.box-shadow": "S:8de450361dca45dacea6fbccc5fe05b138adcba7,",
-        "component.button.box-shadow": "S:57d06c5f0cd21c34c76fe1c38b11c743031899e6,",
-        "component.pagination.item-active.box-shadow": "S:121f7cce517b6c0b7787501a37f5d166c8cc788c,",
-        "component.table.box-shadow": "S:7b29b76fb6c0ab85d74244520ac5eb45e7cca27d,",
-        "component.avatar.box-shadow": "S:9164aedc071548e22fc1ac77d01a9f4c571866d2,",
-        "component.badge.box-shadow": "S:aee4cb629d2b699e64fa20645fee818251fb2101,",
-        "component.checkbox.box-shadow": "S:6c8e91688e9c8bd22f2b7d3cafd14bf21c687692,",
-        "component.radio.box-shadow": "S:d68996eb6b81222bc11718d7d83f5efda94bce51,",
-        "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
-        "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
-        "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:3a37dfbeb2a89fbd40f0997983ee17fd4e9bb9d9,",
-        "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
-        "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
-        "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
-        "box-shadow.medium": "S:8a7fae7c45de26e9740be68eefa97cb83053f7a4,",
-        "box-shadow.large": "S:887c0cd8a6c84ce78c16a552a46155f2d4d0e095,",
-        "box-shadow.x-large": "S:51e2187a58821e234eab54ced4de362f8cce7276,"
+        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
+        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
+        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
+        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
+        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
+        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
+        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
+        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
+        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
+        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
+        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
+        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
+        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
+        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
+        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
+        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
+        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
+        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
+        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
+        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
+        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
+        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
+        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
+        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
+        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
+        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
+        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
+        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
+        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
+        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -16930,8 +16882,8 @@
         "color.border.brand-mode-dark": "01522591d106784687fdec4256c701d3dee69dd0",
         "color.border.default-mode-light": "7c721cc229017c5631e2248d84fbb840fed02659",
         "color.border.default-mode-dark": "d5825c9de6976591db713de5777bef30f2701b05",
-        "color.border.bold-mode-light": "0b0ec5c966546756caff1c6bfc90862ee921798d",
-        "color.border.bold-mode-dark": "2995167b35dd42eb99ea64d76cb317d4a40ed6af",
+        "color.border.bold-mode-light": "bb3ab2e96a1d52e61ea46ff2aa9ff178b4e8cc5d",
+        "color.border.bold-mode-dark": "0b21ec049da7d76278c14996657bc849ed036aab",
         "color.border.strong-mode-light": "d901f1a7a7a8dcde66c90df2fc045309c4d570d8",
         "color.border.strong-mode-dark": "5a05b11966ebd7142fbc07d048dad4c5b2c71087",
         "color.border.neutral-mode-light": "72f9656241d0dd822f3cd20b8be779327fb53bbe",
@@ -17437,7 +17389,7 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-mode-dark": "04184a1727a5900e60f8d75ef8d24c26391238f1"
+        "component.link.hover.text-mode-dark": "60ca12d16130f91fe92e2ccb06939e95560bf660"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -17480,36 +17432,36 @@
         "label.regular.small": "S:f088d8a104c0598570dee637e4d62f0bb2dde079,",
         "label.secondary.medium": "S:3d4cc4b8994a6de9302b798deaae801767991488,",
         "label.secondary.small": "S:325ba91955983cf4d1afc9557bdbf8022046455e,",
-        "component.accordion.contained.box-shadow": "S:9cae55b99449760103117a390e7caa225642886a,",
-        "component.alert.banner.box-shadow": "S:8a5d60d14223bfe5f9a7a7ffe07315b5c4711a16,",
-        "component.alert.toast.box-shadow": "S:6e62f96ffe0d542f7f20efb9bbad96c508d635eb,",
-        "component.modal.box-shadow": "S:1fb45e31b33fb16af1998b536a2bd651c1f8563b,",
-        "component.card.box-shadow": "S:307d940908fa80400f5bc955a8969a94a92a653d,",
-        "component.menu.box-shadow": "S:9b2b145a2766bbed7c06c2fc379531e9cd7187b6,",
-        "component.range.thumb.box-shadow": "S:68958ce7159db0b2942042e284368ae250d390f2,",
-        "component.tabs.contained.item.box-shadow": "S:973472e3931fa232ac2ae5794ffd6348396e2bb0,",
-        "component.tag.box-shadow": "S:5ddce5b64e56663e01916010a123a2dfbff884ab,",
-        "component.date-picker.box-shadow": "S:f5084bd3bbb0745349fc9909a6fb3431ab6ca3ce,",
-        "component.drawer.box-shadow": "S:cb977f130d88dcdaccd9e64a01292bf4e95c1137,",
-        "component.sheet.box-shadow": "S:03cbed8e434c930984f25957d1ef391be7845a08,",
-        "component.form-control.box-shadow": "S:8de450361dca45dacea6fbccc5fe05b138adcba7,",
-        "component.button.box-shadow": "S:57d06c5f0cd21c34c76fe1c38b11c743031899e6,",
-        "component.pagination.item-active.box-shadow": "S:121f7cce517b6c0b7787501a37f5d166c8cc788c,",
-        "component.table.box-shadow": "S:7b29b76fb6c0ab85d74244520ac5eb45e7cca27d,",
-        "component.avatar.box-shadow": "S:9164aedc071548e22fc1ac77d01a9f4c571866d2,",
-        "component.badge.box-shadow": "S:aee4cb629d2b699e64fa20645fee818251fb2101,",
-        "component.checkbox.box-shadow": "S:6c8e91688e9c8bd22f2b7d3cafd14bf21c687692,",
-        "component.radio.box-shadow": "S:d68996eb6b81222bc11718d7d83f5efda94bce51,",
-        "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
-        "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
-        "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:3a37dfbeb2a89fbd40f0997983ee17fd4e9bb9d9,",
-        "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
-        "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
-        "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
-        "box-shadow.medium": "S:8a7fae7c45de26e9740be68eefa97cb83053f7a4,",
-        "box-shadow.large": "S:887c0cd8a6c84ce78c16a552a46155f2d4d0e095,",
-        "box-shadow.x-large": "S:51e2187a58821e234eab54ced4de362f8cce7276,",
+        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
+        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
+        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
+        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
+        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
+        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
+        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
+        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
+        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
+        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
+        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
+        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
+        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
+        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
+        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
+        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
+        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
+        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
+        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
+        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
+        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
+        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
+        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
+        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
+        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
+        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
+        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
+        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
+        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
+        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,",
         "link.medium.hover": "S:aab199bbb445346fe26a67e38920e23ff2ea9ea2,",
         "link.medium.default": "S:987c072bf14624dbe745420f85f45561251f66fe,"
       },
@@ -17738,7 +17690,7 @@
         "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
         "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
         "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
-        "component.link.hover.text-color-mode-dark": "b99b26d1c0210dd86f5906b9ffcd5718b234e479",
+        "component.link.hover.text-color-mode-dark": "f9418b18b6119be164e0dddbd0765558c7704221",
         "component.link.active.text-color-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
         "component.link.active.text-color-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
         "component.link.visited.text-color-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
@@ -18140,8 +18092,8 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "color.border.strongest-mode-light": "27aa97e1fdbef233f1b70646f33553c1be9da065",
-        "color.border.strongest-mode-dark": "cb03fcda9b5774dc03c0a8bb987cdd162a1eb9a5"
+        "color.border.strongest-mode-light": "cb507bee6c3b53a14a3710b3498b5ba464fd3977",
+        "color.border.strongest-mode-dark": "066cb8c5a129eb158731f53cbb0633cea72fba70"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -18151,36 +18103,36 @@
       "id": "def36ffc6cb3eb49edffc41019d9db212dfd3308",
       "name": "Partnerbank",
       "$figmaStyleReferences": {
-        "component.accordion.contained.box-shadow": "S:9cae55b99449760103117a390e7caa225642886a,",
-        "component.alert.banner.box-shadow": "S:8a5d60d14223bfe5f9a7a7ffe07315b5c4711a16,",
-        "component.alert.toast.box-shadow": "S:6e62f96ffe0d542f7f20efb9bbad96c508d635eb,",
-        "component.modal.box-shadow": "S:1fb45e31b33fb16af1998b536a2bd651c1f8563b,",
-        "component.card.box-shadow": "S:307d940908fa80400f5bc955a8969a94a92a653d,",
-        "component.menu.box-shadow": "S:9b2b145a2766bbed7c06c2fc379531e9cd7187b6,",
-        "component.range.thumb.box-shadow": "S:68958ce7159db0b2942042e284368ae250d390f2,",
-        "component.tabs.contained.item.box-shadow": "S:973472e3931fa232ac2ae5794ffd6348396e2bb0,",
-        "component.tag.box-shadow": "S:5ddce5b64e56663e01916010a123a2dfbff884ab,",
-        "component.date-picker.box-shadow": "S:f5084bd3bbb0745349fc9909a6fb3431ab6ca3ce,",
-        "component.drawer.box-shadow": "S:cb977f130d88dcdaccd9e64a01292bf4e95c1137,",
-        "component.sheet.box-shadow": "S:03cbed8e434c930984f25957d1ef391be7845a08,",
-        "component.form-control.box-shadow": "S:8de450361dca45dacea6fbccc5fe05b138adcba7,",
-        "component.button.box-shadow": "S:57d06c5f0cd21c34c76fe1c38b11c743031899e6,",
-        "component.pagination.item-active.box-shadow": "S:121f7cce517b6c0b7787501a37f5d166c8cc788c,",
-        "component.table.box-shadow": "S:7b29b76fb6c0ab85d74244520ac5eb45e7cca27d,",
-        "component.avatar.box-shadow": "S:9164aedc071548e22fc1ac77d01a9f4c571866d2,",
-        "component.badge.box-shadow": "S:aee4cb629d2b699e64fa20645fee818251fb2101,",
-        "component.checkbox.box-shadow": "S:6c8e91688e9c8bd22f2b7d3cafd14bf21c687692,",
-        "component.radio.box-shadow": "S:d68996eb6b81222bc11718d7d83f5efda94bce51,",
-        "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
-        "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
-        "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:3a37dfbeb2a89fbd40f0997983ee17fd4e9bb9d9,",
-        "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
-        "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
-        "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
-        "box-shadow.medium": "S:8a7fae7c45de26e9740be68eefa97cb83053f7a4,",
-        "box-shadow.large": "S:887c0cd8a6c84ce78c16a552a46155f2d4d0e095,",
-        "box-shadow.x-large": "S:51e2187a58821e234eab54ced4de362f8cce7276,"
+        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
+        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
+        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
+        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
+        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
+        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
+        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
+        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
+        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
+        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
+        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
+        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
+        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
+        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
+        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
+        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
+        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
+        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
+        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
+        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
+        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
+        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
+        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
+        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
+        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
+        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
+        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
+        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
+        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
+        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -18305,8 +18257,8 @@
         "color.border.brand-mode-dark": "01522591d106784687fdec4256c701d3dee69dd0",
         "color.border.default-mode-light": "7c721cc229017c5631e2248d84fbb840fed02659",
         "color.border.default-mode-dark": "d5825c9de6976591db713de5777bef30f2701b05",
-        "color.border.bold-mode-light": "0b0ec5c966546756caff1c6bfc90862ee921798d",
-        "color.border.bold-mode-dark": "2995167b35dd42eb99ea64d76cb317d4a40ed6af",
+        "color.border.bold-mode-light": "bb3ab2e96a1d52e61ea46ff2aa9ff178b4e8cc5d",
+        "color.border.bold-mode-dark": "0b21ec049da7d76278c14996657bc849ed036aab",
         "color.border.strong-mode-light": "d901f1a7a7a8dcde66c90df2fc045309c4d570d8",
         "color.border.strong-mode-dark": "5a05b11966ebd7142fbc07d048dad4c5b2c71087",
         "color.border.neutral-mode-light": "72f9656241d0dd822f3cd20b8be779327fb53bbe",
@@ -18812,7 +18764,7 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-color-mode-dark": "b99b26d1c0210dd86f5906b9ffcd5718b234e479"
+        "component.link.hover.text-color-mode-dark": "f9418b18b6119be164e0dddbd0765558c7704221"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
