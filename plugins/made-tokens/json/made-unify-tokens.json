@@ -14659,7 +14659,7 @@
           "border-color": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.border.neutral-mode-light}"
+            "$value": "{color.border.default-mode-light}"
           }
         }
       },
@@ -15863,7 +15863,7 @@
           "border-color": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.border.neutral-mode-dark}"
+            "$value": "{color.border.default-mode-dark}"
           }
         }
       },
