@@ -3460,78 +3460,79 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}",
+          "$description": "This token is for the color of a shadow. \"Subtle\" is the lowest level of shadow opacity. "
         },
         "subtle-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         },
         "medium-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}"
         },
         "medium-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         },
         "strong-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}"
         },
         "strong-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         }
       }
     },
@@ -10647,78 +10648,79 @@
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}",
+          "$description": "This token is for the color of a shadow. \"Subtle\" is the lowest level of shadow opacity. "
         },
         "subtle-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         },
         "medium-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}"
         },
         "medium-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         },
         "strong-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}"
         },
         "strong-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         }
       }
     },
@@ -16798,7 +16800,7 @@
         "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
         "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
         "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:70a2ffafc404af80a7e425de23550ab7dcdfc1f5,",
+        "component.tooltip.box-shadow": "S:3a37dfbeb2a89fbd40f0997983ee17fd4e9bb9d9,",
         "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
         "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
         "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
@@ -16928,8 +16930,8 @@
         "color.border.brand-mode-dark": "01522591d106784687fdec4256c701d3dee69dd0",
         "color.border.default-mode-light": "7c721cc229017c5631e2248d84fbb840fed02659",
         "color.border.default-mode-dark": "d5825c9de6976591db713de5777bef30f2701b05",
-        "color.border.bold-mode-light": "d9df2883466958b079197af9cdaf6cea7a596bef",
-        "color.border.bold-mode-dark": "9882b9ecbd7729dac1483b6bbbd9eb89acdc7281",
+        "color.border.bold-mode-light": "0b0ec5c966546756caff1c6bfc90862ee921798d",
+        "color.border.bold-mode-dark": "2995167b35dd42eb99ea64d76cb317d4a40ed6af",
         "color.border.strong-mode-light": "d901f1a7a7a8dcde66c90df2fc045309c4d570d8",
         "color.border.strong-mode-dark": "5a05b11966ebd7142fbc07d048dad4c5b2c71087",
         "color.border.neutral-mode-light": "72f9656241d0dd822f3cd20b8be779327fb53bbe",
@@ -17323,9 +17325,15 @@
         "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
         "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
         "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
         "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
         "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
         "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
@@ -17429,13 +17437,7 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-mode-dark": "3537a949e8ff5b0bf821c4f339e4a4417ec178d5",
-        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.list-item.large.font-size": "196d808c3d1ec3dd73641e644c2c03598fa87e5a",
-        "component.list-item.large.font-weight": "ad9e05e0bd72c00825e47f635425e6dad4603913",
-        "component.list-item.large.line-height": "66a930e605b3d15f9e99ade3791dfe8738ee7d35"
+        "component.link.hover.text-mode-dark": "04184a1727a5900e60f8d75ef8d24c26391238f1"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -17501,7 +17503,7 @@
         "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
         "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
         "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:70a2ffafc404af80a7e425de23550ab7dcdfc1f5,",
+        "component.tooltip.box-shadow": "S:3a37dfbeb2a89fbd40f0997983ee17fd4e9bb9d9,",
         "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
         "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
         "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
@@ -17736,7 +17738,7 @@
         "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
         "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
         "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
-        "component.link.hover.text-color-mode-dark": "bdd45ad1c1a6f6638990e292bd7d336d3d59e94b",
+        "component.link.hover.text-color-mode-dark": "b99b26d1c0210dd86f5906b9ffcd5718b234e479",
         "component.link.active.text-color-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
         "component.link.active.text-color-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
         "component.link.visited.text-color-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
@@ -18026,9 +18028,15 @@
         "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
         "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
         "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
         "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
         "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
         "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
@@ -18132,8 +18140,8 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "color.border.strongest-mode-light": "0f27659ab4eb5d9a9787d7adacb2f86117350949",
-        "color.border.strongest-mode-dark": "955117367858abe43c9cb4e5be2227e41730d118"
+        "color.border.strongest-mode-light": "27aa97e1fdbef233f1b70646f33553c1be9da065",
+        "color.border.strongest-mode-dark": "cb03fcda9b5774dc03c0a8bb987cdd162a1eb9a5"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -18166,7 +18174,7 @@
         "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
         "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
         "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:70a2ffafc404af80a7e425de23550ab7dcdfc1f5,",
+        "component.tooltip.box-shadow": "S:3a37dfbeb2a89fbd40f0997983ee17fd4e9bb9d9,",
         "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
         "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
         "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
@@ -18297,8 +18305,8 @@
         "color.border.brand-mode-dark": "01522591d106784687fdec4256c701d3dee69dd0",
         "color.border.default-mode-light": "7c721cc229017c5631e2248d84fbb840fed02659",
         "color.border.default-mode-dark": "d5825c9de6976591db713de5777bef30f2701b05",
-        "color.border.bold-mode-light": "d9df2883466958b079197af9cdaf6cea7a596bef",
-        "color.border.bold-mode-dark": "9882b9ecbd7729dac1483b6bbbd9eb89acdc7281",
+        "color.border.bold-mode-light": "0b0ec5c966546756caff1c6bfc90862ee921798d",
+        "color.border.bold-mode-dark": "2995167b35dd42eb99ea64d76cb317d4a40ed6af",
         "color.border.strong-mode-light": "d901f1a7a7a8dcde66c90df2fc045309c4d570d8",
         "color.border.strong-mode-dark": "5a05b11966ebd7142fbc07d048dad4c5b2c71087",
         "color.border.neutral-mode-light": "72f9656241d0dd822f3cd20b8be779327fb53bbe",
@@ -18689,9 +18697,15 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
+        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
+        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
         "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
         "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
         "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
+        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
@@ -18798,7 +18812,7 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-color-mode-dark": "bdd45ad1c1a6f6638990e292bd7d336d3d59e94b"
+        "component.link.hover.text-color-mode-dark": "b99b26d1c0210dd86f5906b9ffcd5718b234e479"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
