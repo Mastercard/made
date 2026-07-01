@@ -3455,83 +3455,84 @@
         }
       },
       "shadow": {
-        "primary-mode-light": {
+        "subtle-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}",
+          "$description": "This token is for the color of a shadow. \"Subtle\" is the lowest level of shadow opacity. "
         },
-        "primary-mode-dark": {
+        "subtle-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         },
-        "secondary-mode-light": {
+        "medium-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}"
         },
-        "secondary-mode-dark": {
+        "medium-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         },
-        "tertiary-mode-light": {
+        "strong-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}"
         },
-        "tertiary-mode-dark": {
+        "strong-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         }
       }
     },
@@ -5197,21 +5198,6 @@
         }
       },
       "list-item": {
-        "font-size": {
-          "$componentLevelToken": "true",
-          "$type": "fontSizes",
-          "$value": "{font-size.04}"
-        },
-        "font-weight": {
-          "$componentLevelToken": "true",
-          "$type": "fontWeights",
-          "$value": "{font-weight.regular}"
-        },
-        "line-height": {
-          "$componentLevelToken": "true",
-          "$type": "lineHeights",
-          "$value": "{line.height.rem-04}"
-        },
         "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
@@ -5227,6 +5213,18 @@
             "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{font-weight.regular}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{font-size.04}"
           }
         },
         "large": {
@@ -5244,6 +5242,18 @@
             "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{font-weight.regular}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-05}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{font-size.06}"
           }
         },
         "contained": {
@@ -5579,7 +5589,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.global}"
+          "$value": "{box-shadow.x-large}"
         }
       },
       "progress": {
@@ -5727,146 +5737,6 @@
           "$value": "{size-space.10-x}",
           "$description": "[xxl; 2xl; semantic; role; decision; alias;]"
         }
-      }
-    },
-    "box-shadow": {
-      "none": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "global": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "small": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "0",
-          "color": "{color.box-shadow.primary}",
-          "type": "dropShadow"
-        },
-        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "default": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "3",
-            "spread": "0",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "2",
-            "spread": "-1",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "medium": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-1",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "-2",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "10",
-            "blur": "15",
-            "spread": "-3",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-4",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "x-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "20",
-            "blur": "25",
-            "spread": "-5",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "8",
-            "blur": "10",
-            "spread": "-6",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "xx-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "25",
-            "blur": "50",
-            "spread": "-12",
-            "color": "{color.box-shadow.tertiary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     },
     "brand": {
@@ -6126,6 +5996,86 @@
         "$value": "{z-index.800}",
         "$description": "Used to set the z order layering of alert toasts.\t"
       }
+    },
+    "box-shadow": {
+      "none": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "global": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "small": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "0",
+          "color": "{color.box-shadow.subtle}",
+          "type": "dropShadow"
+        },
+        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "medium": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "8",
+            "spread": "0",
+            "color": "{color.box-shadow.medium}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "16",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "x-large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "40",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      }
     }
   },
   "theme/Mastercard": {
@@ -6239,7 +6189,7 @@
           },
           "selected-mode-dark": {
             "$type": "color",
-            "$value": "{color.neutral.800}"
+            "$value": "{color.gray.1300}"
           },
           "selected-hover-mode-light": {
             "$type": "color",
@@ -6247,7 +6197,7 @@
           },
           "selected-hover-mode-dark": {
             "$type": "color",
-            "$value": "{color.neutral.700}"
+            "$value": "{color.gray.1200}"
           },
           "inverse-mode-light": {
             "$type": "color",
@@ -7072,12 +7022,26 @@
         }
       },
       "shadow": {
-        "primary-mode-light": {
+        "subtle-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{color.gray.1800}",
+          "$description": "This token is for the color of a shadow. \"Subtle\" is the lowest level of shadow opacity. "
+        },
+        "subtle-mode-dark": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.06",
                 "space": "lch"
               }
             }
@@ -7085,12 +7049,12 @@
           "$type": "color",
           "$value": "{color.gray.1800}"
         },
-        "primary-mode-dark": {
+        "medium-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.12",
                 "space": "lch"
               }
             }
@@ -7098,12 +7062,12 @@
           "$type": "color",
           "$value": "{color.gray.1800}"
         },
-        "secondary-mode-light": {
+        "medium-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
@@ -7111,12 +7075,12 @@
           "$type": "color",
           "$value": "{color.gray.1800}"
         },
-        "secondary-mode-dark": {
+        "strong-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.16",
                 "space": "lch"
               }
             }
@@ -7124,25 +7088,12 @@
           "$type": "color",
           "$value": "{color.gray.1800}"
         },
-        "tertiary-mode-light": {
+        "strong-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
-                "space": "lch"
-              }
-            }
-          },
-          "$type": "color",
-          "$value": "{color.gray.1800}"
-        },
-        "tertiary-mode-dark": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
@@ -7358,24 +7309,24 @@
           "border-color-mode-light": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.border.neutral-mode-light}"
+            "$value": "{color.border.default-mode-light}"
           },
           "border-color-mode-dark": {
             "$componentLevelToken": "true",
             "$type": "color",
-            "$value": "{color.border.neutral-mode-dark}"
+            "$value": "{color.border.default-mode-dark}"
           }
         },
         "banner": {
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.6-x}"
+            "$value": "{size-space.5-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.6-x}"
+            "$value": "{size-space.5-x}"
           },
           "gap": {
             "$componentLevelToken": "true",
@@ -7407,7 +7358,7 @@
           "box-shadow": {
             "$componentLevelToken": "true",
             "$type": "boxShadow",
-            "$value": "{box-shadow.medium}"
+            "$value": "{box-shadow.large}"
           }
         },
         "border-radius": {
@@ -7615,7 +7566,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.medium}"
+          "$value": "{box-shadow.small}"
         }
       },
       "range": {
@@ -7648,7 +7599,7 @@
           "box-shadow": {
             "$componentLevelToken": "true",
             "$type": "boxShadow",
-            "$value": "{box-shadow.default}"
+            "$value": "{box-shadow.small}"
           }
         },
         "track-fill": {
@@ -8379,7 +8330,7 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.6-x}"
+            "$value": "{size-space.5-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
@@ -8420,7 +8371,7 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.4-x}"
+            "$value": "{size-space.3-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
@@ -8461,7 +8412,7 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.8-x}"
+            "$value": "{size-space.7-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
@@ -8608,11 +8559,11 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.border.strong-mode-light}"
+              "$value": "{color.gray.600}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.border.strong-mode-dark}"
+              "$value": "{color.gray.1200}"
             },
             "text-color-mode-light": {
               "$type": "color",
@@ -8636,11 +8587,11 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.border.strong-mode-light}"
+              "$value": "{color.gray.700}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.border.strong-mode-dark}"
+              "$value": "{color.gray.1100}"
             },
             "text-color-mode-light": {
               "$type": "color",
@@ -8664,11 +8615,11 @@
             },
             "border-color-mode-light": {
               "$type": "color",
-              "$value": "{color.border.strong-mode-light}"
+              "$value": "{color.gray.800}"
             },
             "border-color-mode-dark": {
               "$type": "color",
-              "$value": "{color.border.strong-mode-dark}"
+              "$value": "{color.gray.1000}"
             },
             "text-color-mode-light": {
               "$type": "color",
@@ -8814,22 +8765,22 @@
         }
       },
       "list-item": {
-        "font-size": {
-          "$componentLevelToken": "true",
-          "$type": "fontSizes",
-          "$value": "{font-size.04}"
-        },
-        "font-weight": {
-          "$componentLevelToken": "true",
-          "$type": "fontWeights",
-          "$value": "{font-weight.regular}"
-        },
-        "line-height": {
-          "$componentLevelToken": "true",
-          "$type": "lineHeights",
-          "$value": "{line.height.rem-04}"
-        },
         "medium": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.04}"
+          },
+          "font-weight": {
+            "$componentLevelToken": "true",
+            "$type": "fontWeights",
+            "$value": "{font-weight.regular}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          },
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -8847,6 +8798,21 @@
           }
         },
         "large": {
+          "font-size": {
+            "$componentLevelToken": "true",
+            "$type": "fontSizes",
+            "$value": "{font-size.06}"
+          },
+          "font-weight": {
+            "$componentLevelToken": "true",
+            "$type": "fontWeights",
+            "$value": "{font-weight.regular}"
+          },
+          "line-height": {
+            "$componentLevelToken": "true",
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-05}"
+          },
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
@@ -9196,7 +9162,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.global}"
+          "$value": "{box-shadow.x-large}"
         }
       },
       "progress": {
@@ -9375,53 +9341,23 @@
         "$type": "boxShadow",
         "$value": {
           "x": "0",
-          "y": "1",
-          "blur": "2",
+          "y": "4",
+          "blur": "8",
           "spread": "0",
-          "color": "{color.box-shadow.primary}",
+          "color": "{color.box-shadow.subtle}",
           "type": "dropShadow"
         },
         "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "default": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "3",
-            "spread": "0",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "2",
-            "spread": "-1",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       },
       "medium": {
         "$type": "boxShadow",
         "$value": [
           {
             "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-1",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
             "y": "2",
-            "blur": "4",
-            "spread": "-2",
-            "color": "{color.box-shadow.secondary}",
+            "blur": "8",
+            "spread": "0",
+            "color": "{color.box-shadow.medium}",
             "type": "dropShadow"
           }
         ],
@@ -9432,18 +9368,10 @@
         "$value": [
           {
             "x": "0",
-            "y": "10",
-            "blur": "15",
-            "spread": "-3",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
             "y": "4",
-            "blur": "6",
-            "spread": "-4",
-            "color": "{color.box-shadow.secondary}",
+            "blur": "16",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
             "type": "dropShadow"
           }
         ],
@@ -9454,36 +9382,14 @@
         "$value": [
           {
             "x": "0",
-            "y": "20",
-            "blur": "25",
-            "spread": "-5",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
             "y": "8",
-            "blur": "10",
-            "spread": "-6",
-            "color": "{color.box-shadow.secondary}",
+            "blur": "40",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
             "type": "dropShadow"
           }
         ],
         "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "xx-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "25",
-            "blur": "50",
-            "spread": "-12",
-            "color": "{color.box-shadow.tertiary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     },
     "brand": {
@@ -10713,83 +10619,84 @@
         }
       },
       "shadow": {
-        "primary-mode-light": {
+        "subtle-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}",
+          "$description": "This token is for the color of a shadow. \"Subtle\" is the lowest level of shadow opacity. "
         },
-        "primary-mode-dark": {
+        "subtle-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.05",
+                "value": "0.06",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         },
-        "secondary-mode-light": {
+        "medium-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}"
         },
-        "secondary-mode-dark": {
+        "medium-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.1",
+                "value": "0.12",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         },
-        "tertiary-mode-light": {
+        "strong-mode-light": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.black}"
+          "$value": "{color.gray.1800}"
         },
-        "tertiary-mode-dark": {
+        "strong-mode-dark": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.25",
+                "value": "0.16",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
-          "$value": "{color.white}"
+          "$value": "{color.gray.1800}"
         }
       }
     },
@@ -12065,11 +11972,6 @@
         }
       },
       "list-item": {
-        "font-size": {
-          "$componentLevelToken": "true",
-          "$type": "fontSizes",
-          "$value": "{font-size.04}"
-        },
         "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
@@ -12085,17 +11987,19 @@
             "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{font-weight.regular}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-04}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{font-size.04}"
           }
-        },
-        "font-weight": {
-          "$componentLevelToken": "true",
-          "$type": "fontWeights",
-          "$value": "{font-weight.regular}"
-        },
-        "line-height": {
-          "$componentLevelToken": "true",
-          "$type": "lineHeights",
-          "$value": "{line.height.rem-04}"
         },
         "large": {
           "padding-x": {
@@ -12112,6 +12016,18 @@
             "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{font-weight.regular}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{line.height.rem-05}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{font-size.06}"
           }
         },
         "contained": {
@@ -12588,7 +12504,7 @@
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
-          "$value": "{box-shadow.global}"
+          "$value": "{box-shadow.x-large}"
         }
       },
       "drawer": {
@@ -13550,146 +13466,6 @@
         }
       }
     },
-    "box-shadow": {
-      "none": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "global": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "0",
-          "color": "{color.border.none}",
-          "type": "dropShadow"
-        },
-        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "small": {
-        "$type": "boxShadow",
-        "$value": {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "0",
-          "color": "{color.box-shadow.primary}",
-          "type": "dropShadow"
-        },
-        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "default": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "3",
-            "spread": "0",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "2",
-            "spread": "-1",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "medium": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-1",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "-2",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "10",
-            "blur": "15",
-            "spread": "-3",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "6",
-            "spread": "-4",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "x-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "20",
-            "blur": "25",
-            "spread": "-5",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "8",
-            "blur": "10",
-            "spread": "-6",
-            "color": "{color.box-shadow.secondary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      },
-      "xx-large": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "0",
-            "y": "25",
-            "blur": "50",
-            "spread": "-12",
-            "color": "{color.box-shadow.tertiary}",
-            "type": "dropShadow"
-          }
-        ],
-        "$description": "[xxl; 2xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
-      }
-    },
     "font-family": {
       "primary": {
         "$type": "fontFamilies",
@@ -13963,6 +13739,86 @@
         "$type": "other",
         "$value": "{z-index.800}",
         "$description": "Used to set the z order layering of alert toasts.\t"
+      }
+    },
+    "box-shadow": {
+      "none": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "[elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "global": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.border.none}",
+          "type": "dropShadow"
+        },
+        "$description": "A global box-shadow token allowing to apply a custom box-shadow to all pertaining components. By default its value is set to 'none' but if your brand's theme requires more elevation (shadows), feel free to modify the value of this token accordingly. [elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "small": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "0",
+          "color": "{color.box-shadow.subtle}",
+          "type": "dropShadow"
+        },
+        "$description": "[sm; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "medium": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "8",
+            "spread": "0",
+            "color": "{color.box-shadow.medium}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[md; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "16",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[lg; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      },
+      "x-large": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "40",
+            "spread": "0",
+            "color": "{color.box-shadow.strong}",
+            "type": "dropShadow"
+          }
+        ],
+        "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
     }
   },
@@ -14654,23 +14510,23 @@
         }
       },
       "box-shadow": {
-        "primary": {
+        "subtle": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.primary-mode-light}",
+          "$value": "{color.shadow.subtle-mode-light}",
           "$description": "The default color for a box shadow. [box-shadow; drop-shadow; elevation; primary; default; semantic; role; decision; alias;]"
         },
-        "secondary": {
+        "medium": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.secondary-mode-light}",
-          "$description": "The stronger-emphasis color option of a box-shadow. [box-shadow; drop-shadow; elevation; secondary; semantic; role; decision; alias;]"
+          "$value": "{color.shadow.medium-mode-light}",
+          "$description": "The medium-emphasis color option of a box-shadow. [box-shadow; drop-shadow; elevation; secondary; semantic; role; decision; alias;]"
         },
-        "tertiary": {
+        "strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.tertiary-mode-light}",
-          "$description": "The strongest-emphasis color option of a box-shadow.  [box-shadow; drop-shadow; elevation; tertiary; semantic; role; decision; alias;]"
+          "$value": "{color.shadow.strong-mode-light}",
+          "$description": "The strong-emphasis color option of a box-shadow.  [box-shadow; drop-shadow; elevation; tertiary; semantic; role; decision; alias;]"
         }
       }
     },
@@ -14757,7 +14613,7 @@
           "border-color": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.border.neutral-mode-light}"
+            "$value": "{color.border.default-mode-light}"
           }
         }
       },
@@ -15858,22 +15714,22 @@
         }
       },
       "box-shadow": {
-        "primary": {
+        "subtle": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.primary-mode-dark}",
+          "$value": "{color.shadow.subtle-mode-dark}",
           "$description": "The default color for a box shadow. [box-shadow; drop-shadow; elevation; primary; default; semantic; role; decision; alias;]"
         },
-        "secondary": {
+        "medium": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.secondary-mode-dark}",
+          "$value": "{color.shadow.medium-mode-dark}",
           "$description": "The stronger-emphasis color option of a box-shadow. [box-shadow; drop-shadow; elevation; secondary; semantic; role; decision; alias;]"
         },
-        "tertiary": {
+        "strong": {
           "$colorSchemeToken": "true",
           "$type": "color",
-          "$value": "{color.shadow.tertiary-mode-dark}",
+          "$value": "{color.shadow.strong-mode-dark}",
           "$description": "The strongest-emphasis color option of a box-shadow.  [box-shadow; drop-shadow; elevation; tertiary; semantic; role; decision; alias;]"
         }
       }
@@ -15961,7 +15817,7 @@
           "border-color": {
             "$colorSchemeToken": "true",
             "$type": "color",
-            "$value": "{color.border.neutral-mode-dark}"
+            "$value": "{color.border.default-mode-dark}"
           }
         }
       },
@@ -16873,38 +16729,36 @@
       "id": "b6376c94688da77605570efa499cb3a437b2305c",
       "name": "Mastercard",
       "$figmaStyleReferences": {
-        "component.accordion.contained.box-shadow": "S:9cae55b99449760103117a390e7caa225642886a,",
-        "component.alert.banner.box-shadow": "S:8a5d60d14223bfe5f9a7a7ffe07315b5c4711a16,",
-        "component.alert.toast.box-shadow": "S:6e62f96ffe0d542f7f20efb9bbad96c508d635eb,",
-        "component.modal.box-shadow": "S:1fb45e31b33fb16af1998b536a2bd651c1f8563b,",
-        "component.card.box-shadow": "S:307d940908fa80400f5bc955a8969a94a92a653d,",
-        "component.menu.box-shadow": "S:9b2b145a2766bbed7c06c2fc379531e9cd7187b6,",
-        "component.range.thumb.box-shadow": "S:68958ce7159db0b2942042e284368ae250d390f2,",
-        "component.tabs.contained.item.box-shadow": "S:973472e3931fa232ac2ae5794ffd6348396e2bb0,",
-        "component.tag.box-shadow": "S:5ddce5b64e56663e01916010a123a2dfbff884ab,",
-        "component.date-picker.box-shadow": "S:f5084bd3bbb0745349fc9909a6fb3431ab6ca3ce,",
-        "component.drawer.box-shadow": "S:cb977f130d88dcdaccd9e64a01292bf4e95c1137,",
-        "component.sheet.box-shadow": "S:03cbed8e434c930984f25957d1ef391be7845a08,",
-        "component.form-control.box-shadow": "S:8de450361dca45dacea6fbccc5fe05b138adcba7,",
-        "component.button.box-shadow": "S:57d06c5f0cd21c34c76fe1c38b11c743031899e6,",
-        "component.pagination.item-active.box-shadow": "S:121f7cce517b6c0b7787501a37f5d166c8cc788c,",
-        "component.table.box-shadow": "S:7b29b76fb6c0ab85d74244520ac5eb45e7cca27d,",
-        "component.avatar.box-shadow": "S:9164aedc071548e22fc1ac77d01a9f4c571866d2,",
-        "component.badge.box-shadow": "S:aee4cb629d2b699e64fa20645fee818251fb2101,",
-        "component.checkbox.box-shadow": "S:6c8e91688e9c8bd22f2b7d3cafd14bf21c687692,",
-        "component.radio.box-shadow": "S:d68996eb6b81222bc11718d7d83f5efda94bce51,",
-        "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
-        "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
-        "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:70a2ffafc404af80a7e425de23550ab7dcdfc1f5,",
-        "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
-        "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
-        "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
-        "box-shadow.default": "S:572662820834682f68cafb10e66f8713195e1195,",
-        "box-shadow.medium": "S:8a7fae7c45de26e9740be68eefa97cb83053f7a4,",
-        "box-shadow.large": "S:887c0cd8a6c84ce78c16a552a46155f2d4d0e095,",
-        "box-shadow.x-large": "S:51e2187a58821e234eab54ced4de362f8cce7276,",
-        "box-shadow.xx-large": "S:2763d2912469c170e80282e7812742480c575ea8,"
+        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
+        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
+        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
+        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
+        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
+        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
+        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
+        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
+        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
+        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
+        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
+        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
+        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
+        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
+        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
+        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
+        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
+        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
+        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
+        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
+        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
+        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
+        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
+        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
+        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
+        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
+        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
+        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
+        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
+        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -17028,8 +16882,8 @@
         "color.border.brand-mode-dark": "01522591d106784687fdec4256c701d3dee69dd0",
         "color.border.default-mode-light": "7c721cc229017c5631e2248d84fbb840fed02659",
         "color.border.default-mode-dark": "d5825c9de6976591db713de5777bef30f2701b05",
-        "color.border.bold-mode-light": "355025673d273c4da90f7bcf6b1a2ba929005285",
-        "color.border.bold-mode-dark": "7d180be6d024180d62b181d0bb8b401088b8fe19",
+        "color.border.bold-mode-light": "bb3ab2e96a1d52e61ea46ff2aa9ff178b4e8cc5d",
+        "color.border.bold-mode-dark": "0b21ec049da7d76278c14996657bc849ed036aab",
         "color.border.strong-mode-light": "d901f1a7a7a8dcde66c90df2fc045309c4d570d8",
         "color.border.strong-mode-dark": "5a05b11966ebd7142fbc07d048dad4c5b2c71087",
         "color.border.neutral-mode-light": "72f9656241d0dd822f3cd20b8be779327fb53bbe",
@@ -17125,12 +16979,12 @@
         "color.text.discovery-mode-dark": "0efc330b1a1d9e28cf35e567326f90ec23e0f76c",
         "color.text.fixed-mode-light": "018f118ecccd63020a586c61778178cb528f6b11",
         "color.text.fixed-mode-dark": "026f0b5946805e2759ba41e3a497630864296991",
-        "color.shadow.primary-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
-        "color.shadow.primary-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
-        "color.shadow.secondary-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
-        "color.shadow.secondary-mode-dark": "4d617eb5820f49dd28bd57c0e77fdb7c7ce5f6a6",
-        "color.shadow.tertiary-mode-light": "aa1f3e9ba7756c779d7747338ab98fe9dc166b44",
-        "color.shadow.tertiary-mode-dark": "f54b02d3cb83a89af4670b1e450b1ab900ab5345",
+        "color.shadow.subtle-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
+        "color.shadow.subtle-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
+        "color.shadow.medium-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
+        "color.shadow.medium-mode-dark": "4d617eb5820f49dd28bd57c0e77fdb7c7ce5f6a6",
+        "color.shadow.strong-mode-light": "aa1f3e9ba7756c779d7747338ab98fe9dc166b44",
+        "color.shadow.strong-mode-dark": "f54b02d3cb83a89af4670b1e450b1ab900ab5345",
         "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
         "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
         "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
@@ -17420,15 +17274,18 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
-        "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.list-item.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
         "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
         "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
         "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
         "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
         "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
         "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
@@ -17532,7 +17389,7 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-mode-dark": "4f5a6c301c02c6b31d5020abb183991f0cb16032"
+        "component.link.hover.text-mode-dark": "60ca12d16130f91fe92e2ccb06939e95560bf660"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -17575,38 +17432,36 @@
         "label.regular.small": "S:f088d8a104c0598570dee637e4d62f0bb2dde079,",
         "label.secondary.medium": "S:3d4cc4b8994a6de9302b798deaae801767991488,",
         "label.secondary.small": "S:325ba91955983cf4d1afc9557bdbf8022046455e,",
-        "component.accordion.contained.box-shadow": "S:9cae55b99449760103117a390e7caa225642886a,",
-        "component.alert.banner.box-shadow": "S:8a5d60d14223bfe5f9a7a7ffe07315b5c4711a16,",
-        "component.alert.toast.box-shadow": "S:6e62f96ffe0d542f7f20efb9bbad96c508d635eb,",
-        "component.modal.box-shadow": "S:1fb45e31b33fb16af1998b536a2bd651c1f8563b,",
-        "component.card.box-shadow": "S:307d940908fa80400f5bc955a8969a94a92a653d,",
-        "component.menu.box-shadow": "S:9b2b145a2766bbed7c06c2fc379531e9cd7187b6,",
-        "component.range.thumb.box-shadow": "S:68958ce7159db0b2942042e284368ae250d390f2,",
-        "component.tabs.contained.item.box-shadow": "S:973472e3931fa232ac2ae5794ffd6348396e2bb0,",
-        "component.tag.box-shadow": "S:5ddce5b64e56663e01916010a123a2dfbff884ab,",
-        "component.date-picker.box-shadow": "S:f5084bd3bbb0745349fc9909a6fb3431ab6ca3ce,",
-        "component.drawer.box-shadow": "S:cb977f130d88dcdaccd9e64a01292bf4e95c1137,",
-        "component.sheet.box-shadow": "S:03cbed8e434c930984f25957d1ef391be7845a08,",
-        "component.form-control.box-shadow": "S:8de450361dca45dacea6fbccc5fe05b138adcba7,",
-        "component.button.box-shadow": "S:57d06c5f0cd21c34c76fe1c38b11c743031899e6,",
-        "component.pagination.item-active.box-shadow": "S:121f7cce517b6c0b7787501a37f5d166c8cc788c,",
-        "component.table.box-shadow": "S:7b29b76fb6c0ab85d74244520ac5eb45e7cca27d,",
-        "component.avatar.box-shadow": "S:9164aedc071548e22fc1ac77d01a9f4c571866d2,",
-        "component.badge.box-shadow": "S:aee4cb629d2b699e64fa20645fee818251fb2101,",
-        "component.checkbox.box-shadow": "S:6c8e91688e9c8bd22f2b7d3cafd14bf21c687692,",
-        "component.radio.box-shadow": "S:d68996eb6b81222bc11718d7d83f5efda94bce51,",
-        "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
-        "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
-        "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:70a2ffafc404af80a7e425de23550ab7dcdfc1f5,",
-        "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
-        "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
-        "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
-        "box-shadow.default": "S:572662820834682f68cafb10e66f8713195e1195,",
-        "box-shadow.medium": "S:8a7fae7c45de26e9740be68eefa97cb83053f7a4,",
-        "box-shadow.large": "S:887c0cd8a6c84ce78c16a552a46155f2d4d0e095,",
-        "box-shadow.x-large": "S:51e2187a58821e234eab54ced4de362f8cce7276,",
-        "box-shadow.xx-large": "S:2763d2912469c170e80282e7812742480c575ea8,",
+        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
+        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
+        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
+        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
+        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
+        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
+        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
+        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
+        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
+        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
+        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
+        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
+        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
+        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
+        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
+        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
+        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
+        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
+        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
+        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
+        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
+        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
+        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
+        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
+        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
+        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
+        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
+        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
+        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
+        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,",
         "link.medium.hover": "S:aab199bbb445346fe26a67e38920e23ff2ea9ea2,",
         "link.medium.default": "S:987c072bf14624dbe745420f85f45561251f66fe,"
       },
@@ -17826,16 +17681,16 @@
         "color.text.discovery-mode-dark": "0efc330b1a1d9e28cf35e567326f90ec23e0f76c",
         "color.text.fixed-mode-light": "018f118ecccd63020a586c61778178cb528f6b11",
         "color.text.fixed-mode-dark": "026f0b5946805e2759ba41e3a497630864296991",
-        "color.shadow.primary-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
-        "color.shadow.primary-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
-        "color.shadow.secondary-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
-        "color.shadow.secondary-mode-dark": "4d617eb5820f49dd28bd57c0e77fdb7c7ce5f6a6",
-        "color.shadow.tertiary-mode-light": "aa1f3e9ba7756c779d7747338ab98fe9dc166b44",
-        "color.shadow.tertiary-mode-dark": "f54b02d3cb83a89af4670b1e450b1ab900ab5345",
+        "color.shadow.subtle-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
+        "color.shadow.subtle-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
+        "color.shadow.medium-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
+        "color.shadow.medium-mode-dark": "4d617eb5820f49dd28bd57c0e77fdb7c7ce5f6a6",
+        "color.shadow.strong-mode-light": "aa1f3e9ba7756c779d7747338ab98fe9dc166b44",
+        "color.shadow.strong-mode-dark": "f54b02d3cb83a89af4670b1e450b1ab900ab5345",
         "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
         "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
         "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
-        "component.link.hover.text-color-mode-dark": "11f0ea1cbe6512e75b3c859500aea4b05507ee79",
+        "component.link.hover.text-color-mode-dark": "f9418b18b6119be164e0dddbd0765558c7704221",
         "component.link.active.text-color-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
         "component.link.active.text-color-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
         "component.link.visited.text-color-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
@@ -18122,15 +17977,18 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
-        "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.list-item.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
         "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
         "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
         "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
         "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
         "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
         "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
@@ -18234,8 +18092,8 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "color.border.strongest-mode-light": "3f1c4d3b36a85bb1153d4ee7b606ca1aff2508a3",
-        "color.border.strongest-mode-dark": "5e9b64d8d076818548e16c432c305522dcc3e2d0"
+        "color.border.strongest-mode-light": "cb507bee6c3b53a14a3710b3498b5ba464fd3977",
+        "color.border.strongest-mode-dark": "066cb8c5a129eb158731f53cbb0633cea72fba70"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -18245,38 +18103,36 @@
       "id": "def36ffc6cb3eb49edffc41019d9db212dfd3308",
       "name": "Partnerbank",
       "$figmaStyleReferences": {
-        "component.accordion.contained.box-shadow": "S:9cae55b99449760103117a390e7caa225642886a,",
-        "component.alert.banner.box-shadow": "S:8a5d60d14223bfe5f9a7a7ffe07315b5c4711a16,",
-        "component.alert.toast.box-shadow": "S:6e62f96ffe0d542f7f20efb9bbad96c508d635eb,",
-        "component.modal.box-shadow": "S:1fb45e31b33fb16af1998b536a2bd651c1f8563b,",
-        "component.card.box-shadow": "S:307d940908fa80400f5bc955a8969a94a92a653d,",
-        "component.menu.box-shadow": "S:9b2b145a2766bbed7c06c2fc379531e9cd7187b6,",
-        "component.range.thumb.box-shadow": "S:68958ce7159db0b2942042e284368ae250d390f2,",
-        "component.tabs.contained.item.box-shadow": "S:973472e3931fa232ac2ae5794ffd6348396e2bb0,",
-        "component.tag.box-shadow": "S:5ddce5b64e56663e01916010a123a2dfbff884ab,",
-        "component.date-picker.box-shadow": "S:f5084bd3bbb0745349fc9909a6fb3431ab6ca3ce,",
-        "component.drawer.box-shadow": "S:cb977f130d88dcdaccd9e64a01292bf4e95c1137,",
-        "component.sheet.box-shadow": "S:03cbed8e434c930984f25957d1ef391be7845a08,",
-        "component.form-control.box-shadow": "S:8de450361dca45dacea6fbccc5fe05b138adcba7,",
-        "component.button.box-shadow": "S:57d06c5f0cd21c34c76fe1c38b11c743031899e6,",
-        "component.pagination.item-active.box-shadow": "S:121f7cce517b6c0b7787501a37f5d166c8cc788c,",
-        "component.table.box-shadow": "S:7b29b76fb6c0ab85d74244520ac5eb45e7cca27d,",
-        "component.avatar.box-shadow": "S:9164aedc071548e22fc1ac77d01a9f4c571866d2,",
-        "component.badge.box-shadow": "S:aee4cb629d2b699e64fa20645fee818251fb2101,",
-        "component.checkbox.box-shadow": "S:6c8e91688e9c8bd22f2b7d3cafd14bf21c687692,",
-        "component.radio.box-shadow": "S:d68996eb6b81222bc11718d7d83f5efda94bce51,",
-        "component.file-upload.box-shadow": "S:cdeee780cf01edafd701470d93380ace93aad85c,",
-        "component.toggle.thumb.box-shadow": "S:6282e84ad590514d7f5dc3f2118b0bbf225405f5,",
-        "component.toggle.box-shadow": "S:8551801229c27eb688979ec8bf6742c7be0897b7,",
-        "component.tooltip.box-shadow": "S:70a2ffafc404af80a7e425de23550ab7dcdfc1f5,",
-        "box-shadow.none": "S:bdde58933d5d0c534b39e114b8392fd99abdfe13,",
-        "box-shadow.global": "S:d351e62d9de30ddf9c771bb83f5d20dbcd1ca8d5,",
-        "box-shadow.small": "S:81ad3549c796ca7200626591a31bd0a2c771cbd4,",
-        "box-shadow.default": "S:572662820834682f68cafb10e66f8713195e1195,",
-        "box-shadow.medium": "S:8a7fae7c45de26e9740be68eefa97cb83053f7a4,",
-        "box-shadow.large": "S:887c0cd8a6c84ce78c16a552a46155f2d4d0e095,",
-        "box-shadow.x-large": "S:51e2187a58821e234eab54ced4de362f8cce7276,",
-        "box-shadow.xx-large": "S:2763d2912469c170e80282e7812742480c575ea8,"
+        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
+        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
+        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
+        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
+        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
+        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
+        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
+        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
+        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
+        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
+        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
+        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
+        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
+        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
+        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
+        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
+        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
+        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
+        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
+        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
+        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
+        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
+        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
+        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
+        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
+        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
+        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
+        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
+        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
+        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -18401,8 +18257,8 @@
         "color.border.brand-mode-dark": "01522591d106784687fdec4256c701d3dee69dd0",
         "color.border.default-mode-light": "7c721cc229017c5631e2248d84fbb840fed02659",
         "color.border.default-mode-dark": "d5825c9de6976591db713de5777bef30f2701b05",
-        "color.border.bold-mode-light": "355025673d273c4da90f7bcf6b1a2ba929005285",
-        "color.border.bold-mode-dark": "7d180be6d024180d62b181d0bb8b401088b8fe19",
+        "color.border.bold-mode-light": "bb3ab2e96a1d52e61ea46ff2aa9ff178b4e8cc5d",
+        "color.border.bold-mode-dark": "0b21ec049da7d76278c14996657bc849ed036aab",
         "color.border.strong-mode-light": "d901f1a7a7a8dcde66c90df2fc045309c4d570d8",
         "color.border.strong-mode-dark": "5a05b11966ebd7142fbc07d048dad4c5b2c71087",
         "color.border.neutral-mode-light": "72f9656241d0dd822f3cd20b8be779327fb53bbe",
@@ -18498,12 +18354,12 @@
         "color.text.discovery-mode-dark": "0efc330b1a1d9e28cf35e567326f90ec23e0f76c",
         "color.text.fixed-mode-light": "018f118ecccd63020a586c61778178cb528f6b11",
         "color.text.fixed-mode-dark": "026f0b5946805e2759ba41e3a497630864296991",
-        "color.shadow.primary-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
-        "color.shadow.primary-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
-        "color.shadow.secondary-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
-        "color.shadow.secondary-mode-dark": "4d617eb5820f49dd28bd57c0e77fdb7c7ce5f6a6",
-        "color.shadow.tertiary-mode-light": "aa1f3e9ba7756c779d7747338ab98fe9dc166b44",
-        "color.shadow.tertiary-mode-dark": "f54b02d3cb83a89af4670b1e450b1ab900ab5345",
+        "color.shadow.subtle-mode-light": "9abbe09c5e04cb2db87f51e49e627ec21520a498",
+        "color.shadow.subtle-mode-dark": "8f6c139241b3190f2de29cab387eb38fd15d018f",
+        "color.shadow.medium-mode-light": "25790b4ee0585363e3f5a53b35cff3df38c49d95",
+        "color.shadow.medium-mode-dark": "4d617eb5820f49dd28bd57c0e77fdb7c7ce5f6a6",
+        "color.shadow.strong-mode-light": "aa1f3e9ba7756c779d7747338ab98fe9dc166b44",
+        "color.shadow.strong-mode-dark": "f54b02d3cb83a89af4670b1e450b1ab900ab5345",
         "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
         "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
         "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
@@ -18793,12 +18649,15 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
-        "component.list-item.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.list-item.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
+        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
         "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
         "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
         "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
+        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
         "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
         "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
         "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
@@ -18905,7 +18764,7 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-color-mode-dark": "11f0ea1cbe6512e75b3c859500aea4b05507ee79"
+        "component.link.hover.text-color-mode-dark": "f9418b18b6119be164e0dddbd0765558c7704221"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
@@ -19032,9 +18891,9 @@
         "color.text.warning": "ea3d5df8fc630abd39c90a2fbff31210906c9e3e",
         "color.text.information": "ec2315f0d45628104a6b122e7d070ed06b4c6af8",
         "color.text.discovery": "d381b95e00b2109e7c0e4485009800db696cea0c",
-        "color.box-shadow.primary": "4ed199349a4a1b8a40309841a86cb2b295636b06",
-        "color.box-shadow.secondary": "2e2b782c836a4d8ecb67a0f1059c577d4cb67ab8",
-        "color.box-shadow.tertiary": "a1a17a1123a79510c150e87406753ac65e82a046",
+        "color.box-shadow.subtle": "4ed199349a4a1b8a40309841a86cb2b295636b06",
+        "color.box-shadow.medium": "2e2b782c836a4d8ecb67a0f1059c577d4cb67ab8",
+        "color.box-shadow.strong": "a1a17a1123a79510c150e87406753ac65e82a046",
         "component.link.default.text-color": "d7327041aa95574aaaa0e390c3657a77a2021b2f",
         "component.link.hover.text-color": "f88d75205b96aca75f81c7f61a7c642971f7d46a",
         "component.link.active.text-color": "9f4f862c966427fb0d8f3c25873ad758b16ffa2a",
@@ -19231,9 +19090,9 @@
         "color.text.warning": "ea3d5df8fc630abd39c90a2fbff31210906c9e3e",
         "color.text.information": "ec2315f0d45628104a6b122e7d070ed06b4c6af8",
         "color.text.discovery": "d381b95e00b2109e7c0e4485009800db696cea0c",
-        "color.box-shadow.primary": "4ed199349a4a1b8a40309841a86cb2b295636b06",
-        "color.box-shadow.secondary": "2e2b782c836a4d8ecb67a0f1059c577d4cb67ab8",
-        "color.box-shadow.tertiary": "a1a17a1123a79510c150e87406753ac65e82a046",
+        "color.box-shadow.subtle": "4ed199349a4a1b8a40309841a86cb2b295636b06",
+        "color.box-shadow.medium": "2e2b782c836a4d8ecb67a0f1059c577d4cb67ab8",
+        "color.box-shadow.strong": "a1a17a1123a79510c150e87406753ac65e82a046",
         "component.link.default.text-color": "d7327041aa95574aaaa0e390c3657a77a2021b2f",
         "component.link.hover.text-color": "f88d75205b96aca75f81c7f61a7c642971f7d46a",
         "component.link.active.text-color": "9f4f862c966427fb0d8f3c25873ad758b16ffa2a",
