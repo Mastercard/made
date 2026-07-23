@@ -3970,7 +3970,7 @@
           "$value": "{box-shadow.small}"
         }
       },
-      "menu": {
+      "listbox": {
         "border-color-mode-light": {
           "$componentLevelToken": "true",
           "$type": "color",
@@ -5197,7 +5197,7 @@
           "$value": "{line.height.rem-04}"
         }
       },
-      "list-item": {
+      "listbox-item": {
         "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
@@ -5254,42 +5254,6 @@
           "font-size": {
             "$type": "fontSizes",
             "$value": "{font-size.06}"
-          }
-        },
-        "contained": {
-          "medium": {
-            "padding-x": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "padding-y": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1-x}"
-            },
-            "gap": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.2-x}"
-            }
-          },
-          "large": {
-            "padding-x": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "padding-y": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "gap": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.2-x}"
-            }
           }
         }
       },
@@ -5675,11 +5639,6 @@
           "$type": "borderRadius",
           "$value": "9999",
           "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
-        },
-        "focus-offset": {
-          "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0point5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
     },
@@ -6075,6 +6034,29 @@
           }
         ],
         "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
+      }
+    },
+    "focus-outline": {
+      "border-width": {
+        "$type": "borderWidth",
+        "$value": "{border-width.02}"
+      }
+    },
+    "blur": {
+      "large": {
+        "$type": "dimension",
+        "$value": "{size-space.8-x}",
+        "$description": "Large value for Blur amount."
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{size-space.4-x}",
+        "$description": "Medium value for Blur amount."
+      },
+      "small": {
+        "$type": "dimension",
+        "$value": "{size-space.2-x}",
+        "$description": "Small value for Blur amount."
       }
     }
   },
@@ -7537,7 +7519,7 @@
           "$value": "{box-shadow.small}"
         }
       },
-      "menu": {
+      "listbox": {
         "border-color-mode-light": {
           "$componentLevelToken": "true",
           "$type": "color",
@@ -7551,17 +7533,17 @@
         "padding-x": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.0-x}"
+          "$value": "{size-space.1point5-x}"
         },
         "padding-y": {
           "$componentLevelToken": "true",
           "$type": "spacing",
-          "$value": "{size-space.2-x}"
+          "$value": "{size-space.1point5-x}"
         },
         "border-radius": {
           "$componentLevelToken": "true",
           "$type": "borderRadius",
-          "$value": "{border.radius.large}"
+          "$value": "{size-space.4-x}"
         },
         "box-shadow": {
           "$componentLevelToken": "true",
@@ -8764,7 +8746,7 @@
           "$value": "{line.height.rem-04}"
         }
       },
-      "list-item": {
+      "listbox-item": {
         "medium": {
           "font-size": {
             "$componentLevelToken": "true",
@@ -8784,12 +8766,12 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.4-x}"
+            "$value": "{size-space.2point5-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.2-x}"
+            "$value": "{size-space.1point5-x}"
           },
           "gap": {
             "$componentLevelToken": "true",
@@ -8816,53 +8798,17 @@
           "padding-x": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.4-x}"
+            "$value": "{size-space.2point5-x}"
           },
           "padding-y": {
             "$componentLevelToken": "true",
             "$type": "spacing",
-            "$value": "{size-space.3-x}"
+            "$value": "{size-space.2point5-x}"
           },
           "gap": {
             "$componentLevelToken": "true",
             "$type": "spacing",
             "$value": "{size-space.2-x}"
-          }
-        },
-        "contained": {
-          "medium": {
-            "padding-x": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "padding-y": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1-x}"
-            },
-            "gap": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.2-x}"
-            }
-          },
-          "large": {
-            "padding-x": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "padding-y": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "gap": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.2-x}"
-            }
           }
         }
       },
@@ -9248,11 +9194,6 @@
           "$type": "borderRadius",
           "$value": "9999",
           "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
-        },
-        "focus-offset": {
-          "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0point5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
     },
@@ -9648,6 +9589,29 @@
         "$type": "other",
         "$value": "{z-index.800}",
         "$description": "Used to set the z order layering of alert toasts.\t"
+      }
+    },
+    "focus-outline": {
+      "border-width": {
+        "$type": "borderWidth",
+        "$value": "{border-width.02}"
+      }
+    },
+    "blur": {
+      "large": {
+        "$type": "dimension",
+        "$value": "{size-space.8-x}",
+        "$description": "Large value for Blur amount."
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{size-space.4-x}",
+        "$description": "Medium value for Blur amount."
+      },
+      "small": {
+        "$type": "dimension",
+        "$value": "{size-space.2-x}",
+        "$description": "Small value for Blur amount."
       }
     }
   },
@@ -11655,7 +11619,7 @@
           "$value": "{color.border.default-mode-dark}"
         }
       },
-      "menu": {
+      "listbox": {
         "box-shadow": {
           "$componentLevelToken": "true",
           "$type": "boxShadow",
@@ -11971,7 +11935,7 @@
           "$value": "{box-shadow.global}"
         }
       },
-      "list-item": {
+      "listbox-item": {
         "medium": {
           "padding-x": {
             "$componentLevelToken": "true",
@@ -12028,42 +11992,6 @@
           "font-size": {
             "$type": "fontSizes",
             "$value": "{font-size.06}"
-          }
-        },
-        "contained": {
-          "medium": {
-            "padding-x": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "padding-y": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1-x}"
-            },
-            "gap": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.2-x}"
-            }
-          },
-          "large": {
-            "padding-x": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "padding-y": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.1point5-x}"
-            },
-            "gap": {
-              "$componentLevelToken": "true",
-              "$type": "spacing",
-              "$value": "{size-space.2-x}"
-            }
           }
         }
       },
@@ -12878,11 +12806,6 @@
           "$type": "borderRadius",
           "$value": "9999px",
           "$description": "Fully rounded border radius. [semantic; role; decision; alias;]"
-        },
-        "focus-offset": {
-          "$type": "borderRadius",
-          "$value": "{border.radius.default} + {size-space.0point5-x}",
-          "$description": "Border radius for focus borders that have an offset from their parent elements, which use border-radius-default (e.g., inputs, cards, buttons, etc.). [semantic; role; decision; alias;]"
         }
       }
     },
@@ -13820,6 +13743,29 @@
         ],
         "$description": "[xl; elevation; drop shadow; box shadow; semantic; role; decision; alias;]"
       }
+    },
+    "focus-outline": {
+      "border-width": {
+        "$type": "borderWidth",
+        "$value": "{border-width.02}"
+      }
+    },
+    "blur": {
+      "large": {
+        "$type": "dimension",
+        "$value": "{size-space.8-x}",
+        "$description": "Large value for Blur amount."
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{size-space.4-x}",
+        "$description": "Medium value for Blur amount."
+      },
+      "small": {
+        "$type": "dimension",
+        "$value": "{size-space.2-x}",
+        "$description": "Small value for Blur amount."
+      }
     }
   },
   "mode/light": {
@@ -14631,7 +14577,7 @@
           "$value": "{color.border.default-mode-light}"
         }
       },
-      "menu": {
+      "listbox": {
         "border-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
@@ -15835,7 +15781,7 @@
           "$value": "{color.border.default-mode-dark}"
         }
       },
-      "menu": {
+      "listbox": {
         "border-color": {
           "$colorSchemeToken": "true",
           "$type": "color",
@@ -16734,7 +16680,6 @@
         "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
         "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
         "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
-        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
         "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
         "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
         "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
@@ -16758,7 +16703,8 @@
         "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
         "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
         "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
-        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,"
+        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,",
+        "component.listbox.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -17057,11 +17003,6 @@
         "component.card.padding-x": "11bda59034a87fa437e80452cad7424b5bc23990",
         "component.card.padding-y": "e130f6ca46883e3d8fe40d99afdeff1e5ffc03e9",
         "component.card.border-radius": "0ee7edc08db9a5136dc728b6f3a3e295c7d48bf5",
-        "component.menu.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
-        "component.menu.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
-        "component.menu.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
-        "component.menu.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
-        "component.menu.border-radius": "430ceecd44110d30db7706f6048a878c91140420",
         "component.range.thumb.border-color-mode-light": "88ca5092bc39b20922169c4a0113e12112421cd1",
         "component.range.thumb.border-color-mode-dark": "f363eacf8fb41465efeda6577caef5da55d7ffd9",
         "component.range.thumb.width": "63918017c87966417a2bcba78895319ed77a9589",
@@ -17274,24 +17215,6 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
-        "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
-        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
-        "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
-        "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
-        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
-        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
-        "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
-        "component.list-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
-        "component.list-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
-        "component.list-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
         "component.table.cell.header.padding-x": "8e668ec6e683ec87b45fc2b8ef83f6d275303d4e",
         "component.table.cell.header.padding-y": "7b4dc27e490e8e1baa46a868b69f32cd3a748449",
         "component.table.cell.header.border-width": "edfa25cc8fffbb2ceee20ad0e7810cd5df18f348",
@@ -17350,7 +17273,6 @@
         "border.radius.small": "49e8438caac88c50b7faea2f36fdf5994af79db3",
         "border.radius.large": "11bcd525c59d1f7a6d896d66e2003f23e678b687",
         "border.radius.full": "d5d551839b845c9d50740a6f861354adc2dfe69c",
-        "border.radius.focus-offset": "f6e41960de518034ed0a5f1caeec13bc3515782c",
         "grid.gutters.small": "f56872b6652f443bb0900bd7d32b7fdb44bc3eb1",
         "grid.gutters.medium": "413eb38fea961ae9a21251746b221e588f6b6075",
         "grid.gutters.large": "f13bfac22d313339aaaec1cf8ea2f76fbcd77a09",
@@ -17389,7 +17311,30 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-mode-dark": "60ca12d16130f91fe92e2ccb06939e95560bf660"
+        "component.link.hover.text-mode-dark": "60ca12d16130f91fe92e2ccb06939e95560bf660",
+        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
+        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
+        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.listbox-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
+        "component.listbox-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
+        "component.listbox-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
+        "component.listbox-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
+        "component.listbox-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
+        "component.listbox-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
+        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
+        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
+        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
+        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
+        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
+        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
+        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -17437,7 +17382,6 @@
         "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
         "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
         "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
-        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
         "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
         "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
         "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
@@ -17463,7 +17407,8 @@
         "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
         "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,",
         "link.medium.hover": "S:aab199bbb445346fe26a67e38920e23ff2ea9ea2,",
-        "link.medium.default": "S:987c072bf14624dbe745420f85f45561251f66fe,"
+        "link.medium.default": "S:987c072bf14624dbe745420f85f45561251f66fe,",
+        "component.listbox.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -17760,11 +17705,6 @@
         "component.card.padding-x": "11bda59034a87fa437e80452cad7424b5bc23990",
         "component.card.padding-y": "e130f6ca46883e3d8fe40d99afdeff1e5ffc03e9",
         "component.card.border-radius": "0ee7edc08db9a5136dc728b6f3a3e295c7d48bf5",
-        "component.menu.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
-        "component.menu.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
-        "component.menu.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
-        "component.menu.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
-        "component.menu.border-radius": "430ceecd44110d30db7706f6048a878c91140420",
         "component.range.thumb.border-color-mode-light": "88ca5092bc39b20922169c4a0113e12112421cd1",
         "component.range.thumb.border-color-mode-dark": "f363eacf8fb41465efeda6577caef5da55d7ffd9",
         "component.range.thumb.width": "63918017c87966417a2bcba78895319ed77a9589",
@@ -17977,24 +17917,6 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
-        "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
-        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
-        "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
-        "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
-        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
-        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
-        "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
-        "component.list-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
-        "component.list-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
-        "component.list-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
         "component.table.cell.header.padding-x": "8e668ec6e683ec87b45fc2b8ef83f6d275303d4e",
         "component.table.cell.header.padding-y": "7b4dc27e490e8e1baa46a868b69f32cd3a748449",
         "component.table.cell.header.border-width": "edfa25cc8fffbb2ceee20ad0e7810cd5df18f348",
@@ -18053,7 +17975,6 @@
         "border.radius.small": "49e8438caac88c50b7faea2f36fdf5994af79db3",
         "border.radius.large": "11bcd525c59d1f7a6d896d66e2003f23e678b687",
         "border.radius.full": "d5d551839b845c9d50740a6f861354adc2dfe69c",
-        "border.radius.focus-offset": "f6e41960de518034ed0a5f1caeec13bc3515782c",
         "grid.gutters.small": "f56872b6652f443bb0900bd7d32b7fdb44bc3eb1",
         "grid.gutters.medium": "413eb38fea961ae9a21251746b221e588f6b6075",
         "grid.gutters.large": "f13bfac22d313339aaaec1cf8ea2f76fbcd77a09",
@@ -18093,7 +18014,30 @@
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
         "color.border.strongest-mode-light": "cb507bee6c3b53a14a3710b3498b5ba464fd3977",
-        "color.border.strongest-mode-dark": "066cb8c5a129eb158731f53cbb0633cea72fba70"
+        "color.border.strongest-mode-dark": "066cb8c5a129eb158731f53cbb0633cea72fba70",
+        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
+        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
+        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.listbox-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
+        "component.listbox-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
+        "component.listbox-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
+        "component.listbox-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
+        "component.listbox-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
+        "component.listbox-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
+        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
+        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
+        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
+        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
+        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
+        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
+        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -18108,7 +18052,6 @@
         "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
         "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
         "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
-        "component.menu.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,",
         "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
         "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
         "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
@@ -18132,7 +18075,8 @@
         "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
         "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
         "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
-        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,"
+        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,",
+        "component.listbox.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -18432,11 +18376,6 @@
         "component.card.padding-x": "11bda59034a87fa437e80452cad7424b5bc23990",
         "component.card.padding-y": "e130f6ca46883e3d8fe40d99afdeff1e5ffc03e9",
         "component.card.border-radius": "0ee7edc08db9a5136dc728b6f3a3e295c7d48bf5",
-        "component.menu.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
-        "component.menu.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
-        "component.menu.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
-        "component.menu.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
-        "component.menu.border-radius": "430ceecd44110d30db7706f6048a878c91140420",
         "component.range.thumb.border-color-mode-light": "88ca5092bc39b20922169c4a0113e12112421cd1",
         "component.range.thumb.border-color-mode-dark": "f363eacf8fb41465efeda6577caef5da55d7ffd9",
         "component.range.thumb.width": "63918017c87966417a2bcba78895319ed77a9589",
@@ -18649,24 +18588,6 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
-        "component.list-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.list-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.list-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.list-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.list-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.list-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
-        "component.list-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
-        "component.list-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
-        "component.list-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
-        "component.list-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
-        "component.list-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
-        "component.list-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.list-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.list-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.list-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
-        "component.list-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
-        "component.list-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
-        "component.list-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
         "component.table.cell.header.padding-x": "8e668ec6e683ec87b45fc2b8ef83f6d275303d4e",
         "component.table.cell.header.padding-y": "7b4dc27e490e8e1baa46a868b69f32cd3a748449",
         "component.table.cell.header.border-width": "edfa25cc8fffbb2ceee20ad0e7810cd5df18f348",
@@ -18725,7 +18646,6 @@
         "border.radius.small": "49e8438caac88c50b7faea2f36fdf5994af79db3",
         "border.radius.large": "11bcd525c59d1f7a6d896d66e2003f23e678b687",
         "border.radius.full": "d5d551839b845c9d50740a6f861354adc2dfe69c",
-        "border.radius.focus-offset": "f6e41960de518034ed0a5f1caeec13bc3515782c",
         "grid.gutters.small": "f56872b6652f443bb0900bd7d32b7fdb44bc3eb1",
         "grid.gutters.medium": "413eb38fea961ae9a21251746b221e588f6b6075",
         "grid.gutters.large": "f13bfac22d313339aaaec1cf8ea2f76fbcd77a09",
@@ -18764,7 +18684,30 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-color-mode-dark": "f9418b18b6119be164e0dddbd0765558c7704221"
+        "component.link.hover.text-color-mode-dark": "f9418b18b6119be164e0dddbd0765558c7704221",
+        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
+        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
+        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.listbox-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
+        "component.listbox-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
+        "component.listbox-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
+        "component.listbox-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
+        "component.listbox-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
+        "component.listbox-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
+        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
+        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
+        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
+        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
+        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
+        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
+        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
@@ -18906,7 +18849,6 @@
         "component.alert.default.border-color": "c6d87261fcba42c9686ad672300d7444b9a74bc6",
         "component.modal.border-color": "89fcb6286188bfb46331a1be4fb6dc6adaba1e1f",
         "component.card.border-color": "3233cd7da1854e3d7e2ea6f9ee2ca93c3d577d08",
-        "component.menu.border-color": "b35bd46c45e1824c41062d1a974c9e4f9ca43645",
         "component.range.thumb.border-color": "34314d23a5d359d6aadba3c723593d7711baed3b",
         "component.range.track-fill.background": "102b146d6dc2fcb0934e029b4f65b901f6dce30a",
         "component.rating.star.background-active": "4022d412363d5b5fcedaa68f3e2d2e576796f31f",
@@ -18963,7 +18905,8 @@
         "component.toggle.background.off": "935f5742dfd2d5335e104d3f430228bff115361f",
         "component.toggle.background.on": "545b56300cbb12ea87512cbb997b6c58c25eae6a",
         "component.badge.warning.contrast-high.text-color": "6e9e042f3b52efb1513048d45d7ffcd2412c31ac",
-        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09"
+        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09",
+        "component.listbox.border-color": "b35bd46c45e1824c41062d1a974c9e4f9ca43645"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:6",
@@ -19105,7 +19048,6 @@
         "component.alert.default.border-color": "c6d87261fcba42c9686ad672300d7444b9a74bc6",
         "component.modal.border-color": "89fcb6286188bfb46331a1be4fb6dc6adaba1e1f",
         "component.card.border-color": "3233cd7da1854e3d7e2ea6f9ee2ca93c3d577d08",
-        "component.menu.border-color": "b35bd46c45e1824c41062d1a974c9e4f9ca43645",
         "component.range.thumb.border-color": "34314d23a5d359d6aadba3c723593d7711baed3b",
         "component.range.track-fill.background": "102b146d6dc2fcb0934e029b4f65b901f6dce30a",
         "component.rating.star.background-active": "4022d412363d5b5fcedaa68f3e2d2e576796f31f",
@@ -19162,7 +19104,8 @@
         "component.toggle.background.off": "935f5742dfd2d5335e104d3f430228bff115361f",
         "component.toggle.background.on": "545b56300cbb12ea87512cbb997b6c58c25eae6a",
         "component.badge.warning.contrast-high.text-color": "6e9e042f3b52efb1513048d45d7ffcd2412c31ac",
-        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09"
+        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09",
+        "component.listbox.border-color": "b35bd46c45e1824c41062d1a974c9e4f9ca43645"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:7",
