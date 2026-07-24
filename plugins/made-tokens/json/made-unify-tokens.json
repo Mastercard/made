@@ -10594,7 +10594,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.gray.1800}",
+          "$value": "{color.gray.950}",
           "$description": "This token is for the color of a shadow. \"Subtle\" is the lowest level of shadow opacity. "
         },
         "subtle-mode-dark": {
@@ -10608,7 +10608,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.gray.1800}"
+          "$value": "{color.gray.950}"
         },
         "medium-mode-light": {
           "$extensions": {
@@ -10621,7 +10621,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.gray.1800}"
+          "$value": "{color.gray.950}"
         },
         "medium-mode-dark": {
           "$extensions": {
@@ -10634,7 +10634,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.gray.1800}"
+          "$value": "{color.gray.950}"
         },
         "strong-mode-light": {
           "$extensions": {
@@ -10647,7 +10647,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.gray.1800}"
+          "$value": "{color.gray.950}"
         },
         "strong-mode-dark": {
           "$extensions": {
@@ -10660,7 +10660,7 @@
             }
           },
           "$type": "color",
-          "$value": "{color.gray.1800}"
+          "$value": "{color.gray.950}"
         }
       }
     },
@@ -11671,7 +11671,7 @@
           "box-shadow": {
             "$componentLevelToken": "true",
             "$type": "boxShadow",
-            "$value": "{box-shadow.default}"
+            "$value": "{box-shadow.small}"
           },
           "width": {
             "$componentLevelToken": "true",
