@@ -22,7 +22,7 @@
     "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-essentials": "^6.5.10",
     "@storybook/addon-links": "^6.5.10",
-    "@storybook/react": "^6.5.10",
+    "@storybook/react": "^10.2.1",
     "babel-loader": "^8.2.2",
     "chromatic": "^6.5.4",
     "copyfiles": "^2.4.1",
