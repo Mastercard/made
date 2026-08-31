@@ -1791,6 +1791,342 @@
           "$value": "#141413"
         }
       },
+      "red": {
+        "100": {
+          "$type": "color",
+          "$value": "#ffe0e1"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#ffc2c4"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#fd898c"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#e05155"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#d22a2f"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#b32428"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#8c1c1f"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#661417"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#4d0f11"
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#360b0c"
+        }
+      },
+      "orange": {
+        "100": {
+          "$type": "color",
+          "$value": "#ffe8de"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#ffd5c0"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#ffb189"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#ff813e"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#ff5900"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#c44100"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#992b00"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#732100"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#591500"
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#431000"
+        }
+      },
+      "gold": {
+        "100": {
+          "$type": "color",
+          "$value": "#ffeed9"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#ffe3bf"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#ffcf8f"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#f9af4e"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#f38b00"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#d67a00"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#ad6300"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#995800"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#663b00"
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#3b2100"
+        }
+      },
+      "yellow": {
+        "100": {
+          "$type": "color",
+          "$value": "#fff6db"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#ffedb8"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#ffe391"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#ffda6b"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#ffc81f"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#dea71b"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#ca9100"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#a87600"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#6b4600"
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#402b00"
+        }
+      },
+      "green": {
+        "100": {
+          "$type": "color",
+          "$value": "#f3ffd9"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#e4f9b3"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#cded85"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#afd45f"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#8db92e"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#759926"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#5f8018"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#48660a"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#364d07"
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#1f2e00"
+        }
+      },
+      "mint": {
+        "100": {
+          "$type": "color",
+          "$value": "#e5feed"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#d6fce2"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#b9f6cd"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#9fecba"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#7ad699"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#4dc378"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#2ba25b"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#198046"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#115730"
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#022e16"
+        }
+      },
+      "teal": {
+        "100": {
+          "$type": "color",
+          "$value": "#e2fbfb"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#caf8f8"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#98f1f1"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#5be4e6"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#2ccacd"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#00b3b6"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#009094"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#007478"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#014e52"
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#022f32"
+        }
+      },
+      "purple": {
+        "100": {
+          "$type": "color",
+          "$value": "#f6ebff"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#e9ccff"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#d6a1ff"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#bf73fa"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#aa45f7"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#861ad9"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#6b12af"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#4d0782"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#320058"
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#18002b"
+        }
+      },
       "magenta": {
         "100": {
           "$type": "color",
@@ -1798,168 +2134,42 @@
         },
         "200": {
           "$type": "color",
-          "$value": "#ffccee"
+          "$value": "#ffccec"
         },
         "300": {
           "$type": "color",
-          "$value": "#ffa1e0"
+          "$value": "#ffa1dc"
         },
         "400": {
           "$type": "color",
-          "$value": "#ff75d1"
+          "$value": "#ff75cc"
         },
         "500": {
           "$type": "color",
-          "$value": "#f745bc"
+          "$value": "#f23daf"
         },
         "600": {
           "$type": "color",
-          "$value": "#d91a99"
+          "$value": "#c21382"
         },
         "700": {
           "$type": "color",
-          "$value": "#af127b"
+          "$value": "#9f0767"
         },
         "800": {
           "$type": "color",
-          "$value": "#820759"
+          "$value": "#7a054f"
         },
         "900": {
           "$type": "color",
-          "$value": "#58003b"
+          "$value": "#590038"
         },
         "1000": {
           "$type": "color",
-          "$value": "#2b001d"
+          "$value": "#330020"
         }
       },
-      "fuchsia": {
-        "100": {
-          "$type": "color",
-          "$value": "#fcebff"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "#f6ccff"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "#efa1ff"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "#e875ff"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "#d945f7"
-        },
-        "600": {
-          "$type": "color",
-          "$value": "#b81ad9"
-        },
-        "700": {
-          "$type": "color",
-          "$value": "#9512af"
-        },
-        "800": {
-          "$type": "color",
-          "$value": "#6d0782"
-        },
-        "900": {
-          "$type": "color",
-          "$value": "#490058"
-        },
-        "1000": {
-          "$type": "color",
-          "$value": "#24002b"
-        }
-      },
-      "blue": {
-        "100": {
-          "$type": "color",
-          "$value": "#f0f5ff"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "#b9d1ff"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "#83abff"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "#4b81ff"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "#1952f5"
-        },
-        "600": {
-          "$type": "color",
-          "$value": "#0023cf"
-        },
-        "700": {
-          "$type": "color",
-          "$value": "#001db5"
-        },
-        "800": {
-          "$type": "color",
-          "$value": "#001592"
-        },
-        "900": {
-          "$type": "color",
-          "$value": "#000e6f"
-        },
-        "1000": {
-          "$type": "color",
-          "$value": "#000752"
-        }
-      },
-      "teal": {
-        "100": {
-          "$type": "color",
-          "$value": "#ebfffa"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "#ccfff3"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "#8ffee4"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "#60e6c7"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "#3dccab"
-        },
-        "600": {
-          "$type": "color",
-          "$value": "#12b58f"
-        },
-        "700": {
-          "$type": "color",
-          "$value": "#007d60"
-        },
-        "800": {
-          "$type": "color",
-          "$value": "#00664e"
-        },
-        "900": {
-          "$type": "color",
-          "$value": "#004938"
-        },
-        "1000": {
-          "$type": "color",
-          "$value": "#002b21"
-        }
-      },
-      "green": {
+      "feedback-green": {
         "100": {
           "$type": "color",
           "$value": "#ebffeb"
@@ -2001,91 +2211,7 @@
           "$value": "#012b00"
         }
       },
-      "olive": {
-        "100": {
-          "$type": "color",
-          "$value": "#f9ffeb"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "#e9f9c5"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "#cced82"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "#a9cd58"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "#8baf3b"
-        },
-        "600": {
-          "$type": "color",
-          "$value": "#628020"
-        },
-        "700": {
-          "$type": "color",
-          "$value": "#4c6613"
-        },
-        "800": {
-          "$type": "color",
-          "$value": "#395108"
-        },
-        "900": {
-          "$type": "color",
-          "$value": "#2d4006"
-        },
-        "1000": {
-          "$type": "color",
-          "$value": "#1f2e00"
-        }
-      },
-      "rose": {
-        "100": {
-          "$type": "color",
-          "$value": "#ffebeb"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "#ffcfd1"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "#fda0a3"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "#f38387"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "#e35d61"
-        },
-        "600": {
-          "$type": "color",
-          "$value": "#d7373c"
-        },
-        "700": {
-          "$type": "color",
-          "$value": "#b5181c"
-        },
-        "800": {
-          "$type": "color",
-          "$value": "#9c0a0f"
-        },
-        "900": {
-          "$type": "color",
-          "$value": "#750003"
-        },
-        "1000": {
-          "$type": "color",
-          "$value": "#3c0002"
-        }
-      },
-      "red": {
+      "feedback-red": {
         "100": {
           "$type": "color",
           "$value": "#ffebeb"
@@ -2127,130 +2253,46 @@
           "$value": "#330000"
         }
       },
-      "orange": {
+      "feedback-blue": {
         "100": {
           "$type": "color",
-          "$value": "#fff1eb"
+          "$value": "#f0f5ff"
         },
         "200": {
           "$type": "color",
-          "$value": "#ffdfcf"
+          "$value": "#b9d1ff"
         },
         "300": {
           "$type": "color",
-          "$value": "#ffc0a0"
+          "$value": "#83abff"
         },
         "400": {
           "$type": "color",
-          "$value": "#f9874e"
+          "$value": "#4b81ff"
         },
         "500": {
           "$type": "color",
-          "$value": "#e15f1e"
+          "$value": "#1952f5"
         },
         "600": {
           "$type": "color",
-          "$value": "#c44100"
+          "$value": "#0023cf"
         },
         "700": {
           "$type": "color",
-          "$value": "#a23600"
+          "$value": "#001db5"
         },
         "800": {
           "$type": "color",
-          "$value": "#7a2900"
+          "$value": "#001592"
         },
         "900": {
           "$type": "color",
-          "$value": "#591f00"
+          "$value": "#000e6f"
         },
         "1000": {
           "$type": "color",
-          "$value": "#3d1400"
-        }
-      },
-      "gold": {
-        "100": {
-          "$type": "color",
-          "$value": "#fff6eb"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "#ffeacf"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "#ffd6a0"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "#f9af4e"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "#f89718"
-        },
-        "600": {
-          "$type": "color",
-          "$value": "#f38b00"
-        },
-        "700": {
-          "$type": "color",
-          "$value": "#d67a00"
-        },
-        "800": {
-          "$type": "color",
-          "$value": "#9e5b00"
-        },
-        "900": {
-          "$type": "color",
-          "$value": "#734200"
-        },
-        "1000": {
-          "$type": "color",
-          "$value": "#331d00"
-        }
-      },
-      "yellow": {
-        "100": {
-          "$type": "color",
-          "$value": "#fffaeb"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "#fff3cf"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "#ffe7a0"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "#ffda6b"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "#ffcf40"
-        },
-        "600": {
-          "$type": "color",
-          "$value": "#ffc61e"
-        },
-        "700": {
-          "$type": "color",
-          "$value": "#ca9800"
-        },
-        "800": {
-          "$type": "color",
-          "$value": "#896700"
-        },
-        "900": {
-          "$type": "color",
-          "$value": "#533e00"
-        },
-        "1000": {
-          "$type": "color",
-          "$value": "#332600"
+          "$value": "#000752"
         }
       }
     },
@@ -2683,52 +2725,52 @@
           "danger": {
             "default-mode-light": {
               "$type": "color",
-              "$value": "{color.red.100}"
+              "$value": "{color.feedback-red.100}"
             },
             "default-mode-dark": {
               "$type": "color",
-              "$value": "{color.red.900}"
+              "$value": "{color.feedback-red.900}"
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.red.200}"
+              "$value": "{color.feedback-red.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.red.900}"
+              "$value": "{color.feedback-red.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.red.300}"
+              "$value": "{color.feedback-red.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.red.800}"
+              "$value": "{color.feedback-red.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.400}"
+                "$value": "{color.feedback-red.400}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.400}"
+                "$value": "{color.feedback-red.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.500}"
+                "$value": "{color.feedback-red.500}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.300}"
+                "$value": "{color.feedback-red.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.600}"
+                "$value": "{color.feedback-red.600}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.200}"
+                "$value": "{color.feedback-red.200}"
               }
             }
           },
@@ -2787,7 +2829,7 @@
           "success": {
             "default-mode-light": {
               "$type": "color",
-              "$value": "{color.green.100}"
+              "$value": "{color.feedback-green.100}"
             },
             "default-mode-dark": {
               "$type": "color",
@@ -2795,44 +2837,44 @@
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.green.200}"
+              "$value": "{color.feedback-green.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.green.900}"
+              "$value": "{color.feedback-green.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.green.300}"
+              "$value": "{color.feedback-green.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.green.800}"
+              "$value": "{color.feedback-green.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.400}"
+                "$value": "{color.feedback-green.400}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.500}"
+                "$value": "{color.feedback-green.500}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.500}"
+                "$value": "{color.feedback-green.500}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.400}"
+                "$value": "{color.feedback-green.400}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.600}"
+                "$value": "{color.feedback-green.600}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.300}"
+                "$value": "{color.feedback-green.300}"
               }
             }
           },
@@ -2891,7 +2933,7 @@
           "information": {
             "default-mode-light": {
               "$type": "color",
-              "$value": "{color.blue.100}"
+              "$value": "{color.feedback-blue.100}"
             },
             "default-mode-dark": {
               "$type": "color",
@@ -2899,44 +2941,44 @@
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.blue.200}"
+              "$value": "{color.feedback-blue.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.blue.900}"
+              "$value": "{color.feedback-blue.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.blue.300}"
+              "$value": "{color.feedback-blue.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.blue.800}"
+              "$value": "{color.feedback-blue.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.600}"
+                "$value": "{color.feedback-blue.600}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.400}"
+                "$value": "{color.feedback-blue.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.700}"
+                "$value": "{color.feedback-blue.700}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.300}"
+                "$value": "{color.feedback-blue.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.900}"
+                "$value": "{color.feedback-blue.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.200}"
+                "$value": "{color.feedback-blue.200}"
               }
             }
           },
@@ -3101,7 +3143,7 @@
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.900}"
+          "$value": "{color.feedback-green.900}"
         },
         "success-strong-mode-light": {
           "$type": "color",
@@ -3109,7 +3151,7 @@
         },
         "success-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.500}"
+          "$value": "{color.feedback-green.500}"
         },
         "danger-mode-light": {
           "$type": "color",
@@ -3117,7 +3159,7 @@
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.900}"
+          "$value": "{color.feedback-red.900}"
         },
         "danger-strong-mode-light": {
           "$type": "color",
@@ -3125,7 +3167,7 @@
         },
         "danger-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.400}"
+          "$value": "{color.feedback-red.400}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -3145,11 +3187,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.blue.200}"
+          "$value": "{color.feedback-blue.200}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.900}"
+          "$value": "{color.feedback-blue.900}"
         },
         "information-strong-mode-light": {
           "$type": "color",
@@ -3157,7 +3199,7 @@
         },
         "information-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.400}"
+          "$value": "{color.feedback-blue.400}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -3259,7 +3301,7 @@
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.300}"
+          "$value": "{color.feedback-green.300}"
         },
         "danger-mode-light": {
           "$type": "color",
@@ -3267,7 +3309,7 @@
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.300}"
+          "$value": "{color.feedback-red.300}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -3279,11 +3321,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.blue.700}"
+          "$value": "{color.feedback-blue.700}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.300}"
+          "$value": "{color.feedback-blue.300}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -3409,7 +3451,7 @@
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.400}"
+          "$value": "{color.feedback-green.400}"
         },
         "danger-mode-light": {
           "$type": "color",
@@ -3417,7 +3459,7 @@
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.400}"
+          "$value": "{color.feedback-red.400}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -3429,11 +3471,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.blue.800}"
+          "$value": "{color.feedback-blue.800}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.400}"
+          "$value": "{color.feedback-blue.400}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -6248,52 +6290,52 @@
           "danger": {
             "default-mode-light": {
               "$type": "color",
-              "$value": "{color.red.100}"
+              "$value": "{color.feedback-red.100}"
             },
             "default-mode-dark": {
               "$type": "color",
-              "$value": "{color.red.900}"
+              "$value": "{color.feedback-red.900}"
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.red.200}"
+              "$value": "{color.feedback-red.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.red.800}"
+              "$value": "{color.feedback-red.800}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.red.300}"
+              "$value": "{color.feedback-red.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.red.700}"
+              "$value": "{color.feedback-red.700}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.600}"
+                "$value": "{color.feedback-red.600}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.400}"
+                "$value": "{color.feedback-red.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.700}"
+                "$value": "{color.feedback-red.700}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.300}"
+                "$value": "{color.feedback-red.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.900}"
+                "$value": "{color.feedback-red.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.200}"
+                "$value": "{color.feedback-red.200}"
               }
             }
           },
@@ -6352,156 +6394,156 @@
           "success": {
             "default-mode-light": {
               "$type": "color",
-              "$value": "{color.green.100}"
+              "$value": "{color.feedback-green.100}"
             },
             "default-mode-dark": {
               "$type": "color",
-              "$value": "{color.green.900}"
+              "$value": "{color.feedback-green.900}"
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.green.200}"
+              "$value": "{color.feedback-green.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.green.800}"
+              "$value": "{color.feedback-green.800}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.green.300}"
+              "$value": "{color.feedback-green.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.green.700}"
+              "$value": "{color.feedback-green.700}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.700}"
+                "$value": "{color.feedback-green.700}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.500}"
+                "$value": "{color.feedback-green.500}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.800}"
+                "$value": "{color.feedback-green.800}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.400}"
+                "$value": "{color.feedback-green.400}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.900}"
+                "$value": "{color.feedback-green.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.300}"
+                "$value": "{color.feedback-green.300}"
               }
             }
           },
           "discovery": {
             "default-mode-light": {
               "$type": "color",
-              "$value": "{color.fuchsia.100}"
+              "$value": "{color.purple.100}"
             },
             "default-mode-dark": {
               "$type": "color",
-              "$value": "{color.fuchsia.900}"
+              "$value": "{color.purple.900}"
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.fuchsia.200}"
+              "$value": "{color.purple.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.fuchsia.800}"
+              "$value": "{color.purple.800}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.fuchsia.300}"
+              "$value": "{color.purple.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.fuchsia.700}"
+              "$value": "{color.purple.700}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.fuchsia.600}"
+                "$value": "{color.purple.600}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.fuchsia.400}"
+                "$value": "{color.purple.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.fuchsia.700}"
+                "$value": "{color.purple.700}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.fuchsia.300}"
+                "$value": "{color.purple.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.fuchsia.800}"
+                "$value": "{color.purple.800}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.fuchsia.200}"
+                "$value": "{color.purple.200}"
               }
             }
           },
           "information": {
             "default-mode-light": {
               "$type": "color",
-              "$value": "{color.blue.100}"
+              "$value": "{color.feedback-blue.100}"
             },
             "default-mode-dark": {
               "$type": "color",
-              "$value": "{color.blue.900}"
+              "$value": "{color.feedback-blue.900}"
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.blue.200}"
+              "$value": "{color.feedback-blue.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.blue.800}"
+              "$value": "{color.feedback-blue.800}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.blue.300}"
+              "$value": "{color.feedback-blue.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.blue.700}"
+              "$value": "{color.feedback-blue.700}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.500}"
+                "$value": "{color.feedback-blue.500}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.400}"
+                "$value": "{color.feedback-blue.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.600}"
+                "$value": "{color.feedback-blue.600}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.300}"
+                "$value": "{color.feedback-blue.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.700}"
+                "$value": "{color.feedback-blue.700}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.200}"
+                "$value": "{color.feedback-blue.200}"
               }
             }
           },
@@ -6646,11 +6688,11 @@
         },
         "success-mode-light": {
           "$type": "color",
-          "$value": "{color.green.200}"
+          "$value": "{color.feedback-green.200}"
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.800}"
+          "$value": "{color.feedback-green.800}"
         },
         "success-strong-mode-light": {
           "$type": "color",
@@ -6658,23 +6700,23 @@
         },
         "success-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.500}"
+          "$value": "{color.feedback-green.500}"
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.red.200}"
+          "$value": "{color.feedback-red.200}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.800}"
+          "$value": "{color.feedback-red.800}"
         },
         "danger-strong-mode-light": {
           "$type": "color",
-          "$value": "{color.red.500}"
+          "$value": "{color.feedback-red.500}"
         },
         "danger-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.400}"
+          "$value": "{color.feedback-red.400}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -6694,11 +6736,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.blue.200}"
+          "$value": "{color.feedback-blue.200}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.800}"
+          "$value": "{color.feedback-blue.800}"
         },
         "information-strong-mode-light": {
           "$type": "color",
@@ -6706,15 +6748,15 @@
         },
         "information-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.400}"
+          "$value": "{color.feedback-blue.400}"
         },
         "discovery-mode-light": {
           "$type": "color",
-          "$value": "{color.fuchsia.200}"
+          "$value": "{color.purple.200}"
         },
         "discovery-mode-dark": {
           "$type": "color",
-          "$value": "{color.fuchsia.800}"
+          "$value": "{color.purple.800}"
         },
         "discovery-strong-mode-light": {
           "$type": "color",
@@ -6722,7 +6764,7 @@
         },
         "discovery-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.fuchsia.400}"
+          "$value": "{color.purple.400}"
         },
         "inverse-mode-light": {
           "$type": "color",
@@ -6832,7 +6874,7 @@
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.300}"
+          "$value": "{color.feedback-blue.300}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -6840,7 +6882,7 @@
         },
         "discovery-mode-dark": {
           "$type": "color",
-          "$value": "{color.fuchsia.300}"
+          "$value": "{color.purple.300}"
         },
         "fixed-mode-light": {
           "$type": "color",
@@ -6954,19 +6996,19 @@
         },
         "success-mode-light": {
           "$type": "color",
-          "$value": "{color.green.700}"
+          "$value": "{color.feedback-green.700}"
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.300}"
+          "$value": "{color.feedback-green.300}"
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.red.700}"
+          "$value": "{color.feedback-red.700}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.400}"
+          "$value": "{color.feedback-red.400}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -6978,19 +7020,19 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.blue.800}"
+          "$value": "{color.feedback-blue.800}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.400}"
+          "$value": "{color.feedback-blue.400}"
         },
         "discovery-mode-light": {
           "$type": "color",
-          "$value": "{color.fuchsia.800}"
+          "$value": "{color.purple.800}"
         },
         "discovery-mode-dark": {
           "$type": "color",
-          "$value": "{color.fuchsia.400}"
+          "$value": "{color.purple.400}"
         },
         "fixed-mode-light": {
           "$type": "color",
@@ -9810,44 +9852,44 @@
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.red.200}"
+              "$value": "{color.feedback-red.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.red.900}"
+              "$value": "{color.feedback-red.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.red.300}"
+              "$value": "{color.feedback-red.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.red.800}"
+              "$value": "{color.feedback-red.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.600}"
+                "$value": "{color.feedback-red.600}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.400}"
+                "$value": "{color.feedback-red.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.700}"
+                "$value": "{color.feedback-red.700}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.300}"
+                "$value": "{color.feedback-red.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.red.900}"
+                "$value": "{color.feedback-red.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.red.200}"
+                "$value": "{color.feedback-red.200}"
               }
             }
           },
@@ -9914,44 +9956,44 @@
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.green.200}"
+              "$value": "{color.feedback-green.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.green.900}"
+              "$value": "{color.feedback-green.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.green.300}"
+              "$value": "{color.feedback-green.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.green.800}"
+              "$value": "{color.feedback-green.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.700}"
+                "$value": "{color.feedback-green.700}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.500}"
+                "$value": "{color.feedback-green.500}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.800}"
+                "$value": "{color.feedback-green.800}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.400}"
+                "$value": "{color.feedback-green.400}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.green.900}"
+                "$value": "{color.feedback-green.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.green.300}"
+                "$value": "{color.feedback-green.300}"
               }
             }
           },
@@ -10018,44 +10060,44 @@
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.blue.200}"
+              "$value": "{color.feedback-blue.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.blue.900}"
+              "$value": "{color.feedback-blue.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.blue.300}"
+              "$value": "{color.feedback-blue.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.blue.800}"
+              "$value": "{color.feedback-blue.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.600}"
+                "$value": "{color.feedback-blue.600}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.400}"
+                "$value": "{color.feedback-blue.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.700}"
+                "$value": "{color.feedback-blue.700}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.300}"
+                "$value": "{color.feedback-blue.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.blue.900}"
+                "$value": "{color.feedback-blue.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.blue.200}"
+                "$value": "{color.feedback-blue.200}"
               }
             }
           },
@@ -10207,11 +10249,11 @@
         },
         "success-mode-light": {
           "$type": "color",
-          "$value": "{color.green.200}"
+          "$value": "{color.feedback-green.200}"
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.900}"
+          "$value": "{color.feedback-green.900}"
         },
         "success-strong-mode-light": {
           "$type": "color",
@@ -10219,15 +10261,15 @@
         },
         "success-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.500}"
+          "$value": "{color.feedback-green.500}"
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.red.200}"
+          "$value": "{color.feedback-red.200}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.900}"
+          "$value": "{color.feedback-red.900}"
         },
         "danger-strong-mode-light": {
           "$type": "color",
@@ -10235,7 +10277,7 @@
         },
         "danger-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.400}"
+          "$value": "{color.feedback-red.400}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -10255,11 +10297,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.blue.200}"
+          "$value": "{color.feedback-blue.200}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.900}"
+          "$value": "{color.feedback-blue.900}"
         },
         "information-strong-mode-light": {
           "$type": "color",
@@ -10267,7 +10309,7 @@
         },
         "information-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.400}"
+          "$value": "{color.feedback-blue.400}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -10374,19 +10416,19 @@
         },
         "success-mode-light": {
           "$type": "color",
-          "$value": "{color.green.700}"
+          "$value": "{color.feedback-green.700}"
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.300}"
+          "$value": "{color.feedback-green.300}"
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.red.700}"
+          "$value": "{color.feedback-red.700}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.300}"
+          "$value": "{color.feedback-red.300}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -10398,11 +10440,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.blue.700}"
+          "$value": "{color.feedback-blue.700}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.300}"
+          "$value": "{color.feedback-blue.300}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -10543,19 +10585,19 @@
         },
         "success-mode-light": {
           "$type": "color",
-          "$value": "{color.green.800}"
+          "$value": "{color.feedback-green.800}"
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.green.400}"
+          "$value": "{color.feedback-green.400}"
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.red.700}"
+          "$value": "{color.feedback-red.700}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.red.400}"
+          "$value": "{color.feedback-red.400}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -10567,11 +10609,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.blue.800}"
+          "$value": "{color.feedback-blue.800}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.blue.400}"
+          "$value": "{color.feedback-blue.400}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -16243,33 +16285,15 @@
         "color.teal.700": "60d0d6d0952a7525a3ecd21d755ac9b86f4bdae0",
         "color.teal.800": "d6ee6e312c4deca21660bb0f8df92d98cdac049c",
         "color.teal.900": "c700cb0a6439032114fddf019ca8a5de78a829e0",
-        "color.blue.100": "4b378880a1392246dae78c8b19481a5e9b3a5682",
-        "color.blue.200": "175d8f4c19c0c40c5765363fd45e906584c31081",
-        "color.blue.300": "bfdffef84997e99027b87e4ace56688307676491",
-        "color.blue.400": "a43e1c62c6809c9c7718d9606d946cf2bd778297",
-        "color.blue.500": "44b7c9d209230bc4e86f6d889800119ee04c17a2",
-        "color.blue.600": "983c309f942aaedf1509f634c097ae851a4f089b",
-        "color.blue.700": "c2bf06bd959a83002c307016102d19ebb62f1e4f",
-        "color.blue.800": "74139f5b468602cd461619084ed99a3d4eb9d7c5",
-        "color.blue.900": "11e28251f481852677007a61b35fb2ac45216264",
-        "color.fuchsia.100": "6561c5facbc81d46101f73efc5d3a00c24f9f757",
-        "color.fuchsia.200": "ab6bd6a74569109332103615304f6a3cd18e92ae",
-        "color.fuchsia.300": "1309d62185b971f1bce01878f5de2d7f7c68c0c8",
-        "color.fuchsia.400": "fb46ece2ce1ae6407564ad89765f598587540b91",
-        "color.fuchsia.500": "d2219b6321c3e3488f38cca47684ac4eb3a981f4",
-        "color.fuchsia.600": "0ca05dbe02fabbf0f96509440615a299d93cc855",
-        "color.fuchsia.700": "7ef985d7f8f8a2374476c0cfe9265b7ce4d539fd",
-        "color.fuchsia.800": "58a1bc3b553edb1b3455c93571adceb9f6a0e1dd",
-        "color.fuchsia.900": "bf96588fe98b67692d13ab6ca721e61549a62996",
-        "color.rose.100": "174c99194951f128462634eaadb8920d92dac46b",
-        "color.rose.200": "86fa1d16e37fd64d12f475f912bb578ab597feac",
-        "color.rose.300": "82f4f53192b0ec054c4ab8dd6d68ec41a8a1d1c8",
-        "color.rose.400": "c78b497fc9858c3d1d2d4572c63ce29bd691b4d3",
-        "color.rose.500": "300078c381cb4c3e747c0610598a7c4d61181055",
-        "color.rose.600": "4a8486ac4661cb3343cfcf435331216404e9c584",
-        "color.rose.700": "754c1ab22ca82b7a673ad4562d21aebc1cd05ef8",
-        "color.rose.800": "2766e5c4df3165005c557269aab559fbb3733616",
-        "color.rose.900": "81539ac9a72c1b54f997ed5ba219b930955b3511",
+        "color.purple.100": "6561c5facbc81d46101f73efc5d3a00c24f9f757",
+        "color.purple.200": "ab6bd6a74569109332103615304f6a3cd18e92ae",
+        "color.purple.300": "1309d62185b971f1bce01878f5de2d7f7c68c0c8",
+        "color.purple.400": "fb46ece2ce1ae6407564ad89765f598587540b91",
+        "color.purple.500": "d2219b6321c3e3488f38cca47684ac4eb3a981f4",
+        "color.purple.600": "0ca05dbe02fabbf0f96509440615a299d93cc855",
+        "color.purple.700": "7ef985d7f8f8a2374476c0cfe9265b7ce4d539fd",
+        "color.purple.800": "58a1bc3b553edb1b3455c93571adceb9f6a0e1dd",
+        "color.purple.900": "bf96588fe98b67692d13ab6ca721e61549a62996",
         "color.gray.1000": "22b9b94d9605cb0e410ad4f484ee8c83561086c2",
         "color.gray.1100": "bf45fc703ca12d431d8b12c4fc68854359718996",
         "color.gray.1200": "567b5bb2739007e4f67ac79d32aeb0edf02ea9fd",
@@ -16279,32 +16303,6 @@
         "color.gray.1600": "cf6f7394c9ae0ba90eb8f5d9640ea3f5045b9405",
         "color.gray.1700": "93075400ae2d815e949a5194c726295eca3f5c73",
         "color.gray.1800": "1907f75d6a2a2db00cc32e393ab1709b6fc4ba6c",
-        "color.magenta.100": "bc57dc4d3732405b03a35617dda40516f15d3d5f",
-        "color.magenta.200": "9f4363e3cd81b82404328caf2b659ab54ed25f36",
-        "color.magenta.300": "cbcb9b8b1e1f995e6c8addb85997e391abc46576",
-        "color.magenta.400": "fabf295a49ccff378d2a599f140a9b81498502e8",
-        "color.magenta.500": "5c0e5daccf773f579e4b41c93eb528dcbd65039c",
-        "color.magenta.600": "45bca69d9af02522807547ed50fcd52af172662d",
-        "color.magenta.700": "8e2cc4637b0ae8310f4c7dad2051f2656470339a",
-        "color.magenta.800": "75e96b5ebb37b46c666d47d25c7e7dadc51a0ac9",
-        "color.magenta.900": "494e760818f2c625033ce8922dadc156b1fdaf0f",
-        "color.magenta.1000": "01035361c5d30885bea1c3c1f0e929fdcadfe9a2",
-        "color.fuchsia.1000": "7c25a510448bd4b2437a237f9578e575e6db59fa",
-        "color.blue.1000": "fb7118fb19adac5abd7577f312895bfe6dfe4ae8",
-        "color.teal.1000": "84e2b1a393d6b61774ed0f1d3dbffe979ce585cc",
-        "color.green.1000": "5c7ec59b86c2a2a3c655386a3b5ebac77e729ecf",
-        "color.olive.100": "159d2120cb01f347a6df8e8c445cb0a4a294db8d",
-        "color.olive.200": "1059ff88fa970c1a82c6dde2c19abe5d78889cbb",
-        "color.olive.300": "b46b7c1bf1a80167046799f4e54fa152727db802",
-        "color.olive.400": "4678a376f8165a9f7331d0d1e100cadedcef7184",
-        "color.olive.500": "988d6a12f0f78e9670204bfe3324d25d7ae6fb16",
-        "color.olive.600": "e5c01fc84f3490e150e5d804532175eed9e68d76",
-        "color.olive.700": "5663a08c293f2d5584485c21fe05c59eb8c9edfc",
-        "color.olive.800": "7ef3a431546aaafa08cf362589ff705e1a2c27f7",
-        "color.olive.900": "8fb0032acff243b5f2aca5c9d4a31feb998d65d5",
-        "color.olive.1000": "89c4e0432dd02a46df593cf35a5347a3256cc571",
-        "color.rose.1000": "92b58c4ce2d6fc048a89e9caa0c6db2703c9e4fb",
-        "color.red.1000": "495fb1ecd09f43cb40720edadf3c50c8cd51ae2e",
         "color.orange.1000": "78bf6344ed6ff4e14e78b6848e268ac398daf044",
         "color.gold.100": "cd17af0e2fb0a36ad6d6350c613ad8f8008fc262",
         "color.gold.200": "ac0fd36b5ea5a7219937d8867e7b0e991d95b802",
@@ -16316,7 +16314,60 @@
         "color.gold.800": "398a5a5b8e3e99914e524e52403e31af2d84ad9c",
         "color.gold.900": "363f44d21273283c002f25a8d29b10c9e78e2b64",
         "color.gold.1000": "b46b7c8c820ff03a214c6d8df8481280b379ac8b",
-        "color.yellow.1000": "cbe071813366c2f7da57e18e4bf66120c120e143"
+        "color.yellow.1000": "cbe071813366c2f7da57e18e4bf66120c120e143",
+        "color.green.1000": "5c7ec59b86c2a2a3c655386a3b5ebac77e729ecf",
+        "color.mint.100": "d3aac7755615fc54b86846b28263a28f2e2b28fd",
+        "color.mint.200": "ed2e2a2bba6147a11c7b7ef1edca37e8240c6c75",
+        "color.mint.300": "524efe677e575efd75ed85f5ae62c0fd456fd1a7",
+        "color.mint.400": "12c6ec999a73c68a3e961187b2b1e2f79062dfe2",
+        "color.mint.500": "29810516b99dc3f0705e98b817d38b0a1caf29b5",
+        "color.mint.600": "e2bac7309137a745ea12fb0bbd28f46834f0e97d",
+        "color.mint.700": "fdc39cf65dc3a47774b001e2bf929c2a8cccf34d",
+        "color.mint.800": "be520a8a81806bf0990f61cc9cddde45eb04de03",
+        "color.mint.900": "bc3ecd56f7c8687350afd99fe1ba27f8ce0ddd5a",
+        "color.mint.1000": "937bf24c09eba8b1644b8e0280673c2f8dc32fb6",
+        "color.teal.1000": "84e2b1a393d6b61774ed0f1d3dbffe979ce585cc",
+        "color.purple.1000": "7c25a510448bd4b2437a237f9578e575e6db59fa",
+        "color.magenta.100": "bc57dc4d3732405b03a35617dda40516f15d3d5f",
+        "color.magenta.200": "9f4363e3cd81b82404328caf2b659ab54ed25f36",
+        "color.magenta.300": "cbcb9b8b1e1f995e6c8addb85997e391abc46576",
+        "color.magenta.400": "fabf295a49ccff378d2a599f140a9b81498502e8",
+        "color.magenta.500": "5c0e5daccf773f579e4b41c93eb528dcbd65039c",
+        "color.magenta.600": "45bca69d9af02522807547ed50fcd52af172662d",
+        "color.magenta.700": "8e2cc4637b0ae8310f4c7dad2051f2656470339a",
+        "color.magenta.800": "75e96b5ebb37b46c666d47d25c7e7dadc51a0ac9",
+        "color.magenta.900": "494e760818f2c625033ce8922dadc156b1fdaf0f",
+        "color.magenta.1000": "01035361c5d30885bea1c3c1f0e929fdcadfe9a2",
+        "color.feedback-green.100": "ec3848dbf6fa4d575f552e83aab90e9fbc59409a",
+        "color.feedback-green.200": "8476910a1228722e39d23d56031286b7cb3b67a9",
+        "color.feedback-green.300": "b0eb5ae1df5914e37e80fa2363e058c151fdc65a",
+        "color.feedback-green.400": "1348ce46610a528a022448609306919ab98e8b99",
+        "color.feedback-green.500": "b3a160f3f1c84ef20d75b500155001236d42aaf6",
+        "color.feedback-green.600": "4e23b89a57cbea59b7e8ab95675aa0530ad0bbd8",
+        "color.feedback-green.700": "9a2e0b1af0a879b89fe3a5a2c0c01be18d95805e",
+        "color.feedback-green.800": "392269446b7bc73507215c513a733039d416c4c5",
+        "color.feedback-green.900": "4825e10a27292c66b9e10fe2a8b1234ff5c4db93",
+        "color.feedback-green.1000": "5c7ec59b86c2a2a3c655386a3b5ebac77e729ecf",
+        "color.feedback-red.100": "34ea8e60593aadd5f587c68e818645c9d6601fd7",
+        "color.feedback-red.200": "5c5a057d7768224577fd40674229dd0abff9261c",
+        "color.feedback-red.300": "23520d168ae4b7eedce8859bd94b569fbb50372e",
+        "color.feedback-red.400": "0c065f8bb7d8fd2fdeb6c3ef53055c9559971dfa",
+        "color.feedback-red.500": "31aaecaecb92034c20e3cb20d895c69ba4f08bf2",
+        "color.feedback-red.600": "ec14737bbf3e8fed097eb0aebc68060c1d54f1d2",
+        "color.feedback-red.700": "1ab53f30ca45f92eeff80cef4434a78747d4d8e4",
+        "color.feedback-red.800": "4b6fa56535de70f0fb52047976a5651f2cd28c8a",
+        "color.feedback-red.900": "a9c7d045d9dde6345aac91d620799c806ee320d8",
+        "color.feedback-red.1000": "495fb1ecd09f43cb40720edadf3c50c8cd51ae2e",
+        "color.feedback-blue.100": "4b378880a1392246dae78c8b19481a5e9b3a5682",
+        "color.feedback-blue.200": "175d8f4c19c0c40c5765363fd45e906584c31081",
+        "color.feedback-blue.300": "bfdffef84997e99027b87e4ace56688307676491",
+        "color.feedback-blue.400": "a43e1c62c6809c9c7718d9606d946cf2bd778297",
+        "color.feedback-blue.500": "44b7c9d209230bc4e86f6d889800119ee04c17a2",
+        "color.feedback-blue.600": "983c309f942aaedf1509f634c097ae851a4f089b",
+        "color.feedback-blue.700": "c2bf06bd959a83002c307016102d19ebb62f1e4f",
+        "color.feedback-blue.800": "74139f5b468602cd461619084ed99a3d4eb9d7c5",
+        "color.feedback-blue.900": "11e28251f481852677007a61b35fb2ac45216264",
+        "color.feedback-blue.1000": "fb7118fb19adac5abd7577f312895bfe6dfe4ae8"
       },
       "$figmaCollectionId": "VariableCollectionId:1:3",
       "$figmaModeId": "1:1",
@@ -16341,51 +16392,6 @@
         "color.gray.700": "d3426eed89b3e4f535cf2954e8ef3fc21cf43521",
         "color.gray.800": "f9dfa75e220f3326dba14710f43e7b650fd9d7c4",
         "color.gray.900": "7b1e92fc1022ee72bbba3b0b42a070c7ab8fdabe",
-        "color.fuchsia.100": "82a0dbf30c2e50fd766b638477fb5b465e6abfb8",
-        "color.fuchsia.200": "20587ca89a9abd11d8bc3bd94e0228d298bc2718",
-        "color.fuchsia.300": "50b1bf0ac14fac2da9379d0acc480b87e7fc51b7",
-        "color.fuchsia.400": "52c104f1607681ad8ba73bc81e4034128aa74842",
-        "color.fuchsia.500": "dc62868a279e9a57c24f7af3c5f98b7b0829c690",
-        "color.fuchsia.600": "aba6fb66bcecfcd6091fd53ce728b52d66cc3d3b",
-        "color.fuchsia.700": "84f0cb5aeec3c3dff87c941b2680417811759751",
-        "color.fuchsia.800": "074e9df34f0cd343fd81890bd2d8cdcfe76a456d",
-        "color.fuchsia.900": "b154c421f74e3adfe88f215c3290bf55bb9b1353",
-        "color.blue.100": "e12d5acf0dd2f832cea0c98d07bc6185a9d4d921",
-        "color.blue.200": "b302cadc4dd2faa0ad6bd11c7a342e593ce6338b",
-        "color.blue.300": "d47210cbcbf5f9bf11c1d1b685444730bc38d0dc",
-        "color.blue.400": "07b0b72a2904c6b3699b8a081e877bf96906bfae",
-        "color.blue.500": "7cf65d4e66c6297b64456c4a757b2d631d0598ab",
-        "color.blue.600": "26b6eb1c3cf1142f22b8a14e1ac131bb0362651a",
-        "color.blue.700": "b6bc66ef4cfa3f2f17fda70effbab8a13dad741e",
-        "color.blue.800": "6b9ad048339465f72cf9bdc0052a5dcc4251702d",
-        "color.blue.900": "20287f66403050bfa1ebded2c1a508f67cdff098",
-        "color.teal.100": "21c562d7a96617eb3ec12937679470b9b43955e9",
-        "color.teal.200": "7596aee2bfdab6401b4e81ede7975f3471e29d3f",
-        "color.teal.300": "f16021b94137b77999cd995f6b34ecb90d05c6f8",
-        "color.teal.400": "01b83be1b4582c0049cb74f032f1b2e006ec28e2",
-        "color.teal.500": "b47578561e4ab78f6071173977639d7236ad5ca2",
-        "color.teal.600": "5b66c35a729c57519819b3469616e22d9dbf5317",
-        "color.teal.700": "99af9f799aa0612f015f84a40c48951688df1803",
-        "color.teal.800": "9677785ba22127aea337d7c4360726773ee92e8b",
-        "color.teal.900": "aa36fd1d3f68c376c2db0e9a739952ef662a6d59",
-        "color.green.100": "de6041c964fd4091d3469dbdd0aa63f8bd88b602",
-        "color.green.200": "00518177b57582bc732a50cdea414de63738509e",
-        "color.green.300": "abee12503a595524a8c8c0006da7f1610c4f2a33",
-        "color.green.400": "0b9e8b976b748aedd0595b525820f3736ca5398c",
-        "color.green.500": "632c6e7ea1fb0ac62aae4989c2fbee63cf329679",
-        "color.green.600": "460f107f20b3e85c7928fc43f99e3c41846c1a0a",
-        "color.green.700": "36696ed262baf2a9454e656715c582de63ac3fe3",
-        "color.green.800": "dff3e7703c93281e7d5b46cc624c2720204fe28d",
-        "color.green.900": "f8bce415172d5e6904d14b7a363cd944f325f294",
-        "color.rose.100": "ce39feed874ce1fc18780082e3f73ec8ae538d9f",
-        "color.rose.200": "c9ee4878cc870020a64d9c19cb029a4b4f666912",
-        "color.rose.300": "4beb2300c7c5eedc4e22e759c6a4d6ac64bb9393",
-        "color.rose.400": "da8a59f3742b2866a575277338584ff8cf2a77ad",
-        "color.rose.500": "3bf5376ac18dcdb6da546997d780344de6ea6add",
-        "color.rose.600": "aa7d25214845045a9cb4d91ba14faa516a65b5a0",
-        "color.rose.700": "cc6105fe8878bb4053582d5af697ce5fb9067246",
-        "color.rose.800": "59d0072e96c6ed77798b46a1ff554da4bc5b1fb5",
-        "color.rose.900": "c7bc51bbfab00f0503c61ccdd47345291a280469",
         "color.red.100": "3df8bb1fecfbcdc7b4c162cfa790a10f24fd9a5a",
         "color.red.200": "4c1b487d1f2e808b9a937d2b2b6ac4bc08b153ad",
         "color.red.300": "03bb458ca61f7c49961b04c7ed8a31157b1fc16a",
@@ -16413,6 +16419,33 @@
         "color.yellow.700": "797272511ee5014328d8fa2dc601e4ad7414ffd4",
         "color.yellow.800": "4ef90c2d7873847a16ae009866e51bd79578fedd",
         "color.yellow.900": "be76e88cb3ce846f736b443bc68b7c267f2ab15a",
+        "color.green.100": "de6041c964fd4091d3469dbdd0aa63f8bd88b602",
+        "color.green.200": "00518177b57582bc732a50cdea414de63738509e",
+        "color.green.300": "abee12503a595524a8c8c0006da7f1610c4f2a33",
+        "color.green.400": "0b9e8b976b748aedd0595b525820f3736ca5398c",
+        "color.green.500": "632c6e7ea1fb0ac62aae4989c2fbee63cf329679",
+        "color.green.600": "460f107f20b3e85c7928fc43f99e3c41846c1a0a",
+        "color.green.700": "36696ed262baf2a9454e656715c582de63ac3fe3",
+        "color.green.800": "dff3e7703c93281e7d5b46cc624c2720204fe28d",
+        "color.green.900": "f8bce415172d5e6904d14b7a363cd944f325f294",
+        "color.teal.100": "21c562d7a96617eb3ec12937679470b9b43955e9",
+        "color.teal.200": "7596aee2bfdab6401b4e81ede7975f3471e29d3f",
+        "color.teal.300": "f16021b94137b77999cd995f6b34ecb90d05c6f8",
+        "color.teal.400": "01b83be1b4582c0049cb74f032f1b2e006ec28e2",
+        "color.teal.500": "b47578561e4ab78f6071173977639d7236ad5ca2",
+        "color.teal.600": "5b66c35a729c57519819b3469616e22d9dbf5317",
+        "color.teal.700": "99af9f799aa0612f015f84a40c48951688df1803",
+        "color.teal.800": "9677785ba22127aea337d7c4360726773ee92e8b",
+        "color.teal.900": "aa36fd1d3f68c376c2db0e9a739952ef662a6d59",
+        "color.purple.100": "285d9bdd6ad596c05cd076450721ba2b647f2240",
+        "color.purple.200": "8f9e2528c80425a4e2cda8726515bee3be88ed33",
+        "color.purple.300": "e4234d996fae4d8acadf174a83703574a739119a",
+        "color.purple.400": "8581eec0635015ec3871a46659051b12a53c5654",
+        "color.purple.500": "4fac51e730599fa6a385e68853d2b72c7beb1359",
+        "color.purple.600": "e2b8d2bebff7c4fc528144ef6444b67dccd4281c",
+        "color.purple.700": "9be77117c645bf466d918f1ac3a596c7c9bbf7df",
+        "color.purple.800": "085d4ef7b463b3d6ce55f881a020331446090baa",
+        "color.purple.900": "47811cc44a233b1fca69617bdf4589605226aabc",
         "size-space.0-x": "c6b19950e91c6e7689af991ab8fc3f28d1d2c240",
         "size-space.0point25-x": "25afaccc24451f13af6c173086ccc6c9dfe162aa",
         "size-space.0point5-x": "7d2f08e94d7b009e4dbf94a4b363810714af7b3e",
@@ -16532,6 +16565,15 @@
         "color.sky.900": "4434d4d8778817a69340d6686fdbd2b245262b13",
         "color.sky.950": "b431388c0952425dc30005b59c03d69df247a78b",
         "color.blue.50": "8644a22041534fe0ff992c5caa248bb47ae4946b",
+        "color.blue.100": "e12d5acf0dd2f832cea0c98d07bc6185a9d4d921",
+        "color.blue.200": "b302cadc4dd2faa0ad6bd11c7a342e593ce6338b",
+        "color.blue.300": "d47210cbcbf5f9bf11c1d1b685444730bc38d0dc",
+        "color.blue.400": "07b0b72a2904c6b3699b8a081e877bf96906bfae",
+        "color.blue.500": "7cf65d4e66c6297b64456c4a757b2d631d0598ab",
+        "color.blue.600": "26b6eb1c3cf1142f22b8a14e1ac131bb0362651a",
+        "color.blue.700": "b6bc66ef4cfa3f2f17fda70effbab8a13dad741e",
+        "color.blue.800": "6b9ad048339465f72cf9bdc0052a5dcc4251702d",
+        "color.blue.900": "20287f66403050bfa1ebded2c1a508f67cdff098",
         "color.blue.950": "5583c56efd93b52b8e266a3a053d838c288a9e33",
         "color.indigo.50": "773357780efa7d6c03d1eadf0e07b6e320336097",
         "color.indigo.100": "4899db2e5478736cf768d458b58405a31326feba",
@@ -16556,17 +16598,17 @@
         "color.violet.900": "2a6649011aaa4316f865bf0a41b2663181c37751",
         "color.violet.950": "7ecd682ca92479f2854e032b070f94eee700c938",
         "color.purple.50": "a300c26c3136f62f55fbc196d1588226fe196f2a",
-        "color.purple.100": "285d9bdd6ad596c05cd076450721ba2b647f2240",
-        "color.purple.200": "8f9e2528c80425a4e2cda8726515bee3be88ed33",
-        "color.purple.300": "e4234d996fae4d8acadf174a83703574a739119a",
-        "color.purple.400": "8581eec0635015ec3871a46659051b12a53c5654",
-        "color.purple.500": "4fac51e730599fa6a385e68853d2b72c7beb1359",
-        "color.purple.600": "e2b8d2bebff7c4fc528144ef6444b67dccd4281c",
-        "color.purple.700": "9be77117c645bf466d918f1ac3a596c7c9bbf7df",
-        "color.purple.800": "085d4ef7b463b3d6ce55f881a020331446090baa",
-        "color.purple.900": "47811cc44a233b1fca69617bdf4589605226aabc",
         "color.purple.950": "65fcc35a41246b965ce6a962a2458641f2005548",
         "color.fuchsia.50": "34212885fe82ec7613b84e0be7236a647316d449",
+        "color.fuchsia.100": "82a0dbf30c2e50fd766b638477fb5b465e6abfb8",
+        "color.fuchsia.200": "20587ca89a9abd11d8bc3bd94e0228d298bc2718",
+        "color.fuchsia.300": "50b1bf0ac14fac2da9379d0acc480b87e7fc51b7",
+        "color.fuchsia.400": "52c104f1607681ad8ba73bc81e4034128aa74842",
+        "color.fuchsia.500": "dc62868a279e9a57c24f7af3c5f98b7b0829c690",
+        "color.fuchsia.600": "aba6fb66bcecfcd6091fd53ce728b52d66cc3d3b",
+        "color.fuchsia.700": "84f0cb5aeec3c3dff87c941b2680417811759751",
+        "color.fuchsia.800": "074e9df34f0cd343fd81890bd2d8cdcfe76a456d",
+        "color.fuchsia.900": "b154c421f74e3adfe88f215c3290bf55bb9b1353",
         "color.fuchsia.950": "9706c56bba0e63f8e5a09f87312efccbe16dad31",
         "color.pink.50": "42b475261026c4820d0fe647c0f0eca453b8d874",
         "color.pink.100": "1f665c54eb6315221b7d295f570beddd1dcfec40",
@@ -16580,6 +16622,15 @@
         "color.pink.900": "f5f42807a7a3744170bfc61958e12c49fcaef2f1",
         "color.pink.950": "0e62cfe6d7359f243a3513c2098c402a70bbe47e",
         "color.rose.50": "05f7fb5860029385fa0ac1c771d5979ac04e5379",
+        "color.rose.100": "ce39feed874ce1fc18780082e3f73ec8ae538d9f",
+        "color.rose.200": "c9ee4878cc870020a64d9c19cb029a4b4f666912",
+        "color.rose.300": "4beb2300c7c5eedc4e22e759c6a4d6ac64bb9393",
+        "color.rose.400": "da8a59f3742b2866a575277338584ff8cf2a77ad",
+        "color.rose.500": "3bf5376ac18dcdb6da546997d780344de6ea6add",
+        "color.rose.600": "aa7d25214845045a9cb4d91ba14faa516a65b5a0",
+        "color.rose.700": "cc6105fe8878bb4053582d5af697ce5fb9067246",
+        "color.rose.800": "59d0072e96c6ed77798b46a1ff554da4bc5b1fb5",
+        "color.rose.900": "c7bc51bbfab00f0503c61ccdd47345291a280469",
         "color.rose.950": "b285efebbe2850ab1b3a33d1b5485ed0b2bb96b2",
         "opacity.0": "7863ddb1a698a32b01211ecf74e1faf792940706",
         "opacity.5": "09b453e6a0f6eab880f9be7c211a9ce705766df9",
@@ -16675,36 +16726,36 @@
       "id": "b6376c94688da77605570efa499cb3a437b2305c",
       "name": "Mastercard",
       "$figmaStyleReferences": {
-        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
-        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
-        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
-        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
-        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
-        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
-        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
-        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
-        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
-        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
-        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
-        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
-        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
-        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
-        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
-        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
-        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
-        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
-        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
-        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
-        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
-        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
-        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
-        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
-        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
-        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
-        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
-        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
-        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,",
-        "component.listbox.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,"
+        "component.accordion.contained.box-shadow": "S:ad139589a39bebde7f5080b3ee1d5903701a76d0,",
+        "component.alert.banner.box-shadow": "S:c20f3ba1f47cc0c78d21880a66ccfef2cff8b5ca,",
+        "component.alert.toast.box-shadow": "S:af8e2dfa5c8f5b8df122f768d3a3f5d6c29c6ca8,",
+        "component.modal.box-shadow": "S:1c047070192d7e324893d4c28367fb8c6d7fba2d,",
+        "component.card.box-shadow": "S:92ffde1a81d0b7eba31be3931cf26f5c3756c371,",
+        "component.range.thumb.box-shadow": "S:21ed9a706428db7456fb4f582a875fec10734806,",
+        "component.tabs.contained.item.box-shadow": "S:39112aad329aef7bf53be785a813ba8cc6aae2b4,",
+        "component.tag.box-shadow": "S:058491b186fd3566f38d7abecc1e396d80b0c057,",
+        "component.date-picker.box-shadow": "S:64ff2d7559ce084e93cbfda18b92ab6cb1043d79,",
+        "component.drawer.box-shadow": "S:406f6c868b6fbc44fc9c1688bb57d2e53d7d1cbd,",
+        "component.sheet.box-shadow": "S:0d45e10a935bd52ddaab4c527bbe42794d2850d1,",
+        "component.form-control.box-shadow": "S:d661b4111c7294cba41c6ed243205bdb4af4328f,",
+        "component.button.box-shadow": "S:4e63b09c5b8ff4e8c07854d58029a307c2e9c198,",
+        "component.pagination.item-active.box-shadow": "S:118b196a3f1fa22838ba3295cffc76e128def993,",
+        "component.table.box-shadow": "S:533c5b4243e72a2f45d971fc1b6f8a7e7931d2b8,",
+        "component.avatar.box-shadow": "S:7fac0230ee004343a5daf4367505aa41d16b2367,",
+        "component.badge.box-shadow": "S:20c92bf3d46274603ac48521ca6a15161dc5e5d9,",
+        "component.checkbox.box-shadow": "S:072fdad54c7a306093c0c8298b3b6aa129a36ca6,",
+        "component.radio.box-shadow": "S:e323f289c8ee099698c0ed0b87bdcb01d8f3e5ee,",
+        "component.file-upload.box-shadow": "S:743ec6c60d7968b0c7cb3ce5810c42063977e3a8,",
+        "component.toggle.thumb.box-shadow": "S:938dd8e3b19afa1a00d5252d48cb417a253df06b,",
+        "component.toggle.box-shadow": "S:0192e1465e22904654221d319fa2d958288da223,",
+        "component.tooltip.box-shadow": "S:4c01a3cba6e74c2307999cd85b8a2eeee316b5b4,",
+        "box-shadow.none": "S:d5145531e4c0857f986f6d2ba1ab485936edb55d,",
+        "box-shadow.global": "S:00b4357d1e8f118e88f6439d31dc8ff4c4fc3ed4,",
+        "box-shadow.small": "S:702e3447885f4254d1814bc9770a5ba745a9d2ec,",
+        "box-shadow.medium": "S:02b1bc42bb56c14ba6dc6ac688213a8e423a7631,",
+        "box-shadow.large": "S:c8fee53d8da4ad68cc3accbee8120fee8ffd9af3,",
+        "box-shadow.x-large": "S:c5f262a7745fd1769dab05f65bae4c5d808e4c8e,",
+        "component.listbox.box-shadow": "S:7cc8a5f2d5c999411e0eaa64278b3aa0fcd133c3,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -16828,8 +16879,8 @@
         "color.border.brand-mode-dark": "01522591d106784687fdec4256c701d3dee69dd0",
         "color.border.default-mode-light": "7c721cc229017c5631e2248d84fbb840fed02659",
         "color.border.default-mode-dark": "d5825c9de6976591db713de5777bef30f2701b05",
-        "color.border.bold-mode-light": "bb3ab2e96a1d52e61ea46ff2aa9ff178b4e8cc5d",
-        "color.border.bold-mode-dark": "0b21ec049da7d76278c14996657bc849ed036aab",
+        "color.border.bold-mode-light": "a5fdb06c3d7bac6f5014ff070bb5345339e6af87",
+        "color.border.bold-mode-dark": "f2748655424acdadde923d7ebd5e682cdce54f42",
         "color.border.strong-mode-light": "d901f1a7a7a8dcde66c90df2fc045309c4d570d8",
         "color.border.strong-mode-dark": "5a05b11966ebd7142fbc07d048dad4c5b2c71087",
         "color.border.neutral-mode-light": "72f9656241d0dd822f3cd20b8be779327fb53bbe",
@@ -17003,6 +17054,11 @@
         "component.card.padding-x": "11bda59034a87fa437e80452cad7424b5bc23990",
         "component.card.padding-y": "e130f6ca46883e3d8fe40d99afdeff1e5ffc03e9",
         "component.card.border-radius": "0ee7edc08db9a5136dc728b6f3a3e295c7d48bf5",
+        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
+        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
+        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
+        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
+        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420",
         "component.range.thumb.border-color-mode-light": "88ca5092bc39b20922169c4a0113e12112421cd1",
         "component.range.thumb.border-color-mode-dark": "f363eacf8fb41465efeda6577caef5da55d7ffd9",
         "component.range.thumb.width": "63918017c87966417a2bcba78895319ed77a9589",
@@ -17215,6 +17271,18 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
+        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
+        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
+        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
+        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
         "component.table.cell.header.padding-x": "8e668ec6e683ec87b45fc2b8ef83f6d275303d4e",
         "component.table.cell.header.padding-y": "7b4dc27e490e8e1baa46a868b69f32cd3a748449",
         "component.table.cell.header.border-width": "edfa25cc8fffbb2ceee20ad0e7810cd5df18f348",
@@ -17311,30 +17379,11 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-mode-dark": "60ca12d16130f91fe92e2ccb06939e95560bf660",
-        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
-        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
-        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
-        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.listbox-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.listbox-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.listbox-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
-        "component.listbox-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
-        "component.listbox-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
-        "component.listbox-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
-        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
-        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
-        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
-        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
-        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
-        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
-        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
-        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420"
+        "focus-outline.border-width": "2b6262f42c36567516c24e9257e6d3e7ed04f24a",
+        "blur.large": "c66ac8b7a3859ef3287bd864670329f5ef359e64",
+        "blur.medium": "8bbf38519e349855e92574bd4d3a233ccb845426",
+        "blur.small": "4c6dbdeff98a81be9610a522b8361bd01befd9d6",
+        "component.link.hover.text-mode-dark": "4c9fe628c985f09c5ae87c944dd2200ecb492c44"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:4",
@@ -17377,38 +17426,38 @@
         "label.regular.small": "S:f088d8a104c0598570dee637e4d62f0bb2dde079,",
         "label.secondary.medium": "S:3d4cc4b8994a6de9302b798deaae801767991488,",
         "label.secondary.small": "S:325ba91955983cf4d1afc9557bdbf8022046455e,",
-        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
-        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
-        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
-        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
-        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
-        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
-        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
-        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
-        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
-        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
-        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
-        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
-        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
-        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
-        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
-        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
-        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
-        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
-        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
-        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
-        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
-        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
-        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
-        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
-        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
-        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
-        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
-        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
-        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,",
+        "component.accordion.contained.box-shadow": "S:ad139589a39bebde7f5080b3ee1d5903701a76d0,",
+        "component.alert.banner.box-shadow": "S:c20f3ba1f47cc0c78d21880a66ccfef2cff8b5ca,",
+        "component.alert.toast.box-shadow": "S:af8e2dfa5c8f5b8df122f768d3a3f5d6c29c6ca8,",
+        "component.modal.box-shadow": "S:1c047070192d7e324893d4c28367fb8c6d7fba2d,",
+        "component.card.box-shadow": "S:92ffde1a81d0b7eba31be3931cf26f5c3756c371,",
+        "component.range.thumb.box-shadow": "S:21ed9a706428db7456fb4f582a875fec10734806,",
+        "component.tabs.contained.item.box-shadow": "S:39112aad329aef7bf53be785a813ba8cc6aae2b4,",
+        "component.tag.box-shadow": "S:058491b186fd3566f38d7abecc1e396d80b0c057,",
+        "component.date-picker.box-shadow": "S:64ff2d7559ce084e93cbfda18b92ab6cb1043d79,",
+        "component.drawer.box-shadow": "S:406f6c868b6fbc44fc9c1688bb57d2e53d7d1cbd,",
+        "component.sheet.box-shadow": "S:0d45e10a935bd52ddaab4c527bbe42794d2850d1,",
+        "component.form-control.box-shadow": "S:d661b4111c7294cba41c6ed243205bdb4af4328f,",
+        "component.button.box-shadow": "S:4e63b09c5b8ff4e8c07854d58029a307c2e9c198,",
+        "component.pagination.item-active.box-shadow": "S:118b196a3f1fa22838ba3295cffc76e128def993,",
+        "component.table.box-shadow": "S:533c5b4243e72a2f45d971fc1b6f8a7e7931d2b8,",
+        "component.avatar.box-shadow": "S:7fac0230ee004343a5daf4367505aa41d16b2367,",
+        "component.badge.box-shadow": "S:20c92bf3d46274603ac48521ca6a15161dc5e5d9,",
+        "component.checkbox.box-shadow": "S:072fdad54c7a306093c0c8298b3b6aa129a36ca6,",
+        "component.radio.box-shadow": "S:e323f289c8ee099698c0ed0b87bdcb01d8f3e5ee,",
+        "component.file-upload.box-shadow": "S:743ec6c60d7968b0c7cb3ce5810c42063977e3a8,",
+        "component.toggle.thumb.box-shadow": "S:938dd8e3b19afa1a00d5252d48cb417a253df06b,",
+        "component.toggle.box-shadow": "S:0192e1465e22904654221d319fa2d958288da223,",
+        "component.tooltip.box-shadow": "S:4c01a3cba6e74c2307999cd85b8a2eeee316b5b4,",
+        "box-shadow.none": "S:d5145531e4c0857f986f6d2ba1ab485936edb55d,",
+        "box-shadow.global": "S:00b4357d1e8f118e88f6439d31dc8ff4c4fc3ed4,",
+        "box-shadow.small": "S:702e3447885f4254d1814bc9770a5ba745a9d2ec,",
+        "box-shadow.medium": "S:02b1bc42bb56c14ba6dc6ac688213a8e423a7631,",
+        "box-shadow.large": "S:c8fee53d8da4ad68cc3accbee8120fee8ffd9af3,",
+        "box-shadow.x-large": "S:c5f262a7745fd1769dab05f65bae4c5d808e4c8e,",
         "link.medium.hover": "S:aab199bbb445346fe26a67e38920e23ff2ea9ea2,",
         "link.medium.default": "S:987c072bf14624dbe745420f85f45561251f66fe,",
-        "component.listbox.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,"
+        "component.listbox.box-shadow": "S:7cc8a5f2d5c999411e0eaa64278b3aa0fcd133c3,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -17635,7 +17684,7 @@
         "component.link.default.text-color-mode-light": "e252daa5d288dbdb358de6c09f9b7bf49769433c",
         "component.link.default.text-color-mode-dark": "0f1ccfd68e2bbb924dc95900fa1bdb16e38b3af8",
         "component.link.hover.text-color-mode-light": "d070ded1abee44ba335bedce8c7d885a343ed0ec",
-        "component.link.hover.text-color-mode-dark": "f9418b18b6119be164e0dddbd0765558c7704221",
+        "component.link.hover.text-color-mode-dark": "f5c36948be7143370c403f86e34a11df55f32f42",
         "component.link.active.text-color-mode-light": "ad894d05bca4b02a78f72c41c9ffd70735ca2e61",
         "component.link.active.text-color-mode-dark": "52535d5265dd4c696c9349ab1ac5aaf5b46a7da2",
         "component.link.visited.text-color-mode-light": "2aee1b0ac0b31748b55d8b889672a182d324e5f0",
@@ -17705,6 +17754,11 @@
         "component.card.padding-x": "11bda59034a87fa437e80452cad7424b5bc23990",
         "component.card.padding-y": "e130f6ca46883e3d8fe40d99afdeff1e5ffc03e9",
         "component.card.border-radius": "0ee7edc08db9a5136dc728b6f3a3e295c7d48bf5",
+        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
+        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
+        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
+        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
+        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420",
         "component.range.thumb.border-color-mode-light": "88ca5092bc39b20922169c4a0113e12112421cd1",
         "component.range.thumb.border-color-mode-dark": "f363eacf8fb41465efeda6577caef5da55d7ffd9",
         "component.range.thumb.width": "63918017c87966417a2bcba78895319ed77a9589",
@@ -17917,6 +17971,18 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
+        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
+        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
+        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
+        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
+        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
         "component.table.cell.header.padding-x": "8e668ec6e683ec87b45fc2b8ef83f6d275303d4e",
         "component.table.cell.header.padding-y": "7b4dc27e490e8e1baa46a868b69f32cd3a748449",
         "component.table.cell.header.border-width": "edfa25cc8fffbb2ceee20ad0e7810cd5df18f348",
@@ -18013,31 +18079,12 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "color.border.strongest-mode-light": "cb507bee6c3b53a14a3710b3498b5ba464fd3977",
-        "color.border.strongest-mode-dark": "066cb8c5a129eb158731f53cbb0633cea72fba70",
-        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
-        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
-        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
-        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.listbox-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.listbox-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.listbox-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
-        "component.listbox-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
-        "component.listbox-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
-        "component.listbox-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
-        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
-        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
-        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
-        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
-        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
-        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
-        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
-        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420"
+        "focus-outline.border-width": "2b6262f42c36567516c24e9257e6d3e7ed04f24a",
+        "blur.large": "c66ac8b7a3859ef3287bd864670329f5ef359e64",
+        "blur.medium": "8bbf38519e349855e92574bd4d3a233ccb845426",
+        "blur.small": "4c6dbdeff98a81be9610a522b8361bd01befd9d6",
+        "color.border.strongest-mode-light": "397307ad2c0d54eddecce01113b0c67ab3f7f4e6",
+        "color.border.strongest-mode-dark": "dfb0f7eb28f8bf4db7fe861d94c517e2ab54b1f7"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:3",
@@ -18047,36 +18094,36 @@
       "id": "def36ffc6cb3eb49edffc41019d9db212dfd3308",
       "name": "Partnerbank",
       "$figmaStyleReferences": {
-        "component.accordion.contained.box-shadow": "S:c2322a5d9aa0585adcf8dce1c3308cd8da20844e,",
-        "component.alert.banner.box-shadow": "S:1bbb733d64acc2789d9e540fdd247828b1fc2070,",
-        "component.alert.toast.box-shadow": "S:38acc0c798b376aaacf884d53b1b1537df15cd50,",
-        "component.modal.box-shadow": "S:79e064af69170ae6aeb757304ce7df986266a0f2,",
-        "component.card.box-shadow": "S:3d6068e18e728f15b94ec409a4f6cd59bdf9a8ea,",
-        "component.range.thumb.box-shadow": "S:041099e281130786be0ffe2b3ee95e5939aea441,",
-        "component.tabs.contained.item.box-shadow": "S:4cd955f2bca966ea89b6c774c2d0c779a5cfba9e,",
-        "component.tag.box-shadow": "S:026b8bda25dc623deb0b1ede49ec2d3b18fcc3da,",
-        "component.date-picker.box-shadow": "S:798e2a58279436a82111316394296feafb83f907,",
-        "component.drawer.box-shadow": "S:094f3a8d6a186a8237712bd8a38607e1b661cc40,",
-        "component.sheet.box-shadow": "S:97ba2fc1c2fe770f6cfbc366f2dc8242b60c913c,",
-        "component.form-control.box-shadow": "S:3c799e408d65d8913854083c46e30ac4538d645c,",
-        "component.button.box-shadow": "S:e68d995ec7fde49b7751398b4c08a8ef62e0dd18,",
-        "component.pagination.item-active.box-shadow": "S:04e2c4eb362e78ea4bd156fcf7541534f31afc35,",
-        "component.table.box-shadow": "S:551f11ddfa41e4e13e50a37ba8d06076d933c4bb,",
-        "component.avatar.box-shadow": "S:48612172fc9db37ef0b6e142f6762e552548eab9,",
-        "component.badge.box-shadow": "S:5dca89488c1023cffaf0298fdfea81c84ca8c9a4,",
-        "component.checkbox.box-shadow": "S:d33e7a834b3f5c1089e09a9e779b02ed968cde06,",
-        "component.radio.box-shadow": "S:6f1ed52a40b8464da28737be1535c150955fa7bd,",
-        "component.file-upload.box-shadow": "S:a0f42840067bcfd0dbed927bbdf9c9241c61ca4e,",
-        "component.toggle.thumb.box-shadow": "S:e519a176200db67bfab45e01c9792fec865492ed,",
-        "component.toggle.box-shadow": "S:86cd39d55c098aa2eea3a9def0c9c395b1d82f7a,",
-        "component.tooltip.box-shadow": "S:82b45928457bc75274c6b8e1e3ea092d592c6ae4,",
-        "box-shadow.none": "S:82454f94b63d8c4cabdbfbe0bfe335d1994c9a58,",
-        "box-shadow.global": "S:89ce69b2e1d83560c05159cf86dd2ff74789d7b6,",
-        "box-shadow.small": "S:2dddce240f9cb1f14a5626b6c39fd59a348527fa,",
-        "box-shadow.medium": "S:e99dd87063a4fa7c8aa6430b732fd1148ce066c0,",
-        "box-shadow.large": "S:8a882bccc9da4390b757f2336b03f9d9c0cca44c,",
-        "box-shadow.x-large": "S:90c431bb53573ee9c19a66c5e8cdc1afbe39ad87,",
-        "component.listbox.box-shadow": "S:ada1b44a37d48c673436e0cee8dc1b44c33f18a8,"
+        "component.accordion.contained.box-shadow": "S:ad139589a39bebde7f5080b3ee1d5903701a76d0,",
+        "component.alert.banner.box-shadow": "S:c20f3ba1f47cc0c78d21880a66ccfef2cff8b5ca,",
+        "component.alert.toast.box-shadow": "S:af8e2dfa5c8f5b8df122f768d3a3f5d6c29c6ca8,",
+        "component.modal.box-shadow": "S:1c047070192d7e324893d4c28367fb8c6d7fba2d,",
+        "component.card.box-shadow": "S:92ffde1a81d0b7eba31be3931cf26f5c3756c371,",
+        "component.range.thumb.box-shadow": "S:21ed9a706428db7456fb4f582a875fec10734806,",
+        "component.tabs.contained.item.box-shadow": "S:39112aad329aef7bf53be785a813ba8cc6aae2b4,",
+        "component.tag.box-shadow": "S:058491b186fd3566f38d7abecc1e396d80b0c057,",
+        "component.date-picker.box-shadow": "S:64ff2d7559ce084e93cbfda18b92ab6cb1043d79,",
+        "component.drawer.box-shadow": "S:406f6c868b6fbc44fc9c1688bb57d2e53d7d1cbd,",
+        "component.sheet.box-shadow": "S:0d45e10a935bd52ddaab4c527bbe42794d2850d1,",
+        "component.form-control.box-shadow": "S:d661b4111c7294cba41c6ed243205bdb4af4328f,",
+        "component.button.box-shadow": "S:4e63b09c5b8ff4e8c07854d58029a307c2e9c198,",
+        "component.pagination.item-active.box-shadow": "S:118b196a3f1fa22838ba3295cffc76e128def993,",
+        "component.table.box-shadow": "S:533c5b4243e72a2f45d971fc1b6f8a7e7931d2b8,",
+        "component.avatar.box-shadow": "S:7fac0230ee004343a5daf4367505aa41d16b2367,",
+        "component.badge.box-shadow": "S:20c92bf3d46274603ac48521ca6a15161dc5e5d9,",
+        "component.checkbox.box-shadow": "S:072fdad54c7a306093c0c8298b3b6aa129a36ca6,",
+        "component.radio.box-shadow": "S:e323f289c8ee099698c0ed0b87bdcb01d8f3e5ee,",
+        "component.file-upload.box-shadow": "S:743ec6c60d7968b0c7cb3ce5810c42063977e3a8,",
+        "component.toggle.thumb.box-shadow": "S:938dd8e3b19afa1a00d5252d48cb417a253df06b,",
+        "component.toggle.box-shadow": "S:0192e1465e22904654221d319fa2d958288da223,",
+        "component.tooltip.box-shadow": "S:4c01a3cba6e74c2307999cd85b8a2eeee316b5b4,",
+        "box-shadow.none": "S:d5145531e4c0857f986f6d2ba1ab485936edb55d,",
+        "box-shadow.global": "S:00b4357d1e8f118e88f6439d31dc8ff4c4fc3ed4,",
+        "box-shadow.small": "S:702e3447885f4254d1814bc9770a5ba745a9d2ec,",
+        "box-shadow.medium": "S:02b1bc42bb56c14ba6dc6ac688213a8e423a7631,",
+        "box-shadow.large": "S:c8fee53d8da4ad68cc3accbee8120fee8ffd9af3,",
+        "box-shadow.x-large": "S:c5f262a7745fd1769dab05f65bae4c5d808e4c8e,",
+        "component.listbox.box-shadow": "S:7cc8a5f2d5c999411e0eaa64278b3aa0fcd133c3,"
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
@@ -18201,8 +18248,8 @@
         "color.border.brand-mode-dark": "01522591d106784687fdec4256c701d3dee69dd0",
         "color.border.default-mode-light": "7c721cc229017c5631e2248d84fbb840fed02659",
         "color.border.default-mode-dark": "d5825c9de6976591db713de5777bef30f2701b05",
-        "color.border.bold-mode-light": "bb3ab2e96a1d52e61ea46ff2aa9ff178b4e8cc5d",
-        "color.border.bold-mode-dark": "0b21ec049da7d76278c14996657bc849ed036aab",
+        "color.border.bold-mode-light": "a5fdb06c3d7bac6f5014ff070bb5345339e6af87",
+        "color.border.bold-mode-dark": "f2748655424acdadde923d7ebd5e682cdce54f42",
         "color.border.strong-mode-light": "d901f1a7a7a8dcde66c90df2fc045309c4d570d8",
         "color.border.strong-mode-dark": "5a05b11966ebd7142fbc07d048dad4c5b2c71087",
         "color.border.neutral-mode-light": "72f9656241d0dd822f3cd20b8be779327fb53bbe",
@@ -18376,6 +18423,11 @@
         "component.card.padding-x": "11bda59034a87fa437e80452cad7424b5bc23990",
         "component.card.padding-y": "e130f6ca46883e3d8fe40d99afdeff1e5ffc03e9",
         "component.card.border-radius": "0ee7edc08db9a5136dc728b6f3a3e295c7d48bf5",
+        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
+        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
+        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
+        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
+        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420",
         "component.range.thumb.border-color-mode-light": "88ca5092bc39b20922169c4a0113e12112421cd1",
         "component.range.thumb.border-color-mode-dark": "f363eacf8fb41465efeda6577caef5da55d7ffd9",
         "component.range.thumb.width": "63918017c87966417a2bcba78895319ed77a9589",
@@ -18588,6 +18640,18 @@
         "component.pagination.font-size": "3bb5fa363415960c9e6ba40e347618fc27e7e836",
         "component.pagination.font-weight": "153f21a84ddbfa2faf374722ac0d9869607a91dd",
         "component.pagination.line-height": "1b34475bb19eed8bd237f314d9a62fd807895779",
+        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
+        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
+        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
+        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
+        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
+        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
+        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
+        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
+        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
+        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
+        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
+        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
         "component.table.cell.header.padding-x": "8e668ec6e683ec87b45fc2b8ef83f6d275303d4e",
         "component.table.cell.header.padding-y": "7b4dc27e490e8e1baa46a868b69f32cd3a748449",
         "component.table.cell.header.border-width": "edfa25cc8fffbb2ceee20ad0e7810cd5df18f348",
@@ -18684,30 +18748,11 @@
         "font-weight.h6": "9b4a35b1472d74c70e35fb96c7526470d784348a",
         "font-weight.eyebrow": "34160f671e75bf9f6dfa4bafdadf40bd1b63c4cd",
         "font-weight.link": "875061cb2262c6cf299a9985d2c63a7a013761a7",
-        "component.link.hover.text-color-mode-dark": "f9418b18b6119be164e0dddbd0765558c7704221",
-        "component.listbox-item.medium.padding-x": "ec1faae048d262ba347cd174fa5c4f2f36fadb32",
-        "component.listbox-item.medium.padding-y": "54834dd3c0fa9689e6f65b55c3e83dd26c8634a9",
-        "component.listbox-item.medium.gap": "03d9392410dbd436197c99e84ca1e2f435a3ba85",
-        "component.listbox-item.large.padding-x": "fac5b34ed625de26bbfd718cb7b2c173462ce6fd",
-        "component.listbox-item.large.padding-y": "cd06813a870a74dd87f209200f64974044c56cea",
-        "component.listbox-item.large.gap": "bdf0b07ff5c55817ccb55f6700ea97cf6ed6a2a1",
-        "component.listbox-item.contained.medium.padding-x": "6c979360d2615b18d29810c9bff0cc07f3f98b3e",
-        "component.listbox-item.contained.medium.padding-y": "3a6eb69f97a6b7cbced17eb6ab08dd6b628a3649",
-        "component.listbox-item.contained.medium.gap": "40b6645439a31d477589daf788d1ee41e0ea3b3d",
-        "component.listbox-item.contained.large.padding-x": "3761266ee6c67500223424ad63a286355272d36b",
-        "component.listbox-item.contained.large.padding-y": "73fcfa997ac373a0e451bac69b88c16b2f739959",
-        "component.listbox-item.contained.large.gap": "404b3b0989b48a45d23a3907b700e8db60271de7",
-        "component.listbox-item.medium.font-weight": "28f6abdec1afb05b200a363f701c19fa3176edc7",
-        "component.listbox-item.large.font-weight": "844e2d7e8bcf62b3fb6fcae76bee2d7b46973e03",
-        "component.listbox-item.medium.line-height": "bfc8a184dfcf24b8d6450f12e2439dde22f1f410",
-        "component.listbox-item.large.line-height": "619f26db754f20575a723bfd031d2a9cb4756441",
-        "component.listbox-item.medium.font-size": "3be68185671d0017fb921f235ed358aefc806753",
-        "component.listbox-item.large.font-size": "3d89515889c4913ae38965c50158c6157766a886",
-        "component.listbox.padding-x": "b1e1ade89551a0e7ef2a5f8bba0e27726684cd48",
-        "component.listbox.padding-y": "a7488432d561b56881ee129288341537d3f398b2",
-        "component.listbox.border-color-mode-light": "e51f5b00b6f421b1f718f3222b421a773d24ff6f",
-        "component.listbox.border-color-mode-dark": "cd4dc01ae81459538446362b7b930b2a7d9a5fb3",
-        "component.listbox.border-radius": "430ceecd44110d30db7706f6048a878c91140420"
+        "focus-outline.border-width": "2b6262f42c36567516c24e9257e6d3e7ed04f24a",
+        "blur.large": "c66ac8b7a3859ef3287bd864670329f5ef359e64",
+        "blur.medium": "8bbf38519e349855e92574bd4d3a233ccb845426",
+        "blur.small": "4c6dbdeff98a81be9610a522b8361bd01befd9d6",
+        "component.link.hover.text-color-mode-dark": "f5c36948be7143370c403f86e34a11df55f32f42"
       },
       "$figmaCollectionId": "VariableCollectionId:1:5",
       "$figmaModeId": "1:5",
@@ -18849,6 +18894,7 @@
         "component.alert.default.border-color": "c6d87261fcba42c9686ad672300d7444b9a74bc6",
         "component.modal.border-color": "89fcb6286188bfb46331a1be4fb6dc6adaba1e1f",
         "component.card.border-color": "3233cd7da1854e3d7e2ea6f9ee2ca93c3d577d08",
+        "component.listbox.border-color": "b35bd46c45e1824c41062d1a974c9e4f9ca43645",
         "component.range.thumb.border-color": "34314d23a5d359d6aadba3c723593d7711baed3b",
         "component.range.track-fill.background": "102b146d6dc2fcb0934e029b4f65b901f6dce30a",
         "component.rating.star.background-active": "4022d412363d5b5fcedaa68f3e2d2e576796f31f",
@@ -18905,8 +18951,7 @@
         "component.toggle.background.off": "935f5742dfd2d5335e104d3f430228bff115361f",
         "component.toggle.background.on": "545b56300cbb12ea87512cbb997b6c58c25eae6a",
         "component.badge.warning.contrast-high.text-color": "6e9e042f3b52efb1513048d45d7ffcd2412c31ac",
-        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09",
-        "component.listbox.border-color": "b35bd46c45e1824c41062d1a974c9e4f9ca43645"
+        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:6",
@@ -19048,6 +19093,7 @@
         "component.alert.default.border-color": "c6d87261fcba42c9686ad672300d7444b9a74bc6",
         "component.modal.border-color": "89fcb6286188bfb46331a1be4fb6dc6adaba1e1f",
         "component.card.border-color": "3233cd7da1854e3d7e2ea6f9ee2ca93c3d577d08",
+        "component.listbox.border-color": "b35bd46c45e1824c41062d1a974c9e4f9ca43645",
         "component.range.thumb.border-color": "34314d23a5d359d6aadba3c723593d7711baed3b",
         "component.range.track-fill.background": "102b146d6dc2fcb0934e029b4f65b901f6dce30a",
         "component.rating.star.background-active": "4022d412363d5b5fcedaa68f3e2d2e576796f31f",
@@ -19104,8 +19150,7 @@
         "component.toggle.background.off": "935f5742dfd2d5335e104d3f430228bff115361f",
         "component.toggle.background.on": "545b56300cbb12ea87512cbb997b6c58c25eae6a",
         "component.badge.warning.contrast-high.text-color": "6e9e042f3b52efb1513048d45d7ffcd2412c31ac",
-        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09",
-        "component.listbox.border-color": "b35bd46c45e1824c41062d1a974c9e4f9ca43645"
+        "color-scheme.mode": "d66d721668371a1d4ead3644216146f143dadf09"
       },
       "$figmaCollectionId": "VariableCollectionId:1:6",
       "$figmaModeId": "1:7",
