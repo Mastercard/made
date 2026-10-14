@@ -2146,7 +2146,7 @@
         },
         "500": {
           "$type": "color",
-          "$value": "#ff5900"
+          "$value": "#F25607"
         },
         "600": {
           "$type": "color",
@@ -16379,8 +16379,7 @@
       "name": "Unify",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "primitives/Unify": "enabled",
-        "primitives/Mastercard": "disabled"
+        "primitives/Unify": "enabled"
       },
       "$figmaVariableReferences": {
         "color.black": "2c857bd6baa950c3683bd2acffc292d3542d0d49",
@@ -16704,8 +16703,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "primitives/Partnerbank": "enabled",
-        "primitives/Unify": "source",
-        "primitives/Mastercard": "disabled"
+        "primitives/Unify": "source"
       },
       "$figmaVariableReferences": {
         "color.black": "d9b99bd34d1a0bbd530fd1aa5f03c5fba7da08c9",
@@ -17464,8 +17462,7 @@
       },
       "selectedTokenSets": {
         "primitives/Unify": "source",
-        "theme/Unify": "enabled",
-        "primitives/Mastercard": "disabled"
+        "theme/Unify": "enabled"
       },
       "$figmaVariableReferences": {
         "color.brand.primary-mode-light": "4ed31ef22493d70f1fc9ebcf39d51276c6cd4e88",
@@ -18132,8 +18129,7 @@
       "selectedTokenSets": {
         "primitives/Unify": "source",
         "primitives/Partnerbank": "source",
-        "theme/Partnerbank": "enabled",
-        "primitives/Mastercard": "disabled"
+        "theme/Partnerbank": "enabled"
       },
       "$figmaVariableReferences": {
         "color.brand.primary-mode-light": "4ed31ef22493d70f1fc9ebcf39d51276c6cd4e88",
