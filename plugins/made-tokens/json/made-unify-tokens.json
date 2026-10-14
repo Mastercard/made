@@ -9852,44 +9852,44 @@
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.feedback-red.200}"
+              "$value": "{color.red.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.feedback-red.900}"
+              "$value": "{color.red.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.feedback-red.300}"
+              "$value": "{color.red.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.feedback-red.800}"
+              "$value": "{color.red.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-red.600}"
+                "$value": "{color.red.600}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-red.400}"
+                "$value": "{color.red.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-red.700}"
+                "$value": "{color.red.700}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-red.300}"
+                "$value": "{color.red.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-red.900}"
+                "$value": "{color.red.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-red.200}"
+                "$value": "{color.red.200}"
               }
             }
           },
@@ -9956,44 +9956,44 @@
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.feedback-green.200}"
+              "$value": "{color.green.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.feedback-green.900}"
+              "$value": "{color.green.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.feedback-green.300}"
+              "$value": "{color.green.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.feedback-green.800}"
+              "$value": "{color.green.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-green.700}"
+                "$value": "{color.green.700}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-green.500}"
+                "$value": "{color.green.500}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-green.800}"
+                "$value": "{color.green.800}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-green.400}"
+                "$value": "{color.green.400}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-green.900}"
+                "$value": "{color.green.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-green.300}"
+                "$value": "{color.green.300}"
               }
             }
           },
@@ -10060,44 +10060,44 @@
             },
             "hover-mode-light": {
               "$type": "color",
-              "$value": "{color.feedback-blue.200}"
+              "$value": "{color.blue.200}"
             },
             "hover-mode-dark": {
               "$type": "color",
-              "$value": "{color.feedback-blue.900}"
+              "$value": "{color.blue.900}"
             },
             "active-mode-light": {
               "$type": "color",
-              "$value": "{color.feedback-blue.300}"
+              "$value": "{color.blue.300}"
             },
             "active-mode-dark": {
               "$type": "color",
-              "$value": "{color.feedback-blue.800}"
+              "$value": "{color.blue.800}"
             },
             "strong": {
               "default-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-blue.600}"
+                "$value": "{color.blue.600}"
               },
               "default-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-blue.400}"
+                "$value": "{color.blue.400}"
               },
               "hover-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-blue.700}"
+                "$value": "{color.blue.700}"
               },
               "hover-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-blue.300}"
+                "$value": "{color.blue.300}"
               },
               "active-mode-light": {
                 "$type": "color",
-                "$value": "{color.feedback-blue.900}"
+                "$value": "{color.blue.900}"
               },
               "active-mode-dark": {
                 "$type": "color",
-                "$value": "{color.feedback-blue.200}"
+                "$value": "{color.blue.200}"
               }
             }
           },
@@ -10249,11 +10249,11 @@
         },
         "success-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-green.200}"
+          "$value": "{color.green.200}"
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-green.900}"
+          "$value": "{color.green.900}"
         },
         "success-strong-mode-light": {
           "$type": "color",
@@ -10261,15 +10261,15 @@
         },
         "success-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-green.500}"
+          "$value": "{color.green.500}"
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-red.200}"
+          "$value": "{color.red.200}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-red.900}"
+          "$value": "{color.red.900}"
         },
         "danger-strong-mode-light": {
           "$type": "color",
@@ -10277,7 +10277,7 @@
         },
         "danger-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-red.400}"
+          "$value": "{color.red.400}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -10297,11 +10297,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-blue.200}"
+          "$value": "{color.blue.200}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-blue.900}"
+          "$value": "{color.blue.900}"
         },
         "information-strong-mode-light": {
           "$type": "color",
@@ -10309,7 +10309,7 @@
         },
         "information-strong-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-blue.400}"
+          "$value": "{color.blue.400}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -10416,19 +10416,19 @@
         },
         "success-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-green.700}"
+          "$value": "{color.green.700}"
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-green.300}"
+          "$value": "{color.green.300}"
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-red.700}"
+          "$value": "{color.red.700}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-red.300}"
+          "$value": "{color.red.300}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -10440,11 +10440,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-blue.700}"
+          "$value": "{color.blue.700}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-blue.300}"
+          "$value": "{color.blue.300}"
         },
         "discovery-mode-light": {
           "$type": "color",
@@ -10585,19 +10585,19 @@
         },
         "success-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-green.800}"
+          "$value": "{color.green.800}"
         },
         "success-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-green.400}"
+          "$value": "{color.green.400}"
         },
         "danger-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-red.700}"
+          "$value": "{color.red.700}"
         },
         "danger-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-red.400}"
+          "$value": "{color.red.400}"
         },
         "warning-mode-light": {
           "$type": "color",
@@ -10609,11 +10609,11 @@
         },
         "information-mode-light": {
           "$type": "color",
-          "$value": "{color.feedback-blue.800}"
+          "$value": "{color.blue.800}"
         },
         "information-mode-dark": {
           "$type": "color",
-          "$value": "{color.feedback-blue.400}"
+          "$value": "{color.blue.400}"
         },
         "discovery-mode-light": {
           "$type": "color",
